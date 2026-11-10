@@ -12,10 +12,10 @@ function headers() {
 }
 
 // GET with retry. Backs off on 403/429 and 5xx; returns { data, rate }.
-export async function ghGet(pathOrUrl, { raw = false } = {}) {
+export async function ghGet(pathOrUrl, { raw = false, accept } = {}) {
   const url = pathOrUrl.startsWith('http') ? pathOrUrl : config.github.apiBase + pathOrUrl;
   for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url, { headers: raw ? { ...headers(), Accept: 'application/vnd.github.raw+json' } : headers() });
+    const res = await fetch(url, { headers: raw ? { ...headers(), Accept: 'application/vnd.github.raw+json' } : accept ? { ...headers(), Accept: accept } : headers() });
     const rate = {
       remaining: Number(res.headers.get('x-ratelimit-remaining')),
       limit: Number(res.headers.get('x-ratelimit-limit')),

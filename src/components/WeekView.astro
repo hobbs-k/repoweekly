@@ -1,0 +1,70 @@
+---
+import { config } from '../../scripts/lib/config.js';
+import { formatRange, href, langSlug, weekNumber } from '../lib/format.js';
+import RepoEntry from './RepoEntry.astro';
+
+// The intro, ranking and gems for one week. Used by the home page and every week page.
+const { week: w, heading, guide = null } = Astro.props;
+const range = formatRange(w.start, w.end);
+const langs = [...new Set([...w.top, ...w.gems].map((i) => i.language).filter(Boolean))].sort();
+---
+
+<section class="intro">
+  <h1>{heading}</h1>
+  <p class="lede">Week {weekNumber(w.week)}, {range}. Ranked by stars gained over the week, not by total stars.</p>
+  <p class="lede-soft">An AI writes each summary from the project's own README, so check the repository before you rely on it.{w.growth_source === 'snapshots' && " Each daily bar runs from zero to that repository's busiest day, with a tick every quarter."}</p>
+  {w.growth_source === 'bootstrap' && (
+    <p class="notice">This week's numbers come from the GitHub trending page. Daily detail and spike checks are not available.</p>
+  )}
+</section>
+
+<div class="toolbar">
+  {langs.length > 0 && (
+    <nav class="langs" aria-label="Languages">
+      <span>Languages</span>
+      <ul>
+        {langs.map((l) => <li><a href={href(`/language/${langSlug(l)}/`)}>{l}</a></li>)}
+      </ul>
+    </nav>
+  )}
+  <form class="filters" hidden>
+    <label><input type="checkbox" name="beginner" /> Good for beginners only</label>
+    <p class="filters-status" role="status"></p>
+  </form>
+</div>
+
+<ol class="entries" aria-label={`Top ${w.top.length} repositories, week ${weekNumber(w.week)}`}>
+  {w.top.map((item) => <RepoEntry item={item} />)}
+</ol>
+
+{w.gems.length > 0 && (
+  <section aria-labelledby="gems-title">
+    <div class="section-head" id="gems">
+      <h2 id="gems-title">Hidden gems</h2>
+      <p>Projects with under {config.ranking.gemMaxStars} stars that gained at least {config.ranking.gemMinGain} this week. Small and early.</p>
+    </div>
+    <ol class="entries" aria-labelledby="gems-title">
+      {w.gems.map((item) => <RepoEntry item={item} kind="gem" />)}
+    </ol>
+  </section>
+)}
+
+{guide && (
+  <section class="guide" aria-labelledby="guide-title">
+    <div class="section-head">
+      <h2 id="guide-title">Learn from <a href={`https://github.com/${guide.full_name}`} rel="noopener">{guide.full_name}</a></h2>
+      <p>{guide.overview}</p>
+    </div>
+    <h3>How to start</h3>
+    <ol>{guide.how_to_start.map((t) => <li>{t}</li>)}</ol>
+    <h3>What to read first</h3>
+    <ul>{guide.read_these.map((r) => <li><strong>{r.what}.</strong> {r.why}</li>)}</ul>
+    <h3>Ideas for a first contribution</h3>
+    <ul>{guide.first_contributions.map((t) => <li>{t}</li>)}</ul>
+    <h3>Watch out for</h3>
+    <ul>{guide.watch_out.map((t) => <li>{t}</li>)}</ul>
+    <p class="muted">Written by an AI from the project's README. Check it against the repository.</p>
+  </section>
+)}
+
+<slot />

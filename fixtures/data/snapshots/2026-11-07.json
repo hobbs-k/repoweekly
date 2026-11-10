@@ -394,6 +394,32 @@
       "topics": [],
       "archived": false,
       "fork": false
+    },
+    "fx-rise/late-bloomer": {
+      "stars": 2220,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-07T07:14:00Z",
+      "created_at": "2026-09-19T00:00:00.000Z",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "rising"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-flat/steady": {
+      "stars": 3180,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-07T07:14:00Z",
+      "created_at": "2025-10-04T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "archived": false,
+      "fork": false
     }
   }
 }

@@ -107,6 +107,8 @@ A week is named by the ISO week it covers, not the week it is published in. The 
 }
 ```
 
+Optional on each item, added by stars.js: `"star_check": { "sampled": 30, "throwaway": 3, "pct": 10, "level": "normal" }`. `level` is `normal`, `check`, `suspicious` or `unknown` (fewer than 10 accounts sampled). It is a signal for readers and never changes the ranking.
+
 Notes:
 - `growth_source` is `"snapshots"` or `"bootstrap"`. If `"bootstrap"`, `daily_gains` is an empty array, `spike` is `null`, and the site hides the history chart and spike note for that week.
 - `spike` is `true`, `false`, or `null` (unknown, bootstrap only).
@@ -136,6 +138,49 @@ The README trimmed to about 6000 characters. rank.js writes it, summarize.js rea
 { "week": "2026-W45", "path": "weeks/2026-W45.json" }
 ```
 
+## data/guides/YYYY-Www.json (optional)
+
+```json
+{
+  "week": "2026-W45",
+  "full_name": "owner/name",
+  "generated": "2026-11-09T04:20:00Z",
+  "model": "value of ANTHROPIC_MODEL",
+  "overview": "Two or three sentences.",
+  "how_to_start": ["1 to 5 steps"],
+  "read_these": [{ "what": "a thing the README names", "why": "one short sentence" }],
+  "first_contributions": ["2 to 4 ideas"],
+  "watch_out": ["2 to 4 cautions"]
+}
+```
+
+## data/notified.json
+
+`{ "2026-W45": ["telegram", "discord", "email"] }`: the channels already sent for each week.
+
+## data/rising.json
+
+Written by rising.js every day. The repos that gained at least `rising.minGain` stars in the last two days, at least `rising.accelerate` times as fast as in the two days before, and are not in the latest week's list.
+
+```json
+{
+  "date": "2026-11-08",
+  "generated": "2026-11-09T02:20:00Z",
+  "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
+  "window_days": 2,
+  "items": [
+    {
+      "rank": 1, "full_name": "owner/name", "url": "https://github.com/owner/name", "description": "From GitHub, or null",
+      "language": "Go", "topics": ["cli"], "license": "MIT",
+      "stars_total": 2420, "gained_2d": 320, "gained_prev_2d": 70, "age_days": 50,
+      "days": ["2026-11-02", "...", "2026-11-08"], "daily_gains": [10, 10, 10, 10, 60, 120, 200]
+    }
+  ]
+}
+```
+
+With fewer than 5 snapshots in the last 8 days the file has `items: []` and a `reason`. `date` is the end of the last snapshot day, and `days[i]` is the day `daily_gains[i]` belongs to.
+
 ## data/blocklist.json
 
 ```json
@@ -158,6 +203,7 @@ System rules for the summarize step:
 - `/api/latest.json` same as the latest week file
 - `/api/weeks/YYYY-Www.json`
 - `/api/index.json` an object: `{ license, weeks: [{ week, path }] }`, newest first
+- `/api/repos.json` `{ license, repos: { "owner/name": { full_name, week, place, gem, stars_total, stars_gained, language, license, last_push, open_issues, contributors, good_first_issues, age_days, difficulty, beginner_friendly, tags, what_it_is } } }`, from the newest week each repo was ranked; keys are lower-case
 - `/feed.xml` RSS
 
 All public JSON must include a `license` note: data is free to use, link back appreciated.

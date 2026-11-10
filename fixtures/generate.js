@@ -64,6 +64,11 @@ add('fx-farm/bought-stars', { gains: spread(7000), baseStars: 900, ageDays: 15 }
 // Stale repo: not seen in a top 200 for 30+ days, so collect.js should drop it.
 add('fx-stale/forgotten', { gains: [0, 0, 0, 0, 0, 0, 0], baseStars: 700, stale: true });
 
+// Breakouts for rising.js: both are outside the weekly top. The first is speeding up in the last
+// two days; the second gains as much but steadily, so it must not qualify.
+add('fx-rise/late-bloomer', { language: 'Go', topics: ['rising'], gains: [10, 10, 10, 10, 60, 120, 200], baseStars: 2000, ageDays: 50 });
+add('fx-flat/steady', { gains: [30, 30, 30, 30, 30, 30, 30], baseStars: 3000 });
+
 function snapshot(dayIndex) {
   const out = { date: DAYS[dayIndex], repos: {} };
   for (const r of repos) {

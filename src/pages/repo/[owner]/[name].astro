@@ -1,0 +1,104 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import RepoEntry from '../../../components/RepoEntry.astro';
+import { loadRepos } from '../../../lib/data.js';
+import { fmt, href, repoPath, weekNumber, weekPath } from '../../../lib/format.js';
+
+export function getStaticPaths() {
+  const repos = loadRepos();
+  return [...repos.values()].map((r) => {
+    const [owner, name] = r.key.split('/');
+    // Similar: shared topics count double, same language counts once. Weak matches are left out.
+    const similar = [...repos.values()]
+      .filter((o) => o.key !== r.key)
+      .map((o) => ({
+        o,
+        score:
+          2 * o.latest.item.topics.filter((t) => r.latest.item.topics.includes(t)).length +
+          (o.latest.item.language && o.latest.item.language === r.latest.item.language ? 1 : 0),
+      }))
+      .filter((x) => x.score > 0)
+      .sort((a, b) => b.score - a.score || b.o.latest.item.stars_gained - a.o.latest.item.stars_gained)
+      .slice(0, 5)
+      .map((x) => x.o);
+    return { params: { owner, name }, props: { repo: r, similar } };
+  });
+}
+
+const { repo, similar } = Astro.props;
+const { item } = repo.latest;
+
+// Stars at the end of each day: the week's total minus the gains that came after that day.
+// Weeks without daily data (bootstrap weeks) have no points.
+const points = [...repo.appearances]
+  .reverse()
+  .filter((a) => a.item.daily_gains.length === 7)
+  .flatMap((a) => {
+    let stars = a.item.stars_total;
+    const out = [];
+    for (let i = 6; i >= 0; i--) {
+      out.unshift({ d: new Date(Date.parse(`${a.start}T00:00:00Z`) + i * 86400000).toISOString().slice(0, 10), s: stars });
+      stars -= a.item.daily_gains[i];
+    }
+    return out;
+  });
+---
+
+<Layout
+  title={`${item.full_name}: weekly history | RepoWeekly`}
+  description={`How ${item.full_name} did in RepoWeekly's weekly rankings: stars gained, rank and signals.`}
+>
+  <div class="wrap">
+    <section class="intro">
+      <h1>{item.full_name}</h1>
+      <p class="lede">Ranked in {repo.appearances.length} {repo.appearances.length === 1 ? 'week' : 'weeks'}. The card below is from week {weekNumber(repo.latest.week.week)}, {repo.latest.week.start.slice(0, 4)}.</p>
+    </section>
+
+    <ol class="entries" aria-label="Latest ranking">
+      <RepoEntry item={item} kind={repo.latest.kind} history={false} />
+    </ol>
+
+    <section aria-labelledby="hist-title">
+      <div class="section-head"><h2 id="hist-title">Star history</h2></div>
+      {points.length > 0 ? (
+        <>
+          <div class="chart" data-chart={JSON.stringify(points)} role="img" aria-label={`Line chart of total stars from ${points[0].d} to ${points.at(-1).d}, rising from ${fmt(points[0].s)} to ${fmt(points.at(-1).s)}.`}>
+            <canvas></canvas>
+          </div>
+          <noscript><p class="muted">The chart needs JavaScript. The table below has the weekly numbers.</p></noscript>
+        </>
+      ) : (
+        <p class="muted">No daily detail yet. It starts once a week is ranked from our own daily star counts.</p>
+      )}
+      <table class="hist">
+        <caption class="sr-only">Weeks this repository was ranked</caption>
+        <thead><tr><th scope="col">Week</th><th scope="col">Place</th><th scope="col">Gained</th><th scope="col">Total stars</th></tr></thead>
+        <tbody>
+          {repo.appearances.map((a) => (
+            <tr>
+              <th scope="row"><a href={weekPath(a.week)}>Week {weekNumber(a.week)}, {a.start.slice(0, 4)}</a></th>
+              <td>{a.kind === 'gem' ? `Gem ${a.item.rank}` : `#${a.item.rank}`}</td>
+              <td>+{fmt(a.item.stars_gained)}</td>
+              <td>{fmt(a.item.stars_total)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    {similar.length > 0 && (
+      <section aria-labelledby="similar-title">
+        <div class="section-head"><h2 id="similar-title">Similar repositories</h2><p>Same topics or language, from the weeks we have ranked.</p></div>
+        <ul class="similar">
+          {similar.map((o) => (
+            <li><a href={repoPath(o.full_name)}>{o.full_name}</a> <span>{o.latest.item.summary.what_it_is}</span></li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+  <Fragment slot="scripts">
+    <script is:inline defer src={href('/js/vendor/chart.umd.min.js')}></script>
+    <script is:inline defer src={href('/js/history-chart.js')}></script>
+  </Fragment>
+</Layout>

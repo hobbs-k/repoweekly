@@ -45,6 +45,11 @@ jobs:
       - name: Rank, summarize, build feeds
         run: npm run build:data
 
+      # Optional content: a failure here does not fail the week.
+      - name: Write the weekly guide
+        run: npm run guide
+        continue-on-error: true
+
       # Summaries cost money. Keep the cache even when the week fails validation.
       - name: Keep summaries after a failure
         if: failure()
@@ -93,3 +98,34 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Posts to Telegram, Discord and the email list. Channels without secrets are skipped.
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Post the week
+        run: node scripts/notify.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      # Runs even if one channel failed, so the channels that worked are not posted again.
+      - name: Remember what was sent
+        if: always()
+        run: |
+          git config user.name "repoweekly-bot"
+          git config user.email "repoweekly-bot@users.noreply.github.com"
+          git add data/notified.json
+          if git diff --cached --quiet; then
+            echo "[notify] nothing new to remember"
+          else
+            git commit -m "data: record notifications"
+            git pull --rebase
+            git push
+          fi

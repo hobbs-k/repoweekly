@@ -7,8 +7,10 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
-# Daily and weekly runs both write /data, so they never run at the same time.
+# Daily and weekly runs both write /data and deploy, so they never run at the same time.
 concurrency:
   group: data-writes
   cancel-in-progress: false
@@ -16,10 +18,13 @@ concurrency:
 env:
   # GH_PAT gives 5,000 requests per hour. The built-in token only gives 1,000.
   GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+  SITE_URL: ${{ vars.SITE_URL }}
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
+    outputs:
+      deployable: ${{ steps.site.outputs.ok }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,6 +34,10 @@ jobs:
       - run: npm ci
       - run: npm run collect
       - run: npm run snapshot
+      # Rising is a bonus page, so a failure here does not stop the snapshot being saved.
+      - name: Find the repos that are speeding up
+        run: npm run rising
+        continue-on-error: true
       - name: Commit data
         run: |
           git config user.name "repoweekly-bot"
@@ -41,3 +50,29 @@ jobs:
             git pull --rebase
             git push
           fi
+
+      # The rising page changes every day, so the site is rebuilt from the data already
+      # committed. No paid call is made here. It is skipped until a week has been ranked
+      # and SITE_URL is set.
+      - name: Check the site can be built
+        id: site
+        run: |
+          if [ -f data/latest.json ] && [ -n "$SITE_URL" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; echo "[daily] skipping the deploy: no ranked week yet or SITE_URL not set"; fi
+      - name: Build the site
+        if: steps.site.outputs.ok == 'true'
+        run: npm run feeds && npm run validate && npm run build
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.site.outputs.ok == 'true'
+        with:
+          path: dist
+
+  deploy:
+    needs: snapshot
+    if: needs.snapshot.outputs.deployable == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

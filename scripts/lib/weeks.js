@@ -44,6 +44,20 @@ export function lastFullWeek(input = new Date()) {
   return isoWeek(new Date(thisMonday - 7 * DAY));
 }
 
+// Display helpers shared by the site and notify.js. UTC, so every machine prints the same text.
+const long = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', day: 'numeric', month: 'long', year: 'numeric' });
+const dayMonth = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', day: 'numeric', month: 'long' });
+export const weekNumber = (week) => Number(week.slice(-2));
+
+// "2 to 8 November 2026", "28 December 2026 to 3 January 2027"
+export function formatRange(start, end) {
+  const s = parseDate(start);
+  const e = parseDate(end);
+  if (s.getUTCFullYear() !== e.getUTCFullYear()) return `${long.format(s)} to ${long.format(e)}`;
+  if (s.getUTCMonth() !== e.getUTCMonth()) return `${dayMonth.format(s)} to ${long.format(e)}`;
+  return `${s.getUTCDate()} to ${long.format(e)}`;
+}
+
 // Console check: node scripts/lib/weeks.js [YYYY-MM-DD]
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const date = process.argv[2] || '2026-11-09';

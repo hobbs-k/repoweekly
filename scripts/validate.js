@@ -32,12 +32,13 @@ await run('validate', async (log) => {
     for (const f of TEXT_FIELDS) if (typeof s[f] !== 'string' || !s[f].trim()) errors.push(`${item.full_name}: empty summary.${f}`);
     if (!['easy', 'medium', 'hard'].includes(s.difficulty)) errors.push(`${item.full_name}: bad difficulty`);
     // urdu is optional until Phase 3, so it is not checked here.
+    if (item.star_check && !['normal', 'check', 'suspicious', 'unknown'].includes(item.star_check.level)) errors.push(`${item.full_name}: bad star_check level`);
     if (![0, 7].includes(item.daily_gains.length)) errors.push(`${item.full_name}: daily_gains has ${item.daily_gains.length} values`);
     if (w.growth_source === 'bootstrap' && item.spike !== null) errors.push(`${item.full_name}: spike must be null in bootstrap mode`);
   }
 
   if (!args['skip-public']) {
-    for (const f of ['feed.xml', 'api/latest.json', 'api/index.json', `api/weeks/${w.week}.json`]) {
+    for (const f of ['feed.xml', 'api/latest.json', 'api/index.json', 'api/repos.json', `api/weeks/${w.week}.json`]) {
       if (!fs.existsSync(path.join(config.paths.publicDir, f))) errors.push(`public/${f} is missing, run feeds.js`);
     }
   }

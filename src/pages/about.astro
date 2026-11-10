@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { config } from '../../scripts/lib/config.js';
+import { THRESHOLDS } from '../../scripts/lib/starcheck.js';
 import { href } from '../lib/format.js';
 
 const r = config.ranking;
@@ -27,6 +28,13 @@ const r = config.ranking;
 
     <h2>Spikes</h2>
     <p>If more than {Math.round(r.spikeShare * 100)} percent of a repository's weekly gain came on one day, the entry says so. It is still ranked. A spike can be a post that went viral, or stars that were not earned. We cannot tell which.</p>
+
+    <h2>Star check</h2>
+    <p>For each ranked repository we look at up to {config.starCheck.sample} of the people who starred it most recently. We count the accounts that were under 60 days old when they starred, have no repositories and have at most one follower. At {THRESHOLDS.check} percent or more we say "look closer". At {THRESHOLDS.suspicious} percent or more we say "many new empty accounts".</p>
+    <p>This is a rough signal. New accounts also star things for good reasons, and a post that goes viral brings new users. We cannot see who paid for stars. The star check never changes a repository's place.</p>
+
+    <h2>Rising</h2>
+    <p>Every day we compare each tracked repository's stars over the last two days with the two days before. A repository is rising if it gained at least {config.rising.minGain} stars in the last two days, at least {config.rising.accelerate} times as fast as before, and is not already in this week's list. <a href={href('/rising/')}>The rising page</a> updates daily. A burst can fade, so treat it as an early hint, not a ranking.</p>
 
     <h2>Hidden gems</h2>
     <p>Repositories with under {r.gemMaxStars} stars that gained at least {r.gemMinGain} in the week. We show the top {r.gemCount} by gain.</p>

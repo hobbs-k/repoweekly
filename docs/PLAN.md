@@ -61,6 +61,11 @@ Deliver a working site with this week's top 10.
 - Browser extension that shows the trend score on any GitHub repo page
 - "Dead or alive?" health score for any pasted repo URL
 
+## Phase 5: Trust and early signals
+
+- Star check: sample recent stargazers and flag repos starred mostly by new, empty accounts. A signal, never a penalty
+- Rising now: daily list of repos speeding up before they reach the weekly top ten
+
 ## Ranking rules (v1)
 
 1. Candidate pool: repos pushed in the last 7 days with at least 50 stars, plus repos created in the last 30 days with at least 20 stars. Pull several pages from the search API per query.

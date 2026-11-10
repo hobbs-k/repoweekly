@@ -7,18 +7,25 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "collect": "node scripts/collect.js",
     "snapshot": "node scripts/snapshot.js",
     "rank": "node scripts/rank.js",
     "summarize": "node scripts/summarize.js",
     "feeds": "node scripts/feeds.js",
-    "build:data": "npm run rank && npm run summarize && npm run feeds && npm run avatars",
+    "build:data": "npm run rank && npm run summarize && npm run stars && npm run feeds && npm run avatars",
     "dev": "astro dev",
     "build": "astro build",
     "bootstrap": "node scripts/bootstrap-trending.js",
     "validate": "node scripts/validate.js",
-    "avatars": "node scripts/avatars.js"
+    "avatars": "node scripts/avatars.js",
+    "vendor": "node scripts/vendor.js",
+    "predev": "npm run vendor",
+    "prebuild": "npm run vendor",
+    "guide": "node scripts/guide.js",
+    "notify": "node scripts/notify.js",
+    "stars": "node scripts/stars.js",
+    "rising": "node scripts/rising.js"
   },
   "keywords": [],
   "author": "",

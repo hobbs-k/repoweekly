@@ -12,3 +12,5 @@ dist
 /.claude/skills/
 /.agents/
 .impeccable/hook.cache.json
+/public/js/vendor/
+/dist-demo/

@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadAllWeeks } from '../../lib/data.js';
+import { formatRange, weekNumber, weekPath } from '../../lib/format.js';
+
+const weeks = loadAllWeeks();
+---
+
+<Layout title="All weeks | RepoWeekly" description="Every past week of top GitHub repositories on RepoWeekly." current="archive">
+  <div class="wrap page">
+    <h1>All weeks</h1>
+    <p>Every week we have ranked, newest first.</p>
+    <ol class="weeks">
+      {weeks.map((w) => (
+        <li>
+          <a class="weeks-label" href={weekPath(w.week)}>Week {weekNumber(w.week)}, {w.start.slice(0, 4)}</a>
+          <span class="weeks-range">{formatRange(w.start, w.end)}</span>
+          <span class="weeks-top">{w.top.slice(0, 3).map((i, n) => <><span class="nw">{i.full_name}</span>{n < 2 ? ', ' : ''}</>)}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</Layout>

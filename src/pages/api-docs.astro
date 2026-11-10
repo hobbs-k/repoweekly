@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { config } from '../../scripts/lib/config.js';
+import { href } from '../lib/format.js';
+
+const example = `{
+  "week": "2026-W45",
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "generated": "2026-11-09T04:10:00Z",
+  "growth_source": "snapshots",
+  "license": "${config.licenseNote}",
+  "top": [
+    {
+      "rank": 1,
+      "full_name": "owner/name",
+      "url": "https://github.com/owner/name",
+      "description": "Short description from GitHub",
+      "language": "Python",
+      "topics": ["ai"],
+      "stars_total": 12034,
+      "stars_gained": 5356,
+      "daily_gains": [120, 300, 900, 1500, 1200, 800, 536],
+      "spike": false,
+      "signals": { "license": "MIT", "last_push": "2026-11-08", "open_issues": 38,
+                   "contributors": 22, "good_first_issues": 4, "age_days": 40 },
+      "summary": { "what_it_is": "...", "why_trending": "...", "who_its_for": "...",
+                   "beginner_friendly": true, "difficulty": "easy", "tags": ["ai", "cli"] }
+    }
+  ],
+  "gems": []
+}`;
+---
+
+<Layout title="API | RepoWeekly" description="RepoWeekly's public JSON files and RSS feed: what is in them and how to use them." current="api">
+  <div class="wrap page">
+    <h1>API</h1>
+    <p>Everything on this site is also published as static files. There is no key and no rate limit of our own. Week files change once a week and rising.json every day. {config.licenseNote}</p>
+
+    <h2>Files</h2>
+    <ul>
+      <li><a href={href('/api/latest.json')}><code>/api/latest.json</code></a>: the latest week, same as the file for that week.</li>
+      <li><a href={href('/api/weeks/2026-W45.json')}><code>/api/weeks/YYYY-Www.json</code></a>: one file per week. The week name is the ISO week the ranking covers (Monday to Sunday).</li>
+      <li><a href={href('/api/index.json')}><code>/api/index.json</code></a>: <code>{'{ license, weeks: [{ week, path }] }'}</code>, newest first. Paths are relative to <code>/api/</code>.</li>
+      <li><a href={href('/api/rising.json')}><code>/api/rising.json</code></a>: the repositories speeding up in the last two days, updated daily. It is missing until the first run.</li>
+      <li><a href={href('/api/repos.json')}><code>/api/repos.json</code></a>: one flat record per repository, from the newest week it was ranked. Keys are lower-case <code>owner/name</code>.</li>
+      <li><a href={href('/feed.xml')}><code>/feed.xml</code></a>: RSS 2.0, the last ten weeks.</li>
+    </ul>
+
+    <h2>A week file</h2>
+    <pre><code>{example}</code></pre>
+
+    <h2>Notes</h2>
+    <ul>
+      <li><code>growth_source</code> is <code>snapshots</code> (our own daily star counts) or <code>bootstrap</code> (the GitHub trending page). For bootstrap weeks <code>daily_gains</code> is empty and <code>spike</code> is <code>null</code>.</li>
+      <li><code>star_check</code> is optional: <code>{'{ sampled, throwaway, pct, level }'}</code>. <code>level</code> is <code>normal</code>, <code>check</code>, <code>suspicious</code> or <code>unknown</code>. It is a rough signal from a sample of recent stargazers, not proof.</li>
+      <li><code>spike</code> is true when more than {Math.round(config.ranking.spikeShare * 100)} percent of the weekly gain came on one day.</li>
+      <li><code>difficulty</code> is <code>easy</code>, <code>medium</code> or <code>hard</code>. Summaries are written by an AI from the project's README and can be wrong.</li>
+      <li><code>summary.urdu</code> is present only when Urdu summaries are switched on.</li>
+      <li><code>gems</code> has the same item shape as <code>top</code>, at most {config.ranking.gemCount} items.</li>
+    </ul>
+
+    <h2>Using it</h2>
+    <p>Fetch the files with any HTTP client. Please cache them: a week's file never changes after the Monday it is published. A link back to RepoWeekly is appreciated.</p>
+  </div>
+</Layout>

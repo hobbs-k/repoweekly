@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RepoEntry from '../../components/RepoEntry.astro';
+import { loadLatestWeek } from '../../lib/data.js';
+import { href, langSlug, weekNumber } from '../../lib/format.js';
+
+// shortcut: only languages in the latest week get a page, so old language URLs stop working,
+// upgrade to a page per language seen in any week if that matters.
+export function getStaticPaths() {
+  const w = loadLatestWeek();
+  const all = [...w.top, ...w.gems];
+  return [...new Set(all.map((i) => i.language).filter(Boolean))].map((lang) => ({
+    params: { lang: langSlug(lang) },
+    props: {
+      lang,
+      week: w.week,
+      year: w.start.slice(0, 4),
+      top: w.top.filter((i) => i.language === lang),
+      gems: w.gems.filter((i) => i.language === lang),
+    },
+  }));
+}
+
+const { lang, week, year, top, gems } = Astro.props;
+---
+
+<Layout
+  title={`${lang} repositories, week ${weekNumber(week)} of ${year} | RepoWeekly`}
+  description={`The ${lang} repositories in RepoWeekly's ranking for week ${weekNumber(week)} of ${year}.`}
+>
+  <div class="wrap">
+    <section class="intro">
+      <h1>{lang} this week</h1>
+      <p class="lede">Week {weekNumber(week)}, {year}. Places keep their number from the full ranking.</p>
+      <p class="lede-soft"><a href={href('/')}>See all languages</a></p>
+    </section>
+    {top.length > 0 && (
+      <ol class="entries" aria-label={`${lang} repositories in the top ten`}>
+        {top.map((item) => <RepoEntry item={item} />)}
+      </ol>
+    )}
+    {gems.length > 0 && (
+      <section aria-labelledby="gems-title">
+        <div class="section-head"><h2 id="gems-title">Hidden gems</h2></div>
+        <ol class="entries" aria-labelledby="gems-title">
+          {gems.map((item) => <RepoEntry item={item} kind="gem" />)}
+        </ol>
+      </section>
+    )}
+  </div>
+</Layout>

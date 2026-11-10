@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/format.js';
+---
+
+<Layout title="Compare two repositories | RepoWeekly" description="Compare two GitHub repositories side by side: stars, activity, license and difficulty." current="compare">
+  <div class="wrap page compare">
+    <h1>Compare two repositories</h1>
+    <p>Pick two repositories that have been in our rankings. Each column uses the numbers from the latest week that repository was ranked, so check the week row first.</p>
+    <form class="compare-form" data-src={href('/api/repos.json')} hidden>
+      <label>First <select name="a"></select></label>
+      <label>Second <select name="b"></select></label>
+    </form>
+    <p class="compare-status muted" role="status"></p>
+    <table class="cmp" hidden></table>
+    <noscript><p>The comparison needs JavaScript. <a href={href('/api/repos.json')}>The same data is in this JSON file.</a></p></noscript>
+  </div>
+  <script slot="scripts" is:inline defer src={href('/js/compare.js')}></script>
+</Layout>

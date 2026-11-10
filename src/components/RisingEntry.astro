@@ -1,0 +1,53 @@
+---
+import { fmt, fmtAge } from '../lib/format.js';
+
+// A breakout from rising.js. Same entry grid and tide table as RepoEntry, but the days are
+// the last seven dates, not Monday to Sunday, so the table is repeated here instead of shared.
+const { item } = Astro.props;
+const [owner, name] = item.full_name.split('/');
+const max = Math.max(...item.daily_gains, 1);
+const sum = item.daily_gains.reduce((a, b) => a + b, 0);
+const day = (iso) => new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+---
+
+<li class="entry" value={item.rank}>
+  <span class="rank" aria-hidden="true">{item.rank}</span>
+
+  <div class="entry-head">
+    <span class="avatar avatar-mono" aria-hidden="true">{owner.charAt(0).toUpperCase()}</span>
+    <h3 class="entry-name">
+      <a href={item.url} rel="noopener"><span class="owner">{owner}/</span>{name}</a>
+    </h3>
+  </div>
+
+  <div class="entry-body">
+    {item.description && <p class="entry-desc">{item.description}</p>}
+    <p><span class="run">Last two days</span>+{fmt(item.gained_2d)} stars, after {fmt(item.gained_prev_2d)} in the two days before.</p>
+    <ul class="meta">
+      <li>{fmt(item.stars_total)} stars in total</li>
+      {item.language && <li>{item.language}</li>}
+      <li>{fmtAge(item.age_days)} old</li>
+      {item.topics.slice(0, 3).map((t) => <li>{t}</li>)}
+    </ul>
+  </div>
+
+  <div class="figs">
+    <table class="tide">
+      <caption class="sr-only">Stars gained each day, last seven days</caption>
+      <tbody>
+        {item.daily_gains.map((v, i) => (
+          <tr>
+            <th scope="row">{day(item.days[i])}</th>
+            <td class="track" aria-hidden="true">
+              <span class="scale"><span class="bar" style={`--w:${Math.round((v / max) * 100)}%;--i:${i}`}></span></span>
+            </td>
+            <td class="val">{fmt(v)}</td>
+          </tr>
+        ))}
+      </tbody>
+      <tfoot>
+        <tr><th scope="row">7 days</th><td></td><td class="val">+{fmt(sum)}</td></tr>
+      </tfoot>
+    </table>
+  </div>
+</li>

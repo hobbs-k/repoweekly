@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import WeekView from '../../components/WeekView.astro';
+import { loadAllWeeks, loadGuide } from '../../lib/data.js';
+import { href, weekNumber, weekPath } from '../../lib/format.js';
+
+export function getStaticPaths() {
+  const weeks = loadAllWeeks();
+  return weeks.map((w, i) => ({
+    params: { week: w.week },
+    props: { w, newer: weeks[i - 1]?.week, older: weeks[i + 1]?.week },
+  }));
+}
+
+const { w, newer, older } = Astro.props;
+const year = w.start.slice(0, 4);
+---
+
+<Layout
+  title={`Week ${weekNumber(w.week)} of ${year}: top GitHub repositories | RepoWeekly`}
+  description={`The ${w.top.length} GitHub repositories that gained the most stars in week ${weekNumber(w.week)} of ${year}.`}
+  current="archive"
+>
+  <div class="wrap">
+    <WeekView week={w} heading={`Week ${weekNumber(w.week)} of ${year}`} guide={loadGuide(w.week)}>
+      <nav class="pager" aria-label="Other weeks">
+        {older ? <a href={weekPath(older)}>Older week</a> : <span></span>}
+        <a href={href('/weeks/')}>All weeks</a>
+        {newer ? <a href={weekPath(newer)}>Newer week</a> : <span></span>}
+      </nav>
+    </WeekView>
+  </div>
+  <script slot="scripts" is:inline defer src={href('/js/filters.js')}></script>
+</Layout>

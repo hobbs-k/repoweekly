@@ -7,9 +7,9 @@ import { href } from '../lib/format.js';
 const { title, description, current = '' } = Astro.props;
 const nav = [
   { href: href('/'), label: 'This week', key: 'home' },
-  { href: href('/#gems'), label: 'Gems', key: 'gems' },
-  { href: href('/about/'), label: 'About', key: 'about' },
-  { href: href('/feed.xml'), label: 'Feed', key: 'feed' },
+  { href: href('/rising/'), label: 'Rising', key: 'rising' },
+  { href: href('/weeks/'), label: 'Archive', key: 'archive' },
+  { href: href('/compare/'), label: 'Compare', key: 'compare' },
 ];
 ---
 
@@ -48,10 +48,13 @@ const nav = [
           <li><a href={href('/api/latest.json')}>Latest week as JSON</a></li>
           <li><a href={href('/api/index.json')}>All weeks</a></li>
           <li><a href={href('/feed.xml')}>RSS feed</a></li>
-          <li><a href={href('/about/')}>How it works</a></li>
+          <li><a href={href('/about/')}>About</a></li>
+          <li><a href={href('/health/')}>Dead or alive?</a></li>
+          <li><a href={href('/api-docs/')}>API</a></li>
         </ul>
         <p>{config.licenseNote}</p>
       </div>
     </footer>
+    <slot name="scripts" />
   </body>
 </html>

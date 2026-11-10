@@ -1,32 +1,220 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-09T00:00:00Z",
+  "generatedAt": "2026-11-10T00:00:00Z",
   "title": "Design System: RepoWeekly",
   "extensions": {
     "colorMeta": {
-      "ground": { "role": "neutral", "displayName": "Shallow Water", "canonical": "#e3eef3", "tonalRamp": ["#0a1826", "#1f3a50", "#4a6a80", "#7a97aa", "#9db5c3", "#c3d6e0", "#e3eef3", "#f4f9fb"] },
-      "ink": { "role": "neutral", "displayName": "Chart Ink", "canonical": "#0c2236", "tonalRamp": ["#050f19", "#0c2236", "#2a4559", "#4a6679", "#6e8899", "#98adba", "#c4d2da", "#e8eff3"] },
-      "ink-soft": { "role": "neutral", "displayName": "Faded Ink", "canonical": "#3f5668", "tonalRamp": ["#14212b", "#2a3d4c", "#3f5668", "#587184", "#738b9c", "#92a7b5", "#b7c7d1", "#dae4ea"] },
-      "rule": { "role": "neutral", "displayName": "Hairline Blue", "canonical": "#9db5c3", "tonalRamp": ["#2a4256", "#456078", "#617d92", "#7d99ab", "#9db5c3", "#b8cbd6", "#d3e0e7", "#eaf1f5"] },
-      "bar": { "role": "secondary", "displayName": "Tide Slate Blue", "canonical": "#4a7389", "tonalRamp": ["#16262f", "#243d4b", "#345568", "#4a7389", "#6890a5", "#8aaabb", "#b0c5d1", "#d6e2e9"] },
-      "mark": { "role": "primary", "displayName": "Chart Magenta", "canonical": "#b0105f", "tonalRamp": ["#3a0420", "#640939", "#8a0d4c", "#b0105f", "#d1407f", "#e872a4", "#f4a6c6", "#fbd7e5"] },
-      "mast-bg": { "role": "neutral", "displayName": "Masthead Navy", "canonical": "#0c2236", "tonalRamp": ["#040c14", "#0c2236", "#1f3a50", "#365266", "#4f6b80", "#7089a0", "#9db0c0", "#cfd9e2"] },
-      "mast-mark": { "role": "primary", "displayName": "Masthead Pink", "canonical": "#ff7db4", "tonalRamp": ["#4a1030", "#7a1d4f", "#aa2f70", "#d44a90", "#ff7db4", "#ff9cc6", "#ffbfd9", "#ffe0ec"] }
+      "ground": {
+        "role": "neutral",
+        "displayName": "Shallow Water",
+        "canonical": "#e3eef3",
+        "tonalRamp": [
+          "#0a1826",
+          "#1f3a50",
+          "#4a6a80",
+          "#7a97aa",
+          "#9db5c3",
+          "#c3d6e0",
+          "#e3eef3",
+          "#f4f9fb"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Chart Ink",
+        "canonical": "#0c2236",
+        "tonalRamp": [
+          "#050f19",
+          "#0c2236",
+          "#2a4559",
+          "#4a6679",
+          "#6e8899",
+          "#98adba",
+          "#c4d2da",
+          "#e8eff3"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "#3f5668",
+        "tonalRamp": [
+          "#14212b",
+          "#2a3d4c",
+          "#3f5668",
+          "#587184",
+          "#738b9c",
+          "#92a7b5",
+          "#b7c7d1",
+          "#dae4ea"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Blue",
+        "canonical": "#9db5c3",
+        "tonalRamp": [
+          "#2a4256",
+          "#456078",
+          "#617d92",
+          "#7d99ab",
+          "#9db5c3",
+          "#b8cbd6",
+          "#d3e0e7",
+          "#eaf1f5"
+        ]
+      },
+      "bar": {
+        "role": "secondary",
+        "displayName": "Tide Slate Blue",
+        "canonical": "#4a7389",
+        "tonalRamp": [
+          "#16262f",
+          "#243d4b",
+          "#345568",
+          "#4a7389",
+          "#6890a5",
+          "#8aaabb",
+          "#b0c5d1",
+          "#d6e2e9"
+        ]
+      },
+      "mark": {
+        "role": "primary",
+        "displayName": "Chart Magenta",
+        "canonical": "#b0105f",
+        "tonalRamp": [
+          "#3a0420",
+          "#640939",
+          "#8a0d4c",
+          "#b0105f",
+          "#d1407f",
+          "#e872a4",
+          "#f4a6c6",
+          "#fbd7e5"
+        ]
+      },
+      "mast-bg": {
+        "role": "neutral",
+        "displayName": "Masthead Navy",
+        "canonical": "#0c2236",
+        "tonalRamp": [
+          "#040c14",
+          "#0c2236",
+          "#1f3a50",
+          "#365266",
+          "#4f6b80",
+          "#7089a0",
+          "#9db0c0",
+          "#cfd9e2"
+        ]
+      },
+      "mast-mark": {
+        "role": "primary",
+        "displayName": "Masthead Pink",
+        "canonical": "#ff7db4",
+        "tonalRamp": [
+          "#4a1030",
+          "#7a1d4f",
+          "#aa2f70",
+          "#d44a90",
+          "#ff7db4",
+          "#ff9cc6",
+          "#ffbfd9",
+          "#ffe0ec"
+        ]
+      },
+      "tick": {
+        "role": "neutral",
+        "displayName": "Scale Tick",
+        "canonical": "#8d9ca7",
+        "tonalRamp": [
+          "#2c3840",
+          "#47565f",
+          "#617580",
+          "#7a8c97",
+          "#8d9ca7",
+          "#a8b5be",
+          "#c6d0d7",
+          "#e2e8ec"
+        ]
+      }
     },
     "typographyMeta": {
-      "display": { "displayName": "Rank Numeral", "purpose": "Huge condensed rank numerals (62% width, 800). Responsive 2.75rem, 4.25rem, 6rem." },
-      "headline": { "displayName": "Page Headline", "purpose": "Page h1 at 70% width, 800, max 22ch." },
-      "title": { "displayName": "Repo Name", "purpose": "Repo names at 88% width, 700, owner prefix at 400 in Faded Ink." },
-      "body": { "displayName": "Body", "purpose": "Reading text at 100% width, 66ch measure, tabular figures." },
-      "label": { "displayName": "Label", "purpose": "Uppercase 75% width, 600, tracked; nav, meta, day names, signal captions." }
+      "display": {
+        "displayName": "Rank Numeral",
+        "purpose": "Huge condensed rank numerals (62% width, 800). 2.75rem phones (inline beside name), 4.25rem tablet, 6rem wide; gem ranks 2.25rem, 3rem, 3.5rem."
+      },
+      "headline": {
+        "displayName": "Page Headline",
+        "purpose": "Page h1 at 70% width, 800, max 22ch."
+      },
+      "title": {
+        "displayName": "Repo Name",
+        "purpose": "Repo names at 88% width, 700, owner prefix at 400 in Faded Ink."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text at 100% width, 66ch measure, tabular figures."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase 75% width, 600, tracked; nav, meta, day names, signal captions."
+      },
+      "urdu": {
+        "displayName": "Urdu Text",
+        "purpose": "System Noto Nastaliq Urdu fallback for lang=ur, dir=rtl; 1.125rem, line-height 2. Not a second voice."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "System monospace led by Cascadia Mono; API page only."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "0.9375rem: notices, tables, filter status, footer."
+      },
+      "control": {
+        "displayName": "Form Control",
+        "purpose": "1rem regular, normal width, 2.75rem minimum height."
+      },
+      "label-large": {
+        "displayName": "Toolbar Label",
+        "purpose": "0.875rem toolbar links."
+      },
+      "meta": {
+        "displayName": "Meta Label",
+        "purpose": "0.8125rem meta line and form labels."
+      },
+      "label-run": {
+        "displayName": "Run-in Label",
+        "purpose": "0.75rem 700 run-ins and Urdu toggle."
+      },
+      "section-head": {
+        "displayName": "Section Head",
+        "purpose": "1.75rem; 1.5rem on reading pages; health verdict."
+      },
+      "weeks-label": {
+        "displayName": "Week Label",
+        "purpose": "1.375rem archive row label."
+      }
     },
     "shadows": [],
     "motion": [
-      { "name": "tide-in", "value": "tide 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards; delay calc(var(--i) * 60ms); from transform: scaleX(0), origin left", "purpose": "Tide bars grow in per weekday row. Only under prefers-reduced-motion: no-preference." }
+      {
+        "name": "tide-in",
+        "value": "tide 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards; delay calc(var(--i) * 60ms); from transform: scaleX(0), origin left",
+        "purpose": "Tide bars grow in per weekday row. Only under prefers-reduced-motion: no-preference. The star history chart has no animation."
+      }
     ],
     "breakpoints": [
-      { "name": "tablet", "value": "44rem" },
-      { "name": "wide", "value": "64rem" }
+      {
+        "name": "tablet",
+        "value": "44rem"
+      },
+      {
+        "name": "wide",
+        "value": "64rem"
+      }
     ]
   },
   "components": [
@@ -35,7 +223,7 @@
       "kind": "nav",
       "refersTo": "masthead",
       "description": "Dark navy band with condensed brand, uppercase nav, and a double pink rule.",
-      "html": "<header class=\"ds-mast\"><span class=\"ds-brand\">RepoWeekly</span><nav><a class=\"ds-nav\" aria-current=\"page\" href=\"#\">This week</a><a class=\"ds-nav\" href=\"#\">Gems</a><a class=\"ds-nav\" href=\"#\">About</a><a class=\"ds-nav\" href=\"#\">Feed</a></nav></header>",
+      "html": "<header class=\"ds-mast\"><span class=\"ds-brand\">RepoWeekly</span><nav><a class=\"ds-nav\" aria-current=\"page\" href=\"#\">This week</a><a class=\"ds-nav\" href=\"#\">Archive</a><a class=\"ds-nav\" href=\"#\">Compare</a><a class=\"ds-nav\" href=\"#\">About</a></nav></header>",
       "css": ".ds-mast { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.25rem 2rem; padding: 1rem 1rem 0.5rem; background: var(--mast-bg, #0c2236); color: var(--mast-fg, #e3eef3); border-bottom: 4px double var(--mast-mark, #ff7db4); } .ds-brand { font-stretch: 62%; font-weight: 800; font-size: 2.5rem; letter-spacing: 0.03em; text-transform: uppercase; line-height: 1; } .ds-mast nav { display: flex; gap: 0 1.5rem; } .ds-nav { display: inline-block; padding-block: 0.6rem; color: inherit; font-stretch: 75%; font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; } .ds-nav:hover { color: var(--mast-mark, #ff7db4); } .ds-nav:focus-visible { outline: 3px solid var(--mast-mark, #ff7db4); outline-offset: 2px; } .ds-nav[aria-current='page'] { text-decoration: underline; text-decoration-color: var(--mast-mark, #ff7db4); text-decoration-thickness: 2px; }"
     },
     {
@@ -77,6 +265,34 @@
       "description": "Three-column definition grid of repository health signals.",
       "html": "<dl class=\"ds-signals\"><div><dt>License</dt><dd>MIT</dd></div><div><dt>Last push</dt><dd>3 Nov</dd></div><div><dt>Age</dt><dd>2 years</dd></div></dl>",
       "css": ".ds-signals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 0.75rem; margin: 0; border-top: 1px solid var(--rule, #9db5c3); color: var(--ink, #0c2236); } .ds-signals > div { min-width: 0; padding: 0.35rem 0; border-bottom: 1px solid var(--rule, #9db5c3); } .ds-signals dt { font-stretch: 75%; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft, #3f5668); } .ds-signals dd { margin: 0; overflow-wrap: anywhere; }"
+    },
+    {
+      "name": "Form Controls",
+      "kind": "input",
+      "description": "Square select, checkbox and ink button at 2.75rem.",
+      "html": "<label class=\"ds-label\">Language<select class=\"ds-select\"><option>All</option></select></label> <label class=\"ds-check\"><input type=\"checkbox\" class=\"ds-box\" checked> Beginner</label> <button class=\"ds-btn\">Compare</button>",
+      "css": ".ds-label { display: inline-flex; flex-direction: column; gap: 0.25rem; font-stretch: 75%; font-weight: 600; font-size: 0.8125rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft, #3f5668); } .ds-select { min-height: 2.75rem; padding: 0.4rem 0.6rem; border: 1px solid var(--ink-soft, #3f5668); border-radius: 0; background: var(--ground, #e3eef3); color: var(--ink, #0c2236); font: inherit; font-size: 1rem; font-weight: 400; font-stretch: 100%; } .ds-select:focus-visible, .ds-btn:focus-visible { outline: 3px solid var(--mark, #b0105f); outline-offset: 2px; } .ds-check { display: inline-flex; align-items: center; gap: 0.6rem; min-height: 2.75rem; font-stretch: 75%; font-weight: 600; font-size: 0.8125rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft, #3f5668); } .ds-box { appearance: none; width: 1.25rem; height: 1.25rem; margin: 0; border: 1px solid var(--mark, #b0105f); border-radius: 0; background: var(--mark, #b0105f); } .ds-btn { min-height: 2.75rem; padding: 0.4rem 1.25rem; border: 0; border-radius: 0; cursor: pointer; background: var(--ink, #0c2236); color: var(--ground, #e3eef3); font: inherit; font-stretch: 75%; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; } .ds-btn:hover { background: var(--mark, #b0105f); }"
+    },
+    {
+      "name": "Week Archive Row",
+      "kind": "custom",
+      "description": "Hairline-ruled row where the whole row is the link.",
+      "html": "<ul class=\"ds-weeks\"><li><a class=\"ds-wl\" href=\"#\">Week 45</a><span class=\"ds-wr\">2 to 8 Nov</span></li></ul>",
+      "css": ".ds-weeks { list-style: none; margin: 0; padding: 0; } .ds-weeks li { position: relative; display: grid; gap: 0 2rem; padding-block: 0.9rem; border-top: 1px solid var(--rule, #9db5c3); color: var(--ink, #0c2236); } .ds-wl { font-stretch: 75%; font-weight: 800; font-size: 1.375rem; color: inherit; } .ds-wl:hover { color: var(--mark, #b0105f); } .ds-wl::after { content: ''; position: absolute; inset: 0; } .ds-wr { color: var(--ink-soft, #3f5668); }"
+    },
+    {
+      "name": "Compare Table",
+      "kind": "custom",
+      "description": "Ruled rows; the higher count is bold, never magenta.",
+      "html": "<table class=\"ds-cmp\"><thead><tr><th></th><th>a/one</th><th>b/two</th></tr></thead><tbody><tr><th>Stars</th><td class=\"ds-more\">12,400</td><td>9,100</td></tr></tbody></table>",
+      "css": ".ds-cmp { width: 100%; max-width: 52rem; border-collapse: collapse; font-size: 0.9375rem; color: var(--ink, #0c2236); font-variant-numeric: tabular-nums; } .ds-cmp th, .ds-cmp td { padding: 0.5rem 1rem 0.5rem 0; border-bottom: 1px solid var(--rule, #9db5c3); text-align: left; } .ds-cmp thead th { border-bottom: 2px solid var(--ink, #0c2236); font-stretch: 88%; } .ds-cmp tbody th { font-weight: 400; color: var(--ink-soft, #3f5668); width: 11rem; } .ds-more { font-weight: 700; }"
+    },
+    {
+      "name": "Health Verdict",
+      "kind": "custom",
+      "description": "Double-ruled verdict with ruled reason rows; magenta only when bad.",
+      "html": "<div class=\"ds-health ds-bad\"><h2>Probably dead</h2><ul><li>No push in 400 days</li><li>Archived</li></ul></div>",
+      "css": ".ds-health { max-width: 66ch; color: var(--ink, #0c2236); } .ds-health h2 { margin: 0 0 0.5rem; padding-top: 0.6rem; border-top: 4px double var(--ink, #0c2236); font-stretch: 70%; font-weight: 800; font-size: 1.75rem; line-height: 1.15; } .ds-bad h2 { color: var(--mark, #b0105f); } .ds-health ul { list-style: none; padding: 0; margin: 0 0 1rem; } .ds-health li { padding: 0.5rem 0; border-bottom: 1px solid var(--rule, #9db5c3); }"
     }
   ],
   "narrative": {
@@ -90,11 +306,31 @@
       "One motion: the tide-bar entrance."
     ],
     "rules": [
-      { "name": "The One Mark Rule", "body": "Magenta is the only colour that means \"look here\". If everything is marked, nothing is: peaks and notices only.", "section": "colors" },
-      { "name": "The Own Frame Rule", "body": "The masthead is always dark navy, in both schemes. It is the frame the world owns.", "section": "colors" },
-      { "name": "The Width Axis Rule", "body": "Hierarchy comes from width and weight on the one family: narrower means more structural. Do not add a second typeface.", "section": "typography" },
-      { "name": "The Tabular Rule", "body": "Figures are always tabular so columns of numbers align like a printed table.", "section": "typography" },
-      { "name": "The Rule Not Shadow Rule", "body": "Separation is a ruled line. A weight of rule (hairline, dotted, 2px, double) marks the level of the division.", "section": "elevation" }
+      {
+        "name": "The One Mark Rule",
+        "body": "Magenta is the only colour that means \"look here\". If everything is marked, nothing is: peaks and notices only.",
+        "section": "colors"
+      },
+      {
+        "name": "The Own Frame Rule",
+        "body": "The masthead is always dark navy, in both schemes. It is the frame the world owns.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy comes from width and weight on the one family: narrower means more structural. Do not add a second typeface.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Figures are always tabular so columns of numbers align like a printed table.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rule Not Shadow Rule",
+        "body": "Separation is a ruled line. A weight of rule (hairline, dotted, 2px, double) marks the level of the division.",
+        "section": "elevation"
+      }
     ],
     "dos": [
       "Do separate content with rules (hairline, dotted, 2px, 4px double), not boxes.",

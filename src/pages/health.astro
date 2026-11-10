@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/format.js';
+---
+
+<Layout title="Dead or alive? | RepoWeekly" description="Paste a GitHub repository address and get a rough health score from its recent activity.">
+  <div class="wrap page health">
+    <h1>Dead or alive?</h1>
+    <p>Paste a GitHub repository address to see if it is still being worked on. The score is a rough guide from the last push, the commits in the last 90 days, the license and whether the repository is archived.</p>
+    <form class="health-form" hidden>
+      <label>Repository address
+        <input type="text" name="repo" placeholder="https://github.com/owner/name" autocomplete="off" spellcheck="false" required />
+      </label>
+      <button type="submit">Check</button>
+    </form>
+    <noscript><p>This page needs JavaScript.</p></noscript>
+    <div class="health-out" role="status" aria-live="polite"></div>
+    <p class="muted">Your browser asks GitHub directly, so RepoWeekly never sees what you check. GitHub allows 60 such requests an hour per network without signing in.</p>
+  </div>
+  <script slot="scripts" is:inline defer src={href('/js/health.js')}></script>
+</Layout>

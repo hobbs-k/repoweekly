@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "RepoWeekly trend score",
+  "version": "0.1.0",
+  "description": "Shows how a GitHub repository did in RepoWeekly's weekly ranking, on its GitHub page.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://repoweekly.example/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{ "matches": ["https://github.com/*/*"], "js": ["content.js"] }]
+}

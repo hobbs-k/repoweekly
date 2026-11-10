@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RisingEntry from '../components/RisingEntry.astro';
+import { loadRising } from '../lib/data.js';
+import { config } from '../../scripts/lib/config.js';
+import { href } from '../lib/format.js';
+
+const rising = loadRising();
+const items = rising?.items ?? [];
+const asOf = rising ? new Date(`${rising.date}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
+---
+
+<Layout title="Rising now | RepoWeekly" description="GitHub repositories whose stars are speeding up in the last two days, before they reach the weekly top ten." current="rising">
+  <div class="wrap">
+    <section class="intro">
+      <h1>Repositories speeding up right now</h1>
+      <p class="lede">These are not in this week's list yet. Each gained at least {config.rising.minGain} stars in the last two days, at least {config.rising.accelerate} times as fast as in the two days before.</p>
+      {rising && <p class="lede-soft">As of {asOf}. Updated daily. A burst can fade, so treat this as an early hint. <a href={href('/about/')}>How it works</a>.</p>}
+    </section>
+
+    {items.length > 0 ? (
+      <ol class="entries" aria-label="Rising repositories">
+        {items.map((item) => <RisingEntry item={item} />)}
+      </ol>
+    ) : (
+      <p class="notice">{rising?.reason ? `Not enough history yet: ${rising.reason}.` : 'Nothing is speeding up fast enough right now, or the first daily run has not happened yet.'}</p>
+    )}
+  </div>
+</Layout>

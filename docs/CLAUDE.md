@@ -58,9 +58,15 @@ Add these npm scripts:
 - `snapshot` → `node scripts/snapshot.js`
 - `rank` → `node scripts/rank.js`
 - `summarize` → `node scripts/summarize.js`
-- `build:data` → runs rank, summarize, feeds, then avatars
+- `build:data` → runs rank, summarize, stars, feeds, then avatars
 - `feeds` → `node scripts/feeds.js`
 - `bootstrap` → `node scripts/bootstrap-trending.js`
+- `guide` → `node scripts/guide.js`
+- `stars` → `node scripts/stars.js`
+- `rising` → `node scripts/rising.js`
+- `test` → `node --test` (unit tests in `tests/`)
+- `notify` → `node scripts/notify.js`
+- `vendor` → copies Chart.js into `public/js/vendor` (runs before `dev` and `build`)
 - `validate` → `node scripts/validate.js`
 - `dev` → `astro dev`
 - `build` → `astro build`

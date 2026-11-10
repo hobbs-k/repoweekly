@@ -38,9 +38,12 @@ npm run feeds && npm run dev
 npm run bootstrap        # reads the trending page (first weeks only)
 npm run collect
 npm run snapshot         # run daily; rank needs 7 snapshots, or a bootstrap file
-npm run build:data       # rank, summarize, feeds
+npm run build:data       # rank, summarize, star check, feeds, avatars
+npm run rising           # the daily breakouts (needs 5 daily snapshots)
+npm test                 # unit tests
+npm run guide            # optional: the weekly "Learn from this repo" guide
 npm run validate
-npm run build
+npm run build            # also copies Chart.js into public/js/vendor
 ```
 
 ## Hosting: GitHub Pages
@@ -52,7 +55,23 @@ The weekly workflow deploys to GitHub Pages. One-time setup in the repository se
 3. Same page > **Variables**: add `SITE_URL`, the public address, for example `https://your-name.github.io/repoweekly`.
 4. Run **Weekly build** once by hand from the Actions tab.
 
+Optional secrets for the weekly post (each channel is skipped when its secrets are missing):
+
+- Telegram: `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`
+- Discord: `DISCORD_WEBHOOK_URL`
+- Email through Buttondown: `BUTTONDOWN_API_KEY` (this sends to your subscribers, so set it last)
+
+Urdu summaries are off by default. Set `URDU_ENABLED=true` in the workflow environment to add them.
+
 The daily workflow collects and snapshots at 02:00 UTC. The weekly workflow runs on Mondays at 04:00 UTC and only deploys if the week passes validation.
+
+## Pages
+
+Home (this week), `/rising/` (repos speeding up, updated daily), `/weeks/` archive and one page per week, `/repo/owner/name/` with a star-history chart, `/language/<name>/`, `/compare/`, `/health/` ("Dead or alive?"), `/about/`, `/api-docs/`, `/feed.xml` and the JSON files under `/api/`.
+
+## Browser extension
+
+`extension/` shows a RepoWeekly badge on GitHub repository pages. Set your site address in two files first. See `extension/README.md`.
 
 ## Design
 

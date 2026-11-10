@@ -4,8 +4,25 @@
     {
       "name": "preview",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["astro", "preview", "--port", "4321"],
+      "runtimeArgs": [
+        "astro",
+        "preview",
+        "--port",
+        "4321"
+      ],
       "port": 4321
+    },
+    {
+      "name": "demo",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4322",
+        "--directory",
+        "dist-demo"
+      ],
+      "port": 4322
     }
   ]
 }

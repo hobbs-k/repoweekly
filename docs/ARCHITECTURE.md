@@ -71,8 +71,20 @@ Generates public files from the latest week.
 - `public/api/weeks/YYYY-Www.json`
 - `public/api/index.json` (list of all weeks)
 
+### scripts/stars.js
+Optional star check. For each ranked repo it reads the three newest pages of stargazers (about 300 stars), picks up to 30 accounts (the same ones on every run), and counts those that were under 60 days old when they starred, have no repos and at most one follower. Adds `star_check` to the week file (DATA_SPEC.md). Needs about 500 GitHub requests per week, so it skips with a warning when the rate limit is lower (no `GH_PAT`). A repo that fails is skipped. It never changes the ranking. The 20 and 40 percent cut-offs are rough guesses (`lib/starcheck.js`). Runs inside `npm run build:data`, between summarize and feeds.
+
+### scripts/rising.js
+Writes `data/rising.json` for the `/rising/` page: repos not in the latest week that gained at least 50 stars in the last two days, at least twice as fast as in the two days before (`rising` in `lib/config.js`). Reads the last 8 daily snapshots and needs 5. Fetches a description for the ten shown (10 GitHub calls). Flags: `--dry-run`, `--offline`, `--date`. Runs in the daily workflow.
+
 ### scripts/avatars.js
 Saves each ranked owner's avatar to `public/avatars/<owner>.<ext>` at build time, so visitors never contact GitHub's image host. Files are committed so older weeks keep them. A failed download only warns; the card then has no avatar.
+
+### scripts/guide.js
+Optional. Writes `data/guides/YYYY-Www.json`, a short "Learn from this repo" guide for the week's number 1 repo (or `--repo`). Uses only the saved README and metadata. One guide per week; `--force` writes it again. The weekly workflow lets this step fail without failing the week. Week pages show the guide when the file exists.
+
+### scripts/notify.js
+Posts the latest week to Telegram (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`), Discord (`DISCORD_WEBHOOK_URL`) and a Buttondown email (`BUTTONDOWN_API_KEY`). A channel without credentials is skipped. `data/notified.json` records what was sent per week, so a rerun never posts twice. Refuses a Discord address that is not a Discord webhook. Runs in the `notify` job, after a successful deploy.
 
 ### scripts/validate.js
 Checks the latest week before the workflow commits or deploys: at least 10 ranked repos, every item has a summary with the required fields, `daily_gains` has 0 or 7 values, `spike` is null in bootstrap mode, and the public files exist (`--skip-public` skips that last check). Exits non-zero with every problem listed. `urdu` is not checked.
@@ -101,14 +113,17 @@ Pages:
 - `/` top 10 of the latest week, gems section
 - `/weeks/` archive index
 - `/weeks/[week]` any past week
-- `/repo/[owner]/[name]` repo detail page with star-history chart and signals (phase 2)
-- `/language/[lang]` filtered view (phase 2)
-- `/about` what this is, how ranking works, how to use the API
-- `/api-docs` static JSON documentation (phase 3)
+- `/repo/[owner]/[name]` repo page: latest card, star-history chart, weeks it was ranked, similar repos
+- `/language/[lang]` languages in the latest week; the week pages also filter in the browser (`public/js/filters.js`)
+- `/rising` repos speeding up in the last two days, from `data/rising.json` (the page copes with the file being missing)
+- `/compare` two repos side by side (`public/js/compare.js`, reads `/api/repos.json`)
+- `/health` "Dead or alive?" score for a pasted repo address (`public/js/health.js`)
+- `/about` what this is, how ranking works
+- `/api-docs` documentation of the static JSON files
 
 Rules:
-- Pages read from `/data` at build time. No client-side API calls to GitHub.
-- Charts and filters use scripts in `/public/js` (`chart.js` wrapper, `filters.js`). No inline logic.
+- Pages read from `/data` at build time. No client-side API calls to GitHub, with one exception: `/health` asks GitHub from the visitor's browser, because the repo is not known in advance. The page says so.
+- Charts, filters and the compare and health tools use scripts in `/public/js` (`history-chart.js`, `filters.js`, `compare.js`, `health.js`). Chart.js is copied to `public/js/vendor` by `scripts/vendor.js`. No inline logic.
 - Accessible, mobile first, light and dark mode, no tracking scripts.
 - Each card shows: name, owner avatar, one-line description, language, weekly stars gained, total stars, short "why trending" text, tags, and signal badges.
 
@@ -116,7 +131,8 @@ Rules:
 
 `.github/workflows/daily.yml`
 - Cron: `0 2 * * *` (UTC)
-- Steps: checkout, setup node, `npm ci`, `npm run collect`, `npm run snapshot`, commit and push `/data`.
+- Steps: checkout, setup node, `npm ci`, `npm run collect`, `npm run snapshot`, `npm run rising` (may fail without failing the run), commit and push `/data`.
+- Then, only if `data/latest.json` exists and `SITE_URL` is set: `npm run feeds`, `npm run validate`, `npm run build`, upload the Pages artifact. A `deploy` job publishes it. The rising page changes daily, so the site is rebuilt from data already committed. No paid call is made.
 
 `.github/workflows/weekly.yml`
 - Cron: `0 4 * * 1` (Monday, UTC)

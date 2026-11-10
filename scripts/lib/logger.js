@@ -16,6 +16,7 @@ export async function run(step, main) {
     await main(logger);
   } catch (err) {
     logger.error(`FAILED: ${err.message}`);
-    process.exit(1);
+    // exitCode, not exit(): exiting at once can crash Node on Windows while a socket is still closing.
+    process.exitCode = 1;
   }
 }

@@ -11,7 +11,6 @@ const FEED_WEEKS = 10;
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const hasSummaries = (w) => [...w.top, ...w.gems].every((i) => i.summary);
 
-// Items link to the home page until the weekly archive pages exist (Phase 2).
 function feedItem(w) {
   const site = config.site.url;
   const list = w.top
@@ -19,7 +18,7 @@ function feedItem(w) {
     .join('');
   return `    <item>
       <title>${esc(`Top ${w.top.length} GitHub repos, ${w.week} (${w.start} to ${w.end})`)}</title>
-      <link>${esc(`${site}/`)}</link>
+      <link>${esc(`${site}/weeks/${w.week}/`)}</link>
       <guid isPermaLink="false">${esc(`repoweekly-${w.week}`)}</guid>
       <pubDate>${new Date(w.generated).toUTCString()}</pubDate>
       <description>${esc(`<ol>${list}</ol>`)}</description>
@@ -46,6 +45,18 @@ await run('feeds', async (log) => {
 
   const pub = config.paths.publicDir;
   const index = { license: config.licenseNote, weeks: weeks.map((w) => ({ week: w.week, path: `weeks/${w.week}.json` })) };
+  // One flat record per repo, from the newest week it appeared in. The compare page and the
+  // browser extension read this file.
+  const repos = {};
+  for (const w of weeks) {
+    for (const i of [...w.top, ...w.gems]) {
+      repos[i.full_name.toLowerCase()] ??= {
+        full_name: i.full_name, week: w.week, place: w.top.includes(i) ? i.rank : null, gem: !w.top.includes(i),
+        stars_total: i.stars_total, stars_gained: i.stars_gained, language: i.language, ...i.signals,
+        star_check: i.star_check?.level ?? null, difficulty: i.summary.difficulty, beginner_friendly: i.summary.beginner_friendly, tags: i.summary.tags, what_it_is: i.summary.what_it_is,
+      };
+    }
+  }
   const feed = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -64,6 +75,9 @@ ${weeks.slice(0, FEED_WEEKS).map(feedItem).join('\n')}
     writeJson(path.join(pub, 'api', 'latest.json'), latest);
     for (const w of weeks) writeJson(path.join(pub, 'api', 'weeks', `${w.week}.json`), w);
     writeJson(path.join(pub, 'api', 'index.json'), index);
+    writeJson(path.join(pub, 'api', 'repos.json'), { license: config.licenseNote, repos });
+    const rising = readJson(path.join(config.paths.data, 'rising.json'));
+    if (rising) writeJson(path.join(pub, 'api', 'rising.json'), rising);
     fs.mkdirSync(pub, { recursive: true });
     fs.writeFileSync(path.join(pub, 'feed.xml'), feed, 'utf8');
   }

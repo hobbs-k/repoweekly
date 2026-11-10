@@ -48,37 +48,43 @@ Work top to bottom. Tick each box when done and add a line to the Log at the bot
 ## Phase 2: History and filters
 
 - [x] `daily.yml` workflow for collect and snapshot, commits `/data`, same `concurrency` group as weekly
-- [ ] Switch ranking to snapshot growth once 7 days exist; keep bootstrap as cross-check and log differences
-- [ ] Weekly archive: `/weeks/` index and `/weeks/[week]` pages
-- [ ] Repo detail page with signals and star-history chart (`public/js/history-chart.js`)
-- [ ] Language filter (`public/js/filters.js`) and `/language/[lang]` pages
+- [x] Switch ranking to snapshot growth once 7 days exist; keep bootstrap as cross-check and log differences
+- [x] Weekly archive: `/weeks/` index and `/weeks/[week]` pages
+- [x] Repo detail page with signals and star-history chart (`public/js/history-chart.js`)
+- [x] Language filter (`public/js/filters.js`) and `/language/[lang]` pages
 - [x] Spike warning note on cards
 - [x] Signal badges: license, last push, open issues, contributors, good-first-issues
 
 ## Phase 3: Community features
 
-- [ ] Beginner-friendly badge and difficulty label on cards, plus a beginner-only filter
-- [ ] Urdu summaries: turn on `URDU_ENABLED` in summarize.js, plus a toggle on each card
-- [ ] Similar repos block (same topics and language, from tracked set)
-- [ ] Compare page: pick two repos, show stats side by side
-- [ ] `/api-docs` page documenting the static JSON files
+- [x] Beginner-friendly badge and difficulty label on cards, plus a beginner-only filter
+- [x] Urdu summaries: turn on `URDU_ENABLED` in summarize.js, plus a toggle on each card
+- [x] Similar repos block (same topics and language, from tracked set)
+- [x] Compare page: pick two repos, show stats side by side
+- [x] `/api-docs` page documenting the static JSON files
 - [x] Blocklist file support in rank.js
 
 ## Phase 4: Reach
 
-- [ ] Email digest via Buttondown or Resend, sent from the weekly workflow
-- [ ] Telegram channel post and Discord webhook step
-- [ ] "Learn from this repo" weekly mini guide (new summarize mode, one featured repo)
-- [ ] "Dead or alive?" health score page for a pasted repo URL
-- [ ] Browser extension: show trend score on github.com repo pages
+- [x] Email digest via Buttondown or Resend, sent from the weekly workflow
+- [x] Telegram channel post and Discord webhook step
+- [x] "Learn from this repo" weekly mini guide (new summarize mode, one featured repo)
+- [x] "Dead or alive?" health score page for a pasted repo URL
+- [x] Browser extension: show trend score on github.com repo pages
+
+## Phase 5: Trust and early signals
+
+- [x] Star check: `stars.js` samples recent stargazers, cards show a signal (never changes the ranking)
+- [x] Rising now: `rising.js`, `/rising/` page, daily workflow rebuilds and deploys
+- [x] Unit tests for the pure logic (`npm test`)
 
 ## Testing checklist (run before ticking any phase)
 
-- [ ] Every script runs with `--dry-run` and writes nothing
-- [ ] Every script exits non-zero on bad input
-- [ ] No inline scripts in any page
-- [ ] No secrets in git history
-- [ ] Site works on a narrow phone screen
+- [x] Every script runs with `--dry-run` and writes nothing
+- [x] Every script exits non-zero on bad input
+- [x] No inline scripts in any page
+- [x] No secrets in git history
+- [x] Site works on a narrow phone screen
 - [ ] Feed validates in an RSS validator
 
 ## Log
@@ -94,3 +100,11 @@ Work top to bottom. Tick each box when done and add a line to the Log at the bot
 - 2026-11-09: Known limit in collect.js: search sorts by stars and returns at most 1000 repos per query, so very young repos with few stars can be missed. Bootstrap repos are added to the tracked set to help. Revisit when real weekly results can be compared to the trending page.
 - 2026-11-09: Site built with Impeccable (direction: pocket tide table, see PRODUCT.md and `.impeccable/surfaces/`). Pages: home, about, 404. No inline scripts, no tracking; the font is self-hosted (`@fontsource-variable/archivo`, the one added dependency); owner avatars are saved at build time by `scripts/avatars.js`. Checked at 390, 768 and 1440 in light and dark with synthetic data (owners `fx-`). Build fails loudly with no data. Links honour a base path from `SITE_URL`. Finish review ran twice; the first round bounced on bad phone captures (headless Chrome clamps to about 500px wide, so use CDP device emulation).
 - 2026-11-09: Cards show spike note and signal badges now, so those Phase 2 items are ticked early. Still to do for Phase 2: archive pages, repo pages with chart, language filter. The RSS items link to the home page until archive pages exist.
+- 2026-11-10: Phase 2, 3 and 4 code written and tested on a three-week synthetic sample (one bootstrap week) in headless Chrome: archive and week pages, repo pages with a Chart.js history (bootstrap weeks left out), language pages and filters, Urdu details toggle, similar repos, compare, api-docs, `/health`. 31 pages build; no console errors; no horizontal overflow at 390.
+- 2026-11-10: `guide.js` and `notify.js` tested against a mock server only (bad-JSON retry, partial failure, no repeat posts, non-Discord URL refused). `health.js` scoring has assert checks and the live check on a real repo worked. NOT tested for real: Telegram, Discord and Buttondown, a paid `guide`, Urdu text from the model (`URDU_ENABLED=true` is off by default), and the extension (syntax-checked, not loaded in Chrome).
+- 2026-11-10: Known limits. Language pages exist only for languages in the latest week, so old language URLs stop working (marked `shortcut:` in the code). Similar repos use only repos from ranked weeks. `process.exit` became `process.exitCode` in `lib/logger.js` after a Windows crash on failure.
+- 2026-11-10: Testing checklist run. All 12 scripts with a dry run write nothing (md5 of data, public, src, scripts and docs unchanged); 14 bad-input cases exit 1; no script tags without src in the 31 built pages; no secrets in the working tree or history; no horizontal overflow at 390 on any page. The RSS feed passes a local structure check (well-formed, RSS 2.0 elements, unique guids, RFC 822 dates) but has NOT been through the W3C validator, so that box stays open until the site is live.
+- 2026-11-10: Finish review of the Phase 2 to 4 pages (impeccable, two rounds). Round 1 found eight material issues (controls inherited label type, placeholder and checkbox, tap targets, compare table on phones, repo page week label and chart finish, crowded home first viewport, six-item nav wrapping, unstyled health result); all fixed. Round 2 scored seven resolved and one partial: the Urdu summary lost its disclosure triangle, fixed with a drawn chevron and checked in my own captures (closed, open, empty input, Checking state, bad input), not by a third review. Changes from the review: the in-page language select was removed (language is plain links to /language pages, so it needs no script) and the beginner-only checkbox is the only JS filter; the masthead nav is four items with API, Feed and Dead or alive? in the footer. DESIGN.md refreshed for the new type steps and the Urdu and code font fallbacks.
+- 2026-11-10: Phase 5 built. Star check: `lib/starcheck.js` (pure, 5 unit tests in `tests/`) and `stars.js`, tested against a mock GitHub server: a repo with 60 percent new empty accounts is flagged `suspicious`, normal repos are `normal`, a repo that fails is skipped, a low rate limit skips with exit 0, a dry run writes nothing. Rising: `lib/breakout.js` and `rising.js`, tested on the fixtures (two new fixture repos: one accelerating, one steady): only the accelerating one qualifies; thin history writes an empty list with a reason; bad input exits 1. Site: star-check label and note on cards, `/rising/` page, API and About text, `rising.json` and `star_check` in the public files, nav is This week, Rising, Archive, Compare (About moved to the footer).
+- 2026-11-10: NOT tested for real: the star check against real GitHub stargazers (the 20 and 40 percent cut-offs are guesses and need calibrating on real weeks), rising on real snapshots, and the new daily deploy job on GitHub. The star check needs `GH_PAT`; with the built-in token it skips.
+

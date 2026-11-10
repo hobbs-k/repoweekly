@@ -20,7 +20,7 @@ export const config = {
     publicDir: path.resolve(process.env.PUBLIC_DIR || 'public'),
   },
   github: {
-    apiBase: 'https://api.github.com',
+    apiBase: process.env.GITHUB_API_BASE || 'https://api.github.com', // the override is for tests with a mock server
     searchDelayMs: 300,
     maxRetries: 4,
   },
@@ -45,6 +45,8 @@ export const config = {
     gemMaxStars: 500,
     gemMinGain: 40,
   },
+  rising: { minGain: 50, accelerate: 2, count: 10 },
+  starCheck: { pages: 3, sample: 30 },
   summarize: {
     readmeMaxChars: 6000,
     model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5',
