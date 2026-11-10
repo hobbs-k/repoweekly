@@ -14,7 +14,7 @@ The site is static. A scheduled GitHub Action collects data, ranks repos, genera
 - Astro for the static site
 - Chart.js for star-history graphs
 - GitHub REST API (Octokit is fine, or plain fetch)
-- Google Gemini API (plain fetch, free tier) for summaries
+- an OpenAI-style chat API (plain fetch, NVIDIA free tier by default) for summaries
 - GitHub Actions for scheduling
 - Hosting: Cloudflare Pages or GitHub Pages (build output in /dist)
 - Storage: JSON files committed to /data. No database in v1.
@@ -36,7 +36,7 @@ The site is static. A scheduled GitHub Action collects data, ranks repos, genera
 1. Additive changes only. Add new files and functions. Don't rewrite or restructure working code unless a task in TASKS.md says to. If something must change, make the smallest edit and say why.
 2. External JS files only. No inline `<script>` blocks with logic in pages. Put browser code in /public/js and load it with a script tag. Pipeline code lives in /scripts.
 3. Console-based debugging. Use clear `console.log` / `console.error` with a `[step]` prefix in every script (for example `[collect] fetched 87 repos`). Every script prints what it did and a final summary line. No debugger-only workflows.
-4. Never hardcode secrets. Read `GITHUB_TOKEN` and `GEMINI_API_KEY` from environment variables. In Actions, `GITHUB_TOKEN` is filled from the `GH_PAT` secret (see ARCHITECTURE.md). Provide `.env.example`. Never commit `.env`.
+4. Never hardcode secrets. Read `GITHUB_TOKEN` and `LLM_API_KEY` from environment variables. In Actions, `GITHUB_TOKEN` is filled from the `GH_PAT` secret (see ARCHITECTURE.md). Provide `.env.example`. Never commit `.env`.
 5. Every script must be runnable locally with `node scripts/<name>.js` and support a `--dry-run` flag that writes nothing and calls no paid API. Data paths come from `DATA_DIR` (default `data`), so `DATA_DIR=fixtures/data` runs any script against the fixtures.
 6. Fail loudly. If data is missing or an API response looks wrong, exit non-zero. Never publish a week with fewer than 10 ranked repos or with empty summaries.
 11. Weeks are named by the ISO week they cover, not the week they are published in (see DATA_SPEC.md).

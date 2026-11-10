@@ -2,7 +2,7 @@
 
 A free website that shows the top 10 trending GitHub repositories of the week, with a plain-language explanation of each one. No ads, no paywall, no tracking.
 
-A scheduled GitHub Action collects data, ranks repos, writes summaries with the free Gemini API, and rebuilds a static Astro site. Data lives as JSON files in `/data`. Read `docs/CLAUDE.md` first, then the other files in `docs/`.
+A scheduled GitHub Action collects data, ranks repos, writes summaries with the free NVIDIA API, and rebuilds a static Astro site. Data lives as JSON files in `/data`. Read `docs/CLAUDE.md` first, then the other files in `docs/`.
 
 ## Run locally
 
@@ -10,7 +10,7 @@ Needs Node 20 or newer.
 
 ```
 npm install
-cp .env.example .env     # fill in GITHUB_TOKEN and GEMINI_API_KEY
+cp .env.example .env     # fill in GITHUB_TOKEN and LLM_API_KEY
 node scripts/lib/github.js   # prints your remaining GitHub rate limit
 ```
 
@@ -26,7 +26,7 @@ export DATA_DIR=/tmp/rw-data
 node scripts/rank.js --offline --week 2026-W45
 ```
 
-`rank.js --offline` makes no GitHub calls and fills placeholder text. Summaries then need either `GEMINI_API_KEY` or a hand-edited week file. The site build refuses any week without summaries.
+`rank.js --offline` makes no GitHub calls and fills placeholder text. Summaries then need either `LLM_API_KEY` or a hand-edited week file. The site build refuses any week without summaries.
 
 ```
 npm run feeds && npm run dev
@@ -51,7 +51,7 @@ npm run build            # also copies Chart.js into public/js/vendor
 The weekly workflow deploys to GitHub Pages. One-time setup in the repository settings:
 
 1. Settings > Pages: set the source to **GitHub Actions**.
-2. Settings > Secrets and variables > Actions > **Secrets**: add `GEMINI_API_KEY` and `GH_PAT` (a fine-grained personal token with public read access; the built-in token is too limited for the daily snapshot).
+2. Settings > Secrets and variables > Actions > **Secrets**: add `LLM_API_KEY` and `GH_PAT` (a fine-grained personal token with public read access; the built-in token is too limited for the daily snapshot).
 3. Same page > **Variables**: add `SITE_URL`, the public address, for example `https://your-name.github.io/repoweekly`.
 4. Run **Weekly build** once by hand from the Actions tab.
 

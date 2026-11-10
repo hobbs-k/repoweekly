@@ -8,7 +8,7 @@ Work top to bottom. Tick each box when done and add a line to the Log at the bot
 - [x] `npm init`, install astro, chart.js
 - [x] Add npm scripts from CLAUDE.md
 - [x] Add `.gitignore` (node_modules, dist, .env, .astro)
-- [x] Add `.env.example` with GITHUB_TOKEN, GEMINI_API_KEY, GEMINI_MODEL, DATA_DIR, URDU_ENABLED
+- [x] Add `.env.example` with GITHUB_TOKEN, LLM_API_KEY, LLM_MODEL, DATA_DIR, URDU_ENABLED
 - [x] Add `README.md` with a short description and how to run locally
 - [x] Add `scripts/lib/logger.js`, `config.js`, `weeks.js`, `cache.js`, `github.js`
 - [x] Console check: `node scripts/lib/github.js` prints remaining rate limit
@@ -40,7 +40,7 @@ Work top to bottom. Tick each box when done and add a line to the Log at the bot
 ## Phase 1: Automation
 
 - [x] `weekly.yml` workflow with `workflow_dispatch`, `concurrency: data-writes`, and a commit-and-push step for `/data`
-- [ ] Add `GH_PAT` and `GEMINI_API_KEY` repo secrets (document in README)
+- [ ] Add `GH_PAT` and `LLM_API_KEY` repo secrets (document in README)
 - [x] Validation step that fails the run if fewer than 10 ranked repos or any missing summary (`urdu` not required); on failure, commit only `data/summaries/`
 - [x] Deploy step for Cloudflare Pages or GitHub Pages (pick one, document in README)
 - [ ] Run once by hand and confirm the live site updates
@@ -96,7 +96,7 @@ Work top to bottom. Tick each box when done and add a line to the Log at the bot
 - 2026-11-09: Docs fixed before coding. Weeks named by the ISO week they cover; weekly workflow commits /data; rank.js owns `last_in_top200`; `spike: null` in bootstrap mode; `GH_PAT` required and `MAX_TRACKED` cap; Urdu off until Phase 3; added fixtures and `DATA_DIR`.
 - 2026-11-09: Fixtures done. `node fixtures/generate.js` rebuilds `fixtures/data` (28 repos, 8 snapshots Nov 1 to 8, bootstrap W45, blocklist). Expected top 10 for 2026-W45: agent-runner, edge-db, pixel-ui, viral-one-day (spike), shell-pal, model-lens, paper-sync, tiny-queue, form-kit, log-tail. Excluded on purpose: archived, fork, blocklisted. Tie pair and 6 gems included. Stale repo should be dropped by collect.js.
 - 2026-11-09: Pipeline built and tested locally. Snapshot date means end of that day (default yesterday UTC). Tests: rank on fixtures gives the expected top 10, 5 gems, tie-break and prune rules hold; bootstrap parser read the live trending page (14 repos) and rejects bad HTML; rank dry-run on live data worked with real README, contributor and good-first-issue calls; summarize and feeds ran against a mock server (retry on bad JSON, cache hit on rerun). Not yet run: a real `summarize` with a Gemini key, and the full pipeline on live snapshots (needs 7 days of them).
-- 2026-11-09: `weekly.yml`, `daily.yml` and `scripts/validate.js` written. Validate tested on good, bad and missing data. The workflows have NOT run on GitHub yet, so "Run once by hand" stays open. Hosting: GitHub Pages; needs the `SITE_URL` variable and the `GH_PAT` and `GEMINI_API_KEY` secrets (see README).
+- 2026-11-09: `weekly.yml`, `daily.yml` and `scripts/validate.js` written. Validate tested on good, bad and missing data. The workflows have NOT run on GitHub yet, so "Run once by hand" stays open. Hosting: GitHub Pages; needs the `SITE_URL` variable and the `GH_PAT` and `LLM_API_KEY` secrets (see README).
 - 2026-11-09: Known limit in collect.js: search sorts by stars and returns at most 1000 repos per query, so very young repos with few stars can be missed. Bootstrap repos are added to the tracked set to help. Revisit when real weekly results can be compared to the trending page.
 - 2026-11-09: Site built with Impeccable (direction: pocket tide table, see PRODUCT.md and `.impeccable/surfaces/`). Pages: home, about, 404. No inline scripts, no tracking; the font is self-hosted (`@fontsource-variable/archivo`, the one added dependency); owner avatars are saved at build time by `scripts/avatars.js`. Checked at 390, 768 and 1440 in light and dark with synthetic data (owners `fx-`). Build fails loudly with no data. Links honour a base path from `SITE_URL`. Finish review ran twice; the first round bounced on bad phone captures (headless Chrome clamps to about 500px wide, so use CDP device emulation).
 - 2026-11-09: Cards show spike note and signal badges now, so those Phase 2 items are ticked early. Still to do for Phase 2: archive pages, repo pages with chart, language filter. The RSS items link to the home page until archive pages exist.
@@ -108,4 +108,5 @@ Work top to bottom. Tick each box when done and add a line to the Log at the bot
 - 2026-11-10: Phase 5 built. Star check: `lib/starcheck.js` (pure, 5 unit tests in `tests/`) and `stars.js`, tested against a mock GitHub server: a repo with 60 percent new empty accounts is flagged `suspicious`, normal repos are `normal`, a repo that fails is skipped, a low rate limit skips with exit 0, a dry run writes nothing. Rising: `lib/breakout.js` and `rising.js`, tested on the fixtures (two new fixture repos: one accelerating, one steady): only the accelerating one qualifies; thin history writes an empty list with a reason; bad input exits 1. Site: star-check label and note on cards, `/rising/` page, API and About text, `rising.json` and `star_check` in the public files, nav is This week, Rising, Archive, Compare (About moved to the footer).
 - 2026-11-10: NOT tested for real: the star check against real GitHub stargazers (the 20 and 40 percent cut-offs are guesses and need calibrating on real weeks), rising on real snapshots, and the new daily deploy job on GitHub. The star check needs `GH_PAT`; with the built-in token it skips.
 
-- 2026-11-10: Summaries and guide now use the free Gemini API (plain fetch in `scripts/lib/claude.js`, key `GEMINI_API_KEY`, model `GEMINI_MODEL`, default `gemini-3.8-flash` not checked against Google's current list). The Anthropic SDK was removed. Tested against a mock server (429 wait, bad-JSON retry, key header). Not yet run against the real API.
+- 2026-11-10: Summaries and guide now use the free NVIDIA API (plain fetch in `scripts/lib/claude.js`, key `LLM_API_KEY`, model `LLM_MODEL`, default `gemini-3.8-flash` not checked against Google's current list). The Anthropic SDK was removed. Tested against a mock server (429 wait, bad-JSON retry, key header). Not yet run against the real API.
+- 2026-11-10: Gemini was dropped (busy servers, empty replies). Summaries and the guide now use any OpenAI-style chat API through `scripts/lib/claude.js`: secret `LLM_API_KEY`, optional `LLM_MODEL`, `LLM_API_BASE`; default is NVIDIA (`meta/llama-3.3-70b-instruct`, name not checked). Tested against a mock server only.

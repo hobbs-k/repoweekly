@@ -8,40 +8,34 @@ export function extractJson(text) {
 }
 
 export function requireKey() {
-  if (!process.env.GEMINI_API_KEY) throw new Error('GEMINI_API_KEY is not set');
+  if (!process.env.LLM_API_KEY) throw new Error('LLM_API_KEY is not set');
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// One Gemini call, returns the reply text. A rate-limited or busy model is retried, then the next model is tried.
+// One chat call to any OpenAI-style API (NVIDIA by default), returns the reply text.
+// A rate-limited or busy server is retried a few times.
 async function generate({ system, user, maxTokens }) {
   const body = JSON.stringify({
-    systemInstruction: { parts: [{ text: system }] },
-    contents: [{ role: 'user', parts: [{ text: user }] }],
-    generationConfig: { maxOutputTokens: maxTokens * 4, // x4 leaves room for hidden thinking
-    responseMimeType: 'application/json' },
+    model: config.summarize.model,
+    max_tokens: maxTokens,
+    temperature: 0.2,
+    messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
   });
-  let busy = '';
-  for (const model of config.summarize.models) {
-    for (let attempt = 0; attempt < 3; attempt++) {
-      const res = await fetch(`${config.summarize.apiBase}/models/${model}:generateContent`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY },
-        body,
-      });
-      if (res.status === 429 || res.status >= 500) {
-        busy = `${model} returned ${res.status}`;
-        await sleep(config.summarize.retryWaitMs * (attempt + 1));
-        continue;
-      }
-      if (!res.ok) throw new Error(`Gemini returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
-      const data = await res.json();
-      const cand = data.candidates?.[0];
-      const text = (cand?.content?.parts ?? []).map((p) => p.text ?? '').join('');
-      return text || `(empty, finishReason ${cand?.finishReason ?? 'none'}, blocked ${data.promptFeedback?.blockReason ?? 'no'})`;
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(`${config.summarize.apiBase}/chat/completions`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: `Bearer ${process.env.LLM_API_KEY}` },
+      body,
+    });
+    if ((res.status === 429 || res.status >= 500) && attempt < 4) {
+      await sleep(config.summarize.retryWaitMs * (attempt + 1));
+      continue;
     }
+    if (!res.ok) throw new Error(`the AI service returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    const data = await res.json();
+    return data.choices?.[0]?.message?.content ?? '';
   }
-  throw new Error(`every Gemini model was busy (${busy})`);
 }
 
 // One call that must return a JSON object. Retries once with the reason the first reply failed.

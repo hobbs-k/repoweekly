@@ -49,12 +49,10 @@ export const config = {
   starCheck: { pages: 3, sample: 30 },
   summarize: {
     readmeMaxChars: 6000,
-    // shortcut: Google rejected the older gemini-2.5-flash for new users, override with GEMINI_MODEL.
-    model: process.env.GEMINI_MODEL || 'gemini-3.8-flash',
-    // Tried in order when the first is busy (checked against Google's model list on 2026-11-10).
-    models: [process.env.GEMINI_MODEL || 'gemini-3.8-flash', 'gemini-3.6-flash', 'gemini-3.5-flash-lite'],
-    apiBase: process.env.GEMINI_API_BASE || 'https://generativelanguage.googleapis.com/v1beta',
-    retryWaitMs: Number(process.env.GEMINI_RETRY_WAIT_MS) || 10000,
+    // shortcut: default model name not checked against NVIDIA's current free list, override with LLM_MODEL.
+    model: process.env.LLM_MODEL || 'meta/llama-3.3-70b-instruct',
+    apiBase: process.env.LLM_API_BASE || 'https://integrate.api.nvidia.com/v1',
+    retryWaitMs: Number(process.env.LLM_RETRY_WAIT_MS) || 10000,
     urduEnabled: process.env.URDU_ENABLED === 'true',
   },
 };

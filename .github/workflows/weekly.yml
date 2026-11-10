@@ -16,7 +16,7 @@ concurrency:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
   # The public address of the site, for example https://user.github.io/repoweekly
   # Set it under Settings > Secrets and variables > Actions > Variables.
   SITE_URL: ${{ vars.SITE_URL }}
@@ -28,7 +28,7 @@ jobs:
       - name: Check settings
         run: |
           test -n "$SITE_URL" || { echo "[weekly] FAILED: the SITE_URL variable is not set"; exit 1; }
-          test -n "$GEMINI_API_KEY" || { echo "[weekly] FAILED: the GEMINI_API_KEY secret is not set"; exit 1; }
+          test -n "$LLM_API_KEY" || { echo "[weekly] FAILED: the LLM_API_KEY secret is not set"; exit 1; }
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
