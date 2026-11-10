@@ -18,7 +18,8 @@ async function generate({ system, user, maxTokens }) {
   const body = JSON.stringify({
     systemInstruction: { parts: [{ text: system }] },
     contents: [{ role: 'user', parts: [{ text: user }] }],
-    generationConfig: { maxOutputTokens: maxTokens * 4, // room for the model's hidden thinking responseMimeType: 'application/json' },
+    generationConfig: { maxOutputTokens: maxTokens * 4, // x4 leaves room for hidden thinking
+    responseMimeType: 'application/json' },
   });
   let busy = '';
   for (const model of config.summarize.models) {
