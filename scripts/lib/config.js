@@ -49,9 +49,9 @@ export const config = {
   starCheck: { pages: 3, sample: 30 },
   summarize: {
     readmeMaxChars: 6000,
-    // shortcut: default model name not checked against NVIDIA's current free list, override with LLM_MODEL.
-    model: process.env.LLM_MODEL || 'meta/llama-3.3-70b-instruct',
-    apiBase: process.env.LLM_API_BASE || 'https://integrate.api.nvidia.com/v1',
+    // shortcut: default model name not checked against OpenRouter's free list as of 2026-11-11, override with LLM_MODEL.
+    model: process.env.LLM_MODEL || 'google/gemma-4-31b-it:free',
+    apiBase: process.env.LLM_API_BASE || 'https://openrouter.ai/api/v1',
     retryWaitMs: Number(process.env.LLM_RETRY_WAIT_MS) || 10000,
     urduEnabled: process.env.URDU_ENABLED === 'true',
   },

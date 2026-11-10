@@ -16,7 +16,7 @@ concurrency:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-  LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+  LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.NVIDIA_API_KEY }}
   # The public address of the site, for example https://user.github.io/repoweekly
   # Set it under Settings > Secrets and variables > Actions > Variables.
   SITE_URL: ${{ vars.SITE_URL }}

@@ -2,7 +2,7 @@
 
 A free website that shows the top 10 trending GitHub repositories of the week, with a plain-language explanation of each one. No ads, no paywall, no tracking.
 
-A scheduled GitHub Action collects data, ranks repos, writes summaries with the free NVIDIA API, and rebuilds a static Astro site. Data lives as JSON files in `/data`. Read `docs/CLAUDE.md` first, then the other files in `docs/`.
+A scheduled GitHub Action collects data, ranks repos, writes summaries with the free OpenRouter API, and rebuilds a static Astro site. Data lives as JSON files in `/data`. Read `docs/CLAUDE.md` first, then the other files in `docs/`.
 
 ## Run locally
 

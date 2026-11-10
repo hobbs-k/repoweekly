@@ -14,7 +14,7 @@ The site is static. A scheduled GitHub Action collects data, ranks repos, genera
 - Astro for the static site
 - Chart.js for star-history graphs
 - GitHub REST API (Octokit is fine, or plain fetch)
-- an OpenAI-style chat API (plain fetch, NVIDIA free tier by default) for summaries
+- an OpenAI-style chat API (plain fetch, OpenRouter free models by default) for summaries
 - GitHub Actions for scheduling
 - Hosting: Cloudflare Pages or GitHub Pages (build output in /dist)
 - Storage: JSON files committed to /data. No database in v1.
