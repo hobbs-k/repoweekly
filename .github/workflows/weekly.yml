@@ -105,6 +105,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }} # the branch tip, which has the data commit made during this run
       - uses: actions/setup-node@v4
         with:
           node-version: 22
