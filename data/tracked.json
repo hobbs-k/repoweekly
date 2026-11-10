@@ -8016,6 +8016,38 @@
     "The-PR-Agent/pr-agent": {
       "first_seen": "2026-11-10",
       "last_in_top200": "2026-11-10"
+    },
+    "docker/awesome-compose": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "SunshineStream/Sunshine": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "hmjz100/LinkSwift": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "sorrycc/awesome-javascript": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "adriadam10/mkw-recomp": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "MuseumCassowaryCarve/twitch-drops-miner": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "TngSHoO/agentcase-lab": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
+    },
+    "Junhan2/ztd-charts": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": null
     }
   }
 }
