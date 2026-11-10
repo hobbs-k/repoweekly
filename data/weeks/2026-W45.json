@@ -2,7 +2,7 @@
   "week": "2026-W45",
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "generated": "2026-11-10T19:11:30.957Z",
+  "generated": "2026-11-10T19:50:33.993Z",
   "growth_source": "bootstrap",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "top": [
@@ -14,14 +14,14 @@
       "description": "",
       "language": "TypeScript",
       "topics": [],
-      "stars_total": 55470,
+      "stars_total": 55515,
       "stars_gained": 13448,
       "daily_gains": [],
       "spike": null,
       "signals": {
         "license": "MIT",
         "last_push": "2026-11-10",
-        "open_issues": 5737,
+        "open_issues": 5746,
         "contributors": 945,
         "good_first_issues": 1,
         "age_days": 273
@@ -62,7 +62,7 @@
         "mcp",
         "rust"
       ],
-      "stars_total": 21242,
+      "stars_total": 21260,
       "stars_gained": 12120,
       "daily_gains": [],
       "spike": null,
@@ -97,7 +97,7 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "topics": [],
-      "stars_total": 68984,
+      "stars_total": 69036,
       "stars_gained": 10695,
       "daily_gains": [],
       "spike": null,
@@ -132,7 +132,7 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
       "topics": [],
-      "stars_total": 11382,
+      "stars_total": 11389,
       "stars_gained": 10159,
       "daily_gains": [],
       "spike": null,
@@ -167,7 +167,7 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "topics": [],
-      "stars_total": 320707,
+      "stars_total": 320744,
       "stars_gained": 9800,
       "daily_gains": [],
       "spike": null,
@@ -214,14 +214,14 @@
         "self-hosted",
         "typescript"
       ],
-      "stars_total": 20555,
+      "stars_total": 20561,
       "stars_gained": 8325,
       "daily_gains": [],
       "spike": null,
       "signals": {
         "license": "Apache-2.0",
         "last_push": "2026-11-10",
-        "open_issues": 1033,
+        "open_issues": 1036,
         "contributors": 237,
         "good_first_issues": 0,
         "age_days": 89
@@ -270,7 +270,7 @@
         "webscraping",
         "xpath"
       ],
-      "stars_total": 101035,
+      "stars_total": 101046,
       "stars_gained": 8226,
       "daily_gains": [],
       "spike": null,
@@ -326,30 +326,30 @@
         "sqlite",
         "supermemory"
       ],
-      "stars_total": 115747,
+      "stars_total": 115755,
       "stars_gained": 5130,
       "daily_gains": [],
       "spike": null,
       "signals": {
         "license": "Apache-2.0",
         "last_push": "2026-11-10",
-        "open_issues": 203,
+        "open_issues": 125,
         "contributors": 363,
         "good_first_issues": 0,
         "age_days": 434
       },
       "summary": {
-        "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It captures what the agent does, compresses it with AI, and injects relevant context into future sessions.",
-        "why_trending": "The project gained over 5,000 stars in a week and shows a 'GitHub Trending Repository of the Day' badge in its README.",
-        "who_its_for": "Developers who use AI coding agents like Claude Code, Codex, Gemini, or Copilot and want them to remember past work.",
+        "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It runs a side agent that records what happens, compresses the notes with AI, and feeds relevant context back at the start of the next session. Works with Claude Code, Copilot, Codex, Gemini, and other agents.",
+        "why_trending": "The README displays a 'GitHub Trending Repository of the Day' badge and the project gained over 5,000 stars in a week, indicating a recent surge in attention.",
+        "who_its_for": "Developers who use AI coding assistants and want them to remember past work instead of starting fresh each session.",
         "beginner_friendly": false,
-        "difficulty": "easy",
+        "difficulty": "medium",
         "tags": [
-          "ai",
           "ai-agents",
           "memory",
+          "rag",
           "claude",
-          "typescript"
+          "embeddings"
         ]
       }
     },
@@ -374,7 +374,7 @@
         "unity",
         "unreal-engine"
       ],
-      "stars_total": 37993,
+      "stars_total": 38001,
       "stars_gained": 4324,
       "daily_gains": [],
       "spike": null,
@@ -411,14 +411,14 @@
       "topics": [
         "agent-skills"
       ],
-      "stars_total": 192104,
+      "stars_total": 192135,
       "stars_gained": 3796,
       "daily_gains": [],
       "spike": null,
       "signals": {
         "license": null,
         "last_push": "2026-11-06",
-        "open_issues": 1514,
+        "open_issues": 1515,
         "contributors": 17,
         "good_first_issues": 0,
         "age_days": 412

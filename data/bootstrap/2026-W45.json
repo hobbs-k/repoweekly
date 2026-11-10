@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
   "source": "github.com/trending?since=weekly",
-  "fetched": "2026-11-10T19:11:16.204Z",
+  "fetched": "2026-11-10T19:50:19.448Z",
   "repos": [
     {
       "full_name": "NVIDIA/auto-ontology",

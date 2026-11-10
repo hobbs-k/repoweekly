@@ -1,19 +1,19 @@
 {
-  "readme_hash": "32db352e6c4ce00a8c8409a090f6950a8fc1fd9d",
-  "generated": "2026-11-10T19:14:33.129Z",
+  "readme_hash": "347e474e163220dfe8f2a31872972d92352b0a26",
+  "generated": "2026-11-10T19:50:47.987Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It captures what the agent does, compresses it with AI, and injects relevant context into future sessions.",
-    "why_trending": "The project gained over 5,000 stars in a week and shows a 'GitHub Trending Repository of the Day' badge in its README.",
-    "who_its_for": "Developers who use AI coding agents like Claude Code, Codex, Gemini, or Copilot and want them to remember past work.",
+    "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It runs a side agent that records what happens, compresses the notes with AI, and feeds relevant context back at the start of the next session. Works with Claude Code, Copilot, Codex, Gemini, and other agents.",
+    "why_trending": "The README displays a 'GitHub Trending Repository of the Day' badge and the project gained over 5,000 stars in a week, indicating a recent surge in attention.",
+    "who_its_for": "Developers who use AI coding assistants and want them to remember past work instead of starting fresh each session.",
     "beginner_friendly": false,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "tags": [
-      "ai",
       "ai-agents",
       "memory",
+      "rag",
       "claude",
-      "typescript"
+      "embeddings"
     ]
   }
 }
