@@ -1,0 +1,117 @@
+{
+  "updated": "2026-11-08",
+  "repos": {
+    "fx-alpha/agent-runner": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-beta/edge-db": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-gamma/pixel-ui": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-delta/shell-pal": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-epsilon/model-lens": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-zeta/paper-sync": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-eta/tiny-queue": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-theta/form-kit": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-iota/log-tail": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-kappa/learn-rust-by-doing": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-lambda/map-tiles": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-mu/chat-widget": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-nu/py-notebook-tools": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-xi/cron-view": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-omicron/quiet-theme": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-pi/tie-many-days": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-rho/tie-few-days": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-sigma/viral-one-day": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-tau/small-parser": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-upsilon/cli-snippets": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-phi/budget-tracker": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-chi/rss-reader": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-psi/kata-pack": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-omega/tiny-gem-sixth": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-arch/old-but-loud": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-forkd/copycat": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-farm/bought-stars": {
+      "first_seen": "2026-10-20",
+      "last_in_top200": null
+    },
+    "fx-stale/forgotten": {
+      "first_seen": "2026-08-20",
+      "last_in_top200": "2026-09-15"
+    }
+  }
+}

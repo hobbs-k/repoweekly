@@ -1,0 +1,399 @@
+{
+  "date": "2026-11-05",
+  "repos": {
+    "fx-alpha/agent-runner": {
+      "stars": 44547,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-09-09T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "agents"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-beta/edge-db": {
+      "stars": 25133,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-08-15T00:00:00.000Z",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "database",
+        "wasm"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-gamma/pixel-ui": {
+      "stars": 20823,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-07-21T00:00:00.000Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "ui",
+        "react"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-delta/shell-pal": {
+      "stars": 12028,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-06-26T00:00:00.000Z",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "terminal"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-epsilon/model-lens": {
+      "stars": 9000,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-06-01T00:00:00.000Z",
+      "language": "Python",
+      "license": null,
+      "topics": [
+        "ai",
+        "visualization"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-zeta/paper-sync": {
+      "stars": 14233,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-05-07T00:00:00.000Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "notes",
+        "sync"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-eta/tiny-queue": {
+      "stars": 6296,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-04-12T00:00:00.000Z",
+      "language": "Zig",
+      "license": "MIT",
+      "topics": [
+        "queue"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-theta/form-kit": {
+      "stars": 16333,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-03-18T00:00:00.000Z",
+      "language": "JavaScript",
+      "license": "MIT",
+      "topics": [
+        "forms"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-iota/log-tail": {
+      "stars": 7303,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-02-21T00:00:00.000Z",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "logging"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-kappa/learn-rust-by-doing": {
+      "stars": 9892,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-01-27T00:00:00.000Z",
+      "language": "Rust",
+      "license": null,
+      "topics": [
+        "education",
+        "rust"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-lambda/map-tiles": {
+      "stars": 4018,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-01-02T00:00:00.000Z",
+      "language": "C++",
+      "license": "MIT",
+      "topics": [
+        "maps"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-mu/chat-widget": {
+      "stars": 3462,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-12-08T00:00:00.000Z",
+      "language": "JavaScript",
+      "license": "MIT",
+      "topics": [
+        "chat"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-nu/py-notebook-tools": {
+      "stars": 5051,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-11-13T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "notebook",
+        "data"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-xi/cron-view": {
+      "stars": 2557,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-10-19T00:00:00.000Z",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "cron",
+        "cli"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-omicron/quiet-theme": {
+      "stars": 7144,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-09-24T00:00:00.000Z",
+      "language": "CSS",
+      "license": null,
+      "topics": [
+        "theme"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-pi/tie-many-days": {
+      "stars": 4856,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-10-04T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "tie"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-rho/tie-few-days": {
+      "stars": 5000,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-10-04T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "tie"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-sigma/viral-one-day": {
+      "stars": 9090,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-19T00:00:00.000Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "spike"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-tau/small-parser": {
+      "stars": 295,
+      "forks": 8,
+      "open_issues": 3,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-27T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "gem"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-upsilon/cli-snippets": {
+      "stars": 302,
+      "forks": 8,
+      "open_issues": 3,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-24T00:00:00.000Z",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "gem"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-phi/budget-tracker": {
+      "stars": 316,
+      "forks": 8,
+      "open_issues": 3,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-21T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "gem"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-chi/rss-reader": {
+      "stars": 354,
+      "forks": 8,
+      "open_issues": 3,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "gem"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-psi/kata-pack": {
+      "stars": 410,
+      "forks": 8,
+      "open_issues": 3,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-15T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "gem"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-omega/tiny-gem-sixth": {
+      "stars": 446,
+      "forks": 8,
+      "open_issues": 3,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-12T00:00:00.000Z",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "gem"
+      ],
+      "archived": false,
+      "fork": false
+    },
+    "fx-arch/old-but-loud": {
+      "stars": 25290,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-10-04T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "archived": true,
+      "fork": false
+    },
+    "fx-forkd/copycat": {
+      "stars": 5860,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-10-04T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "archived": false,
+      "fork": true
+    },
+    "fx-farm/bought-stars": {
+      "stars": 5193,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2026-10-24T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "archived": false,
+      "fork": false
+    },
+    "fx-stale/forgotten": {
+      "stars": 700,
+      "forks": 100,
+      "open_issues": 20,
+      "pushed_at": "2026-11-05T05:14:00Z",
+      "created_at": "2025-10-04T00:00:00.000Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "archived": false,
+      "fork": false
+    }
+  }
+}

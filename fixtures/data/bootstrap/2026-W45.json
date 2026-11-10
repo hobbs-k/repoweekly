@@ -1,0 +1,82 @@
+{
+  "week": "2026-W45",
+  "source": "github.com/trending?since=weekly",
+  "fetched": "2026-11-09T04:00:00Z",
+  "repos": [
+    {
+      "full_name": "fx-arch/old-but-loud",
+      "stars_this_week": 8640,
+      "language": "Python"
+    },
+    {
+      "full_name": "fx-forkd/copycat",
+      "stars_this_week": 7760,
+      "language": "Python"
+    },
+    {
+      "full_name": "fx-farm/bought-stars",
+      "stars_this_week": 6860,
+      "language": "Python"
+    },
+    {
+      "full_name": "fx-alpha/agent-runner",
+      "stars_this_week": 6138,
+      "language": "Python"
+    },
+    {
+      "full_name": "fx-beta/edge-db",
+      "stars_this_week": 5400,
+      "language": "Rust"
+    },
+    {
+      "full_name": "fx-gamma/pixel-ui",
+      "stars_this_week": 4512,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "fx-sigma/viral-one-day",
+      "stars_this_week": 4026,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "fx-delta/shell-pal",
+      "stars_this_week": 4018,
+      "language": "Go"
+    },
+    {
+      "full_name": "fx-epsilon/model-lens",
+      "stars_this_week": 3564,
+      "language": "Python"
+    },
+    {
+      "full_name": "fx-zeta/paper-sync",
+      "stars_this_week": 3000,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "fx-eta/tiny-queue",
+      "stars_this_week": 2400,
+      "language": "Zig"
+    },
+    {
+      "full_name": "fx-theta/form-kit",
+      "stars_this_week": 2037,
+      "language": "JavaScript"
+    },
+    {
+      "full_name": "fx-iota/log-tail",
+      "stars_this_week": 1764,
+      "language": "Rust"
+    },
+    {
+      "full_name": "fx-kappa/learn-rust-by-doing",
+      "stars_this_week": 1584,
+      "language": "Rust"
+    },
+    {
+      "full_name": "fx-ghost/not-tracked",
+      "stars_this_week": 1200,
+      "language": "Go"
+    }
+  ]
+}

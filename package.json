@@ -1,0 +1,37 @@
+{
+  "name": "repoweekly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "collect": "node scripts/collect.js",
+    "snapshot": "node scripts/snapshot.js",
+    "rank": "node scripts/rank.js",
+    "summarize": "node scripts/summarize.js",
+    "feeds": "node scripts/feeds.js",
+    "build:data": "npm run rank && npm run summarize && npm run feeds && npm run avatars",
+    "dev": "astro dev",
+    "build": "astro build",
+    "bootstrap": "node scripts/bootstrap-trending.js",
+    "validate": "node scripts/validate.js",
+    "avatars": "node scripts/avatars.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "@fontsource-variable/archivo": "^5.3.0",
+    "astro": "^7.4.7",
+    "chart.js": "^4.6.1"
+  }
+}

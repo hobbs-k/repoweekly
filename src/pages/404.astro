@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/format.js';
+---
+
+<Layout title="Page not found: RepoWeekly" description="This page does not exist.">
+  <div class="wrap page">
+    <h1>That page is not here</h1>
+    <p>The link may be wrong, or the page may have moved.</p>
+    <ul>
+      <li><a href={href('/')}>See this week's ranking</a></li>
+      <li><a href={href('/about/')}>Read how the ranking works</a></li>
+      <li><a href={href('/feed.xml')}>Subscribe to the RSS feed</a></li>
+    </ul>
+  </div>
+</Layout>

@@ -1,0 +1,57 @@
+---
+import '@fontsource-variable/archivo/wdth.css';
+import '../styles/global.css';
+import { config } from '../../scripts/lib/config.js';
+import { href } from '../lib/format.js';
+
+const { title, description, current = '' } = Astro.props;
+const nav = [
+  { href: href('/'), label: 'This week', key: 'home' },
+  { href: href('/#gems'), label: 'Gems', key: 'gems' },
+  { href: href('/about/'), label: 'About', key: 'about' },
+  { href: href('/feed.xml'), label: 'Feed', key: 'feed' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="RepoWeekly" href={href('/feed.xml')} />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to the content</a>
+    <header class="mast">
+      <div class="wrap">
+        <a class="brand" href={href('/')}>RepoWeekly</a>
+        <nav class="nav" aria-label="Main">
+          <ul>
+            {nav.map((n) => (
+              <li><a href={n.href} aria-current={current === n.key ? 'page' : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="foot">
+      <div class="wrap">
+        <p>RepoWeekly is free. It has no ads, no paywall and no tracking.</p>
+        <ul>
+          <li><a href={href('/api/latest.json')}>Latest week as JSON</a></li>
+          <li><a href={href('/api/index.json')}>All weeks</a></li>
+          <li><a href={href('/feed.xml')}>RSS feed</a></li>
+          <li><a href={href('/about/')}>How it works</a></li>
+        </ul>
+        <p>{config.licenseNote}</p>
+      </div>
+    </footer>
+  </body>
+</html>

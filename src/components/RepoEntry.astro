@@ -1,0 +1,91 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { config } from '../../scripts/lib/config.js';
+import { DAYS, DAYS_LONG, fmt, fmtAge, fmtDate, href } from '../lib/format.js';
+
+const { item, kind = 'top' } = Astro.props;
+const { summary: s, signals: g } = item;
+const [owner, name] = item.full_name.split('/');
+const daily = item.daily_gains;
+const hasDaily = daily.length === 7;
+const max = Math.max(...daily, 1);
+const total = daily.reduce((a, b) => a + b, 0);
+const peak = hasDaily ? daily.indexOf(Math.max(...daily)) : -1;
+const peakShare = hasDaily && total > 0 ? Math.round((100 * daily[peak]) / total) : 0;
+const upper = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+
+// avatars.js saves owner avatars at build time, so visitors never contact GitHub's image host.
+// With no saved file a monogram box keeps the name column aligned instead of showing a broken image.
+const avatarFile = ['png', 'jpg', 'webp', 'gif']
+  .map((ext) => `${owner.toLowerCase()}.${ext}`)
+  .find((f) => fs.existsSync(path.join(config.paths.publicDir, 'avatars', f)));
+const rankLabel = kind === 'gem' ? `G${item.rank}` : String(item.rank);
+---
+
+<li class="entry" value={item.rank}>
+  <span class:list={['rank', { 'rank-gem': kind === 'gem' }]} aria-hidden="true">{rankLabel}</span>
+
+  <div class="entry-head">
+    {avatarFile
+      ? <img class="avatar" src={href(`/avatars/${avatarFile}`)} width="40" height="40" alt="" loading="lazy" decoding="async" />
+      : <span class="avatar avatar-mono" aria-hidden="true">{owner.charAt(0).toUpperCase()}</span>}
+    <h3 class="entry-name">
+      <a href={item.url} rel="noopener"><span class="owner">{owner}/</span>{name}</a>
+    </h3>
+  </div>
+
+  <div class="entry-body">
+    {item.description && <p class="entry-desc">{item.description}</p>}
+    <div class="read">
+      <p><span class="run">What it is</span>{s.what_it_is}</p>
+      <p><span class="run">Why it is trending</span>{s.why_trending}</p>
+      <p><span class="run">Who it is for</span>{s.who_its_for}</p>
+    </div>
+    <ul class="meta">
+      <li>{fmt(item.stars_total)} stars in total</li>
+      {item.language && <li>{item.language}</li>}
+      <li>{upper(s.difficulty)} to start</li>
+      {s.beginner_friendly && <li>Good for beginners</li>}
+      {s.tags.map((t) => <li>{t}</li>)}
+    </ul>
+    {item.spike === true && (
+      <p class="note"><strong>Spike.</strong> {peakShare} percent of this week's gain came on {DAYS_LONG[peak]}. The repository is still ranked. Read the gain with care.</p>
+    )}
+  </div>
+
+  <div class="figs">
+    {hasDaily ? (
+      <table class="tide">
+        <caption class="sr-only">Stars gained each day, Monday to Sunday</caption>
+        <tbody>
+          {daily.map((v, i) => (
+            <tr class:list={{ 'is-peak': item.spike === true && i === peak }}>
+              <th scope="row">{DAYS[i]}</th>
+              <td class="track" aria-hidden="true">
+                <span class="scale"><span class="bar" style={`--w:${Math.round((v / max) * 100)}%;--i:${i}`}></span></span>
+              </td>
+              <td class="val">{fmt(v)}{item.spike === true && i === peak ? ' (spike)' : ''}</td>
+            </tr>
+          ))}
+        </tbody>
+        <tfoot>
+          <tr><th scope="row">Week</th><td></td><td class="val">+{fmt(item.stars_gained)}</td></tr>
+        </tfoot>
+      </table>
+    ) : (
+      <>
+        <p class="week-only"><strong>+{fmt(item.stars_gained)}</strong> stars this week</p>
+        <p class="muted">Daily detail is not available for this week.</p>
+      </>
+    )}
+    <dl class="signals">
+      <div><dt>License</dt><dd>{g.license ?? 'None listed'}</dd></div>
+      <div><dt>Last push</dt><dd>{fmtDate(g.last_push)}</dd></div>
+      <div><dt>Age</dt><dd>{fmtAge(g.age_days)}</dd></div>
+      <div><dt>Open issues</dt><dd>{fmt(g.open_issues)}</dd></div>
+      <div><dt>Contributors</dt><dd>{fmt(g.contributors)}</dd></div>
+      <div><dt>Good first issues</dt><dd>{fmt(g.good_first_issues)}</dd></div>
+    </dl>
+  </div>
+</li>

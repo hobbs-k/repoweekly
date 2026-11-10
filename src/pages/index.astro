@@ -1,0 +1,47 @@
+---
+import RepoEntry from '../components/RepoEntry.astro';
+import Layout from '../layouts/Layout.astro';
+import { config } from '../../scripts/lib/config.js';
+import { loadLatestWeek } from '../lib/data.js';
+import { formatRange, weekNumber } from '../lib/format.js';
+
+const w = loadLatestWeek();
+const range = formatRange(w.start, w.end);
+const year = w.start.slice(0, 4);
+---
+
+<Layout
+  title={`RepoWeekly: top GitHub repositories, week ${weekNumber(w.week)} of ${year}`}
+  description={`The ${w.top.length} GitHub repositories that gained the most stars in week ${weekNumber(w.week)} of ${year}, each explained in plain language.`}
+  current="home"
+>
+  <div class="wrap">
+    <section class="intro">
+      <h1>The ten repositories that gained the most stars this week</h1>
+      <p class="lede">Week {weekNumber(w.week)}, {range}. Ranked by stars gained over the week, not by total stars.</p>
+      <p class="lede-soft">An AI writes each summary from the project's own README, so check the repository before you rely on it.</p>
+      {w.growth_source === 'snapshots' && (
+        <p class="lede-soft">Each daily bar runs from zero to that repository's busiest day, with a tick every quarter.</p>
+      )}
+      {w.growth_source === 'bootstrap' && (
+        <p class="notice">This week's numbers come from the GitHub trending page. Daily detail and spike checks are not available.</p>
+      )}
+    </section>
+
+    <ol class="entries" aria-label="Top ten repositories this week">
+      {w.top.map((item) => <RepoEntry item={item} />)}
+    </ol>
+
+    {w.gems.length > 0 && (
+      <section aria-labelledby="gems">
+        <div class="section-head" id="gems">
+          <h2 id="gems-title">Hidden gems</h2>
+          <p>Projects with under {config.ranking.gemMaxStars} stars that gained at least {config.ranking.gemMinGain} this week. Small and early.</p>
+        </div>
+        <ol class="entries" aria-labelledby="gems-title">
+          {w.gems.map((item) => <RepoEntry item={item} kind="gem" />)}
+        </ol>
+      </section>
+    )}
+  </div>
+</Layout>

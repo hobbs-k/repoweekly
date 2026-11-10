@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { config } from '../../scripts/lib/config.js';
+import { href } from '../lib/format.js';
+
+const r = config.ranking;
+---
+
+<Layout
+  title="How RepoWeekly works"
+  description="How RepoWeekly picks, ranks and explains the top GitHub repositories of the week."
+  current="about"
+>
+  <div class="wrap page">
+    <h1>How RepoWeekly works</h1>
+
+    <p>RepoWeekly shows the ten GitHub repositories that gained the most stars in the last full week, with a short plain explanation of each. It is free, has no ads and does not track you. It exists to help developers, students and beginners find good open-source projects.</p>
+
+    <h2>How the ranking works</h2>
+    <ol>
+      <li>We look at repositories pushed in the last {config.collect.pushedWithinDays} days with at least {config.collect.minStarsPushed} stars, and repositories created in the last {config.collect.createdWithinDays} days with at least {config.collect.minStarsCreated} stars.</li>
+      <li>We leave out archived repositories, forks, awesome-list repositories, repositories with no description and no README, and a short blocklist.</li>
+      <li>The score is the number of stars gained over the week, from Monday to Sunday (UTC). Total stars do not count.</li>
+      <li>If two repositories gained the same number of stars, the one with gains on more days ranks higher. If that is also equal, the one with fewer total stars ranks higher, so newer projects get a chance.</li>
+    </ol>
+    <p>We take a star count of every tracked repository once a day. The daily table on each entry is the difference between two days. Each bar runs from zero to that repository's busiest day, with a tick every quarter, so bars compare days within one repository, not across repositories.</p>
+
+    <h2>Spikes</h2>
+    <p>If more than {Math.round(r.spikeShare * 100)} percent of a repository's weekly gain came on one day, the entry says so. It is still ranked. A spike can be a post that went viral, or stars that were not earned. We cannot tell which.</p>
+
+    <h2>Hidden gems</h2>
+    <p>Repositories with under {r.gemMaxStars} stars that gained at least {r.gemMinGain} in the week. We show the top {r.gemCount} by gain.</p>
+
+    <h2>The summaries</h2>
+    <p>An AI model writes each summary. It only sees the repository's description, a few facts from GitHub and the first part of its README. It is told not to guess. It can still be wrong, so every entry links to the repository. "Why it is trending" is a likely reason based on the project's own text, not a proven cause.</p>
+
+    <h2>The first weeks</h2>
+    <p>Until we have seven days of our own star counts, we use the numbers on the GitHub trending page. Those weeks have no daily table and no spike check. The page says so when it happens.</p>
+
+    <h2>Data and feed</h2>
+    <ul>
+      <li><a href={href('/api/latest.json')}>The latest week as JSON</a></li>
+      <li><a href={href('/api/index.json')}>A list of all weeks</a></li>
+      <li><a href={href('/feed.xml')}>The RSS feed</a></li>
+    </ul>
+    <p>{config.licenseNote}</p>
+  </div>
+</Layout>

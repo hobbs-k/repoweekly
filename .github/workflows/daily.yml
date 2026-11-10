@@ -1,0 +1,43 @@
+name: Daily snapshot
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Daily and weekly runs both write /data, so they never run at the same time.
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+env:
+  # GH_PAT gives 5,000 requests per hour. The built-in token only gives 1,000.
+  GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run collect
+      - run: npm run snapshot
+      - name: Commit data
+        run: |
+          git config user.name "repoweekly-bot"
+          git config user.email "repoweekly-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "[daily] nothing to commit"
+          else
+            git commit -m "data: daily snapshot $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi

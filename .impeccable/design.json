@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T00:00:00Z",
+  "title": "Design System: RepoWeekly",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Shallow Water", "canonical": "#e3eef3", "tonalRamp": ["#0a1826", "#1f3a50", "#4a6a80", "#7a97aa", "#9db5c3", "#c3d6e0", "#e3eef3", "#f4f9fb"] },
+      "ink": { "role": "neutral", "displayName": "Chart Ink", "canonical": "#0c2236", "tonalRamp": ["#050f19", "#0c2236", "#2a4559", "#4a6679", "#6e8899", "#98adba", "#c4d2da", "#e8eff3"] },
+      "ink-soft": { "role": "neutral", "displayName": "Faded Ink", "canonical": "#3f5668", "tonalRamp": ["#14212b", "#2a3d4c", "#3f5668", "#587184", "#738b9c", "#92a7b5", "#b7c7d1", "#dae4ea"] },
+      "rule": { "role": "neutral", "displayName": "Hairline Blue", "canonical": "#9db5c3", "tonalRamp": ["#2a4256", "#456078", "#617d92", "#7d99ab", "#9db5c3", "#b8cbd6", "#d3e0e7", "#eaf1f5"] },
+      "bar": { "role": "secondary", "displayName": "Tide Slate Blue", "canonical": "#4a7389", "tonalRamp": ["#16262f", "#243d4b", "#345568", "#4a7389", "#6890a5", "#8aaabb", "#b0c5d1", "#d6e2e9"] },
+      "mark": { "role": "primary", "displayName": "Chart Magenta", "canonical": "#b0105f", "tonalRamp": ["#3a0420", "#640939", "#8a0d4c", "#b0105f", "#d1407f", "#e872a4", "#f4a6c6", "#fbd7e5"] },
+      "mast-bg": { "role": "neutral", "displayName": "Masthead Navy", "canonical": "#0c2236", "tonalRamp": ["#040c14", "#0c2236", "#1f3a50", "#365266", "#4f6b80", "#7089a0", "#9db0c0", "#cfd9e2"] },
+      "mast-mark": { "role": "primary", "displayName": "Masthead Pink", "canonical": "#ff7db4", "tonalRamp": ["#4a1030", "#7a1d4f", "#aa2f70", "#d44a90", "#ff7db4", "#ff9cc6", "#ffbfd9", "#ffe0ec"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Rank Numeral", "purpose": "Huge condensed rank numerals (62% width, 800). Responsive 2.75rem, 4.25rem, 6rem." },
+      "headline": { "displayName": "Page Headline", "purpose": "Page h1 at 70% width, 800, max 22ch." },
+      "title": { "displayName": "Repo Name", "purpose": "Repo names at 88% width, 700, owner prefix at 400 in Faded Ink." },
+      "body": { "displayName": "Body", "purpose": "Reading text at 100% width, 66ch measure, tabular figures." },
+      "label": { "displayName": "Label", "purpose": "Uppercase 75% width, 600, tracked; nav, meta, day names, signal captions." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "tide-in", "value": "tide 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards; delay calc(var(--i) * 60ms); from transform: scaleX(0), origin left", "purpose": "Tide bars grow in per weekday row. Only under prefers-reduced-motion: no-preference." }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "44rem" },
+      { "name": "wide", "value": "64rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "masthead",
+      "description": "Dark navy band with condensed brand, uppercase nav, and a double pink rule.",
+      "html": "<header class=\"ds-mast\"><span class=\"ds-brand\">RepoWeekly</span><nav><a class=\"ds-nav\" aria-current=\"page\" href=\"#\">This week</a><a class=\"ds-nav\" href=\"#\">Gems</a><a class=\"ds-nav\" href=\"#\">About</a><a class=\"ds-nav\" href=\"#\">Feed</a></nav></header>",
+      "css": ".ds-mast { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.25rem 2rem; padding: 1rem 1rem 0.5rem; background: var(--mast-bg, #0c2236); color: var(--mast-fg, #e3eef3); border-bottom: 4px double var(--mast-mark, #ff7db4); } .ds-brand { font-stretch: 62%; font-weight: 800; font-size: 2.5rem; letter-spacing: 0.03em; text-transform: uppercase; line-height: 1; } .ds-mast nav { display: flex; gap: 0 1.5rem; } .ds-nav { display: inline-block; padding-block: 0.6rem; color: inherit; font-stretch: 75%; font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; } .ds-nav:hover { color: var(--mast-mark, #ff7db4); } .ds-nav:focus-visible { outline: 3px solid var(--mast-mark, #ff7db4); outline-offset: 2px; } .ds-nav[aria-current='page'] { text-decoration: underline; text-decoration-color: var(--mast-mark, #ff7db4); text-decoration-thickness: 2px; }"
+    },
+    {
+      "name": "Section Head",
+      "kind": "custom",
+      "refersTo": "entry",
+      "description": "Ruled section title like a table heading.",
+      "html": "<div class=\"ds-section\"><h2>Top ten</h2><p>Ranked by stars gained this week.</p></div>",
+      "css": ".ds-section { border-top: 4px double var(--ink, #0c2236); padding-top: 0.6rem; color: var(--ink, #0c2236); } .ds-section h2 { margin: 0; font-stretch: 70%; font-weight: 800; font-size: 1.75rem; letter-spacing: 0.03em; text-transform: uppercase; line-height: 1.1; } .ds-section p { margin: 0.4rem 0 0; color: var(--ink-soft, #3f5668); max-width: 66ch; }"
+    },
+    {
+      "name": "Repository Entry",
+      "kind": "card",
+      "refersTo": "entry",
+      "description": "Ruled row with rank numeral, name, description, and meta line. Not a card.",
+      "html": "<div class=\"ds-entry\"><span class=\"ds-rank\">1</span><div><h3 class=\"ds-name\"><a href=\"#\"><span class=\"ds-owner\">owner/</span>repo</a></h3><p class=\"ds-desc\">A plain one-line description.</p><ul class=\"ds-meta\"><li>12,400 stars in total</li><li>Rust</li><li>Easy to start</li></ul></div></div>",
+      "css": ".ds-entry { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); column-gap: 2rem; padding-block: 1.75rem; border-top: 1px solid var(--rule, #9db5c3); color: var(--ink, #0c2236); } .ds-rank { font-stretch: 62%; font-weight: 800; font-size: 4.25rem; line-height: 0.8; letter-spacing: -0.01em; } .ds-name { margin: 0; font-stretch: 88%; font-weight: 700; font-size: 1.5rem; line-height: 1.15; } .ds-name a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; } .ds-name a:hover { color: var(--mark, #b0105f); } .ds-name a:focus-visible { outline: 3px solid var(--mark, #b0105f); outline-offset: 2px; } .ds-owner { font-weight: 400; color: var(--ink-soft, #3f5668); } .ds-desc { margin: 0 0 1rem; color: var(--ink-soft, #3f5668); max-width: 66ch; } .ds-meta { display: flex; flex-wrap: wrap; margin: 0.9rem 0 0; padding: 0; list-style: none; font-stretch: 75%; font-weight: 600; font-size: 0.8125rem; letter-spacing: 0.06em; text-transform: uppercase; } .ds-meta li + li::before { content: '/'; margin-inline: 0.6em; color: var(--rule, #9db5c3); }"
+    },
+    {
+      "name": "Tide Table",
+      "kind": "custom",
+      "refersTo": "tide-bar",
+      "description": "Seven-day table: day label, bar on a ticked scale, figure, ruled week total. Peak day in magenta.",
+      "html": "<table class=\"ds-tide\"><tbody><tr><th>Mon</th><td class=\"ds-track\"><span class=\"ds-scale\"><span class=\"ds-bar\" style=\"--w:40%\"></span></span></td><td class=\"ds-val\">120</td></tr><tr class=\"ds-peak\"><th>Tue</th><td class=\"ds-track\"><span class=\"ds-scale\"><span class=\"ds-bar\" style=\"--w:100%\"></span></span></td><td class=\"ds-val\">300 (spike)</td></tr></tbody><tfoot><tr><th>Week</th><td></td><td class=\"ds-val\">+420</td></tr></tfoot></table>",
+      "css": ".ds-tide { width: 100%; border-collapse: collapse; color: var(--ink, #0c2236); font-variant-numeric: tabular-nums; } .ds-tide th { width: 3rem; padding: 0.1rem 0; text-align: left; font-stretch: 75%; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft, #3f5668); } .ds-tide td { padding: 0.1rem 0; } .ds-tide tbody tr + tr > * { border-top: 1px dotted var(--rule, #9db5c3); } .ds-track { padding-inline: 0.25rem 0.75rem; width: 100%; } .ds-val { text-align: right; white-space: nowrap; } .ds-tide tfoot th, .ds-tide tfoot td { padding-top: 0.35rem; border-top: 2px solid var(--ink, #0c2236); font-weight: 700; color: var(--ink, #0c2236); } .ds-scale { display: flex; align-items: center; height: 0.8rem; border-left: 1px solid var(--ink-soft, #3f5668); border-right: 1px solid color-mix(in srgb, var(--ink, #0c2236) 40%, var(--ground, #e3eef3)); background: linear-gradient(to right, color-mix(in srgb, var(--ink, #0c2236) 40%, var(--ground, #e3eef3)) 1px, transparent 1px) 0 0 / 25% 100%; } .ds-bar { display: block; height: 0.4rem; width: var(--w); min-width: 1px; background: var(--bar, #4a7389); transform-origin: left; } .ds-peak .ds-bar { background: var(--mark, #b0105f); } .ds-peak .ds-val, .ds-peak th { color: var(--mark, #b0105f); font-weight: 700; } @media (prefers-reduced-motion: no-preference) { .ds-bar { animation: ds-tide 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards; } @keyframes ds-tide { from { transform: scaleX(0); } } }"
+    },
+    {
+      "name": "Spike Note",
+      "kind": "custom",
+      "refersTo": "note",
+      "description": "Magenta-bordered rectangle marking uncertainty beside the figures.",
+      "html": "<p class=\"ds-note\"><strong>Spike.</strong> 70 percent of this week's gain came on Tuesday. The repository is still ranked. Read the gain with care.</p>",
+      "css": ".ds-note { margin: 1rem 0 0; max-width: 66ch; padding: 0.5rem 0.7rem; border: 1px solid var(--mark, #b0105f); font-size: 0.9375rem; color: var(--ink, #0c2236); }"
+    },
+    {
+      "name": "Signals",
+      "kind": "custom",
+      "refersTo": "entry",
+      "description": "Three-column definition grid of repository health signals.",
+      "html": "<dl class=\"ds-signals\"><div><dt>License</dt><dd>MIT</dd></div><div><dt>Last push</dt><dd>3 Nov</dd></div><div><dt>Age</dt><dd>2 years</dd></div></dl>",
+      "css": ".ds-signals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 0.75rem; margin: 0; border-top: 1px solid var(--rule, #9db5c3); color: var(--ink, #0c2236); } .ds-signals > div { min-width: 0; padding: 0.35rem 0; border-bottom: 1px solid var(--rule, #9db5c3); } .ds-signals dt { font-stretch: 75%; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft, #3f5668); } .ds-signals dd { margin: 0; overflow-wrap: anywhere; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pocket Tide Table",
+    "overview": "A weekly ranking is a table of daily values, so the site reads like a page from a nautical almanac rather than a feed of cards. Pale shallow-water blue ground, chart-ink navy text, and a single chart magenta for whatever needs attention. One variable grotesk does everything, switching between condensed caps for structure and normal width for reading. Surfaces are flat and ruled: hairlines, double rules and dotted row dividers do the work that shadows and boxes do elsewhere.\n\nDensity is moderate and content leads. Each repository is a ruled row with a huge condensed rank numeral, a 66ch reading column, and a seven-day tide strip with signals on wide screens. Light and dark follow the system setting; there is no toggle and no script.",
+    "keyCharacteristics": [
+      "Flat, ruled, square: no shadows, no radii, no cards.",
+      "One typeface, expressed through the width axis (62% to 100%).",
+      "Tabular figures everywhere (set on body).",
+      "Magenta is the only alert colour and appears on peaks, focus, notices and hover.",
+      "One motion: the tide-bar entrance."
+    ],
+    "rules": [
+      { "name": "The One Mark Rule", "body": "Magenta is the only colour that means \"look here\". If everything is marked, nothing is: peaks and notices only.", "section": "colors" },
+      { "name": "The Own Frame Rule", "body": "The masthead is always dark navy, in both schemes. It is the frame the world owns.", "section": "colors" },
+      { "name": "The Width Axis Rule", "body": "Hierarchy comes from width and weight on the one family: narrower means more structural. Do not add a second typeface.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Figures are always tabular so columns of numbers align like a printed table.", "section": "typography" },
+      { "name": "The Rule Not Shadow Rule", "body": "Separation is a ruled line. A weight of rule (hairline, dotted, 2px, double) marks the level of the division.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do separate content with rules (hairline, dotted, 2px, 4px double), not boxes.",
+      "Do reserve Chart Magenta for peaks, notices, focus and hover.",
+      "Do keep figures tabular and mark uncertainty inside the figures themselves (spike, bootstrap week).",
+      "Do express hierarchy through Archivo's width axis and weight; keep reading text at normal width and 66ch.",
+      "Do write both light and dark values for every colour token, following the system setting."
+    ],
+    "donts": [
+      "Don't add shadows, rounded corners, or card containers.",
+      "Don't introduce a second typeface or a theme toggle.",
+      "Don't add hero blocks, metric tiles, or decorative motion beyond the tide-bar entrance.",
+      "Don't use cream paper and serif editorial styling, or a card-grid trending list."
+    ]
+  }
+}

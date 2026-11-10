@@ -1,0 +1,95 @@
+name: Weekly build
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  # The public address of the site, for example https://user.github.io/repoweekly
+  # Set it under Settings > Secrets and variables > Actions > Variables.
+  SITE_URL: ${{ vars.SITE_URL }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check settings
+        run: |
+          test -n "$SITE_URL" || { echo "[weekly] FAILED: the SITE_URL variable is not set"; exit 1; }
+          test -n "$ANTHROPIC_API_KEY" || { echo "[weekly] FAILED: the ANTHROPIC_API_KEY secret is not set"; exit 1; }
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      # The trending page is the source for the first weeks and a cross-check later,
+      # so a failure here only matters while we have fewer than 7 snapshots.
+      - name: Read the trending page
+        run: npm run bootstrap
+        continue-on-error: true
+
+      - name: Rank, summarize, build feeds
+        run: npm run build:data
+
+      # Summaries cost money. Keep the cache even when the week fails validation.
+      - name: Keep summaries after a failure
+        if: failure()
+        run: |
+          git config user.name "repoweekly-bot"
+          git config user.email "repoweekly-bot@users.noreply.github.com"
+          git add data/summaries
+          if git diff --cached --quiet; then
+            echo "[weekly] no new summaries to keep"
+          else
+            git commit -m "data: keep summaries from a failed run"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Validate the week
+        run: npm run validate
+
+      - name: Commit data
+        run: |
+          git config user.name "repoweekly-bot"
+          git config user.email "repoweekly-bot@users.noreply.github.com"
+          git add data public/avatars
+          if git diff --cached --quiet; then
+            echo "[weekly] nothing to commit"
+          else
+            git commit -m "data: week $(node -p "require('./data/latest.json').week")"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Build the site
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  # Runs only when every step above passed, so a failed week leaves the live site as it was.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
