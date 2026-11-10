@@ -123,7 +123,8 @@ jobs:
         run: |
           git config user.name "repoweekly-bot"
           git config user.email "repoweekly-bot@users.noreply.github.com"
-          git add data/notified.json
+          # The file only exists once something has been sent.
+          if [ -f data/notified.json ]; then git add data/notified.json; fi
           if git diff --cached --quiet; then
             echo "[notify] nothing new to remember"
           else
