@@ -49,8 +49,8 @@ export const config = {
   starCheck: { pages: 3, sample: 30 },
   summarize: {
     readmeMaxChars: 6000,
-    // shortcut: default model name not checked against Google's current free list, override with GEMINI_MODEL.
-    model: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
+    // shortcut: Google rejected the older gemini-2.5-flash for new users, override with GEMINI_MODEL.
+    model: process.env.GEMINI_MODEL || 'gemini-3.8-flash',
     apiBase: process.env.GEMINI_API_BASE || 'https://generativelanguage.googleapis.com/v1beta',
     retryWaitMs: Number(process.env.GEMINI_RETRY_WAIT_MS) || 20000,
     urduEnabled: process.env.URDU_ENABLED === 'true',
