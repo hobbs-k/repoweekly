@@ -3,7 +3,7 @@ import { config } from './config.js';
 export function extractJson(text) {
   const start = text.indexOf('{');
   const end = text.lastIndexOf('}');
-  if (start === -1 || end <= start) throw new Error('no JSON object in reply');
+  if (start === -1 || end <= start) throw new Error(`no JSON object in reply: ${JSON.stringify(text.slice(0, 150))}`);
   return JSON.parse(text.slice(start, end + 1));
 }
 
@@ -18,7 +18,7 @@ async function generate({ system, user, maxTokens }) {
   const body = JSON.stringify({
     systemInstruction: { parts: [{ text: system }] },
     contents: [{ role: 'user', parts: [{ text: user }] }],
-    generationConfig: { maxOutputTokens: maxTokens, responseMimeType: 'application/json' },
+    generationConfig: { maxOutputTokens: maxTokens * 4, // room for the model's hidden thinking responseMimeType: 'application/json' },
   });
   let busy = '';
   for (const model of config.summarize.models) {
@@ -35,7 +35,9 @@ async function generate({ system, user, maxTokens }) {
       }
       if (!res.ok) throw new Error(`Gemini returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
       const data = await res.json();
-      return (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? '').join('');
+      const cand = data.candidates?.[0];
+      const text = (cand?.content?.parts ?? []).map((p) => p.text ?? '').join('');
+      return text || `(empty, finishReason ${cand?.finishReason ?? 'none'}, blocked ${data.promptFeedback?.blockReason ?? 'no'})`;
     }
   }
   throw new Error(`every Gemini model was busy (${busy})`);

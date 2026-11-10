@@ -54,7 +54,7 @@ export const config = {
     // Tried in order when the first is busy (checked against Google's model list on 2026-11-10).
     models: [process.env.GEMINI_MODEL || 'gemini-3.8-flash', 'gemini-3.6-flash', 'gemini-3.5-flash-lite'],
     apiBase: process.env.GEMINI_API_BASE || 'https://generativelanguage.googleapis.com/v1beta',
-    retryWaitMs: Number(process.env.GEMINI_RETRY_WAIT_MS) || 20000,
+    retryWaitMs: Number(process.env.GEMINI_RETRY_WAIT_MS) || 10000,
     urduEnabled: process.env.URDU_ENABLED === 'true',
   },
 };
