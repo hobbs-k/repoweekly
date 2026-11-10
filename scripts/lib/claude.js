@@ -1,4 +1,3 @@
-import Anthropic from '@anthropic-ai/sdk';
 import { config } from './config.js';
 
 export function extractJson(text) {
@@ -8,20 +7,42 @@ export function extractJson(text) {
   return JSON.parse(text.slice(start, end + 1));
 }
 
+export function requireKey() {
+  if (!process.env.GEMINI_API_KEY) throw new Error('GEMINI_API_KEY is not set');
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// One Gemini call, returns the reply text. Waits and retries on rate limits and busy servers.
+async function generate({ system, user, maxTokens }) {
+  const url = `${config.summarize.apiBase}/models/${config.summarize.model}:generateContent`;
+  const body = JSON.stringify({
+    systemInstruction: { parts: [{ text: system }] },
+    contents: [{ role: 'user', parts: [{ text: user }] }],
+    generationConfig: { maxOutputTokens: maxTokens, responseMimeType: 'application/json' },
+  });
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY },
+      body,
+    });
+    if ((res.status === 429 || res.status >= 500) && attempt < 3) {
+      await sleep(config.summarize.retryWaitMs * (attempt + 1));
+      continue;
+    }
+    if (!res.ok) throw new Error(`Gemini returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    const data = await res.json();
+    return (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? '').join('');
+  }
+}
+
 // One call that must return a JSON object. Retries once with the reason the first reply failed.
-// shortcut: summarize.js keeps its own copy of this loop, merge them if a third caller appears.
 export async function askJson({ system, user, validate, label, log, maxTokens = 2000 }) {
-  const client = new Anthropic();
   let lastError = '';
   for (let attempt = 0; attempt < 2; attempt++) {
     const retryNote = attempt ? `\n\nYour previous reply was rejected (${lastError}). Reply with only the JSON object.` : '';
-    const msg = await client.messages.create({
-      model: config.summarize.model,
-      max_tokens: maxTokens,
-      system,
-      messages: [{ role: 'user', content: user + retryNote }],
-    });
-    const text = msg.content.filter((b) => b.type === 'text').map((b) => b.text).join('');
+    const text = await generate({ system, user: user + retryNote, maxTokens });
     try {
       return validate(extractJson(text));
     } catch (err) {

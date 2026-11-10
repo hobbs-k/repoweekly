@@ -127,7 +127,7 @@ The README trimmed to about 6000 characters. rank.js writes it, summarize.js rea
 {
   "readme_hash": "sha1-of-trimmed-readme",
   "generated": "2026-11-09T04:12:00Z",
-  "model": "value of ANTHROPIC_MODEL",
+  "model": "value of GEMINI_MODEL",
   "summary": { }
 }
 ```
@@ -145,7 +145,7 @@ The README trimmed to about 6000 characters. rank.js writes it, summarize.js rea
   "week": "2026-W45",
   "full_name": "owner/name",
   "generated": "2026-11-09T04:20:00Z",
-  "model": "value of ANTHROPIC_MODEL",
+  "model": "value of GEMINI_MODEL",
   "overview": "Two or three sentences.",
   "how_to_start": ["1 to 5 steps"],
   "read_these": [{ "what": "a thing the README names", "why": "one short sentence" }],

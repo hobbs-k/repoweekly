@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from './lib/args.js';
 import { readJson, summaryFileName, writeJson } from './lib/cache.js';
-import { askJson } from './lib/claude.js';
+import { askJson, requireKey } from './lib/claude.js';
 import { config } from './lib/config.js';
 import { run } from './lib/logger.js';
 
@@ -86,7 +86,7 @@ await run('guide', async (log) => {
     log.done(`would write a guide for ${item.full_name} (dry run, no API call, nothing written)`);
     return;
   }
-  if (!process.env.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY is not set');
+  requireKey();
   const guide = await askJson({ system: SYSTEM, user, validate, label: item.full_name, log });
   writeJson(out, { week, full_name: item.full_name, generated: new Date().toISOString(), model: config.summarize.model, ...guide });
   log.done(`guide for ${item.full_name} -> ${path.relative('.', out)}`);

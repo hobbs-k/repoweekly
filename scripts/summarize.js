@@ -1,10 +1,10 @@
 // Adds AI summaries to the weekly file. Uses only the README and metadata that rank.js saved.
 // Usage: node scripts/summarize.js [--dry-run] [--week YYYY-Www] [--only owner/repo]
-import Anthropic from '@anthropic-ai/sdk';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from './lib/args.js';
 import { hashText, readJson, summaryFileName, writeJson } from './lib/cache.js';
+import { askJson, requireKey } from './lib/claude.js';
 import { config } from './lib/config.js';
 import { run } from './lib/logger.js';
 
@@ -45,13 +45,6 @@ function buildPrompt(item, readme) {
   ].join('\n');
 }
 
-function extractJson(text) {
-  const start = text.indexOf('{');
-  const end = text.lastIndexOf('}');
-  if (start === -1 || end <= start) throw new Error('no JSON object in reply');
-  return JSON.parse(text.slice(start, end + 1));
-}
-
 function validate(raw) {
   const str = (k) => {
     if (typeof raw[k] !== 'string' || !raw[k].trim()) throw new Error(`"${k}" is missing or empty`);
@@ -87,34 +80,22 @@ await run('summarize', async (log) => {
     if (!items.length) throw new Error(`${args.only} is not in ${week}`);
   }
 
-  let client = null;
-  if (!dry) {
-    if (!process.env.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY is not set');
-    client = new Anthropic();
-  }
+  if (!dry) requireKey();
 
-  async function generate(item, readme) {
-    let lastError = '';
-    for (let attempt = 0; attempt < 2; attempt++) {
-      const retryNote = attempt ? `\n\nYour previous reply was rejected (${lastError}). Reply with only the JSON object.` : '';
-      const msg = await client.messages.create({
-        model: config.summarize.model,
-        max_tokens: 1500,
-        system: SYSTEM,
-        messages: [{ role: 'user', content: buildPrompt(item, readme) + retryNote }],
-      });
-      const text = msg.content.filter((b) => b.type === 'text').map((b) => b.text).join('');
-      try {
-        const summary = validate(extractJson(text));
+  function generate(item, readme) {
+    return askJson({
+      system: SYSTEM,
+      user: buildPrompt(item, readme),
+      label: item.full_name,
+      log,
+      maxTokens: 1500,
+      validate(raw) {
+        const summary = validate(raw);
         // Keep the beginner flag honest: it needs good-first-issues or a contributing guide.
         if (summary.beginner_friendly && !(item.signals.good_first_issues > 0 || /contribut/i.test(readme))) summary.beginner_friendly = false;
         return summary;
-      } catch (err) {
-        lastError = err.message;
-        log.warn(`${item.full_name}: bad reply (${lastError}), attempt ${attempt + 1} of 2`);
-      }
-    }
-    throw new Error(`${item.full_name}: still bad after retry (${lastError})`);
+      },
+    });
   }
 
   let cached = 0;
@@ -141,7 +122,7 @@ await run('summarize', async (log) => {
     }
     if (!readme) log.warn(`${item.full_name}: no saved README, summarizing from the description only`);
     item.summary = await generate(item, readme);
-    // Cache right away so a later failure does not waste paid calls.
+    // Cache right away so a later failure does not waste free-tier quota.
     writeJson(cacheFile, { readme_hash: hash, generated: new Date().toISOString(), model: config.summarize.model, summary: item.summary });
     generated++;
     log.log(`summarized ${item.full_name}`);

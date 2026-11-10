@@ -56,8 +56,8 @@ Builds the weekly result.
 
 ### scripts/summarize.js
 Adds AI text to the weekly file.
-- For each ranked repo and gem, send README (trimmed to about 6000 characters) and metadata to the Anthropic API.
-- Model name comes from env `ANTHROPIC_MODEL` (default set in `scripts/lib/config.js`).
+- For each ranked repo and gem, send README (trimmed to about 6000 characters) and metadata to the Gemini API.
+- Model name comes from env `GEMINI_MODEL` (default set in `scripts/lib/config.js`).
 - Prompt rules: use only the supplied text, no guessing, no hype, short sentences, beginner-friendly, return strict JSON (see DATA_SPEC.md).
 - Cache results in `data/summaries/<owner>__<repo>.json` keyed by a hash of the README. Skip the API call if the hash matches.
 - Validate JSON output. Retry once on bad JSON. Fail the run if still bad.
@@ -146,7 +146,7 @@ Both workflows:
 - Use the same `concurrency` group (`data-writes`) so they never push at the same time, and run `git pull --rebase` before pushing.
 - Need `permissions: contents: write` to push.
 
-Secrets: `ANTHROPIC_API_KEY` and `GH_PAT` (a fine-grained personal token with public read access). Set the scripts' env as `GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}`. The built-in Actions token is limited to 1,000 REST requests per hour, which is too few for the daily snapshot once the tracked set grows, so `GH_PAT` is expected, not optional. The built-in token is still used for `git push`.
+Secrets: `GEMINI_API_KEY` and `GH_PAT` (a fine-grained personal token with public read access). Set the scripts' env as `GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}`. The built-in Actions token is limited to 1,000 REST requests per hour, which is too few for the daily snapshot once the tracked set grows, so `GH_PAT` is expected, not optional. The built-in token is still used for `git push`.
 
 ## Error handling
 
