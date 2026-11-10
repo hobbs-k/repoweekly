@@ -10,12 +10,23 @@ const langs = [...new Set([...w.top, ...w.gems].map((i) => i.language).filter(Bo
 ---
 
 <section class="intro">
+  <p class="prompt" aria-hidden="true"><span>$</span> repoweekly --week {weekNumber(w.week)} --top {w.top.length}</p>
   <h1>{heading}</h1>
   <p class="lede">Week {weekNumber(w.week)}, {range}. Ranked by stars gained over the week, not by total stars.</p>
   <p class="lede-soft">An AI writes each summary from the project's own README, so check the repository before you rely on it.{w.growth_source === 'snapshots' && " Each daily bar runs from zero to that repository's busiest day, with a tick every quarter."}</p>
   {w.growth_source === 'bootstrap' && (
     <p class="notice">This week's numbers come from the GitHub trending page. Daily detail and spike checks are not available.</p>
   )}
+  <aside class="readout" aria-label="This week at a glance">
+    <div class="titlebar" aria-hidden="true"><span>status.sys</span><span class="winbtn">_ □ ×</span></div>
+    <dl>
+      <div><dt>Week</dt><dd>{weekNumber(w.week)}</dd></div>
+      <div><dt>Dates</dt><dd>{range}</dd></div>
+      <div><dt>Ranked</dt><dd>{w.top.length}</dd></div>
+      <div><dt>Gems</dt><dd>{w.gems.length}</dd></div>
+      <div><dt>Source</dt><dd>{w.growth_source === 'bootstrap' ? 'trending page' : 'daily counts'}</dd></div>
+    </dl>
+  </aside>
 </section>
 
 <div class="toolbar">

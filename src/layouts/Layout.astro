@@ -1,5 +1,7 @@
 ---
 import '@fontsource-variable/archivo/wdth.css';
+import '@fontsource-variable/jetbrains-mono/wght.css';
+import '@fontsource/vt323/latin-400.css';
 import '../styles/global.css';
 import { config } from '../../scripts/lib/config.js';
 import { href } from '../lib/format.js';
@@ -27,16 +29,19 @@ const nav = [
   <body>
     <a class="skip" href="#main">Skip to the content</a>
     <header class="mast">
-      <div class="wrap">
-        <a class="brand" href={href('/')}>RepoWeekly</a>
-        <nav class="nav" aria-label="Main">
+      <div class="wrap mast-row">
+        <a class="brand" href={href('/')}>RepoWeekly<span class="caret" aria-hidden="true"></span></a>
+        <p class="status" aria-hidden="true">free / no ads / no tracking</p>
+      </div>
+      <nav class="nav" aria-label="Main">
+        <div class="wrap">
           <ul>
-            {nav.map((n) => (
-              <li><a href={n.href} aria-current={current === n.key ? 'page' : undefined}>{n.label}</a></li>
+            {nav.map((n, i) => (
+              <li><a href={n.href} aria-current={current === n.key ? 'page' : undefined}><span class="fkey" aria-hidden="true">F{i + 1}</span> {n.label}</a></li>
             ))}
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
     <main id="main">
       <slot />

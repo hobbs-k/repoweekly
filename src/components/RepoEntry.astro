@@ -26,6 +26,7 @@ const rankLabel = kind === 'gem' ? `G${item.rank}` : String(item.rank);
 ---
 
 <li class="entry" value={item.rank} data-lang={item.language ?? ''} data-beginner={String(Boolean(s.beginner_friendly))}>
+  <div class="titlebar" aria-hidden="true"><span>{kind === 'gem' ? 'gem' : 'rank'}-{String(item.rank).padStart(2, '0')}.log</span><span class="winbtn">_ □ ×</span></div>
   <span class:list={['rank', { 'rank-gem': kind === 'gem' }]} aria-hidden="true">{rankLabel}</span>
 
   <div class="entry-head">
