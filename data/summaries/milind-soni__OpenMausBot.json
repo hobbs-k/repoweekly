@@ -1,0 +1,19 @@
+{
+  "readme_hash": "4600b86f33eddf2e4e10f5772c3cd8eed8ad7081",
+  "generated": "2026-11-10T19:13:45.596Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "OpenMausBot is an open-source chat app where each conversation is a real AI agent (Claude, Codex, or Grok) running locally on your machine. It lets you bring your own CLI tools and subscriptions, runs a local harness server, and gives each bot its own cloud desktop, local VM, or host computer access with 500+ apps via Composio.",
+    "why_trending": "It positions itself as the open-source alternative to several closed personal-agent products (Grok Bot, Meta Muse, OpenAI dots, Cue by Manus) that launched recently, offering a local-first, bring-your-own-agent approach without new accounts or cloud proxies.",
+    "who_its_for": "Developers and power users who want a self-hosted, multi-agent chat interface using their existing Claude, Codex, or Grok CLI installations.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "ai-agents",
+      "electron",
+      "self-hosted",
+      "typescript",
+      "claude-code"
+    ]
+  }
+}

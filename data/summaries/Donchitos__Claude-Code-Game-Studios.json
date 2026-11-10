@@ -1,0 +1,19 @@
+{
+  "readme_hash": "514b53f46b0ed1a6f2905b7ee9af05c2d3362a6c",
+  "generated": "2026-11-10T19:15:04.199Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A template that turns Claude Code into an AI-powered game development studio. You describe a game idea, it asks clarifying questions, writes a design brief, builds a playable browser prototype, and lets you iteratively grow it into a full game with support for web, Godot, Unity, and Unreal engines.",
+    "why_trending": "The project provides a complete AI-agent-based workflow for game development using Claude Code, which is a currently popular topic. It gained over 4,300 stars in a single week, indicating strong community interest in AI-assisted game creation.",
+    "who_its_for": "Indie game developers and hobbyists who want to prototype and build games with AI assistance using Claude Code.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "ai-agents",
+      "ai-assisted-development",
+      "claude-code",
+      "game-development",
+      "gamedev"
+    ]
+  }
+}

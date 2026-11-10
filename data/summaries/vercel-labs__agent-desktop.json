@@ -1,0 +1,19 @@
+{
+  "readme_hash": "88fc0ce7c3680c511a75147ad5a878bfe28b6afc",
+  "generated": "2026-11-10T19:12:22.076Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A cross-platform CLI and C library that lets AI agents see and control desktop applications by reading the OS accessibility tree (macOS, Windows, Linux) and returning JSON with actionable element references.",
+    "why_trending": "Growing interest in AI agents that can operate desktop apps without screenshots or pixel matching, and this project provides a ready-to-use accessibility-based approach for multiple platforms.",
+    "who_its_for": "Developers building AI agents that need to interact with desktop applications on macOS, Windows, or Linux.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "accessibility",
+      "ai-agents",
+      "cli",
+      "desktop-automation",
+      "rust"
+    ]
+  }
+}

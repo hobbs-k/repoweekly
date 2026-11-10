@@ -1,0 +1,19 @@
+{
+  "readme_hash": "55a9a09b69c183e9992fe299bcf5bb6f340ef068",
+  "generated": "2026-11-10T19:13:21.959Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A collection of small, composable skills for AI coding agents like Claude Code, Codex, GitHub Copilot, and Gemini CLI. They help engineers align with agents, reduce verbosity, and maintain control over the development process.",
+    "why_trending": "The project addresses common AI agent failure modes with practical, model-agnostic skills and is promoted through a newsletter with ~60,000 subscribers, driving significant weekly star growth.",
+    "who_its_for": "Developers using AI coding assistants who want better alignment, less verbosity, and more control over agent behavior.",
+    "beginner_friendly": false,
+    "difficulty": "easy",
+    "tags": [
+      "ai-agents",
+      "coding-assistants",
+      "developer-tools",
+      "productivity",
+      "skills"
+    ]
+  }
+}

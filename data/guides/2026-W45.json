@@ -1,0 +1,47 @@
+{
+  "week": "2026-W45",
+  "full_name": "pingdotgg/t3code",
+  "generated": "2026-11-10T19:17:14.930Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "overview": "T3 Code is a control surface that lets you manage AI coding agents like Claude Code, Codex, and Cursor from mobile, web, or desktop apps. It runs a local server on your machine and connects to agents you already have installed. Learners can study how a TypeScript project orchestrates multiple CLI tools and builds cross-platform clients.",
+  "how_to_start": [
+    "Install and authenticate at least one AI agent (e.g., run `codex login` for Codex or `claude auth login` for Claude Code).",
+    "Install T3 Code via the command line: `curl -fsSL https://t3.codes/install.sh | sh` (or use the PowerShell command on Windows).",
+    "Run `t3` to start the server and open the local web app.",
+    "Optionally run `t3 service install` to keep it running in the background."
+  ],
+  "read_these": [
+    {
+      "what": "docs/user/install.md",
+      "why": "Step-by-step install and first-run guide with platform-specific details."
+    },
+    {
+      "what": "docs/user/faq.md",
+      "why": "Answers common questions about providers, permissions, and troubleshooting."
+    },
+    {
+      "what": "docs/user/remote-access.md",
+      "why": "Explains how to connect from a phone or another machine."
+    },
+    {
+      "what": "docs/internals/overview.md",
+      "why": "Starting point for understanding the codebase architecture if you want to build from source."
+    },
+    {
+      "what": "CONTRIBUTING.md",
+      "why": "Rules for reporting bugs and opening PRs; the project notes it mostly does not accept contributions yet."
+    }
+  ],
+  "first_contributions": [
+    "Fix a typo or clarify wording in the documentation under docs/.",
+    "Improve a small CLI help message or error output in the TypeScript source.",
+    "Add a missing keyboard shortcut to docs/user/keybindings.md.",
+    "Pick up the single open good-first-issue if it is still available."
+  ],
+  "watch_out": [
+    "The project states it is very early and expects bugs.",
+    "Maintainers say they are mostly not accepting contributions; only small fixes may be considered.",
+    "High contributor count (945) but the project is only 273 days old, suggesting many drive-by contributions or a broad definition of contributor.",
+    "No dedicated documentation site yet; all docs live in the repository markdown files."
+  ]
+}

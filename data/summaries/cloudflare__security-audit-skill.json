@@ -1,0 +1,19 @@
+{
+  "readme_hash": "3adc94e09adb58b0523c397670bdd71294f1dbbe",
+  "generated": "2026-11-10T19:12:37.542Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A coding-agent skill that orchestrates isolated agents through six phases of security auditing: reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. It produces machine-readable findings with distinct verdicts (confirmed, needs_validation, rejected).",
+    "why_trending": "The skill seeded Cloudflare's vulnerability discovery harness described in a recent Cloudflare blog post, and the topic of AI-assisted security auditing is currently hot. It gained over 10,000 stars in a week.",
+    "who_its_for": "Developers and security researchers who want to use coding agents to automate security audits of codebases.",
+    "beginner_friendly": false,
+    "difficulty": "hard",
+    "tags": [
+      "security",
+      "audit",
+      "vulnerability",
+      "coding-agent",
+      "automation"
+    ]
+  }
+}

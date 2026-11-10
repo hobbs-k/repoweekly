@@ -43,7 +43,7 @@
     },
     "mattpocock/skills": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "obra/superpowers": {
       "first_seen": "2026-11-10",
@@ -115,7 +115,7 @@
     },
     "anthropics/skills": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "ohmyzsh/ohmyzsh": {
       "first_seen": "2026-11-10",
@@ -335,7 +335,7 @@
     },
     "thedotmack/claude-mem": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "supabase/supabase": {
       "first_seen": "2026-11-10",
@@ -427,7 +427,7 @@
     },
     "D4Vinci/Scrapling": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "ant-design/ant-design": {
       "first_seen": "2026-11-10",
@@ -1239,7 +1239,7 @@
     },
     "pingdotgg/t3code": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "lyswhut/lx-music-desktop": {
       "first_seen": "2026-11-10",
@@ -1479,7 +1479,7 @@
     },
     "vercel-labs/agent-browser": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "pixijs/pixijs": {
       "first_seen": "2026-11-10",
@@ -2291,7 +2291,7 @@
     },
     "Donchitos/Claude-Code-Game-Studios": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-10"
     },
     "firecracker-microvm/firecracker": {
       "first_seen": "2026-11-10",
@@ -7988,6 +7988,34 @@
     "yszyszysz233/2.4G-battery-viewer": {
       "first_seen": "2026-11-10",
       "last_in_top200": null
+    },
+    "vercel-labs/agent-desktop": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
+    },
+    "cloudflare/security-audit-skill": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
+    },
+    "NVIDIA/auto-ontology": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
+    },
+    "milind-soni/OpenMausBot": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
+    },
+    "max-sixty/worktrunk": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
+    },
+    "anomalyco/hex": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
+    },
+    "The-PR-Agent/pr-agent": {
+      "first_seen": "2026-11-10",
+      "last_in_top200": "2026-11-10"
     }
   }
 }

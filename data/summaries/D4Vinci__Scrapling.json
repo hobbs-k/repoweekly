@@ -1,0 +1,19 @@
+{
+  "readme_hash": "5c50c3be2508a8756eac72c3392705f3292e1dc6",
+  "generated": "2026-11-10T19:14:13.303Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Scrapling is a Python web scraping framework that combines fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling. It handles static pages, JavaScript rendering, API extraction, and full-scale crawls with proxy rotation and retries.",
+    "why_trending": "The project integrates with AI agents through an MCP server and Agent Skill, a hot topic in AI-assisted scraping, which likely drove the recent star surge.",
+    "who_its_for": "Developers and data engineers who need a comprehensive scraping tool for tasks ranging from simple extraction to large-scale crawling, including AI agent integration.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "python",
+      "web-scraping",
+      "crawler",
+      "ai",
+      "mcp"
+    ]
+  }
+}

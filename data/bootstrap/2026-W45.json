@@ -1,0 +1,77 @@
+{
+  "week": "2026-W45",
+  "source": "github.com/trending?since=weekly",
+  "fetched": "2026-11-10T19:11:16.204Z",
+  "repos": [
+    {
+      "full_name": "NVIDIA/auto-ontology",
+      "stars_this_week": 10159,
+      "language": "Python"
+    },
+    {
+      "full_name": "vercel-labs/agent-desktop",
+      "stars_this_week": 12120,
+      "language": "Rust"
+    },
+    {
+      "full_name": "anthropics/skills",
+      "stars_this_week": 3796,
+      "language": "Python"
+    },
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "stars_this_week": 8325,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "stars_this_week": 2395,
+      "language": "Rust"
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "stars_this_week": 2994,
+      "language": "Rust"
+    },
+    {
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "stars_this_week": 4324,
+      "language": "Shell"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "stars_this_week": 9800,
+      "language": "Shell"
+    },
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "stars_this_week": 10695,
+      "language": "JavaScript"
+    },
+    {
+      "full_name": "The-PR-Agent/pr-agent",
+      "stars_this_week": 1822,
+      "language": "Python"
+    },
+    {
+      "full_name": "thedotmack/claude-mem",
+      "stars_this_week": 5130,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "stars_this_week": 8226,
+      "language": "Python"
+    },
+    {
+      "full_name": "anomalyco/hex",
+      "stars_this_week": 2031,
+      "language": "Rust"
+    },
+    {
+      "full_name": "pingdotgg/t3code",
+      "stars_this_week": 13448,
+      "language": "TypeScript"
+    }
+  ]
+}

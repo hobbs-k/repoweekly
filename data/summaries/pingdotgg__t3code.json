@@ -1,0 +1,19 @@
+{
+  "readme_hash": "8b5baed983477c6e47d1425ef88cfc79101d9a74",
+  "generated": "2026-11-10T19:11:44.096Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "T3 Code is a control surface that lets you manage AI coding agents (Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, fx) from a mobile app, web app, or desktop app. It runs a local server on your machine and connects to the agents you already have installed and authenticated.",
+    "why_trending": "The project gained over 13,000 stars in a single week while still in early development. It addresses a hot topic — unified remote control for multiple AI coding assistants — with polished native apps for iOS, Android, and desktop.",
+    "who_its_for": "Developers who use one or more AI coding assistants and want a single remote interface to control them from a phone or another machine.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "typescript",
+      "ai-coding-assistant",
+      "mobile-app",
+      "desktop-app",
+      "remote-control"
+    ]
+  }
+}

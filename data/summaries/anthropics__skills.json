@@ -1,0 +1,19 @@
+{
+  "readme_hash": "2a99fc86af74511a8ce7d37600a7060fa94ec51f",
+  "generated": "2026-11-10T19:15:41.453Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "This repository contains Anthropic's official implementation of Agent Skills for Claude. Skills are self-contained folders with instructions and resources that teach Claude how to perform specialized tasks like document creation, data analysis, or creative work.",
+    "why_trending": "It is the reference implementation for the Agent Skills standard (agentskills.io) and includes production document skills that power Claude's file capabilities, a topic currently receiving significant attention in AI agent development.",
+    "who_its_for": "Developers and users who want to extend Claude's abilities with custom skills or learn the Agent Skills specification.",
+    "beginner_friendly": false,
+    "difficulty": "easy",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "anthropic",
+      "ai-agents",
+      "skills"
+    ]
+  }
+}

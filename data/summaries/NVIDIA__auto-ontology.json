@@ -1,0 +1,19 @@
+{
+  "readme_hash": "b8fabf7354cf50f274beedc7b9d327ebca2c10f3",
+  "generated": "2026-11-10T19:13:05.570Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Auto Ontology is a Python framework that builds a semantic, graph-based reasoning layer over enterprise data. It generates ontologies from metadata, reconciles definitions across systems, and exposes a context layer via MCP, CLI, and API so agents can reliably translate natural language to SQL and retrieve grounded answers.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Developers and data teams building agentic analytics or LLM workflows that need a trusted semantic layer over relational databases.",
+    "beginner_friendly": false,
+    "difficulty": "hard",
+    "tags": [
+      "python",
+      "ontology",
+      "knowledge-graph",
+      "nlp",
+      "nvidia"
+    ]
+  }
+}
