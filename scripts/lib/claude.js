@@ -13,29 +13,36 @@ export function requireKey() {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// One chat call to any OpenAI-style API (NVIDIA by default), returns the reply text.
-// A rate-limited or busy server is retried a few times.
+// One chat call to any OpenAI-style API (OpenRouter by default), returns the reply text.
+// A rate-limited or busy model is retried once, then the next model in the list is tried.
 async function generate({ system, user, maxTokens }) {
-  const body = JSON.stringify({
-    model: config.summarize.model,
-    max_tokens: maxTokens,
-    temperature: 0.2,
-    messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
-  });
-  for (let attempt = 0; ; attempt++) {
-    const res = await fetch(`${config.summarize.apiBase}/chat/completions`, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json', authorization: `Bearer ${process.env.LLM_API_KEY}` },
-      body,
+  let busy = '';
+  for (const model of config.summarize.models) {
+    const body = JSON.stringify({
+      model,
+      max_tokens: maxTokens,
+      temperature: 0.2,
+      messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
     });
-    if ((res.status === 429 || res.status >= 500) && attempt < 4) {
-      await sleep(config.summarize.retryWaitMs * (attempt + 1));
-      continue;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const res = await fetch(`${config.summarize.apiBase}/chat/completions`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', authorization: `Bearer ${process.env.LLM_API_KEY}` },
+        body,
+      });
+      if (res.status === 429 || res.status >= 500) {
+        busy = `${model} returned ${res.status}`;
+        await sleep(config.summarize.retryWaitMs * (attempt + 1));
+        continue;
+      }
+      if (!res.ok) throw new Error(`the AI service returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
+      const data = await res.json();
+      const text = data.choices?.[0]?.message?.content;
+      if (text) return text;
+      busy = `${model} sent an empty reply`;
     }
-    if (!res.ok) throw new Error(`the AI service returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
-    const data = await res.json();
-    return data.choices?.[0]?.message?.content ?? '';
   }
+  throw new Error(`every free model failed (${busy})`);
 }
 
 // One call that must return a JSON object. Retries once with the reason the first reply failed.

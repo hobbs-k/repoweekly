@@ -123,7 +123,7 @@ await run('summarize', async (log) => {
     if (!readme) log.warn(`${item.full_name}: no saved README, summarizing from the description only`);
     item.summary = await generate(item, readme);
     // Cache right away so a later failure does not waste free-tier quota.
-    writeJson(cacheFile, { readme_hash: hash, generated: new Date().toISOString(), model: config.summarize.model, summary: item.summary });
+    writeJson(cacheFile, { readme_hash: hash, generated: new Date().toISOString(), model: config.summarize.models[0], summary: item.summary });
     generated++;
     log.log(`summarized ${item.full_name}`);
   }

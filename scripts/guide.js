@@ -88,6 +88,6 @@ await run('guide', async (log) => {
   }
   requireKey();
   const guide = await askJson({ system: SYSTEM, user, validate, label: item.full_name, log });
-  writeJson(out, { week, full_name: item.full_name, generated: new Date().toISOString(), model: config.summarize.model, ...guide });
+  writeJson(out, { week, full_name: item.full_name, generated: new Date().toISOString(), model: config.summarize.models[0], ...guide });
   log.done(`guide for ${item.full_name} -> ${path.relative('.', out)}`);
 });
