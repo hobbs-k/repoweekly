@@ -27,7 +27,7 @@ async function generate({ system, user, maxTokens }) {
       headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY },
       body,
     });
-    if ((res.status === 429 || res.status >= 500) && attempt < 3) {
+    if ((res.status === 429 || res.status >= 500) && attempt < 5) {
       await sleep(config.summarize.retryWaitMs * (attempt + 1));
       continue;
     }
