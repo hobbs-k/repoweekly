@@ -1,19 +1,20 @@
 {
   "readme_hash": "8b5baed983477c6e47d1425ef88cfc79101d9a74",
-  "generated": "2026-11-10T19:11:44.096Z",
+  "generated": "2026-11-10T19:55:20.100Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "T3 Code is a control surface that lets you manage AI coding agents (Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, fx) from a mobile app, web app, or desktop app. It runs a local server on your machine and connects to the agents you already have installed and authenticated.",
-    "why_trending": "The project gained over 13,000 stars in a single week while still in early development. It addresses a hot topic — unified remote control for multiple AI coding assistants — with polished native apps for iOS, Android, and desktop.",
-    "who_its_for": "Developers who use one or more AI coding assistants and want a single remote interface to control them from a phone or another machine.",
+    "what_it_is": "T3 Code is an open-source tool that lets you control AI coding agents like Claude Code, Codex, and Cursor from a mobile app, web app, or desktop app. It works with your existing subscriptions and runs a local server on your machine.",
+    "why_trending": "The project is gaining attention because it provides a unified remote interface for multiple popular AI coding agents, a topic that is currently very popular among developers.",
+    "who_its_for": "Developers who use AI coding assistants and want to manage them from their phone or another device.",
     "beginner_friendly": false,
     "difficulty": "medium",
     "tags": [
-      "typescript",
-      "ai-coding-assistant",
+      "ai-agents",
+      "remote-control",
       "mobile-app",
       "desktop-app",
-      "remote-control"
-    ]
+      "typescript"
+    ],
+    "urdu": "T3 Code ایک اوپن سورس ٹول ہے جو آپ کو کلود کوڈ، کوڈیکس، اور کرسر جیسی AI کوڈنگ ایجنٹس کو موبائل ایپ، ویب ایپ، یا ڈیسک ٹاپ ایپ سے کنٹرول کرنے کی اجازت دیتا ہے۔ یہ آپ کی موجودہ سبسکرپشنز کے ساتھ کام کرتا ہے اور آپ کی مشین پر ایک لوکل سرور چلاتا ہے۔ یہ پروجیکٹ اس لیے مقبول ہو رہا ہے کیونکہ یہ متعدد مشہور AI کوڈنگ ایجنٹس کے لیے ایک متحدہ ریموٹ انٹرفیس فراہم کرتا ہے، جو ڈویلپرز میں ابھی بہت چل رہا ہے۔"
   }
 }

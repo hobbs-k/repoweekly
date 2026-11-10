@@ -1,19 +1,20 @@
 {
   "readme_hash": "514b53f46b0ed1a6f2905b7ee9af05c2d3362a6c",
-  "generated": "2026-11-10T19:15:04.199Z",
+  "generated": "2026-11-10T19:59:33.269Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "A template that turns Claude Code into an AI-powered game development studio. You describe a game idea, it asks clarifying questions, writes a design brief, builds a playable browser prototype, and lets you iteratively grow it into a full game with support for web, Godot, Unity, and Unreal engines.",
-    "why_trending": "The project provides a complete AI-agent-based workflow for game development using Claude Code, which is a currently popular topic. It gained over 4,300 stars in a single week, indicating strong community interest in AI-assisted game creation.",
-    "who_its_for": "Indie game developers and hobbyists who want to prototype and build games with AI assistance using Claude Code.",
+    "what_it_is": "Claude Code Game Studios is a template that turns Claude Code into an AI-powered game development studio. You describe a game idea, it asks clarifying questions, writes a design brief, builds a playable browser prototype, and then lets you iterate and grow it into a full project with support for web, Godot, Unity, and Unreal engines.",
+    "why_trending": "The project gained over 4,300 stars in a week, likely because it demonstrates a novel multi-agent AI workflow for game development that mirrors a real studio hierarchy, tapping into the growing interest in AI-assisted coding and indie game creation.",
+    "who_its_for": "Indie developers, hobbyists, and students who want to prototype and build games using AI assistance with Claude Code.",
     "beginner_friendly": false,
     "difficulty": "medium",
     "tags": [
       "ai-agents",
-      "ai-assisted-development",
-      "claude-code",
       "game-development",
-      "gamedev"
-    ]
+      "claude-code",
+      "prototyping",
+      "indie-games"
+    ],
+    "urdu": "یہ پروجیکٹ کلاؤڈ کوڈ کو ایک اے‌آئی گیم ڈویلپمنٹ اسٹوڈیو میں بدل دیتا ہے۔ آپ گیم کا خیال بتاتے ہیں، یہ سوالات پوچھتا ہے، ڈیزائن بریف لکھتا ہے، براؤزر میں کھیلنے والا پریوٹائپ بناتا ہے، اور پھر آپ اسے پورا گیم بنا سکتے ہیں۔ اس ہفتے ۴۳۰۰ سے زیادہ ستارے ملنے کی وجہ اس کا منفرد ملٹی ایجنٹ ورک فلو ہے جو حقیقی اسٹوڈیو کی طرح کام کرتا ہے اور اے‌آئی کوڈنگ میں دلچسپی رکھنے والوں کو اپنی طرف کھینچتا ہے۔"
   }
 }

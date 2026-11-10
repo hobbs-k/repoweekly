@@ -1,19 +1,20 @@
 {
   "readme_hash": "5c50c3be2508a8756eac72c3392705f3292e1dc6",
-  "generated": "2026-11-10T19:14:13.303Z",
+  "generated": "2026-11-10T19:58:30.589Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "Scrapling is a Python web scraping framework that combines fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling. It handles static pages, JavaScript rendering, API extraction, and full-scale crawls with proxy rotation and retries.",
-    "why_trending": "The project integrates with AI agents through an MCP server and Agent Skill, a hot topic in AI-assisted scraping, which likely drove the recent star surge.",
-    "who_its_for": "Developers and data engineers who need a comprehensive scraping tool for tasks ranging from simple extraction to large-scale crawling, including AI agent integration.",
+    "what_it_is": "Scrapling is a Python web scraping framework that combines fast HTTP requests, stealth browser automation, powerful parsing, and concurrent crawling in one library. It can scrape static pages, render JavaScript, interact with websites, and extract data from API calls, with features like proxy rotation, automatic retries, pause/resume, and built-in data exports.",
+    "why_trending": "The project integrates with AI agents through an MCP server and Agent Skill, a currently hot topic. Its comprehensive feature set covering the full scraping workflow from simple extraction to large-scale crawling also drives interest.",
+    "who_its_for": "Developers and data engineers who need to extract data from websites, from simple page scraping to complex, large-scale crawling projects.",
     "beginner_friendly": false,
     "difficulty": "medium",
     "tags": [
-      "python",
       "web-scraping",
+      "python",
       "crawler",
       "ai",
-      "mcp"
-    ]
+      "automation"
+    ],
+    "urdu": "Scrapling ایک Python ویب اسکرپنگ فریم ورک ہے جو تیز HTTP ریکویسٹ، خفیہ براؤزر آٹومیشن، طاقتور پارسنگ اور هم وقت کراولنگ کو ایک لائبریری میں جمع کرتا ہے۔ یہ سٹیک صفحات، جاوا اسکرپٹ رینڈر، ویب سائٹز سے تعامل اور API کالز سے ڈیٹا نکالنے کی سہولت دیتا ہے۔ اس کی AI ایجنٹ انٹیگریشن (MCP سرور اور ایجنٹ سکل) اور مکمل اسکرپنگ ورک فلو کی وجہ سے یہ رائج ہو رہا ہے۔"
   }
 }

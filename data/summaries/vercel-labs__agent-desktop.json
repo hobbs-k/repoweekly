@@ -1,19 +1,20 @@
 {
   "readme_hash": "88fc0ce7c3680c511a75147ad5a878bfe28b6afc",
-  "generated": "2026-11-10T19:12:22.076Z",
+  "generated": "2026-11-10T19:56:24.001Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "A cross-platform CLI and C library that lets AI agents see and control desktop applications by reading the OS accessibility tree (macOS, Windows, Linux) and returning JSON with actionable element references.",
-    "why_trending": "Growing interest in AI agents that can operate desktop apps without screenshots or pixel matching, and this project provides a ready-to-use accessibility-based approach for multiple platforms.",
-    "who_its_for": "Developers building AI agents that need to interact with desktop applications on macOS, Windows, or Linux.",
+    "what_it_is": "agent-desktop is a CLI tool and C library that lets AI agents see and control desktop applications on macOS, Windows, and Linux by reading the OS accessibility tree and returning UI elements as JSON with actionable refs.",
+    "why_trending": "The project is trending because AI agents controlling desktop apps is a hot topic and it gained over 12,000 stars this week.",
+    "who_its_for": "Developers building AI agents that need to interact with desktop applications.",
     "beginner_friendly": false,
     "difficulty": "medium",
     "tags": [
       "accessibility",
       "ai-agents",
+      "automation",
       "cli",
-      "desktop-automation",
-      "rust"
-    ]
+      "desktop-automation"
+    ],
+    "urdu": "agent-desktop ایک سی ایل آئی ٹول اور سی لائبریری ہے جو اے آئی ایجنٹس کو ڈیسک ٹاپ ایپلی کیشنز کو دیکھنے اور کنٹرول کرنے کی اجازت دیتا ہے۔ یہ او ایس کی رسائی درخت کو پڑھ کر یو آئی المینٹس کو جے ایس او این میں واپس کرتا ہے۔ یہ اس ہفتے 12 ہزار سے زیادہ ستارے حاصل کر کے ترینڈنگ بن گیا ہے کیونکہ اے آئی ایجنٹس کا ڈیسک ٹاپ ایپس کنٹرول کرنا ایک گرم موضوع ہے۔"
   }
 }

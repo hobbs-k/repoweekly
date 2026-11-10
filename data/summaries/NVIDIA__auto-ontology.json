@@ -1,19 +1,20 @@
 {
   "readme_hash": "b8fabf7354cf50f274beedc7b9d327ebca2c10f3",
-  "generated": "2026-11-10T19:13:05.570Z",
+  "generated": "2026-11-10T19:57:10.687Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "Auto Ontology is a Python framework that builds a semantic, graph-based reasoning layer over enterprise data. It generates ontologies from metadata, reconciles definitions across systems, and exposes a context layer via MCP, CLI, and API so agents can reliably translate natural language to SQL and retrieve grounded answers.",
-    "why_trending": "No clear reason in the project's own text.",
-    "who_its_for": "Developers and data teams building agentic analytics or LLM workflows that need a trusted semantic layer over relational databases.",
+    "what_it_is": "Auto Ontology is a Python framework that builds a semantic, graph-based reasoning layer over enterprise data. It generates ontologies from metadata, reconciles definitions across systems, and exposes trusted context to AI agents via MCP, CLI, and API for reliable natural-language querying of structured data.",
+    "why_trending": "The project gained over 10,000 stars in a single week, likely driven by NVIDIA's backing and high current interest in AI agent context layers, text-to-SQL, and semantic catalogs.",
+    "who_its_for": "Developers and enterprises building AI agents that need trustworthy, explainable access to relational data through natural language.",
     "beginner_friendly": false,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "tags": [
       "python",
       "ontology",
       "knowledge-graph",
-      "nlp",
-      "nvidia"
-    ]
+      "llm",
+      "text-to-sql"
+    ],
+    "urdu": "Auto Ontology ایک Python framework ہے جو کاروباری ڈیٹا پر semantic، graph-based reasoning layer بناتا ہے۔ یہ میٹا ڈیٹا سے ontologies جنریٹ کرتا ہے، تعاریف کو نظاموں کے درمیان ہم آہنگ کرتا ہے، اور AI ایجنٹس کو MCP، CLI، اور API کے ذریعے قابل اعتماد سیاق و سباق فراہم کرتا ہے۔ اس ہفتے 10 ہزار سے زیادہ ستارے ملنے کی وجہ سے یہ ترینڈنگ میں ہے، جو NVIDIA کی حمایت اور AI ایجنٹس کے سیاق و سباق لیرز، text-to-SQL، اور semantic کیٹلاگز میں دلچسپی کی نشاندہی کرتا ہے۔"
   }
 }

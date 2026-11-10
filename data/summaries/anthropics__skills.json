@@ -1,11 +1,11 @@
 {
   "readme_hash": "2a99fc86af74511a8ce7d37600a7060fa94ec51f",
-  "generated": "2026-11-10T19:15:41.453Z",
+  "generated": "2026-11-10T20:00:14.879Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "This repository contains Anthropic's official implementation of Agent Skills for Claude. Skills are self-contained folders with instructions and resources that teach Claude how to perform specialized tasks like document creation, data analysis, or creative work.",
-    "why_trending": "It is the reference implementation for the Agent Skills standard (agentskills.io) and includes production document skills that power Claude's file capabilities, a topic currently receiving significant attention in AI agent development.",
-    "who_its_for": "Developers and users who want to extend Claude's abilities with custom skills or learn the Agent Skills specification.",
+    "what_it_is": "This repository contains Anthropic's implementation of skills for Claude. Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks, ranging from creative applications to technical tasks and enterprise workflows.",
+    "why_trending": "The repository includes production document skills that power Claude's document capabilities (create files feature) and are now open sourced under Apache 2.0. The Agent Skills standard and integration with Claude Code, Claude.ai, and the API likely drive interest.",
+    "who_its_for": "Developers who want to create custom skills for Claude or understand patterns for building skills, and users of Claude Code, Claude.ai, and the Claude API.",
     "beginner_friendly": false,
     "difficulty": "easy",
     "tags": [
@@ -14,6 +14,7 @@
       "anthropic",
       "ai-agents",
       "skills"
-    ]
+    ],
+    "urdu": "یہ ریپازٹری کلاؤڈ کے لیے اینتھروپک کی سکلز کی امپلیمنٹیشن ہے۔ سکلز فولڈرز ہیں جن میں ہدایات، اسکرپٹس، اور وسائل ہوتے ہیں جو کلاؤڈ کو مخصوص کام کرنے میں مدد دیتے ہیں۔ اس ریپازٹری میں تخلیقی، تکنیکل، کاروباری، اور دستاویزی کاموں کے لیے مثال سکلز شامل ہیں۔ یہ ریپازٹری اس لیے ترینڈنگ ہے کیونکہ اس میں کلاؤڈ کی دستاویزی قابلیتوں کو چلانے والے پرڈکشن سکلز شامل ہیں جو اب اوپن سورس ہیں۔ اینتھروپک نے ایجنٹ سکلز کے معیار کو متعارف کرایا ہے اور یہ سکلز کلاؤڈ کوڈ، کلاؤڈ.اے آئی، اور اے پی آئی میں دستیاب ہیں۔"
   }
 }

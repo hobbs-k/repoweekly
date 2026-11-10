@@ -2,7 +2,7 @@
   "week": "2026-W45",
   "start": "2026-11-02",
   "end": "2026-11-08",
-  "generated": "2026-11-10T19:50:33.993Z",
+  "generated": "2026-11-10T19:54:54.996Z",
   "growth_source": "bootstrap",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "top": [
@@ -14,31 +14,32 @@
       "description": "",
       "language": "TypeScript",
       "topics": [],
-      "stars_total": 55515,
+      "stars_total": 55522,
       "stars_gained": 13448,
       "daily_gains": [],
       "spike": null,
       "signals": {
         "license": "MIT",
         "last_push": "2026-11-10",
-        "open_issues": 5746,
+        "open_issues": 5745,
         "contributors": 945,
         "good_first_issues": 1,
         "age_days": 273
       },
       "summary": {
-        "what_it_is": "T3 Code is a control surface that lets you manage AI coding agents (Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, fx) from a mobile app, web app, or desktop app. It runs a local server on your machine and connects to the agents you already have installed and authenticated.",
-        "why_trending": "The project gained over 13,000 stars in a single week while still in early development. It addresses a hot topic — unified remote control for multiple AI coding assistants — with polished native apps for iOS, Android, and desktop.",
-        "who_its_for": "Developers who use one or more AI coding assistants and want a single remote interface to control them from a phone or another machine.",
+        "what_it_is": "T3 Code is an open-source tool that lets you control AI coding agents like Claude Code, Codex, and Cursor from a mobile app, web app, or desktop app. It works with your existing subscriptions and runs a local server on your machine.",
+        "why_trending": "The project is gaining attention because it provides a unified remote interface for multiple popular AI coding agents, a topic that is currently very popular among developers.",
+        "who_its_for": "Developers who use AI coding assistants and want to manage them from their phone or another device.",
         "beginner_friendly": false,
         "difficulty": "medium",
         "tags": [
-          "typescript",
-          "ai-coding-assistant",
+          "ai-agents",
+          "remote-control",
           "mobile-app",
           "desktop-app",
-          "remote-control"
-        ]
+          "typescript"
+        ],
+        "urdu": "T3 Code ایک اوپن سورس ٹول ہے جو آپ کو کلود کوڈ، کوڈیکس، اور کرسر جیسی AI کوڈنگ ایجنٹس کو موبائل ایپ، ویب ایپ، یا ڈیسک ٹاپ ایپ سے کنٹرول کرنے کی اجازت دیتا ہے۔ یہ آپ کی موجودہ سبسکرپشنز کے ساتھ کام کرتا ہے اور آپ کی مشین پر ایک لوکل سرور چلاتا ہے۔ یہ پروجیکٹ اس لیے مقبول ہو رہا ہے کیونکہ یہ متعدد مشہور AI کوڈنگ ایجنٹس کے لیے ایک متحدہ ریموٹ انٹرفیس فراہم کرتا ہے، جو ڈویلپرز میں ابھی بہت چل رہا ہے۔"
       }
     },
     {
@@ -62,7 +63,7 @@
         "mcp",
         "rust"
       ],
-      "stars_total": 21260,
+      "stars_total": 21261,
       "stars_gained": 12120,
       "daily_gains": [],
       "spike": null,
@@ -75,18 +76,19 @@
         "age_days": 262
       },
       "summary": {
-        "what_it_is": "A cross-platform CLI and C library that lets AI agents see and control desktop applications by reading the OS accessibility tree (macOS, Windows, Linux) and returning JSON with actionable element references.",
-        "why_trending": "Growing interest in AI agents that can operate desktop apps without screenshots or pixel matching, and this project provides a ready-to-use accessibility-based approach for multiple platforms.",
-        "who_its_for": "Developers building AI agents that need to interact with desktop applications on macOS, Windows, or Linux.",
+        "what_it_is": "agent-desktop is a CLI tool and C library that lets AI agents see and control desktop applications on macOS, Windows, and Linux by reading the OS accessibility tree and returning UI elements as JSON with actionable refs.",
+        "why_trending": "The project is trending because AI agents controlling desktop apps is a hot topic and it gained over 12,000 stars this week.",
+        "who_its_for": "Developers building AI agents that need to interact with desktop applications.",
         "beginner_friendly": false,
         "difficulty": "medium",
         "tags": [
           "accessibility",
           "ai-agents",
+          "automation",
           "cli",
-          "desktop-automation",
-          "rust"
-        ]
+          "desktop-automation"
+        ],
+        "urdu": "agent-desktop ایک سی ایل آئی ٹول اور سی لائبریری ہے جو اے آئی ایجنٹس کو ڈیسک ٹاپ ایپلی کیشنز کو دیکھنے اور کنٹرول کرنے کی اجازت دیتا ہے۔ یہ او ایس کی رسائی درخت کو پڑھ کر یو آئی المینٹس کو جے ایس او این میں واپس کرتا ہے۔ یہ اس ہفتے 12 ہزار سے زیادہ ستارے حاصل کر کے ترینڈنگ بن گیا ہے کیونکہ اے آئی ایجنٹس کا ڈیسک ٹاپ ایپس کنٹرول کرنا ایک گرم موضوع ہے۔"
       }
     },
     {
@@ -97,7 +99,7 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "topics": [],
-      "stars_total": 69036,
+      "stars_total": 69045,
       "stars_gained": 10695,
       "daily_gains": [],
       "spike": null,
@@ -110,18 +112,19 @@
         "age_days": 143
       },
       "summary": {
-        "what_it_is": "A coding-agent skill that orchestrates isolated agents through six phases of security auditing: reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. It produces machine-readable findings with distinct verdicts (confirmed, needs_validation, rejected).",
-        "why_trending": "The skill seeded Cloudflare's vulnerability discovery harness described in a recent Cloudflare blog post, and the topic of AI-assisted security auditing is currently hot. It gained over 10,000 stars in a week.",
-        "who_its_for": "Developers and security researchers who want to use coding agents to automate security audits of codebases.",
+        "what_it_is": "A coding-agent skill that turns an AI agent into a security auditor. It runs structured, multi-phase audits including reconnaissance, coverage-led hunting, candidate validation, structured output, independent verification, and target-neutral reporting. It originated from Cloudflare's vulnerability discovery harness.",
+        "why_trending": "The project gained over 10,000 stars in a single week, likely driven by the Cloudflare blog post describing the vulnerability harness it seeded and growing interest in AI-assisted security auditing.",
+        "who_its_for": "Developers and security teams who want to use coding agents to perform systematic security audits of codebases.",
         "beginner_friendly": false,
         "difficulty": "hard",
         "tags": [
-          "security",
-          "audit",
-          "vulnerability",
+          "security-audit",
           "coding-agent",
-          "automation"
-        ]
+          "vulnerability-discovery",
+          "security-tool",
+          "cloudflare"
+        ],
+        "urdu": "یہ ایک کوڈنگ ایجنٹ ہنر ہے جو AI ایجنٹ کو سیکیورٹی آڈیٹر بنا دیتا ہے۔ یہ چھہ مرحلوں میں ساختہ آڈٹ چلاتا ہے جن میں تفتیش، شکار، تصدیق، اور رپورٹنگ شامل ہیں۔ کلاؤڈ فلئیر کے بلاگ پوسٹ اور AI کی مدد سے سیکیورٹی آڈٹنگ میں دلچسپی کی وجہ سے اس ہفتے اسے 10 ہزار سے زیادہ ستارے ملے ہیں۔"
       }
     },
     {
@@ -145,18 +148,19 @@
         "age_days": 195
       },
       "summary": {
-        "what_it_is": "Auto Ontology is a Python framework that builds a semantic, graph-based reasoning layer over enterprise data. It generates ontologies from metadata, reconciles definitions across systems, and exposes a context layer via MCP, CLI, and API so agents can reliably translate natural language to SQL and retrieve grounded answers.",
-        "why_trending": "No clear reason in the project's own text.",
-        "who_its_for": "Developers and data teams building agentic analytics or LLM workflows that need a trusted semantic layer over relational databases.",
+        "what_it_is": "Auto Ontology is a Python framework that builds a semantic, graph-based reasoning layer over enterprise data. It generates ontologies from metadata, reconciles definitions across systems, and exposes trusted context to AI agents via MCP, CLI, and API for reliable natural-language querying of structured data.",
+        "why_trending": "The project gained over 10,000 stars in a single week, likely driven by NVIDIA's backing and high current interest in AI agent context layers, text-to-SQL, and semantic catalogs.",
+        "who_its_for": "Developers and enterprises building AI agents that need trustworthy, explainable access to relational data through natural language.",
         "beginner_friendly": false,
-        "difficulty": "hard",
+        "difficulty": "medium",
         "tags": [
           "python",
           "ontology",
           "knowledge-graph",
-          "nlp",
-          "nvidia"
-        ]
+          "llm",
+          "text-to-sql"
+        ],
+        "urdu": "Auto Ontology ایک Python framework ہے جو کاروباری ڈیٹا پر semantic، graph-based reasoning layer بناتا ہے۔ یہ میٹا ڈیٹا سے ontologies جنریٹ کرتا ہے، تعاریف کو نظاموں کے درمیان ہم آہنگ کرتا ہے، اور AI ایجنٹس کو MCP، CLI، اور API کے ذریعے قابل اعتماد سیاق و سباق فراہم کرتا ہے۔ اس ہفتے 10 ہزار سے زیادہ ستارے ملنے کی وجہ سے یہ ترینڈنگ میں ہے، جو NVIDIA کی حمایت اور AI ایجنٹس کے سیاق و سباق لیرز، text-to-SQL، اور semantic کیٹلاگز میں دلچسپی کی نشاندہی کرتا ہے۔"
       }
     },
     {
@@ -167,7 +171,7 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "topics": [],
-      "stars_total": 320744,
+      "stars_total": 320745,
       "stars_gained": 9800,
       "daily_gains": [],
       "spike": null,
@@ -180,9 +184,9 @@
         "age_days": 278
       },
       "summary": {
-        "what_it_is": "A collection of small, composable skills for AI coding agents like Claude Code, Codex, GitHub Copilot, and Gemini CLI. They help engineers align with agents, reduce verbosity, and maintain control over the development process.",
-        "why_trending": "The project addresses common AI agent failure modes with practical, model-agnostic skills and is promoted through a newsletter with ~60,000 subscribers, driving significant weekly star growth.",
-        "who_its_for": "Developers using AI coding assistants who want better alignment, less verbosity, and more control over agent behavior.",
+        "what_it_is": "A collection of small, composable skills for AI coding agents (Claude Code, Codex, GitHub Copilot, Gemini CLI, and others) that help with real engineering tasks like aligning with the agent before coding and creating a shared project vocabulary.",
+        "why_trending": "The repo gained 9,800 stars this week, likely due to growing interest in AI coding agents and its practical approach to fixing common agent failure modes. The author mentions ~60,000 newsletter subscribers following updates.",
+        "who_its_for": "Developers who use AI coding agents and want more control over agent behavior and better project alignment.",
         "beginner_friendly": false,
         "difficulty": "easy",
         "tags": [
@@ -190,8 +194,9 @@
           "coding-assistants",
           "developer-tools",
           "productivity",
-          "skills"
-        ]
+          "shell"
+        ],
+        "urdu": "یہ ریپازٹری AI کوڈنگ ایجنٹس (جیسے Claude Code، Codex، GitHub Copilot، Gemini CLI) کے لیے چھوٹے، قابلِ ترکیب سکلز کا مجموعہ ہے جو حقیقی انجینئرنگ کاموں میں مدد دیتے ہیں۔ یہ ایجنٹ کے ساتھ بہتر alignment اور مشترکہ پروجیکٹ لفظیات بنانے پر توجہ دیتے ہیں۔ اس ہفتے 9,800 ستارے ملے، جو AI کوڈنگ ایجنٹس میں بڑھتی دلچسپی اور عام ناکامیوں کو حل کرنے کے عملی طریقے کی وجہ سے محتمل ہے۔ README میں ~60,000 نیوزلیٹر سبسکرائبرز کا ذکر ہے۔"
       }
     },
     {
@@ -214,7 +219,7 @@
         "self-hosted",
         "typescript"
       ],
-      "stars_total": 20561,
+      "stars_total": 20562,
       "stars_gained": 8325,
       "daily_gains": [],
       "spike": null,
@@ -227,9 +232,9 @@
         "age_days": 89
       },
       "summary": {
-        "what_it_is": "OpenMausBot is an open-source chat app where each conversation is a real AI agent (Claude, Codex, or Grok) running locally on your machine. It lets you bring your own CLI tools and subscriptions, runs a local harness server, and gives each bot its own cloud desktop, local VM, or host computer access with 500+ apps via Composio.",
-        "why_trending": "It positions itself as the open-source alternative to several closed personal-agent products (Grok Bot, Meta Muse, OpenAI dots, Cue by Manus) that launched recently, offering a local-first, bring-your-own-agent approach without new accounts or cloud proxies.",
-        "who_its_for": "Developers and power users who want a self-hosted, multi-agent chat interface using their existing Claude, Codex, or Grok CLI installations.",
+        "what_it_is": "OpenMausBot is an open-source chat application that lets you run multiple AI agents like Claude, Codex, and Grok locally. Each agent appears as a contact in a sidebar with its own personality, model, cloud computer, and connected apps, and all data stays on your machine.",
+        "why_trending": "The project offers a local-first, open-source alternative to several closed-source AI agent products (Grok Bot, Meta Muse, OpenAI dots, Cue by Manus) that launched recently, attracting users who want control over their agents and data.",
+        "who_its_for": "Developers and power users who want to run and manage multiple local AI agents through a unified chat interface.",
         "beginner_friendly": false,
         "difficulty": "medium",
         "tags": [
@@ -238,7 +243,8 @@
           "self-hosted",
           "typescript",
           "claude-code"
-        ]
+        ],
+        "urdu": "OpenMausBot ایک اوپن سورس چیٹ ایپ ہے جو آپ کو کلاڈ، کوڈیکس اور گراک جیسے کئی AI ایجنٹس لوکل چلانے کی اجازت دیتا ہے۔ ہر ایجنٹ ایک کانٹیکٹ کی طرح سائیڈ بار میں نظر آتا ہے جس کا اپنا پرسنلٹی، ماڈل، کلاؤڈ کمپیوٹر اور ایپس ہوتے ہیں، اور تمام ڈیٹا آپ کی مشین پر رہتا ہے۔ یہ تازہ ترین بند سورس AI ایجنٹ پروڈکٹس کا لوکل-فرسٹ، اوپن سورس متبادل ہے، جس کی وجہ سے یہ ترینڈنگ میں ہے۔"
       }
     },
     {
@@ -270,7 +276,7 @@
         "webscraping",
         "xpath"
       ],
-      "stars_total": 101046,
+      "stars_total": 101049,
       "stars_gained": 8226,
       "daily_gains": [],
       "spike": null,
@@ -283,18 +289,19 @@
         "age_days": 756
       },
       "summary": {
-        "what_it_is": "Scrapling is a Python web scraping framework that combines fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling. It handles static pages, JavaScript rendering, API extraction, and full-scale crawls with proxy rotation and retries.",
-        "why_trending": "The project integrates with AI agents through an MCP server and Agent Skill, a hot topic in AI-assisted scraping, which likely drove the recent star surge.",
-        "who_its_for": "Developers and data engineers who need a comprehensive scraping tool for tasks ranging from simple extraction to large-scale crawling, including AI agent integration.",
+        "what_it_is": "Scrapling is a Python web scraping framework that combines fast HTTP requests, stealth browser automation, powerful parsing, and concurrent crawling in one library. It can scrape static pages, render JavaScript, interact with websites, and extract data from API calls, with features like proxy rotation, automatic retries, pause/resume, and built-in data exports.",
+        "why_trending": "The project integrates with AI agents through an MCP server and Agent Skill, a currently hot topic. Its comprehensive feature set covering the full scraping workflow from simple extraction to large-scale crawling also drives interest.",
+        "who_its_for": "Developers and data engineers who need to extract data from websites, from simple page scraping to complex, large-scale crawling projects.",
         "beginner_friendly": false,
         "difficulty": "medium",
         "tags": [
-          "python",
           "web-scraping",
+          "python",
           "crawler",
           "ai",
-          "mcp"
-        ]
+          "automation"
+        ],
+        "urdu": "Scrapling ایک Python ویب اسکرپنگ فریم ورک ہے جو تیز HTTP ریکویسٹ، خفیہ براؤزر آٹومیشن، طاقتور پارسنگ اور هم وقت کراولنگ کو ایک لائبریری میں جمع کرتا ہے۔ یہ سٹیک صفحات، جاوا اسکرپٹ رینڈر، ویب سائٹز سے تعامل اور API کالز سے ڈیٹا نکالنے کی سہولت دیتا ہے۔ اس کی AI ایجنٹ انٹیگریشن (MCP سرور اور ایجنٹ سکل) اور مکمل اسکرپنگ ورک فلو کی وجہ سے یہ رائج ہو رہا ہے۔"
       }
     },
     {
@@ -326,31 +333,32 @@
         "sqlite",
         "supermemory"
       ],
-      "stars_total": 115755,
+      "stars_total": 115757,
       "stars_gained": 5130,
       "daily_gains": [],
       "spike": null,
       "signals": {
         "license": "Apache-2.0",
         "last_push": "2026-11-10",
-        "open_issues": 125,
+        "open_issues": 115,
         "contributors": 363,
         "good_first_issues": 0,
         "age_days": 434
       },
       "summary": {
-        "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It runs a side agent that records what happens, compresses the notes with AI, and feeds relevant context back at the start of the next session. Works with Claude Code, Copilot, Codex, Gemini, and other agents.",
-        "why_trending": "The README displays a 'GitHub Trending Repository of the Day' badge and the project gained over 5,000 stars in a week, indicating a recent surge in attention.",
-        "who_its_for": "Developers who use AI coding assistants and want them to remember past work instead of starting fresh each session.",
+        "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It runs a side agent that records what happens, compresses the notes with AI, and feeds relevant context back at the start of the next session.",
+        "why_trending": "The project shows a GitHub Trending badge and gained over 5,000 stars in a week, suggesting it was featured on GitHub Trending and addresses a common frustration with AI agents forgetting prior work.",
+        "who_its_for": "Developers who use AI coding assistants like Claude Code and want those assistants to remember past sessions.",
         "beginner_friendly": false,
         "difficulty": "medium",
         "tags": [
           "ai-agents",
-          "memory",
-          "rag",
-          "claude",
-          "embeddings"
-        ]
+          "ai-memory",
+          "claude-code",
+          "long-term-memory",
+          "rag"
+        ],
+        "urdu": "Claude-Mem AI کوڈنگ ایجنٹس کو جلسات کے درمیان یادداشت رکھنے کی سہولت دیتا ہے۔ یہ ایک معاون ایجنٹ چلاتا ہے جو کام نوٹ کرتا ہے، AI سے مختصر کرتا ہے، اور اگلی جلسہ میں متعلقہ سیاق و سباق واپس دیتا ہے۔ یہ ہفتے میں 5،000 سے زیادہ ستارے حاصل کر کے GitHub Trending پر نظر آیا، جو ظاہر کرتا ہے کہ یہ عام مسائل کو حل کرتا ہے۔"
       }
     },
     {
@@ -374,7 +382,7 @@
         "unity",
         "unreal-engine"
       ],
-      "stars_total": 38001,
+      "stars_total": 38002,
       "stars_gained": 4324,
       "daily_gains": [],
       "spike": null,
@@ -387,18 +395,19 @@
         "age_days": 269
       },
       "summary": {
-        "what_it_is": "A template that turns Claude Code into an AI-powered game development studio. You describe a game idea, it asks clarifying questions, writes a design brief, builds a playable browser prototype, and lets you iteratively grow it into a full game with support for web, Godot, Unity, and Unreal engines.",
-        "why_trending": "The project provides a complete AI-agent-based workflow for game development using Claude Code, which is a currently popular topic. It gained over 4,300 stars in a single week, indicating strong community interest in AI-assisted game creation.",
-        "who_its_for": "Indie game developers and hobbyists who want to prototype and build games with AI assistance using Claude Code.",
+        "what_it_is": "Claude Code Game Studios is a template that turns Claude Code into an AI-powered game development studio. You describe a game idea, it asks clarifying questions, writes a design brief, builds a playable browser prototype, and then lets you iterate and grow it into a full project with support for web, Godot, Unity, and Unreal engines.",
+        "why_trending": "The project gained over 4,300 stars in a week, likely because it demonstrates a novel multi-agent AI workflow for game development that mirrors a real studio hierarchy, tapping into the growing interest in AI-assisted coding and indie game creation.",
+        "who_its_for": "Indie developers, hobbyists, and students who want to prototype and build games using AI assistance with Claude Code.",
         "beginner_friendly": false,
         "difficulty": "medium",
         "tags": [
           "ai-agents",
-          "ai-assisted-development",
-          "claude-code",
           "game-development",
-          "gamedev"
-        ]
+          "claude-code",
+          "prototyping",
+          "indie-games"
+        ],
+        "urdu": "یہ پروجیکٹ کلاؤڈ کوڈ کو ایک اے‌آئی گیم ڈویلپمنٹ اسٹوڈیو میں بدل دیتا ہے۔ آپ گیم کا خیال بتاتے ہیں، یہ سوالات پوچھتا ہے، ڈیزائن بریف لکھتا ہے، براؤزر میں کھیلنے والا پریوٹائپ بناتا ہے، اور پھر آپ اسے پورا گیم بنا سکتے ہیں۔ اس ہفتے ۴۳۰۰ سے زیادہ ستارے ملنے کی وجہ اس کا منفرد ملٹی ایجنٹ ورک فلو ہے جو حقیقی اسٹوڈیو کی طرح کام کرتا ہے اور اے‌آئی کوڈنگ میں دلچسپی رکھنے والوں کو اپنی طرف کھینچتا ہے۔"
       }
     },
     {
@@ -411,7 +420,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars_total": 192135,
+      "stars_total": 192137,
       "stars_gained": 3796,
       "daily_gains": [],
       "spike": null,
@@ -424,9 +433,9 @@
         "age_days": 412
       },
       "summary": {
-        "what_it_is": "This repository contains Anthropic's official implementation of Agent Skills for Claude. Skills are self-contained folders with instructions and resources that teach Claude how to perform specialized tasks like document creation, data analysis, or creative work.",
-        "why_trending": "It is the reference implementation for the Agent Skills standard (agentskills.io) and includes production document skills that power Claude's file capabilities, a topic currently receiving significant attention in AI agent development.",
-        "who_its_for": "Developers and users who want to extend Claude's abilities with custom skills or learn the Agent Skills specification.",
+        "what_it_is": "This repository contains Anthropic's implementation of skills for Claude. Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks, ranging from creative applications to technical tasks and enterprise workflows.",
+        "why_trending": "The repository includes production document skills that power Claude's document capabilities (create files feature) and are now open sourced under Apache 2.0. The Agent Skills standard and integration with Claude Code, Claude.ai, and the API likely drive interest.",
+        "who_its_for": "Developers who want to create custom skills for Claude or understand patterns for building skills, and users of Claude Code, Claude.ai, and the Claude API.",
         "beginner_friendly": false,
         "difficulty": "easy",
         "tags": [
@@ -435,7 +444,8 @@
           "anthropic",
           "ai-agents",
           "skills"
-        ]
+        ],
+        "urdu": "یہ ریپازٹری کلاؤڈ کے لیے اینتھروپک کی سکلز کی امپلیمنٹیشن ہے۔ سکلز فولڈرز ہیں جن میں ہدایات، اسکرپٹس، اور وسائل ہوتے ہیں جو کلاؤڈ کو مخصوص کام کرنے میں مدد دیتے ہیں۔ اس ریپازٹری میں تخلیقی، تکنیکل، کاروباری، اور دستاویزی کاموں کے لیے مثال سکلز شامل ہیں۔ یہ ریپازٹری اس لیے ترینڈنگ ہے کیونکہ اس میں کلاؤڈ کی دستاویزی قابلیتوں کو چلانے والے پرڈکشن سکلز شامل ہیں جو اب اوپن سورس ہیں۔ اینتھروپک نے ایجنٹ سکلز کے معیار کو متعارف کرایا ہے اور یہ سکلز کلاؤڈ کوڈ، کلاؤڈ.اے آئی، اور اے پی آئی میں دستیاب ہیں۔"
       }
     }
   ],

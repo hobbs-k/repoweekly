@@ -1,19 +1,20 @@
 {
   "readme_hash": "347e474e163220dfe8f2a31872972d92352b0a26",
-  "generated": "2026-11-10T19:50:47.987Z",
+  "generated": "2026-11-10T19:58:58.519Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It runs a side agent that records what happens, compresses the notes with AI, and feeds relevant context back at the start of the next session. Works with Claude Code, Copilot, Codex, Gemini, and other agents.",
-    "why_trending": "The README displays a 'GitHub Trending Repository of the Day' badge and the project gained over 5,000 stars in a week, indicating a recent surge in attention.",
-    "who_its_for": "Developers who use AI coding assistants and want them to remember past work instead of starting fresh each session.",
+    "what_it_is": "Claude-Mem gives AI coding agents persistent memory across sessions. It runs a side agent that records what happens, compresses the notes with AI, and feeds relevant context back at the start of the next session.",
+    "why_trending": "The project shows a GitHub Trending badge and gained over 5,000 stars in a week, suggesting it was featured on GitHub Trending and addresses a common frustration with AI agents forgetting prior work.",
+    "who_its_for": "Developers who use AI coding assistants like Claude Code and want those assistants to remember past sessions.",
     "beginner_friendly": false,
     "difficulty": "medium",
     "tags": [
       "ai-agents",
-      "memory",
-      "rag",
-      "claude",
-      "embeddings"
-    ]
+      "ai-memory",
+      "claude-code",
+      "long-term-memory",
+      "rag"
+    ],
+    "urdu": "Claude-Mem AI کوڈنگ ایجنٹس کو جلسات کے درمیان یادداشت رکھنے کی سہولت دیتا ہے۔ یہ ایک معاون ایجنٹ چلاتا ہے جو کام نوٹ کرتا ہے، AI سے مختصر کرتا ہے، اور اگلی جلسہ میں متعلقہ سیاق و سباق واپس دیتا ہے۔ یہ ہفتے میں 5،000 سے زیادہ ستارے حاصل کر کے GitHub Trending پر نظر آیا، جو ظاہر کرتا ہے کہ یہ عام مسائل کو حل کرتا ہے۔"
   }
 }
