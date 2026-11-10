@@ -42,7 +42,7 @@ await run('rank', async (log) => {
     source = 'snapshots';
   } else {
     if (!bootstrap) throw new Error(`only ${have} of 8 snapshots for ${week} and no bootstrap file, run bootstrap-trending.js first`);
-    const files = fs.existsSync(config.paths.snapshots) ? fs.readdirSync(config.paths.snapshots).filter((f) => f <= `${end}.json`).sort() : [];
+    const files = fs.existsSync(config.paths.snapshots) ? fs.readdirSync(config.paths.snapshots).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f) && f <= `${end}.json`).sort() : [];
     const latest = files.length ? readJson(path.join(config.paths.snapshots, files.at(-1))) : null;
     growth = growthFromBootstrap(bootstrap, latest);
     source = 'bootstrap';
