@@ -31,6 +31,7 @@ const r = config.ranking;
 
     <h2>Star check</h2>
     <p>For each ranked repository we look at up to {config.starCheck.sample} of the people who starred it most recently. We count the accounts that were under 60 days old when they starred, have no repositories and have at most one follower. At {THRESHOLDS.check} percent or more we say "look closer". At {THRESHOLDS.suspicious} percent or more we say "many new empty accounts".</p>
+    <p><strong>Right now the star check is paused.</strong> GitHub no longer lets us read the list of people who starred a repository, so no entry shows a result. It comes back if that changes.</p>
     <p>This is a rough signal. New accounts also star things for good reasons, and a post that goes viral brings new users. We cannot see who paid for stars. The star check never changes a repository's place.</p>
 
     <h2>Rising</h2>
