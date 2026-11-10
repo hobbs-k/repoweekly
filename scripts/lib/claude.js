@@ -13,28 +13,32 @@ export function requireKey() {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// One Gemini call, returns the reply text. Waits and retries on rate limits and busy servers.
+// One Gemini call, returns the reply text. A rate-limited or busy model is retried, then the next model is tried.
 async function generate({ system, user, maxTokens }) {
-  const url = `${config.summarize.apiBase}/models/${config.summarize.model}:generateContent`;
   const body = JSON.stringify({
     systemInstruction: { parts: [{ text: system }] },
     contents: [{ role: 'user', parts: [{ text: user }] }],
     generationConfig: { maxOutputTokens: maxTokens, responseMimeType: 'application/json' },
   });
-  for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY },
-      body,
-    });
-    if ((res.status === 429 || res.status >= 500) && attempt < 5) {
-      await sleep(config.summarize.retryWaitMs * (attempt + 1));
-      continue;
+  let busy = '';
+  for (const model of config.summarize.models) {
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const res = await fetch(`${config.summarize.apiBase}/models/${model}:generateContent`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY },
+        body,
+      });
+      if (res.status === 429 || res.status >= 500) {
+        busy = `${model} returned ${res.status}`;
+        await sleep(config.summarize.retryWaitMs * (attempt + 1));
+        continue;
+      }
+      if (!res.ok) throw new Error(`Gemini returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
+      const data = await res.json();
+      return (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? '').join('');
     }
-    if (!res.ok) throw new Error(`Gemini returned ${res.status}: ${(await res.text()).slice(0, 200)}`);
-    const data = await res.json();
-    return (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? '').join('');
   }
+  throw new Error(`every Gemini model was busy (${busy})`);
 }
 
 // One call that must return a JSON object. Retries once with the reason the first reply failed.
