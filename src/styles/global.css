@@ -125,7 +125,15 @@ a:hover { color: var(--mark); text-decoration-color: var(--mark); }
 }
 .nav a:hover { color: var(--on-phos); text-decoration: underline; text-decoration-color: var(--on-phos); text-underline-offset: 0.3em; }
 .fkey { opacity: 0.6; font-weight: 500; }
-@media (max-width: 39.99rem) { .fkey { display: none; } .nav ul { display: grid; grid-template-columns: repeat(3, 1fr); } .nav a { display: block; margin-right: 0; padding: 0.6rem 0.5rem; font-size: 0.75rem; letter-spacing: 0.03em; } .nav a[aria-current='page'] { padding-inline: 0.5rem; margin-left: 0; } }
+@media (max-width: 39.99rem) {
+  .fkey { display: none; }
+  .mast-row { gap: 0.9rem 2rem; padding-block: 1.1rem 0.9rem; }
+  .brand { font-size: clamp(2.2rem, 10vw, 3rem); }
+  .status .gh-link ~ span { display: none; }
+  .nav ul { gap: 0; }
+  .nav a { display: block; margin-right: 0; padding: 0.7rem 0.9rem; font-size: 0.75rem; letter-spacing: 0.03em; }
+  .nav li a[aria-current='page'] { padding-inline: 0.9rem; margin-left: 0; }
+}
 .nav a[aria-current='page'] { background: var(--on-phos); color: var(--phos); padding-left: 0.75rem; margin-left: -0.25rem; }
 .nav a[aria-current='page'] .fkey { opacity: 0.8; }
 
