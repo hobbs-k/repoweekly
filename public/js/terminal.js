@@ -81,7 +81,8 @@ if (typeof document !== 'undefined') (async () => {
   const box = document.querySelector('.term');
   if (!box) return;
   box.hidden = false;
-  const out = box.querySelector('.term-out');
+  const scroller = box.querySelector('.term-out');
+  const out = box.querySelector('.term-lines');
   const form = box.querySelector('.term-form');
   const input = form.elements.cmd;
   const src = box.dataset.src;
@@ -90,6 +91,7 @@ if (typeof document !== 'undefined') (async () => {
   const data = { repos, rising, skills };
 
   const print = (text, cls) => { const p = document.createElement('p'); if (cls) p.className = cls; p.textContent = text; out.append(p); };
+  scroller.addEventListener('click', (e) => { if (!getSelection().toString() && e.target.tagName !== 'INPUT') input.focus(); });
   const history = [];
   let at = 0;
   print(repos ? 'RepoWeekly terminal. Type "help" for commands.' : 'The data is not published yet. Try again later.');
@@ -103,7 +105,7 @@ if (typeof document !== 'undefined') (async () => {
     if (line.trim().toLowerCase() === 'clear') { out.replaceChildren(); return; }
     print('$ ' + line, 'term-cmd');
     for (const l of execute(line, data)) print(l);
-    box.scrollTop = box.scrollHeight;
+    scroller.scrollTop = scroller.scrollHeight;
   });
   input.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowUp' && at > 0) { input.value = history[--at]; e.preventDefault(); }

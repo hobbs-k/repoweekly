@@ -9,8 +9,10 @@ import { href } from '../lib/format.js';
     <h1>Terminal</h1>
     <p>Ask the data questions with short commands. Type <code>help</code> to see them. It runs in your browser and nothing you type is sent anywhere.</p>
     <div class="term" data-src={href('/api')} hidden>
-      <div class="term-out" role="log" aria-live="polite"></div>
-      <form class="term-form"><label for="term-in" class="term-ps">$</label><input id="term-in" name="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Command" /></form>
+      <div class="term-out">
+        <div class="term-lines" role="log" aria-live="polite"></div>
+        <form class="term-form"><label for="term-in" class="term-ps">$</label><input id="term-in" name="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Command" /></form>
+      </div>
     </div>
     <noscript><p>The terminal needs JavaScript. <a href={href('/api-docs/')}>The same data is available as JSON files.</a></p></noscript>
   </div>
