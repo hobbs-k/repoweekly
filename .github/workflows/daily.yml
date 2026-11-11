@@ -41,11 +41,13 @@ jobs:
       # Open tickets for the Contribute page. Also a bonus, so a failure here does not stop the snapshot.
       - name: Collect open issues
         run: npm run issues
+        timeout-minutes: 8
         continue-on-error: true
       # The Skills page. It makes AI summaries for the top ten, so it needs the AI key and it is
       # a bonus too: a failure here does not stop the snapshot.
       - name: Find the best skills
         run: npm run skills
+        timeout-minutes: 10
         continue-on-error: true
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.NVIDIA_API_KEY }}
