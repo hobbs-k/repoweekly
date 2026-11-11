@@ -1,6 +1,6 @@
 {
   "morluto/rea": {
-    "pushed_at": "2026-11-11T08:20:10Z",
+    "pushed_at": "2026-11-11T12:19:30Z",
     "count": 6,
     "skills": [
       {
@@ -170,7 +170,8 @@
     "count": 12
   },
   "thedotmack/claude-mem": {
-    "pushed_at": "2026-11-11T07:15:32Z",
+    "pushed_at": "2026-11-11T12:07:42Z",
+    "count": 47,
     "skills": [
       {
         "path": ".claude/skills/community-sweep/SKILL.md",
@@ -332,8 +333,7 @@
         "path": "plugin/skills/screenpipe/SKILL.md",
         "name": "screenpipe"
       }
-    ],
-    "count": 47
+    ]
   },
   "addyosmani/agent-skills": {
     "pushed_at": "2026-11-01T19:24:49Z",
@@ -452,7 +452,7 @@
     "count": 1
   },
   "paperclipai/paperclip": {
-    "pushed_at": "2026-11-11T08:22:42Z",
+    "pushed_at": "2026-11-11T12:24:38Z",
     "count": 83,
     "skills": [
       {
@@ -728,7 +728,8 @@
     "count": 26
   },
   "nexu-io/open-design": {
-    "pushed_at": "2026-11-11T04:11:31Z",
+    "pushed_at": "2026-11-11T12:06:29Z",
+    "count": 562,
     "skills": [
       {
         "path": ".claude/skills/od-contribute/SKILL.md",
@@ -890,8 +891,7 @@
         "path": "design-templates/html-ppt-zhangzara-blue-professional/SKILL.md",
         "name": "html-ppt-zhangzara-blue-professional"
       }
-    ],
-    "count": 562
+    ]
   },
   "tt-a1i/archify": {
     "pushed_at": "2026-11-11T05:01:27Z",
@@ -962,7 +962,8 @@
     "count": 9
   },
   "career-ops-hq/career-ops": {
-    "pushed_at": "2026-11-11T06:01:31Z",
+    "pushed_at": "2026-11-11T12:16:58Z",
+    "count": 15,
     "skills": [
       {
         "path": ".agents/skills/career-ops/SKILL.md",
@@ -1024,8 +1025,7 @@
         "path": "plugins/notion/skill.md",
         "name": "notion"
       }
-    ],
-    "count": 15
+    ]
   },
   "ComposioHQ/awesome-claude-skills": {
     "pushed_at": "2026-09-18T07:16:11Z",
@@ -1194,7 +1194,7 @@
     "count": 864
   },
   "code-yeongyu/oh-my-openagent": {
-    "pushed_at": "2026-11-11T08:23:52Z",
+    "pushed_at": "2026-11-11T12:18:37Z",
     "count": 61,
     "skills": [
       {
@@ -1360,7 +1360,8 @@
     ]
   },
   "shanraisshan/claude-code-best-practice": {
-    "pushed_at": "2026-11-11T06:34:06Z",
+    "pushed_at": "2026-11-11T11:32:03Z",
+    "count": 9,
     "skills": [
       {
         "path": ".claude/skills/agent-browser/SKILL.md",
@@ -1398,8 +1399,7 @@
         "path": "agent-teams/.claude/skills/time-svg-creator/SKILL.md",
         "name": "time-svg-creator"
       }
-    ],
-    "count": 9
+    ]
   },
   "blader/humanizer": {
     "pushed_at": "2026-11-10T01:35:15Z",
@@ -1602,9 +1602,9 @@
     "count": 53
   },
   "hesreallyhim/awesome-claude-code": {
-    "pushed_at": "2026-11-11T06:10:41Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-11T12:09:31Z",
+    "count": 0,
+    "skills": []
   },
   "K-Dense-AI/scientific-agent-skills": {
     "pushed_at": "2026-11-09T09:17:48Z",
@@ -1778,7 +1778,7 @@
     "count": 0
   },
   "CherryHQ/cherry-studio": {
-    "pushed_at": "2026-11-11T08:11:21Z",
+    "pushed_at": "2026-11-11T12:24:54Z",
     "count": 41,
     "skills": [
       {
@@ -1944,7 +1944,7 @@
     ]
   },
   "alibaba/open-code-review": {
-    "pushed_at": "2026-11-11T08:21:06Z",
+    "pushed_at": "2026-11-11T11:46:39Z",
     "count": 4,
     "skills": [
       {
@@ -2857,7 +2857,8 @@
     "count": 926
   },
   "topoteretes/cognee": {
-    "pushed_at": "2026-11-11T07:43:29Z",
+    "pushed_at": "2026-11-11T12:24:59Z",
+    "count": 27,
     "skills": [
       {
         "path": ".agents/skills/cognee-cli/SKILL.md",
@@ -2967,8 +2968,7 @@
         "path": "examples/demos/feedback/skill_feedback_loop/skills/skill-feedback-writer/SKILL.md",
         "name": "skill-feedback-writer"
       }
-    ],
-    "count": 27
+    ]
   },
   "googleworkspace/cli": {
     "pushed_at": "2026-11-03T01:37:22Z",
@@ -3137,7 +3137,8 @@
     "count": 95
   },
   "nanocoai/nanoclaw": {
-    "pushed_at": "2026-11-11T06:30:12Z",
+    "pushed_at": "2026-11-11T12:09:06Z",
+    "count": 64,
     "skills": [
       {
         "path": ".claude/skills/add-anydoc/SKILL.md",
@@ -3299,8 +3300,7 @@
         "path": ".claude/skills/add-webex/SKILL.md",
         "name": "add-webex"
       }
-    ],
-    "count": 64
+    ]
   },
   "alirezarezvani/claude-skills": {
     "pushed_at": "2026-11-11T06:17:50Z",
@@ -4048,7 +4048,7 @@
     "count": 5
   },
   "NVIDIA/SkillSpector": {
-    "pushed_at": "2026-11-11T07:45:02Z",
+    "pushed_at": "2026-11-11T11:31:54Z",
     "count": 33,
     "skills": [
       {
@@ -4186,7 +4186,7 @@
     ]
   },
   "nocobase/nocobase": {
-    "pushed_at": "2026-11-11T08:01:23Z",
+    "pushed_at": "2026-11-11T12:10:57Z",
     "count": 39,
     "skills": [
       {
@@ -4626,7 +4626,8 @@
     "count": 1
   },
   "google/elephant-goldfish-model": {
-    "pushed_at": "2026-11-11T03:57:34Z",
+    "pushed_at": "2026-11-11T08:26:49Z",
+    "count": 14,
     "skills": [
       {
         "path": "distributions/claude/skills/egm-bootstrap/SKILL.md",
@@ -4684,8 +4685,7 @@
         "path": "skills/egm-review/SKILL.md",
         "name": "egm-review"
       }
-    ],
-    "count": 14
+    ]
   },
   "dreammis/social-auto-upload": {
     "pushed_at": "2026-10-22T18:42:22Z",
@@ -4851,7 +4851,8 @@
     "count": 1
   },
   "eigent-ai/eigent": {
-    "pushed_at": "2026-11-10T21:30:30Z",
+    "pushed_at": "2026-11-11T09:38:36Z",
+    "count": 6,
     "skills": [
       {
         "path": "resources/example-skills/docx/SKILL.md",
@@ -4877,8 +4878,7 @@
         "path": "resources/example-skills/xlsx/SKILL.md",
         "name": "xlsx"
       }
-    ],
-    "count": 6
+    ]
   },
   "yusufkaraaslan/Skill_Seekers": {
     "pushed_at": "2026-09-30T18:49:17Z",
@@ -5261,7 +5261,8 @@
     "count": 2
   },
   "Jeffallan/claude-skills": {
-    "pushed_at": "2026-10-30T18:00:19Z",
+    "pushed_at": "2026-11-11T08:34:48Z",
+    "count": 67,
     "skills": [
       {
         "path": "skills/angular-architect/SKILL.md",
@@ -5423,8 +5424,7 @@
         "path": "skills/php-pro/SKILL.md",
         "name": "php-pro"
       }
-    ],
-    "count": 67
+    ]
   },
   "aden-hive/hive": {
     "pushed_at": "2026-11-08T01:41:04Z",
@@ -6327,7 +6327,7 @@
     "count": 11
   },
   "mvschwarz/openrig": {
-    "pushed_at": "2026-11-11T08:18:37Z",
+    "pushed_at": "2026-11-11T10:42:49Z",
     "count": 97,
     "skills": [
       {
@@ -6493,7 +6493,7 @@
     ]
   },
   "Gentleman-Programming/gentle-ai": {
-    "pushed_at": "2026-11-11T08:17:53Z",
+    "pushed_at": "2026-11-11T12:19:13Z",
     "count": 26,
     "skills": [
       {
@@ -6613,7 +6613,8 @@
     "count": 1
   },
   "jnMetaCode/superpowers-zh": {
-    "pushed_at": "2026-11-10T09:10:21Z",
+    "pushed_at": "2026-11-11T09:34:20Z",
+    "count": 21,
     "skills": [
       {
         "path": "skills/brainstorming/SKILL.md",
@@ -6699,8 +6700,7 @@
         "path": "skills/writing-skills/SKILL.md",
         "name": "writing-skills"
       }
-    ],
-    "count": 21
+    ]
   },
   "zenstory-ai/oh-story-claudecode": {
     "pushed_at": "2026-11-11T03:19:52Z",
@@ -6770,7 +6770,8 @@
     "count": 0
   },
   "gamedev-skills/awesome-gamedev-agent-skills": {
-    "pushed_at": "2026-11-10T14:52:27Z",
+    "pushed_at": "2026-11-11T10:51:19Z",
+    "count": 78,
     "skills": [
       {
         "path": "router/SKILL.md",
@@ -6932,8 +6933,7 @@
         "path": "skills/godot/godot-signals-groups/SKILL.md",
         "name": "godot-signals-groups"
       }
-    ],
-    "count": 78
+    ]
   },
   "xixu-me/xget": {
     "pushed_at": "2026-11-05T08:47:34Z",
@@ -7441,7 +7441,8 @@
     "count": 2
   },
   "Devin-AXIS/iPolloWork": {
-    "pushed_at": "2026-11-11T04:26:47Z",
+    "pushed_at": "2026-11-11T10:16:36Z",
+    "count": 109,
     "skills": [
       {
         "path": ".agents/skills/image-editing/SKILL.md",
@@ -7603,8 +7604,7 @@
         "path": "examples/plugin-packages/design-agent/skills/ipollowork-design-web/SKILL.md",
         "name": "ipollowork-design-web"
       }
-    ],
-    "count": 109
+    ]
   },
   "gepa-ai/gepa": {
     "pushed_at": "2026-11-09T12:46:31Z",
@@ -7969,14 +7969,14 @@
     "count": 1
   },
   "larashero3-dotcom/lieflat-charts": {
-    "pushed_at": "2026-11-03T03:38:34Z",
+    "pushed_at": "2026-11-11T10:55:46Z",
+    "count": 1,
     "skills": [
       {
         "path": "SKILL.md",
         "name": "lieflat-charts"
       }
-    ],
-    "count": 1
+    ]
   },
   "patch-gg/pixelfx": {
     "pushed_at": "2026-11-09T09:51:43Z",
@@ -8049,14 +8049,14 @@
     "count": 1
   },
   "JuneYaooo/rea-video": {
-    "pushed_at": "2026-11-11T07:04:18Z",
+    "pushed_at": "2026-11-11T08:55:41Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/rea-video/SKILL.md",
         "name": "rea-video"
       }
-    ],
-    "count": 1
+    ]
   },
   "kaankiziltug/logo-design-skill": {
     "pushed_at": "2026-11-06T07:40:27Z",
@@ -8117,7 +8117,7 @@
     "count": 7
   },
   "melonjs/melonJS": {
-    "pushed_at": "2026-11-11T08:01:29Z",
+    "pushed_at": "2026-11-11T09:08:37Z",
     "count": 25,
     "skills": [
       {
@@ -8334,7 +8334,8 @@
     "count": 0
   },
   "wiltodelta/remove-ai-watermarks": {
-    "pushed_at": "2026-11-11T05:32:47Z",
+    "pushed_at": "2026-11-11T08:50:05Z",
+    "count": 3,
     "skills": [
       {
         "path": ".claude/skills/provider-oracles/SKILL.md",
@@ -8348,8 +8349,7 @@
         "path": "skills/remove-ai-watermarks/SKILL.md",
         "name": "remove-ai-watermarks"
       }
-    ],
-    "count": 3
+    ]
   },
   "browser-act/skills": {
     "pushed_at": "2026-11-04T10:27:29Z",
@@ -8954,7 +8954,7 @@
     "count": 0
   },
   "dotnet/skills": {
-    "pushed_at": "2026-11-11T07:50:25Z",
+    "pushed_at": "2026-11-11T09:38:42Z",
     "count": 116,
     "skills": [
       {
@@ -9275,7 +9275,8 @@
     "count": 5
   },
   "elementalsouls/Claude-BugHunter": {
-    "pushed_at": "2026-11-10T12:43:34Z",
+    "pushed_at": "2026-11-11T11:55:37Z",
+    "count": 83,
     "skills": [
       {
         "path": "skills/apk-redteam-pipeline/SKILL.md",
@@ -9437,11 +9438,10 @@
         "path": "skills/hunt-llm-ai/SKILL.md",
         "name": "hunt-llm-ai"
       }
-    ],
-    "count": 83
+    ]
   },
   "aipoch/open-science": {
-    "pushed_at": "2026-11-11T08:24:43Z",
+    "pushed_at": "2026-11-11T12:17:48Z",
     "count": 27,
     "skills": [
       {
@@ -9609,7 +9609,8 @@
     "count": 12
   },
   "metalbear-co/mirrord": {
-    "pushed_at": "2026-11-11T00:33:17Z",
+    "pushed_at": "2026-11-11T11:38:51Z",
+    "count": 12,
     "skills": [
       {
         "path": "mirrord/mcp/corpus/skills/mirrord-chaos/SKILL.md",
@@ -9659,8 +9660,7 @@
         "path": "mirrord/mcp/corpus/skills/mirrord-up/SKILL.md",
         "name": "mirrord-up"
       }
-    ],
-    "count": 12
+    ]
   },
   "eugeniughelbur/obsidian-second-brain": {
     "pushed_at": "2026-11-10T21:34:25Z",
@@ -9701,7 +9701,7 @@
     "count": 2
   },
   "kajisho5/ffmpeg-skill": {
-    "pushed_at": "2026-11-11T08:23:33Z",
+    "pushed_at": "2026-11-11T10:36:36Z",
     "count": 16,
     "skills": [
       {
@@ -9771,7 +9771,8 @@
     ]
   },
   "Manavarya09/design-extract": {
-    "pushed_at": "2026-11-05T08:50:20Z",
+    "pushed_at": "2026-11-11T11:17:34Z",
+    "count": 25,
     "skills": [
       {
         "path": "skills/extract-design/SKILL.md",
@@ -9873,8 +9874,7 @@
         "path": "website/public/gallery/webflow-com/.claude/skills/designlang/SKILL.md",
         "name": "designlang"
       }
-    ],
-    "count": 25
+    ]
   },
   "brycewang-stanford/Auto-Empirical-Research-Skills": {
     "pushed_at": "2026-11-09T13:27:49Z",
@@ -10546,7 +10546,8 @@
     "count": 1
   },
   "michael-denyer/pstack-claude": {
-    "pushed_at": "2026-11-11T07:06:06Z",
+    "pushed_at": "2026-11-11T12:15:43Z",
+    "count": 68,
     "skills": [
       {
         "path": "plugins/pstack/grok/skills/pstack-routing/SKILL.md",
@@ -10708,8 +10709,7 @@
         "path": "plugins/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
         "name": "principle-migrate-callers-then-delete-legacy-apis"
       }
-    ],
-    "count": 68
+    ]
   },
   "muxuuu/serenity-skill": {
     "pushed_at": "2026-10-11T06:10:53Z",
@@ -10722,7 +10722,8 @@
     "count": 1
   },
   "nowork-studio/notfair-plugin": {
-    "pushed_at": "2026-11-11T06:33:26Z",
+    "pushed_at": "2026-11-11T09:09:17Z",
+    "count": 45,
     "skills": [
       {
         "path": "skills/backlink-audit/SKILL.md",
@@ -10884,8 +10885,7 @@
         "path": "skills/seo-analysis/SKILL.md",
         "name": "seo-analysis"
       }
-    ],
-    "count": 45
+    ]
   },
   "zenstory-ai/drama-skills": {
     "pushed_at": "2026-11-10T12:23:14Z",
@@ -10994,7 +10994,7 @@
     "count": 1
   },
   "datamodel-code-generator/datamodel-code-generator": {
-    "pushed_at": "2026-11-11T08:04:02Z",
+    "pushed_at": "2026-11-11T10:27:27Z",
     "count": 2,
     "skills": [
       {
@@ -12147,7 +12147,8 @@
     ]
   },
   "Ar9av/obsidian-wiki": {
-    "pushed_at": "2026-11-10T20:09:19Z",
+    "pushed_at": "2026-11-11T11:40:09Z",
+    "count": 40,
     "skills": [
       {
         "path": "skills/claude-history-ingest/SKILL.md",
@@ -12309,8 +12310,7 @@
         "path": "skills/wiki-update/SKILL.md",
         "name": "wiki-update"
       }
-    ],
-    "count": 40
+    ]
   },
   "ljagiello/ctf-skills": {
     "pushed_at": "2026-11-10T23:59:05Z",
@@ -12433,7 +12433,8 @@
     "count": 15
   },
   "scenario-labs/skills": {
-    "pushed_at": "2026-11-10T19:24:17Z",
+    "pushed_at": "2026-11-11T12:17:48Z",
+    "count": 178,
     "skills": [
       {
         "path": ".agents/skills/pr-handle-comments/SKILL.md",
@@ -12595,8 +12596,7 @@
         "path": "skills/dcc/zbrush/scenario-zbrush-retopology-export/SKILL.md",
         "name": "scenario-zbrush-retopology-export"
       }
-    ],
-    "count": 178
+    ]
   },
   "yanliudesign/mono-color-skill": {
     "pushed_at": "2026-09-02T18:49:42Z",
@@ -12952,7 +12952,8 @@
     "count": 1
   },
   "microsoft/skills": {
-    "pushed_at": "2026-11-10T18:03:22Z",
+    "pushed_at": "2026-11-11T11:03:35Z",
+    "count": 211,
     "skills": [
       {
         "path": ".github/plugins/aks-skills/skills/aks-cost-optimization/SKILL.md",
@@ -13114,8 +13115,7 @@
         "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-postgresql-dotnet/SKILL.md",
         "name": "azure-resource-manager-postgresql-dotnet"
       }
-    ],
-    "count": 211
+    ]
   },
   "plugin87/ux-ui-agent-skills": {
     "pushed_at": "2026-11-10T07:20:20Z",
@@ -13618,14 +13618,14 @@
     "count": 31
   },
   "nanaism/yomiyasu": {
-    "pushed_at": "2026-11-10T20:14:36Z",
+    "pushed_at": "2026-11-11T11:16:09Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/yomiyasu/SKILL.md",
         "name": "yomiyasu"
       }
-    ],
-    "count": 1
+    ]
   },
   "Tiger3807861189/J-Space-Cognition-Suite": {
     "pushed_at": "2026-09-14T03:26:53Z",
@@ -14801,7 +14801,7 @@
     "count": 16
   },
   "LearnPrompt/awesome-seedance": {
-    "pushed_at": "2026-11-11T07:57:36Z",
+    "pushed_at": "2026-11-11T10:56:03Z",
     "count": 15,
     "skills": [
       {
@@ -14867,9 +14867,9 @@
     ]
   },
   "reacher-z/Awesome-REA": {
-    "pushed_at": "2026-11-11T07:10:28Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-11T09:27:15Z",
+    "count": 0,
+    "skills": []
   },
   "apify/agent-skills": {
     "pushed_at": "2026-10-30T23:36:10Z",
@@ -15437,7 +15437,8 @@
     "count": 4
   },
   "Gentleman-Programming/gentle-shell": {
-    "pushed_at": "2026-11-11T06:36:05Z",
+    "pushed_at": "2026-11-11T12:09:07Z",
+    "count": 15,
     "skills": [
       {
         "path": "skills/branch-pr/SKILL.md",
@@ -15499,8 +15500,7 @@
         "path": "skills/work-unit-commits/SKILL.md",
         "name": "work-unit-commits"
       }
-    ],
-    "count": 15
+    ]
   },
   "maxrave-dev/kotlin-footguns": {
     "pushed_at": "2026-10-29T04:27:53Z",
@@ -15553,9 +15553,9 @@
     "count": 11
   },
   "can4hou6joeng4/boss-agent-cli": {
-    "pushed_at": "2026-11-11T00:04:12Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-11T12:09:12Z",
+    "count": 0,
+    "skills": []
   },
   "LeoYeAI/agent-master-skills": {
     "pushed_at": "2026-11-06T02:01:05Z",
@@ -15829,14 +15829,14 @@
     "count": 2
   },
   "shinyobjectz/raea": {
-    "pushed_at": "2026-11-11T06:05:06Z",
+    "pushed_at": "2026-11-11T12:04:04Z",
+    "count": 1,
     "skills": [
       {
         "path": "docs/manual/reference/cli/skill.md",
         "name": "cli"
       }
-    ],
-    "count": 1
+    ]
   },
   "axoviq-ai/synthadoc": {
     "pushed_at": "2026-11-10T21:48:17Z",
@@ -15993,14 +15993,14 @@
     "count": 1
   },
   "DUNHKpcc/Claude-Guardian": {
-    "pushed_at": "2026-11-11T00:51:25Z",
+    "pushed_at": "2026-11-11T10:28:37Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/claude-guardian/SKILL.md",
         "name": "claude-guardian"
       }
-    ],
-    "count": 1
+    ]
   },
   "BayramAnnakov/claude-reflect": {
     "pushed_at": "2026-10-03T05:33:46Z",
@@ -17438,7 +17438,8 @@
     "count": 11
   },
   "microsoft/azure-skills": {
-    "pushed_at": "2026-11-10T18:03:16Z",
+    "pushed_at": "2026-11-11T11:04:23Z",
+    "count": 89,
     "skills": [
       {
         "path": ".github/plugins/aks-skills/skills/aks-cost-optimization/SKILL.md",
@@ -17600,8 +17601,7 @@
         "path": ".github/plugins/azure-skills/skills/azure-resource-visualizer/SKILL.md",
         "name": "azure-resource-visualizer"
       }
-    ],
-    "count": 89
+    ]
   },
   "yuezhiai/jonex": {
     "pushed_at": "2026-11-05T07:47:42Z",
@@ -18398,7 +18398,7 @@
     "count": 13
   },
   "alookai/alook": {
-    "pushed_at": "2026-11-11T08:00:54Z",
+    "pushed_at": "2026-11-11T12:25:04Z",
     "count": 0,
     "skills": []
   },
@@ -18681,5 +18681,47 @@
       }
     ],
     "count": 18
+  },
+  "nexu-io/openmotion": {
+    "pushed_at": "2026-11-11T12:25:03Z",
+    "count": 9,
+    "skills": [
+      {
+        "path": "library/skills/brandkit/SKILL.md",
+        "name": "brandkit"
+      },
+      {
+        "path": "library/skills/motion-design-remix/SKILL.md",
+        "name": "motion-design-remix"
+      },
+      {
+        "path": "library/skills/presenter-story/SKILL.md",
+        "name": "presenter-story"
+      },
+      {
+        "path": "skills/motion-director/SKILL.md",
+        "name": "motion-director"
+      },
+      {
+        "path": "skills/motion-production/SKILL.md",
+        "name": "motion-production"
+      },
+      {
+        "path": "skills/motion-recreate/SKILL.md",
+        "name": "motion-recreate"
+      },
+      {
+        "path": "skills/motion-template-to-video/SKILL.md",
+        "name": "motion-template-to-video"
+      },
+      {
+        "path": "skills/motion-video-to-template/SKILL.md",
+        "name": "motion-video-to-template"
+      },
+      {
+        "path": "skills/reference-video/SKILL.md",
+        "name": "reference-video"
+      }
+    ]
   }
 }

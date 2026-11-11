@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-11T08:27:39.529Z",
+  "generated": "2026-11-11T12:27:49.294Z",
   "date": "2026-11-11",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "mode": "recent",
   "span_days": 0,
-  "searched": 948,
+  "searched": 949,
   "repos": [
     {
       "full_name": "morluto/rea",
@@ -33,8 +33,8 @@
         "touhou",
         "typescript"
       ],
-      "stars": 450978,
-      "pushed_at": "2026-11-11T08:20:10Z",
+      "stars": 451480,
+      "pushed_at": "2026-11-11T12:19:30Z",
       "created_at": "2026-04-14T00:51:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -84,8 +84,8 @@
       "gained": null,
       "rank": 1,
       "summary": {
-        "what_it_is": "The skills teach an agent how to use REA's toolset to reverse engineer native binaries, JavaScript and Electron apps, .NET assemblies, and websites. They cover setting up the MCP server, designing analysis tools, optimizing investigations, and auditing CI tests.",
-        "who_its_for": "Developers and security researchers who want their AI agents to investigate closed-source software down to the binary level."
+        "what_it_is": "REA (Reverse Engineer Anything) provides an MCP server that connects AI agents to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. It enables agents to analyze application behavior and binary code without source code, returning evidence and limitations for each conclusion.",
+        "who_its_for": "Developers, reverse engineers, security researchers, and AI coding agents who need to understand how features work in compiled applications and binaries."
       }
     },
     {
@@ -96,7 +96,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 192676,
+      "stars": 192802,
       "pushed_at": "2026-11-06T22:32:32Z",
       "created_at": "2025-09-22T15:53:31Z",
       "license": null,
@@ -223,7 +223,7 @@
         "prompt-engineering",
         "yagni"
       ],
-      "stars": 188616,
+      "stars": 188779,
       "pushed_at": "2026-10-29T11:59:31Z",
       "created_at": "2026-06-12T00:52:37Z",
       "license": "MIT",
@@ -329,8 +329,8 @@
         "sqlite",
         "supermemory"
       ],
-      "stars": 115972,
-      "pushed_at": "2026-11-11T07:15:32Z",
+      "stars": 116038,
+      "pushed_at": "2026-11-11T12:07:42Z",
       "created_at": "2025-08-31T20:50:03Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -339,61 +339,73 @@
         {
           "name": "community-sweep",
           "path": ".claude/skills/community-sweep/SKILL.md",
+          "title": "community-sweep",
           "description": "Land community pull requests as the contributor and answer community issues on thedotmack/claude-mem. Takes stock of every open PR (the owner's own included, except the ones the owner marked experimental) and community issue, triages each against the owner's merge philosophy and the cmem.ai hosted-s"
         },
         {
           "name": "agent-cost-report",
           "path": "claude-mem-cursor/skills/agent-cost-report/SKILL.md",
+          "title": "Agent Cost Report",
           "description": "Believable agent cost report for any period, default the last 7 full days PT, not counting today. Measured tokens from Claude Code transcripts priced at OpenRouter list prices (ESTIMATED), measured provider spend when a sanctioned source exists, note-taker cost separate, Timing-style HTML/PDF plus r"
         },
         {
           "name": "install",
           "path": "claude-mem-cursor/skills/install/SKILL.md",
+          "title": "claude-mem-install",
           "description": "Use this when setting up claude-mem on Cursor: local or remote worker, local host-login observer or remote cmem.ai inference."
         },
         {
           "name": "mem-search",
           "path": "claude-mem-cursor/skills/mem-search/SKILL.md",
+          "title": "mem-search",
           "description": "Use this when the user asks to search memory, \"did we already solve this?\", \"how did we do X last time?\", or wants work from previous sessions."
         },
         {
           "name": "agent-cost-report",
           "path": "claude-mem-grok-bot/skills/agent-cost-report/SKILL.md",
+          "title": "Agent Cost Report",
           "description": "Believable agent cost report for any period, default the last 7 full days PT, not counting today. Measured tokens from Claude Code transcripts priced at OpenRouter list prices (ESTIMATED), measured provider spend when a sanctioned source exists, note-taker cost separate, Timing-style HTML/PDF plus r"
         },
         {
           "name": "host-observer",
           "path": "claude-mem-grok-bot/skills/host-observer/SKILL.md",
+          "title": "host-observer",
           "description": "Use this when fulfilling claude-mem observer jobs on Grok Bot: reply only skip_summary or one full observation XML, never prose."
         },
         {
           "name": "install",
           "path": "claude-mem-grok-bot/skills/install/SKILL.md",
+          "title": "claude-mem-install",
           "description": "Use this when setting up claude-mem on Grok Bot: local worker plus CMEM Pro observer (default), optional host-login observer, or remote cmem.ai. No Cursor required."
         },
         {
           "name": "mem-search",
           "path": "claude-mem-grok-bot/skills/mem-search/SKILL.md",
+          "title": "mem-search",
           "description": "Use this when the user asks to search memory, \"did we already solve this?\", \"how did we do X last time?\", or wants work from previous sessions."
         },
         {
           "name": "agent-cost-report",
           "path": "cowork/skills/agent-cost-report/SKILL.md",
+          "title": "Agent Cost Report",
           "description": "Believable agent cost report for any period, default the last 7 full days PT, not counting today. Measured tokens from Claude Code transcripts priced at OpenRouter list prices (ESTIMATED), measured provider spend when a sanctioned source exists, note-taker cost separate, Timing-style HTML/PDF plus r"
         },
         {
           "name": "mem-search",
           "path": "cowork/skills/mem-search/SKILL.md",
+          "title": "mem-search",
           "description": "This skill should be used when the user asks to \"search memory\", \"what do you remember about X\", \"check claude-mem\", \"mem search\", \"find past observations\", \"what did we do last session\", or wants prior-session context about a project, decision, file, or task. Searches the user's Claude-Mem (cmem.ai"
         },
         {
           "name": "mem-setup",
           "path": "cowork/skills/mem-setup/SKILL.md",
+          "title": "mem-setup",
           "description": "This skill should be used when the user asks to \"set up claude-mem\", \"pair claude-mem\", \"connect cmem\", \"add my cmem key\", \"set up cloud sync in Cowork\" or in the Claude app, or provides cmem.ai Connect values (sync token, user id, SyncHub URL) for this plugin. Configures the CMEM Pro plugin credent"
         },
         {
           "name": "dashboard-chat-best-practices",
           "path": "integrations/eve/template/.agents/skills/dashboard-chat-best-practices/SKILL.md",
+          "title": "dashboard-chat-best-practices",
           "description": "Apply dashboard-grade chat UX patterns in the Eve chat template. Use when changing Next.js Cache Components/PPR behavior, static shell layout, Suspense bootstrap boundaries, theme hydration, auth display hydration, signed-in/signed-out static shell behavior, optimistic messages, streaming row identi"
         },
         {
@@ -520,8 +532,8 @@
       "gained": null,
       "rank": 4,
       "summary": {
-        "what_it_is": "The skills in this repository teach an agent how to maintain persistent context across sessions by capturing session activity, compressing it with AI, and injecting relevant context into future sessions. It runs a background agent that takes notes during work and provides a searchable index for subsequent sessions.",
-        "who_its_for": "Developers using AI coding agents like Claude Code, OpenClaw, Codex, Gemini, Copilot, or OpenCode who want their agent to remember past work across sessions."
+        "what_it_is": "The skills help an AI coding agent remember context across sessions by capturing what it does, compressing it, and injecting relevant details back into future sessions.",
+        "who_its_for": "Developers and students who use AI coding agents and want persistent memory between sessions."
       }
     },
     {
@@ -537,7 +549,7 @@
         "cursor",
         "skills"
       ],
-      "stars": 115425,
+      "stars": 115563,
       "pushed_at": "2026-11-01T19:24:49Z",
       "created_at": "2026-02-15T20:20:26Z",
       "license": "MIT",
@@ -688,7 +700,7 @@
         "ui-design",
         "web-design"
       ],
-      "stars": 113143,
+      "stars": 113245,
       "pushed_at": "2026-11-08T21:51:50Z",
       "created_at": "2026-02-19T21:44:05Z",
       "license": "MIT",
@@ -740,8 +752,8 @@
         "project-management",
         "workflow-automation"
       ],
-      "stars": 113023,
-      "pushed_at": "2026-11-11T08:22:42Z",
+      "stars": 113069,
+      "pushed_at": "2026-11-11T12:24:38Z",
       "created_at": "2026-03-02T15:01:51Z",
       "license": "MIT",
       "default_branch": "master",
@@ -939,8 +951,8 @@
       "gained": null,
       "rank": 7,
       "summary": {
-        "what_it_is": "This repository contains skills that teach an AI agent how to create and manage AI agent teams within Paperclip, including building adapters for different agent providers, setting up integrations, creating verification skills, and handling operational tasks like security advisories and diagnostics.",
-        "who_its_for": "Developers building autonomous AI organizations who need to coordinate multiple AI agents through the Paperclip orchestration platform."
+        "what_it_is": "Skills for building and managing autonomous AI organizations using Paperclip, an open-source Node.js server and React UI that orchestrates teams of AI agents (OpenClaw, Codex, Claude, Cursor, etc.) to pursue business goals with org charts, budgets, governance, and coordination.",
+        "who_its_for": "Developers and teams who want to coordinate multiple different AI agents toward shared business objectives from a single dashboard."
       }
     },
     {
@@ -955,7 +967,7 @@
         "design",
         "slop"
       ],
-      "stars": 107818,
+      "stars": 107944,
       "pushed_at": "2026-11-11T07:06:45Z",
       "created_at": "2025-11-16T01:52:04Z",
       "license": "Apache-2.0",
@@ -1118,8 +1130,8 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 107094,
-      "pushed_at": "2026-11-11T04:11:31Z",
+      "stars": 107139,
+      "pushed_at": "2026-11-11T12:06:29Z",
       "created_at": "2026-04-28T04:25:20Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -1128,61 +1140,73 @@
         {
           "name": "od-contribute",
           "path": ".claude/skills/od-contribute/SKILL.md",
+          "title": "od-contribute",
           "description": "One-click contribution flow for OpenDesign (nexu-io/open-design) — even for non-coders. Pick one of four cards (ship a Skill or Design System you made with OD; translate docs; fix a typo / write a blog; report a bug), the agent validates and opens a PR (or issue) for you. Trigger words contribute to"
         },
         {
           "name": "sample-plugin",
           "path": "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md",
+          "title": "sample-plugin",
           "description": "Phase 1 sample plugin synthesizing a SKILL.md frontmatter for backwards-compat tests."
         },
         {
           "name": "aster-atelier",
           "path": "design-templates/aster-atelier/SKILL.md",
+          "title": "aster-atelier",
           "description": "Use this template when the user wants an artistic creative-studio website with classical imagery, cobalt skies, elegant serif typography and cinematic scrolling."
         },
         {
           "name": "audio-jingle",
           "path": "design-templates/audio-jingle/SKILL.md",
+          "title": "audio-jingle",
           "description": "Audio generation skill — jingles, beds, voiceover, and sound effects. Routes music requests to Suno V5 / Udio / Lyria, speech to MiniMax TTS / FishAudio / ElevenLabs V3, and SFX to ElevenLabs SFX or AudioCraft. Output is one MP3/WAV file saved to the project folder."
         },
         {
           "name": "blog-post",
           "path": "design-templates/blog-post/SKILL.md",
+          "title": "blog-post",
           "description": "A long-form article / blog post — masthead, hero image placeholder, article body with figures and pull quotes, author byline, related posts. Use when the brief asks for \"blog\", \"article\", \"post\", \"essay\", or \"case study\"."
         },
         {
           "name": "clinical-case-report",
           "path": "design-templates/clinical-case-report/SKILL.md",
+          "title": "clinical-case-report",
           "description": "Structured medical case presentation for clinical rounds, conferences, and documentation. Generates SOAP-format or narrative case reports with physiologically accurate vitals, labs, and evidence-based plans. Use when the brief mentions \"case report\", \"case presentation\", \"SOAP note\", \"clinical case\""
         },
         {
           "name": "contact-widget",
           "path": "design-templates/contact-widget/SKILL.md",
+          "title": "contact-widget",
           "description": "Self-contained floating chat widget with welcome screen, social links, meeting button, and message input. Single HTML file, zero dependencies."
         },
         {
           "name": "critique",
           "path": "design-templates/critique/SKILL.md",
+          "title": "critique",
           "description": "Run a 5-dimension expert design review on any HTML artifact in the project — Philosophy / Visual hierarchy / Detail / Functionality / Innovation, each scored 0–10. Outputs a single self-contained HTML report with a radar chart, evidence-backed scores, and three lists: Keep / Fix / Quick-wins. Use wh"
         },
         {
           "name": "dashboard",
           "path": "design-templates/dashboard/SKILL.md",
+          "title": "dashboard",
           "description": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar, top bar with user/search, main grid of KPI cards and one or two charts. Use when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or \"control panel\" screen."
         },
         {
           "name": "dating-web",
           "path": "design-templates/dating-web/SKILL.md",
+          "title": "dating-web",
           "description": "A consumer-feeling dating / matchmaking dashboard — left rail navigation, ticker bar of community signals, headline KPIs, a 30-day mutual-matches bar chart, and a match-rate trend block. Editorial typography, restrained accent. Use when the brief asks for a \"dating site\", \"matchmaking\", \"community d"
         },
         {
           "name": "dcf-valuation",
           "path": "design-templates/dcf-valuation/SKILL.md",
+          "title": "dcf-valuation",
           "description": "Discounted cash flow valuation and intrinsic value analysis for public companies. Use when the brief asks for DCF, fair value, intrinsic value, price target, undervalued or overvalued analysis, or \"what is this company worth?\""
         },
         {
           "name": "digital-eguide",
           "path": "design-templates/digital-eguide/SKILL.md",
+          "title": "digital-eguide",
           "description": "A two-spread digital e-guide preview — page 1 is a cover (display title, author, \"What's inside\" stats, table of contents teaser); page 2 is a spread (lesson body with pull-quote and a step list). Lifestyle / creator brand tone. Use when the brief asks for an \"e-guide\", \"digital guide\", \"lookbook\", "
         },
         {
@@ -1306,8 +1330,8 @@
       "gained": null,
       "rank": 9,
       "summary": {
-        "what_it_is": "This repository provides 562 skills that teach an AI coding agent to create design deliverables such as prototypes, dashboards, presentations, images, videos, websites, and apps. The skills also cover specific tasks like writing blog posts, clinical case reports, email marketing campaigns, and engineering runbooks, all within a collaborative, local-first workspace.",
-        "who_its_for": "Designers, developers, and teams who want to collaborate with AI agents on design and content creation tasks."
+        "what_it_is": "OpenDesign is a collaborative AI design agent workspace that provides skills, design templates, design systems, and plugins for creating prototypes, websites, apps, dashboards, presentations, images, and videos with AI agents. It is local-first, open source under Apache 2.0, and extensible for teams to inspect and adapt to their own processes.",
+        "who_its_for": "Developers and design teams who want to collaborate with AI agents on design and prototyping tasks in a shared workspace."
       }
     },
     {
@@ -1337,7 +1361,7 @@
         "system-design",
         "visualization"
       ],
-      "stars": 95471,
+      "stars": 95529,
       "pushed_at": "2026-11-11T05:01:27Z",
       "created_at": "2026-04-15T05:27:37Z",
       "license": "Apache-2.0",
@@ -1406,7 +1430,7 @@
         "understandcode",
         "vibe-coding"
       ],
-      "stars": 91962,
+      "stars": 91995,
       "pushed_at": "2026-11-11T04:34:25Z",
       "created_at": "2026-03-15T02:30:51Z",
       "license": "MIT",
@@ -1497,8 +1521,8 @@
         "open-source",
         "resume"
       ],
-      "stars": 81813,
-      "pushed_at": "2026-11-11T06:01:31Z",
+      "stars": 81858,
+      "pushed_at": "2026-11-11T12:16:58Z",
       "created_at": "2026-04-04T18:21:18Z",
       "license": "MIT",
       "default_branch": "main",
@@ -1507,61 +1531,73 @@
         {
           "name": "career-ops",
           "path": ".agents/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".antigravitycli/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".claude/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".grok/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".kimi/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".opencode/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".qwen/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "antigravity-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "claude-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "cursor-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "openai-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "apify",
           "path": "plugins/apify/skill.md",
+          "title": "career-ops-plugin-apify",
           "description": "How to scan a job source through an Apify actor as a keyed provider."
         },
         {
@@ -1611,7 +1647,7 @@
         "skill",
         "workflow-automation"
       ],
-      "stars": 79234,
+      "stars": 79244,
       "pushed_at": "2026-09-18T07:16:11Z",
       "created_at": "2025-10-17T07:15:01Z",
       "license": null,
@@ -1822,8 +1858,8 @@
         "tui",
         "typescript"
       ],
-      "stars": 70829,
-      "pushed_at": "2026-11-11T08:23:52Z",
+      "stars": 70838,
+      "pushed_at": "2026-11-11T12:18:37Z",
       "created_at": "2025-12-03T01:40:05Z",
       "license": "NOASSERTION",
       "default_branch": "dev",
@@ -2051,8 +2087,8 @@
         "pakistani-developer",
         "vibe-coding"
       ],
-      "stars": 68963,
-      "pushed_at": "2026-11-11T06:34:06Z",
+      "stars": 68964,
+      "pushed_at": "2026-11-11T11:32:03Z",
       "created_at": "2025-10-31T14:15:28Z",
       "license": "MIT",
       "default_branch": "main",
@@ -2061,46 +2097,55 @@
         {
           "name": "agent-browser",
           "path": ".claude/skills/agent-browser/SKILL.md",
+          "title": "agent-browser",
           "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form"
         },
         {
           "name": "presentation-structure",
           "path": ".claude/skills/presentation/presentation-structure/SKILL.md",
+          "title": "presentation-structure",
           "description": "Knowledge about the presentation slide format, weight system, navigation, and section structure"
         },
         {
           "name": "presentation-styling",
           "path": ".claude/skills/presentation/presentation-styling/SKILL.md",
+          "title": "presentation-styling",
           "description": "Knowledge about CSS classes, component patterns, and syntax highlighting in the presentation"
         },
         {
           "name": "vibe-to-agentic-framework",
           "path": ".claude/skills/presentation/vibe-to-agentic-framework/SKILL.md",
+          "title": "vibe-to-agentic-framework",
           "description": "The conceptual framework behind the presentation — what \"Vibe Coding to Agentic Engineering\" means, why the journey is structured the way it is, and how every slide fits the narrative arc"
         },
         {
           "name": "time-skill",
           "path": ".claude/skills/time-skill/SKILL.md",
+          "title": "time-skill",
           "description": "Display the current time in Pakistan Standard Time (PKT, UTC+5). Use when the user asks for the current time, Pakistan time, or PKT."
         },
         {
           "name": "weather-fetcher",
           "path": ".claude/skills/weather-fetcher/SKILL.md",
+          "title": "weather-fetcher",
           "description": "Instructions for fetching current weather temperature data for Dubai, UAE from Open-Meteo API"
         },
         {
           "name": "weather-svg-creator",
           "path": ".claude/skills/weather-svg-creator/SKILL.md",
+          "title": "weather-svg-creator",
           "description": "Creates an SVG weather card showing the current temperature for Dubai. Writes the SVG to orchestration-workflow/weather.svg and updates orchestration-workflow/output.md."
         },
         {
           "name": "time-fetcher",
           "path": "agent-teams/.claude/skills/time-fetcher/SKILL.md",
+          "title": "time-fetcher",
           "description": "Instructions for fetching current Dubai time via bash command"
         },
         {
           "name": "time-svg-creator",
           "path": "agent-teams/.claude/skills/time-svg-creator/SKILL.md",
+          "title": "time-svg-creator",
           "description": "Creates an SVG time card showing the current time for Dubai. Writes the SVG to agent-teams/output/dubai-time.svg and updates agent-teams/output/output.md."
         }
       ],
@@ -2130,7 +2175,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 67706,
+      "stars": 67771,
       "pushed_at": "2026-11-10T01:35:15Z",
       "created_at": "2026-01-18T05:30:15Z",
       "license": "MIT",
@@ -2166,7 +2211,7 @@
         "mermaid",
         "svg"
       ],
-      "stars": 66403,
+      "stars": 66440,
       "pushed_at": "2026-11-10T22:44:09Z",
       "created_at": "2026-04-16T18:01:16Z",
       "license": "MIT",
@@ -2201,7 +2246,7 @@
         "developer-tools",
         "productivity"
       ],
-      "stars": 60805,
+      "stars": 60824,
       "pushed_at": "2026-10-19T19:46:23Z",
       "created_at": "2026-05-13T20:42:06Z",
       "license": "MIT",
@@ -2253,7 +2298,7 @@
         "seo",
         "skill-md"
       ],
-      "stars": 59636,
+      "stars": 59677,
       "pushed_at": "2026-11-11T02:26:00Z",
       "created_at": "2026-01-15T19:45:23Z",
       "license": "MIT",
@@ -2465,7 +2510,7 @@
         "scientific-computing",
         "scientific-visualization"
       ],
-      "stars": 56778,
+      "stars": 56808,
       "pushed_at": "2026-11-09T09:17:48Z",
       "created_at": "2025-10-19T20:54:15Z",
       "license": "MIT",
@@ -2672,8 +2717,8 @@
         "mcp-client",
         "ollama"
       ],
-      "stars": 53420,
-      "pushed_at": "2026-11-11T08:11:21Z",
+      "stars": 53425,
+      "pushed_at": "2026-11-11T12:24:54Z",
       "created_at": "2024-05-24T01:56:26Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
@@ -2881,8 +2926,8 @@
         "harness",
         "repository-level-context"
       ],
-      "stars": 49816,
-      "pushed_at": "2026-11-11T08:21:06Z",
+      "stars": 49825,
+      "pushed_at": "2026-11-11T11:46:39Z",
       "created_at": "2026-05-18T02:16:36Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -2946,7 +2991,7 @@
         "mcp",
         "skill-library"
       ],
-      "stars": 49514,
+      "stars": 49525,
       "pushed_at": "2026-11-11T07:12:14Z",
       "created_at": "2026-01-14T17:48:09Z",
       "license": "MIT",
@@ -3152,7 +3197,7 @@
         "self-hosted",
         "typescript"
       ],
-      "stars": 45617,
+      "stars": 45626,
       "pushed_at": "2026-11-08T20:43:39Z",
       "created_at": "2020-03-25T14:08:22Z",
       "license": "MIT",
@@ -3339,7 +3384,7 @@
         "pi-coding-agent",
         "subagents"
       ],
-      "stars": 42407,
+      "stars": 42412,
       "pushed_at": "2026-11-09T01:08:33Z",
       "created_at": "2025-07-24T23:28:14Z",
       "license": "MIT",
@@ -3545,7 +3590,7 @@
         "hacktoberfest",
         "prompt-engineering"
       ],
-      "stars": 41032,
+      "stars": 41037,
       "pushed_at": "2026-11-11T05:41:32Z",
       "created_at": "2025-06-11T16:57:39Z",
       "license": "MIT",
@@ -3758,7 +3803,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 38027,
+      "stars": 38044,
       "pushed_at": "2026-11-10T00:41:13Z",
       "created_at": "2026-04-05T04:33:04Z",
       "license": "MIT",
@@ -3872,7 +3917,7 @@
         "self-study",
         "study-tools"
       ],
-      "stars": 37568,
+      "stars": 37584,
       "pushed_at": "2026-11-08T21:22:31Z",
       "created_at": "2026-05-01T02:09:39Z",
       "license": "MIT",
@@ -3908,7 +3953,7 @@
         "mcp",
         "registry"
       ],
-      "stars": 33293,
+      "stars": 33304,
       "pushed_at": "2026-11-11T03:53:30Z",
       "created_at": "2025-07-04T01:26:26Z",
       "license": "MIT",
@@ -4120,8 +4165,8 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 33235,
-      "pushed_at": "2026-11-11T07:43:29Z",
+      "stars": 33239,
+      "pushed_at": "2026-11-11T12:24:59Z",
       "created_at": "2023-08-16T16:16:33Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -4130,61 +4175,73 @@
         {
           "name": "cognee-cli",
           "path": ".agents/skills/cognee-cli/SKILL.md",
+          "title": "cognee-cli",
           "description": "Use when the user wants to drive cognee from the terminal with cognee-cli — remember/recall/forget/improve memory commands, managing datasets and config, or database migrations."
         },
         {
           "name": "cognee-community",
           "path": ".agents/skills/cognee-community/SKILL.md",
+          "title": "cognee-community",
           "description": "Use when the user needs something that ships outside cognee core — community database adapters (Qdrant, Milvus, Weaviate, Redis, Pinecone, FalkorDB, Memgraph, DuckDB, NetworkX, …), data-source connectors (Slack, Gmail, Notion, Confluence, Google Drive), custom tasks/pipelines/retrievers (Exa, Scrape"
         },
         {
           "name": "cognee-custom-graph-models",
           "path": ".agents/skills/cognee-custom-graph-models/SKILL.md",
+          "title": "cognee-custom-graph-models",
           "description": "Use when defining the shape of cognee's knowledge graph with graph_model= — writing DataPoint node classes, choosing identity and index fields so nodes merge and are searchable, declaring typed Edge fields and FromIdentity references, building a model from a JSON schema, or debugging duplicated node"
         },
         {
           "name": "cognee-custom-pipelines",
           "path": ".agents/skills/cognee-custom-pipelines/SKILL.md",
+          "title": "cognee-custom-pipelines",
           "description": "Use when building your own cognee processing — writing custom tasks, chaining them into a pipeline with run_custom_pipeline or the lightweight run_pipeline (from cognee.pipelines import run_pipeline), storing custom DataPoints with add_data_points, running custom enrichment over the existing graph, "
         },
         {
           "name": "cognee-docker",
           "path": ".agents/skills/cognee-docker/SKILL.md",
+          "title": "cognee-docker",
           "description": "Use when the user wants to run cognee with Docker or docker compose — trying it out from the prebuilt image, starting the API server in a container, or bringing up the full stack (UI, MCP, Postgres, Neo4j) with compose profiles."
         },
         {
           "name": "cognee-forget",
           "path": ".agents/skills/cognee-forget/SKILL.md",
+          "title": "cognee-forget",
           "description": "Use when removing data from cognee memory with forget() in the SDK, HTTP API, or CLI — finding which dataset and document hold the content to delete (listing datasets and data items, reading raw content), choosing between deleting one document, a whole dataset, or only the graph/vector memory, and d"
         },
         {
           "name": "cognee-improve-sessions",
           "path": ".agents/skills/cognee-improve-sessions/SKILL.md",
+          "title": "cognee-improve-sessions",
           "description": "Use when working with cognee's session memory or improve() — storing conversation turns, agent traces and feedback with session_id, bridging sessions into the permanent graph, reading an ImproveResult, understanding why an improve stage was skipped or already_completed, or tuning the IMPROVE_* setti"
         },
         {
           "name": "cognee-ingestion",
           "path": ".agents/skills/cognee-ingestion/SKILL.md",
+          "title": "cognee-ingestion",
           "description": "Use when putting data into cognee memory with remember() — choosing inputs (text, files, folders, URLs, repos, databases), datasets and node_sets, loaders, ontologies, the graph extractor (LLM or GLiNER), chunking, dry-run cost estimates, or when remember() raises on a keyword argument."
         },
         {
           "name": "cognee-install",
           "path": ".agents/skills/cognee-install/SKILL.md",
+          "title": "cognee-install",
           "description": "Use when the user wants to install cognee and run their first remember → recall flow with the Python SDK — fresh setup, virtual env, extras selection, or a minimal working example."
         },
         {
           "name": "cognee-integrations",
           "path": ".agents/skills/cognee-integrations/SKILL.md",
+          "title": "cognee-integrations",
           "description": "Use when the user wants to connect cognee to external services — switching LLM or embedding providers (OpenAI, Azure, Gemini, Anthropic, Ollama, OpenRouter), changing databases (Postgres, PGVector, Neo4j, Neptune, Turso), S3 storage, or the MCP server for IDE integration."
         },
         {
           "name": "cognee-migrations",
           "path": ".agents/skills/cognee-migrations/SKILL.md",
+          "title": "cognee-migrations",
           "description": "Use when dealing with cognee database migrations — understanding when they run automatically, checking or repairing migration state with cognee-cli upgrade/downgrade/stamp/current, a write blocked by a failed migration, authoring a new Alembic (relational schema) revision or a graph/vector data migr"
         },
         {
           "name": "cognee-performance",
           "path": ".agents/skills/cognee-performance/SKILL.md",
+          "title": "cognee-performance",
           "description": "Use when cognee is slow, expensive, or hitting rate limits — speeding up or throttling ingestion (remember/cognify batching, chunk size, LLM and embedding rate limits, per-stage models), cutting read latency, estimating cost before ingesting, running work in the background, or planning how to scale "
         },
         {
@@ -4275,7 +4332,7 @@
         "oauth2",
         "rust"
       ],
-      "stars": 32249,
+      "stars": 32253,
       "pushed_at": "2026-11-03T01:37:22Z",
       "created_at": "2026-03-02T19:46:06Z",
       "license": "Apache-2.0",
@@ -4462,7 +4519,7 @@
         "openclaw"
       ],
       "stars": 31103,
-      "pushed_at": "2026-11-11T06:30:12Z",
+      "pushed_at": "2026-11-11T12:09:06Z",
       "created_at": "2026-01-31T15:47:22Z",
       "license": "MIT",
       "default_branch": "main",
@@ -4664,7 +4721,7 @@
         "openclaw-skills",
         "prompt-engineering"
       ],
-      "stars": 29614,
+      "stars": 29627,
       "pushed_at": "2026-11-11T06:17:50Z",
       "created_at": "2025-10-19T04:04:05Z",
       "license": "MIT",
@@ -4868,7 +4925,7 @@
         "slides",
         "ui-design"
       ],
-      "stars": 29181,
+      "stars": 29207,
       "pushed_at": "2026-11-10T00:16:14Z",
       "created_at": "2026-04-19T14:42:06Z",
       "license": "MIT",
@@ -4915,7 +4972,7 @@
         "planning",
         "session-recovery"
       ],
-      "stars": 28000,
+      "stars": 28004,
       "pushed_at": "2026-11-10T18:28:40Z",
       "created_at": "2026-01-03T07:37:28Z",
       "license": "MIT",
@@ -5020,7 +5077,7 @@
         "claude-cowork-plugin",
         "product-management"
       ],
-      "stars": 27868,
+      "stars": 27877,
       "pushed_at": "2026-11-08T23:10:04Z",
       "created_at": "2026-03-01T23:33:44Z",
       "license": "MIT",
@@ -5217,7 +5274,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "stars": 27583,
+      "stars": 27587,
       "pushed_at": "2026-11-11T02:41:02Z",
       "created_at": "2025-02-24T08:03:24Z",
       "license": "MIT",
@@ -5402,7 +5459,7 @@
         "codex-skills",
         "openclaw-skills"
       ],
-      "stars": 27463,
+      "stars": 27467,
       "pushed_at": "2026-11-06T17:20:33Z",
       "created_at": "2026-01-13T03:04:56Z",
       "license": "MIT",
@@ -5528,7 +5585,7 @@
         "watermarking",
         "watermarks"
       ],
-      "stars": 27048,
+      "stars": 27072,
       "pushed_at": "2026-11-09T20:25:47Z",
       "created_at": "2026-08-11T16:32:38Z",
       "license": "MIT",
@@ -5563,7 +5620,7 @@
         "svg",
         "vizualization"
       ],
-      "stars": 26591,
+      "stars": 26638,
       "pushed_at": "2026-10-18T20:20:24Z",
       "created_at": "2026-10-08T10:12:49Z",
       "license": "MIT",
@@ -5605,7 +5662,7 @@
         "openclaw",
         "personal-agent"
       ],
-      "stars": 26510,
+      "stars": 26518,
       "pushed_at": "2026-10-13T05:57:17Z",
       "created_at": "2026-03-30T05:22:23Z",
       "license": "MIT",
@@ -5651,7 +5708,7 @@
         "threejs",
         "webgpu"
       ],
-      "stars": 25441,
+      "stars": 25442,
       "pushed_at": "2026-11-10T21:53:14Z",
       "created_at": "2025-10-16T19:35:06Z",
       "license": "MIT",
@@ -5701,8 +5758,8 @@
         "security-workflow",
         "supply-chain-security"
       ],
-      "stars": 25266,
-      "pushed_at": "2026-11-11T07:45:02Z",
+      "stars": 25290,
+      "pushed_at": "2026-11-11T11:31:54Z",
       "created_at": "2026-03-21T00:28:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -5875,8 +5932,8 @@
         "workflow-engine",
         "workflows"
       ],
-      "stars": 24895,
-      "pushed_at": "2026-11-11T08:01:23Z",
+      "stars": 24893,
+      "pushed_at": "2026-11-11T12:10:57Z",
       "created_at": "2020-10-24T07:27:48Z",
       "license": "NOASSERTION",
       "default_branch": "v3-develop",
@@ -6064,7 +6121,7 @@
         "skills",
         "skills-sh"
       ],
-      "stars": 22499,
+      "stars": 22521,
       "pushed_at": "2026-11-11T08:23:50Z",
       "created_at": "2026-04-16T12:51:09Z",
       "license": "MIT",
@@ -6111,7 +6168,7 @@
         "skills",
         "vibe-coding"
       ],
-      "stars": 22172,
+      "stars": 22177,
       "pushed_at": "2026-11-11T08:24:27Z",
       "created_at": "2026-04-06T07:37:02Z",
       "license": "MIT",
@@ -6163,7 +6220,7 @@
         "launch-video",
         "video-generation"
       ],
-      "stars": 20996,
+      "stars": 21014,
       "pushed_at": "2026-10-23T21:18:13Z",
       "created_at": "2026-06-16T19:36:36Z",
       "license": "MIT",
@@ -6253,7 +6310,7 @@
         "paper-writing",
         "research-automation"
       ],
-      "stars": 19008,
+      "stars": 19020,
       "pushed_at": "2026-11-11T07:39:57Z",
       "created_at": "2026-03-10T07:31:45Z",
       "license": "MIT",
@@ -6437,7 +6494,7 @@
         "agent-skills",
         "self-evolving-agents"
       ],
-      "stars": 18985,
+      "stars": 18991,
       "pushed_at": "2026-11-10T20:10:50Z",
       "created_at": "2026-05-08T06:41:01Z",
       "license": "MIT",
@@ -6494,7 +6551,7 @@
         "video-generation",
         "video-production"
       ],
-      "stars": 18575,
+      "stars": 18634,
       "pushed_at": "2026-11-09T15:59:44Z",
       "created_at": "2026-07-19T11:44:41Z",
       "license": "Apache-2.0",
@@ -6536,8 +6593,8 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 17307,
-      "pushed_at": "2026-11-11T03:57:34Z",
+      "stars": 17388,
+      "pushed_at": "2026-11-11T08:26:49Z",
       "created_at": "2026-09-13T16:31:06Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -6621,7 +6678,7 @@
         "xiaohongshu",
         "youtube"
       ],
-      "stars": 16422,
+      "stars": 16425,
       "pushed_at": "2026-10-22T18:42:22Z",
       "created_at": "2023-12-04T07:49:16Z",
       "license": "MIT",
@@ -6732,7 +6789,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 16331,
+      "stars": 16339,
       "pushed_at": "2026-10-25T22:24:31Z",
       "created_at": "2026-04-07T08:59:37Z",
       "license": "MIT",
@@ -6821,7 +6878,7 @@
         "llm",
         "prompt-engineering"
       ],
-      "stars": 15816,
+      "stars": 15825,
       "pushed_at": "2026-10-22T13:26:18Z",
       "created_at": "2026-03-11T16:25:43Z",
       "license": "MIT",
@@ -6855,8 +6912,8 @@
         "desktop-agent",
         "multi-agent-systems"
       ],
-      "stars": 15801,
-      "pushed_at": "2026-11-10T21:30:30Z",
+      "stars": 15803,
+      "pushed_at": "2026-11-11T09:38:36Z",
       "created_at": "2025-07-29T15:56:02Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -6919,7 +6976,7 @@
         "python",
         "web-scraping"
       ],
-      "stars": 15299,
+      "stars": 15298,
       "pushed_at": "2026-09-30T18:49:17Z",
       "created_at": "2025-10-17T14:43:48Z",
       "license": "MIT",
@@ -7064,7 +7121,7 @@
         "video-production",
         "webgl"
       ],
-      "stars": 14620,
+      "stars": 14697,
       "pushed_at": "2026-11-10T01:28:42Z",
       "created_at": "2026-09-26T10:10:41Z",
       "license": "MIT",
@@ -7103,7 +7160,7 @@
         "sandbox",
         "skills"
       ],
-      "stars": 14613,
+      "stars": 14615,
       "pushed_at": "2026-11-10T12:22:11Z",
       "created_at": "2025-07-29T01:54:40Z",
       "license": "NOASSERTION",
@@ -7142,7 +7199,7 @@
         "skills",
         "vllm"
       ],
-      "stars": 14439,
+      "stars": 14448,
       "pushed_at": "2026-10-11T02:56:34Z",
       "created_at": "2025-11-03T06:13:06Z",
       "license": "MIT",
@@ -7461,8 +7518,8 @@
         "claude-marketplace",
         "claude-skills"
       ],
-      "stars": 12313,
-      "pushed_at": "2026-10-30T18:00:19Z",
+      "stars": 12315,
+      "pushed_at": "2026-11-11T08:34:48Z",
       "created_at": "2025-10-20T20:27:22Z",
       "license": "MIT",
       "default_branch": "main",
@@ -7779,7 +7836,7 @@
         "llm-agents",
         "python"
       ],
-      "stars": 10960,
+      "stars": 10975,
       "pushed_at": "2026-11-10T14:40:18Z",
       "created_at": "2026-06-09T21:05:42Z",
       "license": "MIT",
@@ -7815,7 +7872,7 @@
         "paid-advertising",
         "ppc"
       ],
-      "stars": 10930,
+      "stars": 10932,
       "pushed_at": "2026-11-01T21:08:14Z",
       "created_at": "2026-02-11T13:01:49Z",
       "license": "MIT",
@@ -7992,7 +8049,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 10743,
+      "stars": 10745,
       "pushed_at": "2026-10-13T06:56:37Z",
       "created_at": "2026-04-05T11:37:18Z",
       "license": "MIT",
@@ -8041,7 +8098,7 @@
         "terraform",
         "uml"
       ],
-      "stars": 10688,
+      "stars": 10691,
       "pushed_at": "2026-11-10T08:11:10Z",
       "created_at": "2026-03-03T16:54:59Z",
       "license": "MIT",
@@ -8080,7 +8137,7 @@
         "slide-generator",
         "slides"
       ],
-      "stars": 10595,
+      "stars": 10602,
       "pushed_at": "2026-11-06T08:26:30Z",
       "created_at": "2026-06-10T07:46:43Z",
       "license": "AGPL-3.0",
@@ -8111,7 +8168,7 @@
         "redteam-tools",
         "skills"
       ],
-      "stars": 10580,
+      "stars": 10589,
       "pushed_at": "2026-10-12T15:02:40Z",
       "created_at": "2026-03-04T05:52:35Z",
       "license": "MIT",
@@ -8286,207 +8343,79 @@
       "rank": 70
     },
     {
-      "full_name": "nexu-io/html-anything",
-      "url": "https://github.com/nexu-io/html-anything",
-      "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "language": "HTML",
+      "full_name": "nexu-io/openmotion",
+      "url": "https://github.com/nexu-io/openmotion",
+      "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
+      "language": "TypeScript",
       "topics": [
         "agent-skills",
-        "agentic",
+        "agentic-ai",
         "ai-agents",
-        "ai-design",
-        "ai-editor",
+        "ai-video",
         "byok",
-        "claude",
         "claude-code",
-        "claude-skills",
-        "coding-agents",
+        "codex",
+        "deepseek-harness",
+        "dsh-plugin",
         "generative-ai",
-        "html",
-        "html-editor",
-        "hyperframes",
         "local-first",
-        "markdown",
-        "nextjs",
-        "vibe-coding",
-        "wechat",
-        "xiaohongshu"
+        "mcp",
+        "motion",
+        "motion-graphics",
+        "multimodal",
+        "openmotion",
+        "reverse-engineering",
+        "video-editing",
+        "video-generation",
+        "workbuddy"
       ],
-      "stars": 9498,
-      "pushed_at": "2026-11-11T08:16:40Z",
+      "stars": 9504,
+      "pushed_at": "2026-11-11T12:25:03Z",
       "created_at": "2026-05-11T09:40:38Z",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "skill_count": 81,
+      "skill_count": 9,
       "skills": [
         {
-          "name": "article-magazine",
-          "path": "next/src/lib/templates/skills/article-magazine/SKILL.md"
+          "name": "brandkit",
+          "path": "library/skills/brandkit/SKILL.md"
         },
         {
-          "name": "article-sketchnote-editorial",
-          "path": "next/src/lib/templates/skills/article-sketchnote-editorial/SKILL.md"
+          "name": "motion-design-remix",
+          "path": "library/skills/motion-design-remix/SKILL.md"
         },
         {
-          "name": "blog-post",
-          "path": "next/src/lib/templates/skills/blog-post/SKILL.md"
+          "name": "presenter-story",
+          "path": "library/skills/presenter-story/SKILL.md"
         },
         {
-          "name": "card-twitter",
-          "path": "next/src/lib/templates/skills/card-twitter/SKILL.md"
+          "name": "motion-director",
+          "path": "skills/motion-director/SKILL.md"
         },
         {
-          "name": "card-xiaohongshu",
-          "path": "next/src/lib/templates/skills/card-xiaohongshu/SKILL.md"
+          "name": "motion-production",
+          "path": "skills/motion-production/SKILL.md"
         },
         {
-          "name": "competitive-teardown",
-          "path": "next/src/lib/templates/skills/competitive-teardown/SKILL.md"
+          "name": "motion-recreate",
+          "path": "skills/motion-recreate/SKILL.md"
         },
         {
-          "name": "dashboard",
-          "path": "next/src/lib/templates/skills/dashboard/SKILL.md"
+          "name": "motion-template-to-video",
+          "path": "skills/motion-template-to-video/SKILL.md"
         },
         {
-          "name": "data-report",
-          "path": "next/src/lib/templates/skills/data-report/SKILL.md"
+          "name": "motion-video-to-template",
+          "path": "skills/motion-video-to-template/SKILL.md"
         },
         {
-          "name": "dating-web",
-          "path": "next/src/lib/templates/skills/dating-web/SKILL.md"
-        },
-        {
-          "name": "deck-blueprint",
-          "path": "next/src/lib/templates/skills/deck-blueprint/SKILL.md"
-        },
-        {
-          "name": "deck-course-module",
-          "path": "next/src/lib/templates/skills/deck-course-module/SKILL.md"
-        },
-        {
-          "name": "deck-dir-key-nav",
-          "path": "next/src/lib/templates/skills/deck-dir-key-nav/SKILL.md"
-        },
-        {
-          "name": "deck-graphify-dark",
-          "path": "next/src/lib/templates/skills/deck-graphify-dark/SKILL.md"
-        },
-        {
-          "name": "deck-guizang-editorial",
-          "path": "next/src/lib/templates/skills/deck-guizang-editorial/SKILL.md"
-        },
-        {
-          "name": "deck-hermes-cyber",
-          "path": "next/src/lib/templates/skills/deck-hermes-cyber/SKILL.md"
-        },
-        {
-          "name": "deck-ljg-present",
-          "path": "next/src/lib/templates/skills/deck-ljg-present/SKILL.md"
-        },
-        {
-          "name": "deck-magazine-web",
-          "path": "next/src/lib/templates/skills/deck-magazine-web/SKILL.md"
-        },
-        {
-          "name": "deck-obsidian-claude",
-          "path": "next/src/lib/templates/skills/deck-obsidian-claude/SKILL.md"
-        },
-        {
-          "name": "deck-open-slide-canvas",
-          "path": "next/src/lib/templates/skills/deck-open-slide-canvas/SKILL.md"
-        },
-        {
-          "name": "deck-pitch",
-          "path": "next/src/lib/templates/skills/deck-pitch/SKILL.md"
-        },
-        {
-          "name": "deck-presenter-mode",
-          "path": "next/src/lib/templates/skills/deck-presenter-mode/SKILL.md"
-        },
-        {
-          "name": "deck-product-launch",
-          "path": "next/src/lib/templates/skills/deck-product-launch/SKILL.md"
-        },
-        {
-          "name": "deck-replit",
-          "path": "next/src/lib/templates/skills/deck-replit/SKILL.md"
-        },
-        {
-          "name": "deck-safety-alert",
-          "path": "next/src/lib/templates/skills/deck-safety-alert/SKILL.md"
-        },
-        {
-          "name": "deck-simple",
-          "path": "next/src/lib/templates/skills/deck-simple/SKILL.md"
-        },
-        {
-          "name": "deck-swiss-international",
-          "path": "next/src/lib/templates/skills/deck-swiss-international/SKILL.md"
-        },
-        {
-          "name": "deck-tech-sharing",
-          "path": "next/src/lib/templates/skills/deck-tech-sharing/SKILL.md"
-        },
-        {
-          "name": "deck-xhs-pastel",
-          "path": "next/src/lib/templates/skills/deck-xhs-pastel/SKILL.md"
-        },
-        {
-          "name": "deck-xhs-post",
-          "path": "next/src/lib/templates/skills/deck-xhs-post/SKILL.md"
-        },
-        {
-          "name": "deck-xhs-white",
-          "path": "next/src/lib/templates/skills/deck-xhs-white/SKILL.md"
-        },
-        {
-          "name": "digital-eguide",
-          "path": "next/src/lib/templates/skills/digital-eguide/SKILL.md"
-        },
-        {
-          "name": "doc-kami-parchment",
-          "path": "next/src/lib/templates/skills/doc-kami-parchment/SKILL.md"
-        },
-        {
-          "name": "docs-page",
-          "path": "next/src/lib/templates/skills/docs-page/SKILL.md"
-        },
-        {
-          "name": "email-marketing",
-          "path": "next/src/lib/templates/skills/email-marketing/SKILL.md"
-        },
-        {
-          "name": "eng-runbook",
-          "path": "next/src/lib/templates/skills/eng-runbook/SKILL.md"
-        },
-        {
-          "name": "exec-briefing-memo",
-          "path": "next/src/lib/templates/skills/exec-briefing-memo/SKILL.md"
-        },
-        {
-          "name": "experiment-readout",
-          "path": "next/src/lib/templates/skills/experiment-readout/SKILL.md"
-        },
-        {
-          "name": "finance-report",
-          "path": "next/src/lib/templates/skills/finance-report/SKILL.md"
-        },
-        {
-          "name": "flowai-team-dashboard",
-          "path": "next/src/lib/templates/skills/flowai-team-dashboard/SKILL.md"
-        },
-        {
-          "name": "frame-data-chart-nyt",
-          "path": "next/src/lib/templates/skills/frame-data-chart-nyt/SKILL.md"
+          "name": "reference-video",
+          "path": "skills/reference-video/SKILL.md"
         }
       ],
       "agents": [
         "claude",
-        "codex",
-        "cursor",
-        "gemini",
-        "copilot",
-        "opencode"
+        "codex"
       ],
       "gained": null,
       "rank": 71
@@ -8514,7 +8443,7 @@
         "skill-md",
         "skills"
       ],
-      "stars": 9430,
+      "stars": 9437,
       "pushed_at": "2026-11-11T02:10:43Z",
       "created_at": "2026-02-02T09:12:57Z",
       "license": null,
@@ -8718,7 +8647,7 @@
         "seo-mcp",
         "seo-mcp-server"
       ],
-      "stars": 9127,
+      "stars": 9184,
       "pushed_at": "2026-10-27T08:57:55Z",
       "created_at": "2026-08-29T23:37:01Z",
       "license": "MIT",
@@ -8781,7 +8710,7 @@
         "design-rules",
         "ui-design"
       ],
-      "stars": 8912,
+      "stars": 8922,
       "pushed_at": "2026-11-10T13:35:26Z",
       "created_at": "2026-08-07T10:29:56Z",
       "license": "MIT",
@@ -8835,7 +8764,7 @@
         "reverse-engineering",
         "saas"
       ],
-      "stars": 8842,
+      "stars": 8866,
       "pushed_at": "2026-10-03T12:07:53Z",
       "created_at": "2026-10-03T12:07:49Z",
       "license": "MIT",
@@ -8911,8 +8840,8 @@
         "tmux",
         "typescript"
       ],
-      "stars": 8815,
-      "pushed_at": "2026-11-11T08:18:37Z",
+      "stars": 8816,
+      "pushed_at": "2026-11-11T10:42:49Z",
       "created_at": "2026-04-01T06:22:40Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9110,8 +9039,8 @@
         "pi",
         "spec-driven-development"
       ],
-      "stars": 8762,
-      "pushed_at": "2026-11-11T08:17:53Z",
+      "stars": 8767,
+      "pushed_at": "2026-11-11T12:19:13Z",
       "created_at": "2026-02-27T23:28:01Z",
       "license": "MIT",
       "default_branch": "main",
@@ -9258,7 +9187,7 @@
         "trilingual",
         "tutorial"
       ],
-      "stars": 8730,
+      "stars": 8731,
       "pushed_at": "2026-11-10T22:05:12Z",
       "created_at": "2026-05-04T22:18:51Z",
       "license": "MIT",
@@ -9299,8 +9228,8 @@
         "tdd",
         "trae"
       ],
-      "stars": 8519,
-      "pushed_at": "2026-11-10T09:10:21Z",
+      "stars": 8518,
+      "pushed_at": "2026-11-11T09:34:20Z",
       "created_at": "2026-03-20T00:12:39Z",
       "license": "MIT",
       "default_branch": "main",
@@ -9428,7 +9357,7 @@
         "writing-assistant",
         "zenstory"
       ],
-      "stars": 8506,
+      "stars": 8514,
       "pushed_at": "2026-11-11T03:19:52Z",
       "created_at": "2026-04-22T16:35:39Z",
       "license": "MIT",
@@ -9528,8 +9457,8 @@
         "unreal",
         "windsurf"
       ],
-      "stars": 8253,
-      "pushed_at": "2026-11-10T14:52:27Z",
+      "stars": 8293,
+      "pushed_at": "2026-11-11T10:51:19Z",
       "created_at": "2026-06-24T07:18:39Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9727,7 +9656,7 @@
         "vibe-coding",
         "vibecoding"
       ],
-      "stars": 8140,
+      "stars": 8152,
       "pushed_at": "2026-11-11T06:52:38Z",
       "created_at": "2026-07-08T07:40:43Z",
       "license": "Apache-2.0",
@@ -9795,7 +9724,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 8126,
+      "stars": 8130,
       "pushed_at": "2026-11-06T15:20:09Z",
       "created_at": "2026-01-14T18:23:21Z",
       "license": "CC-BY-SA-4.0",
@@ -9989,7 +9918,7 @@
         "wechat",
         "xiaohongshu"
       ],
-      "stars": 8065,
+      "stars": 8069,
       "pushed_at": "2026-10-30T12:48:55Z",
       "created_at": "2026-05-27T12:05:05Z",
       "license": "AGPL-3.0",
@@ -10020,7 +9949,7 @@
         "pm-frameworks",
         "product-management"
       ],
-      "stars": 7958,
+      "stars": 7960,
       "pushed_at": "2026-10-16T01:51:12Z",
       "created_at": "2026-02-05T02:16:46Z",
       "license": "NOASSERTION",
@@ -10212,7 +10141,7 @@
         "web-scraper",
         "web-scraping"
       ],
-      "stars": 7884,
+      "stars": 7896,
       "pushed_at": "2026-11-08T10:51:13Z",
       "created_at": "2023-04-22T14:35:13Z",
       "license": "MIT",
@@ -10249,7 +10178,7 @@
         "presentation",
         "skill"
       ],
-      "stars": 7806,
+      "stars": 7813,
       "pushed_at": "2026-10-13T13:04:15Z",
       "created_at": "2026-04-26T07:34:32Z",
       "license": "MIT",
@@ -10285,7 +10214,7 @@
         "skills",
         "superpowers"
       ],
-      "stars": 7561,
+      "stars": 7566,
       "pushed_at": "2026-11-11T07:02:04Z",
       "created_at": "2026-03-12T00:35:56Z",
       "license": "MIT",
@@ -10438,8 +10367,8 @@
         "self-evolving-ai",
         "visual-editor"
       ],
-      "stars": 7450,
-      "pushed_at": "2026-11-11T04:26:47Z",
+      "stars": 7451,
+      "pushed_at": "2026-11-11T10:16:36Z",
       "created_at": "2025-08-25T03:57:40Z",
       "license": "NOASSERTION",
       "default_branch": "main",
@@ -10639,7 +10568,7 @@
         "prompt-engineering",
         "prompt-optimization"
       ],
-      "stars": 7379,
+      "stars": 7381,
       "pushed_at": "2026-11-09T12:46:31Z",
       "created_at": "2025-08-05T09:26:27Z",
       "license": "MIT",
@@ -10682,7 +10611,7 @@
         "meta-ads-mcp",
         "seo"
       ],
-      "stars": 7197,
+      "stars": 7239,
       "pushed_at": "2026-10-27T08:57:53Z",
       "created_at": "2026-01-21T10:15:35Z",
       "license": null,
@@ -10884,7 +10813,7 @@
         "web3",
         "x402"
       ],
-      "stars": 7101,
+      "stars": 7100,
       "pushed_at": "2026-10-26T12:55:11Z",
       "created_at": "2026-06-16T13:20:01Z",
       "license": "NOASSERTION",
@@ -11081,7 +11010,7 @@
         "self-improving",
         "skills"
       ],
-      "stars": 6882,
+      "stars": 6886,
       "pushed_at": "2026-09-18T13:16:41Z",
       "created_at": "2026-04-13T08:57:49Z",
       "license": "MIT",
@@ -11099,6 +11028,39 @@
       ],
       "gained": null,
       "rank": 94
+    },
+    {
+      "full_name": "patch-gg/pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code-plugin",
+        "gamedev",
+        "pixel-art",
+        "sprite-sheet",
+        "vfx"
+      ],
+      "stars": 6872,
+      "pushed_at": "2026-11-09T09:51:43Z",
+      "created_at": "2026-10-30T06:43:25Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "pixelfx",
+          "path": "skills/pixelfx/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 95
     },
     {
       "full_name": "Oldcircle/geo-sleuth",
@@ -11125,7 +11087,7 @@
         "reverse-image-search",
         "satellite-imagery"
       ],
-      "stars": 6836,
+      "stars": 6849,
       "pushed_at": "2026-11-09T13:31:34Z",
       "created_at": "2026-09-18T08:51:34Z",
       "license": "MIT",
@@ -11146,66 +11108,42 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 95
-    },
-    {
-      "full_name": "patch-gg/pixelfx",
-      "url": "https://github.com/patch-gg/pixelfx",
-      "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "animation",
-        "canvas",
-        "claude-code-plugin",
-        "gamedev",
-        "pixel-art",
-        "sprite-sheet",
-        "vfx"
-      ],
-      "stars": 6810,
-      "pushed_at": "2026-11-09T09:51:43Z",
-      "created_at": "2026-10-30T06:43:25Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "pixelfx",
-          "path": "skills/pixelfx/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 96
     },
     {
-      "full_name": "larashero3-dotcom/lieflat-charts",
-      "url": "https://github.com/larashero3-dotcom/lieflat-charts",
-      "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
-      "language": "HTML",
+      "full_name": "JuneYaooo/rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+      "language": "Python",
       "topics": [
         "agent-skills",
-        "charts",
+        "ai-video",
+        "aigc-detection",
         "claude-code",
         "codex",
-        "data-visualization",
-        "html",
-        "moxt",
-        "svg"
+        "ffmpeg",
+        "prompt-engineering",
+        "remotion",
+        "reverse-engineering",
+        "short-video",
+        "shot-detection",
+        "subtitles",
+        "video-analysis",
+        "video-breakdown",
+        "video-editing",
+        "video-generation",
+        "vlm"
       ],
-      "stars": 6809,
-      "pushed_at": "2026-11-03T03:38:34Z",
-      "created_at": "2026-07-16T11:17:49Z",
-      "license": "NOASSERTION",
+      "stars": 6846,
+      "pushed_at": "2026-11-11T08:55:41Z",
+      "created_at": "2026-10-29T16:15:01Z",
+      "license": "Apache-2.0",
       "default_branch": "main",
       "skill_count": 1,
       "skills": [
         {
-          "name": "lieflat-charts",
-          "path": "SKILL.md"
+          "name": "rea-video",
+          "path": "skills/rea-video/SKILL.md"
         }
       ],
       "agents": [
@@ -11227,7 +11165,7 @@
         "day-trading",
         "stock-market"
       ],
-      "stars": 6777,
+      "stars": 6835,
       "pushed_at": "2026-10-20T14:18:00Z",
       "created_at": "2026-10-20T14:17:54Z",
       "license": "MIT",
@@ -11286,6 +11224,40 @@
       "rank": 98
     },
     {
+      "full_name": "larashero3-dotcom/lieflat-charts",
+      "url": "https://github.com/larashero3-dotcom/lieflat-charts",
+      "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "charts",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "html",
+        "moxt",
+        "svg"
+      ],
+      "stars": 6812,
+      "pushed_at": "2026-11-11T10:55:46Z",
+      "created_at": "2026-07-16T11:17:49Z",
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "lieflat-charts",
+          "path": "SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 99
+    },
+    {
       "full_name": "alchaincyf/huashu-art-motion",
       "url": "https://github.com/alchaincyf/huashu-art-motion",
       "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
@@ -11304,7 +11276,7 @@
         "skills",
         "video"
       ],
-      "stars": 6712,
+      "stars": 6729,
       "pushed_at": "2026-11-10T01:40:26Z",
       "created_at": "2026-10-06T04:49:37Z",
       "license": "MIT",
@@ -11314,49 +11286,6 @@
         {
           "name": "huashu-art-motion",
           "path": "SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
-      "rank": 99
-    },
-    {
-      "full_name": "JuneYaooo/rea-video",
-      "url": "https://github.com/JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "ai-video",
-        "aigc-detection",
-        "claude-code",
-        "codex",
-        "ffmpeg",
-        "prompt-engineering",
-        "remotion",
-        "reverse-engineering",
-        "short-video",
-        "shot-detection",
-        "subtitles",
-        "video-analysis",
-        "video-breakdown",
-        "video-editing",
-        "video-generation",
-        "vlm"
-      ],
-      "stars": 6710,
-      "pushed_at": "2026-11-11T07:04:18Z",
-      "created_at": "2026-10-29T16:15:01Z",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "rea-video",
-          "path": "skills/rea-video/SKILL.md"
         }
       ],
       "agents": [
@@ -11381,7 +11310,7 @@
         "logo-design",
         "svg"
       ],
-      "stars": 6560,
+      "stars": 6582,
       "pushed_at": "2026-11-06T07:40:27Z",
       "created_at": "2026-09-26T08:23:34Z",
       "license": "MIT",
@@ -11455,7 +11384,7 @@
         "translationese",
         "writing"
       ],
-      "stars": 6509,
+      "stars": 6510,
       "pushed_at": "2026-10-12T09:57:11Z",
       "created_at": "2026-04-24T12:48:40Z",
       "license": "MIT",
@@ -11527,7 +11456,7 @@
         "webgpu"
       ],
       "stars": 6499,
-      "pushed_at": "2026-11-11T08:01:29Z",
+      "pushed_at": "2026-11-11T09:08:37Z",
       "created_at": "2011-04-11T07:03:14Z",
       "license": "MIT",
       "default_branch": "master",
@@ -11780,6 +11709,139 @@
       "rank": 105
     },
     {
+      "full_name": "JimLiu/baoyu-design",
+      "url": "https://github.com/JimLiu/baoyu-design",
+      "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "cursor",
+        "design",
+        "dsh-plugin",
+        "dsh-plugins",
+        "prototyping",
+        "ui-design"
+      ],
+      "stars": 6350,
+      "pushed_at": "2026-11-10T20:55:53Z",
+      "created_at": "2026-06-07T01:16:18Z",
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "skill_count": 25,
+      "skills": [
+        {
+          "name": "release-skills",
+          "path": ".claude/skills/release-skills/SKILL.md"
+        },
+        {
+          "name": "baoyu-design",
+          "path": "archive/baoyu-design/SKILL.md"
+        },
+        {
+          "name": "claude-design",
+          "path": "chatgpt-plugins/baoyu-canvas/skills/claude-design/SKILL.md"
+        },
+        {
+          "name": "claude-dashboard",
+          "path": "chatgpt-plugins/baoyu-dashboard/skills/claude-dashboard/SKILL.md"
+        },
+        {
+          "name": "dataviz",
+          "path": "chatgpt-plugins/baoyu-dataviz/skills/dataviz/SKILL.md"
+        },
+        {
+          "name": "claude-design-system",
+          "path": "chatgpt-plugins/baoyu-design-system/skills/claude-design-system/SKILL.md"
+        },
+        {
+          "name": "claude-motion",
+          "path": "chatgpt-plugins/baoyu-motion/skills/claude-motion/SKILL.md"
+        },
+        {
+          "name": "dataviz",
+          "path": "chatgpt-plugins/baoyu-motion/skills/dataviz/SKILL.md"
+        },
+        {
+          "name": "motion-director",
+          "path": "chatgpt-plugins/baoyu-motion/skills/motion-director/SKILL.md"
+        },
+        {
+          "name": "claude-slides",
+          "path": "chatgpt-plugins/baoyu-slides/skills/claude-slides/SKILL.md"
+        },
+        {
+          "name": "claude-whiteboard",
+          "path": "chatgpt-plugins/baoyu-whiteboard/skills/claude-whiteboard/SKILL.md"
+        },
+        {
+          "name": "claude-dashboard",
+          "path": "dsh-plugins/dsh-claude-dashboard/skills/claude-dashboard/SKILL.md"
+        },
+        {
+          "name": "claude-design-system",
+          "path": "dsh-plugins/dsh-claude-design-system/skills/claude-design-system/SKILL.md"
+        },
+        {
+          "name": "claude-design",
+          "path": "dsh-plugins/dsh-claude-design/skills/claude-design/SKILL.md"
+        },
+        {
+          "name": "claude-motion",
+          "path": "dsh-plugins/dsh-claude-motion/skills/claude-motion/SKILL.md"
+        },
+        {
+          "name": "claude-slides",
+          "path": "dsh-plugins/dsh-claude-slides/skills/claude-slides/SKILL.md"
+        },
+        {
+          "name": "claude-whiteboard",
+          "path": "dsh-plugins/dsh-claude-whiteboard/skills/claude-whiteboard/SKILL.md"
+        },
+        {
+          "name": "claude-dashboard",
+          "path": "skills/claude-dashboard/SKILL.md"
+        },
+        {
+          "name": "claude-design-system",
+          "path": "skills/claude-design-system/SKILL.md"
+        },
+        {
+          "name": "claude-design",
+          "path": "skills/claude-design/SKILL.md"
+        },
+        {
+          "name": "claude-motion",
+          "path": "skills/claude-motion/SKILL.md"
+        },
+        {
+          "name": "claude-slides",
+          "path": "skills/claude-slides/SKILL.md"
+        },
+        {
+          "name": "claude-whiteboard",
+          "path": "skills/claude-whiteboard/SKILL.md"
+        },
+        {
+          "name": "dataviz",
+          "path": "skills/dataviz/SKILL.md"
+        },
+        {
+          "name": "motion-director",
+          "path": "skills/motion-director/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "gained": null,
+      "rank": 106
+    },
+    {
       "full_name": "wiltodelta/remove-ai-watermarks",
       "url": "https://github.com/wiltodelta/remove-ai-watermarks",
       "description": "Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library, CLI, and agent skill for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks. By Victor Kuznetsov.",
@@ -11806,8 +11868,8 @@
         "watermark-removal",
         "watermark-remover"
       ],
-      "stars": 6345,
-      "pushed_at": "2026-11-11T05:32:47Z",
+      "stars": 6347,
+      "pushed_at": "2026-11-11T08:50:05Z",
       "created_at": "2026-03-25T18:15:24Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -11831,7 +11893,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 106
+      "rank": 107
     },
     {
       "full_name": "browser-act/skills",
@@ -11860,7 +11922,7 @@
         "web-scraping",
         "web-scraping-api"
       ],
-      "stars": 6342,
+      "stars": 6343,
       "pushed_at": "2026-11-04T10:27:29Z",
       "created_at": "2026-02-06T10:35:35Z",
       "license": "MIT",
@@ -12034,178 +12096,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 107
-    },
-    {
-      "full_name": "JimLiu/baoyu-design",
-      "url": "https://github.com/JimLiu/baoyu-design",
-      "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "claude",
-        "claude-code",
-        "claude-design",
-        "cursor",
-        "design",
-        "dsh-plugin",
-        "dsh-plugins",
-        "prototyping",
-        "ui-design"
-      ],
-      "stars": 6329,
-      "pushed_at": "2026-11-10T20:55:53Z",
-      "created_at": "2026-06-07T01:16:18Z",
-      "license": "NOASSERTION",
-      "default_branch": "main",
-      "skill_count": 25,
-      "skills": [
-        {
-          "name": "release-skills",
-          "path": ".claude/skills/release-skills/SKILL.md"
-        },
-        {
-          "name": "baoyu-design",
-          "path": "archive/baoyu-design/SKILL.md"
-        },
-        {
-          "name": "claude-design",
-          "path": "chatgpt-plugins/baoyu-canvas/skills/claude-design/SKILL.md"
-        },
-        {
-          "name": "claude-dashboard",
-          "path": "chatgpt-plugins/baoyu-dashboard/skills/claude-dashboard/SKILL.md"
-        },
-        {
-          "name": "dataviz",
-          "path": "chatgpt-plugins/baoyu-dataviz/skills/dataviz/SKILL.md"
-        },
-        {
-          "name": "claude-design-system",
-          "path": "chatgpt-plugins/baoyu-design-system/skills/claude-design-system/SKILL.md"
-        },
-        {
-          "name": "claude-motion",
-          "path": "chatgpt-plugins/baoyu-motion/skills/claude-motion/SKILL.md"
-        },
-        {
-          "name": "dataviz",
-          "path": "chatgpt-plugins/baoyu-motion/skills/dataviz/SKILL.md"
-        },
-        {
-          "name": "motion-director",
-          "path": "chatgpt-plugins/baoyu-motion/skills/motion-director/SKILL.md"
-        },
-        {
-          "name": "claude-slides",
-          "path": "chatgpt-plugins/baoyu-slides/skills/claude-slides/SKILL.md"
-        },
-        {
-          "name": "claude-whiteboard",
-          "path": "chatgpt-plugins/baoyu-whiteboard/skills/claude-whiteboard/SKILL.md"
-        },
-        {
-          "name": "claude-dashboard",
-          "path": "dsh-plugins/dsh-claude-dashboard/skills/claude-dashboard/SKILL.md"
-        },
-        {
-          "name": "claude-design-system",
-          "path": "dsh-plugins/dsh-claude-design-system/skills/claude-design-system/SKILL.md"
-        },
-        {
-          "name": "claude-design",
-          "path": "dsh-plugins/dsh-claude-design/skills/claude-design/SKILL.md"
-        },
-        {
-          "name": "claude-motion",
-          "path": "dsh-plugins/dsh-claude-motion/skills/claude-motion/SKILL.md"
-        },
-        {
-          "name": "claude-slides",
-          "path": "dsh-plugins/dsh-claude-slides/skills/claude-slides/SKILL.md"
-        },
-        {
-          "name": "claude-whiteboard",
-          "path": "dsh-plugins/dsh-claude-whiteboard/skills/claude-whiteboard/SKILL.md"
-        },
-        {
-          "name": "claude-dashboard",
-          "path": "skills/claude-dashboard/SKILL.md"
-        },
-        {
-          "name": "claude-design-system",
-          "path": "skills/claude-design-system/SKILL.md"
-        },
-        {
-          "name": "claude-design",
-          "path": "skills/claude-design/SKILL.md"
-        },
-        {
-          "name": "claude-motion",
-          "path": "skills/claude-motion/SKILL.md"
-        },
-        {
-          "name": "claude-slides",
-          "path": "skills/claude-slides/SKILL.md"
-        },
-        {
-          "name": "claude-whiteboard",
-          "path": "skills/claude-whiteboard/SKILL.md"
-        },
-        {
-          "name": "dataviz",
-          "path": "skills/dataviz/SKILL.md"
-        },
-        {
-          "name": "motion-director",
-          "path": "skills/motion-director/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex",
-        "cursor"
-      ],
-      "gained": null,
       "rank": 108
-    },
-    {
-      "full_name": "QingYunA/answer-me-with-html",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skill",
-        "ai-agent",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "claude-skills",
-        "cli",
-        "diagram",
-        "dsh-plugin",
-        "explainer",
-        "html",
-        "llm",
-        "ste100"
-      ],
-      "stars": 6226,
-      "pushed_at": "2026-11-10T10:33:12Z",
-      "created_at": "2026-10-02T09:57:40Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "answer-me-with-html",
-          "path": "skills/answer-me-with-html/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 109
     },
     {
       "full_name": "ScrapeCreators/social-media-research-skills",
@@ -12226,7 +12117,7 @@
         "social-media-research",
         "workflow-automation"
       ],
-      "stars": 6221,
+      "stars": 6234,
       "pushed_at": "2026-08-26T17:26:01Z",
       "created_at": "2026-06-06T21:47:43Z",
       "license": "MIT",
@@ -12293,6 +12184,44 @@
         "gemini"
       ],
       "gained": null,
+      "rank": 109
+    },
+    {
+      "full_name": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
+        "cli",
+        "diagram",
+        "dsh-plugin",
+        "explainer",
+        "html",
+        "llm",
+        "ste100"
+      ],
+      "stars": 6232,
+      "pushed_at": "2026-11-10T10:33:12Z",
+      "created_at": "2026-10-02T09:57:40Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "answer-me-with-html",
+          "path": "skills/answer-me-with-html/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
       "rank": 110
     },
     {
@@ -12318,7 +12247,7 @@
         "research-figures",
         "text-to-image"
       ],
-      "stars": 6069,
+      "stars": 6074,
       "pushed_at": "2026-11-08T22:34:08Z",
       "created_at": "2026-04-22T11:27:21Z",
       "license": "MIT",
@@ -12356,7 +12285,7 @@
         "office-automation",
         "presentation-slides"
       ],
-      "stars": 6067,
+      "stars": 6068,
       "pushed_at": "2026-11-03T07:27:54Z",
       "created_at": "2026-04-14T06:21:51Z",
       "license": "MIT",
@@ -12537,7 +12466,7 @@
         "agent-skills",
         "skills"
       ],
-      "stars": 6064,
+      "stars": 6065,
       "pushed_at": "2026-11-11T08:13:27Z",
       "created_at": "2026-01-28T05:59:03Z",
       "license": "MIT",
@@ -12616,7 +12545,7 @@
         "oxlint",
         "typescript"
       ],
-      "stars": 6030,
+      "stars": 6032,
       "pushed_at": "2026-10-14T00:18:33Z",
       "created_at": "2026-08-12T13:48:50Z",
       "license": "MIT",
@@ -12640,8 +12569,8 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 5914,
-      "pushed_at": "2026-11-11T07:50:25Z",
+      "stars": 5928,
+      "pushed_at": "2026-11-11T09:38:42Z",
       "created_at": "2026-02-03T22:51:09Z",
       "license": "MIT",
       "default_branch": "main",
@@ -12839,7 +12768,7 @@
         "skill-md",
         "social-media-automation"
       ],
-      "stars": 5824,
+      "stars": 5829,
       "pushed_at": "2026-11-10T11:05:23Z",
       "created_at": "2026-04-14T16:35:45Z",
       "license": "MIT",
@@ -12970,7 +12899,7 @@
         "paper-writing",
         "prompt"
       ],
-      "stars": 5760,
+      "stars": 5793,
       "pushed_at": "2026-10-27T13:01:00Z",
       "created_at": "2026-08-11T18:02:07Z",
       "license": "MIT",
@@ -13005,7 +12934,7 @@
         "pixel-art",
         "sprite-generator"
       ],
-      "stars": 5526,
+      "stars": 5532,
       "pushed_at": "2026-11-06T18:20:34Z",
       "created_at": "2026-04-23T20:52:52Z",
       "license": "MIT",
@@ -13063,8 +12992,8 @@
         "security-tools",
         "web-security"
       ],
-      "stars": 5522,
-      "pushed_at": "2026-11-10T12:43:34Z",
+      "stars": 5524,
+      "pushed_at": "2026-11-11T11:55:37Z",
       "created_at": "2026-05-05T11:22:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13264,8 +13193,8 @@
         "scientific-computing",
         "scientific-research"
       ],
-      "stars": 5513,
-      "pushed_at": "2026-11-11T08:24:43Z",
+      "stars": 5515,
+      "pushed_at": "2026-11-11T12:17:48Z",
       "created_at": "2026-07-03T02:50:10Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -13488,7 +13417,7 @@
         "vscode"
       ],
       "stars": 5409,
-      "pushed_at": "2026-11-11T00:33:17Z",
+      "pushed_at": "2026-11-11T11:38:51Z",
       "created_at": "2022-02-01T16:42:30Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13576,7 +13505,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 5278,
+      "stars": 5281,
       "pushed_at": "2026-11-10T21:34:25Z",
       "created_at": "2026-03-24T11:58:12Z",
       "license": "MIT",
@@ -13662,7 +13591,7 @@
         "skills",
         "ui-design"
       ],
-      "stars": 5071,
+      "stars": 5097,
       "pushed_at": "2026-09-06T09:01:39Z",
       "created_at": "2026-08-13T07:19:54Z",
       "license": "MIT",
@@ -13713,8 +13642,8 @@
         "video-editing",
         "whisper"
       ],
-      "stars": 5044,
-      "pushed_at": "2026-11-11T08:23:33Z",
+      "stars": 5056,
+      "pushed_at": "2026-11-11T10:36:36Z",
       "created_at": "2026-09-03T14:33:38Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13821,8 +13750,8 @@
         "tailwind",
         "web-scraping"
       ],
-      "stars": 5031,
-      "pushed_at": "2026-11-05T08:50:20Z",
+      "stars": 5037,
+      "pushed_at": "2026-11-11T11:17:34Z",
       "created_at": "2026-04-15T10:11:22Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13961,7 +13890,7 @@
         "social-science",
         "sociology"
       ],
-      "stars": 4995,
+      "stars": 4997,
       "pushed_at": "2026-11-09T13:27:49Z",
       "created_at": "2026-04-03T06:31:20Z",
       "license": "NOASSERTION",
@@ -14155,7 +14084,7 @@
         "typography",
         "web-design"
       ],
-      "stars": 4905,
+      "stars": 4912,
       "pushed_at": "2026-09-30T13:31:42Z",
       "created_at": "2026-08-22T15:25:08Z",
       "license": "MIT",
@@ -14201,7 +14130,7 @@
         "vision",
         "vision-transformer"
       ],
-      "stars": 4900,
+      "stars": 4905,
       "pushed_at": "2026-11-07T16:37:02Z",
       "created_at": "2026-02-22T07:12:00Z",
       "license": "MIT",
@@ -14582,42 +14511,6 @@
       "rank": 133
     },
     {
-      "full_name": "zenbu-labs/terminal-browser",
-      "url": "https://github.com/zenbu-labs/terminal-browser",
-      "description": "A real browser inside your terminal",
-      "language": "TypeScript",
-      "topics": [
-        "browser",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-skills",
-        "cli",
-        "codex",
-        "herdr-plugin",
-        "rust",
-        "terminal",
-        "web"
-      ],
-      "stars": 4586,
-      "pushed_at": "2026-11-11T02:35:02Z",
-      "created_at": "2026-07-06T16:31:11Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "verify",
-          "path": ".claude/skills/verify/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
-      "rank": 134
-    },
-    {
       "full_name": "ZJU-REAL/Easel",
       "url": "https://github.com/ZJU-REAL/Easel",
       "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
@@ -14633,7 +14526,7 @@
         "social-media",
         "social-media-management"
       ],
-      "stars": 4584,
+      "stars": 4596,
       "pushed_at": "2026-11-09T08:42:34Z",
       "created_at": "2026-08-28T02:22:27Z",
       "license": "Apache-2.0",
@@ -14803,6 +14696,42 @@
       ],
       "agents": [],
       "gained": null,
+      "rank": 134
+    },
+    {
+      "full_name": "zenbu-labs/terminal-browser",
+      "url": "https://github.com/zenbu-labs/terminal-browser",
+      "description": "A real browser inside your terminal",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "cli",
+        "codex",
+        "herdr-plugin",
+        "rust",
+        "terminal",
+        "web"
+      ],
+      "stars": 4586,
+      "pushed_at": "2026-11-11T02:35:02Z",
+      "created_at": "2026-07-06T16:31:11Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "verify",
+          "path": ".claude/skills/verify/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
       "rank": 135
     },
     {
@@ -14866,7 +14795,7 @@
         "creative-writing",
         "writing-skill"
       ],
-      "stars": 4531,
+      "stars": 4535,
       "pushed_at": "2026-11-08T08:59:26Z",
       "created_at": "2026-08-05T01:19:41Z",
       "license": "MIT",
@@ -14895,7 +14824,7 @@
         "pose-control",
         "qwen-image"
       ],
-      "stars": 4326,
+      "stars": 4333,
       "pushed_at": "2026-10-26T16:43:07Z",
       "created_at": "2026-10-13T03:09:42Z",
       "license": "Apache-2.0",
@@ -14935,7 +14864,7 @@
         "wechat",
         "weixin"
       ],
-      "stars": 4326,
+      "stars": 4327,
       "pushed_at": "2026-10-21T03:53:41Z",
       "created_at": "2026-07-01T04:28:03Z",
       "license": "NOASSERTION",
@@ -14982,8 +14911,8 @@
         "opencode",
         "pstack"
       ],
-      "stars": 4223,
-      "pushed_at": "2026-11-11T07:06:06Z",
+      "stars": 4229,
+      "pushed_at": "2026-11-11T12:15:43Z",
       "created_at": "2026-05-26T13:26:00Z",
       "license": "MIT",
       "default_branch": "main",
@@ -15175,7 +15104,7 @@
         "stock-research",
         "supply-chain"
       ],
-      "stars": 4164,
+      "stars": 4163,
       "pushed_at": "2026-10-11T06:10:53Z",
       "created_at": "2026-05-04T06:24:37Z",
       "license": "MIT",
@@ -15212,7 +15141,7 @@
         "seo"
       ],
       "stars": 4139,
-      "pushed_at": "2026-11-11T06:33:26Z",
+      "pushed_at": "2026-11-11T09:09:17Z",
       "created_at": "2026-03-27T06:39:58Z",
       "license": "MIT",
       "default_branch": "main",
@@ -15411,7 +15340,7 @@
         "video-prompts",
         "zenstory"
       ],
-      "stars": 4086,
+      "stars": 4099,
       "pushed_at": "2026-11-10T12:23:14Z",
       "created_at": "2026-07-16T16:11:19Z",
       "license": "MIT",
@@ -15493,7 +15422,7 @@
         "prototyping",
         "skills"
       ],
-      "stars": 4085,
+      "stars": 4090,
       "pushed_at": "2026-10-31T19:25:06Z",
       "created_at": "2026-06-09T23:24:51Z",
       "license": "MIT",
@@ -15563,7 +15492,7 @@
         "traditional-chinese-medicine",
         "traditional-chinese-medicine-healthcare"
       ],
-      "stars": 4069,
+      "stars": 4070,
       "pushed_at": "2026-10-28T08:45:38Z",
       "created_at": "2026-04-14T07:49:54Z",
       "license": null,
@@ -15608,7 +15537,7 @@
         "yaml"
       ],
       "stars": 4056,
-      "pushed_at": "2026-11-11T08:04:02Z",
+      "pushed_at": "2026-11-11T10:27:27Z",
       "created_at": "2019-05-29T08:01:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -15641,7 +15570,7 @@
         "motion-graphics",
         "video"
       ],
-      "stars": 4021,
+      "stars": 4029,
       "pushed_at": "2026-11-05T03:52:15Z",
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
@@ -15658,49 +15587,6 @@
       ],
       "gained": null,
       "rank": 147
-    },
-    {
-      "full_name": "evalstate/fast-agent",
-      "url": "https://github.com/evalstate/fast-agent",
-      "description": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support",
-      "language": "Python",
-      "topics": [
-        "a2a",
-        "acp",
-        "agent",
-        "agent-framework",
-        "agent-skills",
-        "cli",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "python",
-        "skills",
-        "tui"
-      ],
-      "stars": 3964,
-      "pushed_at": "2026-11-10T23:42:01Z",
-      "created_at": "2025-01-18T20:39:51Z",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "skill_count": 3,
-      "skills": [
-        {
-          "name": "fast-agent-system",
-          "path": "design/fast-agent-system/SKILL.md"
-        },
-        {
-          "name": "pr-writing-review",
-          "path": "examples/hf-toad-cards/skills/pr-writing-review/SKILL.md"
-        },
-        {
-          "name": "session-investigator",
-          "path": "examples/hf-toad-cards/skills/session-investigator/SKILL.md"
-        }
-      ],
-      "agents": [],
-      "gained": null,
-      "rank": 148
     },
     {
       "full_name": "backnotprop/pstack",
@@ -15721,7 +15607,7 @@
         "pstack-claude",
         "skills"
       ],
-      "stars": 3953,
+      "stars": 3965,
       "pushed_at": "2026-11-10T12:35:59Z",
       "created_at": "2026-05-27T02:30:34Z",
       "license": "MIT",
@@ -15896,6 +15782,49 @@
         "opencode"
       ],
       "gained": null,
+      "rank": 148
+    },
+    {
+      "full_name": "evalstate/fast-agent",
+      "url": "https://github.com/evalstate/fast-agent",
+      "description": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support",
+      "language": "Python",
+      "topics": [
+        "a2a",
+        "acp",
+        "agent",
+        "agent-framework",
+        "agent-skills",
+        "cli",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "python",
+        "skills",
+        "tui"
+      ],
+      "stars": 3964,
+      "pushed_at": "2026-11-10T23:42:01Z",
+      "created_at": "2025-01-18T20:39:51Z",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "skill_count": 3,
+      "skills": [
+        {
+          "name": "fast-agent-system",
+          "path": "design/fast-agent-system/SKILL.md"
+        },
+        {
+          "name": "pr-writing-review",
+          "path": "examples/hf-toad-cards/skills/pr-writing-review/SKILL.md"
+        },
+        {
+          "name": "session-investigator",
+          "path": "examples/hf-toad-cards/skills/session-investigator/SKILL.md"
+        }
+      ],
+      "agents": [],
+      "gained": null,
       "rank": 149
     },
     {
@@ -15919,7 +15848,7 @@
         "robotics",
         "simulation"
       ],
-      "stars": 3931,
+      "stars": 3933,
       "pushed_at": "2026-11-11T02:07:59Z",
       "created_at": "2026-02-25T21:54:05Z",
       "license": "Apache-2.0",
@@ -16119,7 +16048,7 @@
         "skill-management",
         "skills"
       ],
-      "stars": 3849,
+      "stars": 3850,
       "pushed_at": "2026-11-09T14:06:42Z",
       "created_at": "2026-02-15T19:18:12Z",
       "license": "CC-BY-4.0",
@@ -16369,7 +16298,7 @@
         "vibecoding",
         "workflow-automation"
       ],
-      "stars": 3814,
+      "stars": 3816,
       "pushed_at": "2026-11-09T07:33:42Z",
       "created_at": "2026-02-22T13:51:44Z",
       "license": "Apache-2.0",
@@ -16566,7 +16495,7 @@
         "scope-control",
         "yagni"
       ],
-      "stars": 3805,
+      "stars": 3809,
       "pushed_at": "2026-11-10T05:55:32Z",
       "created_at": "2026-08-11T15:31:45Z",
       "license": "MIT",
@@ -16666,7 +16595,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 3776,
+      "stars": 3782,
       "pushed_at": "2026-11-03T05:53:57Z",
       "created_at": "2026-08-28T05:56:49Z",
       "license": "MIT",
@@ -16988,7 +16917,7 @@
         "plugin-marketplace",
         "subagents"
       ],
-      "stars": 3739,
+      "stars": 3740,
       "pushed_at": "2026-11-11T08:12:19Z",
       "created_at": "2025-07-25T02:26:45Z",
       "license": "MIT",
@@ -17187,8 +17116,8 @@
         "second-brain",
         "wiki"
       ],
-      "stars": 3711,
-      "pushed_at": "2026-11-10T20:09:19Z",
+      "stars": 3712,
+      "pushed_at": "2026-11-11T11:40:09Z",
       "created_at": "2026-04-06T06:20:10Z",
       "license": "MIT",
       "default_branch": "main",
@@ -17382,7 +17311,7 @@
         "opencode",
         "security"
       ],
-      "stars": 3679,
+      "stars": 3680,
       "pushed_at": "2026-11-10T23:59:05Z",
       "created_at": "2026-02-01T23:49:52Z",
       "license": "MIT",
@@ -17474,7 +17403,7 @@
         "subagents",
         "tutorial"
       ],
-      "stars": 3677,
+      "stars": 3679,
       "pushed_at": "2026-11-10T17:33:44Z",
       "created_at": "2025-08-17T14:45:39Z",
       "license": "NOASSERTION",
@@ -17575,8 +17504,8 @@
         "video-generation",
         "zbrush"
       ],
-      "stars": 3667,
-      "pushed_at": "2026-11-10T19:24:17Z",
+      "stars": 3675,
+      "pushed_at": "2026-11-11T12:17:48Z",
       "created_at": "2026-08-12T10:08:49Z",
       "license": "MIT",
       "default_branch": "main",
@@ -17769,7 +17698,7 @@
         "risograph",
         "zine"
       ],
-      "stars": 3637,
+      "stars": 3639,
       "pushed_at": "2026-09-02T18:49:42Z",
       "created_at": "2026-08-19T06:07:45Z",
       "license": "MIT",
@@ -17930,7 +17859,7 @@
         "content-marketing",
         "linkedin"
       ],
-      "stars": 3452,
+      "stars": 3456,
       "pushed_at": "2026-09-17T11:27:52Z",
       "created_at": "2026-09-07T22:58:16Z",
       "license": "MIT",
@@ -18004,7 +17933,7 @@
         "claude-leak",
         "claude-skills"
       ],
-      "stars": 3433,
+      "stars": 3434,
       "pushed_at": "2026-10-14T14:15:16Z",
       "created_at": "2026-03-31T12:56:05Z",
       "license": "NOASSERTION",
@@ -18047,7 +17976,7 @@
         "openmuse",
         "personal-agent"
       ],
-      "stars": 3401,
+      "stars": 3405,
       "pushed_at": "2026-11-11T03:23:08Z",
       "created_at": "2026-09-23T06:13:06Z",
       "license": "GPL-3.0",
@@ -18125,7 +18054,7 @@
         "openai",
         "skills"
       ],
-      "stars": 3367,
+      "stars": 3368,
       "pushed_at": "2026-11-08T17:31:29Z",
       "created_at": "2023-04-02T14:00:07Z",
       "license": "CC0-1.0",
@@ -18343,7 +18272,7 @@
         "typescript",
         "video-generation"
       ],
-      "stars": 3214,
+      "stars": 3218,
       "pushed_at": "2026-11-09T15:26:15Z",
       "created_at": "2026-09-08T17:19:54Z",
       "license": "NOASSERTION",
@@ -18376,8 +18305,8 @@
         "sdk",
         "skills"
       ],
-      "stars": 3193,
-      "pushed_at": "2026-11-10T18:03:22Z",
+      "stars": 3194,
+      "pushed_at": "2026-11-11T11:03:35Z",
       "created_at": "2026-01-16T18:34:20Z",
       "license": "MIT",
       "default_branch": "main",
@@ -18549,6 +18478,77 @@
       "rank": 174
     },
     {
+      "full_name": "Jakeschincariol/founder-skill",
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+      "language": "Python",
+      "topics": [
+        "business-plan",
+        "claude-code",
+        "claude-skills",
+        "startup",
+        "subagents",
+        "unit-economics"
+      ],
+      "stars": 3177,
+      "pushed_at": "2026-10-07T01:07:17Z",
+      "created_at": "2026-10-07T01:07:13Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 11,
+      "skills": [
+        {
+          "name": "founder-board",
+          "path": "skills/founder-board/SKILL.md"
+        },
+        {
+          "name": "founder-brand",
+          "path": "skills/founder-brand/SKILL.md"
+        },
+        {
+          "name": "founder-cfo",
+          "path": "skills/founder-cfo/SKILL.md"
+        },
+        {
+          "name": "founder-competitors",
+          "path": "skills/founder-competitors/SKILL.md"
+        },
+        {
+          "name": "founder-consumer",
+          "path": "skills/founder-consumer/SKILL.md"
+        },
+        {
+          "name": "founder-launch",
+          "path": "skills/founder-launch/SKILL.md"
+        },
+        {
+          "name": "founder-marketing",
+          "path": "skills/founder-marketing/SKILL.md"
+        },
+        {
+          "name": "founder-offer",
+          "path": "skills/founder-offer/SKILL.md"
+        },
+        {
+          "name": "founder-ops",
+          "path": "skills/founder-ops/SKILL.md"
+        },
+        {
+          "name": "founder-plan",
+          "path": "skills/founder-plan/SKILL.md"
+        },
+        {
+          "name": "founder-pricing",
+          "path": "skills/founder-pricing/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 175
+    },
+    {
       "full_name": "plugin87/ux-ui-agent-skills",
       "url": "https://github.com/plugin87/ux-ui-agent-skills",
       "description": "Turn Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective gates that fail the build instead of faking success.",
@@ -18571,7 +18571,7 @@
         "ux",
         "wcag"
       ],
-      "stars": 3155,
+      "stars": 3158,
       "pushed_at": "2026-11-10T07:20:20Z",
       "created_at": "2026-03-16T13:08:49Z",
       "license": "MIT",
@@ -18691,77 +18691,6 @@
         "claude"
       ],
       "gained": null,
-      "rank": 175
-    },
-    {
-      "full_name": "Jakeschincariol/founder-skill",
-      "url": "https://github.com/Jakeschincariol/founder-skill",
-      "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
-      "language": "Python",
-      "topics": [
-        "business-plan",
-        "claude-code",
-        "claude-skills",
-        "startup",
-        "subagents",
-        "unit-economics"
-      ],
-      "stars": 3150,
-      "pushed_at": "2026-10-07T01:07:17Z",
-      "created_at": "2026-10-07T01:07:13Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 11,
-      "skills": [
-        {
-          "name": "founder-board",
-          "path": "skills/founder-board/SKILL.md"
-        },
-        {
-          "name": "founder-brand",
-          "path": "skills/founder-brand/SKILL.md"
-        },
-        {
-          "name": "founder-cfo",
-          "path": "skills/founder-cfo/SKILL.md"
-        },
-        {
-          "name": "founder-competitors",
-          "path": "skills/founder-competitors/SKILL.md"
-        },
-        {
-          "name": "founder-consumer",
-          "path": "skills/founder-consumer/SKILL.md"
-        },
-        {
-          "name": "founder-launch",
-          "path": "skills/founder-launch/SKILL.md"
-        },
-        {
-          "name": "founder-marketing",
-          "path": "skills/founder-marketing/SKILL.md"
-        },
-        {
-          "name": "founder-offer",
-          "path": "skills/founder-offer/SKILL.md"
-        },
-        {
-          "name": "founder-ops",
-          "path": "skills/founder-ops/SKILL.md"
-        },
-        {
-          "name": "founder-plan",
-          "path": "skills/founder-plan/SKILL.md"
-        },
-        {
-          "name": "founder-pricing",
-          "path": "skills/founder-pricing/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 176
     },
     {
@@ -18779,7 +18708,7 @@
         "ui-design",
         "ux-design"
       ],
-      "stars": 3127,
+      "stars": 3139,
       "pushed_at": "2026-11-11T04:56:08Z",
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
@@ -19012,7 +18941,7 @@
         "testing",
         "web-performance"
       ],
-      "stars": 3068,
+      "stars": 3067,
       "pushed_at": "2026-08-24T21:07:36Z",
       "created_at": "2026-01-18T10:53:04Z",
       "license": "MIT",
@@ -19077,7 +19006,7 @@
         "video-editing",
         "video-editor"
       ],
-      "stars": 3053,
+      "stars": 3058,
       "pushed_at": "2026-11-06T06:55:59Z",
       "created_at": "2026-07-15T02:49:42Z",
       "license": "AGPL-3.0",
@@ -19237,8 +19166,8 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 3002,
-      "pushed_at": "2026-11-10T20:14:36Z",
+      "stars": 3027,
+      "pushed_at": "2026-11-11T11:16:09Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -19284,7 +19213,7 @@
         "react",
         "tailwindcss"
       ],
-      "stars": 2957,
+      "stars": 2956,
       "pushed_at": "2026-09-14T03:26:53Z",
       "created_at": "2026-07-22T00:34:24Z",
       "license": "Apache-2.0",
@@ -19705,36 +19634,6 @@
       "rank": 184
     },
     {
-      "full_name": "chengyi-ai/native-subtitle-quote-image",
-      "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
-      "description": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "codex",
-        "social-media",
-        "subtitles",
-        "video-processing"
-      ],
-      "stars": 2870,
-      "pushed_at": "2026-11-06T02:57:59Z",
-      "created_at": "2026-08-16T10:35:30Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "native-subtitle-quote-image",
-          "path": "skills/native-subtitle-quote-image/SKILL.md"
-        }
-      ],
-      "agents": [
-        "codex"
-      ],
-      "gained": null,
-      "rank": 185
-    },
-    {
       "full_name": "oil-oil/oil-motion",
       "url": "https://github.com/oil-oil/oil-motion",
       "description": "Web animation skill for Claude Code & Codex. 帮你做跟着滚动和鼠标动的网页动画。",
@@ -19760,7 +19659,7 @@
         "skills",
         "web-animation"
       ],
-      "stars": 2869,
+      "stars": 2871,
       "pushed_at": "2026-10-04T14:54:13Z",
       "created_at": "2026-08-07T12:36:33Z",
       "license": "MIT",
@@ -19776,6 +19675,36 @@
         "claude",
         "codex",
         "cursor"
+      ],
+      "gained": null,
+      "rank": 185
+    },
+    {
+      "full_name": "chengyi-ai/native-subtitle-quote-image",
+      "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
+      "description": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "codex",
+        "social-media",
+        "subtitles",
+        "video-processing"
+      ],
+      "stars": 2870,
+      "pushed_at": "2026-11-06T02:57:59Z",
+      "created_at": "2026-08-16T10:35:30Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "native-subtitle-quote-image",
+          "path": "skills/native-subtitle-quote-image/SKILL.md"
+        }
+      ],
+      "agents": [
+        "codex"
       ],
       "gained": null,
       "rank": 186
@@ -19804,7 +19733,7 @@
         "super-agent-party",
         "vrm"
       ],
-      "stars": 2830,
+      "stars": 2829,
       "pushed_at": "2026-10-27T02:11:54Z",
       "created_at": "2025-03-08T15:31:51Z",
       "license": "AGPL-3.0",
@@ -19858,7 +19787,7 @@
         "video-generation",
         "vox"
       ],
-      "stars": 2764,
+      "stars": 2769,
       "pushed_at": "2026-10-05T16:15:11Z",
       "created_at": "2026-07-10T15:32:05Z",
       "license": "MIT",
@@ -19891,7 +19820,7 @@
         "skill-engineering",
         "workflow-automation"
       ],
-      "stars": 2730,
+      "stars": 2731,
       "pushed_at": "2026-11-09T13:15:28Z",
       "created_at": "2026-03-31T11:59:35Z",
       "license": "MIT",
@@ -20108,7 +20037,7 @@
         "open-source",
         "seo"
       ],
-      "stars": 2710,
+      "stars": 2713,
       "pushed_at": "2026-11-03T00:20:12Z",
       "created_at": "2026-02-17T22:40:44Z",
       "license": "MIT",
@@ -20277,7 +20206,7 @@
         "skillsmp",
         "ux"
       ],
-      "stars": 2666,
+      "stars": 2667,
       "pushed_at": "2026-11-02T14:12:55Z",
       "created_at": "2026-01-29T13:54:15Z",
       "license": "MIT",
@@ -20480,7 +20409,7 @@
         "svg-motion",
         "vector-animation"
       ],
-      "stars": 2631,
+      "stars": 2632,
       "pushed_at": "2026-08-21T12:06:57Z",
       "created_at": "2026-06-12T04:25:17Z",
       "license": "MIT",
@@ -20519,7 +20448,7 @@
         "skills",
         "video"
       ],
-      "stars": 2623,
+      "stars": 2629,
       "pushed_at": "2026-11-10T00:15:11Z",
       "created_at": "2026-10-18T12:19:27Z",
       "license": "MIT",
@@ -20537,64 +20466,6 @@
       ],
       "gained": null,
       "rank": 194
-    },
-    {
-      "full_name": "romainsimon/paperasse",
-      "url": "https://github.com/romainsimon/paperasse",
-      "description": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "agentic-workflow",
-        "bureaucratie",
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "comptabilite",
-        "comptable",
-        "france",
-        "grok-bot",
-        "notaire",
-        "paperasse",
-        "skills"
-      ],
-      "stars": 2588,
-      "pushed_at": "2026-11-10T15:22:25Z",
-      "created_at": "2026-02-05T17:51:26Z",
-      "license": "MIT",
-      "default_branch": "master",
-      "skill_count": 6,
-      "skills": [
-        {
-          "name": "commissaire-aux-comptes",
-          "path": "commissaire-aux-comptes/SKILL.md"
-        },
-        {
-          "name": "comptable",
-          "path": "comptable/SKILL.md"
-        },
-        {
-          "name": "controleur-fiscal",
-          "path": "controleur-fiscal/SKILL.md"
-        },
-        {
-          "name": "fiscaliste",
-          "path": "fiscaliste/SKILL.md"
-        },
-        {
-          "name": "notaire",
-          "path": "notaire/SKILL.md"
-        },
-        {
-          "name": "syndic",
-          "path": "syndic/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 195
     },
     {
       "full_name": "amElnagdy/delegate-skills",
@@ -20618,7 +20489,7 @@
         "qoder",
         "skills-sh"
       ],
-      "stars": 2586,
+      "stars": 2590,
       "pushed_at": "2026-11-05T20:32:18Z",
       "created_at": "2026-06-14T10:35:48Z",
       "license": "MIT",
@@ -20715,7 +20586,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 196
+      "rank": 195
     },
     {
       "full_name": "MrGeDiao/shuorenhua",
@@ -20740,7 +20611,7 @@
         "text-quality",
         "writing"
       ],
-      "stars": 2580,
+      "stars": 2589,
       "pushed_at": "2026-11-11T08:22:34Z",
       "created_at": "2026-03-22T17:22:11Z",
       "license": "MIT",
@@ -20756,6 +20627,64 @@
         "claude",
         "codex",
         "cursor"
+      ],
+      "gained": null,
+      "rank": 196
+    },
+    {
+      "full_name": "romainsimon/paperasse",
+      "url": "https://github.com/romainsimon/paperasse",
+      "description": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "agentic-workflow",
+        "bureaucratie",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "comptabilite",
+        "comptable",
+        "france",
+        "grok-bot",
+        "notaire",
+        "paperasse",
+        "skills"
+      ],
+      "stars": 2588,
+      "pushed_at": "2026-11-10T15:22:25Z",
+      "created_at": "2026-02-05T17:51:26Z",
+      "license": "MIT",
+      "default_branch": "master",
+      "skill_count": 6,
+      "skills": [
+        {
+          "name": "commissaire-aux-comptes",
+          "path": "commissaire-aux-comptes/SKILL.md"
+        },
+        {
+          "name": "comptable",
+          "path": "comptable/SKILL.md"
+        },
+        {
+          "name": "controleur-fiscal",
+          "path": "controleur-fiscal/SKILL.md"
+        },
+        {
+          "name": "fiscaliste",
+          "path": "fiscaliste/SKILL.md"
+        },
+        {
+          "name": "notaire",
+          "path": "notaire/SKILL.md"
+        },
+        {
+          "name": "syndic",
+          "path": "syndic/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
       ],
       "gained": null,
       "rank": 197
@@ -20775,7 +20704,7 @@
         "opencode-skills",
         "research"
       ],
-      "stars": 2528,
+      "stars": 2529,
       "pushed_at": "2026-08-23T03:25:28Z",
       "created_at": "2025-12-29T05:00:00Z",
       "license": "MIT",
@@ -20898,7 +20827,7 @@
         "video-production",
         "youtube-shorts"
       ],
-      "stars": 2514,
+      "stars": 2515,
       "pushed_at": "2026-11-10T12:46:42Z",
       "created_at": "2025-12-09T20:33:03Z",
       "license": "MIT",
@@ -21002,8 +20931,8 @@
         "text-to-video",
         "video-generation"
       ],
-      "stars": 2508,
-      "pushed_at": "2026-11-11T07:57:36Z",
+      "stars": 2511,
+      "pushed_at": "2026-11-11T10:56:03Z",
       "created_at": "2026-08-26T16:23:56Z",
       "license": "MIT",
       "default_branch": "main",
@@ -21122,41 +21051,6 @@
       "rank": 201
     },
     {
-      "full_name": "antonbabenko/terraform-skill",
-      "url": "https://github.com/antonbabenko/terraform-skill",
-      "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
-      "language": null,
-      "topics": [
-        "agent-skills",
-        "best-practices",
-        "claude-code",
-        "claude-skills",
-        "devops",
-        "infrastructure-as-code",
-        "modules",
-        "opentofu",
-        "terraform",
-        "testing"
-      ],
-      "stars": 2460,
-      "pushed_at": "2026-10-24T11:55:58Z",
-      "created_at": "2026-01-15T18:26:37Z",
-      "license": "NOASSERTION",
-      "default_branch": "master",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "terraform-skill",
-          "path": "skills/terraform-skill/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 202
-    },
-    {
       "full_name": "arjun988/blender-skills",
       "url": "https://github.com/arjun988/blender-skills",
       "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
@@ -21174,7 +21068,7 @@
         "game-development",
         "mcp"
       ],
-      "stars": 2457,
+      "stars": 2476,
       "pushed_at": "2026-11-06T08:42:41Z",
       "created_at": "2026-07-05T08:36:06Z",
       "license": "MIT",
@@ -21348,6 +21242,41 @@
         "cursor"
       ],
       "gained": null,
+      "rank": 202
+    },
+    {
+      "full_name": "antonbabenko/terraform-skill",
+      "url": "https://github.com/antonbabenko/terraform-skill",
+      "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
+      "language": null,
+      "topics": [
+        "agent-skills",
+        "best-practices",
+        "claude-code",
+        "claude-skills",
+        "devops",
+        "infrastructure-as-code",
+        "modules",
+        "opentofu",
+        "terraform",
+        "testing"
+      ],
+      "stars": 2460,
+      "pushed_at": "2026-10-24T11:55:58Z",
+      "created_at": "2026-01-15T18:26:37Z",
+      "license": "NOASSERTION",
+      "default_branch": "master",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "terraform-skill",
+          "path": "skills/terraform-skill/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
       "rank": 203
     },
     {
@@ -21517,7 +21446,7 @@
         "system-design",
         "text-to-diagram"
       ],
-      "stars": 2385,
+      "stars": 2384,
       "pushed_at": "2026-11-08T18:55:47Z",
       "created_at": "2026-08-20T19:16:16Z",
       "license": "MIT",
@@ -21667,7 +21596,7 @@
         "python",
         "web-scraping"
       ],
-      "stars": 2367,
+      "stars": 2368,
       "pushed_at": "2026-11-11T00:32:02Z",
       "created_at": "2026-06-21T11:33:57Z",
       "license": "MIT",
@@ -21688,6 +21617,40 @@
       "rank": 209
     },
     {
+      "full_name": "caru-ini/stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "diagram",
+        "system-architecture",
+        "tech-stack"
+      ],
+      "stars": 2344,
+      "pushed_at": "2026-11-09T06:00:33Z",
+      "created_at": "2026-11-01T05:35:12Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "stack-diagram",
+          "path": "skills/stack-diagram/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 210
+    },
+    {
       "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
       "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
       "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
@@ -21702,7 +21665,7 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2335,
+      "stars": 2341,
       "pushed_at": "2026-11-10T23:53:26Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
@@ -21719,7 +21682,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 210
+      "rank": 211
     },
     {
       "full_name": "Sahir619/fable-method",
@@ -21769,7 +21732,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 211
+      "rank": 212
     },
     {
       "full_name": "dstackai/dstack",
@@ -21818,40 +21781,6 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 212
-    },
-    {
-      "full_name": "caru-ini/stack-diagram",
-      "url": "https://github.com/caru-ini/stack-diagram",
-      "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "architecture-diagram",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "diagram",
-        "system-architecture",
-        "tech-stack"
-      ],
-      "stars": 2302,
-      "pushed_at": "2026-11-09T06:00:33Z",
-      "created_at": "2026-11-01T05:35:12Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "stack-diagram",
-          "path": "skills/stack-diagram/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
       "rank": 213
     },
     {
@@ -21873,7 +21802,7 @@
         "talking-head",
         "video-production"
       ],
-      "stars": 2264,
+      "stars": 2266,
       "pushed_at": "2026-11-09T02:29:30Z",
       "created_at": "2026-08-22T17:11:05Z",
       "license": "NOASSERTION",
@@ -21911,7 +21840,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 2257,
+      "stars": 2259,
       "pushed_at": "2026-11-09T07:38:53Z",
       "created_at": "2026-01-24T01:11:07Z",
       "license": "MIT",
@@ -22091,61 +22020,6 @@
       "rank": 217
     },
     {
-      "full_name": "bergside/typeui",
-      "url": "https://github.com/bergside/typeui",
-      "description": "Build better UI with AI",
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai",
-        "ai-tools",
-        "claude-design",
-        "cli",
-        "codex",
-        "design",
-        "design-md",
-        "design-system",
-        "design-tools",
-        "gemini",
-        "gemini-cli-extension",
-        "google-stitch",
-        "skills",
-        "terminal",
-        "ui"
-      ],
-      "stars": 2233,
-      "pushed_at": "2026-10-22T22:20:37Z",
-      "created_at": "2026-03-03T07:46:57Z",
-      "license": "NOASSERTION",
-      "default_branch": "main",
-      "skill_count": 4,
-      "skills": [
-        {
-          "name": "typeui",
-          "path": "plugins/grok/typeui/skills/typeui/SKILL.md"
-        },
-        {
-          "name": "typeui",
-          "path": "plugins/hermes/typeui/typeui_hermes/skills/typeui/SKILL.md"
-        },
-        {
-          "name": "typeui",
-          "path": "plugins/openclaw/typeui/skills/typeui/SKILL.md"
-        },
-        {
-          "name": "fundamentals",
-          "path": "skills/fundamentals/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex",
-        "gemini"
-      ],
-      "gained": null,
-      "rank": 218
-    },
-    {
       "full_name": "Gentleman-Programming/gentle-shell",
       "url": "https://github.com/Gentleman-Programming/gentle-shell",
       "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
@@ -22172,8 +22046,8 @@
         "subagents",
         "tdd"
       ],
-      "stars": 2231,
-      "pushed_at": "2026-11-11T06:36:05Z",
+      "stars": 2239,
+      "pushed_at": "2026-11-11T12:09:07Z",
       "created_at": "2026-05-10T10:11:33Z",
       "license": "MIT",
       "default_branch": "main",
@@ -22242,6 +22116,61 @@
       ],
       "agents": [],
       "gained": null,
+      "rank": 218
+    },
+    {
+      "full_name": "bergside/typeui",
+      "url": "https://github.com/bergside/typeui",
+      "description": "Build better UI with AI",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "ai-tools",
+        "claude-design",
+        "cli",
+        "codex",
+        "design",
+        "design-md",
+        "design-system",
+        "design-tools",
+        "gemini",
+        "gemini-cli-extension",
+        "google-stitch",
+        "skills",
+        "terminal",
+        "ui"
+      ],
+      "stars": 2234,
+      "pushed_at": "2026-10-22T22:20:37Z",
+      "created_at": "2026-03-03T07:46:57Z",
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "skill_count": 4,
+      "skills": [
+        {
+          "name": "typeui",
+          "path": "plugins/grok/typeui/skills/typeui/SKILL.md"
+        },
+        {
+          "name": "typeui",
+          "path": "plugins/hermes/typeui/typeui_hermes/skills/typeui/SKILL.md"
+        },
+        {
+          "name": "typeui",
+          "path": "plugins/openclaw/typeui/skills/typeui/SKILL.md"
+        },
+        {
+          "name": "fundamentals",
+          "path": "skills/fundamentals/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex",
+        "gemini"
+      ],
+      "gained": null,
       "rank": 219
     },
     {
@@ -22259,7 +22188,7 @@
         "kotlin",
         "kotlin-multiplatform"
       ],
-      "stars": 2213,
+      "stars": 2217,
       "pushed_at": "2026-10-29T04:27:53Z",
       "created_at": "2026-08-20T08:46:15Z",
       "license": "GPL-3.0",
@@ -22316,6 +22245,52 @@
       ],
       "gained": null,
       "rank": 220
+    },
+    {
+      "full_name": "UnderleveledBuilder/awesome-short-drama-skills",
+      "url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills",
+      "description": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "ai-drama",
+        "ai-short-drama",
+        "awesome",
+        "awesome-list",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "doubao",
+        "kimi",
+        "manju",
+        "micro-drama",
+        "microdrama",
+        "openclaw",
+        "qwen",
+        "seedance",
+        "short-drama",
+        "trae",
+        "vertical-drama",
+        "workbuddy"
+      ],
+      "stars": 2194,
+      "pushed_at": "2026-11-03T22:32:47Z",
+      "created_at": "2026-10-13T20:35:18Z",
+      "license": "CC0-1.0",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "short-drama-skill-finder",
+          "path": "skills/short-drama-skill-finder/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 221
     },
     {
       "full_name": "LeoYeAI/agent-master-skills",
@@ -22514,52 +22489,6 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 221
-    },
-    {
-      "full_name": "UnderleveledBuilder/awesome-short-drama-skills",
-      "url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills",
-      "description": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts",
-      "language": "HTML",
-      "topics": [
-        "agent-skills",
-        "ai-drama",
-        "ai-short-drama",
-        "awesome",
-        "awesome-list",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "doubao",
-        "kimi",
-        "manju",
-        "micro-drama",
-        "microdrama",
-        "openclaw",
-        "qwen",
-        "seedance",
-        "short-drama",
-        "trae",
-        "vertical-drama",
-        "workbuddy"
-      ],
-      "stars": 2183,
-      "pushed_at": "2026-11-03T22:32:47Z",
-      "created_at": "2026-10-13T20:35:18Z",
-      "license": "CC0-1.0",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "short-drama-skill-finder",
-          "path": "skills/short-drama-skill-finder/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
       "rank": 222
     },
     {
@@ -22740,7 +22669,7 @@
         "xiaohongshu",
         "zhihu"
       ],
-      "stars": 2097,
+      "stars": 2098,
       "pushed_at": "2026-11-10T10:14:57Z",
       "created_at": "2026-03-31T08:13:20Z",
       "license": "NOASSERTION",
@@ -22762,43 +22691,6 @@
       ],
       "gained": null,
       "rank": 226
-    },
-    {
-      "full_name": "coji/natural-japanese",
-      "url": "https://github.com/coji/natural-japanese",
-      "description": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "claude",
-        "claude-code",
-        "japanese",
-        "lint",
-        "nlp",
-        "sudachipy",
-        "writing"
-      ],
-      "stars": 2042,
-      "pushed_at": "2026-11-06T12:31:51Z",
-      "created_at": "2026-07-12T05:54:55Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 2,
-      "skills": [
-        {
-          "name": "critical-thinking",
-          "path": "skills/critical-thinking/SKILL.md"
-        },
-        {
-          "name": "natural-japanese",
-          "path": "skills/natural-japanese/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 227
     },
     {
       "full_name": "shinyobjectz/raea",
@@ -22826,8 +22718,8 @@
         "wgpu",
         "windows"
       ],
-      "stars": 2041,
-      "pushed_at": "2026-11-11T06:05:06Z",
+      "stars": 2069,
+      "pushed_at": "2026-11-11T12:04:04Z",
       "created_at": "2026-10-18T18:08:48Z",
       "license": "NOASSERTION",
       "default_branch": "main",
@@ -22836,6 +22728,43 @@
         {
           "name": "cli",
           "path": "docs/manual/reference/cli/skill.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 227
+    },
+    {
+      "full_name": "coji/natural-japanese",
+      "url": "https://github.com/coji/natural-japanese",
+      "description": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "claude",
+        "claude-code",
+        "japanese",
+        "lint",
+        "nlp",
+        "sudachipy",
+        "writing"
+      ],
+      "stars": 2043,
+      "pushed_at": "2026-11-06T12:31:51Z",
+      "created_at": "2026-07-12T05:54:55Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 2,
+      "skills": [
+        {
+          "name": "critical-thinking",
+          "path": "skills/critical-thinking/SKILL.md"
+        },
+        {
+          "name": "natural-japanese",
+          "path": "skills/natural-japanese/SKILL.md"
         }
       ],
       "agents": [
@@ -22866,7 +22795,7 @@
         "synthetic",
         "synthetic-data"
       ],
-      "stars": 2005,
+      "stars": 2009,
       "pushed_at": "2026-11-10T21:48:17Z",
       "created_at": "2026-04-11T03:50:12Z",
       "license": "AGPL-3.0",
@@ -23097,8 +23026,8 @@
         "claude-skills",
         "codex-skill"
       ],
-      "stars": 1950,
-      "pushed_at": "2026-11-11T00:51:25Z",
+      "stars": 1956,
+      "pushed_at": "2026-11-11T10:28:37Z",
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
       "default_branch": "main",
@@ -23128,7 +23057,7 @@
         "productivity",
         "self-learning"
       ],
-      "stars": 1939,
+      "stars": 1941,
       "pushed_at": "2026-10-03T05:33:46Z",
       "created_at": "2026-01-03T20:51:36Z",
       "license": "MIT",
@@ -23333,7 +23262,7 @@
         "trustworthy-ai",
         "vibe-coding"
       ],
-      "stars": 1905,
+      "stars": 1907,
       "pushed_at": "2026-11-01T17:01:59Z",
       "created_at": "2026-01-05T15:26:53Z",
       "license": "MIT",
@@ -23522,7 +23451,7 @@
         "opc",
         "seo"
       ],
-      "stars": 1902,
+      "stars": 1903,
       "pushed_at": "2026-11-10T14:36:35Z",
       "created_at": "2026-01-17T06:43:21Z",
       "license": "Apache-2.0",
@@ -23765,7 +23694,7 @@
         "editing",
         "writing"
       ],
-      "stars": 1848,
+      "stars": 1857,
       "pushed_at": "2026-10-17T14:11:48Z",
       "created_at": "2026-06-23T03:07:25Z",
       "license": "MIT",
@@ -24064,7 +23993,7 @@
         "rust",
         "style-guide"
       ],
-      "stars": 1783,
+      "stars": 1787,
       "pushed_at": "2026-11-08T17:21:11Z",
       "created_at": "2026-10-23T03:01:11Z",
       "license": "MIT",
@@ -24143,7 +24072,7 @@
         "swiftdata",
         "swiftui"
       ],
-      "stars": 1755,
+      "stars": 1760,
       "pushed_at": "2026-11-05T13:09:56Z",
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
@@ -24263,7 +24192,7 @@
         "spider",
         "zhipin"
       ],
-      "stars": 1742,
+      "stars": 1743,
       "pushed_at": "2026-11-03T09:16:46Z",
       "created_at": "2026-06-11T14:48:30Z",
       "license": "MIT",
@@ -24295,7 +24224,7 @@
         "subtitles",
         "transcription"
       ],
-      "stars": 1742,
+      "stars": 1743,
       "pushed_at": "2026-11-11T07:05:06Z",
       "created_at": "2026-07-13T07:06:42Z",
       "license": "NOASSERTION",
@@ -24449,7 +24378,7 @@
         "wayback-machine",
         "web-archiving"
       ],
-      "stars": 1729,
+      "stars": 1734,
       "pushed_at": "2026-10-12T09:30:09Z",
       "created_at": "2026-08-11T03:50:30Z",
       "license": "MIT",
@@ -24804,7 +24733,7 @@
         "terraform",
         "text-to-diagram"
       ],
-      "stars": 1680,
+      "stars": 1681,
       "pushed_at": "2026-10-31T01:08:24Z",
       "created_at": "2022-03-13T04:47:49Z",
       "license": "AGPL-3.0",
@@ -24841,7 +24770,7 @@
         "litellm",
         "vibe-coding"
       ],
-      "stars": 1677,
+      "stars": 1679,
       "pushed_at": "2026-11-05T13:15:07Z",
       "created_at": "2025-07-18T06:22:12Z",
       "license": "MIT",
@@ -25085,7 +25014,7 @@
         "investing",
         "stock-market"
       ],
-      "stars": 1657,
+      "stars": 1662,
       "pushed_at": "2026-10-14T21:13:22Z",
       "created_at": "2026-10-14T21:12:28Z",
       "license": "MIT",
@@ -25168,7 +25097,7 @@
         "postgres",
         "rag"
       ],
-      "stars": 1652,
+      "stars": 1653,
       "pushed_at": "2026-11-04T10:49:15Z",
       "created_at": "2026-04-03T21:02:08Z",
       "license": "Apache-2.0",
@@ -25228,6 +25157,56 @@
       "rank": 257
     },
     {
+      "full_name": "yuezhiai/jonex",
+      "url": "https://github.com/yuezhiai/jonex",
+      "description": "All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Ready Knowledge Engine",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-context",
+        "agent-skills",
+        "ai-context",
+        "asr",
+        "enterprise-context",
+        "fde",
+        "graph-rag",
+        "knowlege-base",
+        "knowlege-graph",
+        "llm-wiki",
+        "okf",
+        "ontology",
+        "rag",
+        "video"
+      ],
+      "stars": 1637,
+      "pushed_at": "2026-11-05T07:47:42Z",
+      "created_at": "2026-07-19T07:07:42Z",
+      "license": "NOASSERTION",
+      "default_branch": "mian",
+      "skill_count": 4,
+      "skills": [
+        {
+          "name": "openkb-deck-editorial",
+          "path": "Reference/OpenKB/skills/openkb-deck-editorial/SKILL.md"
+        },
+        {
+          "name": "openkb-deck-neon",
+          "path": "Reference/OpenKB/skills/openkb-deck-neon/SKILL.md"
+        },
+        {
+          "name": "openkb-html-critic",
+          "path": "Reference/OpenKB/skills/openkb-html-critic/SKILL.md"
+        },
+        {
+          "name": "openkb",
+          "path": "Reference/OpenKB/skills/openkb/SKILL.md"
+        }
+      ],
+      "agents": [],
+      "gained": null,
+      "rank": 258
+    },
+    {
       "full_name": "microsoft/azure-skills",
       "url": "https://github.com/microsoft/azure-skills",
       "description": "Official agent plugin providing skills and MCP server configurations for Azure scenarios.",
@@ -25236,7 +25215,7 @@
         "agent-skills"
       ],
       "stars": 1636,
-      "pushed_at": "2026-11-10T18:03:16Z",
+      "pushed_at": "2026-11-11T11:04:23Z",
       "created_at": "2026-02-26T18:13:14Z",
       "license": "MIT",
       "default_branch": "main",
@@ -25405,56 +25384,6 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 258
-    },
-    {
-      "full_name": "yuezhiai/jonex",
-      "url": "https://github.com/yuezhiai/jonex",
-      "description": "All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Ready Knowledge Engine",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agent-context",
-        "agent-skills",
-        "ai-context",
-        "asr",
-        "enterprise-context",
-        "fde",
-        "graph-rag",
-        "knowlege-base",
-        "knowlege-graph",
-        "llm-wiki",
-        "okf",
-        "ontology",
-        "rag",
-        "video"
-      ],
-      "stars": 1634,
-      "pushed_at": "2026-11-05T07:47:42Z",
-      "created_at": "2026-07-19T07:07:42Z",
-      "license": "NOASSERTION",
-      "default_branch": "mian",
-      "skill_count": 4,
-      "skills": [
-        {
-          "name": "openkb-deck-editorial",
-          "path": "Reference/OpenKB/skills/openkb-deck-editorial/SKILL.md"
-        },
-        {
-          "name": "openkb-deck-neon",
-          "path": "Reference/OpenKB/skills/openkb-deck-neon/SKILL.md"
-        },
-        {
-          "name": "openkb-html-critic",
-          "path": "Reference/OpenKB/skills/openkb-html-critic/SKILL.md"
-        },
-        {
-          "name": "openkb",
-          "path": "Reference/OpenKB/skills/openkb/SKILL.md"
-        }
-      ],
-      "agents": [],
-      "gained": null,
       "rank": 259
     },
     {
@@ -25587,7 +25516,7 @@
         "typescript",
         "visual-analytics"
       ],
-      "stars": 1621,
+      "stars": 1622,
       "pushed_at": "2026-11-09T11:12:54Z",
       "created_at": "2020-01-02T07:32:48Z",
       "license": "MIT",
@@ -25630,7 +25559,7 @@
         "procedural-generation",
         "skill"
       ],
-      "stars": 1612,
+      "stars": 1621,
       "pushed_at": "2026-11-05T20:35:49Z",
       "created_at": "2026-09-22T11:20:47Z",
       "license": "Apache-2.0",
@@ -25918,7 +25847,7 @@
         "tui",
         "vaultwarden"
       ],
-      "stars": 1584,
+      "stars": 1585,
       "pushed_at": "2026-11-09T16:11:13Z",
       "created_at": "2025-03-18T15:45:55Z",
       "license": "Apache-2.0",
@@ -26019,7 +25948,7 @@
         "tech-debt",
         "test-quality"
       ],
-      "stars": 1572,
+      "stars": 1571,
       "pushed_at": "2026-11-11T08:02:20Z",
       "created_at": "2026-03-26T11:40:33Z",
       "license": "MIT",
@@ -26087,6 +26016,42 @@
       "rank": 267
     },
     {
+      "full_name": "DozenTwelve/Papermorph",
+      "url": "https://github.com/DozenTwelve/Papermorph",
+      "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "ai-education",
+        "animation",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "edtech",
+        "education",
+        "interactive-textbook",
+        "scorm",
+        "text-to-video"
+      ],
+      "stars": 1567,
+      "pushed_at": "2026-11-10T14:00:57Z",
+      "created_at": "2026-10-03T01:38:22Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "papermorph",
+          "path": ".claude/skills/papermorph/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 268
+    },
+    {
       "full_name": "undefined-ui/second-brain-os",
       "url": "https://github.com/undefined-ui/second-brain-os",
       "description": "Guides and resources for AI engineers: an agents course, five handbooks, a hands-on second-brain project and a vetted reading list.",
@@ -26107,7 +26072,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 1562,
+      "stars": 1563,
       "pushed_at": "2026-11-03T21:52:55Z",
       "created_at": "2026-09-07T15:08:13Z",
       "license": "MIT",
@@ -26211,7 +26176,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 268
+      "rank": 269
     },
     {
       "full_name": "alexgreensh/attention-span",
@@ -26231,7 +26196,7 @@
         "output-style",
         "skills"
       ],
-      "stars": 1562,
+      "stars": 1563,
       "pushed_at": "2026-10-30T19:05:02Z",
       "created_at": "2026-08-04T23:20:01Z",
       "license": "AGPL-3.0",
@@ -26260,42 +26225,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 269
-    },
-    {
-      "full_name": "DozenTwelve/Papermorph",
-      "url": "https://github.com/DozenTwelve/Papermorph",
-      "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "ai-education",
-        "animation",
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "edtech",
-        "education",
-        "interactive-textbook",
-        "scorm",
-        "text-to-video"
-      ],
-      "stars": 1556,
-      "pushed_at": "2026-11-10T14:00:57Z",
-      "created_at": "2026-10-03T01:38:22Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "papermorph",
-          "path": ".claude/skills/papermorph/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 270
     },
     {
@@ -26312,7 +26241,7 @@
         "motion",
         "playwright"
       ],
-      "stars": 1545,
+      "stars": 1553,
       "pushed_at": "2026-10-31T12:49:35Z",
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
@@ -26544,7 +26473,7 @@
         "herdr-plugin",
         "remote-test-runner"
       ],
-      "stars": 1529,
+      "stars": 1530,
       "pushed_at": "2026-11-11T05:27:54Z",
       "created_at": "2026-04-30T14:31:48Z",
       "license": "MIT",
@@ -26591,7 +26520,7 @@
         "motionmaxxing",
         "video"
       ],
-      "stars": 1524,
+      "stars": 1527,
       "pushed_at": "2026-10-06T18:20:43Z",
       "created_at": "2026-10-06T18:18:49Z",
       "license": "Apache-2.0",
@@ -26624,7 +26553,7 @@
         "evolutionary-algorithms",
         "llm-agents"
       ],
-      "stars": 1501,
+      "stars": 1502,
       "pushed_at": "2026-10-05T06:38:55Z",
       "created_at": "2026-04-05T16:04:50Z",
       "license": "Apache-2.0",
@@ -26708,7 +26637,7 @@
         "software-engineering",
         "spec-driven-development"
       ],
-      "stars": 1478,
+      "stars": 1483,
       "pushed_at": "2026-11-10T21:13:57Z",
       "created_at": "2026-07-02T10:24:16Z",
       "license": "MIT",
@@ -26902,7 +26831,7 @@
         "supabase",
         "vercel"
       ],
-      "stars": 1476,
+      "stars": 1480,
       "pushed_at": "2026-10-11T21:04:01Z",
       "created_at": "2026-09-23T13:37:26Z",
       "license": "MIT",
@@ -26936,7 +26865,7 @@
         "developer-workflow",
         "greptile"
       ],
-      "stars": 1470,
+      "stars": 1472,
       "pushed_at": "2026-11-05T15:04:32Z",
       "created_at": "2026-03-05T17:40:23Z",
       "license": null,
@@ -27004,7 +26933,7 @@
         "webperformance",
         "webvitals"
       ],
-      "stars": 1456,
+      "stars": 1455,
       "pushed_at": "2026-11-10T09:56:40Z",
       "created_at": "2022-05-17T08:11:38Z",
       "license": "MIT",
