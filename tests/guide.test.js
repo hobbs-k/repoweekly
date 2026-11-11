@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { extractGuide, marketplaceCommands } from '../scripts/lib/guide.js';
+import { skillFiles } from '../scripts/lib/skillparse.js';
 import { buildInstall } from '../scripts/lib/install.js';
 import { pickRising } from '../scripts/lib/rising.js';
 
@@ -40,4 +41,12 @@ test('pickRising skips famous, old and adult-named repos and ranks the fastest f
     { full_name: 'a/nsfw-pose', stars: 900, created_at: day(5) },
   ];
   assert.deepEqual(pickRising(repos, '2026-11-11', rule).map((r) => r.full_name), ['a/fast', 'a/slow']);
+});
+
+test('skillFiles counts files inside skill folders and flags scripts by extension', () => {
+  const tree = [
+    { path: 'skills/pdf/SKILL.md', type: 'blob' }, { path: 'skills/pdf/run.py', type: 'blob' }, { path: 'skills/pdf', type: 'tree' },
+    { path: 'skills/other/notes.md', type: 'blob' }, { path: 'tools/build.sh', type: 'blob' },
+  ];
+  assert.deepEqual(skillFiles(tree, [{ name: 'pdf', path: 'skills/pdf/SKILL.md' }]), { total: 2, scripts: ['skills/pdf/run.py'], script_count: 1 });
 });

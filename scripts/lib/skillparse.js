@@ -34,3 +34,13 @@ export function skillsFromTree(tree, repoName) {
     .filter((e) => e.type === 'blob' && /(^|\/)SKILL\.md$/i.test(e.path))
     .map((e) => ({ path: e.path, name: e.path.includes('/') ? e.path.split('/').slice(-2, -1)[0] : repoName }));
 }
+
+// Files that sit inside the skill folders (a skill at the repo root counts the whole repo), and which
+// of them are scripts, so people know whether a skill can run code. Judged by file extension only.
+const SCRIPT = /\.(py|sh|bash|zsh|js|mjs|cjs|ts|rb|ps1|bat|cmd|pl|php|go|rs)$/i;
+export function skillFiles(tree, skills) {
+  const folders = skills.map((s) => (s.path.includes('/') ? `${s.path.slice(0, s.path.lastIndexOf('/'))}/` : ''));
+  const inside = tree.filter((e) => e.type === 'blob' && folders.some((f) => e.path.startsWith(f)));
+  const scripts = inside.filter((e) => SCRIPT.test(e.path)).map((e) => e.path);
+  return { total: inside.length, scripts: scripts.slice(0, 8), script_count: scripts.length };
+}

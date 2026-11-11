@@ -1,8 +1,11 @@
 ---
-import { fmt } from '../lib/format.js';
+import { fmt, fmtDate } from '../lib/format.js';
 
 // One rising skill repository: what it is, the install commands per agent, and the steps copied from its README.
-const { item } = Astro.props;
+const { item, asOf } = Astro.props;
+const pushedDays = Math.max(0, Math.round((Date.parse(asOf) - Date.parse(item.pushed_at)) / 86400000));
+const updated = pushedDays === 0 ? 'today' : pushedDays === 1 ? 'yesterday' : `${pushedDays} days ago`;
+const files = item.install.files;
 const [owner, name] = item.full_name.split('/');
 const inst = item.install;
 const order = ['claude', 'codex', 'cursor', 'copilot', 'gemini', 'opencode', 'windsurf', 'claudeai'];
@@ -26,6 +29,19 @@ const basis = item.rising_basis === 'growth' ? `Gained ${fmt(item.gained)} stars
     ) : item.description && <p class="entry-desc">{item.description}</p>}
 
     <p class="muted agents-note">{fmt(item.stars)} stars. {basis}. {item.age_days} days old. {fmt(item.skill_count)} {item.skill_count === 1 ? 'skill' : 'skills'}: {item.skills.slice(0, 6).map((s) => s.name).join(', ')}{item.skill_count > 6 ? ', and more' : ''}.</p>
+
+    <p class="muted agents-note">Last updated {updated}. We checked it on {fmtDate(asOf)}.</p>
+
+    <details class="skill-list">
+      <summary>What is inside</summary>
+      <ul>
+        {item.skills.slice(0, 8).map((s) => <li><code>{s.name}</code>{s.description && <span> {s.description}</span>}</li>)}
+      </ul>
+      {item.skill_count > 8 && <p class="muted">And {fmt(item.skill_count - 8)} more in the repository.</p>}
+      {files && (files.script_count > 0
+        ? <p class="notice-inline"><strong>Contains {fmt(files.script_count)} script {files.script_count === 1 ? 'file' : 'files'}</strong> that can run on your computer: {files.scripts.slice(0, 3).join(', ')}{files.script_count > 3 ? `, and ${fmt(files.script_count - 3)} more` : ''}. Read them before you install.</p>
+        : <p class="muted">We found no script files in the skill folders ({fmt(files.total)} {files.total === 1 ? 'file' : 'files'} in total). We go by file type only, so still read the skill before you install it.</p>)}
+    </details>
 
     <h4 class="plain-h plain-h-sm">Install it</h4>
     <p class="muted agents-note">Version checked: <code>{inst.sha.slice(0, 7)}</code>. The commands below use exactly that version.</p>

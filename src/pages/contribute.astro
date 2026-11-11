@@ -24,6 +24,16 @@ import { href } from '../lib/format.js';
     <p><button type="button" class="more" hidden>Show more</button></p>
     <noscript><p>The matching needs JavaScript. <a href={href('/api/issues.json')}>The same tickets are in this JSON file.</a></p></noscript>
 
+    <h2>Your first contribution, step by step</h2>
+    <ol class="steps">
+      <li>Pick a ticket and read the repository's <code>CONTRIBUTING</code> file, if it has one. Comment on the ticket to say you would like to work on it, and wait for a yes if the maintainers ask for one.</li>
+      <li>Fork the repository, which copies it to your own GitHub account.</li>
+      <li>Clone your fork to your computer and make a new branch for the change.</li>
+      <li>Make the change, and run the project's tests if it has any.</li>
+      <li>Push the branch and open a pull request. Mention the ticket number in it so the two are linked.</li>
+    </ol>
+    <p>GitHub's own guides cover each step: <a href="https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github" rel="noopener">finding ways to contribute</a>, <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" rel="noopener">forking a repository</a> and <a href="https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project" rel="noopener">contributing to a project</a>.</p>
+
     <h2>How to read this</h2>
     <p>"Beginner" means the repository labelled the ticket <em>good first issue</em>. We skip tickets that are already assigned to someone, are pull requests, or have had no activity for six months. A ticket can still be taken in the comments, so read the thread before you start, and say that you are working on it.</p>
     <p>The list comes from two places: repositories we have ranked or listed as rising, and a wider set of small, active projects with beginner tickets, found by language. It refreshes every day. Matching is by keywords in the language, topics, labels and title, so it is a rough guide, not a promise.</p>

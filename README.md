@@ -78,3 +78,7 @@ Home (this week), `/rising/` (repos speeding up, updated daily), `/contribute/` 
 ## Design
 
 The site follows `PRODUCT.md` and `DESIGN.md` (Impeccable). The look is a pocket tide table: one variable font (Archivo, self-hosted through `@fontsource-variable/archivo`), a chart-blue palette, and no scripts.
+
+## Hiding a repository
+
+To remove a repository from the rankings, Rising and Skills lists, add its full name (for example `owner/name`) to the `repos` list in `data/blocklist.json`. It is dropped on the next run.

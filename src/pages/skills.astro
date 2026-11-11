@@ -36,7 +36,7 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
           <div class="chips">{agentChoices.map(([id, label]) => <button type="button" data-agent={id} aria-pressed="false">{label}</button>)}</div>
         </div>
         <ol class="entries" aria-label="Rising skill repositories">
-          {rising.map((item) => <RisingSkill item={item} />)}
+          {rising.map((item) => <RisingSkill item={item} asOf={data.date} />)}
         </ol>
       </section>
     )}

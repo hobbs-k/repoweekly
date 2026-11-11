@@ -468,3 +468,7 @@ li::marker { color: var(--phos); }
 .method p { margin: 0 0 0.3rem; }
 .copy { min-height: 2.5rem; margin: 0 0 0.6rem; padding: 0 0.8rem; font-family: var(--mono); font-size: 0.75rem; font-weight: 700; background: transparent; color: var(--phos); border: 2px solid var(--frame); cursor: pointer; }
 .copy:hover { border-color: var(--phos); }
+
+.notice-inline { margin: 0.5rem 0 0.8rem; padding: 0.6rem 0.8rem; border: 2px dashed var(--mark); font-size: 0.9375rem; overflow-wrap: anywhere; max-width: var(--measure); }
+.steps { max-width: var(--measure); padding-left: 1.4rem; }
+.steps li { margin: 0 0 0.5rem; }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T18:37:06.523Z",
+  "generated": "2026-11-11T19:26:00.104Z",
   "date": "2026-11-11",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "mode": "recent",
@@ -33,7 +33,7 @@
         "touhou",
         "typescript"
       ],
-      "stars": 452223,
+      "stars": 452312,
       "pushed_at": "2026-11-11T18:09:47Z",
       "created_at": "2026-04-14T00:51:32Z",
       "license": "MIT",
@@ -43,37 +43,31 @@
         {
           "name": "rea-analysis-optimization",
           "path": ".agents/skills/rea-analysis-optimization/SKILL.md",
-          "title": "rea-analysis-optimization",
           "description": "Optimize REA providers and shared analysis workflows for agent context, latency, CPU, and memory while preserving correctness and Evidence. Use for analysis bottlenecks and cache or query design; CI/test-suite optimization belongs to rea-ci-tests-audit."
         },
         {
           "name": "rea-changelog-update",
           "path": ".agents/skills/rea-changelog-update/SKILL.md",
-          "title": "rea-changelog-update",
           "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization."
         },
         {
           "name": "rea-ci-tests-audit",
           "path": ".agents/skills/rea-ci-tests-audit/SKILL.md",
-          "title": "rea-ci-tests-audit",
           "description": "Audit REA CI and test suites for correctness, fixture drift, false passes, and measured performance; use for suite or workflow investigations and efficiency changes, rather than ordinary feature testing or a single test failure."
         },
         {
           "name": "rea-tool-design",
           "path": ".agents/skills/rea-tool-design/SKILL.md",
-          "title": "rea-tool-design",
           "description": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics."
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".agents/skills/reverse-engineer-anything/SKILL.md",
-          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".cursor-plugin/skills/reverse-engineer-anything/SKILL.md",
-          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         }
       ],
@@ -92,7 +86,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 192991,
+      "stars": 193014,
       "pushed_at": "2026-11-06T22:32:32Z",
       "created_at": "2025-09-22T15:53:31Z",
       "license": null,
@@ -219,7 +213,7 @@
         "prompt-engineering",
         "yagni"
       ],
-      "stars": 188992,
+      "stars": 189016,
       "pushed_at": "2026-10-29T11:59:31Z",
       "created_at": "2026-06-12T00:52:37Z",
       "license": "MIT",
@@ -325,8 +319,8 @@
         "sqlite",
         "supermemory"
       ],
-      "stars": 116149,
-      "pushed_at": "2026-11-11T18:33:10Z",
+      "stars": 116162,
+      "pushed_at": "2026-11-11T19:11:21Z",
       "created_at": "2025-08-31T20:50:03Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -541,7 +535,7 @@
         "cursor",
         "skills"
       ],
-      "stars": 115761,
+      "stars": 115784,
       "pushed_at": "2026-11-01T19:24:49Z",
       "created_at": "2026-02-15T20:20:26Z",
       "license": "MIT",
@@ -692,7 +686,7 @@
         "ui-design",
         "web-design"
       ],
-      "stars": 113440,
+      "stars": 113456,
       "pushed_at": "2026-11-08T21:51:50Z",
       "created_at": "2026-02-19T21:44:05Z",
       "license": "MIT",
@@ -744,8 +738,8 @@
         "project-management",
         "workflow-automation"
       ],
-      "stars": 113136,
-      "pushed_at": "2026-11-11T18:32:39Z",
+      "stars": 113149,
+      "pushed_at": "2026-11-11T19:21:17Z",
       "created_at": "2026-03-02T15:01:51Z",
       "license": "MIT",
       "default_branch": "master",
@@ -955,8 +949,8 @@
         "design",
         "slop"
       ],
-      "stars": 108169,
-      "pushed_at": "2026-11-11T14:13:47Z",
+      "stars": 108190,
+      "pushed_at": "2026-11-11T19:00:35Z",
       "created_at": "2025-11-16T01:52:04Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -1126,7 +1120,7 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 107195,
+      "stars": 107200,
       "pushed_at": "2026-11-11T18:05:44Z",
       "created_at": "2026-04-28T04:25:20Z",
       "license": "Apache-2.0",
@@ -1136,73 +1130,61 @@
         {
           "name": "od-contribute",
           "path": ".claude/skills/od-contribute/SKILL.md",
-          "title": "od-contribute",
           "description": "One-click contribution flow for OpenDesign (nexu-io/open-design) — even for non-coders. Pick one of four cards (ship a Skill or Design System you made with OD; translate docs; fix a typo / write a blog; report a bug), the agent validates and opens a PR (or issue) for you. Trigger words contribute to"
         },
         {
           "name": "sample-plugin",
           "path": "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md",
-          "title": "sample-plugin",
           "description": "Phase 1 sample plugin synthesizing a SKILL.md frontmatter for backwards-compat tests."
         },
         {
           "name": "aster-atelier",
           "path": "design-templates/aster-atelier/SKILL.md",
-          "title": "aster-atelier",
           "description": "Use this template when the user wants an artistic creative-studio website with classical imagery, cobalt skies, elegant serif typography and cinematic scrolling."
         },
         {
           "name": "audio-jingle",
           "path": "design-templates/audio-jingle/SKILL.md",
-          "title": "audio-jingle",
           "description": "Audio generation skill — jingles, beds, voiceover, and sound effects. Routes music requests to Suno V5 / Udio / Lyria, speech to MiniMax TTS / FishAudio / ElevenLabs V3, and SFX to ElevenLabs SFX or AudioCraft. Output is one MP3/WAV file saved to the project folder."
         },
         {
           "name": "blog-post",
           "path": "design-templates/blog-post/SKILL.md",
-          "title": "blog-post",
           "description": "A long-form article / blog post — masthead, hero image placeholder, article body with figures and pull quotes, author byline, related posts. Use when the brief asks for \"blog\", \"article\", \"post\", \"essay\", or \"case study\"."
         },
         {
           "name": "clinical-case-report",
           "path": "design-templates/clinical-case-report/SKILL.md",
-          "title": "clinical-case-report",
           "description": "Structured medical case presentation for clinical rounds, conferences, and documentation. Generates SOAP-format or narrative case reports with physiologically accurate vitals, labs, and evidence-based plans. Use when the brief mentions \"case report\", \"case presentation\", \"SOAP note\", \"clinical case\""
         },
         {
           "name": "contact-widget",
           "path": "design-templates/contact-widget/SKILL.md",
-          "title": "contact-widget",
           "description": "Self-contained floating chat widget with welcome screen, social links, meeting button, and message input. Single HTML file, zero dependencies."
         },
         {
           "name": "critique",
           "path": "design-templates/critique/SKILL.md",
-          "title": "critique",
           "description": "Run a 5-dimension expert design review on any HTML artifact in the project — Philosophy / Visual hierarchy / Detail / Functionality / Innovation, each scored 0–10. Outputs a single self-contained HTML report with a radar chart, evidence-backed scores, and three lists: Keep / Fix / Quick-wins. Use wh"
         },
         {
           "name": "dashboard",
           "path": "design-templates/dashboard/SKILL.md",
-          "title": "dashboard",
           "description": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar, top bar with user/search, main grid of KPI cards and one or two charts. Use when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or \"control panel\" screen."
         },
         {
           "name": "dating-web",
           "path": "design-templates/dating-web/SKILL.md",
-          "title": "dating-web",
           "description": "A consumer-feeling dating / matchmaking dashboard — left rail navigation, ticker bar of community signals, headline KPIs, a 30-day mutual-matches bar chart, and a match-rate trend block. Editorial typography, restrained accent. Use when the brief asks for a \"dating site\", \"matchmaking\", \"community d"
         },
         {
           "name": "dcf-valuation",
           "path": "design-templates/dcf-valuation/SKILL.md",
-          "title": "dcf-valuation",
           "description": "Discounted cash flow valuation and intrinsic value analysis for public companies. Use when the brief asks for DCF, fair value, intrinsic value, price target, undervalued or overvalued analysis, or \"what is this company worth?\""
         },
         {
           "name": "digital-eguide",
           "path": "design-templates/digital-eguide/SKILL.md",
-          "title": "digital-eguide",
           "description": "A two-spread digital e-guide preview — page 1 is a cover (display title, author, \"What's inside\" stats, table of contents teaser); page 2 is a spread (lesson body with pull-quote and a step list). Lifestyle / creator brand tone. Use when the brief asks for an \"e-guide\", \"digital guide\", \"lookbook\", "
         },
         {
@@ -1353,7 +1335,7 @@
         "system-design",
         "visualization"
       ],
-      "stars": 95592,
+      "stars": 95602,
       "pushed_at": "2026-11-11T05:01:27Z",
       "created_at": "2026-04-15T05:27:37Z",
       "license": "Apache-2.0",
@@ -1422,7 +1404,7 @@
         "understandcode",
         "vibe-coding"
       ],
-      "stars": 92118,
+      "stars": 92131,
       "pushed_at": "2026-11-11T04:34:25Z",
       "created_at": "2026-03-15T02:30:51Z",
       "license": "MIT",
@@ -1513,7 +1495,7 @@
         "open-source",
         "resume"
       ],
-      "stars": 81938,
+      "stars": 81952,
       "pushed_at": "2026-11-11T17:28:22Z",
       "created_at": "2026-04-04T18:21:18Z",
       "license": "MIT",
@@ -1523,73 +1505,61 @@
         {
           "name": "career-ops",
           "path": ".agents/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".antigravitycli/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".claude/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".grok/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".kimi/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".opencode/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".qwen/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "antigravity-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "claude-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "cursor-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "openai-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "apify",
           "path": "plugins/apify/skill.md",
-          "title": "career-ops-plugin-apify",
           "description": "How to scan a job source through an Apify actor as a keyed provider."
         },
         {
@@ -1639,7 +1609,7 @@
         "skill",
         "workflow-automation"
       ],
-      "stars": 79267,
+      "stars": 79269,
       "pushed_at": "2026-09-18T07:16:11Z",
       "created_at": "2025-10-17T07:15:01Z",
       "license": null,
@@ -1850,8 +1820,8 @@
         "tui",
         "typescript"
       ],
-      "stars": 70841,
-      "pushed_at": "2026-11-11T18:30:33Z",
+      "stars": 70844,
+      "pushed_at": "2026-11-11T19:17:39Z",
       "created_at": "2025-12-03T01:40:05Z",
       "license": "NOASSERTION",
       "default_branch": "dev",
@@ -2079,7 +2049,7 @@
         "pakistani-developer",
         "vibe-coding"
       ],
-      "stars": 68970,
+      "stars": 68971,
       "pushed_at": "2026-11-11T13:17:24Z",
       "created_at": "2025-10-31T14:15:28Z",
       "license": "MIT",
@@ -2089,55 +2059,46 @@
         {
           "name": "agent-browser",
           "path": ".claude/skills/agent-browser/SKILL.md",
-          "title": "agent-browser",
           "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form"
         },
         {
           "name": "presentation-structure",
           "path": ".claude/skills/presentation/presentation-structure/SKILL.md",
-          "title": "presentation-structure",
           "description": "Knowledge about the presentation slide format, weight system, navigation, and section structure"
         },
         {
           "name": "presentation-styling",
           "path": ".claude/skills/presentation/presentation-styling/SKILL.md",
-          "title": "presentation-styling",
           "description": "Knowledge about CSS classes, component patterns, and syntax highlighting in the presentation"
         },
         {
           "name": "vibe-to-agentic-framework",
           "path": ".claude/skills/presentation/vibe-to-agentic-framework/SKILL.md",
-          "title": "vibe-to-agentic-framework",
           "description": "The conceptual framework behind the presentation — what \"Vibe Coding to Agentic Engineering\" means, why the journey is structured the way it is, and how every slide fits the narrative arc"
         },
         {
           "name": "time-skill",
           "path": ".claude/skills/time-skill/SKILL.md",
-          "title": "time-skill",
           "description": "Display the current time in Pakistan Standard Time (PKT, UTC+5). Use when the user asks for the current time, Pakistan time, or PKT."
         },
         {
           "name": "weather-fetcher",
           "path": ".claude/skills/weather-fetcher/SKILL.md",
-          "title": "weather-fetcher",
           "description": "Instructions for fetching current weather temperature data for Dubai, UAE from Open-Meteo API"
         },
         {
           "name": "weather-svg-creator",
           "path": ".claude/skills/weather-svg-creator/SKILL.md",
-          "title": "weather-svg-creator",
           "description": "Creates an SVG weather card showing the current temperature for Dubai. Writes the SVG to orchestration-workflow/weather.svg and updates orchestration-workflow/output.md."
         },
         {
           "name": "time-fetcher",
           "path": "agent-teams/.claude/skills/time-fetcher/SKILL.md",
-          "title": "time-fetcher",
           "description": "Instructions for fetching current Dubai time via bash command"
         },
         {
           "name": "time-svg-creator",
           "path": "agent-teams/.claude/skills/time-svg-creator/SKILL.md",
-          "title": "time-svg-creator",
           "description": "Creates an SVG time card showing the current time for Dubai. Writes the SVG to agent-teams/output/dubai-time.svg and updates agent-teams/output/output.md."
         }
       ],
@@ -2167,7 +2128,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 67903,
+      "stars": 67912,
       "pushed_at": "2026-11-10T01:35:15Z",
       "created_at": "2026-01-18T05:30:15Z",
       "license": "MIT",
@@ -2203,7 +2164,7 @@
         "mermaid",
         "svg"
       ],
-      "stars": 66490,
+      "stars": 66497,
       "pushed_at": "2026-11-10T22:44:09Z",
       "created_at": "2026-04-16T18:01:16Z",
       "license": "MIT",
@@ -2238,7 +2199,7 @@
         "developer-tools",
         "productivity"
       ],
-      "stars": 60865,
+      "stars": 60870,
       "pushed_at": "2026-10-19T19:46:23Z",
       "created_at": "2026-05-13T20:42:06Z",
       "license": "MIT",
@@ -2290,7 +2251,7 @@
         "seo",
         "skill-md"
       ],
-      "stars": 59737,
+      "stars": 59742,
       "pushed_at": "2026-11-11T17:49:23Z",
       "created_at": "2026-01-15T19:45:23Z",
       "license": "MIT",
@@ -2300,73 +2261,61 @@
         {
           "name": "ab-testing",
           "path": "skills/ab-testing/SKILL.md",
-          "title": "ab-testing",
           "description": "When the user wants to plan, run, or read A/B tests, or asks a judgement call on one: is the result real, can we stop, which version won, is this worth testing at all: sample size, duration, significance, hypotheses, and experiment backlogs. For tracking setup, see analytics. For page-level conversi"
         },
         {
           "name": "ad-creative",
           "path": "skills/ad-creative/SKILL.md",
-          "title": "ad-creative",
           "description": "When the user wants to write or judge ad creative, or asks which ad, hook, or angle to run or kill: headlines, primary text, and variations for Google, Meta, LinkedIn, and TikTok, fresh angles when creative fatigues. Test hypotheses name the metric, comparison, and expected direction. No AI tells li"
         },
         {
           "name": "ads",
           "path": "skills/ads/SKILL.md",
-          "title": "ads",
           "description": "When the user wants to plan, run, or fix paid ads on Google, Meta, and LinkedIn, or asks a judgement call on them: are ads worth it, which channel or budget split, why CPA rose, kill or keep a campaign. End with facts, hypotheses, and missing data; label unavailable inputs MISSING instead of estimat"
         },
         {
           "name": "ai-seo",
           "path": "skills/ai-seo/SKILL.md",
-          "title": "ai-seo",
           "description": "When the user wants to get cited and recommended in AI answers (ChatGPT, Perplexity, AI Overviews), or asks why AI cites a competitor, which content gets cited, or whether llms.txt or a page format is worth it: AEO, GEO, AI visibility, agent-readable sites. For technical and on-page SEO, see seo-aud"
         },
         {
           "name": "analytics",
           "path": "skills/analytics/SKILL.md",
-          "title": "analytics",
           "description": "When the user wants to set up or audit analytics, or asks whether a metric or number is calculated right, what to track, or how to name events: tracking plans, GA4, GTM, Mixpanel, PostHog, UTMs. Rate metrics divide matching closed windows, never full-period spend by partial-period results. For conve"
         },
         {
           "name": "aso",
           "path": "skills/aso/SKILL.md",
-          "title": "aso",
           "description": "When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with competitors."
         },
         {
           "name": "attribution",
           "path": "skills/attribution/SKILL.md",
-          "title": "attribution",
           "description": "When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-claim, MMM, incrementality and holdout tests, self-reported attribution. For trackin"
         },
         {
           "name": "churn-prevention",
           "path": "skills/churn-prevention/SKILL.md",
-          "title": "churn-prevention",
           "description": "When the user wants to reduce churn, or asks why customers cancel, whether to offer a discount or pause: cancellation flows, exit surveys, save offers, dunning and failed-payment recovery. For win-back emails, see emails. For in-app upgrade screens, see paywalls."
         },
         {
           "name": "co-marketing",
           "path": "skills/co-marketing/SKILL.md",
-          "title": "co-marketing",
           "description": "When the user wants co-marketing partners or joint campaigns, or asks whether a partner fits, a size mismatch matters, or how to split work and leads: integration partners, cross-promotion, co-branded content, joint webinars. For referral programs, see referrals. For launch partnerships, see launch."
         },
         {
           "name": "cold-email",
           "path": "skills/cold-email/SKILL.md",
-          "title": "cold-email",
           "description": "When the user wants to write or run B2B cold outbound, or asks whether an opener, reason to reach out, or email works or why nobody replies: cold emails, follow-ups, sending domains, deliverability, LinkedIn, cadences. Send from secondary domains, verify lists first, turn off open tracking, stop eve"
         },
         {
           "name": "community-marketing",
           "path": "skills/community-marketing/SKILL.md",
-          "title": "community-marketing",
           "description": "When the user wants to build or grow an online community, or asks whether a community is worth it, where to host it, or why members stay quiet: Discord, Slack, forums, participation, community-led growth, advocates. For referral programs, see referrals. For creator partnerships, see influencer-marke"
         },
         {
           "name": "competitor-profiling",
           "path": "skills/competitor-profiling/SKILL.md",
-          "title": "competitor-profiling",
           "description": "When the user wants to research competitors into dated profiles, or asks what a rival charges, claims, or is doing, or whether a conclusion about them is fair: positioning, pricing, features, reviews, SEO, observed facts kept apart from inference. For comparison pages, see competitors. For battle ca"
         },
         {
@@ -2514,7 +2463,7 @@
         "scientific-computing",
         "scientific-visualization"
       ],
-      "stars": 56834,
+      "stars": 56836,
       "pushed_at": "2026-11-09T09:17:48Z",
       "created_at": "2025-10-19T20:54:15Z",
       "license": "MIT",
@@ -2722,7 +2671,7 @@
         "ollama"
       ],
       "stars": 53435,
-      "pushed_at": "2026-11-11T18:21:44Z",
+      "pushed_at": "2026-11-11T19:20:52Z",
       "created_at": "2024-05-24T01:56:26Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
@@ -2991,7 +2940,7 @@
         "mcp",
         "skill-library"
       ],
-      "stars": 49549,
+      "stars": 49551,
       "pushed_at": "2026-11-11T07:12:14Z",
       "created_at": "2026-01-14T17:48:09Z",
       "license": "MIT",
@@ -3207,73 +3156,61 @@
         {
           "name": "fill-translations",
           "path": ".agents/skills/fill-translations/SKILL.md",
-          "title": "fill-translations",
           "description": "Fill missing Reactive Resume translations across all configured web and mobile locales using parallel subagents, then prove catalog completeness. Use for “fill translations”, “complete translations”, missing locale strings, or a request to ensure translations are complete before release. Cover exist"
         },
         {
           "name": "release",
           "path": ".agents/skills/release/SKILL.md",
-          "title": "release",
           "description": "Use when releasing a new version of Reactive Resume — bumping the version, writing the changelog entry, creating the GitHub release, or when asked to \"cut a release\" / \"release vX.Y.Z\"."
         },
         {
           "name": "academic-cv",
           "path": "plugins/reactive-resume/skills/academic-cv/SKILL.md",
-          "title": "academic-cv",
           "description": "Writes or updates academic CVs for research, postdoctoral, faculty and teaching appointments. Organizes publications, funding, teaching, mentoring and service with exact authorship and status; use a role resume skill for an industry resume rather than an academic record."
         },
         {
           "name": "accomplishment-inventory",
           "path": "plugins/reactive-resume/skills/accomplishment-inventory/SKILL.md",
-          "title": "accomplishment-inventory",
           "description": "Interviews the user to build a reusable bank of real achievements, scope and evidence before resume writing. Use when the user cannot remember accomplishments, has scattered performance notes or lacks metrics; use resume-bullet-writer when the task is already to rewrite specific bullets."
         },
         {
           "name": "application-answers",
           "path": "plugins/reactive-resume/skills/application-answers/SKILL.md",
-          "title": "application-answers",
           "description": "Drafts job-application short answers, supporting statements and selection-criteria responses from resume evidence within supplied limits. Use for form questions such as why this role or describe a relevant achievement; not for submitting applications, legal eligibility decisions or restricted assess"
         },
         {
           "name": "career-change-resume",
           "path": "plugins/reactive-resume/skills/career-change-resume/SKILL.md",
-          "title": "career-change-resume",
           "description": "Writes a resume for a move into a new profession or industry, including military-to-civilian transitions and return-to-work pivots. Maps transferable evidence without relabeling past jobs or implying unearned expertise; use resume-tailor for matching an already-positioned resume to one posting."
         },
         {
           "name": "cover-letter-writer",
           "path": "plugins/reactive-resume/skills/cover-letter-writer/SKILL.md",
-          "title": "cover-letter-writer",
           "description": "Writes or edits a cover letter or application email from the user's experience and a target role. Use for a standalone letter, including a career-change or returning-to-work explanation; resume-tailor remains the workflow for tailoring the resume and optional letter together."
         },
         {
           "name": "customer-success-resume",
           "path": "plugins/reactive-resume/skills/customer-success-resume/SKILL.md",
-          "title": "customer-success-resume",
           "description": "Writes customer success, implementation, onboarding and customer support resumes. Distinguishes adoption, renewals, expansion and support quality from sales claims, with honest portfolio and retention metrics."
         },
         {
           "name": "data-resume",
           "path": "plugins/reactive-resume/skills/data-resume/SKILL.md",
-          "title": "data-resume",
           "description": "Writes data analyst, analytics engineer, data engineer, data scientist and machine-learning resumes. Connects methods and data products to decisions while distinguishing offline evaluation, experiments and production results; use academic-cv for an academic research record."
         },
         {
           "name": "designer-resume",
           "path": "plugins/reactive-resume/skills/designer-resume/SKILL.md",
-          "title": "designer-resume",
           "description": "Writes product design, UX/UI, user research, service design and visual design resumes. Connects research and craft to decisions and outcomes, with honest portfolio and accessibility claims; use portfolio-case-study for the longer project narrative."
         },
         {
           "name": "educator-resume",
           "path": "plugins/reactive-resume/skills/educator-resume/SKILL.md",
-          "title": "educator-resume",
           "description": "Writes school teaching, educational leadership, instructional design and learning-and-development resumes. Connects curriculum, facilitation and assessment to supported outcomes while preserving credential status and learner privacy; use academic-cv for faculty scholarship records."
         },
         {
           "name": "entry-level-resume",
           "path": "plugins/reactive-resume/skills/entry-level-resume/SKILL.md",
-          "title": "entry-level-resume",
           "description": "Writes first-job, student, internship, apprenticeship and recent-graduate resumes from education, projects, placements, volunteering and part-time work. Use when formal experience is limited; do not manufacture employment, credentials or project outcomes."
         },
         {
@@ -3396,7 +3333,7 @@
         "pi-coding-agent",
         "subagents"
       ],
-      "stars": 42416,
+      "stars": 42418,
       "pushed_at": "2026-11-09T01:08:33Z",
       "created_at": "2025-07-24T23:28:14Z",
       "license": "MIT",
@@ -3602,7 +3539,7 @@
         "hacktoberfest",
         "prompt-engineering"
       ],
-      "stars": 41044,
+      "stars": 41046,
       "pushed_at": "2026-11-11T05:41:32Z",
       "created_at": "2025-06-11T16:57:39Z",
       "license": "MIT",
@@ -3815,7 +3752,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 38056,
+      "stars": 38057,
       "pushed_at": "2026-11-10T00:41:13Z",
       "created_at": "2026-04-05T04:33:04Z",
       "license": "MIT",
@@ -3965,7 +3902,7 @@
         "mcp",
         "registry"
       ],
-      "stars": 33329,
+      "stars": 33332,
       "pushed_at": "2026-11-11T13:38:31Z",
       "created_at": "2025-07-04T01:26:26Z",
       "license": "MIT",
@@ -3975,73 +3912,61 @@
         {
           "name": "owasp-security",
           "path": ".claude-plugin/skills/owasp-security/SKILL.md",
-          "title": "owasp-security",
           "description": "Comprehensive OWASP-aligned security guidance across six standards - Top 10 (2021) for web apps, ASVS 5.0, MASVS v2.1.0 for mobile, API Security Top 10 (2023), Kubernetes Top 10 (2022), and the Agentic Applications 2026 edition for AI/LLM. Use for security reviews, vulnerability audits, secure auth/"
         },
         {
           "name": "agent-management",
           "path": "cli-tool/components/skills/ai-maestro/agent-management/SKILL.md",
-          "title": "agent-management",
           "description": "Create, manage, and orchestrate AI agents using the AI Maestro CLI. Use when the user asks to \"create agent\", \"list agents\", \"delete agent\", \"hibernate agent\", \"wake agent\", \"install plugin\", \"show agent\", \"restart agent\", or any agent lifecycle management task."
         },
         {
           "name": "agent-messaging",
           "path": "cli-tool/components/skills/ai-maestro/agent-messaging/SKILL.md",
-          "title": "agent-messaging",
           "description": "Send and receive cryptographically signed messages between AI agents using the Agent Messaging Protocol (AMP). Use when the user asks to \"send a message to an agent\", \"check agent inbox\", \"message another agent\", \"reply to a message\", \"notify an agent\", or any inter-agent communication task."
         },
         {
           "name": "docs-search",
           "path": "cli-tool/components/skills/ai-maestro/docs-search/SKILL.md",
-          "title": "docs-search",
           "description": "Search auto-generated codebase documentation for function signatures, API docs, class definitions, and code comments. Use when the user asks to \"search docs\", \"find documentation\", \"look up a function\", \"check the API\", or before implementing changes to verify correct signatures and patterns."
         },
         {
           "name": "graph-query",
           "path": "cli-tool/components/skills/ai-maestro/graph-query/SKILL.md",
-          "title": "graph-query",
           "description": "Query the code graph database to understand component relationships, dependencies, and change impact. Use when the user asks to \"find callers\", \"check dependencies\", \"what uses this\", \"show relationships\", \"find serializers\", or when reading code and needing to understand what depends on a component"
         },
         {
           "name": "memory-search",
           "path": "cli-tool/components/skills/ai-maestro/memory-search/SKILL.md",
-          "title": "memory-search",
           "description": "Search conversation history and semantic memory to recall previous discussions, decisions, and context. Use when the user asks to \"search memory\", \"what did we discuss\", \"remember when\", \"find previous conversation\", \"check history\", or before starting work to recall prior decisions."
         },
         {
           "name": "planning",
           "path": "cli-tool/components/skills/ai-maestro/planning/SKILL.md",
-          "title": "planning",
           "description": "Create and manage persistent markdown planning files for structured task execution. Use when the user asks to \"create a plan\", \"track progress\", \"start a research project\", or when a task requires more than 5 tool calls and needs structured phase tracking to stay focused and avoid goal drift."
         },
         {
           "name": "agent-evaluation",
           "path": "cli-tool/components/skills/ai-research/agent-evaluation/SKILL.md",
-          "title": "agent-evaluation",
           "description": "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent."
         },
         {
           "name": "agent-manager-skill",
           "path": "cli-tool/components/skills/ai-research/agent-manager-skill/SKILL.md",
-          "title": "agent-manager-skill",
           "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
         },
         {
           "name": "agent-memory-mcp",
           "path": "cli-tool/components/skills/ai-research/agent-memory-mcp/SKILL.md",
-          "title": "agent-memory-mcp",
           "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
         },
         {
           "name": "agent-memory-systems",
           "path": "cli-tool/components/skills/ai-research/agent-memory-systems/SKILL.md",
-          "title": "agent-memory-systems",
           "description": "Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-term (context window), long-term (vector stores), and the cognitive architectures that organize them.  Key insight: Memory isn't just storage - i"
         },
         {
           "name": "agent-tool-builder",
           "path": "cli-tool/components/skills/ai-research/agent-tool-builder/SKILL.md",
-          "title": "agent-tool-builder",
           "description": "Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently, or costs 10x more tokens than necessary.  This skill covers tool design from schema to error handling. JSON Schema best practices, descriptio"
         },
         {
@@ -4189,8 +4114,8 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 33244,
-      "pushed_at": "2026-11-11T18:04:03Z",
+      "stars": 33245,
+      "pushed_at": "2026-11-11T19:10:04Z",
       "created_at": "2023-08-16T16:16:33Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -4356,7 +4281,7 @@
         "oauth2",
         "rust"
       ],
-      "stars": 32257,
+      "stars": 32260,
       "pushed_at": "2026-11-03T01:37:22Z",
       "created_at": "2026-03-02T19:46:06Z",
       "license": "Apache-2.0",
@@ -4543,7 +4468,7 @@
         "openclaw"
       ],
       "stars": 31106,
-      "pushed_at": "2026-11-11T18:22:37Z",
+      "pushed_at": "2026-11-11T18:36:17Z",
       "created_at": "2026-01-31T15:47:22Z",
       "license": "MIT",
       "default_branch": "main",
@@ -4745,7 +4670,7 @@
         "openclaw-skills",
         "prompt-engineering"
       ],
-      "stars": 29643,
+      "stars": 29646,
       "pushed_at": "2026-11-11T06:17:50Z",
       "created_at": "2025-10-19T04:04:05Z",
       "license": "MIT",
@@ -4949,7 +4874,7 @@
         "slides",
         "ui-design"
       ],
-      "stars": 29244,
+      "stars": 29246,
       "pushed_at": "2026-11-10T00:16:14Z",
       "created_at": "2026-04-19T14:42:06Z",
       "license": "MIT",
@@ -5298,7 +5223,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "stars": 27589,
+      "stars": 27592,
       "pushed_at": "2026-11-11T02:41:02Z",
       "created_at": "2025-02-24T08:03:24Z",
       "license": "MIT",
@@ -5609,7 +5534,7 @@
         "watermarking",
         "watermarks"
       ],
-      "stars": 27129,
+      "stars": 27132,
       "pushed_at": "2026-11-09T20:25:47Z",
       "created_at": "2026-08-11T16:32:38Z",
       "license": "MIT",
@@ -5644,7 +5569,7 @@
         "svg",
         "vizualization"
       ],
-      "stars": 26703,
+      "stars": 26709,
       "pushed_at": "2026-10-18T20:20:24Z",
       "created_at": "2026-10-08T10:12:49Z",
       "license": "MIT",
@@ -5732,8 +5657,8 @@
         "threejs",
         "webgpu"
       ],
-      "stars": 25446,
-      "pushed_at": "2026-11-11T18:12:06Z",
+      "stars": 25447,
+      "pushed_at": "2026-11-11T19:09:26Z",
       "created_at": "2025-10-16T19:35:06Z",
       "license": "MIT",
       "default_branch": "main",
@@ -5782,8 +5707,8 @@
         "security-workflow",
         "supply-chain-security"
       ],
-      "stars": 25410,
-      "pushed_at": "2026-11-11T15:58:11Z",
+      "stars": 25416,
+      "pushed_at": "2026-11-11T19:00:20Z",
       "created_at": "2026-03-21T00:28:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -5957,7 +5882,7 @@
         "workflows"
       ],
       "stars": 24894,
-      "pushed_at": "2026-11-11T18:31:18Z",
+      "pushed_at": "2026-11-11T19:14:03Z",
       "created_at": "2020-10-24T07:27:48Z",
       "license": "NOASSERTION",
       "default_branch": "v3-develop",
@@ -6248,7 +6173,7 @@
         "launch-video",
         "video-generation"
       ],
-      "stars": 21067,
+      "stars": 21071,
       "pushed_at": "2026-10-23T21:18:13Z",
       "created_at": "2026-06-16T19:36:36Z",
       "license": "MIT",
@@ -6522,7 +6447,7 @@
         "agent-skills",
         "self-evolving-agents"
       ],
-      "stars": 18999,
+      "stars": 19001,
       "pushed_at": "2026-11-10T20:10:50Z",
       "created_at": "2026-05-08T06:41:01Z",
       "license": "MIT",
@@ -6579,7 +6504,7 @@
         "video-generation",
         "video-production"
       ],
-      "stars": 18722,
+      "stars": 18731,
       "pushed_at": "2026-11-11T16:30:35Z",
       "created_at": "2026-07-19T11:44:41Z",
       "license": "Apache-2.0",
@@ -6621,7 +6546,7 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 17544,
+      "stars": 17560,
       "pushed_at": "2026-11-11T15:23:19Z",
       "created_at": "2026-09-13T16:31:06Z",
       "license": "Apache-2.0",
@@ -6906,7 +6831,7 @@
         "llm",
         "prompt-engineering"
       ],
-      "stars": 15837,
+      "stars": 15840,
       "pushed_at": "2026-10-22T13:26:18Z",
       "created_at": "2026-03-11T16:25:43Z",
       "license": "MIT",
@@ -6940,7 +6865,7 @@
         "desktop-agent",
         "multi-agent-systems"
       ],
-      "stars": 15806,
+      "stars": 15808,
       "pushed_at": "2026-11-11T13:03:36Z",
       "created_at": "2025-07-29T15:56:02Z",
       "license": "Apache-2.0",
@@ -7149,7 +7074,7 @@
         "video-production",
         "webgl"
       ],
-      "stars": 14834,
+      "stars": 14849,
       "pushed_at": "2026-11-10T01:28:42Z",
       "created_at": "2026-09-26T10:10:41Z",
       "license": "MIT",
@@ -7227,7 +7152,7 @@
         "skills",
         "vllm"
       ],
-      "stars": 14459,
+      "stars": 14460,
       "pushed_at": "2026-10-11T02:56:34Z",
       "created_at": "2025-11-03T06:13:06Z",
       "license": "MIT",
@@ -7422,7 +7347,7 @@
         "video-transcription",
         "video-translation"
       ],
-      "stars": 14304,
+      "stars": 14305,
       "pushed_at": "2026-11-10T06:14:02Z",
       "created_at": "2024-12-17T01:59:22Z",
       "license": "Apache-2.0",
@@ -7511,7 +7436,7 @@
         "pptx",
         "typesetting"
       ],
-      "stars": 12513,
+      "stars": 12514,
       "pushed_at": "2026-11-10T02:51:15Z",
       "created_at": "2026-04-20T16:35:19Z",
       "license": "MIT",
@@ -7546,7 +7471,7 @@
         "claude-marketplace",
         "claude-skills"
       ],
-      "stars": 12326,
+      "stars": 12327,
       "pushed_at": "2026-11-11T08:34:48Z",
       "created_at": "2025-10-20T20:27:22Z",
       "license": "MIT",
@@ -7900,7 +7825,7 @@
         "paid-advertising",
         "ppc"
       ],
-      "stars": 10944,
+      "stars": 10950,
       "pushed_at": "2026-11-01T21:08:14Z",
       "created_at": "2026-02-11T13:01:49Z",
       "license": "MIT",
@@ -8165,7 +8090,7 @@
         "slide-generator",
         "slides"
       ],
-      "stars": 10616,
+      "stars": 10618,
       "pushed_at": "2026-11-06T08:26:30Z",
       "created_at": "2026-06-10T07:46:43Z",
       "license": "AGPL-3.0",
@@ -8196,7 +8121,7 @@
         "redteam-tools",
         "skills"
       ],
-      "stars": 10607,
+      "stars": 10610,
       "pushed_at": "2026-11-11T13:48:05Z",
       "created_at": "2026-03-04T05:52:35Z",
       "license": "MIT",
@@ -8397,7 +8322,7 @@
         "video-generation",
         "workbuddy"
       ],
-      "stars": 9511,
+      "stars": 9516,
       "pushed_at": "2026-11-11T17:04:19Z",
       "created_at": "2026-05-11T09:40:38Z",
       "license": "Apache-2.0",
@@ -8675,7 +8600,7 @@
         "seo-mcp",
         "seo-mcp-server"
       ],
-      "stars": 9281,
+      "stars": 9285,
       "pushed_at": "2026-10-27T08:57:55Z",
       "created_at": "2026-08-29T23:37:01Z",
       "license": "MIT",
@@ -8738,7 +8663,7 @@
         "design-rules",
         "ui-design"
       ],
-      "stars": 8949,
+      "stars": 8954,
       "pushed_at": "2026-11-11T12:36:17Z",
       "created_at": "2026-08-07T10:29:56Z",
       "license": "MIT",
@@ -8792,7 +8717,7 @@
         "reverse-engineering",
         "saas"
       ],
-      "stars": 8919,
+      "stars": 8924,
       "pushed_at": "2026-10-03T12:07:53Z",
       "created_at": "2026-10-03T12:07:49Z",
       "license": "MIT",
@@ -8868,8 +8793,8 @@
         "tmux",
         "typescript"
       ],
-      "stars": 8819,
-      "pushed_at": "2026-11-11T18:32:48Z",
+      "stars": 8820,
+      "pushed_at": "2026-11-11T19:17:07Z",
       "created_at": "2026-04-01T06:22:40Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9067,8 +8992,8 @@
         "pi",
         "spec-driven-development"
       ],
-      "stars": 8784,
-      "pushed_at": "2026-11-11T18:26:32Z",
+      "stars": 8785,
+      "pushed_at": "2026-11-11T19:04:44Z",
       "created_at": "2026-02-27T23:28:01Z",
       "license": "MIT",
       "default_branch": "main",
@@ -9485,7 +9410,7 @@
         "unity",
         "unreal"
       ],
-      "stars": 8338,
+      "stars": 8345,
       "pushed_at": "2026-11-11T16:39:49Z",
       "created_at": "2026-06-24T07:18:39Z",
       "license": "Apache-2.0",
@@ -9683,8 +9608,8 @@
         "vibe-coding",
         "vibecoding"
       ],
-      "stars": 8164,
-      "pushed_at": "2026-11-11T18:18:32Z",
+      "stars": 8165,
+      "pushed_at": "2026-11-11T19:12:06Z",
       "created_at": "2026-07-08T07:40:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9976,7 +9901,7 @@
         "pm-frameworks",
         "product-management"
       ],
-      "stars": 7968,
+      "stars": 7971,
       "pushed_at": "2026-10-16T01:51:12Z",
       "created_at": "2026-02-05T02:16:46Z",
       "license": "NOASSERTION",
@@ -10168,7 +10093,7 @@
         "web-scraper",
         "web-scraping"
       ],
-      "stars": 7907,
+      "stars": 7908,
       "pushed_at": "2026-11-08T10:51:13Z",
       "created_at": "2023-04-22T14:35:13Z",
       "license": "MIT",
@@ -10205,7 +10130,7 @@
         "presentation",
         "skill"
       ],
-      "stars": 7820,
+      "stars": 7822,
       "pushed_at": "2026-10-13T13:04:15Z",
       "created_at": "2026-04-26T07:34:32Z",
       "license": "MIT",
@@ -10638,7 +10563,7 @@
         "meta-ads-mcp",
         "seo"
       ],
-      "stars": 7319,
+      "stars": 7323,
       "pushed_at": "2026-10-27T08:57:53Z",
       "created_at": "2026-01-21T10:15:35Z",
       "license": null,
@@ -11040,7 +10965,7 @@
         "video-generation",
         "vlm"
       ],
-      "stars": 6991,
+      "stars": 6998,
       "pushed_at": "2026-11-11T17:48:34Z",
       "created_at": "2026-10-29T16:15:01Z",
       "license": "Apache-2.0",
@@ -11071,7 +10996,7 @@
         "day-trading",
         "stock-market"
       ],
-      "stars": 6963,
+      "stars": 6980,
       "pushed_at": "2026-10-20T14:18:00Z",
       "created_at": "2026-10-20T14:17:54Z",
       "license": "MIT",
@@ -11144,7 +11069,7 @@
         "sprite-sheet",
         "vfx"
       ],
-      "stars": 6943,
+      "stars": 6944,
       "pushed_at": "2026-11-09T09:51:43Z",
       "created_at": "2026-10-30T06:43:25Z",
       "license": "MIT",
@@ -11227,7 +11152,7 @@
         "reverse-image-search",
         "satellite-imagery"
       ],
-      "stars": 6864,
+      "stars": 6865,
       "pushed_at": "2026-11-09T13:31:34Z",
       "created_at": "2026-09-18T08:51:34Z",
       "license": "MIT",
@@ -11265,7 +11190,7 @@
         "moxt",
         "svg"
       ],
-      "stars": 6815,
+      "stars": 6816,
       "pushed_at": "2026-11-11T10:55:46Z",
       "created_at": "2026-07-16T11:17:49Z",
       "license": "NOASSERTION",
@@ -11303,7 +11228,7 @@
         "skills",
         "video"
       ],
-      "stars": 6746,
+      "stars": 6750,
       "pushed_at": "2026-11-10T01:40:26Z",
       "created_at": "2026-10-06T04:49:37Z",
       "license": "MIT",
@@ -11337,7 +11262,7 @@
         "logo-design",
         "svg"
       ],
-      "stars": 6615,
+      "stars": 6620,
       "pushed_at": "2026-11-06T07:40:27Z",
       "created_at": "2026-09-26T08:23:34Z",
       "license": "MIT",
@@ -11372,7 +11297,7 @@
         "typescript",
         "ui-components"
       ],
-      "stars": 6523,
+      "stars": 6522,
       "pushed_at": "2026-11-11T17:46:56Z",
       "created_at": "2022-05-15T15:29:39Z",
       "license": "NOASSERTION",
@@ -11895,8 +11820,8 @@
         "watermark-removal",
         "watermark-remover"
       ],
-      "stars": 6351,
-      "pushed_at": "2026-11-11T18:23:23Z",
+      "stars": 6352,
+      "pushed_at": "2026-11-11T18:46:35Z",
       "created_at": "2026-03-25T18:15:24Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -12572,7 +12497,7 @@
         "oxlint",
         "typescript"
       ],
-      "stars": 6041,
+      "stars": 6042,
       "pushed_at": "2026-10-14T00:18:33Z",
       "created_at": "2026-08-12T13:48:50Z",
       "license": "MIT",
@@ -12596,7 +12521,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 5944,
+      "stars": 5947,
       "pushed_at": "2026-11-11T09:38:42Z",
       "created_at": "2026-02-03T22:51:09Z",
       "license": "MIT",
@@ -12795,7 +12720,7 @@
         "skill-md",
         "social-media-automation"
       ],
-      "stars": 5837,
+      "stars": 5839,
       "pushed_at": "2026-11-10T11:05:23Z",
       "created_at": "2026-04-14T16:35:45Z",
       "license": "MIT",
@@ -13444,7 +13369,7 @@
         "vscode"
       ],
       "stars": 5410,
-      "pushed_at": "2026-11-11T16:02:03Z",
+      "pushed_at": "2026-11-11T19:21:57Z",
       "created_at": "2022-02-01T16:42:30Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13532,7 +13457,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 5285,
+      "stars": 5286,
       "pushed_at": "2026-11-10T21:34:25Z",
       "created_at": "2026-03-24T11:58:12Z",
       "license": "MIT",
@@ -13669,7 +13594,7 @@
         "video-editing",
         "whisper"
       ],
-      "stars": 5079,
+      "stars": 5082,
       "pushed_at": "2026-11-11T10:36:36Z",
       "created_at": "2026-09-03T14:33:38Z",
       "license": "MIT",
@@ -14111,7 +14036,7 @@
         "typography",
         "web-design"
       ],
-      "stars": 4930,
+      "stars": 4934,
       "pushed_at": "2026-09-30T13:31:42Z",
       "created_at": "2026-08-22T15:25:08Z",
       "license": "MIT",
@@ -14742,8 +14667,8 @@
         "terminal",
         "web"
       ],
-      "stars": 4595,
-      "pushed_at": "2026-11-11T18:10:32Z",
+      "stars": 4596,
+      "pushed_at": "2026-11-11T19:14:34Z",
       "created_at": "2026-07-06T16:31:11Z",
       "license": "MIT",
       "default_branch": "main",
@@ -14938,7 +14863,7 @@
         "opencode",
         "pstack"
       ],
-      "stars": 4234,
+      "stars": 4235,
       "pushed_at": "2026-11-11T12:15:43Z",
       "created_at": "2026-05-26T13:26:00Z",
       "license": "MIT",
@@ -15564,7 +15489,7 @@
         "yaml"
       ],
       "stars": 4057,
-      "pushed_at": "2026-11-11T18:16:53Z",
+      "pushed_at": "2026-11-11T19:15:42Z",
       "created_at": "2019-05-29T08:01:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -15597,7 +15522,7 @@
         "motion-graphics",
         "video"
       ],
-      "stars": 4033,
+      "stars": 4035,
       "pushed_at": "2026-11-05T03:52:15Z",
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
@@ -15634,7 +15559,7 @@
         "pstack-claude",
         "skills"
       ],
-      "stars": 3982,
+      "stars": 3983,
       "pushed_at": "2026-11-10T12:35:59Z",
       "created_at": "2026-05-27T02:30:34Z",
       "license": "MIT",
@@ -16075,7 +16000,7 @@
         "skill-management",
         "skills"
       ],
-      "stars": 3854,
+      "stars": 3855,
       "pushed_at": "2026-11-09T14:06:42Z",
       "created_at": "2026-02-15T19:18:12Z",
       "license": "CC-BY-4.0",
@@ -16522,7 +16447,7 @@
         "scope-control",
         "yagni"
       ],
-      "stars": 3815,
+      "stars": 3816,
       "pushed_at": "2026-11-10T05:55:32Z",
       "created_at": "2026-08-11T15:31:45Z",
       "license": "MIT",
@@ -17346,7 +17271,7 @@
         "video-generation",
         "zbrush"
       ],
-      "stars": 3685,
+      "stars": 3687,
       "pushed_at": "2026-11-11T16:57:05Z",
       "created_at": "2026-08-12T10:08:49Z",
       "license": "MIT",
@@ -17960,7 +17885,7 @@
         "claude-leak",
         "claude-skills"
       ],
-      "stars": 3435,
+      "stars": 3436,
       "pushed_at": "2026-10-14T14:15:16Z",
       "created_at": "2026-03-31T12:56:05Z",
       "license": "NOASSERTION",
@@ -18003,7 +17928,7 @@
         "openmuse",
         "personal-agent"
       ],
-      "stars": 3407,
+      "stars": 3408,
       "pushed_at": "2026-11-11T03:23:08Z",
       "created_at": "2026-09-23T06:13:06Z",
       "license": "GPL-3.0",
@@ -18167,7 +18092,7 @@
         "programming-books",
         "refactoring"
       ],
-      "stars": 3252,
+      "stars": 3253,
       "pushed_at": "2026-09-10T11:21:47Z",
       "created_at": "2026-04-16T16:58:19Z",
       "license": "MIT",
@@ -18275,50 +18200,6 @@
       "rank": 172
     },
     {
-      "full_name": "Vincentwei1021/anything2explainer",
-      "url": "https://github.com/Vincentwei1021/anything2explainer",
-      "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "ai-video",
-        "claude-code",
-        "claude-code-skill",
-        "codex",
-        "edge-tts",
-        "educational-video",
-        "explainer-video",
-        "kokoro",
-        "motion-graphics",
-        "multi-agent",
-        "react",
-        "remotion",
-        "text-to-video",
-        "tts",
-        "typescript",
-        "video-generation"
-      ],
-      "stars": 3225,
-      "pushed_at": "2026-11-09T15:26:15Z",
-      "created_at": "2026-09-08T17:19:54Z",
-      "license": "NOASSERTION",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "anything2explainer",
-          "path": "SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
-      "rank": 173
-    },
-    {
       "full_name": "Jakeschincariol/founder-skill",
       "url": "https://github.com/Jakeschincariol/founder-skill",
       "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
@@ -18331,7 +18212,7 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3222,
+      "stars": 3235,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
@@ -18385,6 +18266,50 @@
       ],
       "agents": [
         "claude"
+      ],
+      "gained": null,
+      "rank": 173
+    },
+    {
+      "full_name": "Vincentwei1021/anything2explainer",
+      "url": "https://github.com/Vincentwei1021/anything2explainer",
+      "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "claude-code",
+        "claude-code-skill",
+        "codex",
+        "edge-tts",
+        "educational-video",
+        "explainer-video",
+        "kokoro",
+        "motion-graphics",
+        "multi-agent",
+        "react",
+        "remotion",
+        "text-to-video",
+        "tts",
+        "typescript",
+        "video-generation"
+      ],
+      "stars": 3227,
+      "pushed_at": "2026-11-09T15:26:15Z",
+      "created_at": "2026-09-08T17:19:54Z",
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "anything2explainer",
+          "path": "SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
       ],
       "gained": null,
       "rank": 174
@@ -18598,7 +18523,7 @@
         "ux",
         "wcag"
       ],
-      "stars": 3159,
+      "stars": 3160,
       "pushed_at": "2026-11-10T07:20:20Z",
       "created_at": "2026-03-16T13:08:49Z",
       "license": "MIT",
@@ -18735,7 +18660,7 @@
         "ui-design",
         "ux-design"
       ],
-      "stars": 3153,
+      "stars": 3154,
       "pushed_at": "2026-11-11T04:56:08Z",
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
@@ -19033,7 +18958,7 @@
         "video-editing",
         "video-editor"
       ],
-      "stars": 3064,
+      "stars": 3065,
       "pushed_at": "2026-11-06T06:55:59Z",
       "created_at": "2026-07-15T02:49:42Z",
       "license": "AGPL-3.0",
@@ -19193,7 +19118,7 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 3051,
+      "stars": 3052,
       "pushed_at": "2026-11-11T11:16:09Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
@@ -19686,7 +19611,7 @@
         "skills",
         "web-animation"
       ],
-      "stars": 2874,
+      "stars": 2875,
       "pushed_at": "2026-10-04T14:54:13Z",
       "created_at": "2026-08-07T12:36:33Z",
       "license": "MIT",
@@ -20064,7 +19989,7 @@
         "open-source",
         "seo"
       ],
-      "stars": 2716,
+      "stars": 2717,
       "pushed_at": "2026-11-03T00:20:12Z",
       "created_at": "2026-02-17T22:40:44Z",
       "license": "MIT",
@@ -21051,7 +20976,7 @@
         "game-development",
         "mcp"
       ],
-      "stars": 2499,
+      "stars": 2500,
       "pushed_at": "2026-11-06T08:42:41Z",
       "created_at": "2026-07-05T08:36:06Z",
       "license": "MIT",
@@ -21473,7 +21398,7 @@
         "system-design",
         "text-to-diagram"
       ],
-      "stars": 2385,
+      "stars": 2386,
       "pushed_at": "2026-11-08T18:55:47Z",
       "created_at": "2026-08-20T19:16:16Z",
       "license": "MIT",
@@ -21528,7 +21453,7 @@
         "python",
         "web-scraping"
       ],
-      "stars": 2375,
+      "stars": 2378,
       "pushed_at": "2026-11-11T00:32:02Z",
       "created_at": "2026-06-21T11:33:57Z",
       "license": "MIT",
@@ -21658,7 +21583,7 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2359,
+      "stars": 2360,
       "pushed_at": "2026-11-09T06:00:33Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
@@ -21692,7 +21617,7 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2352,
+      "stars": 2354,
       "pushed_at": "2026-11-10T23:53:26Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
@@ -21787,7 +21712,7 @@
         "training"
       ],
       "stars": 2310,
-      "pushed_at": "2026-11-11T17:17:06Z",
+      "pushed_at": "2026-11-11T18:49:11Z",
       "created_at": "2022-01-04T10:29:46Z",
       "license": "MPL-2.0",
       "default_branch": "master",
@@ -21998,8 +21923,8 @@
         "subagents",
         "tdd"
       ],
-      "stars": 2258,
-      "pushed_at": "2026-11-11T18:32:46Z",
+      "stars": 2260,
+      "pushed_at": "2026-11-11T19:19:06Z",
       "created_at": "2026-05-10T10:11:33Z",
       "license": "MIT",
       "default_branch": "main",
@@ -22215,7 +22140,7 @@
         "kotlin",
         "kotlin-multiplatform"
       ],
-      "stars": 2229,
+      "stars": 2230,
       "pushed_at": "2026-10-29T04:27:53Z",
       "created_at": "2026-08-20T08:46:15Z",
       "license": "GPL-3.0",
@@ -22661,7 +22586,7 @@
         "wgpu",
         "windows"
       ],
-      "stars": 2123,
+      "stars": 2129,
       "pushed_at": "2026-11-11T18:14:33Z",
       "created_at": "2026-10-18T18:08:48Z",
       "license": "NOASSERTION",
@@ -22822,8 +22747,8 @@
         "synthetic",
         "synthetic-data"
       ],
-      "stars": 2014,
-      "pushed_at": "2026-11-11T18:04:51Z",
+      "stars": 2016,
+      "pushed_at": "2026-11-11T19:01:27Z",
       "created_at": "2026-04-11T03:50:12Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
@@ -23011,7 +22936,7 @@
         "claude-skills",
         "codex-skill"
       ],
-      "stars": 1965,
+      "stars": 1966,
       "pushed_at": "2026-11-11T15:34:09Z",
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
@@ -24099,7 +24024,7 @@
         "swiftdata",
         "swiftui"
       ],
-      "stars": 1766,
+      "stars": 1767,
       "pushed_at": "2026-11-05T13:09:56Z",
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
@@ -24734,6 +24659,76 @@
       "rank": 252
     },
     {
+      "full_name": "Jakeschincariol/trader-skill",
+      "url": "https://github.com/Jakeschincariol/trader-skill",
+      "description": "11 Claude skills that copy the investors you trust, watch the news and Congress, size every trade to your budget, and never place an order without your yes.",
+      "language": "Python",
+      "topics": [
+        "13f",
+        "claude",
+        "claude-skills",
+        "investing",
+        "stock-market"
+      ],
+      "stars": 1681,
+      "pushed_at": "2026-10-14T21:13:22Z",
+      "created_at": "2026-10-14T21:12:28Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 11,
+      "skills": [
+        {
+          "name": "trader-alerts",
+          "path": "trader-alerts/SKILL.md"
+        },
+        {
+          "name": "trader-analyst",
+          "path": "trader-analyst/SKILL.md"
+        },
+        {
+          "name": "trader-broker",
+          "path": "trader-broker/SKILL.md"
+        },
+        {
+          "name": "trader-budget",
+          "path": "trader-budget/SKILL.md"
+        },
+        {
+          "name": "trader-copycat",
+          "path": "trader-copycat/SKILL.md"
+        },
+        {
+          "name": "trader-news",
+          "path": "trader-news/SKILL.md"
+        },
+        {
+          "name": "trader-pelosi",
+          "path": "trader-pelosi/SKILL.md"
+        },
+        {
+          "name": "trader-rebalance",
+          "path": "trader-rebalance/SKILL.md"
+        },
+        {
+          "name": "trader-risk",
+          "path": "trader-risk/SKILL.md"
+        },
+        {
+          "name": "trader-screener",
+          "path": "trader-screener/SKILL.md"
+        },
+        {
+          "name": "trader-tax",
+          "path": "trader-tax/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 253
+    },
+    {
       "full_name": "patrickchugh/terravision",
       "url": "https://github.com/patrickchugh/terravision",
       "description": "Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.",
@@ -24777,7 +24772,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 253
+      "rank": 254
     },
     {
       "full_name": "feiskyer/claude-code-settings",
@@ -24857,76 +24852,6 @@
         "claude",
         "codex",
         "copilot"
-      ],
-      "gained": null,
-      "rank": 254
-    },
-    {
-      "full_name": "Jakeschincariol/trader-skill",
-      "url": "https://github.com/Jakeschincariol/trader-skill",
-      "description": "11 Claude skills that copy the investors you trust, watch the news and Congress, size every trade to your budget, and never place an order without your yes.",
-      "language": "Python",
-      "topics": [
-        "13f",
-        "claude",
-        "claude-skills",
-        "investing",
-        "stock-market"
-      ],
-      "stars": 1679,
-      "pushed_at": "2026-10-14T21:13:22Z",
-      "created_at": "2026-10-14T21:12:28Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 11,
-      "skills": [
-        {
-          "name": "trader-alerts",
-          "path": "trader-alerts/SKILL.md"
-        },
-        {
-          "name": "trader-analyst",
-          "path": "trader-analyst/SKILL.md"
-        },
-        {
-          "name": "trader-broker",
-          "path": "trader-broker/SKILL.md"
-        },
-        {
-          "name": "trader-budget",
-          "path": "trader-budget/SKILL.md"
-        },
-        {
-          "name": "trader-copycat",
-          "path": "trader-copycat/SKILL.md"
-        },
-        {
-          "name": "trader-news",
-          "path": "trader-news/SKILL.md"
-        },
-        {
-          "name": "trader-pelosi",
-          "path": "trader-pelosi/SKILL.md"
-        },
-        {
-          "name": "trader-rebalance",
-          "path": "trader-rebalance/SKILL.md"
-        },
-        {
-          "name": "trader-risk",
-          "path": "trader-risk/SKILL.md"
-        },
-        {
-          "name": "trader-screener",
-          "path": "trader-screener/SKILL.md"
-        },
-        {
-          "name": "trader-tax",
-          "path": "trader-tax/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
       ],
       "gained": null,
       "rank": 255
@@ -25124,7 +25049,7 @@
         "postgres",
         "rag"
       ],
-      "stars": 1653,
+      "stars": 1654,
       "pushed_at": "2026-11-11T13:39:16Z",
       "created_at": "2026-04-03T21:02:08Z",
       "license": "Apache-2.0",
@@ -25550,7 +25475,7 @@
         "procedural-generation",
         "skill"
       ],
-      "stars": 1629,
+      "stars": 1630,
       "pushed_at": "2026-11-05T20:35:49Z",
       "created_at": "2026-09-22T11:20:47Z",
       "license": "Apache-2.0",
@@ -25623,7 +25548,7 @@
         "qimen-dunjia",
         "ziwei-doushu"
       ],
-      "stars": 1607,
+      "stars": 1608,
       "pushed_at": "2026-10-16T12:01:29Z",
       "created_at": "2026-03-25T11:12:13Z",
       "license": null,
@@ -25671,7 +25596,7 @@
         "whisper"
       ],
       "stars": 1596,
-      "pushed_at": "2026-11-11T18:31:40Z",
+      "pushed_at": "2026-11-11T18:59:31Z",
       "created_at": "2026-03-18T06:11:04Z",
       "license": "MIT",
       "default_branch": "main",
@@ -26268,7 +26193,7 @@
         "motion",
         "playwright"
       ],
-      "stars": 1561,
+      "stars": 1562,
       "pushed_at": "2026-10-31T12:49:35Z",
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
@@ -26505,7 +26430,7 @@
         "motionmaxxing",
         "video"
       ],
-      "stars": 1535,
+      "stars": 1536,
       "pushed_at": "2026-10-06T18:20:43Z",
       "created_at": "2026-10-06T18:18:49Z",
       "license": "Apache-2.0",
@@ -26664,7 +26589,7 @@
         "software-engineering",
         "spec-driven-development"
       ],
-      "stars": 1497,
+      "stars": 1498,
       "pushed_at": "2026-11-11T14:14:57Z",
       "created_at": "2026-07-02T10:24:16Z",
       "license": "MIT",
@@ -26858,7 +26783,7 @@
         "supabase",
         "vercel"
       ],
-      "stars": 1485,
+      "stars": 1486,
       "pushed_at": "2026-10-11T21:04:01Z",
       "created_at": "2026-09-23T13:37:26Z",
       "license": "MIT",
@@ -26937,113 +26862,122 @@
       "rank": 278
     },
     {
-      "full_name": "nucliweb/webperf-snippets",
-      "url": "https://github.com/nucliweb/webperf-snippets",
-      "description": "Tested JavaScript snippets that measure and debug web performance. Your AI agent runs them for you, or you run them yourself in DevTools: the same code every time.",
-      "language": "JavaScript",
+      "full_name": "alibaba/skill-up",
+      "url": "https://github.com/alibaba/skill-up",
+      "description": "An evaluation and evolution tool for Agent Skills.",
+      "language": "Go",
       "topics": [
         "agent-skills",
+        "ai",
         "ai-agents",
-        "chrome-devtools",
-        "claude-code",
-        "cli",
-        "cls",
-        "core-web-vitals",
-        "inp",
-        "lcp",
-        "performance",
-        "performance-analysis",
-        "performance-metrics",
-        "playwright",
-        "snippets",
-        "webperf",
-        "webperformance",
-        "webvitals"
+        "alibaba",
+        "skills"
       ],
-      "stars": 1455,
-      "pushed_at": "2026-11-11T17:29:43Z",
-      "created_at": "2022-05-17T08:11:38Z",
-      "license": "MIT",
+      "stars": 1456,
+      "pushed_at": "2026-11-09T09:27:55Z",
+      "created_at": "2026-05-09T10:09:28Z",
+      "license": "Apache-2.0",
       "default_branch": "main",
-      "skill_count": 18,
+      "skill_count": 24,
       "skills": [
         {
-          "name": "webperf-core-web-vitals",
-          "path": ".claude/skills/webperf-core-web-vitals/SKILL.md"
+          "name": "agent-judge-criteria",
+          "path": "e2e/testdata/agent-judge-criteria/SKILL.md"
         },
         {
-          "name": "webperf-interaction",
-          "path": ".claude/skills/webperf-interaction/SKILL.md"
+          "name": "custom-engine",
+          "path": "e2e/testdata/custom-engine/SKILL.md"
         },
         {
-          "name": "webperf-loading",
-          "path": ".claude/skills/webperf-loading/SKILL.md"
+          "name": "expect-short-circuit",
+          "path": "e2e/testdata/expect-short-circuit/SKILL.md"
         },
         {
-          "name": "webperf-media",
-          "path": ".claude/skills/webperf-media/SKILL.md"
+          "name": "file-and-tool-rules",
+          "path": "e2e/testdata/file-and-tool-rules/SKILL.md"
         },
         {
-          "name": "webperf-resources",
-          "path": ".claude/skills/webperf-resources/SKILL.md"
+          "name": "full-report-pipeline",
+          "path": "e2e/testdata/full-report-pipeline/SKILL.md"
         },
         {
-          "name": "webperf",
-          "path": ".claude/skills/webperf/SKILL.md"
+          "name": "git-context",
+          "path": "e2e/testdata/git-context/SKILL.md"
         },
         {
-          "name": "webperf-core-web-vitals",
-          "path": "dist/antigravity/webperf-core-web-vitals/SKILL.md"
+          "name": "import-skill",
+          "path": "e2e/testdata/import-skill/SKILL.md"
         },
         {
-          "name": "webperf-interaction",
-          "path": "dist/antigravity/webperf-interaction/SKILL.md"
+          "name": "mcp-case-overrides",
+          "path": "e2e/testdata/mcp-case-overrides/SKILL.md"
         },
         {
-          "name": "webperf-loading",
-          "path": "dist/antigravity/webperf-loading/SKILL.md"
+          "name": "mcp-mocked-marker",
+          "path": "e2e/testdata/mcp-mocked-marker/SKILL.md"
         },
         {
-          "name": "webperf-media",
-          "path": "dist/antigravity/webperf-media/SKILL.md"
+          "name": "mcp-stdio-marker",
+          "path": "e2e/testdata/mcp-stdio-marker/SKILL.md"
         },
         {
-          "name": "webperf-resources",
-          "path": "dist/antigravity/webperf-resources/SKILL.md"
+          "name": "mock-engine",
+          "path": "e2e/testdata/mock-engine/SKILL.md"
         },
         {
-          "name": "webperf",
-          "path": "dist/antigravity/webperf/SKILL.md"
+          "name": "multi-turn-conversation",
+          "path": "e2e/testdata/multi-turn-conversation/SKILL.md"
         },
         {
-          "name": "webperf-core-web-vitals",
-          "path": "skills/webperf-core-web-vitals/SKILL.md"
+          "name": "multiturn-session",
+          "path": "e2e/testdata/multiturn-session/SKILL.md"
         },
         {
-          "name": "webperf-interaction",
-          "path": "skills/webperf-interaction/SKILL.md"
+          "name": "retry-and-parallelism",
+          "path": "e2e/testdata/retry-and-parallelism/SKILL.md"
         },
         {
-          "name": "webperf-loading",
-          "path": "skills/webperf-loading/SKILL.md"
+          "name": "sandbox-mcp",
+          "path": "e2e/testdata/sandbox-mcp/SKILL.md"
         },
         {
-          "name": "webperf-media",
-          "path": "skills/webperf-media/SKILL.md"
+          "name": "script-judge-eval",
+          "path": "e2e/testdata/script-judge-eval/SKILL.md"
         },
         {
-          "name": "webperf-resources",
-          "path": "skills/webperf-resources/SKILL.md"
+          "name": "text-match-rules",
+          "path": "e2e/testdata/text-match-rules/SKILL.md"
         },
         {
-          "name": "webperf",
-          "path": "skills/webperf/SKILL.md"
+          "name": "trigger-detection",
+          "path": "e2e/testdata/trigger-detection/SKILL.md"
+        },
+        {
+          "name": "code-stats",
+          "path": "examples/code-stats/SKILL.md"
+        },
+        {
+          "name": "deepseek-harness",
+          "path": "examples/deepseek-harness/SKILL.md"
+        },
+        {
+          "name": "user-simulator",
+          "path": "examples/user-simulator/SKILL.md"
+        },
+        {
+          "name": "skill-upper",
+          "path": "skills/skill-upper/SKILL.md"
+        },
+        {
+          "name": "sample-no-evals",
+          "path": "skills/skill-upper/evals/fixtures/skills/sample-no-evals/SKILL.md"
+        },
+        {
+          "name": "sample-with-evals",
+          "path": "skills/skill-upper/evals/fixtures/skills/sample-with-evals/SKILL.md"
         }
       ],
-      "agents": [
-        "claude",
-        "gemini"
-      ],
+      "agents": [],
       "gained": null,
       "rank": 279
     }
@@ -27064,7 +26998,7 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2359,
+      "stars": 2360,
       "pushed_at": "2026-11-09T06:00:33Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
@@ -27244,7 +27178,17 @@
           }
         },
         "guide": [],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 19,
+          "scripts": [
+            "skills/stack-diagram/scripts/build.py",
+            "skills/stack-diagram/scripts/fetch_icons.py",
+            "skills/stack-diagram/scripts/render_png.py",
+            "skills/stack-diagram/scripts/share.py"
+          ],
+          "script_count": 4
+        }
       }
     },
     {
@@ -27262,7 +27206,7 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2352,
+      "stars": 2354,
       "pushed_at": "2026-11-10T23:53:26Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
@@ -27458,7 +27402,21 @@
             ]
           }
         ],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 92,
+          "scripts": [
+            "scripts/audit_evidence.py",
+            "scripts/build_pdf.py",
+            "scripts/check_gedcom.py",
+            "scripts/familysearch.py",
+            "scripts/familysearch_browser.py",
+            "scripts/gwar.py",
+            "scripts/hash_artifact.py",
+            "scripts/init_case.py"
+          ],
+          "script_count": 18
+        }
       }
     },
     {
@@ -27475,7 +27433,7 @@
         "motion",
         "playwright"
       ],
-      "stars": 1561,
+      "stars": 1562,
       "pushed_at": "2026-10-31T12:49:35Z",
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
@@ -27670,7 +27628,21 @@
             ]
           }
         ],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 19,
+          "scripts": [
+            "skills/reanimate/scripts/capture.ts",
+            "skills/reanimate/scripts/compare.ts",
+            "skills/reanimate/scripts/easing.ts",
+            "skills/reanimate/scripts/frames.ts",
+            "skills/reanimate/scripts/gl.ts",
+            "skills/reanimate/scripts/inpage/clock.js",
+            "skills/reanimate/scripts/inpage/gl-hooks.js",
+            "skills/reanimate/scripts/lib.ts"
+          ],
+          "script_count": 10
+        }
       }
     },
     {
@@ -27873,7 +27845,12 @@
           }
         },
         "guide": [],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 46,
+          "scripts": [],
+          "script_count": 0
+        }
       }
     },
     {
@@ -27898,7 +27875,7 @@
         "swiftdata",
         "swiftui"
       ],
-      "stars": 1766,
+      "stars": 1767,
       "pushed_at": "2026-11-05T13:09:56Z",
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
@@ -28213,6 +28190,20 @@
           "install": [
             "/plugin install bama@bama"
           ]
+        },
+        "files": {
+          "total": 104,
+          "scripts": [
+            "skills/code/agent-cli/scripts/add-agent-cli.sh",
+            "skills/code/agent-cli/scripts/check-agent-cli.sh",
+            "skills/design/mac-design/scripts/hig.sh",
+            "skills/plan/clone/scripts/window-shot.sh",
+            "skills/start/new-mac-app/scripts/new-app.sh",
+            "skills/start/new-mac-app/template/build.sh",
+            "skills/start/new-mac-app/template/tools/grid-lint.sh",
+            "skills/start/new-mac-app/template/tools/icon_review.sh"
+          ],
+          "script_count": 11
         }
       }
     },
@@ -28433,6 +28424,20 @@
           "install": [
             "/plugin install beautiful-rust@beautiful-rust"
           ]
+        },
+        "files": {
+          "total": 131,
+          "scripts": [
+            "skills/rust-best-practices/evals/bevy-arena-regen/files/src/lib.rs",
+            "skills/rust-best-practices/evals/bevy-arena-regen/files/tests/arena.rs",
+            "skills/rust-best-practices/evals/bevy-arena-regen/place-files.sh",
+            "skills/rust-best-practices/evals/refactor-inventory-module/files/inventory.rs",
+            "skills/rust-best-practices/evals/refactor-inventory-module/place-files.sh",
+            "skills/rust-port/evals/port-c-config-parser/place-files.sh",
+            "skills/rust-port/evals/port-python-task-graph/files/taskgraph.py",
+            "skills/rust-port/evals/port-python-task-graph/files/test_taskgraph.py"
+          ],
+          "script_count": 14
         }
       }
     },
@@ -28462,7 +28467,7 @@
         "wgpu",
         "windows"
       ],
-      "stars": 2123,
+      "stars": 2129,
       "pushed_at": "2026-11-11T18:14:33Z",
       "created_at": "2026-10-18T18:08:48Z",
       "license": "NOASSERTION",
@@ -28666,6 +28671,11 @@
           "install": [
             "/plugin install raea@raea"
           ]
+        },
+        "files": {
+          "total": 50,
+          "scripts": [],
+          "script_count": 0
         }
       }
     },
@@ -28682,7 +28692,7 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3222,
+      "stars": 3235,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
@@ -28738,7 +28748,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 174,
+      "rank": 173,
       "rising_rank": 8,
       "age_days": 35,
       "rising_basis": "pace",
@@ -28941,6 +28951,16 @@
           "install": [
             "/plugin install founder-skill@founder-skill"
           ]
+        },
+        "files": {
+          "total": 19,
+          "scripts": [
+            "skills/founder-cfo/unit_economics.py",
+            "skills/founder-consumer/panel.py",
+            "skills/founder-plan/compile.py",
+            "skills/founder-pricing/van_westendorp.py"
+          ],
+          "script_count": 4
         }
       }
     },
@@ -28958,7 +28978,7 @@
         "motion-graphics",
         "video"
       ],
-      "stars": 4033,
+      "stars": 4035,
       "pushed_at": "2026-11-05T03:52:15Z",
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
@@ -29148,7 +29168,21 @@
             ]
           }
         ],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 114,
+          "scripts": [
+            "lib/motion.js",
+            "lib/ui_kit.js",
+            "scripts/analyze_ref.py",
+            "scripts/frame_diff.py",
+            "scripts/gallery.py",
+            "scripts/look.py",
+            "scripts/probe.py",
+            "scripts/record_footage.py"
+          ],
+          "script_count": 15
+        }
       }
     },
     {
@@ -29358,7 +29392,12 @@
           }
         },
         "guide": [],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 1,
+          "scripts": [],
+          "script_count": 0
+        }
       }
     },
     {
@@ -29376,7 +29415,7 @@
         "ui-design",
         "ux-design"
       ],
-      "stars": 3153,
+      "stars": 3154,
       "pushed_at": "2026-11-11T04:56:08Z",
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
@@ -29572,7 +29611,21 @@
             ]
           }
         ],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 54,
+          "scripts": [
+            "assets/vendor/alpine.min.js",
+            "scripts/build_explorer.py",
+            "scripts/check_update.py",
+            "scripts/check_update.sh",
+            "scripts/chrome.mjs",
+            "scripts/curate-media.mjs",
+            "scripts/measure_reference.py",
+            "scripts/oiloil-image.mjs"
+          ],
+          "script_count": 18
+        }
       }
     },
     {
@@ -29587,7 +29640,7 @@
         "claude-skills",
         "codex-skill"
       ],
-      "stars": 1965,
+      "stars": 1966,
       "pushed_at": "2026-11-11T15:34:09Z",
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
@@ -29767,7 +29820,21 @@
           }
         },
         "guide": [],
-        "marketplace": null
+        "marketplace": null,
+        "files": {
+          "total": 120,
+          "scripts": [
+            "skills/claude-guardian/assets/killswitch/switch.js",
+            "skills/claude-guardian/assets/killswitch/windows-network-transaction.ps1",
+            "skills/claude-guardian/assets/killswitch/windows-switch.ps1",
+            "skills/claude-guardian/assets/mac-killswitch/guardian-pf-killswitch.sh",
+            "skills/claude-guardian/assets/remote-hardening/flclash-crash-heal.sh",
+            "skills/claude-guardian/assets/remote-hardening/install-reverse-tunnel.sh",
+            "skills/claude-guardian/assets/vm-killswitch/enable-guest-ssh.sh",
+            "skills/claude-guardian/assets/vm-killswitch/install-flclash-killswitch.sh"
+          ],
+          "script_count": 41
+        }
       }
     }
   ]

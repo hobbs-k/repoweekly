@@ -1,7 +1,18 @@
 {
   "caru-ini/stack-diagram": {
+    "v": 2,
     "pushed_at": "2026-11-09T06:00:33Z",
     "sha": "5af3b095fff7109c905c5284dc510dc06588bade",
+    "files": {
+      "total": 19,
+      "scripts": [
+        "skills/stack-diagram/scripts/build.py",
+        "skills/stack-diagram/scripts/fetch_icons.py",
+        "skills/stack-diagram/scripts/render_png.py",
+        "skills/stack-diagram/scripts/share.py"
+      ],
+      "script_count": 4
+    },
     "repo": "stack-diagram",
     "skill": "stack-diagram",
     "install": {
@@ -163,8 +174,23 @@
     "marketplace": null
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
+    "v": 2,
     "pushed_at": "2026-11-10T23:53:26Z",
     "sha": "8ea31b5d39855fca73cf70be73eee251ac3084d2",
+    "files": {
+      "total": 92,
+      "scripts": [
+        "scripts/audit_evidence.py",
+        "scripts/build_pdf.py",
+        "scripts/check_gedcom.py",
+        "scripts/familysearch.py",
+        "scripts/familysearch_browser.py",
+        "scripts/gwar.py",
+        "scripts/hash_artifact.py",
+        "scripts/init_case.py"
+      ],
+      "script_count": 18
+    },
     "repo": "ex-ussr-kinship-research",
     "skill": "ex-ussr-kinship-research",
     "install": {
@@ -342,8 +368,23 @@
     "marketplace": null
   },
   "NiazMorshed2007/reanimate": {
+    "v": 2,
     "pushed_at": "2026-10-31T12:49:35Z",
     "sha": "3f7a55a2986a84ca2173e86ee9127eefe31d046d",
+    "files": {
+      "total": 19,
+      "scripts": [
+        "skills/reanimate/scripts/capture.ts",
+        "skills/reanimate/scripts/compare.ts",
+        "skills/reanimate/scripts/easing.ts",
+        "skills/reanimate/scripts/frames.ts",
+        "skills/reanimate/scripts/gl.ts",
+        "skills/reanimate/scripts/inpage/clock.js",
+        "skills/reanimate/scripts/inpage/gl-hooks.js",
+        "skills/reanimate/scripts/lib.ts"
+      ],
+      "script_count": 10
+    },
     "repo": "reanimate",
     "skill": "reanimate",
     "install": {
@@ -521,8 +562,14 @@
     "marketplace": null
   },
   "alchaincyf/huashu-motion": {
+    "v": 2,
     "pushed_at": "2026-11-10T00:15:11Z",
     "sha": "0272906902c33c796a81637545905ea7f2b81c5a",
+    "files": {
+      "total": 46,
+      "scripts": [],
+      "script_count": 0
+    },
     "repo": "huashu-motion",
     "skill": "huashu-motion",
     "install": {
@@ -684,8 +731,23 @@
     "marketplace": null
   },
   "daveebbelaar/bama": {
+    "v": 2,
     "pushed_at": "2026-11-05T13:09:56Z",
     "sha": "22dc792ea040a35270c219c669f626594267aa1f",
+    "files": {
+      "total": 104,
+      "scripts": [
+        "skills/code/agent-cli/scripts/add-agent-cli.sh",
+        "skills/code/agent-cli/scripts/check-agent-cli.sh",
+        "skills/design/mac-design/scripts/hig.sh",
+        "skills/plan/clone/scripts/window-shot.sh",
+        "skills/start/new-mac-app/scripts/new-app.sh",
+        "skills/start/new-mac-app/template/build.sh",
+        "skills/start/new-mac-app/template/tools/grid-lint.sh",
+        "skills/start/new-mac-app/template/tools/icon_review.sh"
+      ],
+      "script_count": 11
+    },
     "repo": "bama",
     "skill": "agent-cli",
     "install": {
@@ -902,8 +964,23 @@
     }
   },
   "morganlinton/BeautifulRust": {
+    "v": 2,
     "pushed_at": "2026-11-08T17:21:11Z",
     "sha": "b9718436d77ee7bcf17cdcb6aa27628feb95d97a",
+    "files": {
+      "total": 131,
+      "scripts": [
+        "skills/rust-best-practices/evals/bevy-arena-regen/files/src/lib.rs",
+        "skills/rust-best-practices/evals/bevy-arena-regen/files/tests/arena.rs",
+        "skills/rust-best-practices/evals/bevy-arena-regen/place-files.sh",
+        "skills/rust-best-practices/evals/refactor-inventory-module/files/inventory.rs",
+        "skills/rust-best-practices/evals/refactor-inventory-module/place-files.sh",
+        "skills/rust-port/evals/port-c-config-parser/place-files.sh",
+        "skills/rust-port/evals/port-python-task-graph/files/taskgraph.py",
+        "skills/rust-port/evals/port-python-task-graph/files/test_taskgraph.py"
+      ],
+      "script_count": 14
+    },
     "repo": "BeautifulRust",
     "skill": "rust-best-practices",
     "install": {
@@ -1074,8 +1151,14 @@
     }
   },
   "shinyobjectz/raea": {
+    "v": 2,
     "pushed_at": "2026-11-11T18:14:33Z",
     "sha": "cd6bb4083499e54472db612a702be4320a76c53a",
+    "files": {
+      "total": 50,
+      "scripts": [],
+      "script_count": 0
+    },
     "repo": "raea",
     "skill": "cli",
     "install": {
@@ -1262,8 +1345,19 @@
     }
   },
   "Jakeschincariol/founder-skill": {
+    "v": 2,
     "pushed_at": "2026-10-07T01:07:17Z",
     "sha": "fd9385b0cfe1b96bebce3898fbd506d73eff5a9d",
+    "files": {
+      "total": 19,
+      "scripts": [
+        "skills/founder-cfo/unit_economics.py",
+        "skills/founder-consumer/panel.py",
+        "skills/founder-plan/compile.py",
+        "skills/founder-pricing/van_westendorp.py"
+      ],
+      "script_count": 4
+    },
     "repo": "founder-skill",
     "skill": "founder-board",
     "install": {
@@ -1465,8 +1559,23 @@
     }
   },
   "feitangyuan/onetake": {
+    "v": 2,
     "pushed_at": "2026-11-05T03:52:15Z",
     "sha": "abb6d17279cdc749e27e99aa534a062d8fd01ced",
+    "files": {
+      "total": 114,
+      "scripts": [
+        "lib/motion.js",
+        "lib/ui_kit.js",
+        "scripts/analyze_ref.py",
+        "scripts/frame_diff.py",
+        "scripts/gallery.py",
+        "scripts/look.py",
+        "scripts/probe.py",
+        "scripts/record_footage.py"
+      ],
+      "script_count": 15
+    },
     "repo": "onetake",
     "skill": "onetake",
     "install": {
@@ -1639,8 +1748,14 @@
     "marketplace": null
   },
   "UnderleveledBuilder/awesome-short-drama-skills": {
+    "v": 2,
     "pushed_at": "2026-11-03T22:32:47Z",
     "sha": "9a1f686460c0a03cb0df40c3d2e55739568911dc",
+    "files": {
+      "total": 1,
+      "scripts": [],
+      "script_count": 0
+    },
     "repo": "awesome-short-drama-skills",
     "skill": "short-drama-skill-finder",
     "install": {
@@ -1802,8 +1917,23 @@
     "marketplace": null
   },
   "oil-oil/oil-ui": {
+    "v": 2,
     "pushed_at": "2026-11-11T04:56:08Z",
     "sha": "28948c3d88e5d141fa0e943ff385560c5ffba979",
+    "files": {
+      "total": 54,
+      "scripts": [
+        "assets/vendor/alpine.min.js",
+        "scripts/build_explorer.py",
+        "scripts/check_update.py",
+        "scripts/check_update.sh",
+        "scripts/chrome.mjs",
+        "scripts/curate-media.mjs",
+        "scripts/measure_reference.py",
+        "scripts/oiloil-image.mjs"
+      ],
+      "script_count": 18
+    },
     "repo": "oil-ui",
     "skill": "oil-ui",
     "install": {
@@ -1981,8 +2111,23 @@
     "marketplace": null
   },
   "DUNHKpcc/Claude-Guardian": {
+    "v": 2,
     "pushed_at": "2026-11-11T15:34:09Z",
     "sha": "ec53265c84131e26b7097498a5fe0680fdeffed7",
+    "files": {
+      "total": 120,
+      "scripts": [
+        "skills/claude-guardian/assets/killswitch/switch.js",
+        "skills/claude-guardian/assets/killswitch/windows-network-transaction.ps1",
+        "skills/claude-guardian/assets/killswitch/windows-switch.ps1",
+        "skills/claude-guardian/assets/mac-killswitch/guardian-pf-killswitch.sh",
+        "skills/claude-guardian/assets/remote-hardening/flclash-crash-heal.sh",
+        "skills/claude-guardian/assets/remote-hardening/install-reverse-tunnel.sh",
+        "skills/claude-guardian/assets/vm-killswitch/enable-guest-ssh.sh",
+        "skills/claude-guardian/assets/vm-killswitch/install-flclash-killswitch.sh"
+      ],
+      "script_count": 41
+    },
     "repo": "Claude-Guardian",
     "skill": "claude-guardian",
     "install": {
