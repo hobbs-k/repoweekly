@@ -432,6 +432,7 @@ li::marker { color: var(--phos); }
 .term-out { min-height: 14rem; max-height: 28rem; overflow-y: auto; padding: 0.9rem 1.1rem 0.5rem; cursor: text; }
 .term-out p { margin: 0 0 0.15rem; white-space: pre-wrap; overflow-wrap: anywhere; }
 .term-cmd { color: var(--phos); margin-top: 0.6rem !important; }
+.term-hint { margin: 0; padding: 0.5rem 1.1rem; border-top: 2px solid var(--frame); color: var(--ink-soft); }
 .term-form { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.4rem; }
 .term-ps { color: var(--phos); font-weight: 700; }
 .term-form input { flex: 1; min-width: 0; min-height: 2.75rem; background: transparent; border: 0; border-bottom: 2px solid var(--frame); color: var(--ink); font: inherit; }

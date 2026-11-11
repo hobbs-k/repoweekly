@@ -94,7 +94,7 @@ if (typeof document !== 'undefined') (async () => {
   scroller.addEventListener('click', (e) => { if (!getSelection().toString() && e.target.tagName !== 'INPUT') input.focus(); });
   const history = [];
   let at = 0;
-  print(repos ? 'RepoWeekly terminal. Type "help" for commands.' : 'The data is not published yet. Try again later.');
+  box.querySelector('.term-hint').textContent = repos ? 'RepoWeekly terminal. Type "help" for commands.' : 'The data is not published yet. Try again later.';
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const line = input.value;
