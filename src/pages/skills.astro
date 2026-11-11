@@ -20,6 +20,7 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
       <p class="lede">A skill is a folder with a <code>SKILL.md</code> file that teaches an AI coding agent how to do one task well. These are the skill repositories on GitHub that people are starring the most.</p>
       {data && data.mode === 'gain' && <p class="lede-soft">Ranked by stars gained in the last {data.span_days} days. As of {asOf}. Updated daily.</p>}
       {data && data.mode !== 'gain' && <p class="lede-soft">Ranked by total stars for now. {data.span_days === 0 ? "We only have today's numbers so far." : `We have ${data.span_days} ${data.span_days === 1 ? 'day' : 'days'} of history so far.`} Once we have a few days the list switches to stars gained, and the full 30-day view fills in over the month. As of {asOf}.</p>}
+      {rising.length > 0 && <p><a class="jump" href="#rising-title">See the rising skills and how to install them <span aria-hidden="true">↓</span></a></p>}
       <p class="notice"><strong>Read before you install.</strong> A skill can run commands and change files on your computer. Read the skill first, and only use ones you trust.</p>
     </section>
 
@@ -44,7 +45,7 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
     <div class="section-head"><h2>Most popular</h2><p>The big, well-known skill repositories, ranked by total stars.</p></div>
     {top.length > 0 ? (
       <ol class="entries" aria-label="Top skill repositories">
-        {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} />)}
+        {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} asOf={data.date} />)}
       </ol>
     ) : (
       <p class="notice">The first skills list appears after the next daily run.</p>

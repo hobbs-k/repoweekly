@@ -2,7 +2,9 @@
 import { fmt, fmtDate } from '../lib/format.js';
 
 // One skill repository in the top ten. Same window look as RepoEntry.
-const { item, mode, span } = Astro.props;
+const { item, mode, span, asOf } = Astro.props;
+const pushedDays = Math.max(0, Math.round((Date.parse(asOf) - Date.parse(item.pushed_at)) / 86400000));
+const updated = pushedDays === 0 ? 'today' : pushedDays === 1 ? 'yesterday' : `${pushedDays} days ago`;
 const [owner, name] = item.full_name.split('/');
 const shown = item.skills.slice(0, 8);
 const agentLabel = { claude: 'Claude', codex: 'Codex', cursor: 'Cursor', gemini: 'Gemini', copilot: 'Copilot', windsurf: 'Windsurf', opencode: 'OpenCode' };
@@ -25,6 +27,8 @@ const agentLabel = { claude: 'Claude', codex: 'Codex', cursor: 'Cursor', gemini:
         <p><span class="run">Who it is for</span>{item.summary.who_its_for}</p>
       </div>
     ) : item.description && <p class="entry-desc">{item.description}</p>}
+
+    <p class="muted agents-note">Last updated {updated}. We checked it on {fmtDate(asOf)}.</p>
 
     <details class="skill-list">
       <summary>{fmt(item.skill_count)} {item.skill_count === 1 ? 'skill' : 'skills'} inside</summary>

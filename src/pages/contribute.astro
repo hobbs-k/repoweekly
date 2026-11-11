@@ -8,6 +8,8 @@ import { href } from '../lib/format.js';
     <h1>Find something to contribute to</h1>
     <p>Type what you know, such as <em>Python, docs</em> or <em>React, tests</em>. We show open tickets that maintainers marked as good first issues or as wanted help. The matching runs in your browser. What you type is never sent anywhere.</p>
 
+    <p><a class="jump" href="#first-steps">New to open source? Your first pull request in 5 steps <span aria-hidden="true">↓</span></a></p>
+
     <form class="skills-form" data-src={href('/api/issues.json')} hidden>
       <label class="skills-field">Your skills
         <input type="text" name="skills" autocomplete="off" placeholder="Python, docs, CLI" />
@@ -24,7 +26,7 @@ import { href } from '../lib/format.js';
     <p><button type="button" class="more" hidden>Show more</button></p>
     <noscript><p>The matching needs JavaScript. <a href={href('/api/issues.json')}>The same tickets are in this JSON file.</a></p></noscript>
 
-    <h2>Your first contribution, step by step</h2>
+    <h2 id="first-steps">Your first contribution, step by step</h2>
     <ol class="steps">
       <li>Pick a ticket and read the repository's <code>CONTRIBUTING</code> file, if it has one. Comment on the ticket to say you would like to work on it, and wait for a yes if the maintainers ask for one.</li>
       <li>Fork the repository, which copies it to your own GitHub account.</li>

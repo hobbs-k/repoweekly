@@ -472,3 +472,10 @@ li::marker { color: var(--phos); }
 .notice-inline { margin: 0.5rem 0 0.8rem; padding: 0.6rem 0.8rem; border: 2px dashed var(--mark); font-size: 0.9375rem; overflow-wrap: anywhere; max-width: var(--measure); }
 .steps { max-width: var(--measure); padding-left: 1.4rem; }
 .steps li { margin: 0 0 0.5rem; }
+
+/* Jump links: a button-looking link that scrolls to a section on the same page. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.jump { display: inline-block; padding: 0.7rem 1.1rem; font-family: var(--mono); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.04em; text-decoration: none; color: var(--on-phos); background: var(--phos); border: 2px solid var(--phos); box-shadow: 4px 4px 0 var(--shadow); }
+.jump:hover { color: var(--phos); background: var(--ground); transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--shadow); }
+#first-steps, #rising-title { scroll-margin-top: 1rem; }
