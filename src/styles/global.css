@@ -479,3 +479,9 @@ html { scroll-behavior: smooth; }
 .jump { display: inline-block; padding: 0.7rem 1.1rem; font-family: var(--mono); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.04em; text-decoration: none; color: var(--on-phos); background: var(--phos); border: 2px solid var(--phos); box-shadow: 4px 4px 0 var(--shadow); }
 .jump:hover { color: var(--phos); background: var(--ground); transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--shadow); }
 #first-steps, #rising-title { scroll-margin-top: 1rem; }
+
+/* Scroll progress bar and back-to-top button. */
+.scroll-progress { position: fixed; inset: 0 0 auto 0; z-index: 50; height: 3px; background: var(--mark); transform: scaleX(0); transform-origin: left; pointer-events: none; }
+.to-top { position: fixed; right: 1.5rem; bottom: 1.5rem; z-index: 40; min-height: 2.75rem; padding: 0 1rem; font-family: var(--mono); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.04em; color: var(--on-phos); background: var(--phos); border: 2px solid var(--phos); box-shadow: 4px 4px 0 var(--shadow); cursor: pointer; }
+.to-top[hidden] { display: none; }
+@media (max-width: 47.99rem) { .to-top { display: none; } }

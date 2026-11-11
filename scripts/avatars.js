@@ -23,7 +23,10 @@ await run('avatars', async (log) => {
   let had = 0;
   let failed = 0;
   const seen = new Set();
-  for (const item of [...week.top, ...week.gems]) {
+  // The Skills page owners too: the top ten and the rising list.
+  const skills = readJson(path.join(config.paths.data, 'skills.json'));
+  const skillItems = [...(skills?.repos ?? []).slice(0, 10), ...(skills?.rising ?? [])].filter((r) => r.avatar);
+  for (const item of [...week.top, ...week.gems, ...skillItems]) {
     const owner = item.full_name.split('/')[0].toLowerCase();
     if (seen.has(owner)) continue;
     seen.add(owner);

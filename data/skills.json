@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-11T19:26:00.104Z",
+  "generated": "2026-11-11T19:54:30.994Z",
   "date": "2026-11-11",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "mode": "recent",
   "span_days": 0,
-  "searched": 954,
+  "searched": 955,
   "repos": [
     {
       "full_name": "morluto/rea",
@@ -33,11 +33,12 @@
         "touhou",
         "typescript"
       ],
-      "stars": 452312,
+      "stars": 452348,
       "pushed_at": "2026-11-11T18:09:47Z",
       "created_at": "2026-04-14T00:51:32Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -86,11 +87,12 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 193014,
+      "stars": 193029,
       "pushed_at": "2026-11-06T22:32:32Z",
       "created_at": "2025-09-22T15:53:31Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "skill_count": 20,
       "skills": [
         {
@@ -213,11 +215,12 @@
         "prompt-engineering",
         "yagni"
       ],
-      "stars": 189016,
+      "stars": 189032,
       "pushed_at": "2026-10-29T11:59:31Z",
       "created_at": "2026-06-12T00:52:37Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/137048761?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -319,11 +322,12 @@
         "sqlite",
         "supermemory"
       ],
-      "stars": 116162,
-      "pushed_at": "2026-11-11T19:11:21Z",
+      "stars": 116171,
+      "pushed_at": "2026-11-11T19:39:49Z",
       "created_at": "2025-08-31T20:50:03Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/683968?v=4",
       "skill_count": 47,
       "skills": [
         {
@@ -535,11 +539,12 @@
         "cursor",
         "skills"
       ],
-      "stars": 115784,
+      "stars": 115799,
       "pushed_at": "2026-11-01T19:24:49Z",
       "created_at": "2026-02-15T20:20:26Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
       "skill_count": 25,
       "skills": [
         {
@@ -686,11 +691,12 @@
         "ui-design",
         "web-design"
       ],
-      "stars": 113456,
+      "stars": 113471,
       "pushed_at": "2026-11-08T21:51:50Z",
       "created_at": "2026-02-19T21:44:05Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/219127460?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -738,11 +744,12 @@
         "project-management",
         "workflow-automation"
       ],
-      "stars": 113149,
-      "pushed_at": "2026-11-11T19:21:17Z",
+      "stars": 113151,
+      "pushed_at": "2026-11-11T19:50:42Z",
       "created_at": "2026-03-02T15:01:51Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
       "skill_count": 83,
       "skills": [
         {
@@ -949,11 +956,12 @@
         "design",
         "slop"
       ],
-      "stars": 108190,
-      "pushed_at": "2026-11-11T19:00:35Z",
+      "stars": 108206,
+      "pushed_at": "2026-11-11T19:46:42Z",
       "created_at": "2025-11-16T01:52:04Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
       "skill_count": 26,
       "skills": [
         {
@@ -1120,11 +1128,12 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 107200,
+      "stars": 107203,
       "pushed_at": "2026-11-11T18:05:44Z",
       "created_at": "2026-04-28T04:25:20Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
       "skill_count": 562,
       "skills": [
         {
@@ -1335,11 +1344,12 @@
         "system-design",
         "visualization"
       ],
-      "stars": 95602,
+      "stars": 95608,
       "pushed_at": "2026-11-11T05:01:27Z",
       "created_at": "2026-04-15T05:27:37Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -1404,11 +1414,12 @@
         "understandcode",
         "vibe-coding"
       ],
-      "stars": 92131,
+      "stars": 92136,
       "pushed_at": "2026-11-11T04:34:25Z",
       "created_at": "2026-03-15T02:30:51Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/257477979?v=4",
       "skill_count": 9,
       "skills": [
         {
@@ -1495,11 +1506,12 @@
         "open-source",
         "resume"
       ],
-      "stars": 81952,
+      "stars": 81954,
       "pushed_at": "2026-11-11T17:28:22Z",
       "created_at": "2026-04-04T18:21:18Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/323287742?v=4",
       "skill_count": 15,
       "skills": [
         {
@@ -1609,11 +1621,12 @@
         "skill",
         "workflow-automation"
       ],
-      "stars": 79269,
+      "stars": 79270,
       "pushed_at": "2026-09-18T07:16:11Z",
       "created_at": "2025-10-17T07:15:01Z",
       "license": null,
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
       "skill_count": 864,
       "skills": [
         {
@@ -1820,11 +1833,12 @@
         "tui",
         "typescript"
       ],
-      "stars": 70844,
-      "pushed_at": "2026-11-11T19:17:39Z",
+      "stars": 70845,
+      "pushed_at": "2026-11-11T19:46:34Z",
       "created_at": "2025-12-03T01:40:05Z",
       "license": "NOASSERTION",
       "default_branch": "dev",
+      "avatar": "https://avatars.githubusercontent.com/u/11153873?v=4",
       "skill_count": 61,
       "skills": [
         {
@@ -2049,11 +2063,12 @@
         "pakistani-developer",
         "vibe-coding"
       ],
-      "stars": 68971,
+      "stars": 68973,
       "pushed_at": "2026-11-11T13:17:24Z",
       "created_at": "2025-10-31T14:15:28Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/11731897?v=4",
       "skill_count": 9,
       "skills": [
         {
@@ -2128,11 +2143,12 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 67912,
+      "stars": 67924,
       "pushed_at": "2026-11-10T01:35:15Z",
       "created_at": "2026-01-18T05:30:15Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1672?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -2164,11 +2180,12 @@
         "mermaid",
         "svg"
       ],
-      "stars": 66497,
+      "stars": 66504,
       "pushed_at": "2026-11-10T22:44:09Z",
       "created_at": "2026-04-16T18:01:16Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -2199,11 +2216,12 @@
         "developer-tools",
         "productivity"
       ],
-      "stars": 60870,
+      "stars": 60873,
       "pushed_at": "2026-10-19T19:46:23Z",
       "created_at": "2026-05-13T20:42:06Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -2251,11 +2269,12 @@
         "seo",
         "skill-md"
       ],
-      "stars": 59742,
+      "stars": 59747,
       "pushed_at": "2026-11-11T17:49:23Z",
       "created_at": "2026-01-15T19:45:23Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/34802794?v=4",
       "skill_count": 53,
       "skills": [
         {
@@ -2463,11 +2482,12 @@
         "scientific-computing",
         "scientific-visualization"
       ],
-      "stars": 56836,
+      "stars": 56837,
       "pushed_at": "2026-11-09T09:17:48Z",
       "created_at": "2025-10-19T20:54:15Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
       "skill_count": 177,
       "skills": [
         {
@@ -2671,10 +2691,11 @@
         "ollama"
       ],
       "stars": 53435,
-      "pushed_at": "2026-11-11T19:20:52Z",
+      "pushed_at": "2026-11-11T19:48:02Z",
       "created_at": "2024-05-24T01:56:26Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/187777663?v=4",
       "skill_count": 41,
       "skills": [
         {
@@ -2879,11 +2900,12 @@
         "harness",
         "repository-level-context"
       ],
-      "stars": 49831,
+      "stars": 49834,
       "pushed_at": "2026-11-11T11:46:39Z",
       "created_at": "2026-05-18T02:16:36Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
       "skill_count": 4,
       "skills": [
         {
@@ -2945,6 +2967,7 @@
       "created_at": "2026-01-14T17:48:09Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/184072420?v=4",
       "skill_count": 9448,
       "skills": [
         {
@@ -3146,11 +3169,12 @@
         "self-hosted",
         "typescript"
       ],
-      "stars": 45632,
+      "stars": 45634,
       "pushed_at": "2026-11-11T17:12:31Z",
       "created_at": "2020-03-25T14:08:22Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/245328954?v=4",
       "skill_count": 34,
       "skills": [
         {
@@ -3333,11 +3357,12 @@
         "pi-coding-agent",
         "subagents"
       ],
-      "stars": 42418,
+      "stars": 42420,
       "pushed_at": "2026-11-09T01:08:33Z",
       "created_at": "2025-07-24T23:28:14Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/553618?v=4",
       "skill_count": 185,
       "skills": [
         {
@@ -3539,11 +3564,12 @@
         "hacktoberfest",
         "prompt-engineering"
       ],
-      "stars": 41046,
+      "stars": 41047,
       "pushed_at": "2026-11-11T05:41:32Z",
       "created_at": "2025-06-11T16:57:39Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
       "skill_count": 479,
       "skills": [
         {
@@ -3752,11 +3778,12 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 38057,
+      "stars": 38058,
       "pushed_at": "2026-11-10T00:41:13Z",
       "created_at": "2026-04-05T04:33:04Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 16,
       "skills": [
         {
@@ -3866,11 +3893,12 @@
         "self-study",
         "study-tools"
       ],
-      "stars": 37605,
+      "stars": 37606,
       "pushed_at": "2026-11-08T21:22:31Z",
       "created_at": "2026-05-01T02:09:39Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/23645449?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -3902,11 +3930,12 @@
         "mcp",
         "registry"
       ],
-      "stars": 33332,
+      "stars": 33334,
       "pushed_at": "2026-11-11T13:38:31Z",
       "created_at": "2025-07-04T01:26:26Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/6216945?v=4",
       "skill_count": 926,
       "skills": [
         {
@@ -4114,11 +4143,12 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 33245,
-      "pushed_at": "2026-11-11T19:10:04Z",
+      "stars": 33246,
+      "pushed_at": "2026-11-11T19:42:20Z",
       "created_at": "2023-08-16T16:16:33Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/125468716?v=4",
       "skill_count": 27,
       "skills": [
         {
@@ -4286,6 +4316,7 @@
       "created_at": "2026-03-02T19:46:06Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/3708359?v=4",
       "skill_count": 95,
       "skills": [
         {
@@ -4472,6 +4503,7 @@
       "created_at": "2026-01-31T15:47:22Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/255066954?v=4",
       "skill_count": 64,
       "skills": [
         {
@@ -4670,11 +4702,12 @@
         "openclaw-skills",
         "prompt-engineering"
       ],
-      "stars": 29646,
+      "stars": 29647,
       "pushed_at": "2026-11-11T06:17:50Z",
       "created_at": "2025-10-19T04:04:05Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
       "skill_count": 482,
       "skills": [
         {
@@ -4874,11 +4907,12 @@
         "slides",
         "ui-design"
       ],
-      "stars": 29246,
+      "stars": 29247,
       "pushed_at": "2026-11-10T00:16:14Z",
       "created_at": "2026-04-19T14:42:06Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -4921,11 +4955,12 @@
         "planning",
         "session-recovery"
       ],
-      "stars": 28009,
+      "stars": 28010,
       "pushed_at": "2026-11-11T16:58:59Z",
       "created_at": "2026-01-03T07:37:28Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/78882424?v=4",
       "skill_count": 18,
       "skills": [
         {
@@ -5031,6 +5066,7 @@
       "created_at": "2026-03-01T23:33:44Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/7837354?v=4",
       "skill_count": 72,
       "skills": [
         {
@@ -5223,11 +5259,12 @@
         "tool",
         "xiaohongshu"
       ],
-      "stars": 27592,
+      "stars": 27593,
       "pushed_at": "2026-11-11T02:41:02Z",
       "created_at": "2025-02-24T08:03:24Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
       "skill_count": 144,
       "skills": [
         {
@@ -5413,6 +5450,7 @@
       "created_at": "2026-01-13T03:04:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/648674?v=4",
       "skill_count": 22,
       "skills": [
         {
@@ -5534,11 +5572,12 @@
         "watermarking",
         "watermarks"
       ],
-      "stars": 27132,
+      "stars": 27134,
       "pushed_at": "2026-11-09T20:25:47Z",
       "created_at": "2026-08-11T16:32:38Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1385518?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -5569,11 +5608,12 @@
         "svg",
         "vizualization"
       ],
-      "stars": 26709,
+      "stars": 26715,
       "pushed_at": "2026-10-18T20:20:24Z",
       "created_at": "2026-10-08T10:12:49Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/96392276?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -5616,6 +5656,7 @@
       "created_at": "2026-03-30T05:22:23Z",
       "license": "MIT",
       "default_branch": "dot-skill",
+      "avatar": "https://avatars.githubusercontent.com/u/85022018?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -5657,11 +5698,12 @@
         "threejs",
         "webgpu"
       ],
-      "stars": 25447,
+      "stars": 25446,
       "pushed_at": "2026-11-11T19:09:26Z",
       "created_at": "2025-10-16T19:35:06Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/214160140?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -5707,11 +5749,12 @@
         "security-workflow",
         "supply-chain-security"
       ],
-      "stars": 25416,
+      "stars": 25426,
       "pushed_at": "2026-11-11T19:00:20Z",
       "created_at": "2026-03-21T00:28:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "skill_count": 33,
       "skills": [
         {
@@ -5881,11 +5924,12 @@
         "workflow-engine",
         "workflows"
       ],
-      "stars": 24894,
-      "pushed_at": "2026-11-11T19:14:03Z",
+      "stars": 24895,
+      "pushed_at": "2026-11-11T19:38:03Z",
       "created_at": "2020-10-24T07:27:48Z",
       "license": "NOASSERTION",
       "default_branch": "v3-develop",
+      "avatar": "https://avatars.githubusercontent.com/u/66196787?v=4",
       "skill_count": 42,
       "skills": [
         {
@@ -6074,11 +6118,12 @@
         "skills",
         "skills-sh"
       ],
-      "stars": 22543,
+      "stars": 22544,
       "pushed_at": "2026-11-11T12:37:51Z",
       "created_at": "2026-04-16T12:51:09Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
       "skill_count": 4,
       "skills": [
         {
@@ -6126,6 +6171,7 @@
       "created_at": "2026-04-06T07:37:02Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -6173,11 +6219,12 @@
         "launch-video",
         "video-generation"
       ],
-      "stars": 21071,
+      "stars": 21075,
       "pushed_at": "2026-10-23T21:18:13Z",
       "created_at": "2026-06-16T19:36:36Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/292754346?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -6221,6 +6268,7 @@
       "created_at": "2026-01-07T15:27:19Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/737447?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -6268,6 +6316,7 @@
       "created_at": "2026-03-10T07:31:45Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/76990859?v=4",
       "skill_count": 197,
       "skills": [
         {
@@ -6447,11 +6496,12 @@
         "agent-skills",
         "self-evolving-agents"
       ],
-      "stars": 19001,
+      "stars": 19002,
       "pushed_at": "2026-11-10T20:10:50Z",
       "created_at": "2026-05-08T06:41:01Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -6504,11 +6554,12 @@
         "video-generation",
         "video-production"
       ],
-      "stars": 18731,
+      "stars": 18734,
       "pushed_at": "2026-11-11T16:30:35Z",
       "created_at": "2026-07-19T11:44:41Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -6546,11 +6597,12 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 17560,
-      "pushed_at": "2026-11-11T15:23:19Z",
+      "stars": 17571,
+      "pushed_at": "2026-11-11T19:41:42Z",
       "created_at": "2026-09-13T16:31:06Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
       "skill_count": 14,
       "skills": [
         {
@@ -6636,6 +6688,7 @@
       "created_at": "2023-12-04T07:49:16Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/12542216?v=4",
       "skill_count": 18,
       "skills": [
         {
@@ -6747,6 +6800,7 @@
       "created_at": "2026-04-07T08:59:37Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "skill_count": 16,
       "skills": [
         {
@@ -6831,11 +6885,12 @@
         "llm",
         "prompt-engineering"
       ],
-      "stars": 15840,
+      "stars": 15841,
       "pushed_at": "2026-10-22T13:26:18Z",
       "created_at": "2026-03-11T16:25:43Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/254035488?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -6870,6 +6925,7 @@
       "created_at": "2025-07-29T15:56:02Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/163795819?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -6934,6 +6990,7 @@
       "created_at": "2025-10-17T14:43:48Z",
       "license": "MIT",
       "default_branch": "development",
+      "avatar": "https://avatars.githubusercontent.com/u/11597362?v=4",
       "skill_count": 26,
       "skills": [
         {
@@ -7074,11 +7131,12 @@
         "video-production",
         "webgl"
       ],
-      "stars": 14849,
+      "stars": 14854,
       "pushed_at": "2026-11-10T01:28:42Z",
       "created_at": "2026-09-26T10:10:41Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/97503247?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -7118,6 +7176,7 @@
       "created_at": "2025-07-29T01:54:40Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/217726889?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -7152,11 +7211,12 @@
         "skills",
         "vllm"
       ],
-      "stars": 14460,
+      "stars": 14461,
       "pushed_at": "2026-10-11T02:56:34Z",
       "created_at": "2025-11-03T06:13:06Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/255636098?v=4",
       "skill_count": 98,
       "skills": [
         {
@@ -7352,6 +7412,7 @@
       "created_at": "2024-12-17T01:59:22Z",
       "license": "Apache-2.0",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
       "skill_count": 15,
       "skills": [
         {
@@ -7441,6 +7502,7 @@
       "created_at": "2026-04-20T16:35:19Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/8736212?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -7476,6 +7538,7 @@
       "created_at": "2025-10-20T20:27:22Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/23423962?v=4",
       "skill_count": 67,
       "skills": [
         {
@@ -7671,6 +7734,7 @@
       "created_at": "2026-01-12T00:04:22Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/262650699?v=4",
       "skill_count": 24,
       "skills": [
         {
@@ -7789,11 +7853,12 @@
         "llm-agents",
         "python"
       ],
-      "stars": 10977,
+      "stars": 10978,
       "pushed_at": "2026-11-11T13:03:26Z",
       "created_at": "2026-06-09T21:05:42Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/285825190?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -7825,11 +7890,12 @@
         "paid-advertising",
         "ppc"
       ],
-      "stars": 10950,
+      "stars": 10952,
       "pushed_at": "2026-11-01T21:08:14Z",
       "created_at": "2026-02-11T13:01:49Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "skill_count": 34,
       "skills": [
         {
@@ -8007,6 +8073,7 @@
       "created_at": "2026-04-05T11:37:18Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -8056,6 +8123,7 @@
       "created_at": "2026-03-03T16:54:59Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -8095,6 +8163,7 @@
       "created_at": "2026-06-10T07:46:43Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/70992554?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -8126,6 +8195,7 @@
       "created_at": "2026-03-04T05:52:35Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/95986478?v=4",
       "skill_count": 79,
       "skills": [
         {
@@ -8327,6 +8397,7 @@
       "created_at": "2026-05-11T09:40:38Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
       "skill_count": 9,
       "skills": [
         {
@@ -8401,6 +8472,7 @@
       "created_at": "2026-02-02T09:12:57Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/52991404?v=4",
       "skill_count": 94,
       "skills": [
         {
@@ -8600,11 +8672,12 @@
         "seo-mcp",
         "seo-mcp-server"
       ],
-      "stars": 9285,
+      "stars": 9289,
       "pushed_at": "2026-10-27T08:57:55Z",
       "created_at": "2026-08-29T23:37:01Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/239315082?v=4",
       "skill_count": 8,
       "skills": [
         {
@@ -8663,11 +8736,12 @@
         "design-rules",
         "ui-design"
       ],
-      "stars": 8954,
+      "stars": 8956,
       "pushed_at": "2026-11-11T12:36:17Z",
       "created_at": "2026-08-07T10:29:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/226378907?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -8717,11 +8791,12 @@
         "reverse-engineering",
         "saas"
       ],
-      "stars": 8924,
+      "stars": 8933,
       "pushed_at": "2026-10-03T12:07:53Z",
       "created_at": "2026-10-03T12:07:49Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -8794,10 +8869,11 @@
         "typescript"
       ],
       "stars": 8820,
-      "pushed_at": "2026-11-11T19:17:07Z",
+      "pushed_at": "2026-11-11T19:52:04Z",
       "created_at": "2026-04-01T06:22:40Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/171890339?v=4",
       "skill_count": 97,
       "skills": [
         {
@@ -8992,11 +9068,12 @@
         "pi",
         "spec-driven-development"
       ],
-      "stars": 8785,
-      "pushed_at": "2026-11-11T19:04:44Z",
+      "stars": 8787,
+      "pushed_at": "2026-11-11T19:32:29Z",
       "created_at": "2026-02-27T23:28:01Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/97131605?v=4",
       "skill_count": 26,
       "skills": [
         {
@@ -9145,6 +9222,7 @@
       "created_at": "2026-05-04T22:18:51Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/162016108?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -9185,11 +9263,12 @@
         "writing-assistant",
         "zenstory"
       ],
-      "stars": 8525,
+      "stars": 8526,
       "pushed_at": "2026-11-11T03:19:52Z",
       "created_at": "2026-04-22T16:35:39Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/311489559?v=4",
       "skill_count": 14,
       "skills": [
         {
@@ -9286,6 +9365,7 @@
       "created_at": "2026-03-20T00:12:39Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/12096460?v=4",
       "skill_count": 21,
       "skills": [
         {
@@ -9410,11 +9490,12 @@
         "unity",
         "unreal"
       ],
-      "stars": 8345,
+      "stars": 8347,
       "pushed_at": "2026-11-11T16:39:49Z",
       "created_at": "2026-06-24T07:18:39Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/297345382?v=4",
       "skill_count": 80,
       "skills": [
         {
@@ -9608,11 +9689,12 @@
         "vibe-coding",
         "vibecoding"
       ],
-      "stars": 8165,
-      "pushed_at": "2026-11-11T19:12:06Z",
+      "stars": 8167,
+      "pushed_at": "2026-11-11T19:36:31Z",
       "created_at": "2026-07-08T07:40:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -9681,6 +9763,7 @@
       "created_at": "2026-01-14T18:23:21Z",
       "license": "CC-BY-SA-4.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2314423?v=4",
       "skill_count": 98,
       "skills": [
         {
@@ -9875,6 +9958,7 @@
       "created_at": "2026-05-27T12:05:05Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/13505770?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -9901,11 +9985,12 @@
         "pm-frameworks",
         "product-management"
       ],
-      "stars": 7971,
+      "stars": 7973,
       "pushed_at": "2026-10-16T01:51:12Z",
       "created_at": "2026-02-05T02:16:46Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/211423?v=4",
       "skill_count": 77,
       "skills": [
         {
@@ -10093,11 +10178,12 @@
         "web-scraper",
         "web-scraping"
       ],
-      "stars": 7908,
+      "stars": 7909,
       "pushed_at": "2026-11-08T10:51:13Z",
       "created_at": "2023-04-22T14:35:13Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/454718?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -10135,6 +10221,7 @@
       "created_at": "2026-04-26T07:34:32Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/33387665?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -10171,6 +10258,7 @@
       "created_at": "2026-03-12T00:35:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/8736212?v=4",
       "skill_count": 16,
       "skills": [
         {
@@ -10275,6 +10363,7 @@
       "created_at": "2024-02-19T11:04:30Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/132635806?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -10324,6 +10413,7 @@
       "created_at": "2025-08-25T03:57:40Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/228423313?v=4",
       "skill_count": 109,
       "skills": [
         {
@@ -10525,6 +10615,7 @@
       "created_at": "2025-08-05T09:26:27Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/224673167?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -10563,11 +10654,12 @@
         "meta-ads-mcp",
         "seo"
       ],
-      "stars": 7323,
+      "stars": 7330,
       "pushed_at": "2026-10-27T08:57:53Z",
       "created_at": "2026-01-21T10:15:35Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/231318361?v=4",
       "skill_count": 49,
       "skills": [
         {
@@ -10770,6 +10862,7 @@
       "created_at": "2026-06-16T13:20:01Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/292523741?v=4",
       "skill_count": 96,
       "skills": [
         {
@@ -10965,11 +11058,12 @@
         "video-generation",
         "vlm"
       ],
-      "stars": 6998,
+      "stars": 7001,
       "pushed_at": "2026-11-11T17:48:34Z",
       "created_at": "2026-10-29T16:15:01Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/60815510?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -10996,11 +11090,12 @@
         "day-trading",
         "stock-market"
       ],
-      "stars": 6980,
+      "stars": 6989,
       "pushed_at": "2026-10-20T14:18:00Z",
       "created_at": "2026-10-20T14:17:54Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -11069,11 +11164,12 @@
         "sprite-sheet",
         "vfx"
       ],
-      "stars": 6944,
+      "stars": 6952,
       "pushed_at": "2026-11-09T09:51:43Z",
       "created_at": "2026-10-30T06:43:25Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/337959018?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -11113,6 +11209,7 @@
       "created_at": "2026-04-13T08:57:49Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -11157,6 +11254,7 @@
       "created_at": "2026-09-18T08:51:34Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/72587513?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -11195,6 +11293,7 @@
       "created_at": "2026-07-16T11:17:49Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/260030037?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -11233,6 +11332,7 @@
       "created_at": "2026-10-06T04:49:37Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -11262,11 +11362,12 @@
         "logo-design",
         "svg"
       ],
-      "stars": 6620,
+      "stars": 6624,
       "pushed_at": "2026-11-06T07:40:27Z",
       "created_at": "2026-09-26T08:23:34Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/119437067?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -11302,6 +11403,7 @@
       "created_at": "2022-05-15T15:29:39Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/38157020?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -11341,6 +11443,7 @@
       "created_at": "2026-04-24T12:48:40Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/252882157?v=4",
       "skill_count": 7,
       "skills": [
         {
@@ -11412,6 +11515,7 @@
       "created_at": "2011-04-11T07:03:14Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/579995?v=4",
       "skill_count": 25,
       "skills": [
         {
@@ -11549,6 +11653,7 @@
       "created_at": "2025-02-14T01:56:51Z",
       "license": "Apache-2.0",
       "default_branch": "dev",
+      "avatar": "https://avatars.githubusercontent.com/u/195535817?v=4",
       "skill_count": 25,
       "skills": [
         {
@@ -11682,6 +11787,7 @@
       "created_at": "2026-06-07T01:16:18Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/648674?v=4",
       "skill_count": 25,
       "skills": [
         {
@@ -11825,6 +11931,7 @@
       "created_at": "2026-03-25T18:15:24Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1192743?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -11879,6 +11986,7 @@
       "created_at": "2026-02-06T10:35:35Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/255086931?v=4",
       "skill_count": 103,
       "skills": [
         {
@@ -12069,11 +12177,12 @@
         "social-media-research",
         "workflow-automation"
       ],
-      "stars": 6253,
+      "stars": 6254,
       "pushed_at": "2026-08-26T17:26:01Z",
       "created_at": "2026-06-06T21:47:43Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/272332798?v=4",
       "skill_count": 13,
       "skills": [
         {
@@ -12158,11 +12267,12 @@
         "llm",
         "ste100"
       ],
-      "stars": 6235,
+      "stars": 6236,
       "pushed_at": "2026-11-10T10:33:12Z",
       "created_at": "2026-10-02T09:57:40Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/41177312?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -12204,6 +12314,7 @@
       "created_at": "2026-04-22T11:27:21Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/72287536?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -12242,6 +12353,7 @@
       "created_at": "2026-04-14T06:21:51Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/175909011?v=4",
       "skill_count": 84,
       "skills": [
         {
@@ -12423,6 +12535,7 @@
       "created_at": "2026-01-28T05:59:03Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/11247099?v=4",
       "skill_count": 14,
       "skills": [
         {
@@ -12502,6 +12615,7 @@
       "created_at": "2026-08-12T13:48:50Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2755722?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -12526,6 +12640,7 @@
       "created_at": "2026-02-03T22:51:09Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/9141961?v=4",
       "skill_count": 116,
       "skills": [
         {
@@ -12725,6 +12840,7 @@
       "created_at": "2026-04-14T16:35:45Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/241980?v=4",
       "skill_count": 26,
       "skills": [
         {
@@ -12856,6 +12972,7 @@
       "created_at": "2026-08-11T18:02:07Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/169631528?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -12891,6 +13008,7 @@
       "created_at": "2026-04-23T20:52:52Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/148287731?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -12949,6 +13067,7 @@
       "created_at": "2026-05-05T11:22:32Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/49252733?v=4",
       "skill_count": 83,
       "skills": [
         {
@@ -13150,6 +13269,7 @@
       "created_at": "2026-07-03T02:50:10Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/243506841?v=4",
       "skill_count": 27,
       "skills": [
         {
@@ -13284,6 +13404,7 @@
       "created_at": "2025-11-01T16:04:15Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/76818625?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -13369,10 +13490,11 @@
         "vscode"
       ],
       "stars": 5410,
-      "pushed_at": "2026-11-11T19:21:57Z",
+      "pushed_at": "2026-11-11T19:48:26Z",
       "created_at": "2022-02-01T16:42:30Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/99899594?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -13462,6 +13584,7 @@
       "created_at": "2026-03-24T11:58:12Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/229805713?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -13502,6 +13625,7 @@
       "created_at": "2021-12-31T01:06:00Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/96894742?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -13543,11 +13667,12 @@
         "skills",
         "ui-design"
       ],
-      "stars": 5113,
+      "stars": 5114,
       "pushed_at": "2026-09-06T09:01:39Z",
       "created_at": "2026-08-13T07:19:54Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/313732614?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -13594,11 +13719,12 @@
         "video-editing",
         "whisper"
       ],
-      "stars": 5082,
+      "stars": 5083,
       "pushed_at": "2026-11-11T10:36:36Z",
       "created_at": "2026-09-03T14:33:38Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/20648875?v=4",
       "skill_count": 16,
       "skills": [
         {
@@ -13702,11 +13828,12 @@
         "tailwind",
         "web-scraping"
       ],
-      "stars": 5044,
+      "stars": 5045,
       "pushed_at": "2026-11-11T11:17:34Z",
       "created_at": "2026-04-15T10:11:22Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/144777973?v=4",
       "skill_count": 25,
       "skills": [
         {
@@ -13847,6 +13974,7 @@
       "created_at": "2026-04-03T06:31:20Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/199214463?v=4",
       "skill_count": 1262,
       "skills": [
         {
@@ -14041,6 +14169,7 @@
       "created_at": "2026-08-22T15:25:08Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/253835467?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -14087,6 +14216,7 @@
       "created_at": "2026-02-22T07:12:00Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/83945823?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -14127,6 +14257,7 @@
       "created_at": "2026-03-02T08:47:09Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/93952610?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -14179,6 +14310,7 @@
       "created_at": "2026-06-03T11:12:40Z",
       "license": "GPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/123133689?v=4",
       "skill_count": 18,
       "skills": [
         {
@@ -14293,6 +14425,7 @@
       "created_at": "2025-06-21T20:43:25Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/185730623?v=4",
       "skill_count": 78,
       "skills": [
         {
@@ -14483,6 +14616,7 @@
       "created_at": "2026-08-28T02:22:27Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/203928864?v=4",
       "skill_count": 118,
       "skills": [
         {
@@ -14668,10 +14802,11 @@
         "web"
       ],
       "stars": 4596,
-      "pushed_at": "2026-11-11T19:14:34Z",
+      "pushed_at": "2026-11-11T19:24:54Z",
       "created_at": "2026-07-06T16:31:11Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/276775852?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -14718,6 +14853,7 @@
       "created_at": "2026-02-10T02:37:59Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/53889513?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -14752,6 +14888,7 @@
       "created_at": "2026-08-05T01:19:41Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -14781,6 +14918,7 @@
       "created_at": "2026-10-13T03:09:42Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/131444687?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -14821,6 +14959,7 @@
       "created_at": "2026-07-01T04:28:03Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/30619280?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -14868,6 +15007,7 @@
       "created_at": "2026-05-26T13:26:00Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/97485362?v=4",
       "skill_count": 68,
       "skills": [
         {
@@ -15061,6 +15201,7 @@
       "created_at": "2026-05-04T06:24:37Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/51448688?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -15097,6 +15238,7 @@
       "created_at": "2026-03-27T06:39:58Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/151400691?v=4",
       "skill_count": 45,
       "skills": [
         {
@@ -15292,11 +15434,12 @@
         "video-prompts",
         "zenstory"
       ],
-      "stars": 4110,
+      "stars": 4111,
       "pushed_at": "2026-11-10T12:23:14Z",
       "created_at": "2026-07-16T16:11:19Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/311489559?v=4",
       "skill_count": 13,
       "skills": [
         {
@@ -15379,6 +15522,7 @@
       "created_at": "2026-06-09T23:24:51Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/287026406?v=4",
       "skill_count": 8,
       "skills": [
         {
@@ -15449,6 +15593,7 @@
       "created_at": "2026-04-14T07:49:54Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/256431776?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -15489,10 +15634,11 @@
         "yaml"
       ],
       "stars": 4057,
-      "pushed_at": "2026-11-11T19:15:42Z",
+      "pushed_at": "2026-11-11T19:23:54Z",
       "created_at": "2019-05-29T08:01:32Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/326153011?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -15527,6 +15673,7 @@
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/251547459?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -15564,6 +15711,7 @@
       "created_at": "2026-05-27T02:30:34Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/7244317?v=4",
       "skill_count": 61,
       "skills": [
         {
@@ -15760,6 +15908,7 @@
       "created_at": "2025-01-18T20:39:51Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1936278?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -15805,6 +15954,7 @@
       "created_at": "2026-02-25T21:54:05Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "skill_count": 450,
       "skills": [
         {
@@ -16000,11 +16150,12 @@
         "skill-management",
         "skills"
       ],
-      "stars": 3855,
+      "stars": 3856,
       "pushed_at": "2026-11-09T14:06:42Z",
       "created_at": "2026-02-15T19:18:12Z",
       "license": "CC-BY-4.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/261660926?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -16049,6 +16200,7 @@
       "created_at": "2026-03-21T23:10:11Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2951285?v=4",
       "skill_count": 46,
       "skills": [
         {
@@ -16224,6 +16376,61 @@
       "rank": 152
     },
     {
+      "full_name": "lennney/stop-that-shit",
+      "url": "https://github.com/lennney/stop-that-shit",
+      "description": "Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes, checksums, and task-scope creep.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "codex-plugin",
+        "developer-tools",
+        "guardrails",
+        "hermes-agent",
+        "local-first",
+        "opencode",
+        "overengineering",
+        "scope-control",
+        "yagni"
+      ],
+      "stars": 3818,
+      "pushed_at": "2026-11-10T05:55:32Z",
+      "created_at": "2026-08-11T15:31:45Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/94768569?v=4",
+      "skill_count": 4,
+      "skills": [
+        {
+          "name": "stop-that-shit",
+          "path": "codex-plugin/skills/stop-that-shit/SKILL.md"
+        },
+        {
+          "name": "stss",
+          "path": "codex-plugin/skills/stss/SKILL.md"
+        },
+        {
+          "name": "stop-that-shit",
+          "path": "skills/stop-that-shit/SKILL.md"
+        },
+        {
+          "name": "stss",
+          "path": "skills/stss/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex",
+        "opencode"
+      ],
+      "gained": null,
+      "rank": 153
+    },
+    {
       "full_name": "foryourhealth111-pixel/Vibe-Skills",
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "description": "Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.",
@@ -16255,6 +16462,7 @@
       "created_at": "2026-02-22T13:51:44Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/251585801?v=4",
       "skill_count": 258,
       "skills": [
         {
@@ -16423,60 +16631,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 153
-    },
-    {
-      "full_name": "lennney/stop-that-shit",
-      "url": "https://github.com/lennney/stop-that-shit",
-      "description": "Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes, checksums, and task-scope creep.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "ai-coding",
-        "claude-code",
-        "codex",
-        "codex-cli",
-        "codex-plugin",
-        "developer-tools",
-        "guardrails",
-        "hermes-agent",
-        "local-first",
-        "opencode",
-        "overengineering",
-        "scope-control",
-        "yagni"
-      ],
-      "stars": 3816,
-      "pushed_at": "2026-11-10T05:55:32Z",
-      "created_at": "2026-08-11T15:31:45Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 4,
-      "skills": [
-        {
-          "name": "stop-that-shit",
-          "path": "codex-plugin/skills/stop-that-shit/SKILL.md"
-        },
-        {
-          "name": "stss",
-          "path": "codex-plugin/skills/stss/SKILL.md"
-        },
-        {
-          "name": "stop-that-shit",
-          "path": "skills/stop-that-shit/SKILL.md"
-        },
-        {
-          "name": "stss",
-          "path": "skills/stss/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex",
-        "opencode"
-      ],
-      "gained": null,
       "rank": 154
     },
     {
@@ -16511,6 +16665,7 @@
       "created_at": "2026-01-11T06:36:13Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/24422856?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -16552,6 +16707,7 @@
       "created_at": "2026-08-28T05:56:49Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/44753291?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -16611,6 +16767,7 @@
       "created_at": "2025-07-17T04:41:37Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/75576618?v=4",
       "skill_count": 154,
       "skills": [
         {
@@ -16813,6 +16970,7 @@
       "created_at": "2025-04-13T01:41:33Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/102277171?v=4",
       "skill_count": 7,
       "skills": [
         {
@@ -16874,6 +17032,7 @@
       "created_at": "2025-07-25T02:26:45Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/138992?v=4",
       "skill_count": 423,
       "skills": [
         {
@@ -17073,6 +17232,7 @@
       "created_at": "2026-04-06T06:20:10Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/29639685?v=4",
       "skill_count": 40,
       "skills": [
         {
@@ -17271,11 +17431,12 @@
         "video-generation",
         "zbrush"
       ],
-      "stars": 3687,
+      "stars": 3689,
       "pushed_at": "2026-11-11T16:57:05Z",
       "created_at": "2026-08-12T10:08:49Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/71755875?v=4",
       "skill_count": 179,
       "skills": [
         {
@@ -17470,6 +17631,7 @@
       "created_at": "2026-02-01T23:49:52Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/380707?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -17562,6 +17724,7 @@
       "created_at": "2025-08-17T14:45:39Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/33235742?v=4",
       "skill_count": 15,
       "skills": [
         {
@@ -17655,6 +17818,7 @@
       "created_at": "2026-08-19T06:07:45Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/232981236?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -17684,6 +17848,7 @@
       "created_at": "2026-03-13T23:56:06Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/14026360?v=4",
       "skill_count": 26,
       "skills": [
         {
@@ -17811,11 +17976,12 @@
         "content-marketing",
         "linkedin"
       ],
-      "stars": 3460,
+      "stars": 3461,
       "pushed_at": "2026-09-17T11:27:52Z",
       "created_at": "2026-09-07T22:58:16Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -17890,6 +18056,7 @@
       "created_at": "2026-03-31T12:56:05Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/130897584?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -17933,6 +18100,7 @@
       "created_at": "2026-09-23T06:13:06Z",
       "license": "GPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/332792686?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -18011,6 +18179,7 @@
       "created_at": "2023-04-02T14:00:07Z",
       "license": "CC0-1.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/12726223?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -18055,6 +18224,7 @@
       "created_at": "2025-10-19T21:33:51Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/9823496?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -18097,6 +18267,7 @@
       "created_at": "2026-04-16T16:58:19Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/702108?v=4",
       "skill_count": 14,
       "skills": [
         {
@@ -18182,6 +18353,7 @@
       "created_at": "2026-06-12T14:44:22Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/259970374?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -18212,11 +18384,12 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3235,
+      "stars": 3240,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -18300,6 +18473,7 @@
       "created_at": "2026-09-08T17:19:54Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -18333,6 +18507,7 @@
       "created_at": "2026-01-16T18:34:20Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "skill_count": 211,
       "skills": [
         {
@@ -18523,11 +18698,12 @@
         "ux",
         "wcag"
       ],
-      "stars": 3160,
+      "stars": 3161,
       "pushed_at": "2026-11-10T07:20:20Z",
       "created_at": "2026-03-16T13:08:49Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/5790381?v=4",
       "skill_count": 27,
       "skills": [
         {
@@ -18665,6 +18841,7 @@
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -18711,6 +18888,7 @@
       "created_at": "2025-12-18T03:35:29Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/139607425?v=4",
       "skill_count": 120,
       "skills": [
         {
@@ -18898,6 +19076,7 @@
       "created_at": "2026-01-18T10:53:04Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -18963,6 +19142,7 @@
       "created_at": "2026-07-15T02:49:42Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/151105947?v=4",
       "skill_count": 31,
       "skills": [
         {
@@ -19123,6 +19303,7 @@
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/72681409?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -19170,6 +19351,7 @@
       "created_at": "2026-07-22T00:34:24Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/307182956?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -19211,11 +19393,12 @@
         "workflow",
         "worktrees"
       ],
-      "stars": 2951,
+      "stars": 2952,
       "pushed_at": "2026-09-29T10:12:13Z",
       "created_at": "2026-02-01T19:47:29Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/48523873?v=4",
       "skill_count": 41,
       "skills": [
         {
@@ -19416,6 +19599,7 @@
       "created_at": "2025-10-10T01:01:00Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/213859472?v=4",
       "skill_count": 5764,
       "skills": [
         {
@@ -19611,11 +19795,12 @@
         "skills",
         "web-animation"
       ],
-      "stars": 2875,
+      "stars": 2876,
       "pushed_at": "2026-10-04T14:54:13Z",
       "created_at": "2026-08-07T12:36:33Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -19648,6 +19833,7 @@
       "created_at": "2026-08-16T10:35:30Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/252342592?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -19690,6 +19876,7 @@
       "created_at": "2025-03-08T15:31:51Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/20573295?v=4",
       "skill_count": 4,
       "skills": [
         {
@@ -19744,6 +19931,7 @@
       "created_at": "2026-07-10T15:32:05Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/68321694?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -19777,6 +19965,7 @@
       "created_at": "2026-03-31T11:59:35Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/266242792?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -19803,6 +19992,7 @@
       "created_at": "2026-01-29T01:31:32Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/220944709?v=4",
       "skill_count": 38,
       "skills": [
         {
@@ -19989,11 +20179,12 @@
         "open-source",
         "seo"
       ],
-      "stars": 2717,
+      "stars": 2718,
       "pushed_at": "2026-11-03T00:20:12Z",
       "created_at": "2026-02-17T22:40:44Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "skill_count": 33,
       "skills": [
         {
@@ -20163,6 +20354,7 @@
       "created_at": "2026-01-29T13:54:15Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/138923546?v=4",
       "skill_count": 196,
       "skills": [
         {
@@ -20359,6 +20551,7 @@
       "created_at": "2026-10-18T12:19:27Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -20405,6 +20598,7 @@
       "created_at": "2026-06-12T04:25:17Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/64394910?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -20446,6 +20640,7 @@
       "created_at": "2026-06-14T10:35:48Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/7650147?v=4",
       "skill_count": 20,
       "skills": [
         {
@@ -20568,6 +20763,7 @@
       "created_at": "2026-03-22T17:22:11Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/15335422?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -20608,6 +20804,7 @@
       "created_at": "2026-02-05T17:51:26Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/1733696?v=4",
       "skill_count": 6,
       "skills": [
         {
@@ -20661,6 +20858,7 @@
       "created_at": "2025-12-29T05:00:00Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/162280666?v=4",
       "skill_count": 20,
       "skills": [
         {
@@ -20784,6 +20982,7 @@
       "created_at": "2025-12-09T20:33:03Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/116197983?v=4",
       "skill_count": 16,
       "skills": [
         {
@@ -20888,6 +21087,7 @@
       "created_at": "2026-08-26T16:23:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/131418633?v=4",
       "skill_count": 15,
       "skills": [
         {
@@ -20976,11 +21176,12 @@
         "game-development",
         "mcp"
       ],
-      "stars": 2500,
+      "stars": 2503,
       "pushed_at": "2026-11-06T08:42:41Z",
       "created_at": "2026-07-05T08:36:06Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/95240136?v=4",
       "skill_count": 188,
       "skills": [
         {
@@ -21169,6 +21370,7 @@
       "created_at": "2026-01-07T13:37:31Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/24586296?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -21218,6 +21420,7 @@
       "created_at": "2026-01-15T18:26:37Z",
       "license": "NOASSERTION",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/393243?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -21255,6 +21458,7 @@
       "created_at": "2026-05-15T21:32:21Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -21291,6 +21495,7 @@
       "created_at": "2025-10-18T15:01:46Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/19800931?v=4",
       "skill_count": 7,
       "skills": [
         {
@@ -21359,6 +21564,7 @@
       "created_at": "2026-07-13T08:57:38Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/272203551?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -21403,6 +21609,7 @@
       "created_at": "2026-08-20T19:16:16Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/271766966?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -21458,6 +21665,7 @@
       "created_at": "2026-06-21T11:33:57Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/260144904?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -21503,6 +21711,7 @@
       "created_at": "2011-10-14T21:44:30Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/24832801?v=4",
       "skill_count": 14,
       "skills": [
         {
@@ -21583,11 +21792,12 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2360,
+      "stars": 2361,
       "pushed_at": "2026-11-09T06:00:33Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/166897461?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -21617,11 +21827,12 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2354,
+      "stars": 2355,
       "pushed_at": "2026-11-10T23:53:26Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -21657,6 +21868,7 @@
       "created_at": "2026-07-06T22:35:18Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/94783820?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -21712,10 +21924,11 @@
         "training"
       ],
       "stars": 2310,
-      "pushed_at": "2026-11-11T18:49:11Z",
+      "pushed_at": "2026-11-11T19:44:33Z",
       "created_at": "2022-01-04T10:29:46Z",
       "license": "MPL-2.0",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/54146142?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -21759,6 +21972,7 @@
       "created_at": "2026-08-22T17:11:05Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -21772,6 +21986,106 @@
       ],
       "gained": null,
       "rank": 214
+    },
+    {
+      "full_name": "Gentleman-Programming/gentle-shell",
+      "url": "https://github.com/Gentleman-Programming/gentle-shell",
+      "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
+      "language": "TypeScript",
+      "topics": [
+        "agent-harness",
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "ai-coding-agent",
+        "code-review",
+        "coding-agents",
+        "developer-tools",
+        "gentle-ai",
+        "gentle-shell-package",
+        "llm",
+        "mcp",
+        "openspec",
+        "pi",
+        "pi-coding-agent",
+        "rdd",
+        "sdd",
+        "spec-driven-development",
+        "subagents",
+        "tdd"
+      ],
+      "stars": 2264,
+      "pushed_at": "2026-11-11T19:49:16Z",
+      "created_at": "2026-05-10T10:11:33Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/97131605?v=4",
+      "skill_count": 15,
+      "skills": [
+        {
+          "name": "branch-pr",
+          "path": "skills/branch-pr/SKILL.md"
+        },
+        {
+          "name": "chained-pr",
+          "path": "skills/chained-pr/SKILL.md"
+        },
+        {
+          "name": "cognitive-doc-design",
+          "path": "skills/cognitive-doc-design/SKILL.md"
+        },
+        {
+          "name": "comment-writer",
+          "path": "skills/comment-writer/SKILL.md"
+        },
+        {
+          "name": "design",
+          "path": "skills/design/SKILL.md"
+        },
+        {
+          "name": "gentle-ai",
+          "path": "skills/gentle-ai/SKILL.md"
+        },
+        {
+          "name": "gentle-ui-design",
+          "path": "skills/gentle-ui-design/SKILL.md"
+        },
+        {
+          "name": "issue-creation",
+          "path": "skills/issue-creation/SKILL.md"
+        },
+        {
+          "name": "judgment-day",
+          "path": "skills/judgment-day/SKILL.md"
+        },
+        {
+          "name": "rdd-defect-workflow",
+          "path": "skills/rdd-defect-workflow/SKILL.md"
+        },
+        {
+          "name": "skill-creator",
+          "path": "skills/skill-creator/SKILL.md"
+        },
+        {
+          "name": "skill-improver",
+          "path": "skills/skill-improver/SKILL.md"
+        },
+        {
+          "name": "skill-registry",
+          "path": "skills/skill-registry/SKILL.md"
+        },
+        {
+          "name": "tui-design",
+          "path": "skills/tui-design/SKILL.md"
+        },
+        {
+          "name": "work-unit-commits",
+          "path": "skills/work-unit-commits/SKILL.md"
+        }
+      ],
+      "agents": [],
+      "gained": null,
+      "rank": 215
     },
     {
       "full_name": "alchaincyf/huashu-skills",
@@ -21797,6 +22111,7 @@
       "created_at": "2026-01-24T01:11:07Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 22,
       "skills": [
         {
@@ -21894,105 +22209,6 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 215
-    },
-    {
-      "full_name": "Gentleman-Programming/gentle-shell",
-      "url": "https://github.com/Gentleman-Programming/gentle-shell",
-      "description": "Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel coding agents, live tasks, Git diffs, persistent memory, and permission controls into one terminal interface. Powered by Gentle AI and Organic Driven Development (ODD).",
-      "language": "TypeScript",
-      "topics": [
-        "agent-harness",
-        "agent-skills",
-        "ai-agents",
-        "ai-coding",
-        "ai-coding-agent",
-        "code-review",
-        "coding-agents",
-        "developer-tools",
-        "gentle-ai",
-        "gentle-shell-package",
-        "llm",
-        "mcp",
-        "openspec",
-        "pi",
-        "pi-coding-agent",
-        "rdd",
-        "sdd",
-        "spec-driven-development",
-        "subagents",
-        "tdd"
-      ],
-      "stars": 2260,
-      "pushed_at": "2026-11-11T19:19:06Z",
-      "created_at": "2026-05-10T10:11:33Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 15,
-      "skills": [
-        {
-          "name": "branch-pr",
-          "path": "skills/branch-pr/SKILL.md"
-        },
-        {
-          "name": "chained-pr",
-          "path": "skills/chained-pr/SKILL.md"
-        },
-        {
-          "name": "cognitive-doc-design",
-          "path": "skills/cognitive-doc-design/SKILL.md"
-        },
-        {
-          "name": "comment-writer",
-          "path": "skills/comment-writer/SKILL.md"
-        },
-        {
-          "name": "design",
-          "path": "skills/design/SKILL.md"
-        },
-        {
-          "name": "gentle-ai",
-          "path": "skills/gentle-ai/SKILL.md"
-        },
-        {
-          "name": "gentle-ui-design",
-          "path": "skills/gentle-ui-design/SKILL.md"
-        },
-        {
-          "name": "issue-creation",
-          "path": "skills/issue-creation/SKILL.md"
-        },
-        {
-          "name": "judgment-day",
-          "path": "skills/judgment-day/SKILL.md"
-        },
-        {
-          "name": "rdd-defect-workflow",
-          "path": "skills/rdd-defect-workflow/SKILL.md"
-        },
-        {
-          "name": "skill-creator",
-          "path": "skills/skill-creator/SKILL.md"
-        },
-        {
-          "name": "skill-improver",
-          "path": "skills/skill-improver/SKILL.md"
-        },
-        {
-          "name": "skill-registry",
-          "path": "skills/skill-registry/SKILL.md"
-        },
-        {
-          "name": "tui-design",
-          "path": "skills/tui-design/SKILL.md"
-        },
-        {
-          "name": "work-unit-commits",
-          "path": "skills/work-unit-commits/SKILL.md"
-        }
-      ],
-      "agents": [],
-      "gained": null,
       "rank": 216
     },
     {
@@ -22021,6 +22237,7 @@
       "created_at": "2026-04-05T19:53:06Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/272133849?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -22056,6 +22273,7 @@
       "created_at": "2026-05-27T02:01:16Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/60815510?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -22098,6 +22316,7 @@
       "created_at": "2026-03-03T07:46:57Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/109292896?v=4",
       "skill_count": 4,
       "skills": [
         {
@@ -22140,11 +22359,12 @@
         "kotlin",
         "kotlin-multiplatform"
       ],
-      "stars": 2230,
+      "stars": 2232,
       "pushed_at": "2026-10-29T04:27:53Z",
       "created_at": "2026-08-20T08:46:15Z",
       "license": "GPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/113747128?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -22230,6 +22450,7 @@
       "created_at": "2026-10-13T20:35:18Z",
       "license": "CC0-1.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/20830358?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -22271,6 +22492,7 @@
       "created_at": "2026-03-02T02:02:25Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/121472001?v=4",
       "skill_count": 3451,
       "skills": [
         {
@@ -22468,6 +22690,7 @@
       "created_at": "2026-10-12T07:11:01Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/24306647?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -22521,6 +22744,7 @@
       "created_at": "2025-10-18T08:30:23Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/12452009?v=4",
       "skill_count": 7,
       "skills": [
         {
@@ -22586,11 +22810,12 @@
         "wgpu",
         "windows"
       ],
-      "stars": 2129,
+      "stars": 2133,
       "pushed_at": "2026-11-11T18:14:33Z",
       "created_at": "2026-10-18T18:08:48Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/198368214?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -22626,6 +22851,7 @@
       "created_at": "2026-03-23T10:10:39Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/40333372?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -22670,6 +22896,7 @@
       "created_at": "2026-03-31T08:13:20Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/153301783?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -22708,6 +22935,7 @@
       "created_at": "2026-07-12T05:54:55Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/9904?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -22752,6 +22980,7 @@
       "created_at": "2026-04-11T03:50:12Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/275206488?v=4",
       "skill_count": 10,
       "skills": [
         {
@@ -22823,6 +23052,7 @@
       "created_at": "2025-10-22T06:42:09Z",
       "license": null,
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/267807433?v=4",
       "skill_count": 23,
       "skills": [
         {
@@ -22941,6 +23171,7 @@
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/181722286?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -22983,6 +23214,7 @@
       "created_at": "2026-07-13T07:31:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -23014,6 +23246,7 @@
       "created_at": "2026-01-03T20:51:36Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/774131?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -23026,6 +23259,56 @@
       ],
       "gained": null,
       "rank": 233
+    },
+    {
+      "full_name": "OpenOSINT/OpenOSINT",
+      "url": "https://github.com/OpenOSINT/OpenOSINT",
+      "description": "The OSINT toolkit for AI agents: Agent Skill, MCP server and CLI. Passive by default, no API keys to start, every finding cites its tool call.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cli",
+        "cybersecurity",
+        "dmarc",
+        "holehe",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "osint",
+        "osint-tools",
+        "reconnaissance",
+        "security-tools",
+        "sherlock",
+        "threat-intelligence"
+      ],
+      "stars": 1923,
+      "pushed_at": "2026-11-05T12:47:58Z",
+      "created_at": "2026-05-06T11:12:42Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/281987694?v=4",
+      "skill_count": 2,
+      "skills": [
+        {
+          "name": "exposure",
+          "path": "skills/exposure/SKILL.md"
+        },
+        {
+          "name": "osint",
+          "path": "skills/osint/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 234
     },
     {
       "full_name": "XiaoMaColtAI/math-modeling-skill",
@@ -23049,6 +23332,7 @@
       "created_at": "2026-01-24T03:29:18Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/153588766?v=4",
       "skill_count": 20,
       "skills": [
         {
@@ -23137,55 +23421,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 234
-    },
-    {
-      "full_name": "OpenOSINT/OpenOSINT",
-      "url": "https://github.com/OpenOSINT/OpenOSINT",
-      "description": "The OSINT toolkit for AI agents: Agent Skill, MCP server and CLI. Passive by default, no API keys to start, every finding cites its tool call.",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "ai-agent",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cli",
-        "cybersecurity",
-        "dmarc",
-        "holehe",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "osint",
-        "osint-tools",
-        "reconnaissance",
-        "security-tools",
-        "sherlock",
-        "threat-intelligence"
-      ],
-      "stars": 1922,
-      "pushed_at": "2026-11-05T12:47:58Z",
-      "created_at": "2026-05-06T11:12:42Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 2,
-      "skills": [
-        {
-          "name": "exposure",
-          "path": "skills/exposure/SKILL.md"
-        },
-        {
-          "name": "osint",
-          "path": "skills/osint/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 235
     },
     {
@@ -23219,6 +23454,7 @@
       "created_at": "2026-01-05T15:26:53Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/197881114?v=4",
       "skill_count": 2118,
       "skills": [
         {
@@ -23408,6 +23644,7 @@
       "created_at": "2026-01-17T06:43:21Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/216806946?v=4",
       "skill_count": 13,
       "skills": [
         {
@@ -23497,6 +23734,7 @@
       "created_at": "2025-07-23T16:40:10Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/8986001?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -23574,6 +23812,7 @@
       "created_at": "2026-01-25T03:31:21Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/17956058?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -23651,6 +23890,7 @@
       "created_at": "2026-06-23T03:07:25Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/90394100?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -23684,11 +23924,12 @@
         "legal-ai",
         "legaltech"
       ],
-      "stars": 1823,
+      "stars": 1824,
       "pushed_at": "2026-11-11T16:44:52Z",
       "created_at": "2026-05-18T16:43:56Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/39582916?v=4",
       "skill_count": 18863,
       "skills": [
         {
@@ -23885,10 +24126,11 @@
         "typescript"
       ],
       "stars": 1795,
-      "pushed_at": "2026-11-11T18:03:23Z",
+      "pushed_at": "2026-11-11T19:51:07Z",
       "created_at": "2026-03-21T10:34:18Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/295542747?v=4",
       "skill_count": 7,
       "skills": [
         {
@@ -23950,6 +24192,7 @@
       "created_at": "2026-10-23T03:01:11Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/41390763?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -23991,6 +24234,7 @@
       "created_at": "2026-06-20T04:27:07Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/235843849?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -24029,6 +24273,7 @@
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/34709402?v=4",
       "skill_count": 21,
       "skills": [
         {
@@ -24142,6 +24387,7 @@
       "created_at": "2026-07-13T07:06:42Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/648674?v=4",
       "skill_count": 31,
       "skills": [
         {
@@ -24302,6 +24548,7 @@
       "created_at": "2026-06-11T14:48:30Z",
       "license": "MIT",
       "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/21954802?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -24335,6 +24582,7 @@
       "created_at": "2026-08-11T03:50:30Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/6506427?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -24373,6 +24621,7 @@
       "created_at": "2026-02-16T14:15:27Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -24411,6 +24660,7 @@
       "created_at": "2026-01-07T09:19:00Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/4329185?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -24443,6 +24693,7 @@
       "created_at": "2025-07-13T06:16:21Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/264669564?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -24487,6 +24738,7 @@
       "created_at": "2026-02-06T17:29:50Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/4849139?v=4",
       "skill_count": 105,
       "skills": [
         {
@@ -24675,6 +24927,7 @@
       "created_at": "2026-10-14T21:12:28Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -24760,6 +25013,7 @@
       "created_at": "2022-03-13T04:47:49Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/99465091?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -24797,6 +25051,7 @@
       "created_at": "2025-07-18T06:22:12Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/676637?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -24887,6 +25142,7 @@
       "created_at": "2025-10-14T08:00:48Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/4585708?v=4",
       "skill_count": 31,
       "skills": [
         {
@@ -25054,6 +25310,7 @@
       "created_at": "2026-04-03T21:02:08Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/34816118?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -25130,11 +25387,12 @@
         "rag",
         "video"
       ],
-      "stars": 1640,
+      "stars": 1641,
       "pushed_at": "2026-11-05T07:47:42Z",
       "created_at": "2026-07-19T07:07:42Z",
       "license": "NOASSERTION",
       "default_branch": "mian",
+      "avatar": "https://avatars.githubusercontent.com/u/325877560?v=4",
       "skill_count": 4,
       "skills": [
         {
@@ -25171,6 +25429,7 @@
       "created_at": "2026-02-26T18:13:14Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "skill_count": 89,
       "skills": [
         {
@@ -25370,6 +25629,7 @@
       "created_at": "2026-05-10T19:42:32Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/189464497?v=4",
       "skill_count": 17,
       "skills": [
         {
@@ -25480,6 +25740,7 @@
       "created_at": "2026-09-22T11:20:47Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/210140430?v=4",
       "skill_count": 2,
       "skills": [
         {
@@ -25523,6 +25784,7 @@
       "created_at": "2020-01-02T07:32:48Z",
       "license": "MIT",
       "default_branch": "ai",
+      "avatar": "https://avatars.githubusercontent.com/u/19199542?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -25553,6 +25815,7 @@
       "created_at": "2026-03-25T11:12:13Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/65760999?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -25595,11 +25858,12 @@
         "voice-memo",
         "whisper"
       ],
-      "stars": 1596,
-      "pushed_at": "2026-11-11T18:59:31Z",
+      "stars": 1597,
+      "pushed_at": "2026-11-11T19:23:23Z",
       "created_at": "2026-03-18T06:11:04Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/4837632?v=4",
       "skill_count": 175,
       "skills": [
         {
@@ -25804,6 +26068,7 @@
       "created_at": "2025-03-18T15:45:55Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/49837342?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -25856,6 +26121,7 @@
       "created_at": "2026-10-03T01:38:22Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/26440117?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -25894,6 +26160,7 @@
       "created_at": "2026-01-30T06:41:40Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/116082154?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -25941,6 +26208,7 @@
       "created_at": "2026-03-26T11:40:33Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/6754730?v=4",
       "skill_count": 12,
       "skills": [
         {
@@ -26026,6 +26294,7 @@
       "created_at": "2026-08-04T23:20:01Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/210140430?v=4",
       "skill_count": 4,
       "skills": [
         {
@@ -26078,6 +26347,7 @@
       "created_at": "2026-09-07T15:08:13Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/85617033?v=4",
       "skill_count": 23,
       "skills": [
         {
@@ -26198,6 +26468,7 @@
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/77217706?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -26243,6 +26514,7 @@
       "created_at": "2026-01-29T08:28:07Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/119053560?v=4",
       "skill_count": 3097,
       "skills": [
         {
@@ -26430,11 +26702,12 @@
         "motionmaxxing",
         "video"
       ],
-      "stars": 1536,
+      "stars": 1537,
       "pushed_at": "2026-10-06T18:20:43Z",
       "created_at": "2026-10-06T18:18:49Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -26463,6 +26736,7 @@
       "created_at": "2026-04-30T14:31:48Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/252820863?v=4",
       "skill_count": 5,
       "skills": [
         {
@@ -26510,6 +26784,7 @@
       "created_at": "2026-04-05T16:04:50Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/274232282?v=4",
       "skill_count": 13,
       "skills": [
         {
@@ -26594,6 +26869,7 @@
       "created_at": "2026-07-02T10:24:16Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1329503?v=4",
       "skill_count": 38,
       "skills": [
         {
@@ -26783,11 +27059,12 @@
         "supabase",
         "vercel"
       ],
-      "stars": 1486,
+      "stars": 1488,
       "pushed_at": "2026-10-11T21:04:01Z",
       "created_at": "2026-09-23T13:37:26Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/91774998?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -26822,6 +27099,7 @@
       "created_at": "2026-03-05T17:40:23Z",
       "license": null,
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/69605071?v=4",
       "skill_count": 7,
       "skills": [
         {
@@ -26878,6 +27156,7 @@
       "created_at": "2026-05-09T10:09:28Z",
       "license": "Apache-2.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
       "skill_count": 24,
       "skills": [
         {
@@ -26998,11 +27277,12 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2360,
+      "stars": 2361,
       "pushed_at": "2026-11-09T06:00:33Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/166897461?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -27206,11 +27486,12 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2354,
+      "stars": 2355,
       "pushed_at": "2026-11-10T23:53:26Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -27438,6 +27719,7 @@
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/77217706?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -27670,6 +27952,7 @@
       "created_at": "2026-10-18T12:19:27Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -27880,6 +28163,7 @@
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/34709402?v=4",
       "skill_count": 21,
       "skills": [
         {
@@ -28229,6 +28513,7 @@
       "created_at": "2026-10-23T03:01:11Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/41390763?v=4",
       "skill_count": 3,
       "skills": [
         {
@@ -28467,11 +28752,12 @@
         "wgpu",
         "windows"
       ],
-      "stars": 2129,
+      "stars": 2133,
       "pushed_at": "2026-11-11T18:14:33Z",
       "created_at": "2026-10-18T18:08:48Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/198368214?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -28692,11 +28978,12 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3235,
+      "stars": 3240,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
       "skill_count": 11,
       "skills": [
         {
@@ -28983,6 +29270,7 @@
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/251547459?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -29217,6 +29505,7 @@
       "created_at": "2026-10-13T20:35:18Z",
       "license": "CC0-1.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/20830358?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -29420,6 +29709,7 @@
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
       "skill_count": 1,
       "skills": [
         {
@@ -29645,6 +29935,7 @@
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
       "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/181722286?v=4",
       "skill_count": 1,
       "skills": [
         {

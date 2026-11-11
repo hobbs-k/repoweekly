@@ -1,0 +1,16 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { config } from '../../scripts/lib/config.js';
+import { href } from '../lib/format.js';
+
+// The owner's picture, saved at build time by scripts/avatars.js so visitors never contact GitHub's image host.
+// With no saved file a monogram box keeps the name column aligned instead of showing a broken image.
+const { owner } = Astro.props;
+const file = ['png', 'jpg', 'webp', 'gif']
+  .map((ext) => `${owner.toLowerCase()}.${ext}`)
+  .find((f) => fs.existsSync(path.join(config.paths.publicDir, 'avatars', f)));
+---
+{file
+  ? <img class="avatar" src={href(`/avatars/${file}`)} width="40" height="40" alt="" loading="lazy" decoding="async" />
+  : <span class="avatar avatar-mono" aria-hidden="true">{owner.charAt(0).toUpperCase()}</span>}

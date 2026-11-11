@@ -1,4 +1,5 @@
 ---
+import Avatar from './Avatar.astro';
 import { fmt, fmtDate } from '../lib/format.js';
 
 // One rising skill repository: what it is, the install commands per agent, and the steps copied from its README.
@@ -17,6 +18,7 @@ const basis = item.rising_basis === 'growth' ? `Gained ${fmt(item.gained)} stars
   <div class="titlebar" aria-hidden="true"><span>rising-{String(item.rising_rank).padStart(2, '0')}.log</span><span class="winbtn">_ □ ×</span></div>
   <span class="rank" aria-hidden="true">{item.rising_rank}</span>
   <div class="entry-head">
+    <Avatar owner={owner} />
     <h3 class="entry-name"><a href={item.url} rel="noopener"><span class="owner">{owner}/</span>{name}</a></h3>
   </div>
 

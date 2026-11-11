@@ -1,4 +1,5 @@
 ---
+import Avatar from './Avatar.astro';
 import { fmt, fmtDate } from '../lib/format.js';
 
 // One skill repository in the top ten. Same window look as RepoEntry.
@@ -15,6 +16,7 @@ const agentLabel = { claude: 'Claude', codex: 'Codex', cursor: 'Cursor', gemini:
   <span class="rank" aria-hidden="true">{item.rank}</span>
 
   <div class="entry-head">
+    <Avatar owner={owner} />
     <h3 class="entry-name">
       <a href={item.url} rel="noopener"><span class="owner">{owner}/</span>{name}</a>
     </h3>

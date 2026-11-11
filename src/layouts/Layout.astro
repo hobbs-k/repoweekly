@@ -32,6 +32,7 @@ const nav = [
     <link rel="alternate" type="application/rss+xml" title="RepoWeekly" href={href('/feed.xml')} />
   </head>
   <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
     <a class="skip" href="#main">Skip to the content</a>
     <header class="mast">
       <div class="wrap mast-row">
@@ -66,6 +67,8 @@ const nav = [
         <p>{config.licenseNote}</p>
       </div>
     </footer>
+    <button type="button" class="to-top" hidden aria-label="Back to top">↑ Top</button>
+    <script is:inline defer src={href('/js/scroll.js')}></script>
     <slot name="scripts" />
   </body>
 </html>

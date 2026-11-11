@@ -94,7 +94,7 @@ await run('skills', async (log) => {
     repos.push({
       full_name: r.full_name, url: r.html_url, description: r.description, language: r.language,
       topics: r.topics ?? [], stars: r.stargazers_count, pushed_at: r.pushed_at, created_at: r.created_at,
-      license: r.license?.spdx_id ?? null, default_branch: r.default_branch,
+      license: r.license?.spdx_id ?? null, default_branch: r.default_branch, avatar: r.owner?.avatar_url ?? null,
       skill_count: count, skills: entry.skills.slice(0, rule.maxSkillsListed).map((s) => ({ name: s.name, path: s.path })),
       agents: detectAgents([r.full_name, r.description ?? '', ...(r.topics ?? []), ...entry.skills.slice(0, 10).map((x) => x.path)].join(' ')),
     });
