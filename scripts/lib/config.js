@@ -46,6 +46,8 @@ export const config = {
     gemMinGain: 40,
   },
   rising: { minGain: 50, accelerate: 2, count: 10 },
+  // The optional daily steps (issues, skills) skip themselves below this, so the snapshot is never starved.
+  minRateLeft: 1500,
   skills: {
     topics: ['agent-skills', 'claude-skills', 'claude-code-skills', 'agent-skill', 'claude-skill'],
     pages: 3, minStars: 50, pushedDays: 90, maxRepos: 300, maxSkillsListed: 40,

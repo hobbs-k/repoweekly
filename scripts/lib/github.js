@@ -37,6 +37,11 @@ export async function ghGet(pathOrUrl, { raw = false, accept } = {}) {
   }
 }
 
+// Requests left this hour, or null when it cannot be read (a mock server, or GitHub being slow).
+export async function rateRemaining() {
+  try { return (await getRateLimit()).remaining; } catch { return null; }
+}
+
 export async function getRateLimit() {
   const { data } = await ghGet('/rate_limit');
   return data.resources.core;

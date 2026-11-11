@@ -7,7 +7,7 @@ import path from 'node:path';
 import { parseArgs } from './lib/args.js';
 import { readJson, writeJson } from './lib/cache.js';
 import { config } from './lib/config.js';
-import { ghGet } from './lib/github.js';
+import { ghGet, rateRemaining } from './lib/github.js';
 import { run } from './lib/logger.js';
 
 const DAY = 86400000;
@@ -39,6 +39,11 @@ function collectRepos() {
 await run('issues', async (log) => {
   const args = parseArgs();
   const dry = Boolean(args['dry-run']);
+  const left = await rateRemaining();
+  if (left !== null && left < config.minRateLeft) {
+    log.done(`skipped: only ${left} GitHub requests left this hour, keeping them for the snapshot`);
+    return;
+  }
   const rule = config.issues;
   const repos = [...collectRepos()].slice(0, rule.maxRepos);
   const oldest = Date.now() - rule.maxAgeDays * DAY;

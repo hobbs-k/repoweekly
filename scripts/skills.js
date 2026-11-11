@@ -8,7 +8,7 @@ import { parseArgs } from './lib/args.js';
 import { hashText, readJson, writeJson } from './lib/cache.js';
 import { askJson, requireKey } from './lib/claude.js';
 import { config } from './lib/config.js';
-import { ghGet } from './lib/github.js';
+import { ghGet, rateRemaining } from './lib/github.js';
 import { run } from './lib/logger.js';
 import { detectAgents, parseFrontmatter, skillsFromTree } from './lib/skillparse.js';
 import { toDateString } from './lib/weeks.js';
@@ -33,6 +33,11 @@ function validate(raw) {
 await run('skills', async (log) => {
   const args = parseArgs();
   const dry = Boolean(args['dry-run']);
+  const left = await rateRemaining();
+  if (left !== null && left < config.minRateLeft) {
+    log.done(`skipped: only ${left} GitHub requests left this hour, keeping them for the snapshot`);
+    return;
+  }
   const rule = config.skills;
   const today = toDateString(new Date());
   const blocked = new Set(readJson(config.paths.blocklist)?.repos ?? []);
