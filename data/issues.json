@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T07:24:20.998Z",
+  "generated": "2026-11-11T07:29:37.648Z",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "repos": {
     "pingdotgg/t3code": {
@@ -42,7 +42,17 @@
         "webgpu",
         "wgsl"
       ],
-      "stars": 2004,
+      "stars": 2005,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "UKGovernmentBEIS/inspect_ai": {
+      "language": "Python",
+      "topics": [],
+      "stars": 3225,
       "difficulty": null,
       "beginner": false,
       "week": null,
@@ -97,23 +107,6 @@
         "second-brain"
       ],
       "stars": 80,
-      "difficulty": null,
-      "beginner": false,
-      "week": null,
-      "latest": false,
-      "ranked": false
-    },
-    "Blosc/python-blosc2": {
-      "language": "Python",
-      "topics": [
-        "columnar-storage",
-        "compression",
-        "computational",
-        "lazy-evaluation",
-        "ndimensional-arrays",
-        "tabular-data"
-      ],
-      "stars": 215,
       "difficulty": null,
       "beginner": false,
       "week": null,
@@ -284,6 +277,32 @@
       "latest": false,
       "ranked": false
     },
+    "farming-labs/farm.js": {
+      "language": "TypeScript",
+      "topics": [
+        "compiler",
+        "framework",
+        "fullstack",
+        "nitro",
+        "preact",
+        "react",
+        "rsc",
+        "server-actions",
+        "server-components",
+        "solidjs",
+        "ssr",
+        "svelte",
+        "typescript",
+        "vite",
+        "vue"
+      ],
+      "stars": 659,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
     "trezor/trezor-suite": {
       "language": "TypeScript",
       "topics": [
@@ -321,19 +340,6 @@
         "vue"
       ],
       "stars": 137,
-      "difficulty": null,
-      "beginner": false,
-      "week": null,
-      "latest": false,
-      "ranked": false
-    },
-    "traPtitech/traQ_S-UI": {
-      "language": "TypeScript",
-      "topics": [
-        "hacktoberfest",
-        "traq"
-      ],
-      "stars": 142,
       "difficulty": null,
       "beginner": false,
       "week": null,
@@ -463,37 +469,6 @@
       "latest": false,
       "ranked": false
     },
-    "vshulcz/deja-vu": {
-      "language": "Go",
-      "topics": [
-        "agent-memory",
-        "claude-code",
-        "claude-code-hooks",
-        "claude-code-memory",
-        "cline",
-        "codex",
-        "cursor",
-        "dsh-plugin",
-        "gemini-cli-extension",
-        "kimi-code",
-        "llm-memory",
-        "magpie-plugin",
-        "mcp",
-        "mcp-server",
-        "neovim-plugin",
-        "openclaw",
-        "opencode",
-        "qwen-code",
-        "session-history",
-        "zed-extension"
-      ],
-      "stars": 1501,
-      "difficulty": null,
-      "beginner": false,
-      "week": null,
-      "latest": false,
-      "ranked": false
-    },
     "CurvineIO/curvine": {
       "language": "Rust",
       "topics": [
@@ -517,6 +492,27 @@
         "vllm-plugins"
       ],
       "stars": 1059,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "skaft-software/octet": {
+      "language": "Rust",
+      "topics": [
+        "ai-agent",
+        "cli",
+        "coding-agent",
+        "developer-tools",
+        "json-rpc",
+        "llm",
+        "local-llm",
+        "open-source",
+        "rust",
+        "terminal"
+      ],
+      "stars": 200,
       "difficulty": null,
       "beginner": false,
       "week": null,
@@ -1017,6 +1013,156 @@
       "beginner": true
     },
     {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 5951,
+      "title": "Bedrock: failed tool calls reach the model with an empty result, so it can't see why the call failed",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/5951",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-19T07:11:44Z",
+      "updated": "2026-11-09T19:38:25Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 6235,
+      "title": "match(numeric=True) does not trim full-width punctuation, so `42。` or   `（42）` scores INCORRECT",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/6235",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-11-02T03:47:05Z",
+      "updated": "2026-11-09T01:53:29Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 6226,
+      "title": "samples_df() uses drop_duplicates(inplace=True), deprecated in pandas 3.1",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/6226",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-11-01T01:04:48Z",
+      "updated": "2026-11-08T05:12:33Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 6358,
+      "title": "`csv_dataset()` reads a blank `id` cell as `\"\"`, so two blank rows make `eval()` fail with a duplicate id error",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/6358",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-11-06T15:55:35Z",
+      "updated": "2026-11-08T04:17:02Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 5896,
+      "title": "tool_with(): if/elif chain silently drops viewer/model_input when combined with parallel (or with each other)",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/5896",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-16T11:13:41Z",
+      "updated": "2026-11-08T03:13:47Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 5950,
+      "title": "Google: `seed` is never sent to Gemini, so seeded runs use a random seed",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/5950",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-19T07:11:43Z",
+      "updated": "2026-11-08T03:12:37Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 6094,
+      "title": "Agent bridge rejects Codex agent_message items with id",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/6094",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-26T17:00:10Z",
+      "updated": "2026-11-07T09:39:19Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 6066,
+      "title": "match(numeric=True) reads 12万 as 20,000 and 10万 as 0, scoring the wrong target CORRECT",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/6066",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-24T04:07:27Z",
+      "updated": "2026-10-29T02:11:52Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 5809,
+      "title": "json_dataset discards chat-message metadata when loading JSON and JSONL",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/5809",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-10T06:53:01Z",
+      "updated": "2026-10-17T07:20:17Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "UKGovernmentBEIS/inspect_ai",
+      "number": 5815,
+      "title": "Chat Completions agent bridge drops reasoning_tokens from usage",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/5815",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted"
+      ],
+      "created": "2026-10-11T09:18:41Z",
+      "updated": "2026-10-17T06:02:23Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
       "repo": "ros2/ros2_documentation",
       "number": 4209,
       "title": "make linkcheck finds many `broken` links",
@@ -1313,96 +1459,6 @@
       "updated": "2026-11-06T15:52:51Z",
       "comments": 0,
       "beginner": true
-    },
-    {
-      "repo": "Blosc/python-blosc2",
-      "number": 644,
-      "title": "[Tutorial] CTable copy() with reblocking and recompression",
-      "url": "https://github.com/Blosc/python-blosc2/issues/644",
-      "labels": [
-        "documentation",
-        "good first issue",
-        "sustain-2026"
-      ],
-      "created": "2026-06-02T11:14:28Z",
-      "updated": "2026-10-02T11:34:30Z",
-      "comments": 2,
-      "beginner": true
-    },
-    {
-      "repo": "Blosc/python-blosc2",
-      "number": 645,
-      "title": "Document SUMMARY indexes for end users",
-      "url": "https://github.com/Blosc/python-blosc2/issues/645",
-      "labels": [
-        "documentation",
-        "good first issue",
-        "sustain-2026"
-      ],
-      "created": "2026-06-02T11:16:50Z",
-      "updated": "2026-09-30T19:47:49Z",
-      "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "Blosc/python-blosc2",
-      "number": 476,
-      "title": "Array-api Linalg functions",
-      "url": "https://github.com/Blosc/python-blosc2/issues/476",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "sustain-2026"
-      ],
-      "created": "2025-09-15T08:16:49Z",
-      "updated": "2026-09-25T11:44:36Z",
-      "comments": 1,
-      "beginner": false
-    },
-    {
-      "repo": "Blosc/python-blosc2",
-      "number": 466,
-      "title": "Array API compliance",
-      "url": "https://github.com/Blosc/python-blosc2/issues/466",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "sustain-2026"
-      ],
-      "created": "2025-09-10T11:48:16Z",
-      "updated": "2026-09-25T11:44:16Z",
-      "comments": 1,
-      "beginner": false
-    },
-    {
-      "repo": "Blosc/python-blosc2",
-      "number": 649,
-      "title": "[DOC] Tutorial: variable-length columns (ListArray and BatchArray)",
-      "url": "https://github.com/Blosc/python-blosc2/issues/649",
-      "labels": [
-        "documentation",
-        "good first issue",
-        "sustain-2026"
-      ],
-      "created": "2026-06-02T11:20:11Z",
-      "updated": "2026-09-15T11:47:15Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "Blosc/python-blosc2",
-      "number": 652,
-      "title": "[BENCH] Real-world query performance comparison",
-      "url": "https://github.com/Blosc/python-blosc2/issues/652",
-      "labels": [
-        "documentation",
-        "help wanted",
-        "sustain-2026"
-      ],
-      "created": "2026-06-02T11:25:17Z",
-      "updated": "2026-09-15T11:44:01Z",
-      "comments": 0,
-      "beginner": false
     },
     {
       "repo": "AI-WorkDeck/aiworkdeck",
@@ -2589,6 +2645,160 @@
       "beginner": true
     },
     {
+      "repo": "farming-labs/farm.js",
+      "number": 2684,
+      "title": "webhooks: generic integration to send signed events and receive any provider",
+      "url": "https://github.com/farming-labs/farm.js/issues/2684",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T18:49:32Z",
+      "updated": "2026-11-10T18:49:32Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2539,
+      "title": "analyzer: dead-link and route-graph report from router hooks",
+      "url": "https://github.com/farming-labs/farm.js/issues/2539",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-05T18:59:39Z",
+      "updated": "2026-11-05T18:59:39Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2538,
+      "title": "compression: precompressed asset serving and zstd negotiation",
+      "url": "https://github.com/farming-labs/farm.js/issues/2538",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-05T18:59:37Z",
+      "updated": "2026-11-05T18:59:37Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2537,
+      "title": "route rules: has/missing conditions on redirects and rewrites",
+      "url": "https://github.com/farming-labs/farm.js/issues/2537",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-05T18:59:36Z",
+      "updated": "2026-11-05T18:59:36Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2536,
+      "title": "logger plugin: structured request logging instead of the no-op default",
+      "url": "https://github.com/farming-labs/farm.js/issues/2536",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-05T18:59:34Z",
+      "updated": "2026-11-05T18:59:34Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2535,
+      "title": "farm-sentry: report client-side errors through the unused client error hook",
+      "url": "https://github.com/farming-labs/farm.js/issues/2535",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-05T18:59:33Z",
+      "updated": "2026-11-05T18:59:33Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2534,
+      "title": "plugin: view transitions api on client navigations",
+      "url": "https://github.com/farming-labs/farm.js/issues/2534",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-05T18:59:15Z",
+      "updated": "2026-11-05T18:59:15Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2533,
+      "title": "plugin: hover and viewport link prefetching",
+      "url": "https://github.com/farming-labs/farm.js/issues/2533",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-11-05T18:59:14Z",
+      "updated": "2026-11-05T18:59:14Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2532,
+      "title": "plugin: web vitals reporter on the unused performance client hook",
+      "url": "https://github.com/farming-labs/farm.js/issues/2532",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-11-05T18:59:12Z",
+      "updated": "2026-11-05T18:59:12Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 2531,
+      "title": "plugin: per-route scroll restoration",
+      "url": "https://github.com/farming-labs/farm.js/issues/2531",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-11-05T18:59:11Z",
+      "updated": "2026-11-05T18:59:11Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "farming-labs/farm.js",
+      "number": 1805,
+      "title": "optional search console integration",
+      "url": "https://github.com/farming-labs/farm.js/issues/1805",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-10-06T18:24:40Z",
+      "updated": "2026-10-06T18:31:29Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
       "repo": "trezor/trezor-suite",
       "number": 21930,
       "title": "Suite can change the duration of auto-lock on battery on the device",
@@ -2661,210 +2871,6 @@
       "created": "2024-08-14T05:45:29Z",
       "updated": "2026-06-08T13:18:25Z",
       "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 4371,
-      "title": "ユーザーモーダルのタグを新しい順にする",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4371",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2024-09-16T04:59:52Z",
-      "updated": "2026-10-28T12:48:42Z",
-      "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 4886,
-      "title": "`[...new Set(iterable)]` の代わりに `unique(iterable)` を使う",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4886",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2025-10-24T09:06:04Z",
-      "updated": "2026-10-08T08:08:27Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 5361,
-      "title": "モバイルの設定ページについて、スクロール領域がおかしい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/5361",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2026-09-21T13:15:00Z",
-      "updated": "2026-09-21T13:15:01Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 5086,
-      "title": "`MessagesXXX` を `MessageXXX` にする",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/5086",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2026-03-23T08:59:44Z",
-      "updated": "2026-09-13T08:42:12Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 3305,
-      "title": "チャンネルのメンバーの概念がわかりにくい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3305",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2022-04-26T11:58:03Z",
-      "updated": "2026-09-07T17:39:08Z",
-      "comments": 2,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 3923,
-      "title": "traQ上でメッセージを引用する方法がわかりにくい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3923",
-      "labels": [
-        "good first issue",
-        "design"
-      ],
-      "created": "2023-05-01T06:42:11Z",
-      "updated": "2026-09-07T17:39:07Z",
-      "comments": 4,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 3926,
-      "title": "分かりやすいところにヘルプリンクを貼りたい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3926",
-      "labels": [
-        "good first issue",
-        "design"
-      ],
-      "created": "2023-05-02T13:34:10Z",
-      "updated": "2026-09-07T17:39:06Z",
-      "comments": 2,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 3998,
-      "title": "チャンネルトピックの編集ボタンの場所を変える",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3998",
-      "labels": [
-        "good first issue",
-        "design"
-      ],
-      "created": "2023-06-06T07:10:45Z",
-      "updated": "2026-09-07T17:39:05Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 4017,
-      "title": "戻るボタンを押したあと消えないでほしい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4017",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2023-07-10T05:34:34Z",
-      "updated": "2026-09-07T16:49:18Z",
-      "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 3766,
-      "title": "メッセージ検索フォームにクエリのリセットボタンがほしい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3766",
-      "labels": [
-        "good first issue",
-        "design"
-      ],
-      "created": "2023-02-02T08:06:19Z",
-      "updated": "2026-09-06T12:17:33Z",
-      "comments": 3,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 1907,
-      "title": "DMの相手ユーザーごとの未読件数が表示されてほしい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/1907",
-      "labels": [
-        "good first issue",
-        "design"
-      ],
-      "created": "2021-02-16T10:08:20Z",
-      "updated": "2026-09-06T12:17:22Z",
-      "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 758,
-      "title": "クリップ追加時にクリップフォルダを新規作成できるようにしたい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/758",
-      "labels": [
-        "good first issue",
-        "feedback",
-        "design"
-      ],
-      "created": "2020-05-03T09:42:29Z",
-      "updated": "2026-09-06T12:17:06Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 4019,
-      "title": "メッセージにホバーするとコードブロックの色とメッセージの背景色が同じになって見づらい",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4019",
-      "labels": [
-        "good first issue",
-        "design"
-      ],
-      "created": "2023-07-11T05:55:30Z",
-      "updated": "2026-09-06T12:16:25Z",
-      "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 2253,
-      "title": "設定の閲覧中チャンネル表示で最新のメッセージを見ている場合のみという説明をつける",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/2253",
-      "labels": [
-        "good first issue",
-        "feedback"
-      ],
-      "created": "2021-06-03T08:23:47Z",
-      "updated": "2026-09-06T09:59:25Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "traPtitech/traQ_S-UI",
-      "number": 4235,
-      "title": "引用通知のオンオフの設定の説明文を変える",
-      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4235",
-      "labels": [
-        "good first issue"
-      ],
-      "created": "2024-02-16T02:01:02Z",
-      "updated": "2026-09-06T09:57:02Z",
-      "comments": 0,
       "beginner": true
     },
     {
@@ -3416,78 +3422,6 @@
       "beginner": true
     },
     {
-      "repo": "vshulcz/deja-vu",
-      "number": 5653,
-      "title": "Devin CLI on Windows: check where sessions.db and the config actually land",
-      "url": "https://github.com/vshulcz/deja-vu/issues/5653",
-      "labels": [
-        "good first issue",
-        "harness"
-      ],
-      "created": "2026-10-25T09:07:49Z",
-      "updated": "2026-11-03T20:12:39Z",
-      "comments": 1,
-      "beginner": true
-    },
-    {
-      "repo": "vshulcz/deja-vu",
-      "number": 5876,
-      "title": "a guide page for deleting Devin CLI session history",
-      "url": "https://github.com/vshulcz/deja-vu/issues/5876",
-      "labels": [
-        "documentation",
-        "help wanted",
-        "good first issue"
-      ],
-      "created": "2026-11-03T08:19:28Z",
-      "updated": "2026-11-03T08:19:28Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "vshulcz/deja-vu",
-      "number": 5871,
-      "title": "a guide page for deleting DeepSeek Harness (dsh) session history",
-      "url": "https://github.com/vshulcz/deja-vu/issues/5871",
-      "labels": [
-        "documentation",
-        "help wanted",
-        "good first issue"
-      ],
-      "created": "2026-11-03T08:18:07Z",
-      "updated": "2026-11-03T08:18:07Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "vshulcz/deja-vu",
-      "number": 5652,
-      "title": "Crush: check what /user:deja sends the model, against a real Crush",
-      "url": "https://github.com/vshulcz/deja-vu/issues/5652",
-      "labels": [
-        "good first issue",
-        "harness"
-      ],
-      "created": "2026-10-25T09:07:44Z",
-      "updated": "2026-10-25T09:07:44Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
-      "repo": "vshulcz/deja-vu",
-      "number": 5021,
-      "title": "Windsurf: which field a successful Cascade reply lands in has never been seen",
-      "url": "https://github.com/vshulcz/deja-vu/issues/5021",
-      "labels": [
-        "good first issue",
-        "harness"
-      ],
-      "created": "2026-10-14T19:43:04Z",
-      "updated": "2026-10-14T19:43:46Z",
-      "comments": 0,
-      "beginner": true
-    },
-    {
       "repo": "CurvineIO/curvine",
       "number": 2025,
       "title": "[BUG]: restart-all.sh kills every process matching \"curvine\"",
@@ -3665,6 +3599,251 @@
       ],
       "created": "2026-06-22T11:13:18Z",
       "updated": "2026-11-11T04:19:28Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 674,
+      "title": "Tern: Improve vertical spacing between transcript and composer",
+      "url": "https://github.com/skaft-software/octet/issues/674",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "area/tui"
+      ],
+      "created": "2026-11-07T22:00:11Z",
+      "updated": "2026-11-09T05:44:09Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 561,
+      "title": "Pi compatibility: add an isolated setup walkthrough for contributors",
+      "url": "https://github.com/skaft-software/octet/issues/561",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "priority/low",
+        "area/adoption"
+      ],
+      "created": "2026-10-09T07:48:09Z",
+      "updated": "2026-11-07T15:41:49Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 560,
+      "title": "Sessions: add a portable handoff example with an abandoned branch",
+      "url": "https://github.com/skaft-software/octet/issues/560",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "priority/low",
+        "area/adoption"
+      ],
+      "created": "2026-10-09T07:48:08Z",
+      "updated": "2026-11-07T15:41:47Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 559,
+      "title": "Sessions: explain tree navigation, forks and compaction with one example",
+      "url": "https://github.com/skaft-software/octet/issues/559",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "priority/low",
+        "area/adoption"
+      ],
+      "created": "2026-10-09T07:48:06Z",
+      "updated": "2026-11-07T15:41:45Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 558,
+      "title": "Pi compatibility: add a two-extension coexistence example",
+      "url": "https://github.com/skaft-software/octet/issues/558",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:48:05Z",
+      "updated": "2026-11-07T15:41:44Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 557,
+      "title": "Pi compatibility: publish a package prerequisite table",
+      "url": "https://github.com/skaft-software/octet/issues/557",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:48:03Z",
+      "updated": "2026-11-07T15:41:42Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 555,
+      "title": "Pi compatibility: document resource precedence with one worked setup",
+      "url": "https://github.com/skaft-software/octet/issues/555",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:48:00Z",
+      "updated": "2026-11-07T15:41:39Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 554,
+      "title": "Pi compatibility: add a dependency-bearing command example",
+      "url": "https://github.com/skaft-software/octet/issues/554",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:47:58Z",
+      "updated": "2026-11-07T15:41:38Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 553,
+      "title": "Pi compatibility: add a minimal custom-footer example",
+      "url": "https://github.com/skaft-software/octet/issues/553",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:47:56Z",
+      "updated": "2026-11-07T15:41:36Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 552,
+      "title": "Sessions: test that export no-clobber leaves an existing HTML file untouched",
+      "url": "https://github.com/skaft-software/octet/issues/552",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "priority/low",
+        "area/infra"
+      ],
+      "created": "2026-10-09T07:47:55Z",
+      "updated": "2026-11-07T15:41:35Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 551,
+      "title": "Pi prompts: test literal dollar signs beside template arguments",
+      "url": "https://github.com/skaft-software/octet/issues/551",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:47:53Z",
+      "updated": "2026-11-07T15:41:33Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 550,
+      "title": "Docs: add a safe Pi compatibility bug-report checklist",
+      "url": "https://github.com/skaft-software/octet/issues/550",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "help wanted",
+        "priority/low",
+        "area/adoption"
+      ],
+      "created": "2026-10-09T07:47:52Z",
+      "updated": "2026-11-07T15:41:32Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 549,
+      "title": "Pi keybindings: test an empty override disables a default key",
+      "url": "https://github.com/skaft-software/octet/issues/549",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:47:50Z",
+      "updated": "2026-11-07T15:41:30Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 548,
+      "title": "Docs: explain why a Pi theme package is not an extension factory",
+      "url": "https://github.com/skaft-software/octet/issues/548",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:47:48Z",
+      "updated": "2026-11-07T15:41:29Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "skaft-software/octet",
+      "number": 547,
+      "title": "Pi setup: add a fixture with spaces in the agent directory",
+      "url": "https://github.com/skaft-software/octet/issues/547",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "priority/low",
+        "area/extensions"
+      ],
+      "created": "2026-10-09T07:47:47Z",
+      "updated": "2026-11-07T15:41:27Z",
       "comments": 0,
       "beginner": true
     },
