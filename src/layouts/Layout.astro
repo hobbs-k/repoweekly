@@ -5,6 +5,7 @@ import '@fontsource/vt323/latin-400.css';
 import '../styles/global.css';
 import { config } from '../../scripts/lib/config.js';
 import { href } from '../lib/format.js';
+import GitHubMark from '../components/GitHubMark.astro';
 
 const { title, description, current = '' } = Astro.props;
 const nav = [
@@ -34,7 +35,7 @@ const nav = [
     <header class="mast">
       <div class="wrap mast-row">
         <a class="brand" href={href('/')}>RepoWeekly<span class="caret" aria-hidden="true"></span></a>
-        <p class="status" aria-hidden="true">free / no ads / no tracking</p>
+        <p class="status"><a class="gh-link" href="https://github.com/hobbs-k/repoweekly" rel="noopener"><GitHubMark /> Built on GitHub data</a><span aria-hidden="true"> / free / no ads / no tracking</span></p>
       </div>
       <nav class="nav" aria-label="Main">
         <div class="wrap">
@@ -60,6 +61,7 @@ const nav = [
           <li><a href={href('/health/')}>Dead or alive?</a></li>
           <li><a href={href('/api-docs/')}>API</a></li>
         </ul>
+        <p class="gh-note"><GitHubMark size={20} /> <span>All numbers come from the GitHub API. RepoWeekly is an independent project and is not affiliated with or endorsed by GitHub. <a href="https://github.com/hobbs-k/repoweekly" rel="noopener">Source code and issues on GitHub</a>.</span></p>
         <p>{config.licenseNote}</p>
       </div>
     </footer>
