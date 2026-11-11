@@ -109,6 +109,7 @@ await run('summarize', async (log) => {
     const cache = readJson(cacheFile);
     if (cache && cache.readme_hash === hash && (!urdu || cache.summary.urdu)) {
       item.summary = cache.summary;
+      if (!urdu) delete item.summary.urdu; // a cached Urdu line must not come back once Urdu is off
       cached++;
       continue;
     }

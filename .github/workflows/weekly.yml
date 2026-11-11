@@ -20,8 +20,8 @@ env:
   # The public address of the site, for example https://user.github.io/repoweekly
   # Set it under Settings > Secrets and variables > Actions > Variables.
   SITE_URL: ${{ vars.SITE_URL }}
-  # Urdu summaries are on for a trial. Set to 'false' to turn them off again.
-  URDU_ENABLED: 'true'
+  # Urdu summaries were tried and turned off. Set to 'true' to try them again.
+  URDU_ENABLED: 'false'
 
 jobs:
   build:
