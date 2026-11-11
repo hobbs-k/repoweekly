@@ -92,6 +92,7 @@ if (typeof document !== 'undefined') (async () => {
 
   const print = (text, cls) => { const p = document.createElement('p'); if (cls) p.className = cls; p.textContent = text; out.append(p); };
   scroller.addEventListener('click', (e) => { if (!getSelection().toString() && e.target.tagName !== 'INPUT') input.focus(); });
+  const mark = form.querySelector('svg');
   const history = [];
   let at = 0;
   box.querySelector('.term-hint').textContent = repos ? 'RepoWeekly terminal. Type "help" for commands.' : 'The data is not published yet. Try again later.';
@@ -103,7 +104,8 @@ if (typeof document !== 'undefined') (async () => {
     history.push(line);
     at = history.length;
     if (line.trim().toLowerCase() === 'clear') { out.replaceChildren(); return; }
-    print('$ ' + line, 'term-cmd');
+    print(line, 'term-cmd');
+    out.lastChild.prepend(mark.cloneNode(true), ' ');
     for (const l of execute(line, data)) print(l);
     scroller.scrollTop = scroller.scrollHeight;
   });

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { href } from '../lib/format.js';
+import GitHubMark from '../components/GitHubMark.astro';
 ---
 
 <Layout title="Terminal | RepoWeekly" description="Explore the weekly GitHub rankings, rising repos and agent skills with simple commands, right in your browser." current="terminal">
@@ -11,7 +12,7 @@ import { href } from '../lib/format.js';
     <div class="term" data-src={href('/api')} hidden>
       <div class="term-out">
         <div class="term-lines" role="log" aria-live="polite"></div>
-        <form class="term-form"><label for="term-in" class="term-ps">$</label><input id="term-in" name="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Command" /></form>
+        <form class="term-form"><label for="term-in" class="term-ps"><GitHubMark size={18} /></label><input id="term-in" name="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Command" /></form>
       </div>
       <p class="term-hint"></p>
     </div>
