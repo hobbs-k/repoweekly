@@ -1,20 +1,19 @@
 {
-  "readme_hash": "4600b86f33eddf2e4e10f5772c3cd8eed8ad7081",
-  "generated": "2026-11-10T19:58:09.555Z",
+  "readme_hash": "c076445f429d490ba50c49b6eb388901db0c444c",
+  "generated": "2026-11-11T06:39:11.003Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "OpenMausBot is an open-source chat application that lets you run multiple AI agents like Claude, Codex, and Grok locally. Each agent appears as a contact in a sidebar with its own personality, model, cloud computer, and connected apps, and all data stays on your machine.",
-    "why_trending": "The project offers a local-first, open-source alternative to several closed-source AI agent products (Grok Bot, Meta Muse, OpenAI dots, Cue by Manus) that launched recently, attracting users who want control over their agents and data.",
-    "who_its_for": "Developers and power users who want to run and manage multiple local AI agents through a unified chat interface.",
+    "what_it_is": "OpenMausBot is a cross-platform desktop chat app where each contact is an AI agent (Claude, Codex, or Grok CLI) running locally on your machine. Agents have their own personalities, models, and can use a cloud desktop, local VM, or your computer to perform tasks.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Developers and power users who want a local-first, self-hosted multi-agent chat interface using their existing CLI subscriptions.",
     "beginner_friendly": false,
     "difficulty": "medium",
     "tags": [
       "ai-agents",
       "electron",
-      "self-hosted",
       "typescript",
-      "claude-code"
-    ],
-    "urdu": "OpenMausBot ایک اوپن سورس چیٹ ایپ ہے جو آپ کو کلاڈ، کوڈیکس اور گراک جیسے کئی AI ایجنٹس لوکل چلانے کی اجازت دیتا ہے۔ ہر ایجنٹ ایک کانٹیکٹ کی طرح سائیڈ بار میں نظر آتا ہے جس کا اپنا پرسنلٹی، ماڈل، کلاؤڈ کمپیوٹر اور ایپس ہوتے ہیں، اور تمام ڈیٹا آپ کی مشین پر رہتا ہے۔ یہ تازہ ترین بند سورس AI ایجنٹ پروڈکٹس کا لوکل-فرسٹ، اوپن سورس متبادل ہے، جس کی وجہ سے یہ ترینڈنگ میں ہے۔"
+      "self-hosted",
+      "docker"
+    ]
   }
 }

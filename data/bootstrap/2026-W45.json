@@ -1,76 +1,76 @@
 {
   "week": "2026-W45",
   "source": "github.com/trending?since=weekly",
-  "fetched": "2026-11-10T19:54:39.696Z",
+  "fetched": "2026-11-11T06:38:40.687Z",
   "repos": [
     {
       "full_name": "NVIDIA/auto-ontology",
-      "stars_this_week": 10159,
+      "stars_this_week": 9621,
       "language": "Python"
     },
     {
       "full_name": "vercel-labs/agent-desktop",
-      "stars_this_week": 12120,
+      "stars_this_week": 9502,
       "language": "Rust"
     },
     {
       "full_name": "anthropics/skills",
-      "stars_this_week": 3796,
+      "stars_this_week": 5014,
       "language": "Python"
     },
     {
       "full_name": "milind-soni/OpenMausBot",
-      "stars_this_week": 8325,
+      "stars_this_week": 8951,
       "language": "TypeScript"
     },
     {
       "full_name": "max-sixty/worktrunk",
-      "stars_this_week": 2395,
+      "stars_this_week": 2093,
       "language": "Rust"
     },
     {
       "full_name": "vercel-labs/agent-browser",
-      "stars_this_week": 2994,
+      "stars_this_week": 3606,
       "language": "Rust"
     },
     {
       "full_name": "Donchitos/Claude-Code-Game-Studios",
-      "stars_this_week": 4324,
+      "stars_this_week": 3730,
       "language": "Shell"
     },
     {
       "full_name": "mattpocock/skills",
-      "stars_this_week": 9800,
+      "stars_this_week": 9872,
       "language": "Shell"
     },
     {
       "full_name": "cloudflare/security-audit-skill",
-      "stars_this_week": 10695,
+      "stars_this_week": 10967,
       "language": "JavaScript"
     },
     {
       "full_name": "The-PR-Agent/pr-agent",
-      "stars_this_week": 1822,
+      "stars_this_week": 1591,
       "language": "Python"
     },
     {
       "full_name": "thedotmack/claude-mem",
-      "stars_this_week": 5130,
+      "stars_this_week": 4473,
       "language": "TypeScript"
     },
     {
       "full_name": "D4Vinci/Scrapling",
-      "stars_this_week": 8226,
+      "stars_this_week": 7291,
       "language": "Python"
     },
     {
       "full_name": "anomalyco/hex",
-      "stars_this_week": 2031,
+      "stars_this_week": 1839,
       "language": "Rust"
     },
     {
       "full_name": "pingdotgg/t3code",
-      "stars_this_week": 13448,
+      "stars_this_week": 11979,
       "language": "TypeScript"
     }
   ]
