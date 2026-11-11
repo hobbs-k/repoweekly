@@ -5,6 +5,7 @@ import '@fontsource/vt323/latin-400.css';
 import '../styles/global.css';
 import { config } from '../../scripts/lib/config.js';
 import { href } from '../lib/format.js';
+import PixelR from '../components/PixelR.astro';
 import GitHubMark from '../components/GitHubMark.astro';
 
 const { title, description, current = '' } = Astro.props;
@@ -34,7 +35,7 @@ const nav = [
     <a class="skip" href="#main">Skip to the content</a>
     <header class="mast">
       <div class="wrap mast-row">
-        <a class="brand" href={href('/')}>RepoWeekly<span class="caret" aria-hidden="true"></span></a>
+        <a class="brand" href={href('/')}><PixelR /><span>Repo<span class="brand-w">Weekly</span></span></a>
         <p class="status"><a class="gh-link" href="https://github.com/hobbs-k/repoweekly" rel="noopener"><GitHubMark /> Built on GitHub data</a><span aria-hidden="true"> / free / no ads / no tracking</span></p>
       </div>
       <nav class="nav" aria-label="Main">
