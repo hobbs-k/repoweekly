@@ -448,3 +448,15 @@ li::marker { color: var(--phos); }
 .gh-link:hover { color: var(--phos); }
 .gh-note { display: flex; align-items: flex-start; gap: 0.7rem; }
 .gh-note .gh-mark { margin-top: 0.15rem; color: var(--ink); }
+
+/* Rising skills: install panels. */
+.agent-pick { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1rem; margin: 1rem 0 1.5rem; }
+.plain-h-sm { font-size: 1rem; margin: 1.2rem 0 0.3rem; }
+.agent-panel { margin: 0 0 0.4rem; }
+.agent-panel[hidden] { display: none; }
+.method { margin: 0.5rem 0 1rem; max-width: var(--measure); }
+.method-title { margin: 0 0 0.3rem; font-family: var(--mono); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; color: var(--mark); }
+.method pre { margin: 0 0 0.4rem; padding: 0.7rem 0.9rem; overflow-x: auto; background: var(--ground); border: 2px solid var(--frame); font-family: var(--mono); font-size: 0.8125rem; line-height: 1.5; }
+.method p { margin: 0 0 0.3rem; }
+.copy { min-height: 2.5rem; margin: 0 0 0.6rem; padding: 0 0.8rem; font-family: var(--mono); font-size: 0.75rem; font-weight: 700; background: transparent; color: var(--phos); border: 2px solid var(--frame); cursor: pointer; }
+.copy:hover { border-color: var(--phos); }

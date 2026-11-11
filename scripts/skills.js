@@ -11,6 +11,9 @@ import { config } from './lib/config.js';
 import { ghGet, rateRemaining } from './lib/github.js';
 import { run } from './lib/logger.js';
 import { detectAgents, parseFrontmatter, skillsFromTree } from './lib/skillparse.js';
+import { extractGuide, marketplaceCommands } from './lib/guide.js';
+import { buildInstall } from './lib/install.js';
+import { pickRising } from './lib/rising.js';
 import { toDateString } from './lib/weeks.js';
 
 const DAY = 86400000;
@@ -29,6 +32,8 @@ function validate(raw) {
   for (const k of ['what_it_is', 'who_its_for']) if (typeof raw[k] !== 'string' || !raw[k].trim()) throw new Error(`"${k}" is missing or empty`);
   return { what_it_is: raw.what_it_is.trim(), who_its_for: raw.who_its_for.trim() };
 }
+
+const summaryPrompt = (r, readme) => [`Repository: ${r.full_name}`, `Description: ${r.description ?? '(none)'}`, `Skills found: ${r.skill_count} (${r.skills.slice(0, 15).map((s) => s.name).join(', ')})`, '', 'README (trimmed):', '"""', readme, '"""'].join('\n');
 
 await run('skills', async (log) => {
   const args = parseArgs();
@@ -143,8 +148,7 @@ await run('skills', async (log) => {
     try {
       requireKey();
       const readme = (await ghGet(`/repos/${r.full_name}/readme`, { raw: true })).data.slice(0, config.summarize.readmeMaxChars);
-      const user = [`Repository: ${r.full_name}`, `Description: ${r.description ?? '(none)'}`, `Skills found: ${r.skill_count} (${r.skills.slice(0, 15).map((s) => s.name).join(', ')})`, '', 'README (trimmed):', '"""', readme, '"""'].join('\n');
-      r.summary = await askJson({ system: SYSTEM, user, validate, label: r.full_name, log, maxTokens: 600 });
+      r.summary = await askJson({ system: SYSTEM, user: summaryPrompt(r, readme), validate, label: r.full_name, log, maxTokens: 600 });
       cache.summaries[r.full_name] = { pushed_at: r.pushed_at, hash: hashText(readme), summary: r.summary };
       log.log(`summarized ${r.full_name}`);
     } catch (err) {
@@ -152,14 +156,58 @@ await run('skills', async (log) => {
     }
   }
 
+  // 5. Rising repos: the ones not yet famous. Each gets install commands pinned to one commit, and the
+  // install steps copied from its own README. The commands come from fixed templates, never from the AI.
+  const guidesFile = path.join(config.paths.data, 'skills-guides.json');
+  const guides = readJson(guidesFile) ?? {};
+  const rising = pickRising(ranked, today, rule.rising);
+  for (const r of rising) {
+    let g = guides[r.full_name];
+    if (!g || g.pushed_at !== r.pushed_at) {
+      try {
+        const { data: commit } = await ghGet(`/repos/${r.full_name}/commits/${encodeURIComponent(r.default_branch)}`);
+        const sha = commit.sha;
+        const { data: tree } = await ghGet(`/repos/${r.full_name}/git/trees/${sha}?recursive=1`);
+        const skills = skillsFromTree(tree.tree ?? [], r.full_name.split('/')[1]);
+        if (!skills.length) throw new Error('no SKILL.md at this commit');
+        let readme = '';
+        try { readme = (await ghGet(`/repos/${r.full_name}/readme?ref=${sha}`, { raw: true })).data; } catch { /* no README */ }
+        let market = null;
+        if ((tree.tree ?? []).some((e) => e.path === '.claude-plugin/marketplace.json')) {
+          try { market = marketplaceCommands(r.full_name, (await ghGet(`/repos/${r.full_name}/contents/.claude-plugin/marketplace.json?ref=${sha}`, { raw: true })).data); } catch { /* unreadable */ }
+        }
+        g = { pushed_at: r.pushed_at, sha, ...buildInstall({ full_name: r.full_name, sha, skills }), guide: extractGuide(readme), marketplace: market };
+        guides[r.full_name] = g;
+      } catch (err) {
+        log.warn(`${r.full_name}: no install guide (${err.message})`);
+        continue;
+      }
+    }
+    r.install = { sha: g.sha, skill: g.skill, agents: g.install, guide: g.guide, marketplace: g.marketplace };
+    const cached = cache.summaries[r.full_name];
+    if (cached && cached.pushed_at === r.pushed_at) r.summary = cached.summary;
+    else if (withKey && !dry) {
+      try {
+        requireKey();
+        const readme = (await ghGet(`/repos/${r.full_name}/readme`, { raw: true })).data.slice(0, config.summarize.readmeMaxChars);
+        r.summary = await askJson({ system: SYSTEM, user: summaryPrompt(r, readme), validate, label: r.full_name, log, maxTokens: 600 });
+        cache.summaries[r.full_name] = { pushed_at: r.pushed_at, hash: hashText(readme), summary: r.summary };
+        log.log(`summarized ${r.full_name}`);
+      } catch (err) { log.warn(`${r.full_name}: no summary (${err.message})`); }
+    }
+  }
+  const risingOut = rising.filter((r) => r.install);
+  log.log(`${risingOut.length} rising repos with install guides`);
+
   const out = {
     generated: new Date().toISOString(), date: today, license: config.licenseNote,
-    mode, span_days: span, searched: found.size, repos: ranked,
+    mode, span_days: span, searched: found.size, repos: ranked, rising: risingOut,
   };
   if (!dry) {
     writeJson(treesFile, trees);
     writeJson(histFile, history);
     writeJson(cacheFile, cache);
+    writeJson(guidesFile, guides);
     writeJson(path.join(config.paths.data, 'skills.json'), out);
   }
   log.done(`${ranked.length} skill repos, mode ${mode}${dry ? ' (dry run, nothing written)' : ''}`);

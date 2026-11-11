@@ -109,3 +109,25 @@ if (typeof document !== 'undefined') (async () => {
   more.addEventListener('click', () => { shown += 20; render(false); });
   render(true);
 })();
+
+// "I use: Claude Code / Cursor / ..." on the rising skills: opens that tool's install steps on every card and hides the others.
+if (typeof document !== 'undefined') (() => {
+  const pick = document.querySelector('.agent-pick');
+  if (!pick) return;
+  pick.hidden = false;
+  const panels = document.querySelectorAll('.agent-panel');
+  const buttons = pick.querySelectorAll('button');
+  const apply = (id) => {
+    for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.agent === id));
+    for (const p of panels) { p.hidden = Boolean(id) && p.dataset.agent !== id; p.open = Boolean(id) && p.dataset.agent === id; }
+    try { id ? localStorage.setItem('rw-agent', id) : localStorage.removeItem('rw-agent'); } catch { /* storage blocked */ }
+  };
+  for (const b of buttons) b.addEventListener('click', () => apply(b.getAttribute('aria-pressed') === 'true' ? '' : b.dataset.agent));
+  try { const saved = localStorage.getItem('rw-agent'); if (saved) apply(saved); } catch { /* storage blocked */ }
+  for (const pre of document.querySelectorAll('.rising-entry pre')) {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'copy'; b.textContent = 'Copy';
+    b.addEventListener('click', async () => { try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; } catch { b.textContent = 'Select and copy'; } setTimeout(() => { b.textContent = 'Copy'; }, 1500); });
+    pre.after(b);
+  }
+})();

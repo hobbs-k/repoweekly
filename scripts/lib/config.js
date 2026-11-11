@@ -52,6 +52,8 @@ export const config = {
     topics: ['agent-skills', 'claude-skills', 'claude-code-skills', 'agent-skill', 'claude-skill'],
     pages: 3, minStars: 50, pushedDays: 90, maxRepos: 300, maxSkillsListed: 40,
     gainDays: 30, minSpanDays: 3, detailRepos: 30, detailSkills: 12, summaryRepos: 10, searchDelayMs: 2500,
+    // Rising: not yet famous, picking up stars fast. Guides are cached until the repo is pushed to.
+    rising: { minStars: 50, maxStars: 5000, maxAgeDays: 120, count: 12 },
   },
   issues: {
     labels: ['good first issue', 'help wanted'], perRepo: 15, maxRepos: 150, maxAgeDays: 180,

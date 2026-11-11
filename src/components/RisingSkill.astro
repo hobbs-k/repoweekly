@@ -1,0 +1,77 @@
+---
+import { fmt } from '../lib/format.js';
+
+// One rising skill repository: what it is, the install commands per agent, and the steps copied from its README.
+const { item } = Astro.props;
+const [owner, name] = item.full_name.split('/');
+const inst = item.install;
+const order = ['claude', 'codex', 'cursor', 'copilot', 'gemini', 'opencode', 'windsurf', 'claudeai'];
+const agents = order.filter((id) => inst.agents[id]);
+const basis = item.rising_basis === 'growth' ? `Gained ${fmt(item.gained)} stars lately` : `${fmt(Math.round(item.stars / item.age_days))} stars a day since it was created`;
+---
+
+<li class="entry skill-entry rising-entry">
+  <div class="titlebar" aria-hidden="true"><span>rising-{String(item.rising_rank).padStart(2, '0')}.log</span><span class="winbtn">_ □ ×</span></div>
+  <span class="rank" aria-hidden="true">{item.rising_rank}</span>
+  <div class="entry-head">
+    <h3 class="entry-name"><a href={item.url} rel="noopener"><span class="owner">{owner}/</span>{name}</a></h3>
+  </div>
+
+  <div class="entry-body">
+    {item.summary ? (
+      <div class="read">
+        <p><span class="run">What it is</span>{item.summary.what_it_is}</p>
+        <p><span class="run">Who it is for</span>{item.summary.who_its_for}</p>
+      </div>
+    ) : item.description && <p class="entry-desc">{item.description}</p>}
+
+    <p class="muted agents-note">{fmt(item.stars)} stars. {basis}. {item.age_days} days old. {fmt(item.skill_count)} {item.skill_count === 1 ? 'skill' : 'skills'}: {item.skills.slice(0, 6).map((s) => s.name).join(', ')}{item.skill_count > 6 ? ', and more' : ''}.</p>
+
+    <h4 class="plain-h plain-h-sm">Install it</h4>
+    <p class="muted agents-note">Version checked: <code>{inst.sha.slice(0, 7)}</code>. The commands below use exactly that version.</p>
+    <div class="agent-panels">
+      {agents.map((id) => {
+        const a = inst.agents[id];
+        const unverified = !a.verified && id !== 'claudeai';
+        return (
+          <details class="skill-list agent-panel" data-agent={id}>
+            <summary>{a.label}{unverified ? ' (not verified)' : ''}</summary>
+            {id === 'claude' && inst.marketplace && (
+              <div class="method">
+                <p class="method-title">Claude Code plugin (from the repo's own plugin file)</p>
+                <pre><code>{[inst.marketplace.add, ...inst.marketplace.install].join('\n')}</code></pre>
+                <p class="muted">Pick one of the plugins: {inst.marketplace.plugins.join(', ')}.</p>
+              </div>
+            )}
+            {a.methods.map((m) => (
+              <div class="method">
+                <p class="method-title">{m.title}</p>
+                {m.code && <pre><code>{m.code}</code></pre>}
+                {m.note && <p class="muted">{m.note}</p>}
+              </div>
+            ))}
+            {unverified && <p class="muted">We could not confirm this tool's own install folder in its documentation, so we only show the installer that supports it. Check the tool's docs.</p>}
+          </details>
+        );
+      })}
+    </div>
+
+    {inst.guide.length > 0 ? (
+      <details class="skill-list">
+        <summary>Steps from the README</summary>
+        <p class="muted">Copied word for word from the repository's README. Read the README before you run anything.</p>
+        {inst.guide.map((s) => (
+          <div class="method">
+            <p class="method-title">{s.heading}</p>
+            {s.steps.map((st) => (
+              <>
+                {st.text && <p class="muted">{st.text}</p>}
+                <pre><code>{st.code}</code></pre>
+              </>
+            ))}
+          </div>
+        ))}
+      </details>
+    ) : <p class="muted agents-note">This README has no install section, so the commands above come from the repository's file layout.</p>}
+  </div>
+</li>

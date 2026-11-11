@@ -1,11 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SkillEntry from '../components/SkillEntry.astro';
+import RisingSkill from '../components/RisingSkill.astro';
 import { loadSkills } from '../lib/data.js';
 import { href } from '../lib/format.js';
 
 const data = loadSkills();
 const top = data?.repos.slice(0, 10) ?? [];
+const rising = data?.rising ?? [];
+const agentChoices = [['claude', 'Claude Code'], ['codex', 'Codex'], ['cursor', 'Cursor'], ['copilot', 'GitHub Copilot'], ['gemini', 'Gemini CLI'], ['opencode', 'OpenCode'], ['windsurf', 'Windsurf'], ['claudeai', 'Claude.ai']];
 const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
 ---
 
@@ -20,6 +23,25 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
       <p class="notice"><strong>Read before you install.</strong> A skill can run commands and change files on your computer. Read the skill first, and only use ones you trust.</p>
     </section>
 
+    {rising.length > 0 && (
+      <section class="rising" aria-labelledby="rising-title">
+        <div class="section-head">
+          <h2 id="rising-title">Rising skills</h2>
+          <p>Newer skill repositories that are picking up stars fast, before everyone knows them.{' '}
+            {rising[0].rising_basis === 'growth' ? 'Ranked by stars gained lately compared with their size.' : 'For now they are ranked by stars a day since they were created. Once we have a few days of history this switches to stars gained lately.'}{' '}
+            Each one has install commands for your tool, taken from its real file layout and pinned to one version.</p>
+        </div>
+        <div class="agent-pick" role="group" aria-label="Which tool do you use?" hidden>
+          <span class="muted">I use:</span>
+          <div class="chips">{agentChoices.map(([id, label]) => <button type="button" data-agent={id} aria-pressed="false">{label}</button>)}</div>
+        </div>
+        <ol class="entries" aria-label="Rising skill repositories">
+          {rising.map((item) => <RisingSkill item={item} />)}
+        </ol>
+      </section>
+    )}
+
+    <div class="section-head"><h2>Most popular</h2><p>The big, well-known skill repositories, ranked by total stars.</p></div>
     {top.length > 0 ? (
       <ol class="entries" aria-label="Top skill repositories">
         {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} />)}

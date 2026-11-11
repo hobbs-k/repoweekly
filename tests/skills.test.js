@@ -29,11 +29,14 @@ test('detectAgents finds the tools a repo names', () => {
 });
 
 // A fake GitHub: two candidates, one with SKILL.md files and one without.
-const repo = (name, stars) => ({ full_name: name, name: name.split('/')[1], html_url: `https://github.com/${name}`, description: 'Skills for Claude', language: 'Python', topics: ['agent-skills'], stargazers_count: stars, pushed_at: new Date().toISOString(), created_at: '2026-01-01T00:00:00Z', default_branch: 'main', license: { spdx_id: 'MIT' } });
+const repo = (name, stars) => ({ full_name: name, name: name.split('/')[1], html_url: `https://github.com/${name}`, description: 'Skills for Claude', language: 'Python', topics: ['agent-skills'], stargazers_count: stars, pushed_at: new Date().toISOString(), created_at: new Date(Date.now() - 10 * 864e5).toISOString(), default_branch: 'main', license: { spdx_id: 'MIT' } });
 const server = http.createServer((req, res) => {
   const u = new URL(req.url, 'http://x');
   if (u.pathname === '/search/repositories') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ items: [repo('a/skills', 900), repo('b/plain', 500)] })); }
   if (u.pathname === '/repos/a/skills/git/trees/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'skills/pdf/SKILL.md', type: 'blob' }, { path: 'skills/xlsx/SKILL.md', type: 'blob' }] })); }
+  if (u.pathname === '/repos/a/skills/commits/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ sha: 'abc123' })); }
+  if (u.pathname === '/repos/a/skills/git/trees/abc123') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'skills/pdf/SKILL.md', type: 'blob' }, { path: 'skills/xlsx/SKILL.md', type: 'blob' }] })); }
+  if (u.pathname === '/repos/a/skills/readme') return res.end(['# Skills', '', '## Install', '', 'Run this:', '', '```bash', 'npx skills add a/skills', '```', ''].join(String.fromCharCode(10)));
   if (u.pathname === '/repos/b/plain/git/trees/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'README.md', type: 'blob' }] })); }
   if (u.pathname.startsWith('/repos/a/skills/contents/')) return res.end('---\nname: pdf\ndescription: Work with PDF files\n---\n');
   res.statusCode = 404;
@@ -57,5 +60,11 @@ test('skills.js keeps repos that hold SKILL.md, lists their skills and writes sk
   assert.deepEqual(out.repos[0].agents, ['claude']);
   assert.equal(out.repos[0].skills.find((s) => s.name === 'pdf').description, 'Work with PDF files');
   assert.ok(fs.existsSync(path.join(dir, 'skills-history.json')));
+  // The repo is young and under 5,000 stars, so it is rising. Its commands are pinned to the commit.
+  const rise = out.rising[0];
+  assert.equal(rise.full_name, 'a/skills');
+  assert.equal(rise.install.sha, 'abc123');
+  assert.match(rise.install.agents.claude.methods.at(-1).code, /git -C skill-src checkout abc123/);
+  assert.equal(rise.install.guide[0].steps[0].code, 'npx skills add a/skills');
   server.close();
 });
