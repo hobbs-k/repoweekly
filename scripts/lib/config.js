@@ -46,6 +46,11 @@ export const config = {
     gemMinGain: 40,
   },
   rising: { minGain: 50, accelerate: 2, count: 10 },
+  issues: {
+    labels: ['good first issue', 'help wanted'], perRepo: 15, maxRepos: 150, maxAgeDays: 180,
+    // Small, active repos with beginner tickets, found by GitHub's repo search for each language.
+    wider: { languages: ['Python', 'JavaScript', 'TypeScript', 'Java', 'Go', 'Rust', 'C#', 'C++'], perLanguage: 6, minStars: 50, maxStars: 5000, minBeginnerIssues: 3, pushedDays: 45 },
+  },
   starCheck: { pages: 3, sample: 30 },
   summarize: {
     readmeMaxChars: 6000,

@@ -78,6 +78,8 @@ ${weeks.slice(0, FEED_WEEKS).map(feedItem).join('\n')}
     writeJson(path.join(pub, 'api', 'repos.json'), { license: config.licenseNote, repos });
     const rising = readJson(path.join(config.paths.data, 'rising.json'));
     if (rising) writeJson(path.join(pub, 'api', 'rising.json'), rising);
+    const issues = readJson(path.join(config.paths.data, 'issues.json'));
+    if (issues) writeJson(path.join(pub, 'api', 'issues.json'), issues);
     fs.mkdirSync(pub, { recursive: true });
     fs.writeFileSync(path.join(pub, 'feed.xml'), feed, 'utf8');
   }

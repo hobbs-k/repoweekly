@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/format.js';
+---
+
+<Layout title="Find an open source issue to work on | RepoWeekly" description="Tell us what you know and see open good first issues and help wanted tickets that match, from repositories on RepoWeekly and other small active projects." current="contribute">
+  <div class="wrap page contribute">
+    <h1>Find something to contribute to</h1>
+    <p>Type what you know, such as <em>Python, docs</em> or <em>React, tests</em>. We show open tickets that maintainers marked as good first issues or as wanted help. The matching runs in your browser. What you type is never sent anywhere.</p>
+
+    <form class="skills-form" data-src={href('/api/issues.json')} hidden>
+      <label class="skills-field">Your skills
+        <input type="text" name="skills" autocomplete="off" placeholder="Python, docs, CLI" />
+      </label>
+      <div class="chips" role="group" aria-label="Languages in the list"></div>
+      <div class="skills-options">
+        <label class="check"><input type="checkbox" name="beginner" checked /> Beginner tickets only</label>
+        <label class="check"><input type="checkbox" name="ranked" /> Only repositories from our rankings</label>
+      </div>
+    </form>
+
+    <p class="issues-status muted" role="status"></p>
+    <ol class="issues" hidden></ol>
+    <p><button type="button" class="more" hidden>Show more</button></p>
+    <noscript><p>The matching needs JavaScript. <a href={href('/api/issues.json')}>The same tickets are in this JSON file.</a></p></noscript>
+
+    <h2>How to read this</h2>
+    <p>"Beginner" means the repository labelled the ticket <em>good first issue</em>. We skip tickets that are already assigned to someone, are pull requests, or have had no activity for six months. A ticket can still be taken in the comments, so read the thread before you start, and say that you are working on it.</p>
+    <p>The list comes from two places: repositories we have ranked or listed as rising, and a wider set of small, active projects with beginner tickets, found by language. It refreshes every day. Matching is by keywords in the language, topics, labels and title, so it is a rough guide, not a promise.</p>
+  </div>
+  <script slot="scripts" is:inline defer src={href('/js/contribute.js')}></script>
+</Layout>

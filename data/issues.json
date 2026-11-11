@@ -1,0 +1,4585 @@
+{
+  "generated": "2026-11-11T07:24:20.998Z",
+  "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
+  "repos": {
+    "pingdotgg/t3code": {
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 56049,
+      "difficulty": "medium",
+      "beginner": false,
+      "week": "2026-W45",
+      "latest": true,
+      "ranked": true
+    },
+    "dimensionalOS/dimos": {
+      "language": "Python",
+      "topics": [],
+      "stars": 4738,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "CrossGL/crosstl": {
+      "language": "Python",
+      "topics": [
+        "compiler",
+        "cuda",
+        "directx",
+        "glsl",
+        "gpu",
+        "hip",
+        "hlsl",
+        "metal",
+        "python",
+        "shader",
+        "slang",
+        "spir-v",
+        "transpiler",
+        "vulkan",
+        "webgpu",
+        "wgsl"
+      ],
+      "stars": 2004,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "ros2/ros2_documentation": {
+      "language": "Python",
+      "topics": [
+        "hacktoberfest",
+        "ros"
+      ],
+      "stars": 1066,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "oqtopus-team/qdash": {
+      "language": "Python",
+      "topics": [
+        "calibration",
+        "quantum",
+        "quantum-computing",
+        "qubit"
+      ],
+      "stars": 54,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "saksham10arora-dotcom/everything-claude-codex": {
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-skills",
+        "codex",
+        "developer-tools",
+        "good-first-issue",
+        "help-wanted",
+        "mcp",
+        "obsidian",
+        "openai-codex",
+        "rag",
+        "second-brain"
+      ],
+      "stars": 80,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "Blosc/python-blosc2": {
+      "language": "Python",
+      "topics": [
+        "columnar-storage",
+        "compression",
+        "computational",
+        "lazy-evaluation",
+        "ndimensional-arrays",
+        "tabular-data"
+      ],
+      "stars": 215,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "AI-WorkDeck/aiworkdeck": {
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "ai-workspace",
+        "desktop-app",
+        "document-ai",
+        "document-management",
+        "electron",
+        "law",
+        "legal",
+        "legal-ai",
+        "legaltech",
+        "libreoffice",
+        "llm",
+        "mcp",
+        "ocr",
+        "plugin-system",
+        "rag",
+        "self-hosted",
+        "spring-boot",
+        "vue"
+      ],
+      "stars": 175,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "nextcloud/documentation": {
+      "language": "JavaScript",
+      "topics": [
+        "documentation",
+        "hacktoberfest",
+        "manual",
+        "nextcloud",
+        "sphinx"
+      ],
+      "stars": 642,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "mozilla/rhino": {
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 4642,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "layer5io/docs": {
+      "language": "JavaScript",
+      "topics": [
+        "cloud-native",
+        "cncf",
+        "docs",
+        "hacktoberfest",
+        "kanvas",
+        "kubernetes",
+        "layer5",
+        "meshery"
+      ],
+      "stars": 104,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "google/site-kit-wp": {
+      "language": "JavaScript",
+      "topics": [
+        "site-kit",
+        "wordpress"
+      ],
+      "stars": 1405,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "neomjs/neo": {
+      "language": "JavaScript",
+      "topics": [
+        "ai-native",
+        "application-engine",
+        "es-modules",
+        "frontend",
+        "frontend-runtime",
+        "javascript",
+        "json",
+        "multi-threaded",
+        "multi-window",
+        "neural-link",
+        "object-permanence",
+        "offscreencanvas",
+        "scene-graph",
+        "sharedworker",
+        "web-workers",
+        "zero-build"
+      ],
+      "stars": 3300,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "ChainSafe/lodestar": {
+      "language": "TypeScript",
+      "topics": [
+        "beacon-chain",
+        "blockchain",
+        "eth2",
+        "ethereum",
+        "proof-of-stake",
+        "serenity",
+        "typescript"
+      ],
+      "stars": 1433,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "lingdojo/kana-dojo": {
+      "language": "TypeScript",
+      "topics": [
+        "beginner",
+        "beginner-friendly",
+        "contribute",
+        "contribution",
+        "contributions-welcome",
+        "first-contributions",
+        "first-timers-only",
+        "good-first-contribution",
+        "good-first-issue",
+        "good-first-pr",
+        "hacktoberfest",
+        "help-wanted",
+        "japanese",
+        "japanese-language",
+        "language-learning",
+        "learn-japanese",
+        "nextjs",
+        "open-source",
+        "react",
+        "up-for-grabs"
+      ],
+      "stars": 3840,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "trezor/trezor-suite": {
+      "language": "TypeScript",
+      "topics": [
+        "bitcoin",
+        "cryptocurrency",
+        "cryptography",
+        "electron",
+        "suite",
+        "trezor",
+        "typescript",
+        "wallet",
+        "web"
+      ],
+      "stars": 1099,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "db-ux-design-system/core-web": {
+      "language": "TypeScript",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "angular",
+        "components",
+        "css",
+        "design-system",
+        "html",
+        "mitosis",
+        "react",
+        "scss",
+        "tailwindcss",
+        "vue"
+      ],
+      "stars": 137,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "traPtitech/traQ_S-UI": {
+      "language": "TypeScript",
+      "topics": [
+        "hacktoberfest",
+        "traq"
+      ],
+      "stars": 142,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "apache/stormcrawler": {
+      "language": "Java",
+      "topics": [
+        "apache-storm",
+        "crawler",
+        "distributed",
+        "java",
+        "stormcrawler",
+        "web-crawler"
+      ],
+      "stars": 1015,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "1c-syntax/bsl-language-server": {
+      "language": "Java",
+      "topics": [
+        "1c-enterprise",
+        "hacktoberfest"
+      ],
+      "stars": 504,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "besu-eth/besu": {
+      "language": "Java",
+      "topics": [
+        "besu",
+        "blockchain",
+        "ethereum",
+        "java",
+        "p2p"
+      ],
+      "stars": 1868,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "apache/gravitino": {
+      "language": "Java",
+      "topics": [
+        "ai-catalog",
+        "data-catalog",
+        "datalake",
+        "federated-query",
+        "lakehouse",
+        "metadata",
+        "metalake",
+        "model-catalog",
+        "opendatacatalog",
+        "skycomputing",
+        "stratosphere"
+      ],
+      "stars": 3356,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "open-telemetry/opentelemetry-go-compile-instrumentation": {
+      "language": "Go",
+      "topics": [],
+      "stars": 504,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "pulseaiclub/phi": {
+      "language": "Go",
+      "topics": [
+        "ai-agent",
+        "cli",
+        "codex",
+        "coding-agent",
+        "dsh-plugin",
+        "go",
+        "oh-my-pi",
+        "omp",
+        "pi",
+        "terminal",
+        "tui"
+      ],
+      "stars": 1002,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "konflux-ci/konflux-ci": {
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ci-cd",
+        "cloud-native",
+        "go",
+        "kubernetes",
+        "oci",
+        "sbom",
+        "sigstore",
+        "slsa",
+        "supply-chain",
+        "supply-chain-security",
+        "tekton"
+      ],
+      "stars": 224,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "vshulcz/deja-vu": {
+      "language": "Go",
+      "topics": [
+        "agent-memory",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-memory",
+        "cline",
+        "codex",
+        "cursor",
+        "dsh-plugin",
+        "gemini-cli-extension",
+        "kimi-code",
+        "llm-memory",
+        "magpie-plugin",
+        "mcp",
+        "mcp-server",
+        "neovim-plugin",
+        "openclaw",
+        "opencode",
+        "qwen-code",
+        "session-history",
+        "zed-extension"
+      ],
+      "stars": 1501,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "CurvineIO/curvine": {
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-infra",
+        "ai-native",
+        "cloud-native",
+        "distributed-cache",
+        "filesystem",
+        "fuse",
+        "kubernetes",
+        "lance",
+        "lancedb",
+        "llm",
+        "model-training",
+        "posix",
+        "rust",
+        "s3",
+        "sandbox-environment",
+        "vllm-plugins"
+      ],
+      "stars": 1059,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "mxsm/rocketmq-rust": {
+      "language": "Rust",
+      "topics": [
+        "ai-sre",
+        "cloud-native",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "messaging",
+        "rocketmq",
+        "rocketmq-rust",
+        "rocketmq-rust-client",
+        "rocketmq-rust-sdk",
+        "rust",
+        "tauri"
+      ],
+      "stars": 1543,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "finos/morphir": {
+      "language": "Rust",
+      "topics": [
+        "business-knowledge",
+        "functional-programming",
+        "morphir-modeling",
+        "multi-language"
+      ],
+      "stars": 217,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "Altinn/altinn-studio": {
+      "language": "C#",
+      "topics": [
+        "altinn",
+        "apis",
+        "containers",
+        "development-platform",
+        "digital-public-goods",
+        "dpg",
+        "forms",
+        "git",
+        "sdg-16",
+        "ui-components"
+      ],
+      "stars": 170,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "meilisearch/meilisearch-dotnet": {
+      "language": "C#",
+      "topics": [
+        "dotnet",
+        "meilisearch",
+        "search",
+        "vector",
+        "vector-database"
+      ],
+      "stars": 345,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "Azure/azure-powershell": {
+      "language": "C#",
+      "topics": [
+        "arm",
+        "azure",
+        "microsoft",
+        "microsoft-azure-powershell",
+        "powershell"
+      ],
+      "stars": 4811,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "gazebosim/ros_gz": {
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "gazebo",
+        "gazebosim",
+        "hacktoberfest",
+        "ignition",
+        "ignition-gazebo",
+        "ignition-transport",
+        "pubsub",
+        "robotics",
+        "robotics-simulation",
+        "ros",
+        "ros2",
+        "simulation",
+        "transport"
+      ],
+      "stars": 553,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "sven-n/MuMain": {
+      "language": "C++",
+      "topics": [
+        "hacktoberfest",
+        "mmorpg-client",
+        "muonline"
+      ],
+      "stars": 324,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "aethersdr/AetherSDR": {
+      "language": "C++",
+      "topics": [
+        "amateur-radio",
+        "cpp",
+        "flex-6000",
+        "flex-8600",
+        "flexradio",
+        "ham-radio",
+        "hf-radio",
+        "linux",
+        "qt6",
+        "radio-client",
+        "sdr",
+        "smartsdr",
+        "software-defined-radio",
+        "vita49"
+      ],
+      "stars": 260,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    },
+    "lfortran/lfortran": {
+      "language": "C++",
+      "topics": [
+        "compiler",
+        "fortran",
+        "fortran-compiler",
+        "interactive",
+        "jupyter",
+        "jupyter-kernels",
+        "jupyter-notebook",
+        "library",
+        "repl"
+      ],
+      "stars": 1260,
+      "difficulty": null,
+      "beginner": false,
+      "week": null,
+      "latest": false,
+      "ranked": false
+    }
+  },
+  "items": [
+    {
+      "repo": "pingdotgg/t3code",
+      "number": 13406,
+      "title": "[Bug]: Git action dropdown remains clickable when no actions are available",
+      "url": "https://github.com/pingdotgg/t3code/issues/13406",
+      "labels": [
+        "bug",
+        "good first issue",
+        "accepted",
+        "via-triage"
+      ],
+      "created": "2026-09-24T11:48:18Z",
+      "updated": "2026-10-22T01:30:41Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "dimensionalOS/dimos",
+      "number": 1255,
+      "title": "Good Frontier Exploration",
+      "url": "https://github.com/dimensionalOS/dimos/issues/1255",
+      "labels": [
+        "navigation",
+        "good first issue",
+        "enhancement",
+        "go2",
+        "good trial issue"
+      ],
+      "created": "2026-02-13T13:45:41Z",
+      "updated": "2026-08-30T08:22:20Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "dimensionalOS/dimos",
+      "number": 3399,
+      "title": "Integrate a SPACE benchmark task into the agent-eval framework",
+      "url": "https://github.com/dimensionalOS/dimos/issues/3399",
+      "labels": [
+        "good first issue",
+        "good trial issue"
+      ],
+      "created": "2026-08-08T03:38:15Z",
+      "updated": "2026-08-21T05:51:18Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2407,
+      "title": "WGSL output: no definition in scope for identifier: `<feature>`",
+      "url": "https://github.com/CrossGL/crosstl/issues/2407",
+      "labels": [
+        "bug",
+        "good first issue",
+        "area:codegen",
+        "backend:wgsl",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-20T18:55:31Z",
+      "updated": "2026-11-11T04:23:47Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2341,
+      "title": "Rust output: error[E0463]: can't find crate for `std`",
+      "url": "https://github.com/CrossGL/crosstl/issues/2341",
+      "labels": [
+        "bug",
+        "help wanted",
+        "area:codegen",
+        "backend:rust",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-20T11:37:02Z",
+      "updated": "2026-11-11T04:23:45Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2338,
+      "title": "Mojo output: global variables are not supported; move this into a function body or use 'comptime' to declare a constant",
+      "url": "https://github.com/CrossGL/crosstl/issues/2338",
+      "labels": [
+        "bug",
+        "help wanted",
+        "area:codegen",
+        "backend:mojo",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-20T10:33:55Z",
+      "updated": "2026-11-11T04:23:44Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2342,
+      "title": "Rust input: error[E0463]: can't find crate for `std`",
+      "url": "https://github.com/CrossGL/crosstl/issues/2342",
+      "labels": [
+        "bug",
+        "help wanted",
+        "area:frontend",
+        "backend:rust",
+        "direction:input",
+        "coverage"
+      ],
+      "created": "2026-10-20T11:37:03Z",
+      "updated": "2026-11-11T02:19:27Z",
+      "comments": 2,
+      "beginner": false
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 3550,
+      "title": "WGSL output: offset lookups on cube textures write an offset that WGSL does not take",
+      "url": "https://github.com/CrossGL/crosstl/issues/3550",
+      "labels": [
+        "bug",
+        "good first issue",
+        "area:codegen",
+        "backend:wgsl",
+        "direction:output"
+      ],
+      "created": "2026-10-30T14:29:31Z",
+      "updated": "2026-11-10T14:17:46Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 3636,
+      "title": "GLSL output keeps a scalar as a matrix element of an array constructor, and as a vector element outside a declaration",
+      "url": "https://github.com/CrossGL/crosstl/issues/3636",
+      "labels": [
+        "bug",
+        "good first issue",
+        "backend:glsl",
+        "area:codegen",
+        "direction:output"
+      ],
+      "created": "2026-10-31T13:31:04Z",
+      "updated": "2026-11-10T14:17:44Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 3809,
+      "title": "GLSL output copies `GetDimensions(n, s)` on an element of a structured buffer array unchanged",
+      "url": "https://github.com/CrossGL/crosstl/issues/3809",
+      "labels": [
+        "bug",
+        "good first issue",
+        "backend:glsl",
+        "area:codegen",
+        "direction:output"
+      ],
+      "created": "2026-11-04T14:24:58Z",
+      "updated": "2026-11-10T14:17:41Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2444,
+      "title": "Untyped shader-scope let prints None or void as its type on Metal, HLSL and WGSL",
+      "url": "https://github.com/CrossGL/crosstl/issues/2444",
+      "labels": [
+        "bug",
+        "good first issue",
+        "backend:metal",
+        "backend:hlsl",
+        "backend:spirv",
+        "area:codegen",
+        "backend:wgsl",
+        "direction:output"
+      ],
+      "created": "2026-10-20T22:39:35Z",
+      "updated": "2026-11-10T14:17:39Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2462,
+      "title": "WGSL output: Entry point fragment_main at Fragment is invalid",
+      "url": "https://github.com/CrossGL/crosstl/issues/2462",
+      "labels": [
+        "bug",
+        "good first issue",
+        "area:codegen",
+        "backend:wgsl",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-21T01:28:11Z",
+      "updated": "2026-10-30T15:41:32Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2333,
+      "title": "HIP output: use of undeclared identifier 'blend'",
+      "url": "https://github.com/CrossGL/crosstl/issues/2333",
+      "labels": [
+        "bug",
+        "help wanted",
+        "area:codegen",
+        "backend:hip",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-20T10:33:52Z",
+      "updated": "2026-10-28T08:55:44Z",
+      "comments": 2,
+      "beginner": false
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2384,
+      "title": "WGSL output: Entry point compute_main at Compute is invalid",
+      "url": "https://github.com/CrossGL/crosstl/issues/2384",
+      "labels": [
+        "bug",
+        "good first issue",
+        "area:codegen",
+        "backend:wgsl",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-20T17:00:18Z",
+      "updated": "2026-10-28T08:13:34Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 3194,
+      "title": "CUDA and HIP output call length, distance and normalize on integer operands as bare functions",
+      "url": "https://github.com/CrossGL/crosstl/issues/3194",
+      "labels": [
+        "bug",
+        "good first issue",
+        "area:codegen",
+        "backend:cuda",
+        "backend:hip",
+        "direction:output"
+      ],
+      "created": "2026-10-26T16:11:29Z",
+      "updated": "2026-10-26T16:19:42Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 3119,
+      "title": "CUDA and HIP output apply % and fmodf to half scalars and native half2 vectors",
+      "url": "https://github.com/CrossGL/crosstl/issues/3119",
+      "labels": [
+        "bug",
+        "good first issue",
+        "area:codegen",
+        "backend:cuda",
+        "backend:hip",
+        "direction:output"
+      ],
+      "created": "2026-10-26T01:25:17Z",
+      "updated": "2026-10-26T01:43:19Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2640,
+      "title": "HLSL input: ValueError: DirectX texture operation 'textureCompare' requires a declared texture or image resource argument: obj",
+      "url": "https://github.com/CrossGL/crosstl/issues/2640",
+      "labels": [
+        "bug",
+        "good first issue",
+        "backend:hlsl",
+        "area:frontend",
+        "direction:input",
+        "coverage"
+      ],
+      "created": "2026-10-22T02:34:31Z",
+      "updated": "2026-10-25T08:08:53Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "CrossGL/crosstl",
+      "number": 2337,
+      "title": "Metal output: no matching function for call to 'atomic_fetch_sub'",
+      "url": "https://github.com/CrossGL/crosstl/issues/2337",
+      "labels": [
+        "bug",
+        "good first issue",
+        "backend:metal",
+        "area:codegen",
+        "direction:output",
+        "coverage"
+      ],
+      "created": "2026-10-20T10:33:54Z",
+      "updated": "2026-10-25T07:49:28Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "ros2/ros2_documentation",
+      "number": 4209,
+      "title": "make linkcheck finds many `broken` links",
+      "url": "https://github.com/ros2/ros2_documentation/issues/4209",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2024-03-05T08:14:55Z",
+      "updated": "2026-11-05T16:32:36Z",
+      "comments": 11,
+      "beginner": true
+    },
+    {
+      "repo": "ros2/ros2_documentation",
+      "number": 5571,
+      "title": "📝 Discuss Events executor in \"About Executors\" page",
+      "url": "https://github.com/ros2/ros2_documentation/issues/5571",
+      "labels": [
+        "help wanted"
+      ],
+      "created": "2025-05-07T01:34:44Z",
+      "updated": "2026-10-30T10:08:17Z",
+      "comments": 5,
+      "beginner": false
+    },
+    {
+      "repo": "ros2/ros2_documentation",
+      "number": 4924,
+      "title": "Add a tutorial on Lifecycle nodes",
+      "url": "https://github.com/ros2/ros2_documentation/issues/4924",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2025-01-06T18:56:29Z",
+      "updated": "2026-09-09T17:13:40Z",
+      "comments": 18,
+      "beginner": true
+    },
+    {
+      "repo": "ros2/ros2_documentation",
+      "number": 1487,
+      "title": "ROS 2 documentation suggestions",
+      "url": "https://github.com/ros2/ros2_documentation/issues/1487",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "backlog"
+      ],
+      "created": "2021-05-10T21:59:22Z",
+      "updated": "2026-07-07T17:57:39Z",
+      "comments": 19,
+      "beginner": true
+    },
+    {
+      "repo": "oqtopus-team/qdash",
+      "number": 1222,
+      "title": "[Style]: Does that button have `overflow: hidden`?",
+      "url": "https://github.com/oqtopus-team/qdash/issues/1222",
+      "labels": [
+        "good first issue",
+        "style"
+      ],
+      "created": "2026-07-19T06:07:33Z",
+      "updated": "2026-08-08T08:47:23Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "oqtopus-team/qdash",
+      "number": 1168,
+      "title": "[Style]: When creating a workflow, the template label overflows.",
+      "url": "https://github.com/oqtopus-team/qdash/issues/1168",
+      "labels": [
+        "good first issue",
+        "style"
+      ],
+      "created": "2026-07-08T14:00:09Z",
+      "updated": "2026-07-19T05:52:29Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 2,
+      "title": "notify_done: add a Linux desktop notification (notify-send)",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/2",
+      "labels": [
+        "help wanted"
+      ],
+      "created": "2026-11-06T07:26:59Z",
+      "updated": "2026-11-07T15:15:32Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 27,
+      "title": "CI: lint Python with ruff",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/27",
+      "labels": [
+        "help wanted"
+      ],
+      "created": "2026-11-06T15:53:11Z",
+      "updated": "2026-11-07T15:15:14Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 26,
+      "title": "CI: run shellcheck on the shell hooks",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/26",
+      "labels": [
+        "help wanted"
+      ],
+      "created": "2026-11-06T15:53:09Z",
+      "updated": "2026-11-07T15:15:11Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 17,
+      "title": "doctor: add a --json flag",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/17",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-06T15:52:53Z",
+      "updated": "2026-11-07T15:15:07Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 31,
+      "title": "New skill: /inbox to triage inbox files",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/31",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:18Z",
+      "updated": "2026-11-06T15:53:18Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 30,
+      "title": "New skill: /standup",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/30",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:17Z",
+      "updated": "2026-11-06T15:53:17Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 29,
+      "title": "Docs: Linux and WSL setup notes",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/29",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:15Z",
+      "updated": "2026-11-06T15:53:15Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 28,
+      "title": "Docs: a 'write your first skill' guide",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/28",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:13Z",
+      "updated": "2026-11-06T15:53:13Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 25,
+      "title": "Tests: cover hooks/usage_report.py",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/25",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:08Z",
+      "updated": "2026-11-06T15:53:08Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 24,
+      "title": "Tests: cover jobs/tracker_staleness.py",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/24",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:06Z",
+      "updated": "2026-11-06T15:53:06Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 22,
+      "title": "Tests: cover watch-notes parse_vtt",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/22",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:02Z",
+      "updated": "2026-11-06T15:53:02Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 21,
+      "title": "Tests: cover statusline.sh",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/21",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:53:00Z",
+      "updated": "2026-11-06T15:53:00Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 20,
+      "title": "notify_done: quiet hours",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/20",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:52:58Z",
+      "updated": "2026-11-06T15:52:58Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 19,
+      "title": "statusline: respect NO_COLOR",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/19",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:52:57Z",
+      "updated": "2026-11-06T15:52:57Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "saksham10arora-dotcom/everything-claude-codex",
+      "number": 16,
+      "title": "tests_before_done: use pnpm or yarn when the repo uses them",
+      "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex/issues/16",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-06T15:52:51Z",
+      "updated": "2026-11-06T15:52:51Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "Blosc/python-blosc2",
+      "number": 644,
+      "title": "[Tutorial] CTable copy() with reblocking and recompression",
+      "url": "https://github.com/Blosc/python-blosc2/issues/644",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "sustain-2026"
+      ],
+      "created": "2026-06-02T11:14:28Z",
+      "updated": "2026-10-02T11:34:30Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "Blosc/python-blosc2",
+      "number": 645,
+      "title": "Document SUMMARY indexes for end users",
+      "url": "https://github.com/Blosc/python-blosc2/issues/645",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "sustain-2026"
+      ],
+      "created": "2026-06-02T11:16:50Z",
+      "updated": "2026-09-30T19:47:49Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "Blosc/python-blosc2",
+      "number": 476,
+      "title": "Array-api Linalg functions",
+      "url": "https://github.com/Blosc/python-blosc2/issues/476",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "sustain-2026"
+      ],
+      "created": "2025-09-15T08:16:49Z",
+      "updated": "2026-09-25T11:44:36Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "Blosc/python-blosc2",
+      "number": 466,
+      "title": "Array API compliance",
+      "url": "https://github.com/Blosc/python-blosc2/issues/466",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "sustain-2026"
+      ],
+      "created": "2025-09-10T11:48:16Z",
+      "updated": "2026-09-25T11:44:16Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "Blosc/python-blosc2",
+      "number": 649,
+      "title": "[DOC] Tutorial: variable-length columns (ListArray and BatchArray)",
+      "url": "https://github.com/Blosc/python-blosc2/issues/649",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "sustain-2026"
+      ],
+      "created": "2026-06-02T11:20:11Z",
+      "updated": "2026-09-15T11:47:15Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "Blosc/python-blosc2",
+      "number": 652,
+      "title": "[BENCH] Real-world query performance comparison",
+      "url": "https://github.com/Blosc/python-blosc2/issues/652",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "sustain-2026"
+      ],
+      "created": "2026-06-02T11:25:17Z",
+      "updated": "2026-09-15T11:44:01Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1077,
+      "title": "GFI: Remove docs/ from .gitignore / 从 .gitignore 移除 docs/ 规则",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1077",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: docs",
+        "priority: medium"
+      ],
+      "created": "2026-10-09T11:08:52Z",
+      "updated": "2026-10-27T14:05:57Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1083,
+      "title": "GFI: English twin for hello-web-plugin README / hello-web-plugin 英文 README",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1083",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: plugins",
+        "area: docs",
+        "priority: low"
+      ],
+      "created": "2026-10-09T11:09:04Z",
+      "updated": "2026-10-19T02:01:21Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1082,
+      "title": "GFI: Add bilingual README for hello-declarative-plugin / 声明式插件示例 README",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1082",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: plugins",
+        "area: docs",
+        "priority: medium"
+      ],
+      "created": "2026-10-09T11:09:03Z",
+      "updated": "2026-10-09T11:10:28Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1081,
+      "title": "GFI: #66 Quick-check runbook for contributors / 编辑器语言 Quick check 操作说明",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1081",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: desktop",
+        "area: docs",
+        "priority: medium"
+      ],
+      "created": "2026-10-09T11:09:01Z",
+      "updated": "2026-10-09T11:10:28Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1079,
+      "title": "GFI: Archive one internal doc into docs/dev-notes/ / 归档一篇内部笔记",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1079",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: docs",
+        "priority: low"
+      ],
+      "created": "2026-10-09T11:08:56Z",
+      "updated": "2026-10-09T11:10:27Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1078,
+      "title": "GFI: Add docs/README.md contributor index / 贡献者文档索引",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1078",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: docs",
+        "priority: medium"
+      ],
+      "created": "2026-10-09T11:08:54Z",
+      "updated": "2026-10-09T11:10:26Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 3,
+      "title": "律所评估包：≤30 分钟起主栈或双拓扑文档 / Firm eval pack (rewrite of one-click Docker)",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/3",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "area: infra",
+        "priority: high"
+      ],
+      "created": "2026-05-17T02:48:38Z",
+      "updated": "2026-10-09T11:10:20Z",
+      "comments": 3,
+      "beginner": false
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 1084,
+      "title": "GFI: Fix one frontend locale namespace key parity gap / 补齐一组 locale 键对拍缺口",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/1084",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "area: frontend",
+        "priority: medium"
+      ],
+      "created": "2026-10-09T11:09:34Z",
+      "updated": "2026-10-09T11:09:34Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 15,
+      "title": "Restructure docs/ for contributors / 整理 docs 为面向贡献者的文档体系",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/15",
+      "labels": [
+        "help wanted",
+        "area: docs",
+        "priority: medium"
+      ],
+      "created": "2026-06-11T07:55:00Z",
+      "updated": "2026-10-09T11:09:10Z",
+      "comments": 2,
+      "beginner": false
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 14,
+      "title": "RFC: Pluggable component architecture / 插件系统标准化——组件可插拔可替换",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/14",
+      "labels": [
+        "help wanted",
+        "area: ai",
+        "area: plugins",
+        "type: rfc",
+        "priority: medium"
+      ],
+      "created": "2026-06-11T07:54:57Z",
+      "updated": "2026-10-09T11:07:37Z",
+      "comments": 4,
+      "beginner": false
+    },
+    {
+      "repo": "AI-WorkDeck/aiworkdeck",
+      "number": 4,
+      "title": "Add project logo and branding assets to repo",
+      "url": "https://github.com/AI-WorkDeck/aiworkdeck/issues/4",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-05-17T02:48:41Z",
+      "updated": "2026-06-11T07:52:49Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 13446,
+      "title": "File (drop) request seems outdated",
+      "url": "https://github.com/nextcloud/documentation/issues/13446",
+      "labels": [
+        "good first issue",
+        "1. to develop",
+        "manual: user",
+        "feature: sharing",
+        "outdated screenshots"
+      ],
+      "created": "2025-07-24T17:07:34Z",
+      "updated": "2026-11-07T17:26:40Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 11435,
+      "title": "Document regex syntax for Flow file-name matching",
+      "url": "https://github.com/nextcloud/documentation/issues/11435",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "1. to develop",
+        "manual: admin",
+        "feature: workflows"
+      ],
+      "created": "2023-12-29T14:35:22Z",
+      "updated": "2026-11-07T17:14:04Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 4758,
+      "title": "The suggested configuration for PHP MySQL driver is wrong due to MySQL (Original) being removed since PHP 7.0",
+      "url": "https://github.com/nextcloud/documentation/issues/4758",
+      "labels": [
+        "bug",
+        "good first issue",
+        "1. to develop",
+        "manual: admin",
+        "feature: install and update"
+      ],
+      "created": "2020-09-16T13:15:15Z",
+      "updated": "2026-10-31T15:43:38Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15687,
+      "title": "Developer manual: mention the org's appstore-build-publish workflow",
+      "url": "https://github.com/nextcloud/documentation/issues/15687",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer",
+        "developer experience"
+      ],
+      "created": "2026-10-01T15:59:09Z",
+      "updated": "2026-10-01T15:59:18Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15685,
+      "title": "Developer manual: what to clean up on uninstall in repair.rst",
+      "url": "https://github.com/nextcloud/documentation/issues/15685",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer"
+      ],
+      "created": "2026-10-01T15:59:05Z",
+      "updated": "2026-10-01T15:59:14Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15684,
+      "title": "Developer manual: copyable setup for PHP-CS-Fixer and ESLint",
+      "url": "https://github.com/nextcloud/documentation/issues/15684",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer",
+        "developer experience"
+      ],
+      "created": "2026-10-01T15:59:02Z",
+      "updated": "2026-10-01T15:59:12Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15683,
+      "title": "Developer manual: validate and rate-limit outgoing mail in email.rst",
+      "url": "https://github.com/nextcloud/documentation/issues/15683",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer",
+        "security",
+        "feature: emails"
+      ],
+      "created": "2026-10-01T15:58:59Z",
+      "updated": "2026-10-01T15:59:10Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15682,
+      "title": "Developer manual: allowlist user-supplied columns and sort orders in database.rst",
+      "url": "https://github.com/nextcloud/documentation/issues/15682",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer",
+        "security"
+      ],
+      "created": "2026-10-01T15:58:57Z",
+      "updated": "2026-10-01T15:59:06Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15681,
+      "title": "Developer manual: add crypto APIs, unserialize and CSV injection to security.rst",
+      "url": "https://github.com/nextcloud/documentation/issues/15681",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer",
+        "security"
+      ],
+      "created": "2026-10-01T15:58:55Z",
+      "updated": "2026-10-01T15:59:04Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15680,
+      "title": "Developer manual: document registerSensitiveMethods() in logging.rst",
+      "url": "https://github.com/nextcloud/documentation/issues/15680",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer",
+        "security",
+        "feature: logging"
+      ],
+      "created": "2026-10-01T15:58:53Z",
+      "updated": "2026-10-01T15:59:03Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 15679,
+      "title": "Developer manual: fix the attribute and CSP examples in controllers.rst",
+      "url": "https://github.com/nextcloud/documentation/issues/15679",
+      "labels": [
+        "bug",
+        "good first issue",
+        "0. needs triage",
+        "manual: developer"
+      ],
+      "created": "2026-10-01T15:58:51Z",
+      "updated": "2026-10-01T15:59:00Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 13075,
+      "title": "Suggestion: Add systemd example for AI worker using Docker (docker exec) to documentation",
+      "url": "https://github.com/nextcloud/documentation/issues/13075",
+      "labels": [
+        "good first issue",
+        "1. to develop"
+      ],
+      "created": "2025-04-25T03:53:28Z",
+      "updated": "2026-06-11T15:40:03Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 11749,
+      "title": "Expand description of `allow_local_remote_servers`",
+      "url": "https://github.com/nextcloud/documentation/issues/11749",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "1. to develop",
+        "manual: admin"
+      ],
+      "created": "2024-04-20T13:29:59Z",
+      "updated": "2026-06-01T21:48:47Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 14086,
+      "title": "Document user key draw backs (SSE)",
+      "url": "https://github.com/nextcloud/documentation/issues/14086",
+      "labels": [
+        "good first issue",
+        "1. to develop",
+        "manual: admin",
+        "feature: encryption (server-side)"
+      ],
+      "created": "2026-02-24T13:54:33Z",
+      "updated": "2026-05-19T13:52:18Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "nextcloud/documentation",
+      "number": 9933,
+      "title": "update occ commands for deck",
+      "url": "https://github.com/nextcloud/documentation/issues/9933",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "1. to develop",
+        "manual: admin",
+        "manual: user",
+        "feature: occ",
+        "feature: deck"
+      ],
+      "created": "2023-03-21T12:44:35Z",
+      "updated": "2026-05-19T13:52:18Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "mozilla/rhino",
+      "number": 2363,
+      "title": "Write an OpenRewrite rule to migrate to Rhino 2.0",
+      "url": "https://github.com/mozilla/rhino/issues/2363",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2026-04-12T16:05:47Z",
+      "updated": "2026-10-28T18:33:31Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 663,
+      "title": "Convert Images into Meshery Design",
+      "url": "https://github.com/layer5io/docs/issues/663",
+      "labels": [
+        "help wanted",
+        "kind/enhancement",
+        "language/javascript",
+        "language/css",
+        "language/html",
+        "framework/hugo"
+      ],
+      "created": "2025-07-10T20:47:01Z",
+      "updated": "2026-11-10T22:59:58Z",
+      "comments": 8,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 1366,
+      "title": "[UI] Search bar is clipped on mobile viewports on the Kanvas documentation page",
+      "url": "https://github.com/layer5io/docs/issues/1366",
+      "labels": [
+        "help wanted",
+        "kind/bug",
+        "language/javascript",
+        "language/css",
+        "framework/hugo"
+      ],
+      "created": "2026-10-29T20:09:28Z",
+      "updated": "2026-10-31T08:25:18Z",
+      "comments": 3,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 1168,
+      "title": "[Debt] scss rules targetting bootstrap rules should be removed",
+      "url": "https://github.com/layer5io/docs/issues/1168",
+      "labels": [
+        "help wanted",
+        "kind/bug",
+        "language/javascript",
+        "language/css",
+        "framework/hugo"
+      ],
+      "created": "2026-07-22T12:09:14Z",
+      "updated": "2026-10-03T17:18:04Z",
+      "comments": 2,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 1169,
+      "title": "[Debt] Unused partials and layouts should be removed",
+      "url": "https://github.com/layer5io/docs/issues/1169",
+      "labels": [
+        "help wanted",
+        "kind/bug",
+        "language/javascript",
+        "language/css",
+        "framework/hugo"
+      ],
+      "created": "2026-07-22T12:13:40Z",
+      "updated": "2026-10-03T17:18:02Z",
+      "comments": 2,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 1170,
+      "title": "[Debt] Unused scss rules should be removed",
+      "url": "https://github.com/layer5io/docs/issues/1170",
+      "labels": [
+        "help wanted",
+        "kind/bug",
+        "language/javascript",
+        "language/css",
+        "framework/hugo"
+      ],
+      "created": "2026-07-22T12:18:14Z",
+      "updated": "2026-10-03T17:18:00Z",
+      "comments": 3,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 1171,
+      "title": "[Debt] Rules in `_styles_project.scss` should be shifted to their respective files",
+      "url": "https://github.com/layer5io/docs/issues/1171",
+      "labels": [
+        "help wanted",
+        "kind/bug",
+        "language/javascript",
+        "language/css",
+        "framework/hugo"
+      ],
+      "created": "2026-07-22T12:30:48Z",
+      "updated": "2026-10-03T17:17:59Z",
+      "comments": 3,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 1272,
+      "title": "[Docs] Create VISION.md and vision artifacts for Layer5 Docs",
+      "url": "https://github.com/layer5io/docs/issues/1272",
+      "labels": [
+        "area/docs",
+        "help wanted",
+        "language/markdown",
+        "framework/hugo"
+      ],
+      "created": "2026-09-21T22:38:45Z",
+      "updated": "2026-10-03T17:17:58Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 500,
+      "title": "[Docs] Enhance Video Sections in Layer5 Docs by Adding Transcripts",
+      "url": "https://github.com/layer5io/docs/issues/500",
+      "labels": [
+        "help wanted",
+        "kind/enhancement",
+        "language/javascript",
+        "language/css",
+        "language/html",
+        "framework/hugo"
+      ],
+      "created": "2025-04-25T17:48:14Z",
+      "updated": "2026-08-17T11:55:16Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "layer5io/docs",
+      "number": 955,
+      "title": "SEO Audit Errors on docs.layer5.io (Lighthouse)",
+      "url": "https://github.com/layer5io/docs/issues/955",
+      "labels": [
+        "help wanted",
+        "kind/bug",
+        "language/javascript",
+        "language/css",
+        "framework/hugo"
+      ],
+      "created": "2026-04-23T13:36:40Z",
+      "updated": "2026-08-12T12:39:10Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "google/site-kit-wp",
+      "number": 13378,
+      "title": "The Site Kit G sits higher than its label in the WordPress menu on a phone",
+      "url": "https://github.com/google/site-kit-wp/issues/13378",
+      "labels": [
+        "Type: Bug",
+        "P2",
+        "Good First Issue",
+        "Team S"
+      ],
+      "created": "2026-08-18T14:59:31Z",
+      "updated": "2026-10-29T09:41:31Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "google/site-kit-wp",
+      "number": 13537,
+      "title": "Page titles, category names, and Site Goals totals show HTML entity codes in the plain text email report",
+      "url": "https://github.com/google/site-kit-wp/issues/13537",
+      "labels": [
+        "Type: Bug",
+        "P2",
+        "Good First Issue",
+        "PHP"
+      ],
+      "created": "2026-09-11T15:08:00Z",
+      "updated": "2026-10-29T09:40:07Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "google/site-kit-wp",
+      "number": 13881,
+      "title": "The visitor groups card shows no Retry and no Get help under an Analytics rate limit",
+      "url": "https://github.com/google/site-kit-wp/issues/13881",
+      "labels": [
+        "Type: Bug",
+        "P2",
+        "Good First Issue",
+        "Module: Analytics",
+        "Team S"
+      ],
+      "created": "2026-10-16T20:20:23Z",
+      "updated": "2026-10-28T13:14:38Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "google/site-kit-wp",
+      "number": 13388,
+      "title": "Follow-up: update remaining <p> tags to use the new Typography approach.",
+      "url": "https://github.com/google/site-kit-wp/issues/13388",
+      "labels": [
+        "Type: Enhancement",
+        "Good First Issue"
+      ],
+      "created": "2026-08-19T08:19:04Z",
+      "updated": "2026-10-16T10:59:59Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "google/site-kit-wp",
+      "number": 6492,
+      "title": "Replace usage of Lodash `cloneDeep` with native `structuredClone`.",
+      "url": "https://github.com/google/site-kit-wp/issues/6492",
+      "labels": [
+        "P2",
+        "Type: Enhancement",
+        "Good First Issue",
+        "blocked upstream",
+        "Next Up"
+      ],
+      "created": "2023-01-29T17:03:58Z",
+      "updated": "2026-08-25T11:55:04Z",
+      "comments": 12,
+      "beginner": true
+    },
+    {
+      "repo": "google/site-kit-wp",
+      "number": 13235,
+      "title": "The traffic graph tooltip covers the header and navigation when the page scrolls",
+      "url": "https://github.com/google/site-kit-wp/issues/13235",
+      "labels": [
+        "Type: Bug",
+        "P2",
+        "Good First Issue",
+        "Team S"
+      ],
+      "created": "2026-07-31T21:02:08Z",
+      "updated": "2026-08-13T13:13:20Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20735,
+      "title": "Add pressed background, text, and glyph tokens to Neo.button.Base",
+      "url": "https://github.com/neomjs/neo/issues/20735",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "design",
+        "ai",
+        "core"
+      ],
+      "created": "2026-11-10T16:22:05Z",
+      "updated": "2026-11-11T03:10:45Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20717,
+      "title": "src/worker/App.mjs webpackExclude rejects a pnpm store path, so a linked package's framework App build reaches no app",
+      "url": "https://github.com/neomjs/neo/issues/20717",
+      "labels": [
+        "bug",
+        "good first issue",
+        "ai",
+        "build"
+      ],
+      "created": "2026-11-10T12:27:43Z",
+      "updated": "2026-11-11T02:34:11Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20745,
+      "title": "A keyboard cannot expand or collapse a row of a tree grid",
+      "url": "https://github.com/neomjs/neo/issues/20745",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "grid",
+        "accessibility"
+      ],
+      "created": "2026-11-11T01:22:12Z",
+      "updated": "2026-11-11T01:22:12Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20691,
+      "title": "The Forms examples get their overview",
+      "url": "https://github.com/neomjs/neo/issues/20691",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "portal"
+      ],
+      "created": "2026-11-10T02:42:14Z",
+      "updated": "2026-11-10T23:24:02Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20696,
+      "title": "The State & Data examples get their overview",
+      "url": "https://github.com/neomjs/neo/issues/20696",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "portal"
+      ],
+      "created": "2026-11-10T02:44:19Z",
+      "updated": "2026-11-10T02:46:38Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20695,
+      "title": "The visual components, canvas and wrappers get their overview",
+      "url": "https://github.com/neomjs/neo/issues/20695",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "portal"
+      ],
+      "created": "2026-11-10T02:43:56Z",
+      "updated": "2026-11-10T02:46:36Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20694,
+      "title": "Buttons, containers, lists, menus and trees get their overview",
+      "url": "https://github.com/neomjs/neo/issues/20694",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "portal"
+      ],
+      "created": "2026-11-10T02:43:35Z",
+      "updated": "2026-11-10T02:46:34Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20693,
+      "title": "The Calendar examples get their overview",
+      "url": "https://github.com/neomjs/neo/issues/20693",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "portal"
+      ],
+      "created": "2026-11-10T02:42:54Z",
+      "updated": "2026-11-10T02:46:33Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20692,
+      "title": "The Multi-Window examples get their overview",
+      "url": "https://github.com/neomjs/neo/issues/20692",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "portal",
+        "dashboard"
+      ],
+      "created": "2026-11-10T02:42:34Z",
+      "updated": "2026-11-10T02:46:31Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20681,
+      "title": "Row geometry: an extra height per row that the estimate ignores",
+      "url": "https://github.com/neomjs/neo/issues/20681",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ai",
+        "grid"
+      ],
+      "created": "2026-11-10T00:31:15Z",
+      "updated": "2026-11-10T00:31:15Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "neomjs/neo",
+      "number": 20679,
+      "title": "Give the 17 cover-less Grid and Table example cards real covers",
+      "url": "https://github.com/neomjs/neo/issues/20679",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "design",
+        "ai",
+        "grid",
+        "portal"
+      ],
+      "created": "2026-11-10T00:03:14Z",
+      "updated": "2026-11-10T00:03:28Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "ChainSafe/lodestar",
+      "number": 3779,
+      "title": "Remove usage of Number constructor",
+      "url": "https://github.com/ChainSafe/lodestar/issues/3779",
+      "labels": [
+        "prio-medium",
+        "good first issue",
+        "help wanted",
+        "scope-security"
+      ],
+      "created": "2022-02-20T09:27:53Z",
+      "updated": "2026-10-19T06:04:33Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "ChainSafe/lodestar",
+      "number": 6050,
+      "title": "Ephemery Testnet Configs",
+      "url": "https://github.com/ChainSafe/lodestar/issues/6050",
+      "labels": [
+        "good first issue",
+        "help wanted",
+        "meta-feature-request",
+        "good EPF issue"
+      ],
+      "created": "2023-10-19T05:36:39Z",
+      "updated": "2026-10-06T04:17:53Z",
+      "comments": 17,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33912,
+      "title": "[good first issue, hacktoberfest] 🎋 Add new Learner Mistake 1193 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33912",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-11T03:35:38Z",
+      "updated": "2026-11-11T06:44:05Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33917,
+      "title": "[good first issue, hacktoberfest] 🍁 Add new Grammar Point 807 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33917",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-11T06:35:43Z",
+      "updated": "2026-11-11T06:35:52Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33914,
+      "title": "[good first issue, hacktoberfest] 🎎 Add new Theme: Tangerine Fizz (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33914",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-11T04:10:51Z",
+      "updated": "2026-11-11T06:15:13Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33915,
+      "title": "[good first issue, hacktoberfest] 🌺 Add new Japan Fact 2532 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33915",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-11T05:01:13Z",
+      "updated": "2026-11-11T06:13:19Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33905,
+      "title": "[good first issue, hacktoberfest] ⛩️ Add new Anime Quote 1215 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33905",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T22:10:52Z",
+      "updated": "2026-11-10T22:11:00Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33904,
+      "title": "[good first issue, hacktoberfest] 🎏 Add new Grammar Point 1133 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33904",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T21:31:02Z",
+      "updated": "2026-11-10T21:31:11Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33903,
+      "title": "[good first issue, hacktoberfest] 🏮 Add new Trivia Question 1028 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33903",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T20:40:51Z",
+      "updated": "2026-11-10T20:40:59Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33902,
+      "title": "User bug report: KanaDojo Bug Report + Feedback Form",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33902",
+      "labels": [
+        "bug",
+        "enhancement",
+        "help wanted",
+        "user-report",
+        "needs-triage"
+      ],
+      "created": "2026-11-10T20:14:43Z",
+      "updated": "2026-11-10T20:14:43Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33901,
+      "title": "[good first issue, hacktoberfest] 🎑 Add new Japanese Proverb 1545 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33901",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T20:01:18Z",
+      "updated": "2026-11-10T20:01:27Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33899,
+      "title": "[good first issue, hacktoberfest] 🎍 Add new Japan Fact 1940 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33899",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T18:55:42Z",
+      "updated": "2026-11-10T18:55:51Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33896,
+      "title": "[good first issue, hacktoberfest] 🌸 Add new Community Note Line #22 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33896",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T17:20:51Z",
+      "updated": "2026-11-10T17:20:57Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33895,
+      "title": "[good first issue, hacktoberfest] 🏮 Add new Learner Mistake 336 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33895",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T16:45:53Z",
+      "updated": "2026-11-10T16:46:04Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33894,
+      "title": "[good first issue, hacktoberfest] 🌋 Add new Example Sentence 1195 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33894",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T15:40:56Z",
+      "updated": "2026-11-10T15:41:05Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lingdojo/kana-dojo",
+      "number": 33891,
+      "title": "[good first issue, hacktoberfest] 🏮 Add new Dialect Entry 556 (good-first-issue)",
+      "url": "https://github.com/lingdojo/kana-dojo/issues/33891",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "hacktoberfest",
+        "community",
+        "low hanging fruit",
+        "up-for-grabs",
+        "first-timers-only",
+        "good-first-issue"
+      ],
+      "created": "2026-11-10T14:01:16Z",
+      "updated": "2026-11-10T14:01:24Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "trezor/trezor-suite",
+      "number": 21930,
+      "title": "Suite can change the duration of auto-lock on battery on the device",
+      "url": "https://github.com/trezor/trezor-suite/issues/21930",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2025-09-25T15:55:53Z",
+      "updated": "2026-08-05T13:29:48Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "trezor/trezor-suite",
+      "number": 11454,
+      "title": "unused tokenDefinitionsMiddleware in suite-common",
+      "url": "https://github.com/trezor/trezor-suite/issues/11454",
+      "labels": [
+        "good first issue",
+        "code",
+        "low hanging fruit",
+        "tech",
+        "agent-ready"
+      ],
+      "created": "2024-03-05T12:50:16Z",
+      "updated": "2026-08-02T21:37:18Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "trezor/trezor-suite",
+      "number": 10888,
+      "title": "Message system message onClose animation",
+      "url": "https://github.com/trezor/trezor-suite/issues/10888",
+      "labels": [
+        "good first issue",
+        "message-system"
+      ],
+      "created": "2024-01-29T14:51:36Z",
+      "updated": "2026-05-26T10:29:36Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "db-ux-design-system/core-web",
+      "number": 2862,
+      "title": "open `accessibility checker` issue",
+      "url": "https://github.com/db-ux-design-system/core-web/issues/2862",
+      "labels": [
+        "good first issue",
+        "🤖ai-triaged"
+      ],
+      "created": "2024-07-16T04:36:24Z",
+      "updated": "2026-06-08T13:18:30Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "db-ux-design-system/core-web",
+      "number": 3039,
+      "title": "style: evaluate the best visually-hidden-solution",
+      "url": "https://github.com/db-ux-design-system/core-web/issues/3039",
+      "labels": [
+        "🍄🆙improvement",
+        "😍niceToHave",
+        "👂accessibility",
+        "good first issue",
+        "🤖ai-triaged"
+      ],
+      "created": "2024-08-14T05:45:29Z",
+      "updated": "2026-06-08T13:18:25Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 4371,
+      "title": "ユーザーモーダルのタグを新しい順にする",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4371",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2024-09-16T04:59:52Z",
+      "updated": "2026-10-28T12:48:42Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 4886,
+      "title": "`[...new Set(iterable)]` の代わりに `unique(iterable)` を使う",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4886",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2025-10-24T09:06:04Z",
+      "updated": "2026-10-08T08:08:27Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 5361,
+      "title": "モバイルの設定ページについて、スクロール領域がおかしい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/5361",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2026-09-21T13:15:00Z",
+      "updated": "2026-09-21T13:15:01Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 5086,
+      "title": "`MessagesXXX` を `MessageXXX` にする",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/5086",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2026-03-23T08:59:44Z",
+      "updated": "2026-09-13T08:42:12Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 3305,
+      "title": "チャンネルのメンバーの概念がわかりにくい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3305",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2022-04-26T11:58:03Z",
+      "updated": "2026-09-07T17:39:08Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 3923,
+      "title": "traQ上でメッセージを引用する方法がわかりにくい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3923",
+      "labels": [
+        "good first issue",
+        "design"
+      ],
+      "created": "2023-05-01T06:42:11Z",
+      "updated": "2026-09-07T17:39:07Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 3926,
+      "title": "分かりやすいところにヘルプリンクを貼りたい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3926",
+      "labels": [
+        "good first issue",
+        "design"
+      ],
+      "created": "2023-05-02T13:34:10Z",
+      "updated": "2026-09-07T17:39:06Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 3998,
+      "title": "チャンネルトピックの編集ボタンの場所を変える",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3998",
+      "labels": [
+        "good first issue",
+        "design"
+      ],
+      "created": "2023-06-06T07:10:45Z",
+      "updated": "2026-09-07T17:39:05Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 4017,
+      "title": "戻るボタンを押したあと消えないでほしい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4017",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2023-07-10T05:34:34Z",
+      "updated": "2026-09-07T16:49:18Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 3766,
+      "title": "メッセージ検索フォームにクエリのリセットボタンがほしい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/3766",
+      "labels": [
+        "good first issue",
+        "design"
+      ],
+      "created": "2023-02-02T08:06:19Z",
+      "updated": "2026-09-06T12:17:33Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 1907,
+      "title": "DMの相手ユーザーごとの未読件数が表示されてほしい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/1907",
+      "labels": [
+        "good first issue",
+        "design"
+      ],
+      "created": "2021-02-16T10:08:20Z",
+      "updated": "2026-09-06T12:17:22Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 758,
+      "title": "クリップ追加時にクリップフォルダを新規作成できるようにしたい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/758",
+      "labels": [
+        "good first issue",
+        "feedback",
+        "design"
+      ],
+      "created": "2020-05-03T09:42:29Z",
+      "updated": "2026-09-06T12:17:06Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 4019,
+      "title": "メッセージにホバーするとコードブロックの色とメッセージの背景色が同じになって見づらい",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4019",
+      "labels": [
+        "good first issue",
+        "design"
+      ],
+      "created": "2023-07-11T05:55:30Z",
+      "updated": "2026-09-06T12:16:25Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 2253,
+      "title": "設定の閲覧中チャンネル表示で最新のメッセージを見ている場合のみという説明をつける",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/2253",
+      "labels": [
+        "good first issue",
+        "feedback"
+      ],
+      "created": "2021-06-03T08:23:47Z",
+      "updated": "2026-09-06T09:59:25Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "traPtitech/traQ_S-UI",
+      "number": 4235,
+      "title": "引用通知のオンオフの設定の説明文を変える",
+      "url": "https://github.com/traPtitech/traQ_S-UI/issues/4235",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2024-02-16T02:01:02Z",
+      "updated": "2026-09-06T09:57:02Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "apache/stormcrawler",
+      "number": 994,
+      "title": "Delete redirected pages",
+      "url": "https://github.com/apache/stormcrawler/issues/994",
+      "labels": [
+        "core",
+        "good first issue"
+      ],
+      "created": "2022-08-08T07:43:52Z",
+      "updated": "2026-10-28T23:15:19Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "1c-syntax/bsl-language-server",
+      "number": 1755,
+      "title": "[NEW] Использование установки привилегированного режима в экспортном методе",
+      "url": "https://github.com/1c-syntax/bsl-language-server/issues/1755",
+      "labels": [
+        "good first issue",
+        "component/diagnostics"
+      ],
+      "created": "2021-08-13T17:47:31Z",
+      "updated": "2026-10-21T21:23:21Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "1c-syntax/bsl-language-server",
+      "number": 1120,
+      "title": "[NEW] Нарушена сортировка в дереве метаданных",
+      "url": "https://github.com/1c-syntax/bsl-language-server/issues/1120",
+      "labels": [
+        "good first issue",
+        "component/diagnostics"
+      ],
+      "created": "2020-04-26T06:15:36Z",
+      "updated": "2026-10-18T18:12:50Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "besu-eth/besu",
+      "number": 11914,
+      "title": "`admin_logsRepairCache` returns `Internal error` and logs at `ERROR` for an unknown block",
+      "url": "https://github.com/besu-eth/besu/issues/11914",
+      "labels": [
+        "bug",
+        "good first issue"
+      ],
+      "created": "2026-11-10T07:41:22Z",
+      "updated": "2026-11-10T21:35:52Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "besu-eth/besu",
+      "number": 11244,
+      "title": "Feat: Support EraE pre-pipeline for full node",
+      "url": "https://github.com/besu-eth/besu/issues/11244",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2026-09-05T18:18:46Z",
+      "updated": "2026-11-10T09:24:18Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "besu-eth/besu",
+      "number": 11656,
+      "title": "ModExp native/Java routing: --Xmodexp-native-enabled=false is not a complete off-switch; help text and startup log mislabel what executes",
+      "url": "https://github.com/besu-eth/besu/issues/11656",
+      "labels": [
+        "good first issue",
+        "P4",
+        "ux"
+      ],
+      "created": "2026-10-20T08:20:28Z",
+      "updated": "2026-11-09T14:26:46Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "besu-eth/besu",
+      "number": 11898,
+      "title": "ETH/SNAP replies to a duplicate RLPx connection go out on the peer's other connection",
+      "url": "https://github.com/besu-eth/besu/issues/11898",
+      "labels": [
+        "help wanted"
+      ],
+      "created": "2026-11-09T07:35:01Z",
+      "updated": "2026-11-09T07:35:01Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "besu-eth/besu",
+      "number": 11525,
+      "title": "eth_call, eth_estimateGas, eth_createAccessList and debug_traceCall silently ignore block overrides",
+      "url": "https://github.com/besu-eth/besu/issues/11525",
+      "labels": [
+        "good first issue",
+        "RPC"
+      ],
+      "created": "2026-10-08T16:07:40Z",
+      "updated": "2026-10-15T00:13:38Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 14844,
+      "title": "[Bug report] Fileset testConnection reports initialization access failures as HTTP 500",
+      "url": "https://github.com/apache/gravitino/issues/14844",
+      "labels": [
+        "bug",
+        "good first issue"
+      ],
+      "created": "2026-11-10T09:29:55Z",
+      "updated": "2026-11-10T21:18:37Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 12597,
+      "title": "[Improvement] Decide how a version conflict on the drop path should be handled, for all entity types",
+      "url": "https://github.com/apache/gravitino/issues/12597",
+      "labels": [
+        "help wanted",
+        "improvement"
+      ],
+      "created": "2026-08-25T14:21:28Z",
+      "updated": "2026-10-28T09:14:03Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 13803,
+      "title": "[Improvement] upgrade lance version to 12 for Gravitino lance REST server",
+      "url": "https://github.com/apache/gravitino/issues/13803",
+      "labels": [
+        "help wanted",
+        "improvement"
+      ],
+      "created": "2026-10-13T02:34:08Z",
+      "updated": "2026-10-13T02:34:36Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 9673,
+      "title": "[Improvement] Reuse the FileSystem cache in the fileset server and client modules",
+      "url": "https://github.com/apache/gravitino/issues/9673",
+      "labels": [
+        "good first issue",
+        "improvement"
+      ],
+      "created": "2026-01-12T02:57:12Z",
+      "updated": "2026-09-04T03:14:14Z",
+      "comments": 13,
+      "beginner": true
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 6490,
+      "title": "[EPIC] Support COS(Tencent cloud storage) for Hadoop catalog",
+      "url": "https://github.com/apache/gravitino/issues/6490",
+      "labels": [
+        "help wanted",
+        "epic"
+      ],
+      "created": "2025-02-20T11:39:04Z",
+      "updated": "2026-08-04T08:44:03Z",
+      "comments": 8,
+      "beginner": false
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 4211,
+      "title": "[Improvement] Possible SQL injection in MysqlDatabaseOperations.java",
+      "url": "https://github.com/apache/gravitino/issues/4211",
+      "labels": [
+        "good first issue",
+        "improvement"
+      ],
+      "created": "2024-07-19T01:03:35Z",
+      "updated": "2026-06-23T21:44:45Z",
+      "comments": 6,
+      "beginner": true
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 5869,
+      "title": "[Subtask] Handle file name encoding and special characters.",
+      "url": "https://github.com/apache/gravitino/issues/5869",
+      "labels": [
+        "help wanted",
+        "subtask"
+      ],
+      "created": "2024-12-16T03:43:08Z",
+      "updated": "2026-06-22T03:13:23Z",
+      "comments": 3,
+      "beginner": false
+    },
+    {
+      "repo": "apache/gravitino",
+      "number": 8017,
+      "title": "[Improvement] Use SQL prepared statements in JdbcDatabaseOperations.java and PostgreSqlSchemaOperations.java",
+      "url": "https://github.com/apache/gravitino/issues/8017",
+      "labels": [
+        "good first issue",
+        "improvement"
+      ],
+      "created": "2025-08-11T06:58:14Z",
+      "updated": "2026-06-10T05:06:43Z",
+      "comments": 6,
+      "beginner": true
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "number": 1713,
+      "title": "bug(tool/bundle): make package output depends on the local Go version (Go 1.27 rewrites otelc-bundle.tgz)",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/1713",
+      "labels": [
+        "bug",
+        "scope:fix",
+        "effort:low",
+        "good first issue"
+      ],
+      "created": "2026-11-07T12:31:05Z",
+      "updated": "2026-11-09T13:19:33Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "number": 1714,
+      "title": "bug(tool/rule): struct `rule's new_field` can silently add a field that collides with an existing or sibling field name",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/1714",
+      "labels": [
+        "bug",
+        "scope:fix",
+        "effort:low",
+        "good first issue"
+      ],
+      "created": "2026-11-07T13:16:16Z",
+      "updated": "2026-11-09T13:19:30Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "number": 1671,
+      "title": "bug(instrumentation/net/http): server span records the wrong status when a handler flushes before WriteHeader",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/1671",
+      "labels": [
+        "bug",
+        "scope:fix",
+        "effort:low",
+        "good first issue",
+        "instrumentation"
+      ],
+      "created": "2026-11-02T06:33:12Z",
+      "updated": "2026-11-05T09:37:20Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "number": 1502,
+      "title": "refactor(instrumentation/database/sql): pre-size request attribute slice",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/1502",
+      "labels": [
+        "scope:refactor",
+        "effort:low",
+        "good first issue",
+        "instrumentation"
+      ],
+      "created": "2026-10-15T20:55:30Z",
+      "updated": "2026-10-28T13:42:45Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "number": 1510,
+      "title": "refactor(instrumentation/grpc): ParseFullMethod grows its attribute slice twice on every RPC",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/1510",
+      "labels": [
+        "scope:refactor",
+        "effort:low",
+        "good first issue",
+        "instrumentation"
+      ],
+      "created": "2026-10-18T10:26:36Z",
+      "updated": "2026-10-28T13:42:39Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-go-compile-instrumentation",
+      "number": 1594,
+      "title": "bug(tool/cmd): otelc --help lists every command with no description",
+      "url": "https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/1594",
+      "labels": [
+        "bug",
+        "scope:fix",
+        "effort:low",
+        "good first issue"
+      ],
+      "created": "2026-10-28T08:43:43Z",
+      "updated": "2026-10-28T13:30:07Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "pulseaiclub/phi",
+      "number": 467,
+      "title": "fix: carry hook preserveData across compaction rounds",
+      "url": "https://github.com/pulseaiclub/phi/issues/467",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "created": "2026-11-10T15:30:30Z",
+      "updated": "2026-11-10T15:30:30Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "pulseaiclub/phi",
+      "number": 466,
+      "title": "docs: README accuracy pass — shortcuts, commands table, footprint numbers",
+      "url": "https://github.com/pulseaiclub/phi/issues/466",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-11-10T15:28:54Z",
+      "updated": "2026-11-10T15:28:54Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9423,
+      "title": "Remove konflux-integration-runner ServiceAccount and RoleBinding creation from create-tenant.sh",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9423",
+      "labels": [
+        "bug",
+        "good first issue",
+        "Review effort 1/5",
+        "ready-to-code"
+      ],
+      "created": "2026-10-05T06:43:40Z",
+      "updated": "2026-10-05T07:08:14Z",
+      "comments": 7,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9412,
+      "title": "Clarify AGENTS.md companion-pr-review cross-reference to cover companion PR review depth",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9412",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "Review effort 1/5",
+        "ready-to-code",
+        "ready-for-triage"
+      ],
+      "created": "2026-10-04T07:09:32Z",
+      "updated": "2026-10-04T07:19:29Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9411,
+      "title": "Inline companion noop-parent classification in pr-review skill entry point",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9411",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "Review effort 1/5",
+        "ready-to-code",
+        "ready-for-triage"
+      ],
+      "created": "2026-10-04T07:04:23Z",
+      "updated": "2026-10-04T07:14:54Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9410,
+      "title": "Add pr-review fast-path for Renovate digest-only bumps in dependencies/ kustomizations",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9410",
+      "labels": [
+        "good first issue",
+        "Review effort 1/5",
+        "triaged",
+        "feature",
+        "ready-for-triage"
+      ],
+      "created": "2026-10-04T07:04:11Z",
+      "updated": "2026-10-04T07:09:54Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9388,
+      "title": "Add fast-path approval for bot-authored .tekton/ digest/SHA bumps in pr-review skill",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9388",
+      "labels": [
+        "good first issue",
+        "Review effort 1/5",
+        "triaged",
+        "feature",
+        "ready-for-triage"
+      ],
+      "created": "2026-10-01T10:15:03Z",
+      "updated": "2026-10-01T10:20:39Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9384,
+      "title": "Disambiguate companion-pr-review skill allowlist to prevent review misclassification",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9384",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "Review effort 1/5",
+        "ready-to-code",
+        "ready-for-triage"
+      ],
+      "created": "2026-10-01T06:32:42Z",
+      "updated": "2026-10-01T06:44:41Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9385,
+      "title": "Rename repo pr-review skill to resolve harness skill shadowing",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9385",
+      "labels": [
+        "bug",
+        "good first issue",
+        "Review effort 1/5",
+        "ready-to-code",
+        "ready-for-triage"
+      ],
+      "created": "2026-10-01T06:32:46Z",
+      "updated": "2026-10-01T06:44:40Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 9358,
+      "title": "Document per-spec manager lifecycle convention in AGENTS.md testing section",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/9358",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "test",
+        "Review effort 1/5",
+        "ready-to-code",
+        "ready-for-triage"
+      ],
+      "created": "2026-09-30T06:17:31Z",
+      "updated": "2026-09-30T06:28:39Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 8211,
+      "title": "Track follow-up: Add generic GetByGVK method on ObjectStore in pkg/manifests",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/8211",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "triaged",
+        "feature"
+      ],
+      "created": "2026-07-15T11:54:42Z",
+      "updated": "2026-09-30T03:41:54Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 8218,
+      "title": "Add fake client per-test scheme isolation guidance to AGENTS.md testing conventions",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/8218",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "ready-to-code"
+      ],
+      "created": "2026-07-15T15:26:29Z",
+      "updated": "2026-07-16T06:56:29Z",
+      "comments": 4,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 7930,
+      "title": "Document unstructured field-name mapping convention for operator-managed upstream CRs",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/7930",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "ready-to-code",
+        "ready-for-triage"
+      ],
+      "created": "2026-07-07T10:37:48Z",
+      "updated": "2026-07-07T11:01:58Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "konflux-ci/konflux-ci",
+      "number": 7506,
+      "title": "Migrate off github.com/xanzy/go-gitlab",
+      "url": "https://github.com/konflux-ci/konflux-ci/issues/7506",
+      "labels": [
+        "good first issue",
+        "test",
+        "triaged",
+        "type/chore"
+      ],
+      "created": "2026-06-24T06:23:47Z",
+      "updated": "2026-06-25T08:35:17Z",
+      "comments": 7,
+      "beginner": true
+    },
+    {
+      "repo": "vshulcz/deja-vu",
+      "number": 5653,
+      "title": "Devin CLI on Windows: check where sessions.db and the config actually land",
+      "url": "https://github.com/vshulcz/deja-vu/issues/5653",
+      "labels": [
+        "good first issue",
+        "harness"
+      ],
+      "created": "2026-10-25T09:07:49Z",
+      "updated": "2026-11-03T20:12:39Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "vshulcz/deja-vu",
+      "number": 5876,
+      "title": "a guide page for deleting Devin CLI session history",
+      "url": "https://github.com/vshulcz/deja-vu/issues/5876",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-03T08:19:28Z",
+      "updated": "2026-11-03T08:19:28Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "vshulcz/deja-vu",
+      "number": 5871,
+      "title": "a guide page for deleting DeepSeek Harness (dsh) session history",
+      "url": "https://github.com/vshulcz/deja-vu/issues/5871",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2026-11-03T08:18:07Z",
+      "updated": "2026-11-03T08:18:07Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "vshulcz/deja-vu",
+      "number": 5652,
+      "title": "Crush: check what /user:deja sends the model, against a real Crush",
+      "url": "https://github.com/vshulcz/deja-vu/issues/5652",
+      "labels": [
+        "good first issue",
+        "harness"
+      ],
+      "created": "2026-10-25T09:07:44Z",
+      "updated": "2026-10-25T09:07:44Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "vshulcz/deja-vu",
+      "number": 5021,
+      "title": "Windsurf: which field a successful Cascade reply lands in has never been seen",
+      "url": "https://github.com/vshulcz/deja-vu/issues/5021",
+      "labels": [
+        "good first issue",
+        "harness"
+      ],
+      "created": "2026-10-14T19:43:04Z",
+      "updated": "2026-10-14T19:43:46Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 2025,
+      "title": "[BUG]: restart-all.sh kills every process matching \"curvine\"",
+      "url": "https://github.com/CurvineIO/curvine/issues/2025",
+      "labels": [
+        "bug",
+        "good first issue"
+      ],
+      "created": "2026-11-11T04:24:19Z",
+      "updated": "2026-11-11T05:30:19Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 2030,
+      "title": "[DOCS] Add a README for curvine-csi/examples",
+      "url": "https://github.com/CurvineIO/curvine/issues/2030",
+      "labels": [
+        "documentation",
+        "good first issue"
+      ],
+      "created": "2026-11-11T04:24:46Z",
+      "updated": "2026-11-11T04:24:46Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 2029,
+      "title": "[DOCS] Add supported versions and GitHub private reporting to SECURITY.md",
+      "url": "https://github.com/CurvineIO/curvine/issues/2029",
+      "labels": [
+        "documentation",
+        "good first issue"
+      ],
+      "created": "2026-11-11T04:24:39Z",
+      "updated": "2026-11-11T04:24:39Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 2028,
+      "title": "[FEATURE] Pin GitHub Actions to commit SHAs in all workflows",
+      "url": "https://github.com/CurvineIO/curvine/issues/2028",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "created": "2026-11-11T04:24:36Z",
+      "updated": "2026-11-11T04:24:36Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 2027,
+      "title": "[FEATURE] Add shell completion to the cv CLI",
+      "url": "https://github.com/CurvineIO/curvine/issues/2027",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted"
+      ],
+      "created": "2026-11-11T04:24:33Z",
+      "updated": "2026-11-11T04:24:33Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 546,
+      "title": "[FEATURE] Add a separate configuration file to mount external data sources, such as OSS, S3, and UFS.",
+      "url": "https://github.com/CurvineIO/curvine/issues/546",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2025-12-29T11:20:14Z",
+      "updated": "2026-11-11T04:19:54Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 1101,
+      "title": "[FEATURE] fuse: make core FileSystem ops required and document dangerous ENOSYS defaults (by LiAuto)",
+      "url": "https://github.com/CurvineIO/curvine/issues/1101",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2026-07-14T07:01:49Z",
+      "updated": "2026-11-11T04:19:50Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 466,
+      "title": "Are there any benchmarks for object storage read/write performance",
+      "url": "https://github.com/CurvineIO/curvine/issues/466",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2025-12-08T12:02:49Z",
+      "updated": "2026-11-11T04:19:46Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 580,
+      "title": "[FEATURE] spark on yarn with curvine,  set spark.file.transferTo = false to disable this NIO feature",
+      "url": "https://github.com/CurvineIO/curvine/issues/580",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-01-13T10:18:19Z",
+      "updated": "2026-11-11T04:19:42Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 520,
+      "title": "[BUG]: Encountered a port conflict error when deploying Curvine using Helm.",
+      "url": "https://github.com/CurvineIO/curvine/issues/520",
+      "labels": [
+        "bug",
+        "good first issue"
+      ],
+      "created": "2025-12-24T02:47:46Z",
+      "updated": "2026-11-11T04:19:39Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 774,
+      "title": "[FEATURE] helm install csi-node , can not set request args while using embedded mode",
+      "url": "https://github.com/CurvineIO/curvine/issues/774",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-04-01T08:22:22Z",
+      "updated": "2026-11-11T04:19:35Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 1035,
+      "title": "[FEATURE] Manage bare-metal Curvine processes with systemd instead of nohup [LiAuto]",
+      "url": "https://github.com/CurvineIO/curvine/issues/1035",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2026-07-09T02:54:38Z",
+      "updated": "2026-11-11T04:19:31Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "number": 925,
+      "title": "[FEATURE] Master supports log rotation and allows configuration of rotation policies.",
+      "url": "https://github.com/CurvineIO/curvine/issues/925",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-06-22T11:13:18Z",
+      "updated": "2026-11-11T04:19:28Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12454,
+      "title": "[Refactor♻️] Use Arc for internal PutMessageHook registration and snapshots",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12454",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "refactor♻️",
+        "rust",
+        "Difficulty level/Easy",
+        "rocketmq-store crate"
+      ],
+      "created": "2026-11-11T06:24:47Z",
+      "updated": "2026-11-11T06:24:47Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12444,
+      "title": "[Doc📝] Clarify Proxy request metadata capture in Rustdoc",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12444",
+      "labels": [
+        "documentation📝",
+        "help wanted",
+        "good first issue",
+        "Difficulty level/Easy"
+      ],
+      "created": "2026-11-11T02:51:03Z",
+      "updated": "2026-11-11T06:03:29Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12445,
+      "title": "[Doc📝] Clarify ownership of the Proxy transaction producer group",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12445",
+      "labels": [
+        "documentation📝",
+        "help wanted",
+        "good first issue",
+        "Difficulty level/Easy"
+      ],
+      "created": "2026-11-11T02:51:15Z",
+      "updated": "2026-11-11T02:51:15Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12443,
+      "title": "[Doc📝] Describe ProxyMode as a deployment mode",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12443",
+      "labels": [
+        "documentation📝",
+        "help wanted",
+        "good first issue",
+        "Difficulty level/Easy"
+      ],
+      "created": "2026-11-11T02:51:01Z",
+      "updated": "2026-11-11T02:51:01Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12442,
+      "title": "[Doc📝] Separate Proxy Core adapter and validation sections",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12442",
+      "labels": [
+        "documentation📝",
+        "help wanted",
+        "good first issue",
+        "Difficulty level/Easy"
+      ],
+      "created": "2026-11-11T02:51:00Z",
+      "updated": "2026-11-11T02:51:00Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12440,
+      "title": "[Doc📝] Describe shared service contracts in Proxy Core overviews",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12440",
+      "labels": [
+        "documentation📝",
+        "help wanted",
+        "good first issue",
+        "Difficulty level/Easy"
+      ],
+      "created": "2026-11-11T02:50:46Z",
+      "updated": "2026-11-11T02:50:46Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "mxsm/rocketmq-rust",
+      "number": 12436,
+      "title": "[Refactor♻️] Rename backend_ops.rs to message_store_engine.rs",
+      "url": "https://github.com/mxsm/rocketmq-rust/issues/12436",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "refactor♻️",
+        "rust",
+        "Difficulty level/Easy",
+        "rocketmq-store crate"
+      ],
+      "created": "2026-11-11T02:46:43Z",
+      "updated": "2026-11-11T02:46:43Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "finos/morphir",
+      "number": 325,
+      "title": "Go binding: Finish implementation of the Maybe module",
+      "url": "https://github.com/finos/morphir/issues/325",
+      "labels": [
+        "good first issue",
+        "morphir-go",
+        "sdk-bindings"
+      ],
+      "created": "2024-10-21T19:21:52Z",
+      "updated": "2026-10-27T23:31:03Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 10955,
+      "title": "Designer: The selected component should remain selected when updating the page",
+      "url": "https://github.com/Altinn/altinn-studio/issues/10955",
+      "labels": [
+        "good first issue",
+        "status/for-consideration",
+        "user-need",
+        "user-need/verified",
+        "squad/utforming"
+      ],
+      "created": "2023-08-30T13:27:37Z",
+      "updated": "2026-10-29T01:45:35Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 20919,
+      "title": "Make replacing a built-in task type consistent, or reject it at startup",
+      "url": "https://github.com/Altinn/altinn-studio/issues/20919",
+      "labels": [
+        "area/process",
+        "good first issue",
+        "squad/flyt"
+      ],
+      "created": "2026-10-02T11:04:15Z",
+      "updated": "2026-10-12T11:32:16Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 12000,
+      "title": "Replace edit button with confirm / cancel buttons",
+      "url": "https://github.com/Altinn/altinn-studio/issues/12000",
+      "labels": [
+        "area/text-editor",
+        "kind/user-story",
+        "ux",
+        "good first issue",
+        "status/for-consideration",
+        "user-need",
+        "squad/utforming"
+      ],
+      "created": "2024-01-11T09:09:51Z",
+      "updated": "2026-09-25T14:07:22Z",
+      "comments": 5,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 14230,
+      "title": "Move WebStorage out of pure-functions",
+      "url": "https://github.com/Altinn/altinn-studio/issues/14230",
+      "labels": [
+        "quality/code",
+        "good first issue",
+        "squad/utforming"
+      ],
+      "created": "2024-12-05T13:06:18Z",
+      "updated": "2026-09-25T14:06:57Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 11859,
+      "title": "Descriptions in settings modal \"oppsett\"",
+      "url": "https://github.com/Altinn/altinn-studio/issues/11859",
+      "labels": [
+        "good first issue",
+        "status/for-consideration",
+        "squad/utforming"
+      ],
+      "created": "2023-12-14T13:18:48Z",
+      "updated": "2026-09-25T14:05:42Z",
+      "comments": 3,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 14892,
+      "title": "Inkluder skjema-navn i title-tag.",
+      "url": "https://github.com/Altinn/altinn-studio/issues/14892",
+      "labels": [
+        "kind/feature-request",
+        "good first issue",
+        "squad/utforming"
+      ],
+      "created": "2025-03-06T10:19:16Z",
+      "updated": "2026-09-25T07:44:57Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "Altinn/altinn-studio",
+      "number": 12123,
+      "title": "Delete-button for appName should have a placeholder so the view doesn't bounce when adding the second text-entry",
+      "url": "https://github.com/Altinn/altinn-studio/issues/12123",
+      "labels": [
+        "good first issue",
+        "squad/utforming"
+      ],
+      "created": "2024-01-24T09:53:08Z",
+      "updated": "2026-09-25T07:15:06Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 772,
+      "title": "[Meilisearch v1.56] Add support for `sampledCount` in faceting `sortFacetValuesBy`",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/772",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-10-27T02:23:07Z",
+      "updated": "2026-10-28T06:46:42Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 768,
+      "title": "[Meilisearch v1.55] Add support for dynamic search rule preview",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/768",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-10-13T05:30:26Z",
+      "updated": "2026-10-13T05:30:26Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 741,
+      "title": "[Meilisearch v1.48.0] Add render template (experimental)",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/741",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-06-30T02:39:51Z",
+      "updated": "2026-10-06T04:48:24Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 764,
+      "title": "[Meilisearch v1.53.0] Add `indexSize` and `usedIndexSize` to index stats",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/764",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-09-22T06:07:06Z",
+      "updated": "2026-09-24T00:11:22Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 757,
+      "title": "[Meilisearch v1.53.0] Add `indexSize` and `usedIndexSize` to index stats",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/757",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-08-11T03:58:28Z",
+      "updated": "2026-08-11T03:58:28Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 750,
+      "title": "[Meilisearch v1.51.0] Add filter condition to Dynamic Search Rules",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/750",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-07-28T04:39:20Z",
+      "updated": "2026-07-28T04:39:20Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 749,
+      "title": "[Meilisearch v1.50.0] Update Dynamic Search Rules API (experimental)",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/749",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-07-21T04:25:16Z",
+      "updated": "2026-07-22T03:41:40Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 746,
+      "title": "[Meilisearch v1.48.0] Add document relations (experimental)",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/746",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-07-01T09:11:55Z",
+      "updated": "2026-07-01T09:11:55Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 737,
+      "title": "[Meilisearch v1.47.0] Add personalized search (experimental)",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/737",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-06-16T06:59:44Z",
+      "updated": "2026-06-16T17:52:22Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "meilisearch/meilisearch-dotnet",
+      "number": 735,
+      "title": "[Meilisearch v1.44.0] Add human-formatted sizes and detailed DB sizes in stats",
+      "url": "https://github.com/meilisearch/meilisearch-dotnet/issues/735",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "created": "2026-05-26T04:49:34Z",
+      "updated": "2026-05-26T04:49:34Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "Azure/azure-powershell",
+      "number": 26237,
+      "title": "Get-AzADGroupMember should return better error message if group does not exist",
+      "url": "https://github.com/Azure/azure-powershell/issues/26237",
+      "labels": [
+        "Azure PS Team",
+        "bug",
+        "customer-reported",
+        "Graph.Microsoft",
+        "good first issue",
+        "Tracking"
+      ],
+      "created": "2024-10-08T08:50:13Z",
+      "updated": "2026-08-05T14:00:04Z",
+      "comments": 6,
+      "beginner": true
+    },
+    {
+      "repo": "gazebosim/ros_gz",
+      "number": 716,
+      "title": "Uniform launch systems",
+      "url": "https://github.com/gazebosim/ros_gz/issues/716",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created": "2025-03-26T15:36:45Z",
+      "updated": "2026-11-01T22:44:59Z",
+      "comments": 10,
+      "beginner": true
+    },
+    {
+      "repo": "gazebosim/ros_gz",
+      "number": 701,
+      "title": "Adopt ros_gz_bridge format for ros_gz_image",
+      "url": "https://github.com/gazebosim/ros_gz/issues/701",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2025-02-28T10:38:52Z",
+      "updated": "2026-10-26T19:41:07Z",
+      "comments": 3,
+      "beginner": false
+    },
+    {
+      "repo": "gazebosim/ros_gz",
+      "number": 881,
+      "title": "ros_gz_bridge fails to bridge /world/default/set_pose service in ROS2 Humble + Gazebo Harmonic",
+      "url": "https://github.com/gazebosim/ros_gz/issues/881",
+      "labels": [
+        "bug",
+        "help wanted"
+      ],
+      "created": "2026-05-26T06:08:16Z",
+      "updated": "2026-08-01T17:11:09Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1061,
+      "title": "[Architecture] Game loop returns control to the host each frame",
+      "url": "https://github.com/sven-n/MuMain/issues/1061",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:04Z",
+      "updated": "2026-11-10T21:04:30Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1093,
+      "title": "[Bug] The startup progress screen flickers to black on every progress update",
+      "url": "https://github.com/sven-n/MuMain/issues/1093",
+      "labels": [
+        "bug",
+        "good first issue"
+      ],
+      "created": "2026-11-10T20:26:25Z",
+      "updated": "2026-11-10T20:28:09Z",
+      "comments": 0,
+      "beginner": true
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1079,
+      "title": "[UI] Window, render resolution and UI scale defaults per platform",
+      "url": "https://github.com/sven-n/MuMain/issues/1079",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T13:55:28Z",
+      "updated": "2026-11-10T14:45:40Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1074,
+      "title": "[Content] Save settings and logs in a per-user folder, not next to the executable",
+      "url": "https://github.com/sven-n/MuMain/issues/1074",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T09:25:40Z",
+      "updated": "2026-11-10T13:56:09Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1070,
+      "title": "[Content] Load map assets on demand",
+      "url": "https://github.com/sven-n/MuMain/issues/1070",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:31Z",
+      "updated": "2026-11-10T13:56:05Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1066,
+      "title": "[Graphics] Shader format from a lookup table; create the GPU device with properties",
+      "url": "https://github.com/sven-n/MuMain/issues/1066",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:18Z",
+      "updated": "2026-11-10T13:55:59Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1065,
+      "title": "[Build] Choose dependencies per target in CMake",
+      "url": "https://github.com/sven-n/MuMain/issues/1065",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:16Z",
+      "updated": "2026-11-10T13:55:55Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1064,
+      "title": "[Architecture] Platform services behind small interfaces: credentials, shop downloader, CPU usage",
+      "url": "https://github.com/sven-n/MuMain/issues/1064",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:13Z",
+      "updated": "2026-11-10T13:55:51Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1063,
+      "title": "[Network] Select the connection runtime per target instead of loading a native library",
+      "url": "https://github.com/sven-n/MuMain/issues/1063",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:10Z",
+      "updated": "2026-11-10T13:55:48Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1080,
+      "title": "[Build] Drop the desktop OpenGL headers from shared code",
+      "url": "https://github.com/sven-n/MuMain/issues/1080",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T13:55:33Z",
+      "updated": "2026-11-10T13:55:33Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1078,
+      "title": "[Input] Text fields tell the platform keyboard what they hold",
+      "url": "https://github.com/sven-n/MuMain/issues/1078",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T13:55:24Z",
+      "updated": "2026-11-10T13:55:24Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1077,
+      "title": "[Content] Read game content through one access layer instead of direct file opens",
+      "url": "https://github.com/sven-n/MuMain/issues/1077",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T13:55:20Z",
+      "updated": "2026-11-10T13:55:20Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1076,
+      "title": "[Architecture] Static constructors log and load the network library before the client sets up its folders",
+      "url": "https://github.com/sven-n/MuMain/issues/1076",
+      "labels": [
+        "bug",
+        "help wanted"
+      ],
+      "created": "2026-11-10T13:55:16Z",
+      "updated": "2026-11-10T13:55:16Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1073,
+      "title": "[Port] Browser: what's needed beyond the shared code",
+      "url": "https://github.com/sven-n/MuMain/issues/1073",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:40Z",
+      "updated": "2026-11-10T09:54:11Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "sven-n/MuMain",
+      "number": 1072,
+      "title": "Devias: Object3 models 25, 27, 33 and 90 are 42-byte placeholder files",
+      "url": "https://github.com/sven-n/MuMain/issues/1072",
+      "labels": [
+        "bug",
+        "help wanted"
+      ],
+      "created": "2026-11-10T08:57:37Z",
+      "updated": "2026-11-10T09:54:02Z",
+      "comments": 0,
+      "beginner": false
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 7120,
+      "title": "Canon: destructive controls use color.accent.danger, not gold",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/7120",
+      "labels": [
+        "bug",
+        "good first issue",
+        "GUI",
+        "maintainer-review"
+      ],
+      "created": "2026-11-09T14:24:10Z",
+      "updated": "2026-11-09T14:26:42Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 7108,
+      "title": "Help wanted: FLEX-1500 owner to make USB captures for native support (#7107)",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/7108",
+      "labels": [
+        "help wanted",
+        "New Feature",
+        "protocol",
+        "maintainer-review"
+      ],
+      "created": "2026-11-08T23:40:59Z",
+      "updated": "2026-11-08T23:46:34Z",
+      "comments": 1,
+      "beginner": false
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 7043,
+      "title": "docs(user): recapture the MIDI Controller Mapping screenshot after the canon migration (#7040)",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/7043",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "GUI",
+        "maintainer-review"
+      ],
+      "created": "2026-11-05T19:18:08Z",
+      "updated": "2026-11-05T19:26:02Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 7012,
+      "title": "Clarify the Line Out PC Audio-off consent label",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/7012",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "audio",
+        "maintainer-review"
+      ],
+      "created": "2026-11-04T20:30:25Z",
+      "updated": "2026-11-04T20:36:51Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 6987,
+      "title": "gen_seam_probe_table.py writes the probe table in the locale codec — silently corrupts it on Windows (same class as #6818)",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/6987",
+      "labels": [
+        "bug",
+        "good first issue",
+        "priority: low",
+        "Windows",
+        "maintainer-review"
+      ],
+      "created": "2026-11-03T04:19:43Z",
+      "updated": "2026-11-03T04:31:53Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 6969,
+      "title": "Add 85 Hz (and custom) shift to the RTTY decoder",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/6969",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "maintainer-review"
+      ],
+      "created": "2026-11-02T08:41:44Z",
+      "updated": "2026-11-02T08:44:41Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 6515,
+      "title": "[RFC] Add View → Meter Type submenu to make S-Meter and SmartMTR discoverable",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/6515",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "maintainer-review",
+        "rfc"
+      ],
+      "created": "2026-10-15T13:56:14Z",
+      "updated": "2026-10-15T14:03:07Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 6039,
+      "title": "ANAN and RTL-SDR: SpotHub and manual spots never draw, because `spot add` is sent to a radio with no command plane",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/6039",
+      "labels": [
+        "bug",
+        "good first issue",
+        "GUI",
+        "maintainer-review"
+      ],
+      "created": "2026-09-30T04:40:51Z",
+      "updated": "2026-10-13T05:59:21Z",
+      "comments": 7,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4886,
+      "title": "MainWindow status bar: bottom-row controls get their clicks shadowed by the frameless edge-resize margin",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4886",
+      "labels": [
+        "bug",
+        "good first issue",
+        "GUI",
+        "priority: low",
+        "maintainer-review"
+      ],
+      "created": "2026-08-10T15:40:04Z",
+      "updated": "2026-09-29T14:35:19Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4860,
+      "title": "When you make a DX spot with AESDR, the text in the cluster's notes section appears as shown in the photo.",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4860",
+      "labels": [
+        "bug",
+        "good first issue",
+        "protocol",
+        "maintainer-review"
+      ],
+      "created": "2026-08-09T12:53:41Z",
+      "updated": "2026-08-11T16:27:29Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4773,
+      "title": "Customize MQTT topic with Aliases",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4773",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "external devices",
+        "maintainer-review"
+      ],
+      "created": "2026-08-05T13:41:43Z",
+      "updated": "2026-08-11T16:27:16Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4402,
+      "title": "MIDI: genuine binary/Thetis (0/127) relative encoder support for the VFO knob",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4402",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "external devices",
+        "maintainer-review"
+      ],
+      "created": "2026-07-23T11:54:36Z",
+      "updated": "2026-08-11T16:26:52Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4390,
+      "title": "[New Feature] Audio Switcher",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4390",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "New Feature",
+        "GUI",
+        "audio",
+        "maintainer-review"
+      ],
+      "created": "2026-07-22T16:22:24Z",
+      "updated": "2026-08-11T16:26:50Z",
+      "comments": 2,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4305,
+      "title": "Add to Memories",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4305",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "spectrum",
+        "maintainer-review"
+      ],
+      "created": "2026-07-19T10:34:33Z",
+      "updated": "2026-08-11T16:26:45Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "aethersdr/AetherSDR",
+      "number": 4005,
+      "title": "Fonts Size of Spots",
+      "url": "https://github.com/aethersdr/AetherSDR/issues/4005",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "GUI",
+        "maintainer-review"
+      ],
+      "created": "2026-07-03T20:26:39Z",
+      "updated": "2026-08-11T16:26:23Z",
+      "comments": 1,
+      "beginner": true
+    },
+    {
+      "repo": "lfortran/lfortran",
+      "number": 1576,
+      "title": "Multiple naming sequences in integration_tests",
+      "url": "https://github.com/lfortran/lfortran/issues/1576",
+      "labels": [
+        "good first issue"
+      ],
+      "created": "2023-04-18T12:47:22Z",
+      "updated": "2026-10-15T05:51:11Z",
+      "comments": 3,
+      "beginner": true
+    }
+  ]
+}

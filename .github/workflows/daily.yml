@@ -38,6 +38,10 @@ jobs:
       - name: Find the repos that are speeding up
         run: npm run rising
         continue-on-error: true
+      # Open tickets for the Contribute page. Also a bonus, so a failure here does not stop the snapshot.
+      - name: Collect open issues
+        run: npm run issues
+        continue-on-error: true
       - name: Commit data
         run: |
           git config user.name "repoweekly-bot"

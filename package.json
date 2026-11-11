@@ -25,7 +25,8 @@
     "guide": "node scripts/guide.js",
     "notify": "node scripts/notify.js",
     "stars": "node scripts/stars.js",
-    "rising": "node scripts/rising.js"
+    "rising": "node scripts/rising.js",
+    "issues": "node scripts/issues.js"
   },
   "keywords": [],
   "author": "",

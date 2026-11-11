@@ -122,7 +122,7 @@ a:hover { color: var(--mark); text-decoration-color: var(--mark); }
 }
 .nav a:hover { color: var(--on-phos); text-decoration: underline; text-decoration-color: var(--on-phos); text-underline-offset: 0.3em; }
 .fkey { opacity: 0.6; font-weight: 500; }
-@media (max-width: 39.99rem) { .fkey { display: none; } .nav a { margin-right: 0.6rem; padding-right: 0; font-size: 0.75rem; } .nav a[aria-current='page'] { padding-inline: 0.5rem; margin-left: -0.5rem; } }
+@media (max-width: 39.99rem) { .fkey { display: none; } .nav a { margin-right: 0.5rem; padding-right: 0; font-size: 0.6875rem; letter-spacing: 0.02em; } .nav a[aria-current='page'] { padding-inline: 0.5rem; margin-left: -0.5rem; } }
 .nav a[aria-current='page'] { background: var(--on-phos); color: var(--phos); padding-left: 0.75rem; margin-left: -0.25rem; }
 .nav a[aria-current='page'] .fkey { opacity: 0.8; }
 
@@ -388,3 +388,24 @@ code { font-family: var(--mono); font-size: 0.9em; color: var(--phos); }
 pre code { color: var(--ink); }
 
 li::marker { color: var(--phos); }
+
+/* Contribute page: skills form and ticket cards. */
+.skills-form { margin: 1.5rem 0 0.5rem; max-width: 52rem; }
+.skills-field { display: flex; width: 100%; }
+.skills-field input { width: 100%; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.9rem 0; }
+.chips button { min-height: 2.75rem; padding: 0.2rem 0.9rem; box-shadow: none; font-size: 0.75rem; color: var(--ink-soft); border-color: var(--frame); }
+.chips button[aria-pressed='true'] { background: var(--phos); color: var(--on-phos); border-color: var(--phos); }
+.chips button:hover { transform: none; box-shadow: none; }
+.skills-options { display: flex; flex-wrap: wrap; gap: 0 2rem; }
+.check { flex-direction: row; align-items: center; gap: 0.6rem; min-height: 2.75rem; }
+.issues { list-style: none; margin: 1rem 0 1.5rem; padding: 0; max-width: 52rem; }
+.issue { position: relative; margin: 0 0 1rem; padding: 0.9rem 1.1rem 1rem; background: var(--panel); border: 2px solid var(--frame); box-shadow: 4px 4px 0 var(--shadow); }
+.issue:hover { border-color: var(--phos); }
+.issue p { margin: 0; }
+.issue-repo { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; color: var(--ink-soft); overflow-wrap: anywhere; }
+.issue-title { display: block; margin: 0.2rem 0 0.4rem; font-weight: 700; font-size: 1.0625rem; line-height: 1.35; color: var(--phos); overflow-wrap: anywhere; }
+.issue-title::after { content: ''; position: absolute; inset: 0; }
+.issue-meta { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); }
+.issue .meta { margin-top: 0.6rem; }
+.issue-why { margin-top: 0.5rem; font-family: var(--mono); font-size: 0.75rem; font-weight: 700; color: var(--mark); }
