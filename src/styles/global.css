@@ -111,7 +111,7 @@ a:hover { color: var(--mark); text-decoration-color: var(--mark); }
 }
 .brand:hover { color: var(--phos); }
 .caret { display: inline-block; width: 0.5em; height: 0.12em; margin-left: 0.12em; background: currentColor; vertical-align: baseline; }
-.status { margin: 0; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
+.status { display: flex; flex-wrap: wrap; align-items: center; margin: 0; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
 
 .nav { background: var(--phos); color: var(--on-phos); }
 .nav :focus-visible { outline-color: var(--on-phos); outline-offset: -3px; }
