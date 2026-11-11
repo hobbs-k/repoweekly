@@ -294,7 +294,134 @@
     "alibaba/open-code-review:plugins/open-code-review/skills/open-code-review-delegate/SKILL.md:2026-11-11T07:46:46Z": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LL",
     "alibaba/open-code-review:plugins/open-code-review/skills/open-code-review/SKILL.md:2026-11-11T07:46:46Z": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au",
     "alibaba/open-code-review:skills/open-code-review-delegate/SKILL.md:2026-11-11T07:46:46Z": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LL",
-    "alibaba/open-code-review:skills/open-code-review/SKILL.md:2026-11-11T07:46:46Z": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au"
+    "alibaba/open-code-review:skills/open-code-review/SKILL.md:2026-11-11T07:46:46Z": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au",
+    "morluto/rea:.agents/skills/rea-analysis-optimization/SKILL.md:2026-11-11T08:20:10Z": "Optimize REA providers and shared analysis workflows for agent context, latency, CPU, and memory while preserving correctness and Evidence. Use for analysis bottlenecks and cache or query design; CI/test-suite optimization belongs to rea-ci-tests-audit.",
+    "morluto/rea:.agents/skills/rea-changelog-update/SKILL.md:2026-11-11T08:20:10Z": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization.",
+    "morluto/rea:.agents/skills/rea-ci-tests-audit/SKILL.md:2026-11-11T08:20:10Z": "Audit REA CI and test suites for correctness, fixture drift, false passes, and measured performance; use for suite or workflow investigations and efficiency changes, rather than ordinary feature testing or a single test failure.",
+    "morluto/rea:.agents/skills/rea-tool-design/SKILL.md:2026-11-11T08:20:10Z": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics.",
+    "morluto/rea:.agents/skills/reverse-engineer-anything/SKILL.md:2026-11-11T08:20:10Z": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt",
+    "morluto/rea:.cursor-plugin/skills/reverse-engineer-anything/SKILL.md:2026-11-11T08:20:10Z": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt",
+    "paperclipai/paperclip:.agents/skills/add-product-e2e-eval/SKILL.md:2026-11-11T08:22:42Z": "Add or extend a Paperclip full-stack runner E2E workflow, fixture, matcher, or report evidence path for local or Daytona execution.",
+    "paperclipai/paperclip:.agents/skills/add-runner-eval/SKILL.md:2026-11-11T08:22:42Z": "Add or extend a Paperclip Runner protocol evaluation definition, roster, assertion, or report fixture with provenance and narrow validation.",
+    "paperclipai/paperclip:.agents/skills/check-pr/SKILL.md:2026-11-11T08:22:42Z": "Check a GitHub, GitLab, or Perforce PR/MR/CL for review comments, failing checks, and PR-body gaps. Use when asked to inspect, fix, or prepare a change for submission.",
+    "paperclipai/paperclip:.agents/skills/company-creator/SKILL.md:2026-11-11T08:22:42Z": "Create agent company packages that conform to agentcompanies/v1. Use when asked to create a company, scaffold an agent team, hire agents, or turn a repo/skills collection into a company package.",
+    "paperclipai/paperclip:.agents/skills/create-agent-adapter/SKILL.md:2026-11-11T08:22:42Z": "Create or modify Paperclip agent adapters across server, UI, and CLI surfaces. Use when adding support for a new CLI agent, API agent, custom process, or adapter package.",
+    "paperclipai/paperclip:.agents/skills/create-case/SKILL.md:2026-11-11T08:22:42Z": "Create and kick off a Paperclip case from a user request, with workflow instructions and an initial agent.",
+    "paperclipai/paperclip:.agents/skills/create-external-bot-integration/SKILL.md:2026-11-11T08:22:42Z": "Build and qualify external bots such as Dot in Paperclip. Use for two-way work, invitation, identity, wakeup, Runner lifecycle, native tools, recovery, and Cloud delivery. CLI adapters and app-only connectors use their existing skills.",
+    "paperclipai/paperclip:.agents/skills/create-issue-interaction-ui/SKILL.md:2026-11-11T08:22:42Z": "Add a new Paperclip issue-thread interaction kind end-to-end. Use when repo work introduces or extends interaction cards like request_confirmation, checkbox confirmations, ask_user_questions, or suggest_tasks.",
+    "paperclipai/paperclip:.agents/skills/create-paperclip-bundled-skill/SKILL.md:2026-11-11T08:22:42Z": "Turn an idea, tweet, or task into a skill in the Paperclip skills catalog (packages/skills-catalog). Use when asked to FIND or MAKE a skill and publish it as a bundled/optional catalog skill: research prior art, reference or author it, add examples, regenerate the manifest, open a PR.",
+    "paperclipai/paperclip:.agents/skills/create-runner-adapter/SKILL.md:2026-11-11T08:22:42Z": "Add a new harness/provider integration to native Paperclip Runner, from requirements and protocol research through implementation, packaging, and real end-to-end acceptance. Use for new Runner adapters; legacy direct adapter authoring and migration are outside this skill.",
+    "paperclipai/paperclip:.agents/skills/create-verification-skill/SKILL.md:2026-11-11T08:22:42Z": "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or platform. Use for /create-verification-skill, \\\"make a control skill for this repo\\\", or when a project has no scripted way to prove UI/CLI/service behavior.",
+    "paperclipai/paperclip:.agents/skills/deal-with-security-advisory/SKILL.md:2026-11-11T08:22:42Z": "Handle confidential GitHub Security Advisory response for Paperclip. Use when coordinating advisory triage, private-fork fixes, CVE/publication steps, and immediate security releases.",
+    "code-yeongyu/oh-my-openagent:.agents/skills/codex-qa/SKILL.md:2026-11-11T08:23:52Z": "QA the omo Codex Light edition (lazycodex / packages/omo-codex) itself, in strict isolation so ONLY our plugin is exercised, never the user's real ~/.codex. The first-party method drives the real `codex app-server` against an isolated CODEX_HOME plus a LOCAL mock model (no real API call), and proves",
+    "code-yeongyu/oh-my-openagent:.agents/skills/get-unpublished-changes/SKILL.md:2026-11-11T08:23:52Z": "Compare HEAD with the latest published npm versions and list all unpublished changes by release layer. Triggers: unpublished changes, changelog, what changed, whats new.",
+    "code-yeongyu/oh-my-openagent:.agents/skills/github-triage/SKILL.md:2026-11-11T08:23:52Z": "Read-only GitHub triage for issues AND PRs. 1 item = 1 background task (category: quick). Analyzes all open items and writes evidence-backed reports to /tmp/{datetime}/. Every claim requires a GitHub permalink as proof. NEVER takes any action on GitHub - no comments, no merges, no closes, no labels.",
+    "code-yeongyu/oh-my-openagent:.agents/skills/hyperplan/SKILL.md:2026-11-11T08:23:52Z": "Adversarial multi-agent planning skill. Self-orchestrates 5 hostile category members (unspecified-low, unspecified-high, deep, ultrabrain, artistry) via team-mode for ruthless cross-critique debate, distills only the defensible insights, then MANDATORILY hands the distilled insight bundle to the `pl",
+    "code-yeongyu/oh-my-openagent:.agents/skills/omomomo/SKILL.md:2026-11-11T08:23:52Z": "Easter egg command - about oh-my-opencode. Triggers: omomomo, about, easter egg.",
+    "code-yeongyu/oh-my-openagent:.agents/skills/opencode-qa/SKILL.md:2026-11-11T08:23:52Z": "QA opencode itself, per case: verify the CLI/terminal (opencode run, db, serve, export), prove a specific plugin hook/action/event fired via the SSE event stream, smoke-test the TUI under tmux, and investigate sessions in opencode's SQLite DB by id, title/name, or message text. Ships tested helper s",
+    "code-yeongyu/oh-my-openagent:.agents/skills/pre-publish-review/SKILL.md:2026-11-11T08:23:52Z": "Nuclear-grade 12-agent pre-publish release gate. Runs /get-unpublished-changes to detect all changes since last npm release, spawns up to 10 ultrabrain agents for deep per-change analysis, invokes /review-work (orchestrator manual QA plus one gate reviewer) for holistic review, and 1 oracle for over",
+    "code-yeongyu/oh-my-openagent:.agents/skills/publish/SKILL.md:2026-11-11T08:23:52Z": "Publish oh-my-opencode to npm by triggering the GitHub Actions publish workflow and verifying its artifacts. Ship-only: never runs pre-publish-review or re-reviews merged code unless the user explicitly asks. Argument: <patch|minor|major|explicit-semver>. Triggers: publish, release, deploy, npm publ",
+    "code-yeongyu/oh-my-openagent:.agents/skills/remove-deadcode/SKILL.md:2026-11-11T08:23:52Z": "Remove unused code from this project with ultrawork mode, LSP-verified safety, atomic commits. Triggers: remove dead code, dead code, cleanup, remove unused.",
+    "code-yeongyu/oh-my-openagent:.agents/skills/security-research/SKILL.md:2026-11-11T08:23:52Z": "Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. Use for security review, vulnerability research, exploitability audit, pre-release",
+    "code-yeongyu/oh-my-openagent:.agents/skills/senpi-qa/SKILL.md:2026-11-11T08:23:52Z": "QA the omo Senpi adapter (packages/omo-senpi, packages/senpi-task) against the REAL senpi binary in strict isolation, and write every artifact to the one canonical evidence path .omo/evidence/omo-senpi-adapter/<slug>/. The live drivers under packages/omo-senpi/scripts/qa/ create their own isolated S",
+    "code-yeongyu/oh-my-openagent:.agents/skills/tech-debt-audit/SKILL.md:2026-11-11T08:23:52Z": "Thorough, file-cited technical debt audit across 9 dimensions using AST-grep (tree-sitter), grep, LSP, and language-native tooling. Produces TECH_DEBT_AUDIT.md with severity, effort estimates, and prioritized fixes. Use when asked for codebase health check, tech debt audit, architecture review, code",
+    "CherryHQ/cherry-studio:.agents/skills/agent-notes/SKILL.md:2026-11-11T08:11:21Z": "Use when deciding whether a Cherry Studio change needs an Agent Note, authoring or reviewing a Spec, recording a durable bug-fix decision, moving a note between proposed/implemented/rejected, or checking supersession and stacked Spec approval.",
+    "CherryHQ/cherry-studio:.agents/skills/cherry-electron-dev/SKILL.md:2026-11-11T08:11:21Z": "Develop, fix, profile, and test PRs in a tracked Cherry Studio Electron instance. Use for implementation, UI and interaction work, runtime debugging, DevTools inspection, performance analysis, and interactive PR verification with a test report. Reuse a verified workspace instance and manage its life",
+    "CherryHQ/cherry-studio:.agents/skills/cherry-regression-test/SKILL.md:2026-11-11T08:11:21Z": "Run Cherry Studio critical-path system regression tasks through the repository-owned Playwright E2E workflow. Use for full regression, release acceptance, development-branch system validation, or a named cherry-regression-test task on GitHub-hosted macOS and Windows runners.",
+    "CherryHQ/cherry-studio:.agents/skills/create-skill/SKILL.md:2026-11-11T08:11:21Z": "Create a new skill in the current repository. Use when the user wants to create/add a new skill, or mentions creating a skill from scratch. This skill follows the workflow defined in .agents/skills/README.md and helps scaffold, validate, and sync new skills.",
+    "CherryHQ/cherry-studio:.agents/skills/docs-governance/SKILL.md:2026-11-11T08:11:21Z": "Use when writing, restructuring, auditing, or reviewing Cherry Studio repository documentation, READMEs, JSDoc, comments, Agent instructions, or paired English/Chinese docs, including source-linked documentation impact checks.",
+    "CherryHQ/cherry-studio:.agents/skills/find-simplifications/SKILL.md:2026-11-11T08:11:21Z": "Use when asked to find or plan Cherry Studio cleanup, simplification, refactoring, dead-code removal, duplicated state removal, unnecessary APIs, speculative generality, or library replacements, especially when the result should become evidence-backed proposed Agent Notes.",
+    "CherryHQ/cherry-studio:.agents/skills/gh-create-issue/SKILL.md:2026-11-11T08:11:21Z": "Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format.",
+    "CherryHQ/cherry-studio:.agents/skills/gh-create-pr/SKILL.md:2026-11-11T08:11:21Z": "Create or update GitHub pull requests using the repository-required workflow and template compliance. Use when asked to create/open/update a PR so the assistant reads `.github/pull_request_template.md`, fills every template section, preserves markdown structure exactly, and marks missing data as N/A",
+    "CherryHQ/cherry-studio:.agents/skills/gh-pr-review/SKILL.md:2026-11-11T08:11:21Z": "Automated Cherry Studio review for local branches, PRs, commits, files, architecture docs, and repository skills. Use for code or documentation reviews that need project-specific naming, main/renderer/shared placement and dependency rules, IpcApi and DataApi boundaries, lifecycle/service ownership, ",
+    "CherryHQ/cherry-studio:.agents/skills/gh-stack/SKILL.md:2026-11-11T08:11:21Z": "Manage Cherry Studio stacked branches and pull requests with the GitHub gh-stack extension. Use for planning, creating, inspecting, rebasing, syncing, linking, or recovering a stack of dependent PRs.",
+    "CherryHQ/cherry-studio:.agents/skills/prepare-release/SKILL.md:2026-11-11T08:11:21Z": "Prepare a new release by collecting commits, generating bilingual release notes, updating version files, and creating a release branch. Use when asked to prepare/create a release, bump version, or run `/prepare-release`.",
+    "CherryHQ/cherry-studio:.agents/skills/translate-docs/SKILL.md:2026-11-11T08:11:21Z": "Use when explicitly asked to translate, backfill, reconcile, rename, or delete paired Cherry Studio repository documentation in English and Simplified Chinese, including Phase 3 domain-by-domain translation work.",
+    "alibaba/open-code-review:plugins/open-code-review/skills/open-code-review-delegate/SKILL.md:2026-11-11T08:21:06Z": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LL",
+    "alibaba/open-code-review:plugins/open-code-review/skills/open-code-review/SKILL.md:2026-11-11T08:21:06Z": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au",
+    "alibaba/open-code-review:skills/open-code-review-delegate/SKILL.md:2026-11-11T08:21:06Z": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LL",
+    "alibaba/open-code-review:skills/open-code-review/SKILL.md:2026-11-11T08:21:06Z": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au"
   },
-  "summaries": {}
+  "summaries": {
+    "morluto/rea": {
+      "pushed_at": "2026-11-11T08:20:10Z",
+      "hash": "7cbb0715d82d01b934538854e7b381882b2fe8f8",
+      "summary": {
+        "what_it_is": "The skills teach an agent how to use REA's toolset to reverse engineer native binaries, JavaScript and Electron apps, .NET assemblies, and websites. They cover setting up the MCP server, designing analysis tools, optimizing investigations, and auditing CI tests.",
+        "who_its_for": "Developers and security researchers who want their AI agents to investigate closed-source software down to the binary level."
+      }
+    },
+    "anthropics/skills": {
+      "pushed_at": "2026-11-06T22:32:32Z",
+      "hash": "2a99fc86af74511a8ce7d37600a7060fa94ec51f",
+      "summary": {
+        "what_it_is": "This repository contains Anthropic's collection of skills for Claude — self-contained folders with SKILL.md files that teach Claude how to perform specialized tasks such as document creation and editing (docx, pdf, pptx, xlsx), creative design, technical workflows, and enterprise communications. It also includes the Agent Skills specification and a skill template for building custom skills.",
+        "who_its_for": "Developers and students who want to learn how to create custom skills for Claude or understand patterns for building agent capabilities."
+      }
+    },
+    "DietrichGebert/ponytail": {
+      "pushed_at": "2026-10-29T11:59:31Z",
+      "hash": "8b9d2b1d6985483be939cfc1d3ad8b69ce24a184",
+      "summary": {
+        "what_it_is": "Ponytail teaches AI agents to write minimal, necessary code by reusing existing components and browser features instead of building from scratch. It reduces code volume, tokens, cost, and time while maintaining high test coverage and security.",
+        "who_its_for": "Developers using AI coding agents who want more concise, efficient code output."
+      }
+    },
+    "thedotmack/claude-mem": {
+      "pushed_at": "2026-11-11T07:15:32Z",
+      "hash": "34edcff8eb31ff965c74bbf02ef673d75e5800ba",
+      "summary": {
+        "what_it_is": "The skills in this repository teach an agent how to maintain persistent context across sessions by capturing session activity, compressing it with AI, and injecting relevant context into future sessions. It runs a background agent that takes notes during work and provides a searchable index for subsequent sessions.",
+        "who_its_for": "Developers using AI coding agents like Claude Code, OpenClaw, Codex, Gemini, Copilot, or OpenCode who want their agent to remember past work across sessions."
+      }
+    },
+    "addyosmani/agent-skills": {
+      "pushed_at": "2026-11-01T19:24:49Z",
+      "hash": "8210d2f76d007e27cc373be87445f9b7cf0e2ef0",
+      "summary": {
+        "what_it_is": "This repository provides 25 production-grade engineering skills that teach AI coding agents the workflows, quality gates, and best practices senior engineers use across the full software development lifecycle — from specification and planning through implementation, testing, review, and deployment.",
+        "who_its_for": "Developers and teams using AI coding agents (Claude Code, Cursor, Codex, Copilot, Cline, etc.) who want their agents to follow consistent, senior-level engineering practices."
+      }
+    },
+    "Leonxlnx/taste-skill": {
+      "pushed_at": "2026-11-08T21:51:50Z",
+      "hash": "975b6a7a9880b8d13d8ea8dd47bf446ee9c6c999",
+      "summary": {
+        "what_it_is": "Taste Skill teaches coding agents to build professional-grade company websites with art-directed design, real photographs, consistent design systems, and browser-verified quality checks instead of generic AI-generated landing pages.",
+        "who_its_for": "Developers and teams using AI coding agents who want their generated websites to meet high design standards like those of figma.com or x.ai."
+      }
+    },
+    "paperclipai/paperclip": {
+      "pushed_at": "2026-11-11T08:22:42Z",
+      "hash": "7154451c939d5f5bbcfb623ad41ea7acbb72d68b",
+      "summary": {
+        "what_it_is": "This repository contains skills that teach an AI agent how to create and manage AI agent teams within Paperclip, including building adapters for different agent providers, setting up integrations, creating verification skills, and handling operational tasks like security advisories and diagnostics.",
+        "who_its_for": "Developers building autonomous AI organizations who need to coordinate multiple AI agents through the Paperclip orchestration platform."
+      }
+    },
+    "pbakaus/impeccable": {
+      "pushed_at": "2026-11-11T07:06:45Z",
+      "hash": "5a927de4aa552bf4b22829b8402fb647514bdc1f",
+      "summary": {
+        "what_it_is": "Impeccable gives coding agents a shared design vocabulary with 24 commands to steer, review, and finish UI work. Agents can run commands like critique, audit, polish, bolder, or live to improve existing interfaces or build new ones with consistent quality.",
+        "who_its_for": "Developers and teams using AI coding agents who want predictable, reviewable design improvements without guessing prompts."
+      }
+    },
+    "nexu-io/open-design": {
+      "pushed_at": "2026-11-11T04:11:31Z",
+      "hash": "bddba5042f2c1d9f1a9de6ac03ecc5814faee7e6",
+      "summary": {
+        "what_it_is": "This repository provides 562 skills that teach an AI coding agent to create design deliverables such as prototypes, dashboards, presentations, images, videos, websites, and apps. The skills also cover specific tasks like writing blog posts, clinical case reports, email marketing campaigns, and engineering runbooks, all within a collaborative, local-first workspace.",
+        "who_its_for": "Designers, developers, and teams who want to collaborate with AI agents on design and content creation tasks."
+      }
+    },
+    "tt-a1i/archify": {
+      "pushed_at": "2026-11-11T05:01:27Z",
+      "hash": "c4be9380a2f9d091fccc256bb95c1a5aa660dd5c",
+      "summary": {
+        "what_it_is": "Archify is an agent skill that turns ideas, plans, questions, or codebases into interactive HTML diagrams. It works with AI coding agents like Claude Code, Codex, Cursor, and OpenCode to create explorable visualizations ranging from travel itineraries to system architectures.",
+        "who_its_for": "Developers, students, and anyone who wants to visualize and share ideas, plans, or codebases as interactive diagrams."
+      }
+    }
+  }
 }

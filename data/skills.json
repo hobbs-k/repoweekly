@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T07:53:20.253Z",
+  "generated": "2026-11-11T08:27:39.529Z",
   "date": "2026-11-11",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "mode": "recent",
@@ -33,8 +33,8 @@
         "touhou",
         "typescript"
       ],
-      "stars": 450894,
-      "pushed_at": "2026-11-11T07:40:24Z",
+      "stars": 450978,
+      "pushed_at": "2026-11-11T08:20:10Z",
       "created_at": "2026-04-14T00:51:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -43,31 +43,37 @@
         {
           "name": "rea-analysis-optimization",
           "path": ".agents/skills/rea-analysis-optimization/SKILL.md",
+          "title": "rea-analysis-optimization",
           "description": "Optimize REA providers and shared analysis workflows for agent context, latency, CPU, and memory while preserving correctness and Evidence. Use for analysis bottlenecks and cache or query design; CI/test-suite optimization belongs to rea-ci-tests-audit."
         },
         {
           "name": "rea-changelog-update",
           "path": ".agents/skills/rea-changelog-update/SKILL.md",
+          "title": "rea-changelog-update",
           "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization."
         },
         {
           "name": "rea-ci-tests-audit",
           "path": ".agents/skills/rea-ci-tests-audit/SKILL.md",
+          "title": "rea-ci-tests-audit",
           "description": "Audit REA CI and test suites for correctness, fixture drift, false passes, and measured performance; use for suite or workflow investigations and efficiency changes, rather than ordinary feature testing or a single test failure."
         },
         {
           "name": "rea-tool-design",
           "path": ".agents/skills/rea-tool-design/SKILL.md",
+          "title": "rea-tool-design",
           "description": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics."
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".agents/skills/reverse-engineer-anything/SKILL.md",
+          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".cursor-plugin/skills/reverse-engineer-anything/SKILL.md",
+          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         }
       ],
@@ -76,7 +82,11 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 1
+      "rank": 1,
+      "summary": {
+        "what_it_is": "The skills teach an agent how to use REA's toolset to reverse engineer native binaries, JavaScript and Electron apps, .NET assemblies, and websites. They cover setting up the MCP server, designing analysis tools, optimizing investigations, and auditing CI tests.",
+        "who_its_for": "Developers and security researchers who want their AI agents to investigate closed-source software down to the binary level."
+      }
     },
     {
       "full_name": "anthropics/skills",
@@ -86,7 +96,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 192651,
+      "stars": 192676,
       "pushed_at": "2026-11-06T22:32:32Z",
       "created_at": "2025-09-22T15:53:31Z",
       "license": null,
@@ -190,7 +200,11 @@
         "claude"
       ],
       "gained": null,
-      "rank": 2
+      "rank": 2,
+      "summary": {
+        "what_it_is": "This repository contains Anthropic's collection of skills for Claude — self-contained folders with SKILL.md files that teach Claude how to perform specialized tasks such as document creation and editing (docx, pdf, pptx, xlsx), creative design, technical workflows, and enterprise communications. It also includes the Agent Skills specification and a skill template for building custom skills.",
+        "who_its_for": "Developers and students who want to learn how to create custom skills for Claude or understand patterns for building agent capabilities."
+      }
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -209,7 +223,7 @@
         "prompt-engineering",
         "yagni"
       ],
-      "stars": 188600,
+      "stars": 188616,
       "pushed_at": "2026-10-29T11:59:31Z",
       "created_at": "2026-06-12T00:52:37Z",
       "license": "MIT",
@@ -282,7 +296,11 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 3
+      "rank": 3,
+      "summary": {
+        "what_it_is": "Ponytail teaches AI agents to write minimal, necessary code by reusing existing components and browser features instead of building from scratch. It reduces code volume, tokens, cost, and time while maintaining high test coverage and security.",
+        "who_its_for": "Developers using AI coding agents who want more concise, efficient code output."
+      }
     },
     {
       "full_name": "thedotmack/claude-mem",
@@ -311,7 +329,7 @@
         "sqlite",
         "supermemory"
       ],
-      "stars": 115962,
+      "stars": 115972,
       "pushed_at": "2026-11-11T07:15:32Z",
       "created_at": "2025-08-31T20:50:03Z",
       "license": "Apache-2.0",
@@ -500,7 +518,11 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 4
+      "rank": 4,
+      "summary": {
+        "what_it_is": "The skills in this repository teach an agent how to maintain persistent context across sessions by capturing session activity, compressing it with AI, and injecting relevant context into future sessions. It runs a background agent that takes notes during work and provides a searchable index for subsequent sessions.",
+        "who_its_for": "Developers using AI coding agents like Claude Code, OpenClaw, Codex, Gemini, Copilot, or OpenCode who want their agent to remember past work across sessions."
+      }
     },
     {
       "full_name": "addyosmani/agent-skills",
@@ -515,7 +537,7 @@
         "cursor",
         "skills"
       ],
-      "stars": 115407,
+      "stars": 115425,
       "pushed_at": "2026-11-01T19:24:49Z",
       "created_at": "2026-02-15T20:20:26Z",
       "license": "MIT",
@@ -642,7 +664,11 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 5
+      "rank": 5,
+      "summary": {
+        "what_it_is": "This repository provides 25 production-grade engineering skills that teach AI coding agents the workflows, quality gates, and best practices senior engineers use across the full software development lifecycle — from specification and planning through implementation, testing, review, and deployment.",
+        "who_its_for": "Developers and teams using AI coding agents (Claude Code, Cursor, Codex, Copilot, Cline, etc.) who want their agents to follow consistent, senior-level engineering practices."
+      }
     },
     {
       "full_name": "Leonxlnx/taste-skill",
@@ -662,7 +688,7 @@
         "ui-design",
         "web-design"
       ],
-      "stars": 113133,
+      "stars": 113143,
       "pushed_at": "2026-11-08T21:51:50Z",
       "created_at": "2026-02-19T21:44:05Z",
       "license": "MIT",
@@ -681,7 +707,11 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 6
+      "rank": 6,
+      "summary": {
+        "what_it_is": "Taste Skill teaches coding agents to build professional-grade company websites with art-directed design, real photographs, consistent design systems, and browser-verified quality checks instead of generic AI-generated landing pages.",
+        "who_its_for": "Developers and teams using AI coding agents who want their generated websites to meet high design standards like those of figma.com or x.ai."
+      }
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -711,7 +741,7 @@
         "workflow-automation"
       ],
       "stars": 113023,
-      "pushed_at": "2026-11-11T07:42:32Z",
+      "pushed_at": "2026-11-11T08:22:42Z",
       "created_at": "2026-03-02T15:01:51Z",
       "license": "MIT",
       "default_branch": "master",
@@ -720,61 +750,73 @@
         {
           "name": "add-product-e2e-eval",
           "path": ".agents/skills/add-product-e2e-eval/SKILL.md",
+          "title": "add-product-e2e-eval",
           "description": "Add or extend a Paperclip full-stack runner E2E workflow, fixture, matcher, or report evidence path for local or Daytona execution."
         },
         {
           "name": "add-runner-eval",
           "path": ".agents/skills/add-runner-eval/SKILL.md",
+          "title": "add-runner-eval",
           "description": "Add or extend a Paperclip Runner protocol evaluation definition, roster, assertion, or report fixture with provenance and narrow validation."
         },
         {
           "name": "check-pr",
           "path": ".agents/skills/check-pr/SKILL.md",
+          "title": "check-pr",
           "description": "Check a GitHub, GitLab, or Perforce PR/MR/CL for review comments, failing checks, and PR-body gaps. Use when asked to inspect, fix, or prepare a change for submission."
         },
         {
           "name": "company-creator",
           "path": ".agents/skills/company-creator/SKILL.md",
+          "title": "company-creator",
           "description": "Create agent company packages that conform to agentcompanies/v1. Use when asked to create a company, scaffold an agent team, hire agents, or turn a repo/skills collection into a company package."
         },
         {
           "name": "create-agent-adapter",
           "path": ".agents/skills/create-agent-adapter/SKILL.md",
+          "title": "create-agent-adapter",
           "description": "Create or modify Paperclip agent adapters across server, UI, and CLI surfaces. Use when adding support for a new CLI agent, API agent, custom process, or adapter package."
         },
         {
           "name": "create-case",
           "path": ".agents/skills/create-case/SKILL.md",
+          "title": "create-case",
           "description": "Create and kick off a Paperclip case from a user request, with workflow instructions and an initial agent."
         },
         {
           "name": "create-external-bot-integration",
           "path": ".agents/skills/create-external-bot-integration/SKILL.md",
+          "title": "create-external-bot-integration",
           "description": "Build and qualify external bots such as Dot in Paperclip. Use for two-way work, invitation, identity, wakeup, Runner lifecycle, native tools, recovery, and Cloud delivery. CLI adapters and app-only connectors use their existing skills."
         },
         {
           "name": "create-issue-interaction-ui",
           "path": ".agents/skills/create-issue-interaction-ui/SKILL.md",
+          "title": "create-issue-interaction-ui",
           "description": "Add a new Paperclip issue-thread interaction kind end-to-end. Use when repo work introduces or extends interaction cards like request_confirmation, checkbox confirmations, ask_user_questions, or suggest_tasks."
         },
         {
           "name": "create-paperclip-bundled-skill",
           "path": ".agents/skills/create-paperclip-bundled-skill/SKILL.md",
+          "title": "create-paperclip-bundled-skill",
           "description": "Turn an idea, tweet, or task into a skill in the Paperclip skills catalog (packages/skills-catalog). Use when asked to FIND or MAKE a skill and publish it as a bundled/optional catalog skill: research prior art, reference or author it, add examples, regenerate the manifest, open a PR."
         },
         {
           "name": "create-runner-adapter",
           "path": ".agents/skills/create-runner-adapter/SKILL.md",
+          "title": "create-runner-adapter",
           "description": "Add a new harness/provider integration to native Paperclip Runner, from requirements and protocol research through implementation, packaging, and real end-to-end acceptance. Use for new Runner adapters; legacy direct adapter authoring and migration are outside this skill."
         },
         {
           "name": "create-verification-skill",
           "path": ".agents/skills/create-verification-skill/SKILL.md",
+          "title": "create-verification-skill",
           "description": "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or platform. Use for /create-verification-skill, \\\"make a control skill for this repo\\\", or when a project has no scripted way to prove UI/CLI/service behavior."
         },
         {
           "name": "deal-with-security-advisory",
           "path": ".agents/skills/deal-with-security-advisory/SKILL.md",
+          "title": "deal-with-security-advisory",
           "description": "Handle confidential GitHub Security Advisory response for Paperclip. Use when coordinating advisory triage, private-fork fixes, CVE/publication steps, and immediate security releases."
         },
         {
@@ -895,7 +937,11 @@
         "codex"
       ],
       "gained": null,
-      "rank": 7
+      "rank": 7,
+      "summary": {
+        "what_it_is": "This repository contains skills that teach an AI agent how to create and manage AI agent teams within Paperclip, including building adapters for different agent providers, setting up integrations, creating verification skills, and handling operational tasks like security advisories and diagnostics.",
+        "who_its_for": "Developers building autonomous AI organizations who need to coordinate multiple AI agents through the Paperclip orchestration platform."
+      }
     },
     {
       "full_name": "pbakaus/impeccable",
@@ -909,7 +955,7 @@
         "design",
         "slop"
       ],
-      "stars": 107787,
+      "stars": 107818,
       "pushed_at": "2026-11-11T07:06:45Z",
       "created_at": "2025-11-16T01:52:04Z",
       "license": "Apache-2.0",
@@ -1039,7 +1085,11 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 8
+      "rank": 8,
+      "summary": {
+        "what_it_is": "Impeccable gives coding agents a shared design vocabulary with 24 commands to steer, review, and finish UI work. Agents can run commands like critique, audit, polish, bolder, or live to improve existing interfaces or build new ones with consistent quality.",
+        "who_its_for": "Developers and teams using AI coding agents who want predictable, reviewable design improvements without guessing prompts."
+      }
     },
     {
       "full_name": "nexu-io/open-design",
@@ -1068,7 +1118,7 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 107088,
+      "stars": 107094,
       "pushed_at": "2026-11-11T04:11:31Z",
       "created_at": "2026-04-28T04:25:20Z",
       "license": "Apache-2.0",
@@ -1254,7 +1304,11 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 9
+      "rank": 9,
+      "summary": {
+        "what_it_is": "This repository provides 562 skills that teach an AI coding agent to create design deliverables such as prototypes, dashboards, presentations, images, videos, websites, and apps. The skills also cover specific tasks like writing blog posts, clinical case reports, email marketing campaigns, and engineering runbooks, all within a collaborative, local-first workspace.",
+        "who_its_for": "Designers, developers, and teams who want to collaborate with AI agents on design and content creation tasks."
+      }
     },
     {
       "full_name": "tt-a1i/archify",
@@ -1283,7 +1337,7 @@
         "system-design",
         "visualization"
       ],
-      "stars": 95460,
+      "stars": 95471,
       "pushed_at": "2026-11-11T05:01:27Z",
       "created_at": "2026-04-15T05:27:37Z",
       "license": "Apache-2.0",
@@ -1322,7 +1376,11 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 10
+      "rank": 10,
+      "summary": {
+        "what_it_is": "Archify is an agent skill that turns ideas, plans, questions, or codebases into interactive HTML diagrams. It works with AI coding agents like Claude Code, Codex, Cursor, and OpenCode to create explorable visualizations ranging from travel itineraries to system architectures.",
+        "who_its_for": "Developers, students, and anyone who wants to visualize and share ideas, plans, or codebases as interactive diagrams."
+      }
     },
     {
       "full_name": "Egonex-AI/Understand-Anything",
@@ -1348,7 +1406,7 @@
         "understandcode",
         "vibe-coding"
       ],
-      "stars": 91955,
+      "stars": 91962,
       "pushed_at": "2026-11-11T04:34:25Z",
       "created_at": "2026-03-15T02:30:51Z",
       "license": "MIT",
@@ -1439,7 +1497,7 @@
         "open-source",
         "resume"
       ],
-      "stars": 81812,
+      "stars": 81813,
       "pushed_at": "2026-11-11T06:01:31Z",
       "created_at": "2026-04-04T18:21:18Z",
       "license": "MIT",
@@ -1553,7 +1611,7 @@
         "skill",
         "workflow-automation"
       ],
-      "stars": 79233,
+      "stars": 79234,
       "pushed_at": "2026-09-18T07:16:11Z",
       "created_at": "2025-10-17T07:15:01Z",
       "license": null,
@@ -1764,8 +1822,8 @@
         "tui",
         "typescript"
       ],
-      "stars": 70828,
-      "pushed_at": "2026-11-11T07:40:27Z",
+      "stars": 70829,
+      "pushed_at": "2026-11-11T08:23:52Z",
       "created_at": "2025-12-03T01:40:05Z",
       "license": "NOASSERTION",
       "default_branch": "dev",
@@ -1774,61 +1832,73 @@
         {
           "name": "codex-qa",
           "path": ".agents/skills/codex-qa/SKILL.md",
+          "title": "codex-qa",
           "description": "QA the omo Codex Light edition (lazycodex / packages/omo-codex) itself, in strict isolation so ONLY our plugin is exercised, never the user's real ~/.codex. The first-party method drives the real `codex app-server` against an isolated CODEX_HOME plus a LOCAL mock model (no real API call), and proves"
         },
         {
           "name": "get-unpublished-changes",
           "path": ".agents/skills/get-unpublished-changes/SKILL.md",
+          "title": "get-unpublished-changes",
           "description": "Compare HEAD with the latest published npm versions and list all unpublished changes by release layer. Triggers: unpublished changes, changelog, what changed, whats new."
         },
         {
           "name": "github-triage",
           "path": ".agents/skills/github-triage/SKILL.md",
+          "title": "github-triage",
           "description": "Read-only GitHub triage for issues AND PRs. 1 item = 1 background task (category: quick). Analyzes all open items and writes evidence-backed reports to /tmp/{datetime}/. Every claim requires a GitHub permalink as proof. NEVER takes any action on GitHub - no comments, no merges, no closes, no labels."
         },
         {
           "name": "hyperplan",
           "path": ".agents/skills/hyperplan/SKILL.md",
+          "title": "hyperplan",
           "description": "Adversarial multi-agent planning skill. Self-orchestrates 5 hostile category members (unspecified-low, unspecified-high, deep, ultrabrain, artistry) via team-mode for ruthless cross-critique debate, distills only the defensible insights, then MANDATORILY hands the distilled insight bundle to the `pl"
         },
         {
           "name": "omomomo",
           "path": ".agents/skills/omomomo/SKILL.md",
+          "title": "omomomo",
           "description": "Easter egg command - about oh-my-opencode. Triggers: omomomo, about, easter egg."
         },
         {
           "name": "opencode-qa",
           "path": ".agents/skills/opencode-qa/SKILL.md",
+          "title": "opencode-qa",
           "description": "QA opencode itself, per case: verify the CLI/terminal (opencode run, db, serve, export), prove a specific plugin hook/action/event fired via the SSE event stream, smoke-test the TUI under tmux, and investigate sessions in opencode's SQLite DB by id, title/name, or message text. Ships tested helper s"
         },
         {
           "name": "pre-publish-review",
           "path": ".agents/skills/pre-publish-review/SKILL.md",
+          "title": "pre-publish-review",
           "description": "Nuclear-grade 12-agent pre-publish release gate. Runs /get-unpublished-changes to detect all changes since last npm release, spawns up to 10 ultrabrain agents for deep per-change analysis, invokes /review-work (orchestrator manual QA plus one gate reviewer) for holistic review, and 1 oracle for over"
         },
         {
           "name": "publish",
           "path": ".agents/skills/publish/SKILL.md",
+          "title": "publish",
           "description": "Publish oh-my-opencode to npm by triggering the GitHub Actions publish workflow and verifying its artifacts. Ship-only: never runs pre-publish-review or re-reviews merged code unless the user explicitly asks. Argument: <patch|minor|major|explicit-semver>. Triggers: publish, release, deploy, npm publ"
         },
         {
           "name": "remove-deadcode",
           "path": ".agents/skills/remove-deadcode/SKILL.md",
+          "title": "remove-deadcode",
           "description": "Remove unused code from this project with ultrawork mode, LSP-verified safety, atomic commits. Triggers: remove dead code, dead code, cleanup, remove unused."
         },
         {
           "name": "security-research",
           "path": ".agents/skills/security-research/SKILL.md",
+          "title": "security-research",
           "description": "Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. Use for security review, vulnerability research, exploitability audit, pre-release"
         },
         {
           "name": "senpi-qa",
           "path": ".agents/skills/senpi-qa/SKILL.md",
+          "title": "senpi-qa",
           "description": "QA the omo Senpi adapter (packages/omo-senpi, packages/senpi-task) against the REAL senpi binary in strict isolation, and write every artifact to the one canonical evidence path .omo/evidence/omo-senpi-adapter/<slug>/. The live drivers under packages/omo-senpi/scripts/qa/ create their own isolated S"
         },
         {
           "name": "tech-debt-audit",
           "path": ".agents/skills/tech-debt-audit/SKILL.md",
+          "title": "tech-debt-audit",
           "description": "Thorough, file-cited technical debt audit across 9 dimensions using AST-grep (tree-sitter), grep, LSP, and language-native tooling. Produces TECH_DEBT_AUDIT.md with severity, effort estimates, and prioritized fixes. Use when asked for codebase health check, tech debt audit, architecture review, code"
         },
         {
@@ -1981,7 +2051,7 @@
         "pakistani-developer",
         "vibe-coding"
       ],
-      "stars": 68961,
+      "stars": 68963,
       "pushed_at": "2026-11-11T06:34:06Z",
       "created_at": "2025-10-31T14:15:28Z",
       "license": "MIT",
@@ -2060,7 +2130,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 67694,
+      "stars": 67706,
       "pushed_at": "2026-11-10T01:35:15Z",
       "created_at": "2026-01-18T05:30:15Z",
       "license": "MIT",
@@ -2096,7 +2166,7 @@
         "mermaid",
         "svg"
       ],
-      "stars": 66399,
+      "stars": 66403,
       "pushed_at": "2026-11-10T22:44:09Z",
       "created_at": "2026-04-16T18:01:16Z",
       "license": "MIT",
@@ -2131,7 +2201,7 @@
         "developer-tools",
         "productivity"
       ],
-      "stars": 60800,
+      "stars": 60805,
       "pushed_at": "2026-10-19T19:46:23Z",
       "created_at": "2026-05-13T20:42:06Z",
       "license": "MIT",
@@ -2183,7 +2253,7 @@
         "seo",
         "skill-md"
       ],
-      "stars": 59633,
+      "stars": 59636,
       "pushed_at": "2026-11-11T02:26:00Z",
       "created_at": "2026-01-15T19:45:23Z",
       "license": "MIT",
@@ -2395,7 +2465,7 @@
         "scientific-computing",
         "scientific-visualization"
       ],
-      "stars": 56772,
+      "stars": 56778,
       "pushed_at": "2026-11-09T09:17:48Z",
       "created_at": "2025-10-19T20:54:15Z",
       "license": "MIT",
@@ -2602,8 +2672,8 @@
         "mcp-client",
         "ollama"
       ],
-      "stars": 53417,
-      "pushed_at": "2026-11-11T07:47:34Z",
+      "stars": 53420,
+      "pushed_at": "2026-11-11T08:11:21Z",
       "created_at": "2024-05-24T01:56:26Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
@@ -2811,8 +2881,8 @@
         "harness",
         "repository-level-context"
       ],
-      "stars": 49814,
-      "pushed_at": "2026-11-11T07:46:46Z",
+      "stars": 49816,
+      "pushed_at": "2026-11-11T08:21:06Z",
       "created_at": "2026-05-18T02:16:36Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -2876,7 +2946,7 @@
         "mcp",
         "skill-library"
       ],
-      "stars": 49511,
+      "stars": 49514,
       "pushed_at": "2026-11-11T07:12:14Z",
       "created_at": "2026-01-14T17:48:09Z",
       "license": "MIT",
@@ -3082,7 +3152,7 @@
         "self-hosted",
         "typescript"
       ],
-      "stars": 45614,
+      "stars": 45617,
       "pushed_at": "2026-11-08T20:43:39Z",
       "created_at": "2020-03-25T14:08:22Z",
       "license": "MIT",
@@ -3688,7 +3758,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 38025,
+      "stars": 38027,
       "pushed_at": "2026-11-10T00:41:13Z",
       "created_at": "2026-04-05T04:33:04Z",
       "license": "MIT",
@@ -3838,7 +3908,7 @@
         "mcp",
         "registry"
       ],
-      "stars": 33290,
+      "stars": 33293,
       "pushed_at": "2026-11-11T03:53:30Z",
       "created_at": "2025-07-04T01:26:26Z",
       "license": "MIT",
@@ -4050,7 +4120,7 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 33234,
+      "stars": 33235,
       "pushed_at": "2026-11-11T07:43:29Z",
       "created_at": "2023-08-16T16:16:33Z",
       "license": "Apache-2.0",
@@ -4798,7 +4868,7 @@
         "slides",
         "ui-design"
       ],
-      "stars": 29177,
+      "stars": 29181,
       "pushed_at": "2026-11-10T00:16:14Z",
       "created_at": "2026-04-19T14:42:06Z",
       "license": "MIT",
@@ -4950,7 +5020,7 @@
         "claude-cowork-plugin",
         "product-management"
       ],
-      "stars": 27867,
+      "stars": 27868,
       "pushed_at": "2026-11-08T23:10:04Z",
       "created_at": "2026-03-01T23:33:44Z",
       "license": "MIT",
@@ -5147,7 +5217,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "stars": 27582,
+      "stars": 27583,
       "pushed_at": "2026-11-11T02:41:02Z",
       "created_at": "2025-02-24T08:03:24Z",
       "license": "MIT",
@@ -5458,7 +5528,7 @@
         "watermarking",
         "watermarks"
       ],
-      "stars": 27043,
+      "stars": 27048,
       "pushed_at": "2026-11-09T20:25:47Z",
       "created_at": "2026-08-11T16:32:38Z",
       "license": "MIT",
@@ -5493,7 +5563,7 @@
         "svg",
         "vizualization"
       ],
-      "stars": 26582,
+      "stars": 26591,
       "pushed_at": "2026-10-18T20:20:24Z",
       "created_at": "2026-10-08T10:12:49Z",
       "license": "MIT",
@@ -5535,7 +5605,7 @@
         "openclaw",
         "personal-agent"
       ],
-      "stars": 26509,
+      "stars": 26510,
       "pushed_at": "2026-10-13T05:57:17Z",
       "created_at": "2026-03-30T05:22:23Z",
       "license": "MIT",
@@ -5631,7 +5701,7 @@
         "security-workflow",
         "supply-chain-security"
       ],
-      "stars": 25263,
+      "stars": 25266,
       "pushed_at": "2026-11-11T07:45:02Z",
       "created_at": "2026-03-21T00:28:43Z",
       "license": "Apache-2.0",
@@ -5806,7 +5876,7 @@
         "workflows"
       ],
       "stars": 24895,
-      "pushed_at": "2026-11-11T07:51:03Z",
+      "pushed_at": "2026-11-11T08:01:23Z",
       "created_at": "2020-10-24T07:27:48Z",
       "license": "NOASSERTION",
       "default_branch": "v3-develop",
@@ -5994,8 +6064,8 @@
         "skills",
         "skills-sh"
       ],
-      "stars": 22493,
-      "pushed_at": "2026-11-11T04:23:57Z",
+      "stars": 22499,
+      "pushed_at": "2026-11-11T08:23:50Z",
       "created_at": "2026-04-16T12:51:09Z",
       "license": "MIT",
       "default_branch": "main",
@@ -6041,8 +6111,8 @@
         "skills",
         "vibe-coding"
       ],
-      "stars": 22169,
-      "pushed_at": "2026-11-10T20:18:37Z",
+      "stars": 22172,
+      "pushed_at": "2026-11-11T08:24:27Z",
       "created_at": "2026-04-06T07:37:02Z",
       "license": "MIT",
       "default_branch": "main",
@@ -6183,7 +6253,7 @@
         "paper-writing",
         "research-automation"
       ],
-      "stars": 19006,
+      "stars": 19008,
       "pushed_at": "2026-11-11T07:39:57Z",
       "created_at": "2026-03-10T07:31:45Z",
       "license": "MIT",
@@ -6424,7 +6494,7 @@
         "video-generation",
         "video-production"
       ],
-      "stars": 18571,
+      "stars": 18575,
       "pushed_at": "2026-11-09T15:59:44Z",
       "created_at": "2026-07-19T11:44:41Z",
       "license": "Apache-2.0",
@@ -6466,7 +6536,7 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 17298,
+      "stars": 17307,
       "pushed_at": "2026-11-11T03:57:34Z",
       "created_at": "2026-09-13T16:31:06Z",
       "license": "Apache-2.0",
@@ -6551,7 +6621,7 @@
         "xiaohongshu",
         "youtube"
       ],
-      "stars": 16421,
+      "stars": 16422,
       "pushed_at": "2026-10-22T18:42:22Z",
       "created_at": "2023-12-04T07:49:16Z",
       "license": "MIT",
@@ -6751,7 +6821,7 @@
         "llm",
         "prompt-engineering"
       ],
-      "stars": 15815,
+      "stars": 15816,
       "pushed_at": "2026-10-22T13:26:18Z",
       "created_at": "2026-03-11T16:25:43Z",
       "license": "MIT",
@@ -6785,7 +6855,7 @@
         "desktop-agent",
         "multi-agent-systems"
       ],
-      "stars": 15799,
+      "stars": 15801,
       "pushed_at": "2026-11-10T21:30:30Z",
       "created_at": "2025-07-29T15:56:02Z",
       "license": "Apache-2.0",
@@ -6849,7 +6919,7 @@
         "python",
         "web-scraping"
       ],
-      "stars": 15298,
+      "stars": 15299,
       "pushed_at": "2026-09-30T18:49:17Z",
       "created_at": "2025-10-17T14:43:48Z",
       "license": "MIT",
@@ -6968,6 +7038,55 @@
       "rank": 57
     },
     {
+      "full_name": "lemomo-ai/lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-short-film",
+        "ai-video",
+        "animation",
+        "canvas",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "creative-coding",
+        "ffmpeg",
+        "filmmaking",
+        "motion-graphics",
+        "opus-5-5",
+        "prompt-library",
+        "text-to-speech",
+        "threejs",
+        "video-production",
+        "webgl"
+      ],
+      "stars": 14620,
+      "pushed_at": "2026-11-10T01:28:42Z",
+      "created_at": "2026-09-26T10:10:41Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 2,
+      "skills": [
+        {
+          "name": "lemo-opuscar",
+          "path": "plugin/skills/lemo-opuscar/SKILL.md"
+        },
+        {
+          "name": "directory",
+          "path": "tools/directory/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 58
+    },
+    {
       "full_name": "NevaMind-AI/memU",
       "url": "https://github.com/NevaMind-AI/memU",
       "description": "Personal memory across agents",
@@ -7000,55 +7119,6 @@
         "claude"
       ],
       "gained": null,
-      "rank": 58
-    },
-    {
-      "full_name": "lemomo-ai/lemo-opuscar",
-      "url": "https://github.com/lemomo-ai/lemo-opuscar",
-      "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "ai-short-film",
-        "ai-video",
-        "animation",
-        "canvas",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-code-skill",
-        "creative-coding",
-        "ffmpeg",
-        "filmmaking",
-        "motion-graphics",
-        "opus-5-5",
-        "prompt-library",
-        "text-to-speech",
-        "threejs",
-        "video-production",
-        "webgl"
-      ],
-      "stars": 14604,
-      "pushed_at": "2026-11-10T01:28:42Z",
-      "created_at": "2026-09-26T10:10:41Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 2,
-      "skills": [
-        {
-          "name": "lemo-opuscar",
-          "path": "plugin/skills/lemo-opuscar/SKILL.md"
-        },
-        {
-          "name": "directory",
-          "path": "tools/directory/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 59
     },
     {
@@ -7072,7 +7142,7 @@
         "skills",
         "vllm"
       ],
-      "stars": 14437,
+      "stars": 14439,
       "pushed_at": "2026-10-11T02:56:34Z",
       "created_at": "2025-11-03T06:13:06Z",
       "license": "MIT",
@@ -7356,7 +7426,7 @@
         "pptx",
         "typesetting"
       ],
-      "stars": 12510,
+      "stars": 12512,
       "pushed_at": "2026-11-10T02:51:15Z",
       "created_at": "2026-04-20T16:35:19Z",
       "license": "MIT",
@@ -7586,7 +7656,7 @@
         "self-hosted",
         "self-improving"
       ],
-      "stars": 11151,
+      "stars": 11152,
       "pushed_at": "2026-11-08T01:41:04Z",
       "created_at": "2026-01-12T00:04:22Z",
       "license": "Apache-2.0",
@@ -7709,7 +7779,7 @@
         "llm-agents",
         "python"
       ],
-      "stars": 10957,
+      "stars": 10960,
       "pushed_at": "2026-11-10T14:40:18Z",
       "created_at": "2026-06-09T21:05:42Z",
       "license": "MIT",
@@ -7745,7 +7815,7 @@
         "paid-advertising",
         "ppc"
       ],
-      "stars": 10928,
+      "stars": 10930,
       "pushed_at": "2026-11-01T21:08:14Z",
       "created_at": "2026-02-11T13:01:49Z",
       "license": "MIT",
@@ -7971,7 +8041,7 @@
         "terraform",
         "uml"
       ],
-      "stars": 10687,
+      "stars": 10688,
       "pushed_at": "2026-11-10T08:11:10Z",
       "created_at": "2026-03-03T16:54:59Z",
       "license": "MIT",
@@ -8010,7 +8080,7 @@
         "slide-generator",
         "slides"
       ],
-      "stars": 10592,
+      "stars": 10595,
       "pushed_at": "2026-11-06T08:26:30Z",
       "created_at": "2026-06-10T07:46:43Z",
       "license": "AGPL-3.0",
@@ -8041,7 +8111,7 @@
         "redteam-tools",
         "skills"
       ],
-      "stars": 10578,
+      "stars": 10580,
       "pushed_at": "2026-10-12T15:02:40Z",
       "created_at": "2026-03-04T05:52:35Z",
       "license": "MIT",
@@ -8243,7 +8313,7 @@
         "xiaohongshu"
       ],
       "stars": 9498,
-      "pushed_at": "2026-11-11T07:51:29Z",
+      "pushed_at": "2026-11-11T08:16:40Z",
       "created_at": "2026-05-11T09:40:38Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -8444,7 +8514,7 @@
         "skill-md",
         "skills"
       ],
-      "stars": 9429,
+      "stars": 9430,
       "pushed_at": "2026-11-11T02:10:43Z",
       "created_at": "2026-02-02T09:12:57Z",
       "license": null,
@@ -8648,7 +8718,7 @@
         "seo-mcp",
         "seo-mcp-server"
       ],
-      "stars": 9126,
+      "stars": 9127,
       "pushed_at": "2026-10-27T08:57:55Z",
       "created_at": "2026-08-29T23:37:01Z",
       "license": "MIT",
@@ -8711,7 +8781,7 @@
         "design-rules",
         "ui-design"
       ],
-      "stars": 8910,
+      "stars": 8912,
       "pushed_at": "2026-11-10T13:35:26Z",
       "created_at": "2026-08-07T10:29:56Z",
       "license": "MIT",
@@ -8765,7 +8835,7 @@
         "reverse-engineering",
         "saas"
       ],
-      "stars": 8841,
+      "stars": 8842,
       "pushed_at": "2026-10-03T12:07:53Z",
       "created_at": "2026-10-03T12:07:49Z",
       "license": "MIT",
@@ -8842,7 +8912,7 @@
         "typescript"
       ],
       "stars": 8815,
-      "pushed_at": "2026-11-11T07:46:14Z",
+      "pushed_at": "2026-11-11T08:18:37Z",
       "created_at": "2026-04-01T06:22:40Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9041,7 +9111,7 @@
         "spec-driven-development"
       ],
       "stars": 8762,
-      "pushed_at": "2026-11-10T18:31:32Z",
+      "pushed_at": "2026-11-11T08:17:53Z",
       "created_at": "2026-02-27T23:28:01Z",
       "license": "MIT",
       "default_branch": "main",
@@ -9188,7 +9258,7 @@
         "trilingual",
         "tutorial"
       ],
-      "stars": 8729,
+      "stars": 8730,
       "pushed_at": "2026-11-10T22:05:12Z",
       "created_at": "2026-05-04T22:18:51Z",
       "license": "MIT",
@@ -9358,7 +9428,7 @@
         "writing-assistant",
         "zenstory"
       ],
-      "stars": 8505,
+      "stars": 8506,
       "pushed_at": "2026-11-11T03:19:52Z",
       "created_at": "2026-04-22T16:35:39Z",
       "license": "MIT",
@@ -9458,7 +9528,7 @@
         "unreal",
         "windsurf"
       ],
-      "stars": 8249,
+      "stars": 8253,
       "pushed_at": "2026-11-10T14:52:27Z",
       "created_at": "2026-06-24T07:18:39Z",
       "license": "Apache-2.0",
@@ -9657,7 +9727,7 @@
         "vibe-coding",
         "vibecoding"
       ],
-      "stars": 8135,
+      "stars": 8140,
       "pushed_at": "2026-11-11T06:52:38Z",
       "created_at": "2026-07-08T07:40:43Z",
       "license": "Apache-2.0",
@@ -9725,7 +9795,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 8125,
+      "stars": 8126,
       "pushed_at": "2026-11-06T15:20:09Z",
       "created_at": "2026-01-14T18:23:21Z",
       "license": "CC-BY-SA-4.0",
@@ -10142,7 +10212,7 @@
         "web-scraper",
         "web-scraping"
       ],
-      "stars": 7881,
+      "stars": 7884,
       "pushed_at": "2026-11-08T10:51:13Z",
       "created_at": "2023-04-22T14:35:13Z",
       "license": "MIT",
@@ -10215,7 +10285,7 @@
         "skills",
         "superpowers"
       ],
-      "stars": 7559,
+      "stars": 7561,
       "pushed_at": "2026-11-11T07:02:04Z",
       "created_at": "2026-03-12T00:35:56Z",
       "license": "MIT",
@@ -10569,7 +10639,7 @@
         "prompt-engineering",
         "prompt-optimization"
       ],
-      "stars": 7378,
+      "stars": 7379,
       "pushed_at": "2026-11-09T12:46:31Z",
       "created_at": "2025-08-05T09:26:27Z",
       "license": "MIT",
@@ -10612,7 +10682,7 @@
         "meta-ads-mcp",
         "seo"
       ],
-      "stars": 7196,
+      "stars": 7197,
       "pushed_at": "2026-10-27T08:57:53Z",
       "created_at": "2026-01-21T10:15:35Z",
       "license": null,
@@ -11055,7 +11125,7 @@
         "reverse-image-search",
         "satellite-imagery"
       ],
-      "stars": 6835,
+      "stars": 6836,
       "pushed_at": "2026-11-09T13:31:34Z",
       "created_at": "2026-09-18T08:51:34Z",
       "license": "MIT",
@@ -11077,6 +11147,39 @@
       ],
       "gained": null,
       "rank": 95
+    },
+    {
+      "full_name": "patch-gg/pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code-plugin",
+        "gamedev",
+        "pixel-art",
+        "sprite-sheet",
+        "vfx"
+      ],
+      "stars": 6810,
+      "pushed_at": "2026-11-09T09:51:43Z",
+      "created_at": "2026-10-30T06:43:25Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "pixelfx",
+          "path": "skills/pixelfx/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 96
     },
     {
       "full_name": "larashero3-dotcom/lieflat-charts",
@@ -11110,39 +11213,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 96
-    },
-    {
-      "full_name": "patch-gg/pixelfx",
-      "url": "https://github.com/patch-gg/pixelfx",
-      "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "animation",
-        "canvas",
-        "claude-code-plugin",
-        "gamedev",
-        "pixel-art",
-        "sprite-sheet",
-        "vfx"
-      ],
-      "stars": 6801,
-      "pushed_at": "2026-11-09T09:51:43Z",
-      "created_at": "2026-10-30T06:43:25Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "pixelfx",
-          "path": "skills/pixelfx/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 97
     },
     {
@@ -11157,7 +11227,7 @@
         "day-trading",
         "stock-market"
       ],
-      "stars": 6772,
+      "stars": 6777,
       "pushed_at": "2026-10-20T14:18:00Z",
       "created_at": "2026-10-20T14:17:54Z",
       "license": "MIT",
@@ -11234,7 +11304,7 @@
         "skills",
         "video"
       ],
-      "stars": 6710,
+      "stars": 6712,
       "pushed_at": "2026-11-10T01:40:26Z",
       "created_at": "2026-10-06T04:49:37Z",
       "license": "MIT",
@@ -11277,7 +11347,7 @@
         "video-generation",
         "vlm"
       ],
-      "stars": 6679,
+      "stars": 6710,
       "pushed_at": "2026-11-11T07:04:18Z",
       "created_at": "2026-10-29T16:15:01Z",
       "license": "Apache-2.0",
@@ -11311,7 +11381,7 @@
         "logo-design",
         "svg"
       ],
-      "stars": 6555,
+      "stars": 6560,
       "pushed_at": "2026-11-06T07:40:27Z",
       "created_at": "2026-09-26T08:23:34Z",
       "license": "MIT",
@@ -11385,7 +11455,7 @@
         "translationese",
         "writing"
       ],
-      "stars": 6508,
+      "stars": 6509,
       "pushed_at": "2026-10-12T09:57:11Z",
       "created_at": "2026-04-24T12:48:40Z",
       "license": "MIT",
@@ -11457,7 +11527,7 @@
         "webgpu"
       ],
       "stars": 6499,
-      "pushed_at": "2026-11-11T07:39:07Z",
+      "pushed_at": "2026-11-11T08:01:29Z",
       "created_at": "2011-04-11T07:03:14Z",
       "license": "MIT",
       "default_branch": "master",
@@ -12119,7 +12189,7 @@
         "llm",
         "ste100"
       ],
-      "stars": 6225,
+      "stars": 6226,
       "pushed_at": "2026-11-10T10:33:12Z",
       "created_at": "2026-10-02T09:57:40Z",
       "license": "MIT",
@@ -12468,7 +12538,7 @@
         "skills"
       ],
       "stars": 6064,
-      "pushed_at": "2026-11-10T05:56:14Z",
+      "pushed_at": "2026-11-11T08:13:27Z",
       "created_at": "2026-01-28T05:59:03Z",
       "license": "MIT",
       "default_branch": "main",
@@ -12570,7 +12640,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 5908,
+      "stars": 5914,
       "pushed_at": "2026-11-11T07:50:25Z",
       "created_at": "2026-02-03T22:51:09Z",
       "license": "MIT",
@@ -12900,7 +12970,7 @@
         "paper-writing",
         "prompt"
       ],
-      "stars": 5757,
+      "stars": 5760,
       "pushed_at": "2026-10-27T13:01:00Z",
       "created_at": "2026-08-11T18:02:07Z",
       "license": "MIT",
@@ -12935,7 +13005,7 @@
         "pixel-art",
         "sprite-generator"
       ],
-      "stars": 5524,
+      "stars": 5526,
       "pushed_at": "2026-11-06T18:20:34Z",
       "created_at": "2026-04-23T20:52:52Z",
       "license": "MIT",
@@ -13195,7 +13265,7 @@
         "scientific-research"
       ],
       "stars": 5513,
-      "pushed_at": "2026-11-11T07:31:55Z",
+      "pushed_at": "2026-11-11T08:24:43Z",
       "created_at": "2026-07-03T02:50:10Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -13592,7 +13662,7 @@
         "skills",
         "ui-design"
       ],
-      "stars": 5070,
+      "stars": 5071,
       "pushed_at": "2026-09-06T09:01:39Z",
       "created_at": "2026-08-13T07:19:54Z",
       "license": "MIT",
@@ -13643,8 +13713,8 @@
         "video-editing",
         "whisper"
       ],
-      "stars": 5041,
-      "pushed_at": "2026-11-11T07:47:14Z",
+      "stars": 5044,
+      "pushed_at": "2026-11-11T08:23:33Z",
       "created_at": "2026-09-03T14:33:38Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13751,7 +13821,7 @@
         "tailwind",
         "web-scraping"
       ],
-      "stars": 5030,
+      "stars": 5031,
       "pushed_at": "2026-11-05T08:50:20Z",
       "created_at": "2026-04-15T10:11:22Z",
       "license": "MIT",
@@ -13891,7 +13961,7 @@
         "social-science",
         "sociology"
       ],
-      "stars": 4994,
+      "stars": 4995,
       "pushed_at": "2026-11-09T13:27:49Z",
       "created_at": "2026-04-03T06:31:20Z",
       "license": "NOASSERTION",
@@ -14085,7 +14155,7 @@
         "typography",
         "web-design"
       ],
-      "stars": 4903,
+      "stars": 4905,
       "pushed_at": "2026-09-30T13:31:42Z",
       "created_at": "2026-08-22T15:25:08Z",
       "license": "MIT",
@@ -14131,7 +14201,7 @@
         "vision",
         "vision-transformer"
       ],
-      "stars": 4899,
+      "stars": 4900,
       "pushed_at": "2026-11-07T16:37:02Z",
       "created_at": "2026-02-22T07:12:00Z",
       "license": "MIT",
@@ -14563,7 +14633,7 @@
         "social-media",
         "social-media-management"
       ],
-      "stars": 4583,
+      "stars": 4584,
       "pushed_at": "2026-11-09T08:42:34Z",
       "created_at": "2026-08-28T02:22:27Z",
       "license": "Apache-2.0",
@@ -14796,7 +14866,7 @@
         "creative-writing",
         "writing-skill"
       ],
-      "stars": 4530,
+      "stars": 4531,
       "pushed_at": "2026-11-08T08:59:26Z",
       "created_at": "2026-08-05T01:19:41Z",
       "license": "MIT",
@@ -14825,7 +14895,7 @@
         "pose-control",
         "qwen-image"
       ],
-      "stars": 4325,
+      "stars": 4326,
       "pushed_at": "2026-10-26T16:43:07Z",
       "created_at": "2026-10-13T03:09:42Z",
       "license": "Apache-2.0",
@@ -14865,7 +14935,7 @@
         "wechat",
         "weixin"
       ],
-      "stars": 4325,
+      "stars": 4326,
       "pushed_at": "2026-10-21T03:53:41Z",
       "created_at": "2026-07-01T04:28:03Z",
       "license": "NOASSERTION",
@@ -15341,7 +15411,7 @@
         "video-prompts",
         "zenstory"
       ],
-      "stars": 4084,
+      "stars": 4086,
       "pushed_at": "2026-11-10T12:23:14Z",
       "created_at": "2026-07-16T16:11:19Z",
       "license": "MIT",
@@ -15423,7 +15493,7 @@
         "prototyping",
         "skills"
       ],
-      "stars": 4083,
+      "stars": 4085,
       "pushed_at": "2026-10-31T19:25:06Z",
       "created_at": "2026-06-09T23:24:51Z",
       "license": "MIT",
@@ -15538,7 +15608,7 @@
         "yaml"
       ],
       "stars": 4056,
-      "pushed_at": "2026-11-11T07:50:41Z",
+      "pushed_at": "2026-11-11T08:04:02Z",
       "created_at": "2019-05-29T08:01:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -15651,7 +15721,7 @@
         "pstack-claude",
         "skills"
       ],
-      "stars": 3952,
+      "stars": 3953,
       "pushed_at": "2026-11-10T12:35:59Z",
       "created_at": "2026-05-27T02:30:34Z",
       "license": "MIT",
@@ -16299,7 +16369,7 @@
         "vibecoding",
         "workflow-automation"
       ],
-      "stars": 3813,
+      "stars": 3814,
       "pushed_at": "2026-11-09T07:33:42Z",
       "created_at": "2026-02-22T13:51:44Z",
       "license": "Apache-2.0",
@@ -16496,7 +16566,7 @@
         "scope-control",
         "yagni"
       ],
-      "stars": 3804,
+      "stars": 3805,
       "pushed_at": "2026-11-10T05:55:32Z",
       "created_at": "2026-08-11T15:31:45Z",
       "license": "MIT",
@@ -16596,7 +16666,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 3774,
+      "stars": 3776,
       "pushed_at": "2026-11-03T05:53:57Z",
       "created_at": "2026-08-28T05:56:49Z",
       "license": "MIT",
@@ -16918,8 +16988,8 @@
         "plugin-marketplace",
         "subagents"
       ],
-      "stars": 3738,
-      "pushed_at": "2026-11-09T23:36:40Z",
+      "stars": 3739,
+      "pushed_at": "2026-11-11T08:12:19Z",
       "created_at": "2025-07-25T02:26:45Z",
       "license": "MIT",
       "default_branch": "main",
@@ -17312,7 +17382,7 @@
         "opencode",
         "security"
       ],
-      "stars": 3678,
+      "stars": 3679,
       "pushed_at": "2026-11-10T23:59:05Z",
       "created_at": "2026-02-01T23:49:52Z",
       "license": "MIT",
@@ -17505,7 +17575,7 @@
         "video-generation",
         "zbrush"
       ],
-      "stars": 3665,
+      "stars": 3667,
       "pushed_at": "2026-11-10T19:24:17Z",
       "created_at": "2026-08-12T10:08:49Z",
       "license": "MIT",
@@ -17977,7 +18047,7 @@
         "openmuse",
         "personal-agent"
       ],
-      "stars": 3400,
+      "stars": 3401,
       "pushed_at": "2026-11-11T03:23:08Z",
       "created_at": "2026-09-23T06:13:06Z",
       "license": "GPL-3.0",
@@ -18273,7 +18343,7 @@
         "typescript",
         "video-generation"
       ],
-      "stars": 3213,
+      "stars": 3214,
       "pushed_at": "2026-11-09T15:26:15Z",
       "created_at": "2026-09-08T17:19:54Z",
       "license": "NOASSERTION",
@@ -18636,7 +18706,7 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3146,
+      "stars": 3150,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
@@ -18709,7 +18779,7 @@
         "ui-design",
         "ux-design"
       ],
-      "stars": 3126,
+      "stars": 3127,
       "pushed_at": "2026-11-11T04:56:08Z",
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
@@ -18755,7 +18825,7 @@
         "seo",
         "social-media-marketing"
       ],
-      "stars": 3123,
+      "stars": 3124,
       "pushed_at": "2026-11-11T04:18:06Z",
       "created_at": "2025-12-18T03:35:29Z",
       "license": "Apache-2.0",
@@ -19167,7 +19237,7 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 2998,
+      "stars": 3002,
       "pushed_at": "2026-11-10T20:14:36Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
@@ -19788,7 +19858,7 @@
         "video-generation",
         "vox"
       ],
-      "stars": 2763,
+      "stars": 2764,
       "pushed_at": "2026-10-05T16:15:11Z",
       "created_at": "2026-07-10T15:32:05Z",
       "license": "MIT",
@@ -19821,7 +19891,7 @@
         "skill-engineering",
         "workflow-automation"
       ],
-      "stars": 2729,
+      "stars": 2730,
       "pushed_at": "2026-11-09T13:15:28Z",
       "created_at": "2026-03-31T11:59:35Z",
       "license": "MIT",
@@ -19847,7 +19917,7 @@
         "agent-skills",
         "security"
       ],
-      "stars": 2718,
+      "stars": 2719,
       "pushed_at": "2026-11-10T12:31:45Z",
       "created_at": "2026-01-29T01:31:32Z",
       "license": "NOASSERTION",
@@ -20038,7 +20108,7 @@
         "open-source",
         "seo"
       ],
-      "stars": 2709,
+      "stars": 2710,
       "pushed_at": "2026-11-03T00:20:12Z",
       "created_at": "2026-02-17T22:40:44Z",
       "license": "MIT",
@@ -20207,7 +20277,7 @@
         "skillsmp",
         "ux"
       ],
-      "stars": 2665,
+      "stars": 2666,
       "pushed_at": "2026-11-02T14:12:55Z",
       "created_at": "2026-01-29T13:54:15Z",
       "license": "MIT",
@@ -20449,7 +20519,7 @@
         "skills",
         "video"
       ],
-      "stars": 2620,
+      "stars": 2623,
       "pushed_at": "2026-11-10T00:15:11Z",
       "created_at": "2026-10-18T12:19:27Z",
       "license": "MIT",
@@ -20671,7 +20741,7 @@
         "writing"
       ],
       "stars": 2580,
-      "pushed_at": "2026-11-10T12:07:17Z",
+      "pushed_at": "2026-11-11T08:22:34Z",
       "created_at": "2026-03-22T17:22:11Z",
       "license": "MIT",
       "default_branch": "main",
@@ -20828,7 +20898,7 @@
         "video-production",
         "youtube-shorts"
       ],
-      "stars": 2513,
+      "stars": 2514,
       "pushed_at": "2026-11-10T12:46:42Z",
       "created_at": "2025-12-09T20:33:03Z",
       "license": "MIT",
@@ -20932,8 +21002,8 @@
         "text-to-video",
         "video-generation"
       ],
-      "stars": 2507,
-      "pushed_at": "2026-11-10T22:05:40Z",
+      "stars": 2508,
+      "pushed_at": "2026-11-11T07:57:36Z",
       "created_at": "2026-08-26T16:23:56Z",
       "license": "MIT",
       "default_branch": "main",
@@ -21104,7 +21174,7 @@
         "game-development",
         "mcp"
       ],
-      "stars": 2455,
+      "stars": 2457,
       "pushed_at": "2026-11-06T08:42:41Z",
       "created_at": "2026-07-05T08:36:06Z",
       "license": "MIT",
@@ -21632,7 +21702,7 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2334,
+      "stars": 2335,
       "pushed_at": "2026-11-10T23:53:26Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
@@ -21765,7 +21835,7 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2271,
+      "stars": 2302,
       "pushed_at": "2026-11-09T06:00:33Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
@@ -21803,7 +21873,7 @@
         "talking-head",
         "video-production"
       ],
-      "stars": 2263,
+      "stars": 2264,
       "pushed_at": "2026-11-09T02:29:30Z",
       "created_at": "2026-08-22T17:11:05Z",
       "license": "NOASSERTION",
@@ -21841,7 +21911,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 2256,
+      "stars": 2257,
       "pushed_at": "2026-11-09T07:38:53Z",
       "created_at": "2026-01-24T01:11:07Z",
       "license": "MIT",
@@ -22189,7 +22259,7 @@
         "kotlin",
         "kotlin-multiplatform"
       ],
-      "stars": 2212,
+      "stars": 2213,
       "pushed_at": "2026-10-29T04:27:53Z",
       "created_at": "2026-08-20T08:46:15Z",
       "license": "GPL-3.0",
@@ -22473,7 +22543,7 @@
         "vertical-drama",
         "workbuddy"
       ],
-      "stars": 2180,
+      "stars": 2183,
       "pushed_at": "2026-11-03T22:32:47Z",
       "created_at": "2026-10-13T20:35:18Z",
       "license": "CC0-1.0",
@@ -22756,7 +22826,7 @@
         "wgpu",
         "windows"
       ],
-      "stars": 2038,
+      "stars": 2041,
       "pushed_at": "2026-11-11T06:05:06Z",
       "created_at": "2026-10-18T18:08:48Z",
       "license": "NOASSERTION",
@@ -23027,7 +23097,7 @@
         "claude-skills",
         "codex-skill"
       ],
-      "stars": 1949,
+      "stars": 1950,
       "pushed_at": "2026-11-11T00:51:25Z",
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
@@ -23452,7 +23522,7 @@
         "opc",
         "seo"
       ],
-      "stars": 1903,
+      "stars": 1902,
       "pushed_at": "2026-11-10T14:36:35Z",
       "created_at": "2026-01-17T06:43:21Z",
       "license": "Apache-2.0",
@@ -23695,7 +23765,7 @@
         "editing",
         "writing"
       ],
-      "stars": 1847,
+      "stars": 1848,
       "pushed_at": "2026-10-17T14:11:48Z",
       "created_at": "2026-06-23T03:07:25Z",
       "license": "MIT",
@@ -24225,7 +24295,7 @@
         "subtitles",
         "transcription"
       ],
-      "stars": 1741,
+      "stars": 1742,
       "pushed_at": "2026-11-11T07:05:06Z",
       "created_at": "2026-07-13T07:06:42Z",
       "license": "NOASSERTION",
@@ -24379,7 +24449,7 @@
         "wayback-machine",
         "web-archiving"
       ],
-      "stars": 1728,
+      "stars": 1729,
       "pushed_at": "2026-10-12T09:30:09Z",
       "created_at": "2026-08-11T03:50:30Z",
       "license": "MIT",
@@ -24531,7 +24601,7 @@
         "research-workflow",
         "stata"
       ],
-      "stars": 1697,
+      "stars": 1698,
       "pushed_at": "2026-11-07T21:42:50Z",
       "created_at": "2026-02-06T17:29:50Z",
       "license": "MIT",
@@ -25015,7 +25085,7 @@
         "investing",
         "stock-market"
       ],
-      "stars": 1656,
+      "stars": 1657,
       "pushed_at": "2026-10-14T21:13:22Z",
       "created_at": "2026-10-14T21:12:28Z",
       "license": "MIT",
@@ -25560,7 +25630,7 @@
         "procedural-generation",
         "skill"
       ],
-      "stars": 1610,
+      "stars": 1612,
       "pushed_at": "2026-11-05T20:35:49Z",
       "created_at": "2026-09-22T11:20:47Z",
       "license": "Apache-2.0",
@@ -25950,7 +26020,7 @@
         "test-quality"
       ],
       "stars": 1572,
-      "pushed_at": "2026-11-11T07:05:14Z",
+      "pushed_at": "2026-11-11T08:02:20Z",
       "created_at": "2026-03-26T11:40:33Z",
       "license": "MIT",
       "default_branch": "main",
@@ -26210,7 +26280,7 @@
         "scorm",
         "text-to-video"
       ],
-      "stars": 1555,
+      "stars": 1556,
       "pushed_at": "2026-11-10T14:00:57Z",
       "created_at": "2026-10-03T01:38:22Z",
       "license": "MIT",
@@ -26242,7 +26312,7 @@
         "motion",
         "playwright"
       ],
-      "stars": 1544,
+      "stars": 1545,
       "pushed_at": "2026-10-31T12:49:35Z",
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
@@ -26521,7 +26591,7 @@
         "motionmaxxing",
         "video"
       ],
-      "stars": 1523,
+      "stars": 1524,
       "pushed_at": "2026-10-06T18:20:43Z",
       "created_at": "2026-10-06T18:18:49Z",
       "license": "Apache-2.0",
@@ -26638,7 +26708,7 @@
         "software-engineering",
         "spec-driven-development"
       ],
-      "stars": 1477,
+      "stars": 1478,
       "pushed_at": "2026-11-10T21:13:57Z",
       "created_at": "2026-07-02T10:24:16Z",
       "license": "MIT",
@@ -26832,7 +26902,7 @@
         "supabase",
         "vercel"
       ],
-      "stars": 1475,
+      "stars": 1476,
       "pushed_at": "2026-10-11T21:04:01Z",
       "created_at": "2026-09-23T13:37:26Z",
       "license": "MIT",
