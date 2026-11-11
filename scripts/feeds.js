@@ -80,6 +80,8 @@ ${weeks.slice(0, FEED_WEEKS).map(feedItem).join('\n')}
     if (rising) writeJson(path.join(pub, 'api', 'rising.json'), rising);
     const issues = readJson(path.join(config.paths.data, 'issues.json'));
     if (issues) writeJson(path.join(pub, 'api', 'issues.json'), issues);
+    const skills = readJson(path.join(config.paths.data, 'skills.json'));
+    if (skills) writeJson(path.join(pub, 'api', 'skills.json'), skills);
     fs.mkdirSync(pub, { recursive: true });
     fs.writeFileSync(path.join(pub, 'feed.xml'), feed, 'utf8');
   }

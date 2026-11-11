@@ -41,6 +41,7 @@ npm run snapshot         # run daily; rank needs 7 snapshots, or a bootstrap fil
 npm run build:data       # rank, summarize, star check, feeds, avatars
 npm run rising           # the daily breakouts (needs 5 daily snapshots)
 npm run issues           # open good-first-issue tickets for the Contribute page (daily)
+npm run skills           # the best skill repositories for the Skills page (daily, optional AI summaries)
 npm test                 # unit tests
 npm run guide            # optional: the weekly "Learn from this repo" guide
 npm run validate
@@ -68,7 +69,7 @@ The daily workflow collects and snapshots at 02:00 UTC. The weekly workflow runs
 
 ## Pages
 
-Home (this week), `/rising/` (repos speeding up, updated daily), `/contribute/` (open tickets matched to your skills, in your browser), `/weeks/` archive and one page per week, `/repo/owner/name/` with a star-history chart, `/language/<name>/`, `/compare/`, `/health/` ("Dead or alive?"), `/about/`, `/api-docs/`, `/feed.xml` and the JSON files under `/api/`.
+Home (this week), `/rising/` (repos speeding up, updated daily), `/contribute/` (open tickets matched to your skills, in your browser), `/skills/` (the best agent skill repositories, with a finder), `/weeks/` archive and one page per week, `/repo/owner/name/` with a star-history chart, `/language/<name>/`, `/compare/`, `/health/` ("Dead or alive?"), `/about/`, `/api-docs/`, `/feed.xml` and the JSON files under `/api/`.
 
 ## Browser extension
 

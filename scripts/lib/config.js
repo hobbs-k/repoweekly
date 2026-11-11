@@ -46,6 +46,11 @@ export const config = {
     gemMinGain: 40,
   },
   rising: { minGain: 50, accelerate: 2, count: 10 },
+  skills: {
+    topics: ['agent-skills', 'claude-skills', 'claude-code-skills', 'agent-skill', 'claude-skill'],
+    pages: 3, minStars: 50, pushedDays: 90, maxRepos: 300, maxSkillsListed: 40,
+    gainDays: 30, minSpanDays: 3, detailRepos: 30, detailSkills: 12, summaryRepos: 10, searchDelayMs: 2500,
+  },
   issues: {
     labels: ['good first issue', 'help wanted'], perRepo: 15, maxRepos: 150, maxAgeDays: 180,
     // Small, active repos with beginner tickets, found by GitHub's repo search for each language.

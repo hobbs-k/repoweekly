@@ -1,0 +1,57 @@
+---
+import { fmt, fmtDate } from '../lib/format.js';
+
+// One skill repository in the top ten. Same window look as RepoEntry.
+const { item, mode, span } = Astro.props;
+const [owner, name] = item.full_name.split('/');
+const shown = item.skills.slice(0, 8);
+const agentLabel = { claude: 'Claude', codex: 'Codex', cursor: 'Cursor', gemini: 'Gemini', copilot: 'Copilot', windsurf: 'Windsurf', opencode: 'OpenCode' };
+---
+
+<li class="entry skill-entry">
+  <div class="titlebar" aria-hidden="true"><span>skill-{String(item.rank).padStart(2, '0')}.log</span><span class="winbtn">_ □ ×</span></div>
+  <span class="rank" aria-hidden="true">{item.rank}</span>
+
+  <div class="entry-head">
+    <h3 class="entry-name">
+      <a href={item.url} rel="noopener"><span class="owner">{owner}/</span>{name}</a>
+    </h3>
+  </div>
+
+  <div class="entry-body">
+    {item.summary ? (
+      <div class="read">
+        <p><span class="run">What it is</span>{item.summary.what_it_is}</p>
+        <p><span class="run">Who it is for</span>{item.summary.who_its_for}</p>
+      </div>
+    ) : item.description && <p class="entry-desc">{item.description}</p>}
+
+    <details class="skill-list">
+      <summary>{fmt(item.skill_count)} {item.skill_count === 1 ? 'skill' : 'skills'} inside</summary>
+      <ul>
+        {shown.map((s) => (
+          <li><code>{s.name}</code>{s.description && <span> {s.description}</span>}</li>
+        ))}
+      </ul>
+      {item.skill_count > shown.length && <p class="muted">And {fmt(item.skill_count - shown.length)} more in the repository.</p>}
+    </details>
+
+    <ul class="meta">
+      {item.agents.map((a) => <li>{agentLabel[a] ?? a}</li>)}
+      {item.language && <li>{item.language}</li>}
+      {item.license && <li>{item.license}</li>}
+    </ul>
+    {item.agents.length > 0 && <p class="muted agents-note">Agents are guessed from the repository's name, description and topics. Check the README before you rely on them.</p>}
+  </div>
+
+  <div class="figs">
+    {mode === 'gain' && item.gained != null
+      ? <p class="week-only"><strong>+{fmt(item.gained)}</strong> stars in {span} days</p>
+      : <p class="week-only"><strong>{fmt(item.stars)}</strong> stars in total</p>}
+    <dl class="signals">
+      <div><dt>Total stars</dt><dd>{fmt(item.stars)}</dd></div>
+      <div><dt>Last push</dt><dd>{fmtDate(item.pushed_at.slice(0, 10))}</dd></div>
+      <div><dt>Skills</dt><dd>{fmt(item.skill_count)}</dd></div>
+    </dl>
+  </div>
+</li>

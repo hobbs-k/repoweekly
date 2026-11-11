@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SkillEntry from '../components/SkillEntry.astro';
+import { loadSkills } from '../lib/data.js';
+import { href } from '../lib/format.js';
+
+const data = loadSkills();
+const top = data?.repos.slice(0, 10) ?? [];
+const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
+---
+
+<Layout title="The best AI agent skills on GitHub | RepoWeekly" description="The most popular skill repositories for Claude, Codex, Cursor and other AI coding agents, ranked by stars gained, with a finder for the skill you need." current="skills">
+  <div class="wrap">
+    <section class="intro">
+      <p class="prompt" aria-hidden="true"><span>$</span> repoweekly skills --top 10</p>
+      <h1>The best skills for AI coding agents</h1>
+      <p class="lede">A skill is a folder with a <code>SKILL.md</code> file that teaches an AI coding agent how to do one task well. These are the skill repositories on GitHub that people are starring the most.</p>
+      {data && data.mode === 'gain' && <p class="lede-soft">Ranked by stars gained in the last {data.span_days} days. As of {asOf}. Updated daily.</p>}
+      {data && data.mode !== 'gain' && <p class="lede-soft">Ranked by total stars for now. {data.span_days === 0 ? 'We only have today's numbers so far.' : `We have ${data.span_days} ${data.span_days === 1 ? 'day' : 'days'} of history so far.`} Once we have a few days the list switches to stars gained, and the full 30-day view fills in over the month. As of {asOf}.</p>}
+      <p class="notice"><strong>Read before you install.</strong> A skill can run commands and change files on your computer. Read the skill first, and only use ones you trust.</p>
+    </section>
+
+    {top.length > 0 ? (
+      <ol class="entries" aria-label="Top skill repositories">
+        {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} />)}
+      </ol>
+    ) : (
+      <p class="notice">The first skills list appears after the next daily run.</p>
+    )}
+
+    {data && (
+      <section aria-labelledby="find-title">
+        <div class="section-head" id="find">
+          <h2 id="find-title">Find a skill</h2>
+          <p>Search all {data.repos.length} skill repositories we track by what you need, such as <em>pdf</em>, <em>testing</em> or <em>security</em>. The search runs in your browser.</p>
+        </div>
+        <form class="skills-form skill-finder" data-src={href('/api/skills.json')} hidden>
+          <label class="skills-field">What do you need?
+            <input type="text" name="q" autocomplete="off" placeholder="pdf, security audit, react" />
+          </label>
+          <div class="chips" role="group" aria-label="Agents"></div>
+        </form>
+        <p class="issues-status muted" role="status"></p>
+        <ol class="issues skill-results" hidden></ol>
+        <p><button type="button" class="more" hidden>Show more</button></p>
+        <noscript><p>The search needs JavaScript. <a href={href('/api/skills.json')}>The same list is in this JSON file.</a></p></noscript>
+      </section>
+    )}
+
+    <h2 class="plain-h">How this list is made</h2>
+    <div class="page-text">
+      <p>Every day we search GitHub for repositories tagged with skill topics, then read each one's file list and keep only those that really contain <code>SKILL.md</code> files. Stars belong to the whole repository, so the ranking is by repository. Inside each one we list the skills it holds.</p>
+      <p>The summaries are written by an AI from each README, so check the repository before you rely on them. The agent names (Claude, Codex, Cursor and so on) are guessed from the repository's name, description and topics, not tested.</p>
+    </div>
+  </div>
+  <script slot="scripts" is:inline defer src={href('/js/skills.js')}></script>
+</Layout>

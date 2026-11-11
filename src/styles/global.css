@@ -122,7 +122,7 @@ a:hover { color: var(--mark); text-decoration-color: var(--mark); }
 }
 .nav a:hover { color: var(--on-phos); text-decoration: underline; text-decoration-color: var(--on-phos); text-underline-offset: 0.3em; }
 .fkey { opacity: 0.6; font-weight: 500; }
-@media (max-width: 39.99rem) { .fkey { display: none; } .nav a { margin-right: 0.5rem; padding-right: 0; font-size: 0.6875rem; letter-spacing: 0.02em; } .nav a[aria-current='page'] { padding-inline: 0.5rem; margin-left: -0.5rem; } }
+@media (max-width: 39.99rem) { .fkey { display: none; } .nav ul { display: grid; grid-template-columns: repeat(3, 1fr); } .nav a { display: block; margin-right: 0; padding: 0.6rem 0.5rem; font-size: 0.75rem; letter-spacing: 0.03em; } .nav a[aria-current='page'] { padding-inline: 0.5rem; margin-left: 0; } }
 .nav a[aria-current='page'] { background: var(--on-phos); color: var(--phos); padding-left: 0.75rem; margin-left: -0.25rem; }
 .nav a[aria-current='page'] .fkey { opacity: 0.8; }
 
@@ -409,3 +409,19 @@ li::marker { color: var(--phos); }
 .issue-meta { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); }
 .issue .meta { margin-top: 0.6rem; }
 .issue-why { margin-top: 0.5rem; font-family: var(--mono); font-size: 0.75rem; font-weight: 700; color: var(--mark); }
+
+/* Skills page. */
+.skill-list { margin: 0 0 0.6rem; max-width: var(--measure); }
+.skill-list summary { cursor: pointer; display: flex; align-items: center; gap: 0.6rem; min-height: 2.75rem; list-style: none; font-family: var(--mono); font-weight: 700; font-size: 0.6875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--phos); }
+.skill-list summary::-webkit-details-marker { display: none; }
+.skill-list summary::before { content: ''; flex: none; width: 0.4rem; height: 0.4rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); }
+.skill-list[open] summary::before { transform: translateY(-2px) rotate(45deg); }
+.skill-list summary:hover { color: var(--mark); }
+.skill-list ul { margin: 0.25rem 0 0.5rem; padding: 0; list-style: none; }
+.skill-list li { margin: 0 0 0.45rem; padding-left: 0.9rem; border-left: 2px solid var(--frame); font-size: 0.9375rem; }
+.skill-list code { margin-right: 0.4rem; }
+.agents-note { font-size: 0.8125rem; margin: 0.5rem 0 0; }
+.skill-finder { margin-top: 1.25rem; }
+.plain-h { margin: 3rem 0 0.5rem; font-family: var(--mono); font-weight: 800; font-size: 1.25rem; letter-spacing: 0.02em; text-transform: uppercase; color: var(--phos); }
+.plain-h::before { content: '## '; color: var(--ink-soft); }
+.page-text p { max-width: var(--measure); margin: 0 0 0.9rem; }

@@ -42,6 +42,13 @@ jobs:
       - name: Collect open issues
         run: npm run issues
         continue-on-error: true
+      # The Skills page. It makes AI summaries for the top ten, so it needs the AI key and it is
+      # a bonus too: a failure here does not stop the snapshot.
+      - name: Find the best skills
+        run: npm run skills
+        continue-on-error: true
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.NVIDIA_API_KEY }}
       - name: Commit data
         run: |
           git config user.name "repoweekly-bot"
