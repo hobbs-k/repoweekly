@@ -425,3 +425,14 @@ li::marker { color: var(--phos); }
 .plain-h { margin: 3rem 0 0.5rem; font-family: var(--mono); font-weight: 800; font-size: 1.25rem; letter-spacing: 0.02em; text-transform: uppercase; color: var(--phos); }
 .plain-h::before { content: '## '; color: var(--ink-soft); }
 .page-text p { max-width: var(--measure); margin: 0 0 0.9rem; }
+
+/* Terminal page. */
+.term { max-width: 52rem; margin: 1.25rem 0 2rem; background: var(--panel); border: 2px solid var(--frame); box-shadow: 4px 4px 0 var(--shadow); font-family: var(--mono); font-size: 0.875rem; }
+.term:focus-within { border-color: var(--phos); }
+.term-out { height: 24rem; overflow-y: auto; padding: 0.9rem 1.1rem 0; }
+.term-out p { margin: 0 0 0.15rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+.term-cmd { color: var(--phos); margin-top: 0.6rem !important; }
+.term-form { display: flex; align-items: center; gap: 0.6rem; padding: 0.5rem 1.1rem 0.9rem; }
+.term-ps { color: var(--phos); font-weight: 700; }
+.term-form input { flex: 1; min-width: 0; min-height: 2.75rem; background: transparent; border: 0; border-bottom: 2px solid var(--frame); color: var(--ink); font: inherit; }
+.term-form input:focus { outline: none; border-bottom-color: var(--phos); }

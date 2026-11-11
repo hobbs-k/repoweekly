@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/format.js';
+---
+
+<Layout title="Terminal | RepoWeekly" description="Explore the weekly GitHub rankings, rising repos and agent skills with simple commands, right in your browser." current="terminal">
+  <div class="wrap page">
+    <p class="prompt" aria-hidden="true"><span>$</span> repoweekly terminal</p>
+    <h1>Terminal</h1>
+    <p>Ask the data questions with short commands. Type <code>help</code> to see them. It runs in your browser and nothing you type is sent anywhere.</p>
+    <div class="term" data-src={href('/api')} hidden>
+      <div class="term-out" role="log" aria-live="polite"></div>
+      <form class="term-form"><label for="term-in" class="term-ps">$</label><input id="term-in" name="cmd" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Command" /></form>
+    </div>
+    <noscript><p>The terminal needs JavaScript. <a href={href('/api-docs/')}>The same data is available as JSON files.</a></p></noscript>
+  </div>
+  <script slot="scripts" is:inline defer src={href('/js/terminal.js')}></script>
+</Layout>
