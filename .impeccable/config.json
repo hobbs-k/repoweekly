@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "scripts/og/card.html"
+        ],
+        "createdAt": "2026-11-13T15:55:27.579Z",
+        "reason": "model: title bar is a fixed 44px with 20px text centered (12px above and below), checked in the rendered public/og.png"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "scripts/og/card.html"
+        ],
+        "createdAt": "2026-11-13T15:55:28.738Z",
+        "reason": "model: share card copies the live header's phosphor glow on .brand, part of the retro design in DESIGN.md"
+      }
+    ]
+  }
+}
