@@ -1,6 +1,6 @@
 {
   "morluto/rea": {
-    "pushed_at": "2026-11-12T02:36:57Z",
+    "pushed_at": "2026-11-13T02:00:00Z",
     "count": 6,
     "skills": [
       {
@@ -170,7 +170,7 @@
     "count": 12
   },
   "thedotmack/claude-mem": {
-    "pushed_at": "2026-11-12T01:02:21Z",
+    "pushed_at": "2026-11-13T00:50:34Z",
     "count": 47,
     "skills": [
       {
@@ -452,7 +452,7 @@
     "count": 1
   },
   "paperclipai/paperclip": {
-    "pushed_at": "2026-11-12T02:43:55Z",
+    "pushed_at": "2026-11-13T02:43:15Z",
     "count": 83,
     "skills": [
       {
@@ -618,7 +618,7 @@
     ]
   },
   "pbakaus/impeccable": {
-    "pushed_at": "2026-11-12T02:43:23Z",
+    "pushed_at": "2026-11-12T21:24:14Z",
     "count": 26,
     "skills": [
       {
@@ -728,7 +728,7 @@
     ]
   },
   "nexu-io/open-design": {
-    "pushed_at": "2026-11-12T01:14:12Z",
+    "pushed_at": "2026-11-13T01:09:00Z",
     "count": 562,
     "skills": [
       {
@@ -894,7 +894,7 @@
     ]
   },
   "tt-a1i/archify": {
-    "pushed_at": "2026-11-12T02:31:21Z",
+    "pushed_at": "2026-11-13T01:34:39Z",
     "count": 5,
     "skills": [
       {
@@ -962,7 +962,7 @@
     "count": 9
   },
   "career-ops-hq/career-ops": {
-    "pushed_at": "2026-11-12T02:44:00Z",
+    "pushed_at": "2026-11-13T01:34:39Z",
     "count": 15,
     "skills": [
       {
@@ -1194,7 +1194,7 @@
     "count": 864
   },
   "code-yeongyu/oh-my-openagent": {
-    "pushed_at": "2026-11-12T02:41:46Z",
+    "pushed_at": "2026-11-13T02:39:05Z",
     "count": 61,
     "skills": [
       {
@@ -1360,7 +1360,7 @@
     ]
   },
   "shanraisshan/claude-code-best-practice": {
-    "pushed_at": "2026-11-11T13:17:24Z",
+    "pushed_at": "2026-11-12T16:15:50Z",
     "count": 9,
     "skills": [
       {
@@ -1412,14 +1412,14 @@
     "count": 1
   },
   "cathrynlavery/diagram-design": {
-    "pushed_at": "2026-11-10T22:44:09Z",
+    "pushed_at": "2026-11-12T21:14:19Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/diagram-design/SKILL.md",
         "name": "diagram-design"
       }
-    ],
-    "count": 1
+    ]
   },
   "ayghri/i-have-adhd": {
     "pushed_at": "2026-10-19T19:46:23Z",
@@ -1602,7 +1602,7 @@
     ]
   },
   "hesreallyhim/awesome-claude-code": {
-    "pushed_at": "2026-11-12T00:17:23Z",
+    "pushed_at": "2026-11-13T00:17:00Z",
     "count": 0,
     "skills": []
   },
@@ -1778,7 +1778,7 @@
     "count": 0
   },
   "CherryHQ/cherry-studio": {
-    "pushed_at": "2026-11-12T02:38:25Z",
+    "pushed_at": "2026-11-13T02:34:38Z",
     "count": 41,
     "skills": [
       {
@@ -1944,7 +1944,7 @@
     ]
   },
   "alibaba/open-code-review": {
-    "pushed_at": "2026-11-12T02:18:01Z",
+    "pushed_at": "2026-11-12T11:30:03Z",
     "count": 4,
     "skills": [
       {
@@ -1966,7 +1966,8 @@
     ]
   },
   "sickn33/agentic-awesome-skills": {
-    "pushed_at": "2026-11-11T07:12:14Z",
+    "pushed_at": "2026-11-12T18:58:48Z",
+    "count": 9454,
     "skills": [
       {
         "path": "plugins/aasb-aas-accessibility-inclusive-ux/skills/accesslint-audit/SKILL.md",
@@ -2128,11 +2129,10 @@
         "path": "plugins/aasb-aas-ai-product-evaluation-ops/skills/skill-security-audit/SKILL.md",
         "name": "skill-security-audit"
       }
-    ],
-    "count": 9448
+    ]
   },
   "reactive-resume/reactive-resume": {
-    "pushed_at": "2026-11-11T20:51:59Z",
+    "pushed_at": "2026-11-12T22:46:42Z",
     "count": 34,
     "skills": [
       {
@@ -2440,8 +2440,8 @@
     "count": 185
   },
   "github/awesome-copilot": {
-    "pushed_at": "2026-11-12T00:23:39Z",
-    "count": 479,
+    "pushed_at": "2026-11-13T01:09:39Z",
+    "count": 480,
     "skills": [
       {
         "path": ".github/skills/agentic-workflows/SKILL.md",
@@ -2691,7 +2691,7 @@
     "count": 0
   },
   "davila7/claude-code-templates": {
-    "pushed_at": "2026-11-11T21:30:08Z",
+    "pushed_at": "2026-11-13T02:08:08Z",
     "count": 926,
     "skills": [
       {
@@ -2857,7 +2857,7 @@
     ]
   },
   "topoteretes/cognee": {
-    "pushed_at": "2026-11-12T01:24:34Z",
+    "pushed_at": "2026-11-13T00:23:59Z",
     "count": 27,
     "skills": [
       {
@@ -3137,7 +3137,7 @@
     "count": 95
   },
   "nanocoai/nanoclaw": {
-    "pushed_at": "2026-11-11T18:36:17Z",
+    "pushed_at": "2026-11-13T00:41:19Z",
     "count": 64,
     "skills": [
       {
@@ -3303,7 +3303,8 @@
     ]
   },
   "alirezarezvani/claude-skills": {
-    "pushed_at": "2026-11-11T06:17:50Z",
+    "pushed_at": "2026-11-12T10:35:06Z",
+    "count": 483,
     "skills": [
       {
         "path": ".gemini/skills/changelog/SKILL.md",
@@ -3465,8 +3466,7 @@
         "path": ".gemini/skills/growth-marketer/SKILL.md",
         "name": "growth-marketer"
       }
-    ],
-    "count": 482
+    ]
   },
   "alchaincyf/huashu-design": {
     "pushed_at": "2026-11-10T00:16:14Z",
@@ -3723,7 +3723,8 @@
     "count": 72
   },
   "yikart/AiToEarn": {
-    "pushed_at": "2026-11-11T02:41:02Z",
+    "pushed_at": "2026-11-12T07:35:19Z",
+    "count": 144,
     "skills": [
       {
         "path": "project/aitoearn-backend/.agents/skills/caveman/SKILL.md",
@@ -3885,8 +3886,7 @@
         "path": "skills/claude-plugin-aitoearn/skills/byted-mediakit-cloudedit-basic/SKILL.md",
         "name": "byted-mediakit-cloudedit-basic"
       }
-    ],
-    "count": 144
+    ]
   },
   "JimLiu/baoyu-skills": {
     "pushed_at": "2026-11-06T17:20:33Z",
@@ -4022,7 +4022,7 @@
     "count": 1
   },
   "pascalorg/editor": {
-    "pushed_at": "2026-11-11T20:28:33Z",
+    "pushed_at": "2026-11-12T23:08:51Z",
     "count": 5,
     "skills": [
       {
@@ -4048,7 +4048,7 @@
     ]
   },
   "NVIDIA/SkillSpector": {
-    "pushed_at": "2026-11-11T21:08:13Z",
+    "pushed_at": "2026-11-13T01:25:52Z",
     "count": 33,
     "skills": [
       {
@@ -4186,7 +4186,7 @@
     ]
   },
   "nocobase/nocobase": {
-    "pushed_at": "2026-11-12T02:39:27Z",
+    "pushed_at": "2026-11-13T02:40:31Z",
     "count": 39,
     "skills": [
       {
@@ -4348,7 +4348,7 @@
     ]
   },
   "citrolabs/ego-lite": {
-    "pushed_at": "2026-11-11T12:37:51Z",
+    "pushed_at": "2026-11-12T07:54:19Z",
     "count": 4,
     "skills": [
       {
@@ -4370,7 +4370,7 @@
     ]
   },
   "KKKKhazix/khazix-skills": {
-    "pushed_at": "2026-11-11T17:42:25Z",
+    "pushed_at": "2026-11-12T10:12:21Z",
     "count": 6,
     "skills": [
       {
@@ -4626,37 +4626,9 @@
     ]
   },
   "google/elephant-goldfish-model": {
-    "pushed_at": "2026-11-11T23:57:19Z",
-    "count": 14,
+    "pushed_at": "2026-11-13T02:17:07Z",
+    "count": 7,
     "skills": [
-      {
-        "path": "distributions/claude/skills/egm-bootstrap/SKILL.md",
-        "name": "egm-bootstrap"
-      },
-      {
-        "path": "distributions/claude/skills/egm-brainstorm/SKILL.md",
-        "name": "egm-brainstorm"
-      },
-      {
-        "path": "distributions/claude/skills/egm-draft/SKILL.md",
-        "name": "egm-draft"
-      },
-      {
-        "path": "distributions/claude/skills/egm-drift-report/SKILL.md",
-        "name": "egm-drift-report"
-      },
-      {
-        "path": "distributions/claude/skills/egm-resolve/SKILL.md",
-        "name": "egm-resolve"
-      },
-      {
-        "path": "distributions/claude/skills/egm-review-loop/SKILL.md",
-        "name": "egm-review-loop"
-      },
-      {
-        "path": "distributions/claude/skills/egm-review/SKILL.md",
-        "name": "egm-review"
-      },
       {
         "path": "skills/egm-bootstrap/SKILL.md",
         "name": "egm-bootstrap"
@@ -4836,9 +4808,9 @@
     "count": 16
   },
   "alibaba/zvec": {
-    "pushed_at": "2026-11-11T02:53:39Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-12T09:25:17Z",
+    "count": 0,
+    "skills": []
   },
   "nidhinjs/prompt-master": {
     "pushed_at": "2026-10-22T13:26:18Z",
@@ -4851,7 +4823,7 @@
     "count": 1
   },
   "eigent-ai/eigent": {
-    "pushed_at": "2026-11-11T13:03:36Z",
+    "pushed_at": "2026-11-12T22:14:05Z",
     "count": 6,
     "skills": [
       {
@@ -4991,17 +4963,18 @@
     "count": 26
   },
   "NevaMind-AI/memU": {
-    "pushed_at": "2026-11-10T12:22:11Z",
+    "pushed_at": "2026-11-13T02:16:51Z",
+    "count": 1,
     "skills": [
       {
         "path": "SKILL.md",
         "name": "memU"
       }
-    ],
-    "count": 1
+    ]
   },
   "lemomo-ai/lemo-opuscar": {
-    "pushed_at": "2026-11-10T01:28:42Z",
+    "pushed_at": "2026-11-12T11:29:03Z",
+    "count": 2,
     "skills": [
       {
         "path": "plugin/skills/lemo-opuscar/SKILL.md",
@@ -5011,8 +4984,7 @@
         "path": "tools/directory/SKILL.md",
         "name": "directory"
       }
-    ],
-    "count": 2
+    ]
   },
   "Orchestra-Research/AI-Research-SKILLs": {
     "pushed_at": "2026-10-11T02:56:34Z",
@@ -5529,7 +5501,7 @@
     "count": 24
   },
   "tigerless-labs/autoharness": {
-    "pushed_at": "2026-11-11T13:03:26Z",
+    "pushed_at": "2026-11-12T08:19:16Z",
     "count": 1,
     "skills": [
       {
@@ -6043,8 +6015,8 @@
     ]
   },
   "anbeime/skill": {
-    "pushed_at": "2026-11-12T02:42:12Z",
-    "count": 133,
+    "pushed_at": "2026-11-13T02:10:50Z",
+    "count": 136,
     "skills": [
       {
         "path": "SKILL.md",
@@ -6065,6 +6037,10 @@
       {
         "path": "antinet-agentteams/skills/security-scan/SKILL.md",
         "name": "security-scan"
+      },
+      {
+        "path": "my-skills/07-微信自动化/wechat-auto-sender/SKILL.md",
+        "name": "wechat-auto-sender"
       },
       {
         "path": "projects/companion-simple/SKILL.md",
@@ -6183,6 +6159,10 @@
         "name": "cy-carousel-skill"
       },
       {
+        "path": "skills/data-flow-skill/data-flow-skill/SKILL.md",
+        "name": "data-flow-skill"
+      },
+      {
         "path": "skills/data-storytelling/data-storytelling/SKILL.md",
         "name": "data-storytelling"
       },
@@ -6197,14 +6177,6 @@
       {
         "path": "skills/dream-video-prompt-generator/dream-video-prompt-generator/SKILL.md",
         "name": "dream-video-prompt-generator"
-      },
-      {
-        "path": "skills/ecommerce-copywriter/ecommerce-copywriter/SKILL.md",
-        "name": "ecommerce-copywriter"
-      },
-      {
-        "path": "skills/ecommerce-full-pipeline/ecommerce-full-pipeline/SKILL.md",
-        "name": "ecommerce-full-pipeline"
       }
     ]
   },
@@ -6247,7 +6219,7 @@
     "count": 8
   },
   "miqdadbadjuber/anti-slop": {
-    "pushed_at": "2026-11-11T12:36:17Z",
+    "pushed_at": "2026-11-12T12:57:00Z",
     "count": 6,
     "skills": [
       {
@@ -6327,8 +6299,8 @@
     "count": 11
   },
   "mvschwarz/openrig": {
-    "pushed_at": "2026-11-12T02:38:12Z",
-    "count": 97,
+    "pushed_at": "2026-11-13T02:41:28Z",
+    "count": 98,
     "skills": [
       {
         "path": ".agents/skills/developing-openrig/SKILL.md",
@@ -6493,7 +6465,7 @@
     ]
   },
   "Gentleman-Programming/gentle-ai": {
-    "pushed_at": "2026-11-12T00:25:52Z",
+    "pushed_at": "2026-11-13T01:22:50Z",
     "count": 26,
     "skills": [
       {
@@ -6703,7 +6675,8 @@
     ]
   },
   "zenstory-ai/oh-story-claudecode": {
-    "pushed_at": "2026-11-11T03:19:52Z",
+    "pushed_at": "2026-11-12T17:15:54Z",
+    "count": 14,
     "skills": [
       {
         "path": "skills/browser-cdp/SKILL.md",
@@ -6761,16 +6734,15 @@
         "path": "skills/story/SKILL.md",
         "name": "story"
       }
-    ],
-    "count": 14
+    ]
   },
   "YaoApp/yao": {
-    "pushed_at": "2026-11-11T03:58:48Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-13T02:19:50Z",
+    "count": 0,
+    "skills": []
   },
   "gamedev-skills/awesome-gamedev-agent-skills": {
-    "pushed_at": "2026-11-11T16:39:49Z",
+    "pushed_at": "2026-11-12T07:38:53Z",
     "count": 80,
     "skills": [
       {
@@ -6941,8 +6913,8 @@
     "count": 0
   },
   "JetBrains/thinkrail": {
-    "pushed_at": "2026-11-12T00:00:17Z",
-    "count": 12,
+    "pushed_at": "2026-11-13T00:26:05Z",
+    "count": 13,
     "skills": [
       {
         "path": "packages/pi-thinkrail-workflow/skills/asking-user-questions/SKILL.md",
@@ -6991,12 +6963,16 @@
       {
         "path": "packages/spec-graph/skills/spec-graph/SKILL.md",
         "name": "spec-graph"
+      },
+      {
+        "path": "thinkrail-extensions/web-access/skills/librarian/SKILL.md",
+        "name": "librarian"
       }
     ]
   },
   "trailofbits/skills": {
-    "pushed_at": "2026-11-11T16:35:51Z",
-    "count": 98,
+    "pushed_at": "2026-11-12T17:48:51Z",
+    "count": 99,
     "skills": [
       {
         "path": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md",
@@ -7171,7 +7147,8 @@
     "count": 1
   },
   "deanpeters/Product-Manager-Skills": {
-    "pushed_at": "2026-10-16T01:51:12Z",
+    "pushed_at": "2026-11-12T14:18:51Z",
+    "count": 77,
     "skills": [
       {
         "path": "skills/acquisition-channel-advisor/SKILL.md",
@@ -7333,8 +7310,7 @@
         "path": "skills/opportunity-solution-tree/SKILL.md",
         "name": "opportunity-solution-tree"
       }
-    ],
-    "count": 77
+    ]
   },
   "gosom/google-maps-scraper": {
     "pushed_at": "2026-11-08T10:51:13Z",
@@ -7441,7 +7417,7 @@
     "count": 2
   },
   "Devin-AXIS/iPolloWork": {
-    "pushed_at": "2026-11-11T10:16:36Z",
+    "pushed_at": "2026-11-12T16:03:26Z",
     "count": 109,
     "skills": [
       {
@@ -7969,7 +7945,7 @@
     "count": 1
   },
   "larashero3-dotcom/lieflat-charts": {
-    "pushed_at": "2026-11-11T10:55:46Z",
+    "pushed_at": "2026-11-12T08:29:24Z",
     "count": 1,
     "skills": [
       {
@@ -7979,14 +7955,14 @@
     ]
   },
   "patch-gg/pixelfx": {
-    "pushed_at": "2026-11-09T09:51:43Z",
+    "pushed_at": "2026-11-12T08:42:35Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/pixelfx/SKILL.md",
         "name": "pixelfx"
       }
-    ],
-    "count": 1
+    ]
   },
   "Jakeschincariol/day-trader-skill": {
     "pushed_at": "2026-10-20T14:18:00Z",
@@ -8049,7 +8025,7 @@
     "count": 1
   },
   "JuneYaooo/rea-video": {
-    "pushed_at": "2026-11-11T17:48:34Z",
+    "pushed_at": "2026-11-13T02:32:02Z",
     "count": 1,
     "skills": [
       {
@@ -8117,7 +8093,7 @@
     "count": 7
   },
   "melonjs/melonJS": {
-    "pushed_at": "2026-11-12T01:15:16Z",
+    "pushed_at": "2026-11-13T02:34:39Z",
     "count": 25,
     "skills": [
       {
@@ -8223,7 +8199,8 @@
     ]
   },
   "ThinkInAIXYZ/deepchat": {
-    "pushed_at": "2026-11-11T02:08:53Z",
+    "pushed_at": "2026-11-13T02:42:05Z",
+    "count": 25,
     "skills": [
       {
         "path": ".agents/skills/add-provider/SKILL.md",
@@ -8325,8 +8302,7 @@
         "path": "resources/skills/xlsx/SKILL.md",
         "name": "xlsx"
       }
-    ],
-    "count": 25
+    ]
   },
   "heilcheng/awesome-agent-skills": {
     "pushed_at": "2026-11-09T01:42:59Z",
@@ -8334,7 +8310,7 @@
     "count": 0
   },
   "wiltodelta/remove-ai-watermarks": {
-    "pushed_at": "2026-11-11T22:33:36Z",
+    "pushed_at": "2026-11-12T18:51:03Z",
     "count": 3,
     "skills": [
       {
@@ -8518,7 +8494,7 @@
     "count": 103
   },
   "JimLiu/baoyu-design": {
-    "pushed_at": "2026-11-12T01:21:11Z",
+    "pushed_at": "2026-11-12T09:19:13Z",
     "count": 25,
     "skills": [
       {
@@ -8711,7 +8687,8 @@
     "count": 2
   },
   "OpenSenseNova/SenseNova-Skills": {
-    "pushed_at": "2026-11-03T07:27:54Z",
+    "pushed_at": "2026-11-12T11:49:24Z",
+    "count": 84,
     "skills": [
       {
         "path": "skills/sn-code-video/SKILL.md",
@@ -8873,8 +8850,7 @@
         "path": "skills/sn-da-excel-workflow/capability/excel-reading/specific-sheet-reading/SKILL.md",
         "name": "specific-sheet-reading"
       }
-    ],
-    "count": 84
+    ]
   },
   "antfu/skills": {
     "pushed_at": "2026-11-11T08:13:27Z",
@@ -8954,7 +8930,7 @@
     "count": 0
   },
   "dotnet/skills": {
-    "pushed_at": "2026-11-12T00:23:01Z",
+    "pushed_at": "2026-11-12T15:52:10Z",
     "count": 116,
     "skills": [
       {
@@ -9244,12 +9220,13 @@
     "count": 2
   },
   "microsoft/skill-recorder": {
-    "pushed_at": "2026-11-04T11:44:52Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-12T17:57:22Z",
+    "count": 0,
+    "skills": []
   },
   "0x0funky/agent-sprite-forge": {
-    "pushed_at": "2026-11-06T18:20:34Z",
+    "pushed_at": "2026-11-13T01:41:03Z",
+    "count": 5,
     "skills": [
       {
         "path": "skills/codeart2d/SKILL.md",
@@ -9271,11 +9248,10 @@
         "path": "skills/video2dsprite/SKILL.md",
         "name": "video2dsprite"
       }
-    ],
-    "count": 5
+    ]
   },
   "elementalsouls/Claude-BugHunter": {
-    "pushed_at": "2026-11-11T11:55:37Z",
+    "pushed_at": "2026-11-12T12:50:21Z",
     "count": 83,
     "skills": [
       {
@@ -9441,7 +9417,7 @@
     ]
   },
   "aipoch/open-science": {
-    "pushed_at": "2026-11-12T02:45:55Z",
+    "pushed_at": "2026-11-13T02:43:12Z",
     "count": 27,
     "skills": [
       {
@@ -9609,7 +9585,7 @@
     "count": 12
   },
   "metalbear-co/mirrord": {
-    "pushed_at": "2026-11-12T01:43:42Z",
+    "pushed_at": "2026-11-13T00:48:25Z",
     "count": 12,
     "skills": [
       {
@@ -9673,7 +9649,7 @@
     "count": 1
   },
   "tinyplex/tinybase": {
-    "pushed_at": "2026-11-12T02:23:40Z",
+    "pushed_at": "2026-11-12T04:32:37Z",
     "count": 2,
     "skills": [
       {
@@ -9701,7 +9677,7 @@
     "count": 2
   },
   "kajisho5/ffmpeg-skill": {
-    "pushed_at": "2026-11-12T01:28:08Z",
+    "pushed_at": "2026-11-13T02:29:16Z",
     "count": 16,
     "skills": [
       {
@@ -9771,7 +9747,7 @@
     ]
   },
   "Manavarya09/design-extract": {
-    "pushed_at": "2026-11-11T11:17:34Z",
+    "pushed_at": "2026-11-13T00:59:00Z",
     "count": 25,
     "skills": [
       {
@@ -10077,7 +10053,7 @@
     "count": 2
   },
   "inkeep/open-knowledge": {
-    "pushed_at": "2026-11-12T01:31:16Z",
+    "pushed_at": "2026-11-12T09:54:25Z",
     "count": 18,
     "skills": [
       {
@@ -10160,7 +10136,8 @@
     "count": 0
   },
   "zebbern/claude-code-guide": {
-    "pushed_at": "2026-11-11T00:36:26Z",
+    "pushed_at": "2026-11-13T00:37:21Z",
+    "count": 78,
     "skills": [
       {
         "path": "skills/academic-paper-reviewer/SKILL.md",
@@ -10322,11 +10299,10 @@
         "path": "skills/pipeline-blueprint/SKILL.md",
         "name": "pipeline-blueprint"
       }
-    ],
-    "count": 78
+    ]
   },
   "zenbu-labs/terminal-browser": {
-    "pushed_at": "2026-11-12T02:14:15Z",
+    "pushed_at": "2026-11-13T00:37:03Z",
     "count": 1,
     "skills": [
       {
@@ -10336,7 +10312,8 @@
     ]
   },
   "ZJU-REAL/Easel": {
-    "pushed_at": "2026-11-09T08:42:34Z",
+    "pushed_at": "2026-11-12T05:23:31Z",
+    "count": 118,
     "skills": [
       {
         "path": "skills/builtin/ai-image-gen/SKILL.md",
@@ -10498,8 +10475,7 @@
         "path": "skills/builtin/skill-account-diagnosis/SKILL.md",
         "name": "skill-account-diagnosis"
       }
-    ],
-    "count": 118
+    ]
   },
   "xianyu110/awesome-openclaw-tutorial": {
     "pushed_at": "2026-10-04T03:18:13Z",
@@ -10546,7 +10522,7 @@
     "count": 1
   },
   "michael-denyer/pstack-claude": {
-    "pushed_at": "2026-11-11T12:15:43Z",
+    "pushed_at": "2026-11-13T01:06:15Z",
     "count": 68,
     "skills": [
       {
@@ -10994,7 +10970,7 @@
     "count": 1
   },
   "datamodel-code-generator/datamodel-code-generator": {
-    "pushed_at": "2026-11-12T01:39:52Z",
+    "pushed_at": "2026-11-13T01:04:10Z",
     "count": 2,
     "skills": [
       {
@@ -11202,7 +11178,8 @@
     ]
   },
   "NVIDIA/skills": {
-    "pushed_at": "2026-11-11T02:07:59Z",
+    "pushed_at": "2026-11-12T14:09:43Z",
+    "count": 452,
     "skills": [
       {
         "path": "plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md",
@@ -11364,8 +11341,7 @@
         "path": "skills/bionemo-rfd4-proteina-nim/SKILL.md",
         "name": "bionemo-rfd4-proteina-nim"
       }
-    ],
-    "count": 450
+    ]
   },
   "rebelytics/one-skill-to-rule-them-all": {
     "pushed_at": "2026-11-09T14:06:42Z",
@@ -11981,7 +11957,7 @@
     "count": 7
   },
   "davepoon/buildwithclaude": {
-    "pushed_at": "2026-11-11T08:12:19Z",
+    "pushed_at": "2026-11-12T06:00:05Z",
     "count": 423,
     "skills": [
       {
@@ -12147,7 +12123,7 @@
     ]
   },
   "Ar9av/obsidian-wiki": {
-    "pushed_at": "2026-11-11T11:40:09Z",
+    "pushed_at": "2026-11-12T12:15:04Z",
     "count": 40,
     "skills": [
       {
@@ -12313,7 +12289,8 @@
     ]
   },
   "ljagiello/ctf-skills": {
-    "pushed_at": "2026-11-10T23:59:05Z",
+    "pushed_at": "2026-11-12T05:36:15Z",
+    "count": 12,
     "skills": [
       {
         "path": "ctf-ai-ml/SKILL.md",
@@ -12363,11 +12340,11 @@
         "path": "solve-challenge/SKILL.md",
         "name": "solve-challenge"
       }
-    ],
-    "count": 12
+    ]
   },
   "wesammustafa/Claude-Code-Quest": {
-    "pushed_at": "2026-11-10T17:33:44Z",
+    "pushed_at": "2026-11-13T00:25:01Z",
+    "count": 15,
     "skills": [
       {
         "path": ".github/scripts/fixtures/example-not-yet-tested-on-edition-tag/tree/examples/intermediate/01-first-skill/dot-claude/skills/tdd/SKILL.md",
@@ -12429,11 +12406,10 @@
         "path": "solutions/i-capstone/dot-claude/skills/check-links/SKILL.md",
         "name": "check-links"
       }
-    ],
-    "count": 15
+    ]
   },
   "scenario-labs/skills": {
-    "pushed_at": "2026-11-11T16:57:05Z",
+    "pushed_at": "2026-11-12T19:21:10Z",
     "count": 179,
     "skills": [
       {
@@ -12923,7 +12899,7 @@
     "count": 14
   },
   "Natively-AI-assistant/natively-cluely-ai-assistant": {
-    "pushed_at": "2026-11-12T00:48:10Z",
+    "pushed_at": "2026-11-13T01:33:59Z",
     "count": 0,
     "skills": []
   },
@@ -12952,7 +12928,7 @@
     "count": 1
   },
   "microsoft/skills": {
-    "pushed_at": "2026-11-11T18:02:58Z",
+    "pushed_at": "2026-11-12T18:10:26Z",
     "count": 211,
     "skills": [
       {
@@ -13292,7 +13268,7 @@
     "count": 1
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "pushed_at": "2026-11-11T23:57:27Z",
+    "pushed_at": "2026-11-12T19:26:41Z",
     "count": 120,
     "skills": [
       {
@@ -13488,7 +13464,8 @@
     "count": 6
   },
   "0xsline/OpenChatCut": {
-    "pushed_at": "2026-11-06T06:55:59Z",
+    "pushed_at": "2026-11-12T12:08:42Z",
+    "count": 31,
     "skills": [
       {
         "path": "skills/openchatcut/SKILL.md",
@@ -13614,8 +13591,7 @@
         "path": "src/agent/skills/widget-forms/SKILL.md",
         "name": "widget-forms"
       }
-    ],
-    "count": 31
+    ]
   },
   "nanaism/yomiyasu": {
     "pushed_at": "2026-11-12T00:28:35Z",
@@ -13809,7 +13785,7 @@
     "count": 0
   },
   "jeremylongshore/tons-of-skills-marketplace": {
-    "pushed_at": "2026-11-12T00:57:29Z",
+    "pushed_at": "2026-11-13T00:58:16Z",
     "count": 5764,
     "skills": [
       {
@@ -14519,7 +14495,8 @@
     "count": 1
   },
   "romainsimon/paperasse": {
-    "pushed_at": "2026-11-10T15:22:25Z",
+    "pushed_at": "2026-11-12T15:12:52Z",
+    "count": 6,
     "skills": [
       {
         "path": "commissaire-aux-comptes/SKILL.md",
@@ -14545,8 +14522,7 @@
         "path": "syndic/SKILL.md",
         "name": "syndic"
       }
-    ],
-    "count": 6
+    ]
   },
   "amElnagdy/delegate-skills": {
     "pushed_at": "2026-11-05T20:32:18Z",
@@ -14635,7 +14611,7 @@
     "count": 20
   },
   "MrGeDiao/shuorenhua": {
-    "pushed_at": "2026-11-11T08:22:34Z",
+    "pushed_at": "2026-11-12T08:49:45Z",
     "count": 1,
     "skills": [
       {
@@ -14731,12 +14707,16 @@
     "count": 20
   },
   "digitalsamba/claude-code-video-toolkit": {
-    "pushed_at": "2026-11-11T17:06:09Z",
-    "count": 16,
+    "pushed_at": "2026-11-12T18:32:50Z",
+    "count": 17,
     "skills": [
       {
         "path": ".claude/skills/acestep/SKILL.md",
         "name": "acestep"
+      },
+      {
+        "path": ".claude/skills/blender/SKILL.md",
+        "name": "blender"
       },
       {
         "path": ".claude/skills/elevenlabs/SKILL.md",
@@ -14801,7 +14781,7 @@
     ]
   },
   "LearnPrompt/awesome-seedance": {
-    "pushed_at": "2026-11-11T22:07:00Z",
+    "pushed_at": "2026-11-12T22:08:00Z",
     "count": 15,
     "skills": [
       {
@@ -14867,7 +14847,7 @@
     ]
   },
   "reacher-z/Awesome-REA": {
-    "pushed_at": "2026-11-12T01:27:09Z",
+    "pushed_at": "2026-11-13T02:26:47Z",
     "count": 0,
     "skills": []
   },
@@ -15118,9 +15098,9 @@
     "count": 7
   },
   "amontlabs/lcu": {
-    "pushed_at": "2026-11-10T11:29:27Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-12T12:09:05Z",
+    "count": 0,
+    "skills": []
   },
   "tourmind-com/Tourmind-Booking-Skills": {
     "pushed_at": "2026-10-19T09:29:07Z",
@@ -15217,17 +15197,17 @@
     "count": 14
   },
   "Mahanaicoach/google-maps-scraper-kit": {
-    "pushed_at": "2026-11-11T00:32:02Z",
+    "pushed_at": "2026-11-12T16:51:22Z",
+    "count": 1,
     "skills": [
       {
         "path": ".claude/skills/google-maps-scraper/SKILL.md",
         "name": "google-maps-scraper"
       }
-    ],
-    "count": 1
+    ]
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
-    "pushed_at": "2026-11-11T21:17:59Z",
+    "pushed_at": "2026-11-12T22:24:06Z",
     "count": 1,
     "skills": [
       {
@@ -15263,7 +15243,7 @@
     "count": 5
   },
   "dstackai/dstack": {
-    "pushed_at": "2026-11-11T21:15:06Z",
+    "pushed_at": "2026-11-12T19:34:58Z",
     "count": 3,
     "skills": [
       {
@@ -15281,14 +15261,14 @@
     ]
   },
   "caru-ini/stack-diagram": {
-    "pushed_at": "2026-11-09T06:00:33Z",
+    "pushed_at": "2026-11-12T06:44:00Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/stack-diagram/SKILL.md",
         "name": "stack-diagram"
       }
-    ],
-    "count": 1
+    ]
   },
   "Vincentwei1021/video-talkcraft": {
     "pushed_at": "2026-11-09T02:29:30Z",
@@ -15437,7 +15417,7 @@
     "count": 4
   },
   "Gentleman-Programming/gentle-shell": {
-    "pushed_at": "2026-11-12T02:38:39Z",
+    "pushed_at": "2026-11-12T22:53:03Z",
     "count": 15,
     "skills": [
       {
@@ -15553,13 +15533,13 @@
     "count": 11
   },
   "can4hou6joeng4/boss-agent-cli": {
-    "pushed_at": "2026-11-12T02:45:59Z",
+    "pushed_at": "2026-11-13T02:39:49Z",
     "count": 0,
     "skills": []
   },
   "LeoYeAI/agent-master-skills": {
-    "pushed_at": "2026-11-12T02:01:11Z",
-    "count": 3453,
+    "pushed_at": "2026-11-13T02:01:09Z",
+    "count": 3454,
     "skills": [
       {
         "path": "SKILL.md",
@@ -15752,7 +15732,7 @@
     "count": 3
   },
   "maxritter/qualitylayer": {
-    "pushed_at": "2026-11-11T18:05:40Z",
+    "pushed_at": "2026-11-12T16:46:37Z",
     "count": 7,
     "skills": [
       {
@@ -15829,7 +15809,7 @@
     "count": 2
   },
   "shinyobjectz/raea": {
-    "pushed_at": "2026-11-12T02:34:55Z",
+    "pushed_at": "2026-11-13T02:12:44Z",
     "count": 1,
     "skills": [
       {
@@ -15839,7 +15819,7 @@
     ]
   },
   "axoviq-ai/synthadoc": {
-    "pushed_at": "2026-11-11T23:31:39Z",
+    "pushed_at": "2026-11-12T22:24:22Z",
     "count": 10,
     "skills": [
       {
@@ -16013,7 +15993,8 @@
     "count": 1
   },
   "OpenOSINT/OpenOSINT": {
-    "pushed_at": "2026-11-05T12:47:58Z",
+    "pushed_at": "2026-11-12T11:00:39Z",
+    "count": 2,
     "skills": [
       {
         "path": "skills/exposure/SKILL.md",
@@ -16023,11 +16004,10 @@
         "path": "skills/osint/SKILL.md",
         "name": "osint"
       }
-    ],
-    "count": 2
+    ]
   },
   "XiaoMaColtAI/math-modeling-skill": {
-    "pushed_at": "2026-11-11T22:32:06Z",
+    "pushed_at": "2026-11-12T22:07:31Z",
     "count": 20,
     "skills": [
       {
@@ -16279,7 +16259,7 @@
     "count": 2118
   },
   "ReScienceLab/opc-skills": {
-    "pushed_at": "2026-11-11T13:51:23Z",
+    "pushed_at": "2026-11-12T14:53:15Z",
     "count": 13,
     "skills": [
       {
@@ -16337,12 +16317,13 @@
     ]
   },
   "zhuyansen/awesome-claude-video-skills": {
-    "pushed_at": "2026-11-10T16:08:10Z",
-    "skills": [],
-    "count": 0
+    "pushed_at": "2026-11-12T16:46:53Z",
+    "count": 0,
+    "skills": []
   },
   "timescale/pg-aiguide": {
-    "pushed_at": "2026-11-11T04:55:27Z",
+    "pushed_at": "2026-11-12T20:58:38Z",
+    "count": 11,
     "skills": [
       {
         "path": "skills/design-postgis-tables/SKILL.md",
@@ -16388,8 +16369,7 @@
         "path": "skills/timescaledb-hyperfunctions/SKILL.md",
         "name": "timescaledb-hyperfunctions"
       }
-    ],
-    "count": 11
+    ]
   },
   "qufei1993/skills-hub": {
     "pushed_at": "2026-11-01T11:56:15Z",
@@ -16460,8 +16440,8 @@
     "count": 2
   },
   "Klotzkette/claude-fuer-deutsches-recht": {
-    "pushed_at": "2026-11-11T16:44:52Z",
-    "count": 18863,
+    "pushed_at": "2026-11-12T22:03:40Z",
+    "count": 18856,
     "skills": [
       {
         "path": "agb-recht-pruefer/skills/abmahnung-reagieren/SKILL.md",
@@ -16626,7 +16606,7 @@
     ]
   },
   "mex-memory/mex": {
-    "pushed_at": "2026-11-11T19:51:07Z",
+    "pushed_at": "2026-11-12T15:29:36Z",
     "count": 7,
     "skills": [
       {
@@ -16960,7 +16940,7 @@
     "count": 1
   },
   "bubbuild/bub": {
-    "pushed_at": "2026-11-11T16:53:19Z",
+    "pushed_at": "2026-11-12T05:47:58Z",
     "count": 3,
     "skills": [
       {
@@ -17144,14 +17124,14 @@
     "count": 105
   },
   "patrickchugh/terravision": {
-    "pushed_at": "2026-10-31T01:08:24Z",
+    "pushed_at": "2026-11-12T23:06:35Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/terravision-cloud-diagrams/SKILL.md",
         "name": "terravision-cloud-diagrams"
       }
-    ],
-    "count": 1
+    ]
   },
   "feiskyer/claude-code-settings": {
     "pushed_at": "2026-11-05T13:15:07Z",
@@ -17208,7 +17188,8 @@
     "count": 12
   },
   "codeaholicguy/ai-devkit": {
-    "pushed_at": "2026-11-09T18:12:32Z",
+    "pushed_at": "2026-11-12T21:44:04Z",
+    "count": 31,
     "skills": [
       {
         "path": "skills/agent-communication/SKILL.md",
@@ -17334,8 +17315,7 @@
         "path": "skills/verify/SKILL.md",
         "name": "verify"
       }
-    ],
-    "count": 31
+    ]
   },
   "Jakeschincariol/trader-skill": {
     "pushed_at": "2026-10-14T21:13:22Z",
@@ -17438,7 +17418,7 @@
     ]
   },
   "microsoft/azure-skills": {
-    "pushed_at": "2026-11-11T18:02:55Z",
+    "pushed_at": "2026-11-12T18:10:45Z",
     "count": 89,
     "skills": [
       {
@@ -17700,14 +17680,14 @@
     "count": 17
   },
   "antvis/AVA": {
-    "pushed_at": "2026-11-09T11:12:54Z",
+    "pushed_at": "2026-11-13T02:33:55Z",
+    "count": 1,
     "skills": [
       {
         "path": "skills/ava/SKILL.md",
         "name": "ava"
       }
-    ],
-    "count": 1
+    ]
   },
   "alexgreensh/anidoodle": {
     "pushed_at": "2026-11-05T20:35:49Z",
@@ -17742,7 +17722,7 @@
     "count": 3
   },
   "silverstein/minutes": {
-    "pushed_at": "2026-11-12T01:33:44Z",
+    "pushed_at": "2026-11-13T02:26:18Z",
     "count": 175,
     "skills": [
       {
@@ -17944,7 +17924,7 @@
     "count": 1
   },
   "hyhmrright/brooks-lint": {
-    "pushed_at": "2026-11-11T22:32:35Z",
+    "pushed_at": "2026-11-12T10:15:46Z",
     "count": 12,
     "skills": [
       {
@@ -18118,14 +18098,14 @@
     "count": 4
   },
   "DozenTwelve/Papermorph": {
-    "pushed_at": "2026-11-10T14:00:57Z",
+    "pushed_at": "2026-11-12T13:47:57Z",
+    "count": 1,
     "skills": [
       {
         "path": ".claude/skills/papermorph/SKILL.md",
         "name": "papermorph"
       }
-    ],
-    "count": 1
+    ]
   },
   "NiazMorshed2007/reanimate": {
     "pushed_at": "2026-10-31T12:49:35Z",
@@ -18138,7 +18118,7 @@
     "count": 1
   },
   "mohitagw15856/pm-claude-skills": {
-    "pushed_at": "2026-11-11T18:32:30Z",
+    "pushed_at": "2026-11-12T13:46:09Z",
     "count": 3097,
     "skills": [
       {
@@ -18304,7 +18284,7 @@
     ]
   },
   "openclaw/crabbox": {
-    "pushed_at": "2026-11-12T01:00:35Z",
+    "pushed_at": "2026-11-12T22:21:14Z",
     "count": 5,
     "skills": [
       {
@@ -18683,8 +18663,8 @@
     ]
   },
   "nexu-io/openmotion": {
-    "pushed_at": "2026-11-12T01:35:34Z",
-    "count": 9,
+    "pushed_at": "2026-11-13T02:37:52Z",
+    "count": 18,
     "skills": [
       {
         "path": "library/skills/brandkit/SKILL.md",
@@ -18693,6 +18673,18 @@
       {
         "path": "library/skills/motion-design-remix/SKILL.md",
         "name": "motion-design-remix"
+      },
+      {
+        "path": "library/skills/openmotion-brandkit/SKILL.md",
+        "name": "openmotion-brandkit"
+      },
+      {
+        "path": "library/skills/openmotion-design-remix/SKILL.md",
+        "name": "openmotion-design-remix"
+      },
+      {
+        "path": "library/skills/openmotion-presenter-story/SKILL.md",
+        "name": "openmotion-presenter-story"
       },
       {
         "path": "library/skills/presenter-story/SKILL.md",
@@ -18717,6 +18709,30 @@
       {
         "path": "skills/motion-video-to-template/SKILL.md",
         "name": "motion-video-to-template"
+      },
+      {
+        "path": "skills/openmotion-director/SKILL.md",
+        "name": "openmotion-director"
+      },
+      {
+        "path": "skills/openmotion-production/SKILL.md",
+        "name": "openmotion-production"
+      },
+      {
+        "path": "skills/openmotion-recreate/SKILL.md",
+        "name": "openmotion-recreate"
+      },
+      {
+        "path": "skills/openmotion-reference-video/SKILL.md",
+        "name": "openmotion-reference-video"
+      },
+      {
+        "path": "skills/openmotion-template-to-video/SKILL.md",
+        "name": "openmotion-template-to-video"
+      },
+      {
+        "path": "skills/openmotion-video-to-template/SKILL.md",
+        "name": "openmotion-video-to-template"
       },
       {
         "path": "skills/reference-video/SKILL.md",
@@ -18827,8 +18843,8 @@
     ]
   },
   "emilkowalski/skills": {
-    "pushed_at": "2026-11-11T23:30:13Z",
-    "count": 18,
+    "pushed_at": "2026-11-12T14:22:08Z",
+    "count": 19,
     "skills": [
       {
         "path": "skills/animate-expo/SKILL.md",
@@ -18879,6 +18895,10 @@
         "name": "improve-animations"
       },
       {
+        "path": "skills/learn-taste/SKILL.md",
+        "name": "learn-taste"
+      },
+      {
         "path": "skills/mobile-native/SKILL.md",
         "name": "mobile-native"
       },
@@ -18901,6 +18921,174 @@
       {
         "path": "skills/write-swift/SKILL.md",
         "name": "write-swift"
+      }
+    ]
+  },
+  "signerlabs/ShipSwift": {
+    "pushed_at": "2026-11-12T03:56:56Z",
+    "count": 3,
+    "skills": [
+      {
+        "path": "skills/add-component/SKILL.md",
+        "name": "add-component"
+      },
+      {
+        "path": "skills/build-feature/SKILL.md",
+        "name": "build-feature"
+      },
+      {
+        "path": "skills/explore-skills/SKILL.md",
+        "name": "explore-skills"
+      }
+    ]
+  },
+  "Pinvou/pinvou-agent": {
+    "pushed_at": "2026-11-13T02:41:23Z",
+    "count": 36,
+    "skills": [
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design/SKILL.md",
+        "name": "visual-design"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/dingtalk-skills/dws/SKILL.md",
+        "name": "dws"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-base/SKILL.md",
+        "name": "lark-base"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-calendar/SKILL.md",
+        "name": "lark-calendar"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-doc/SKILL.md",
+        "name": "lark-doc"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-drive/SKILL.md",
+        "name": "lark-drive"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-im/SKILL.md",
+        "name": "lark-im"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-shared/SKILL.md",
+        "name": "lark-shared"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-sheets/SKILL.md",
+        "name": "lark-sheets"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-task/SKILL.md",
+        "name": "lark-task"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/lark-skills/lark-wiki/SKILL.md",
+        "name": "lark-wiki"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/tmeet-skills/tmeet-skill/SKILL.md",
+        "name": "tmeet-skill"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-calendar/SKILL.md",
+        "name": "wecomcli-calendar"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-contact/SKILL.md",
+        "name": "wecomcli-contact"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-disk/SKILL.md",
+        "name": "wecomcli-disk"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-doc-manage/SKILL.md",
+        "name": "wecomcli-doc-manage"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-doc/SKILL.md",
+        "name": "wecomcli-doc"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-email/SKILL.md",
+        "name": "wecomcli-email"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-media/SKILL.md",
+        "name": "wecomcli-media"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-meeting/SKILL.md",
+        "name": "wecomcli-meeting"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-message/SKILL.md",
+        "name": "wecomcli-message"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-pptx/SKILL.md",
+        "name": "wecomcli-pptx"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-shared/SKILL.md",
+        "name": "wecomcli-shared"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-sheet/SKILL.md",
+        "name": "wecomcli-sheet"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-smartpage/SKILL.md",
+        "name": "wecomcli-smartpage"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-smartsheet/SKILL.md",
+        "name": "wecomcli-smartsheet"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/bundle/wecom-skills/wecomcli-todo/SKILL.md",
+        "name": "wecomcli-todo"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/government-writing/SKILL.md",
+        "name": "government-writing"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/ima-skills/SKILL.md",
+        "name": "ima-skills"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/ima-skills/knowledge-base/SKILL.md",
+        "name": "knowledge-base"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/ima-skills/notes/SKILL.md",
+        "name": "notes"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/package-author/SKILL.md",
+        "name": "package-author"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/pptx/SKILL.md",
+        "name": "pptx"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/skill-author/SKILL.md",
+        "name": "skill-author"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/tencent-docs-skill/SKILL.md",
+        "name": "tencent-docs-skill"
+      },
+      {
+        "path": "pinvou3-app/src-tauri/resources/common/skill-marketplace/visualizer/SKILL.md",
+        "name": "visualizer"
       }
     ]
   }
