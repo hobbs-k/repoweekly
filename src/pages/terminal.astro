@@ -2,12 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import { href } from '../lib/format.js';
 import GitHubMark from '../components/GitHubMark.astro';
+import Bit from '../components/Bit.astro';
 ---
 
 <Layout title="Terminal | RepoWeekly" description="Explore the weekly GitHub rankings, rising repos and agent skills with simple commands, right in your browser." current="terminal">
   <div class="wrap page">
     <p class="prompt" aria-hidden="true"><span>$</span> repoweekly terminal</p>
-    <h1>Terminal</h1>
+    <div class="bit-row"><h1>Terminal</h1><Bit size={72} say="Hi, I'm Bit. Type help." /></div>
     <p>Ask the data questions with short commands. Type <code>help</code> to see them. It runs in your browser and nothing you type is sent anywhere.</p>
     <div class="term" data-src={href('/api')} hidden>
       <div class="term-out">

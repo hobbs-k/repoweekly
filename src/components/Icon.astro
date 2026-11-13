@@ -1,0 +1,21 @@
+---
+// 8x8 pixel icons in the same blocky style as the R mark. Each row: # is a lit pixel.
+const ICONS = {
+  home: ['########', '#.#..#.#', '########', '#......#', '#.##.#.#', '#......#', '#.#.##.#', '########'],
+  rising: ['...##...', '..####..', '.######.', '##.##.##', '...##...', '...##...', '...##...', '...##...'],
+  skills: ['....###.', '...###..', '..###...', '.######.', '...###..', '..###...', '.##.....', '#.......'],
+  contribute: ['.##..##.', '########', '########', '########', '.######.', '..####..', '...##...', '........'],
+  archive: ['########', '#......#', '########', '.#....#.', '.#.##.#.', '.#....#.', '.#....#.', '.######.'],
+  compare: ['........', '.##.....', '.##..##.', '.##..##.', '.##..##.', '.##..##.', '.##..##.', '########'],
+  terminal: ['########', '#......#', '#.#....#', '#..#...#', '#.#..###', '#......#', '#......#', '########'],
+};
+const { name, size = 14 } = Astro.props;
+// One rect per run of lit pixels in a row keeps the SVG small.
+const rects = [];
+(ICONS[name] ?? []).forEach((row, y) => {
+  for (const m of row.matchAll(/#+/g)) rects.push({ x: m.index, y, w: m[0].length });
+});
+---
+<svg class="icon" width={size} height={size} viewBox="0 0 8 8" shape-rendering="crispEdges" aria-hidden="true" focusable="false">
+  {rects.map((r) => <rect x={r.x} y={r.y} width={r.w} height="1" fill="currentColor" />)}
+</svg>

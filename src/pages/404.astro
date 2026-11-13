@@ -1,10 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { href } from '../lib/format.js';
+import Bit from '../components/Bit.astro';
 ---
 
 <Layout title="Page not found: RepoWeekly" description="This page does not exist.">
   <div class="wrap page">
+    <Bit size={120} say="Error 404. Bit looked everywhere." />
     <h1>That page is not here</h1>
     <p>The link may be wrong, or the page may have moved.</p>
     <ul>

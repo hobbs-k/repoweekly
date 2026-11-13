@@ -6,6 +6,7 @@ import '../styles/global.css';
 import { config } from '../../scripts/lib/config.js';
 import { href } from '../lib/format.js';
 import PixelR from '../components/PixelR.astro';
+import Icon from '../components/Icon.astro';
 import GitHubMark from '../components/GitHubMark.astro';
 
 const { title, description, current = '' } = Astro.props;
@@ -43,7 +44,7 @@ const nav = [
         <div class="wrap">
           <ul>
             {nav.map((n, i) => (
-              <li><a href={n.href} aria-current={current === n.key ? 'page' : undefined}><span class="fkey" aria-hidden="true">F{i + 1}</span> {n.label}</a></li>
+              <li><a href={n.href} aria-current={current === n.key ? 'page' : undefined}><span class="fkey" aria-hidden="true">F{i + 1}</span> <Icon name={n.key === 'home' ? 'home' : n.key} /> {n.label}</a></li>
             ))}
           </ul>
         </div>

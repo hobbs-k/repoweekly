@@ -495,3 +495,23 @@ html { scroll-behavior: smooth; }
 
 .copy-md { min-height: 2.75rem; padding: 0 1rem; font-family: var(--mono); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.04em; }
 .copy-md[hidden] { display: none; }
+
+/* Pixel icons in the menu. */
+.icon { vertical-align: -0.1em; margin-right: 0.15rem; }
+
+/* Motion (scroll.js adds .fx only when reduced motion is not asked for). */
+.fx .entry, .fx .issue, .fx .section-head { transition: opacity 0.5s ease, transform 0.5s ease; }
+.fx .entry:not(.in), .fx .issue:not(.in), .fx .section-head:not(.in) { opacity: 0; transform: translateY(16px); }
+.fx .entry.in { transition: opacity 0.5s ease, transform 0.15s ease-out; transform-style: preserve-3d; }
+
+/* Bit, the mascot. */
+.bit { margin: 0; display: inline-flex; flex-direction: column; align-items: center; gap: 0.4rem; }
+.bit svg { filter: drop-shadow(0 0 6px var(--glow)); }
+.bit-say { font-family: var(--mono); font-size: 0.75rem; color: var(--phos); }
+.bit-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; }
+@media (prefers-reduced-motion: no-preference) {
+  .bit-eyes { animation: bit-blink 4s steps(1) infinite; transform-origin: 8px 6px; }
+  .bit-light { animation: bit-pulse 1.6s steps(2) infinite; }
+}
+@keyframes bit-blink { 0%, 94% { transform: scaleY(1); } 95%, 100% { transform: scaleY(0.15); } }
+@keyframes bit-pulse { 50% { opacity: 0.25; } }
