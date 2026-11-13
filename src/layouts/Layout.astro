@@ -10,6 +10,9 @@ import Icon from '../components/Icon.astro';
 import GitHubMark from '../components/GitHubMark.astro';
 
 const { title, description, current = '' } = Astro.props;
+// Share previews (X, LinkedIn, Slack, WhatsApp...) need absolute addresses.
+const pageUrl = new URL(Astro.url.pathname, new URL(config.site.url).origin).href;
+const shareImage = `${config.site.url}/og.png`;
 const nav = [
   { href: href('/'), label: 'This week', key: 'home' },
   { href: href('/rising/'), label: 'Rising', key: 'rising' },
@@ -29,6 +32,21 @@ const nav = [
     <meta name="color-scheme" content="light dark" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={pageUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RepoWeekly" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="RepoWeekly: top GitHub repos of the week, rising AI agent skills, beginner issues" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={shareImage} />
+    <link rel="sitemap" type="application/xml" href={href('/sitemap.xml')} />
     <link rel="icon" href={href('/favicon.svg')} type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title="RepoWeekly" href={href('/feed.xml')} />
   </head>

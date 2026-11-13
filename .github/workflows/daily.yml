@@ -92,3 +92,16 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Opens the live site in headless Chrome and checks that every key page shows its items.
+  smoke:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check the live site in a real browser
+        run: node scripts/smoke.js
+        timeout-minutes: 6

@@ -15,7 +15,7 @@
     "feeds": "node scripts/feeds.js",
     "build:data": "npm run rank && npm run summarize && npm run stars && npm run feeds && npm run avatars",
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/sitemap.js",
     "bootstrap": "node scripts/bootstrap-trending.js",
     "validate": "node scripts/validate.js",
     "avatars": "node scripts/avatars.js",
