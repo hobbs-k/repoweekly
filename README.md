@@ -82,3 +82,13 @@ The site follows `PRODUCT.md` and `DESIGN.md` (Impeccable). The look is a pocket
 ## Hiding a repository
 
 To remove a repository from the rankings, Rising and Skills lists, add its full name (for example `owner/name`) to the `repos` list in `data/blocklist.json`. It is dropped on the next run.
+
+## Adding X posts to a skill
+
+To show an X post on a skill card, add its link to `data/x-posts.json`, for example:
+
+```json
+{ "owner/name": ["https://x.com/someone/status/1234567890"] }
+```
+
+The daily run fetches the post text and author through X's free embed service, up to 3 posts per repo. Hacker News quotes are found automatically.

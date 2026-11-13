@@ -1,9 +1,10 @@
 ---
 import Avatar from './Avatar.astro';
+import Buzz from './Buzz.astro';
 import { fmt, fmtDate } from '../lib/format.js';
 
 // One skill repository in the top ten. Same window look as RepoEntry.
-const { item, mode, span, asOf } = Astro.props;
+const { buzz, item, mode, span, asOf } = Astro.props;
 const pushedDays = Math.max(0, Math.round((Date.parse(asOf) - Date.parse(item.pushed_at)) / 86400000));
 const updated = pushedDays === 0 ? 'today' : pushedDays === 1 ? 'yesterday' : `${pushedDays} days ago`;
 const [owner, name] = item.full_name.split('/');
@@ -41,6 +42,8 @@ const agentLabel = { claude: 'Claude', codex: 'Codex', cursor: 'Cursor', gemini:
       </ul>
       {item.skill_count > shown.length && <p class="muted">And {fmt(item.skill_count - shown.length)} more in the repository.</p>}
     </details>
+
+    <Buzz buzz={buzz} />
 
     <ul class="meta">
       {item.agents.map((a) => <li>{agentLabel[a] ?? a}</li>)}

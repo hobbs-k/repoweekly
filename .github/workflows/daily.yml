@@ -51,6 +51,10 @@ jobs:
         continue-on-error: true
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.NVIDIA_API_KEY }}
+      - name: What people say about the skills
+        run: npm run buzz
+        timeout-minutes: 5
+        continue-on-error: true
       - name: Save owner avatars
         run: npm run avatars
         continue-on-error: true

@@ -41,6 +41,7 @@ export function loadRepos() {
 
 // The daily breakouts from rising.js. null until the first run.
 export const loadRising = () => readJson(path.join(config.paths.data, 'rising.json'));
+export const loadBuzz = () => readJson(path.join(config.paths.data, 'buzz.json'))?.repos ?? {};
 
 // The best skill repositories from skills.js. null until the first run.
 export const loadSkills = () => readJson(path.join(config.paths.data, 'skills.json'));
