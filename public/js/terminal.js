@@ -5,6 +5,8 @@ const HELP = [
   'top [--lang X] [--n 10]   ranked repos, most stars gained first',
   'rising                    repos climbing fastest in the last two days',
   'skills [word]             skill repositories, optionally matching a word',
+  "skills --agent cursor     rising skills that pass that tool's SKILL.md rules",
+  'install <owner/name>      install commands for a rising skill (add --agent codex)',
   'find <word>               search names, tags and summaries',
   'repo <owner/name>         everything we know about one repo',
   'langs                     languages in our rankings, with counts',
@@ -12,6 +14,9 @@ const HELP = [
 ];
 
 const num = (n) => Number(n).toLocaleString('en-US');
+// Tool names people type, mapped to the ids the Skills data uses.
+const AGENTS = { claude: 'claude', 'claude-code': 'claude', codex: 'codex', cursor: 'cursor', copilot: 'copilot', 'github-copilot': 'copilot', gemini: 'gemini', 'gemini-cli': 'gemini', opencode: 'opencode', windsurf: 'windsurf', claudeai: 'claudeai', 'claude.ai': 'claudeai' };
+const AGENT_LIST = 'claude, codex, cursor, copilot, gemini, opencode, windsurf, claudeai';
 
 // Splits "top --lang rust --n 5" into { cmd: 'top', args: [], flags: { lang: 'rust', n: '5' } }.
 function parseCommand(line) {
@@ -45,9 +50,35 @@ function execute(line, data) {
       return items.length ? items.slice(0, 15).map((r, i) => `${String(i + 1).padStart(2)}. ${r.full_name}  +${num(r.gained_2d)} stars in 2 days`) : ['Nothing is rising yet. Check back after a few daily runs.'];
     }
     case 'skills': {
+      if (flags.agent) {
+        const id = AGENTS[flags.agent.toLowerCase()];
+        if (!id) return [`Unknown tool "${flags.agent}". Try one of: ${AGENT_LIST}.`];
+        const ready = (data.skills?.rising ?? []).filter((r) => r.install?.compat?.[id]?.status === 'ready' && (!word || r.full_name.toLowerCase().includes(word)));
+        if (id === 'gemini' || id === 'windsurf') return [`We could not confirm ${flags.agent}'s SKILL.md rules, so no skill is marked ready for it. "install <owner/name> --agent ${id}" still shows how to install.`];
+        return ready.length
+          ? [`Rising skills that pass ${flags.agent}'s documented SKILL.md rules:`, ...ready.map((r) => `${String(r.rising_rank).padStart(3)}. ${r.full_name}  ${num(r.stars)} stars  ${r.skill_count} ${r.skill_count === 1 ? "skill" : "skills"}`), 'Type "install <owner/name> --agent ' + id + '" for the commands.']
+          : [`No rising skill passes ${flags.agent}'s rules right now.`];
+      }
       const all = data.skills?.repos ?? [];
       const rows = all.filter((r) => !word || [r.full_name, r.description ?? '', ...(r.topics ?? []), ...r.skills.map((s) => s.name)].join(' ').toLowerCase().includes(word)).slice(0, 15);
-      return rows.length ? rows.map((r) => `${String(r.rank).padStart(3)}. ${r.full_name}  ${num(r.stars)} stars  ${r.skill_count} skills`) : ['No skill repositories match.'];
+      return rows.length ? rows.map((r) => `${String(r.rank).padStart(3)}. ${r.full_name}  ${num(r.stars)} stars  ${r.skill_count} ${r.skill_count === 1 ? "skill" : "skills"}`) : ['No skill repositories match.'];
+    }
+    case 'install': {
+      if (!word) return ['Usage: install <owner/name> [--agent claude]'];
+      const id = AGENTS[(flags.agent ?? 'claude').toLowerCase()];
+      if (!id) return [`Unknown tool "${flags.agent}". Try one of: ${AGENT_LIST}.`];
+      const r = (data.skills?.rising ?? []).find((x) => x.full_name.toLowerCase() === word);
+      if (!r?.install) return [`Install commands are only prepared for the rising skills. Type "skills --agent ${id}" to list them.`];
+      const a = r.install.agents[id];
+      const out = [`${r.full_name} for ${a.label}, version ${r.install.sha.slice(0, 7)}${a.verified ? '' : ' (not verified)'}`];
+      if (id === 'claude' && r.install.marketplace) out.push('', "# Claude Code plugin (from the repo's own plugin file)", r.install.marketplace.add, ...r.install.marketplace.install);
+      for (const m of a.methods) {
+        out.push('', `# ${m.title}`);
+        if (m.code) out.push(...m.code.split('\n'));
+        if (m.note) out.push(`# ${m.note}`);
+      }
+      out.push('', 'Read the skill before you install it. A skill can run commands on your computer.');
+      return out;
     }
     case 'find': {
       if (!word) return ['Usage: find <word>'];

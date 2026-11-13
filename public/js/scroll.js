@@ -16,3 +16,13 @@
   top.addEventListener('click', () => scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }));
   update();
 })();
+
+// Buttons with data-copy put that text on the clipboard ("Copy as Markdown" on the week list).
+for (const b of document.querySelectorAll('[data-copy]')) {
+  const label = b.textContent;
+  b.hidden = false;
+  b.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = 'Copied'; } catch { b.textContent = 'Copy failed'; }
+    setTimeout(() => { b.textContent = label; }, 1600);
+  });
+}

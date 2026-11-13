@@ -11,7 +11,14 @@ const r = (full_name, stars_gained, language) => ({ full_name, stars_gained, sta
 const data = {
   repos: { repos: { 'a/one': r('a/one', 50, 'Rust'), 'b/two': r('b/two', 90, 'Python') } },
   rising: { items: [] },
-  skills: { repos: [{ rank: 1, full_name: 'c/skills', stars: 10, skill_count: 1, topics: [], skills: [{ name: 'pdf' }] }] },
+  skills: {
+    repos: [{ rank: 1, full_name: 'c/skills', stars: 10, skill_count: 1, topics: [], skills: [{ name: 'pdf' }] }],
+    rising: [{ rising_rank: 1, full_name: 'c/skills', stars: 10, skill_count: 1, install: {
+      sha: 'abcdef1234', marketplace: null,
+      compat: { cursor: { status: 'ready' }, claudeai: { status: 'no' } },
+      agents: { cursor: { label: 'Cursor', verified: true, methods: [{ title: 'npx skills', note: null, code: 'npx skills add c/skills -a cursor -g' }] } },
+    } }],
+  },
 };
 
 test('parseCommand splits words and flags', () => {
@@ -32,4 +39,14 @@ test('find, repo, skills, rising and unknown commands answer sensibly', () => {
   assert.match(execute('skills pdf', data)[0], /c\/skills/);
   assert.match(execute('rising', data)[0], /Nothing is rising/);
   assert.match(execute('wat', data)[0], /Unknown command/);
+});
+
+test('skills --agent lists rising skills ready for that tool, install prints its commands', () => {
+  assert.match(execute('skills --agent cursor', data).join(' '), /c\/skills/);
+  assert.match(execute('skills --agent claude.ai', data)[0], /No rising skill/);
+  assert.match(execute('skills --agent vim', data)[0], /Unknown tool/);
+  const out = execute('install c/skills --agent cursor', data);
+  assert.match(out[0], /c\/skills for Cursor, version abcdef1/);
+  assert.ok(out.includes('npx skills add c/skills -a cursor -g'));
+  assert.match(execute('install nope/x', data)[0], /only prepared for the rising skills/);
 });

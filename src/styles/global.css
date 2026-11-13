@@ -492,3 +492,6 @@ html { scroll-behavior: smooth; }
 .compat-list li { padding: 0.25rem 0.55rem; font-family: var(--mono); font-size: 0.75rem; font-weight: 700; border: 2px solid var(--frame); color: var(--ink-soft); }
 .compat-list .compat-ready { border-color: var(--phos); color: var(--phos); }
 .compat-list .compat-partial, .compat-list .compat-no { border-color: var(--mark); color: var(--mark); }
+
+.copy-md { min-height: 2.75rem; padding: 0 1rem; font-family: var(--mono); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.04em; }
+.copy-md[hidden] { display: none; }

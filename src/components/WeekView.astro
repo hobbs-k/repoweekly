@@ -1,11 +1,20 @@
 ---
 import { config } from '../../scripts/lib/config.js';
-import { formatRange, href, langSlug, weekNumber } from '../lib/format.js';
+import { fmt, formatRange, href, langSlug, weekNumber } from '../lib/format.js';
 import RepoEntry from './RepoEntry.astro';
 
 // The intro, ranking and gems for one week. Used by the home page and every week page.
 const { week: w, heading, guide = null } = Astro.props;
 const range = formatRange(w.start, w.end);
+// The week's top list as Markdown, for the "Copy as Markdown" button: pastes cleanly into Slack, notes or a newsletter.
+const firstSentence = (t) => (t ?? '').split(/(?<=[.!?])\s/)[0];
+const markdown = [
+  `**Top ${w.top.length} GitHub repos of week ${weekNumber(w.week)}** (${range}), ranked by stars gained`,
+  '',
+  ...w.top.map((i) => `${i.rank}. [${i.full_name}](${i.url}) +${fmt(i.stars_gained)} stars: ${firstSentence(i.summary?.what_it_is)}`),
+  '',
+  `Full list on RepoWeekly: ${config.site.url}/weeks/${w.week}/`,
+].join('\n');
 const langs = [...new Set([...w.top, ...w.gems].map((i) => i.language).filter(Boolean))].sort();
 ---
 
@@ -38,6 +47,7 @@ const langs = [...new Set([...w.top, ...w.gems].map((i) => i.language).filter(Bo
       </ul>
     </nav>
   )}
+  <button type="button" class="copy-md" data-copy={markdown} hidden>Copy as Markdown</button>
   <form class="filters" hidden>
     <label><input type="checkbox" name="beginner" /> Good for beginners only</label>
     <p class="filters-status" role="status"></p>
