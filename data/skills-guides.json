@@ -1,6 +1,6 @@
 {
   "caru-ini/stack-diagram": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-13T07:38:10Z",
     "sha": "9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3",
     "compat": {
@@ -216,7 +216,7 @@
     "marketplace": null
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-12T22:24:06Z",
     "sha": "f4b6b3ffc99ccdcb3e4b6bbfad3fca51b09bd23c",
     "compat": {
@@ -452,7 +452,7 @@
     "marketplace": null
   },
   "NiazMorshed2007/reanimate": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-10-31T12:49:35Z",
     "sha": "3f7a55a2986a84ca2173e86ee9127eefe31d046d",
     "compat": {
@@ -690,7 +690,7 @@
     "marketplace": null
   },
   "alchaincyf/huashu-motion": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-10T00:15:11Z",
     "sha": "0272906902c33c796a81637545905ea7f2b81c5a",
     "compat": {
@@ -901,7 +901,7 @@
     "marketplace": null
   },
   "daveebbelaar/bama": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-05T13:09:56Z",
     "sha": "22dc792ea040a35270c219c669f626594267aa1f",
     "compat": {
@@ -1176,7 +1176,7 @@
     }
   },
   "morganlinton/BeautifulRust": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-08T17:21:11Z",
     "sha": "b9718436d77ee7bcf17cdcb6aa27628feb95d97a",
     "compat": {
@@ -1651,7 +1651,7 @@
     }
   },
   "Jakeschincariol/founder-skill": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-10-07T01:07:17Z",
     "sha": "fd9385b0cfe1b96bebce3898fbd506d73eff5a9d",
     "compat": {
@@ -1907,7 +1907,7 @@
     }
   },
   "feitangyuan/onetake": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-05T03:52:15Z",
     "sha": "abb6d17279cdc749e27e99aa534a062d8fd01ced",
     "compat": {
@@ -2140,7 +2140,7 @@
     "marketplace": null
   },
   "UnderleveledBuilder/awesome-short-drama-skills": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-03T22:32:47Z",
     "sha": "9a1f686460c0a03cb0df40c3d2e55739568911dc",
     "compat": {
@@ -2351,7 +2351,7 @@
     "marketplace": null
   },
   "oil-oil/oil-ui": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-11T04:56:08Z",
     "sha": "28948c3d88e5d141fa0e943ff385560c5ffba979",
     "compat": {
@@ -2587,7 +2587,7 @@
     "marketplace": null
   },
   "DUNHKpcc/Claude-Guardian": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-11T15:34:09Z",
     "sha": "ec53265c84131e26b7097498a5fe0680fdeffed7",
     "compat": {
@@ -2809,7 +2809,7 @@
     "marketplace": null
   },
   "nanaism/yomiyasu": {
-    "v": 3,
+    "v": 4,
     "pushed_at": "2026-11-12T00:28:35Z",
     "sha": "db78b9bc5e868549b517a037df7a4d1c93edac23",
     "compat": {

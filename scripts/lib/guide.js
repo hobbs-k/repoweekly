@@ -48,6 +48,8 @@ export function marketplaceCommands(fullName, json) {
   try { m = typeof json === 'string' ? JSON.parse(json) : json; } catch { return null; }
   const name = typeof m?.name === 'string' ? m.name : null;
   const plugins = (Array.isArray(m?.plugins) ? m.plugins : []).map((p) => p?.name).filter((n) => typeof n === 'string');
-  if (!name || !plugins.length) return null;
+  // Names land in commands people type, so plain characters only.
+  const ok = (s) => /^[A-Za-z0-9._-]+$/.test(s);
+  if (!name || !ok(name) || !plugins.length || !plugins.every(ok)) return null;
   return { marketplace: name, plugins, add: `/plugin marketplace add ${fullName}`, install: plugins.slice(0, 5).map((p) => `/plugin install ${p}@${name}`) };
 }

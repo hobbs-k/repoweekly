@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T11:04:40.542Z",
+  "generated": "2026-11-13T15:09:55.816Z",
   "date": "2026-11-13",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "mode": "recent",
@@ -33,8 +33,8 @@
         "touhou",
         "typescript"
       ],
-      "stars": 456385,
-      "pushed_at": "2026-11-13T10:39:31Z",
+      "stars": 456807,
+      "pushed_at": "2026-11-13T14:50:01Z",
       "created_at": "2026-04-14T00:51:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -44,31 +44,37 @@
         {
           "name": "rea-analysis-optimization",
           "path": ".agents/skills/rea-analysis-optimization/SKILL.md",
+          "title": "rea-analysis-optimization",
           "description": "Optimize REA providers and shared analysis workflows for agent context, latency, CPU, and memory while preserving correctness and Evidence. Use for analysis bottlenecks and cache or query design; CI/test-suite optimization belongs to rea-ci-tests-audit."
         },
         {
           "name": "rea-changelog-update",
           "path": ".agents/skills/rea-changelog-update/SKILL.md",
+          "title": "rea-changelog-update",
           "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization."
         },
         {
           "name": "rea-ci-tests-audit",
           "path": ".agents/skills/rea-ci-tests-audit/SKILL.md",
+          "title": "rea-ci-tests-audit",
           "description": "Audit REA CI and test suites for correctness, fixture drift, false passes, and measured performance; use for suite or workflow investigations and efficiency changes, rather than ordinary feature testing or a single test failure."
         },
         {
           "name": "rea-tool-design",
           "path": ".agents/skills/rea-tool-design/SKILL.md",
+          "title": "rea-tool-design",
           "description": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics."
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".agents/skills/reverse-engineer-anything/SKILL.md",
+          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".cursor-plugin/skills/reverse-engineer-anything/SKILL.md",
+          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         }
       ],
@@ -87,7 +93,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 193915,
+      "stars": 194001,
       "pushed_at": "2026-11-06T22:32:32Z",
       "created_at": "2025-09-22T15:53:31Z",
       "license": null,
@@ -215,7 +221,7 @@
         "prompt-engineering",
         "yagni"
       ],
-      "stars": 190027,
+      "stars": 190151,
       "pushed_at": "2026-10-29T11:59:31Z",
       "created_at": "2026-06-12T00:52:37Z",
       "license": "MIT",
@@ -308,7 +314,7 @@
         "cursor",
         "skills"
       ],
-      "stars": 116966,
+      "stars": 117026,
       "pushed_at": "2026-11-01T19:24:49Z",
       "created_at": "2026-02-15T20:20:26Z",
       "license": "MIT",
@@ -469,7 +475,7 @@
         "sqlite",
         "supermemory"
       ],
-      "stars": 116695,
+      "stars": 116753,
       "pushed_at": "2026-11-13T05:15:01Z",
       "created_at": "2025-08-31T20:50:03Z",
       "license": "Apache-2.0",
@@ -679,7 +685,7 @@
         "ui-design",
         "web-design"
       ],
-      "stars": 114637,
+      "stars": 114767,
       "pushed_at": "2026-11-08T21:51:50Z",
       "created_at": "2026-02-19T21:44:05Z",
       "license": "MIT",
@@ -732,8 +738,8 @@
         "project-management",
         "workflow-automation"
       ],
-      "stars": 113508,
-      "pushed_at": "2026-11-13T10:53:26Z",
+      "stars": 113576,
+      "pushed_at": "2026-11-13T15:05:04Z",
       "created_at": "2026-03-02T15:01:51Z",
       "license": "MIT",
       "default_branch": "master",
@@ -944,8 +950,8 @@
         "design",
         "slop"
       ],
-      "stars": 109254,
-      "pushed_at": "2026-11-13T10:35:32Z",
+      "stars": 109359,
+      "pushed_at": "2026-11-13T13:15:27Z",
       "created_at": "2025-11-16T01:52:04Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -955,61 +961,73 @@
         {
           "name": "impeccable",
           "path": ".agent/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".agents/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".claude/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md)."
         },
         {
           "name": "impeccable",
           "path": ".cursor/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".devin/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".dsh/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".gemini/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".github/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".grok/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".hermes/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".kiro/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".omp/skills/impeccable/SKILL.md",
+          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
@@ -1104,8 +1122,8 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 107456,
-      "pushed_at": "2026-11-13T10:17:56Z",
+      "stars": 107488,
+      "pushed_at": "2026-11-13T11:51:41Z",
       "created_at": "2026-04-28T04:25:20Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -1115,61 +1133,73 @@
         {
           "name": "od-contribute",
           "path": ".claude/skills/od-contribute/SKILL.md",
+          "title": "od-contribute",
           "description": "One-click contribution flow for OpenDesign (nexu-io/open-design) — even for non-coders. Pick one of four cards (ship a Skill or Design System you made with OD; translate docs; fix a typo / write a blog; report a bug), the agent validates and opens a PR (or issue) for you. Trigger words contribute to"
         },
         {
           "name": "sample-plugin",
           "path": "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md",
+          "title": "sample-plugin",
           "description": "Phase 1 sample plugin synthesizing a SKILL.md frontmatter for backwards-compat tests."
         },
         {
           "name": "aster-atelier",
           "path": "design-templates/aster-atelier/SKILL.md",
+          "title": "aster-atelier",
           "description": "Use this template when the user wants an artistic creative-studio website with classical imagery, cobalt skies, elegant serif typography and cinematic scrolling."
         },
         {
           "name": "audio-jingle",
           "path": "design-templates/audio-jingle/SKILL.md",
+          "title": "audio-jingle",
           "description": "Audio generation skill — jingles, beds, voiceover, and sound effects. Routes music requests to Suno V5 / Udio / Lyria, speech to MiniMax TTS / FishAudio / ElevenLabs V3, and SFX to ElevenLabs SFX or AudioCraft. Output is one MP3/WAV file saved to the project folder."
         },
         {
           "name": "blog-post",
           "path": "design-templates/blog-post/SKILL.md",
+          "title": "blog-post",
           "description": "A long-form article / blog post — masthead, hero image placeholder, article body with figures and pull quotes, author byline, related posts. Use when the brief asks for \"blog\", \"article\", \"post\", \"essay\", or \"case study\"."
         },
         {
           "name": "clinical-case-report",
           "path": "design-templates/clinical-case-report/SKILL.md",
+          "title": "clinical-case-report",
           "description": "Structured medical case presentation for clinical rounds, conferences, and documentation. Generates SOAP-format or narrative case reports with physiologically accurate vitals, labs, and evidence-based plans. Use when the brief mentions \"case report\", \"case presentation\", \"SOAP note\", \"clinical case\""
         },
         {
           "name": "contact-widget",
           "path": "design-templates/contact-widget/SKILL.md",
+          "title": "contact-widget",
           "description": "Self-contained floating chat widget with welcome screen, social links, meeting button, and message input. Single HTML file, zero dependencies."
         },
         {
           "name": "critique",
           "path": "design-templates/critique/SKILL.md",
+          "title": "critique",
           "description": "Run a 5-dimension expert design review on any HTML artifact in the project — Philosophy / Visual hierarchy / Detail / Functionality / Innovation, each scored 0–10. Outputs a single self-contained HTML report with a radar chart, evidence-backed scores, and three lists: Keep / Fix / Quick-wins. Use wh"
         },
         {
           "name": "dashboard",
           "path": "design-templates/dashboard/SKILL.md",
+          "title": "dashboard",
           "description": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar, top bar with user/search, main grid of KPI cards and one or two charts. Use when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or \"control panel\" screen."
         },
         {
           "name": "dating-web",
           "path": "design-templates/dating-web/SKILL.md",
+          "title": "dating-web",
           "description": "A consumer-feeling dating / matchmaking dashboard — left rail navigation, ticker bar of community signals, headline KPIs, a 30-day mutual-matches bar chart, and a match-rate trend block. Editorial typography, restrained accent. Use when the brief asks for a \"dating site\", \"matchmaking\", \"community d"
         },
         {
           "name": "dcf-valuation",
           "path": "design-templates/dcf-valuation/SKILL.md",
+          "title": "dcf-valuation",
           "description": "Discounted cash flow valuation and intrinsic value analysis for public companies. Use when the brief asks for DCF, fair value, intrinsic value, price target, undervalued or overvalued analysis, or \"what is this company worth?\""
         },
         {
           "name": "digital-eguide",
           "path": "design-templates/digital-eguide/SKILL.md",
+          "title": "digital-eguide",
           "description": "A two-spread digital e-guide preview — page 1 is a cover (display title, author, \"What's inside\" stats, table of contents teaser); page 2 is a spread (lesson body with pull-quote and a step list). Lifestyle / creator brand tone. Use when the brief asks for an \"e-guide\", \"digital guide\", \"lookbook\", "
         },
         {
@@ -1320,8 +1350,8 @@
         "system-design",
         "visualization"
       ],
-      "stars": 96092,
-      "pushed_at": "2026-11-13T08:22:45Z",
+      "stars": 96140,
+      "pushed_at": "2026-11-13T15:04:27Z",
       "created_at": "2026-04-15T05:27:37Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -1331,26 +1361,31 @@
         {
           "name": "archify-review",
           "path": ".agents/skills/archify-review/SKILL.md",
+          "title": "archify-review",
           "description": "Review Archify issues, PRs, or code through value, cost, and impact to support evidence-based maintenance decisions. Use for issue triage, change reviews, and code quality assessments."
         },
         {
           "name": "archify-tuning",
           "path": ".agents/skills/archify-tuning/SKILL.md",
+          "title": "archify-tuning",
           "description": "Improve Archify diagram accuracy, visual quality and complete authoring speed with fewer repairs. Use for generation experiments or evaluating changes to layout, routing, diagnostics, authoring instructions and acceptance rules against actual diagrams and agent traces."
         },
         {
           "name": "simplify-codebase",
           "path": ".agents/skills/simplify-codebase/SKILL.md",
+          "title": "simplify-codebase",
           "description": "Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or layers, ownerless abstractions, obsolete compatibility or design records, and over-"
         },
         {
           "name": "test-value",
           "path": ".agents/skills/test-value/SKILL.md",
+          "title": "test-value",
           "description": "Improve test value and feedback cost when auditing slow, flaky, redundant or brittle tests; choosing tests during implementation; or reviewing test changes before a commit or PR. Keep ordinary implementation and pre-commit use scoped to the affected behavior, not a repository-wide audit."
         },
         {
           "name": "archify",
           "path": "archify/SKILL.md",
+          "title": "archify",
           "description": "Create validated architecture, workflow, sequence, data-flow, lifecycle/state, ERD, class, tree, timeline, and waterfall diagrams as explorable standalone HTML with dark/light themes, motion and image/SVG/WebM export. Accept requirements or Mermaid; inspect repository evidence for code-backed diagra"
         }
       ],
@@ -1386,7 +1421,7 @@
         "understandcode",
         "vibe-coding"
       ],
-      "stars": 92484,
+      "stars": 92507,
       "pushed_at": "2026-11-13T03:17:33Z",
       "created_at": "2026-03-15T02:30:51Z",
       "license": "MIT",
@@ -1478,8 +1513,8 @@
         "open-source",
         "resume"
       ],
-      "stars": 82297,
-      "pushed_at": "2026-11-13T08:06:08Z",
+      "stars": 82336,
+      "pushed_at": "2026-11-13T15:02:29Z",
       "created_at": "2026-04-04T18:21:18Z",
       "license": "MIT",
       "default_branch": "main",
@@ -1489,56 +1524,67 @@
         {
           "name": "career-ops",
           "path": ".agents/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".antigravitycli/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".claude/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".grok/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".kimi/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".opencode/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".qwen/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "antigravity-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "claude-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "cursor-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "openai-directory/skills/career-ops/SKILL.md",
+          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         }
       ],
@@ -1576,7 +1622,7 @@
         "skill",
         "workflow-automation"
       ],
-      "stars": 79386,
+      "stars": 79402,
       "pushed_at": "2026-09-18T07:16:11Z",
       "created_at": "2025-10-17T07:15:01Z",
       "license": null,
@@ -1789,7 +1835,7 @@
         "typescript"
       ],
       "stars": 70890,
-      "pushed_at": "2026-11-13T09:24:05Z",
+      "pushed_at": "2026-11-13T14:59:57Z",
       "created_at": "2025-12-03T01:40:05Z",
       "license": "NOASSERTION",
       "default_branch": "dev",
@@ -1799,61 +1845,73 @@
         {
           "name": "codex-qa",
           "path": ".agents/skills/codex-qa/SKILL.md",
+          "title": "codex-qa",
           "description": "QA the omo Codex Light edition (lazycodex / packages/omo-codex) itself, in strict isolation so ONLY our plugin is exercised, never the user's real ~/.codex. The first-party method drives the real `codex app-server` against an isolated CODEX_HOME plus a LOCAL mock model (no real API call), and proves"
         },
         {
           "name": "get-unpublished-changes",
           "path": ".agents/skills/get-unpublished-changes/SKILL.md",
+          "title": "get-unpublished-changes",
           "description": "Compare HEAD with the latest published npm versions and list all unpublished changes by release layer. Triggers: unpublished changes, changelog, what changed, whats new."
         },
         {
           "name": "github-triage",
           "path": ".agents/skills/github-triage/SKILL.md",
+          "title": "github-triage",
           "description": "Read-only GitHub triage for issues AND PRs. 1 item = 1 background task (category: quick). Analyzes all open items and writes evidence-backed reports to /tmp/{datetime}/. Every claim requires a GitHub permalink as proof. NEVER takes any action on GitHub - no comments, no merges, no closes, no labels."
         },
         {
           "name": "hyperplan",
           "path": ".agents/skills/hyperplan/SKILL.md",
+          "title": "hyperplan",
           "description": "Adversarial multi-agent planning skill. Self-orchestrates 5 hostile category members (unspecified-low, unspecified-high, deep, ultrabrain, artistry) via team-mode for ruthless cross-critique debate, distills only the defensible insights, then MANDATORILY hands the distilled insight bundle to the `pl"
         },
         {
           "name": "omomomo",
           "path": ".agents/skills/omomomo/SKILL.md",
+          "title": "omomomo",
           "description": "Easter egg command - about oh-my-opencode. Triggers: omomomo, about, easter egg."
         },
         {
           "name": "opencode-qa",
           "path": ".agents/skills/opencode-qa/SKILL.md",
+          "title": "opencode-qa",
           "description": "QA opencode itself, per case: verify the CLI/terminal (opencode run, db, serve, export), prove a specific plugin hook/action/event fired via the SSE event stream, smoke-test the TUI under tmux, and investigate sessions in opencode's SQLite DB by id, title/name, or message text. Ships tested helper s"
         },
         {
           "name": "pre-publish-review",
           "path": ".agents/skills/pre-publish-review/SKILL.md",
+          "title": "pre-publish-review",
           "description": "Nuclear-grade 12-agent pre-publish release gate. Runs /get-unpublished-changes to detect all changes since last npm release, spawns up to 10 ultrabrain agents for deep per-change analysis, invokes /review-work (orchestrator manual QA plus one gate reviewer) for holistic review, and 1 oracle for over"
         },
         {
           "name": "publish",
           "path": ".agents/skills/publish/SKILL.md",
+          "title": "publish",
           "description": "Publish oh-my-opencode to npm by triggering the GitHub Actions publish workflow and verifying its artifacts. Ship-only: never runs pre-publish-review or re-reviews merged code unless the user explicitly asks. Argument: <patch|minor|major|explicit-semver>. Triggers: publish, release, deploy, npm publ"
         },
         {
           "name": "remove-deadcode",
           "path": ".agents/skills/remove-deadcode/SKILL.md",
+          "title": "remove-deadcode",
           "description": "Remove unused code from this project with ultrawork mode, LSP-verified safety, atomic commits. Triggers: remove dead code, dead code, cleanup, remove unused."
         },
         {
           "name": "security-research",
           "path": ".agents/skills/security-research/SKILL.md",
+          "title": "security-research",
           "description": "Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. Use for security review, vulnerability research, exploitability audit, pre-release"
         },
         {
           "name": "senpi-qa",
           "path": ".agents/skills/senpi-qa/SKILL.md",
+          "title": "senpi-qa",
           "description": "QA the omo Senpi adapter (packages/omo-senpi, packages/senpi-task) against the REAL senpi binary in strict isolation, and write every artifact to the one canonical evidence path .omo/evidence/omo-senpi-adapter/<slug>/. The live drivers under packages/omo-senpi/scripts/qa/ create their own isolated S"
         },
         {
           "name": "tech-debt-audit",
           "path": ".agents/skills/tech-debt-audit/SKILL.md",
+          "title": "tech-debt-audit",
           "description": "Thorough, file-cited technical debt audit across 9 dimensions using AST-grep (tree-sitter), grep, LSP, and language-native tooling. Produces TECH_DEBT_AUDIT.md with severity, effort estimates, and prioritized fixes. Use when asked for codebase health check, tech debt audit, architecture review, code"
         },
         {
@@ -2006,7 +2064,7 @@
         "pakistani-developer",
         "vibe-coding"
       ],
-      "stars": 69018,
+      "stars": 69027,
       "pushed_at": "2026-11-13T06:34:03Z",
       "created_at": "2025-10-31T14:15:28Z",
       "license": "MIT",
@@ -2086,7 +2144,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 68611,
+      "stars": 68692,
       "pushed_at": "2026-11-10T01:35:15Z",
       "created_at": "2026-01-18T05:30:15Z",
       "license": "MIT",
@@ -2123,7 +2181,7 @@
         "mermaid",
         "svg"
       ],
-      "stars": 66821,
+      "stars": 66850,
       "pushed_at": "2026-11-12T21:14:19Z",
       "created_at": "2026-04-16T18:01:16Z",
       "license": "MIT",
@@ -2159,7 +2217,7 @@
         "developer-tools",
         "productivity"
       ],
-      "stars": 61074,
+      "stars": 61083,
       "pushed_at": "2026-10-19T19:46:23Z",
       "created_at": "2026-05-13T20:42:06Z",
       "license": "MIT",
@@ -2212,7 +2270,7 @@
         "seo",
         "skill-md"
       ],
-      "stars": 60054,
+      "stars": 60095,
       "pushed_at": "2026-11-11T17:49:23Z",
       "created_at": "2026-01-15T19:45:23Z",
       "license": "MIT",
@@ -2425,7 +2483,7 @@
         "scientific-computing",
         "scientific-visualization"
       ],
-      "stars": 57026,
+      "stars": 57044,
       "pushed_at": "2026-11-09T09:17:48Z",
       "created_at": "2025-10-19T20:54:15Z",
       "license": "MIT",
@@ -2628,8 +2686,8 @@
         "cursor",
         "design-engineering"
       ],
-      "stars": 56517,
-      "pushed_at": "2026-11-12T14:22:08Z",
+      "stars": 56559,
+      "pushed_at": "2026-11-13T11:35:44Z",
       "created_at": "2026-03-16T13:52:31Z",
       "license": "MIT",
       "default_branch": "main",
@@ -2639,61 +2697,73 @@
         {
           "name": "animate-expo",
           "path": "skills/animate-expo/SKILL.md",
+          "title": "animate-expo",
           "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handle"
         },
         {
           "name": "animate",
           "path": "skills/animate/SKILL.md",
+          "title": "animate",
           "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something,"
         },
         {
           "name": "animation-performance",
           "path": "skills/animation-performance/SKILL.md",
+          "title": "animation-performance",
           "description": "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the layout/paint/composite pipeline, cheaper property swaps, CSS vs WAAPI vs requestAnimationFrame, Motion"
         },
         {
           "name": "animation-vocabulary",
           "path": "skills/animation-vocabulary/SKILL.md",
+          "title": "animation-vocabulary",
           "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without know"
         },
         {
           "name": "apple-design",
           "path": "skills/apple-design/SKILL.md",
+          "title": "apple-design",
           "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, "
         },
         {
           "name": "ask-sonner",
           "path": "skills/ask-sonner/SKILL.md",
+          "title": "ask-sonner",
           "description": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts "
         },
         {
           "name": "break-ui",
           "path": "skills/break-ui/SKILL.md",
+          "title": "break-ui",
           "description": "Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers — then render it behind a \"Demo data / Worst case\" toggle and report everything that broke, with t"
         },
         {
           "name": "choreograph",
           "path": "skills/choreograph/SKILL.md",
+          "title": "choreograph",
           "description": "Coordinate several elements that animate together — decide what moves, in what order, how much they overlap, and what stays still — so a group reads as one intentional motion instead of a pile of separate animations. Use when building or fixing a staggered list, a hero entrance, a view swap inside a"
         },
         {
           "name": "emil-design-eng",
           "path": "skills/emil-design-eng/SKILL.md",
+          "title": "emil-design-eng",
           "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great."
         },
         {
           "name": "find-animation-opportunities",
           "path": "skills/find-animation-opportunities/SKILL.md",
+          "title": "find-animation-opportunities",
           "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animat"
         },
         {
           "name": "gestures",
           "path": "skills/gestures/SKILL.md",
+          "title": "gestures",
           "description": "Build drag, swipe, and sheet interactions that track the finger 1:1 and stay interruptible. Use when building or fixing anything the user drags, swipes, flings, holds, or dismisses with a gesture — drawers, sheets, swipe-to-dismiss toasts and cards, drag-to-reorder, pull-to-refresh, hold-to-confirm "
         },
         {
           "name": "improve-animations",
           "path": "skills/improve-animations/SKILL.md",
+          "title": "improve-animations",
           "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"imp"
         },
         {
@@ -2751,8 +2821,8 @@
         "mcp-client",
         "ollama"
       ],
-      "stars": 53480,
-      "pushed_at": "2026-11-13T10:58:04Z",
+      "stars": 53485,
+      "pushed_at": "2026-11-13T14:54:14Z",
       "created_at": "2024-05-24T01:56:26Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
@@ -2961,7 +3031,7 @@
         "harness",
         "repository-level-context"
       ],
-      "stars": 50110,
+      "stars": 50285,
       "pushed_at": "2026-11-13T09:11:45Z",
       "created_at": "2026-05-18T02:16:36Z",
       "license": "Apache-2.0",
@@ -3023,7 +3093,7 @@
         "mcp",
         "skill-library"
       ],
-      "stars": 49630,
+      "stars": 49648,
       "pushed_at": "2026-11-12T18:58:48Z",
       "created_at": "2026-01-14T17:48:09Z",
       "license": "MIT",
@@ -3230,8 +3300,8 @@
         "self-hosted",
         "typescript"
       ],
-      "stars": 45695,
-      "pushed_at": "2026-11-13T10:57:44Z",
+      "stars": 45708,
+      "pushed_at": "2026-11-13T14:30:48Z",
       "created_at": "2020-03-25T14:08:22Z",
       "license": "MIT",
       "default_branch": "main",
@@ -3430,7 +3500,7 @@
         "pi-coding-agent",
         "subagents"
       ],
-      "stars": 42465,
+      "stars": 42476,
       "pushed_at": "2026-11-09T01:08:33Z",
       "created_at": "2025-07-24T23:28:14Z",
       "license": "MIT",
@@ -3637,7 +3707,7 @@
         "hacktoberfest",
         "prompt-engineering"
       ],
-      "stars": 41112,
+      "stars": 41119,
       "pushed_at": "2026-11-13T03:40:39Z",
       "created_at": "2025-06-11T16:57:39Z",
       "license": "MIT",
@@ -3851,7 +3921,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 38201,
+      "stars": 38224,
       "pushed_at": "2026-11-10T00:41:13Z",
       "created_at": "2026-04-05T04:33:04Z",
       "license": "MIT",
@@ -3966,7 +4036,7 @@
         "self-study",
         "study-tools"
       ],
-      "stars": 37740,
+      "stars": 37758,
       "pushed_at": "2026-11-08T21:22:31Z",
       "created_at": "2026-05-01T02:09:39Z",
       "license": "MIT",
@@ -4003,7 +4073,7 @@
         "mcp",
         "registry"
       ],
-      "stars": 33456,
+      "stars": 33467,
       "pushed_at": "2026-11-13T03:21:37Z",
       "created_at": "2025-07-04T01:26:26Z",
       "license": "MIT",
@@ -4216,8 +4286,8 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 33290,
-      "pushed_at": "2026-11-13T09:55:09Z",
+      "stars": 33292,
+      "pushed_at": "2026-11-13T14:54:38Z",
       "created_at": "2023-08-16T16:16:33Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -4356,7 +4426,7 @@
         "oauth2",
         "rust"
       ],
-      "stars": 32290,
+      "stars": 32297,
       "pushed_at": "2026-11-03T01:37:22Z",
       "created_at": "2026-03-02T19:46:06Z",
       "license": "Apache-2.0",
@@ -4543,7 +4613,7 @@
         "claude-skills",
         "openclaw"
       ],
-      "stars": 31112,
+      "stars": 31113,
       "pushed_at": "2026-11-13T06:30:30Z",
       "created_at": "2026-01-31T15:47:22Z",
       "license": "MIT",
@@ -4747,7 +4817,7 @@
         "openclaw-skills",
         "prompt-engineering"
       ],
-      "stars": 29737,
+      "stars": 29747,
       "pushed_at": "2026-11-12T10:35:06Z",
       "created_at": "2025-10-19T04:04:05Z",
       "license": "MIT",
@@ -4952,7 +5022,7 @@
         "slides",
         "ui-design"
       ],
-      "stars": 29401,
+      "stars": 29412,
       "pushed_at": "2026-11-10T00:16:14Z",
       "created_at": "2026-04-19T14:42:06Z",
       "license": "MIT",
@@ -5000,7 +5070,7 @@
         "planning",
         "session-recovery"
       ],
-      "stars": 28037,
+      "stars": 28039,
       "pushed_at": "2026-11-11T20:55:30Z",
       "created_at": "2026-01-03T07:37:28Z",
       "license": "MIT",
@@ -5106,7 +5176,7 @@
         "claude-cowork-plugin",
         "product-management"
       ],
-      "stars": 27951,
+      "stars": 27962,
       "pushed_at": "2026-11-08T23:10:04Z",
       "created_at": "2026-03-01T23:33:44Z",
       "license": "MIT",
@@ -5304,7 +5374,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "stars": 27669,
+      "stars": 27676,
       "pushed_at": "2026-11-12T07:35:19Z",
       "created_at": "2025-02-24T08:03:24Z",
       "license": "MIT",
@@ -5490,7 +5560,7 @@
         "codex-skills",
         "openclaw-skills"
       ],
-      "stars": 27514,
+      "stars": 27518,
       "pushed_at": "2026-11-06T17:20:33Z",
       "created_at": "2026-01-13T03:04:56Z",
       "license": "MIT",
@@ -5617,7 +5687,7 @@
         "watermarking",
         "watermarks"
       ],
-      "stars": 27305,
+      "stars": 27326,
       "pushed_at": "2026-11-09T20:25:47Z",
       "created_at": "2026-08-11T16:32:38Z",
       "license": "MIT",
@@ -5653,7 +5723,7 @@
         "svg",
         "vizualization"
       ],
-      "stars": 27035,
+      "stars": 27069,
       "pushed_at": "2026-10-18T20:20:24Z",
       "created_at": "2026-10-08T10:12:49Z",
       "license": "MIT",
@@ -5696,7 +5766,7 @@
         "openclaw",
         "personal-agent"
       ],
-      "stars": 26552,
+      "stars": 26555,
       "pushed_at": "2026-10-13T05:57:17Z",
       "created_at": "2026-03-30T05:22:23Z",
       "license": "MIT",
@@ -5734,8 +5804,8 @@
         "security-workflow",
         "supply-chain-security"
       ],
-      "stars": 25768,
-      "pushed_at": "2026-11-13T10:55:13Z",
+      "stars": 25802,
+      "pushed_at": "2026-11-13T11:36:55Z",
       "created_at": "2026-03-21T00:28:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -5909,8 +5979,8 @@
         "threejs",
         "webgpu"
       ],
-      "stars": 25487,
-      "pushed_at": "2026-11-12T23:08:51Z",
+      "stars": 25493,
+      "pushed_at": "2026-11-13T14:33:54Z",
       "created_at": "2025-10-16T19:35:06Z",
       "license": "MIT",
       "default_branch": "main",
@@ -5969,8 +6039,8 @@
         "workflow-engine",
         "workflows"
       ],
-      "stars": 24913,
-      "pushed_at": "2026-11-13T10:51:36Z",
+      "stars": 24914,
+      "pushed_at": "2026-11-13T14:47:11Z",
       "created_at": "2020-10-24T07:27:48Z",
       "license": "NOASSERTION",
       "default_branch": "v3-develop",
@@ -6159,7 +6229,7 @@
         "skills",
         "skills-sh"
       ],
-      "stars": 22753,
+      "stars": 22768,
       "pushed_at": "2026-11-13T08:13:40Z",
       "created_at": "2026-04-16T12:51:09Z",
       "license": "MIT",
@@ -6207,7 +6277,7 @@
         "skills",
         "vibe-coding"
       ],
-      "stars": 22221,
+      "stars": 22226,
       "pushed_at": "2026-11-12T10:12:21Z",
       "created_at": "2026-04-06T07:37:02Z",
       "license": "MIT",
@@ -6260,7 +6330,7 @@
         "launch-video",
         "video-generation"
       ],
-      "stars": 21316,
+      "stars": 21347,
       "pushed_at": "2026-10-23T21:18:13Z",
       "created_at": "2026-06-16T19:36:36Z",
       "license": "MIT",
@@ -6304,7 +6374,7 @@
         "sdk",
         "skills"
       ],
-      "stars": 20214,
+      "stars": 20219,
       "pushed_at": "2026-11-08T22:05:28Z",
       "created_at": "2026-01-07T15:27:19Z",
       "license": "MIT",
@@ -6352,7 +6422,7 @@
         "paper-writing",
         "research-automation"
       ],
-      "stars": 19130,
+      "stars": 19140,
       "pushed_at": "2026-11-11T07:39:57Z",
       "created_at": "2026-03-10T07:31:45Z",
       "license": "MIT",
@@ -6549,7 +6619,7 @@
         "video-generation",
         "video-production"
       ],
-      "stars": 19091,
+      "stars": 19125,
       "pushed_at": "2026-11-11T16:30:35Z",
       "created_at": "2026-07-19T11:44:41Z",
       "license": "Apache-2.0",
@@ -6578,7 +6648,7 @@
         "agent-skills",
         "self-evolving-agents"
       ],
-      "stars": 19055,
+      "stars": 19060,
       "pushed_at": "2026-11-10T20:10:50Z",
       "created_at": "2026-05-08T06:41:01Z",
       "license": "MIT",
@@ -6638,7 +6708,7 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 18361,
+      "stars": 18425,
       "pushed_at": "2026-11-13T08:26:46Z",
       "created_at": "2026-09-13T16:31:06Z",
       "license": "Apache-2.0",
@@ -6696,7 +6766,7 @@
         "xiaohongshu",
         "youtube"
       ],
-      "stars": 16495,
+      "stars": 16506,
       "pushed_at": "2026-10-22T18:42:22Z",
       "created_at": "2023-12-04T07:49:16Z",
       "license": "MIT",
@@ -6808,7 +6878,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 16397,
+      "stars": 16410,
       "pushed_at": "2026-10-25T22:24:31Z",
       "created_at": "2026-04-07T08:59:37Z",
       "license": "MIT",
@@ -6898,7 +6968,7 @@
         "llm",
         "prompt-engineering"
       ],
-      "stars": 15902,
+      "stars": 15909,
       "pushed_at": "2026-10-22T13:26:18Z",
       "created_at": "2026-03-11T16:25:43Z",
       "license": "MIT",
@@ -6934,7 +7004,7 @@
         "multi-agent-systems"
       ],
       "stars": 15813,
-      "pushed_at": "2026-11-13T09:46:13Z",
+      "pushed_at": "2026-11-13T12:48:19Z",
       "created_at": "2025-07-29T15:56:02Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -7000,7 +7070,7 @@
         "video-production",
         "webgl"
       ],
-      "stars": 15492,
+      "stars": 15573,
       "pushed_at": "2026-11-12T11:29:03Z",
       "created_at": "2026-09-26T10:10:41Z",
       "license": "NOASSERTION",
@@ -7048,7 +7118,7 @@
         "python",
         "web-scraping"
       ],
-      "stars": 15304,
+      "stars": 15305,
       "pushed_at": "2026-09-30T18:49:17Z",
       "created_at": "2025-10-17T14:43:48Z",
       "license": "MIT",
@@ -7224,7 +7294,7 @@
         "skills",
         "vllm"
       ],
-      "stars": 14512,
+      "stars": 14518,
       "pushed_at": "2026-10-11T02:56:34Z",
       "created_at": "2025-11-03T06:13:06Z",
       "license": "MIT",
@@ -7420,7 +7490,7 @@
         "video-transcription",
         "video-translation"
       ],
-      "stars": 14322,
+      "stars": 14325,
       "pushed_at": "2026-11-10T06:14:02Z",
       "created_at": "2024-12-17T01:59:22Z",
       "license": "Apache-2.0",
@@ -7510,7 +7580,7 @@
         "pptx",
         "typesetting"
       ],
-      "stars": 12534,
+      "stars": 12535,
       "pushed_at": "2026-11-10T02:51:15Z",
       "created_at": "2026-04-20T16:35:19Z",
       "license": "MIT",
@@ -7546,7 +7616,7 @@
         "claude-marketplace",
         "claude-skills"
       ],
-      "stars": 12348,
+      "stars": 12350,
       "pushed_at": "2026-11-11T08:34:48Z",
       "created_at": "2025-10-20T20:27:22Z",
       "license": "MIT",
@@ -7742,7 +7812,7 @@
         "self-hosted",
         "self-improving"
       ],
-      "stars": 11159,
+      "stars": 11160,
       "pushed_at": "2026-11-08T01:41:04Z",
       "created_at": "2026-01-12T00:04:22Z",
       "license": "Apache-2.0",
@@ -7903,7 +7973,7 @@
         "paid-advertising",
         "ppc"
       ],
-      "stars": 10998,
+      "stars": 11006,
       "pushed_at": "2026-11-01T21:08:14Z",
       "created_at": "2026-02-11T13:01:49Z",
       "license": "MIT",
@@ -8081,7 +8151,7 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 10760,
+      "stars": 10761,
       "pushed_at": "2026-10-13T06:56:37Z",
       "created_at": "2026-04-05T11:37:18Z",
       "license": "MIT",
@@ -8131,7 +8201,7 @@
         "terraform",
         "uml"
       ],
-      "stars": 10752,
+      "stars": 10757,
       "pushed_at": "2026-11-10T08:11:10Z",
       "created_at": "2026-03-03T16:54:59Z",
       "license": "MIT",
@@ -8163,7 +8233,7 @@
         "redteam-tools",
         "skills"
       ],
-      "stars": 10682,
+      "stars": 10686,
       "pushed_at": "2026-11-11T13:48:05Z",
       "created_at": "2026-03-04T05:52:35Z",
       "license": "MIT",
@@ -8359,7 +8429,7 @@
         "slide-generator",
         "slides"
       ],
-      "stars": 10663,
+      "stars": 10666,
       "pushed_at": "2026-11-06T08:26:30Z",
       "created_at": "2026-06-10T07:46:43Z",
       "license": "AGPL-3.0",
@@ -8405,14 +8475,18 @@
         "video-generation",
         "workbuddy"
       ],
-      "stars": 9796,
-      "pushed_at": "2026-11-13T10:57:59Z",
+      "stars": 9825,
+      "pushed_at": "2026-11-13T13:55:52Z",
       "created_at": "2026-05-11T09:40:38Z",
       "license": "Apache-2.0",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "skill_count": 9,
+      "skill_count": 10,
       "skills": [
+        {
+          "name": "add-byok-provider",
+          "path": ".agents/skills/add-byok-provider/SKILL.md"
+        },
         {
           "name": "openmotion-brandkit",
           "path": "library/skills/openmotion-brandkit/SKILL.md"
@@ -8480,7 +8554,7 @@
         "skill-md",
         "skills"
       ],
-      "stars": 9513,
+      "stars": 9522,
       "pushed_at": "2026-11-13T02:10:50Z",
       "created_at": "2026-02-02T09:12:57Z",
       "license": "NOASSERTION",
@@ -8685,7 +8759,7 @@
         "seo-mcp",
         "seo-mcp-server"
       ],
-      "stars": 9450,
+      "stars": 9465,
       "pushed_at": "2026-10-27T08:57:55Z",
       "created_at": "2026-08-29T23:37:01Z",
       "license": "MIT",
@@ -8748,7 +8822,7 @@
         "reverse-engineering",
         "saas"
       ],
-      "stars": 9175,
+      "stars": 9193,
       "pushed_at": "2026-10-03T12:07:53Z",
       "created_at": "2026-10-03T12:07:49Z",
       "license": "MIT",
@@ -8824,8 +8898,8 @@
         "design-rules",
         "ui-design"
       ],
-      "stars": 9086,
-      "pushed_at": "2026-11-13T10:52:56Z",
+      "stars": 9104,
+      "pushed_at": "2026-11-13T12:29:58Z",
       "created_at": "2026-08-07T10:29:56Z",
       "license": "MIT",
       "default_branch": "main",
@@ -8887,7 +8961,7 @@
         "pi",
         "spec-driven-development"
       ],
-      "stars": 9048,
+      "stars": 9074,
       "pushed_at": "2026-11-13T01:22:50Z",
       "created_at": "2026-02-27T23:28:01Z",
       "license": "MIT",
@@ -9028,8 +9102,8 @@
         "tmux",
         "typescript"
       ],
-      "stars": 8837,
-      "pushed_at": "2026-11-13T10:23:17Z",
+      "stars": 8839,
+      "pushed_at": "2026-11-13T14:47:58Z",
       "created_at": "2026-04-01T06:22:40Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9230,7 +9304,7 @@
         "trilingual",
         "tutorial"
       ],
-      "stars": 8762,
+      "stars": 8764,
       "pushed_at": "2026-11-10T22:05:12Z",
       "created_at": "2026-05-04T22:18:51Z",
       "license": "MIT",
@@ -9276,7 +9350,7 @@
         "unity",
         "unreal"
       ],
-      "stars": 8678,
+      "stars": 8705,
       "pushed_at": "2026-11-12T07:38:53Z",
       "created_at": "2026-06-24T07:18:39Z",
       "license": "Apache-2.0",
@@ -9482,7 +9556,7 @@
         "writing-assistant",
         "zenstory"
       ],
-      "stars": 8569,
+      "stars": 8573,
       "pushed_at": "2026-11-13T06:27:00Z",
       "created_at": "2026-04-22T16:35:39Z",
       "license": "MIT",
@@ -9702,8 +9776,8 @@
         "vibe-coding",
         "vibecoding"
       ],
-      "stars": 8220,
-      "pushed_at": "2026-11-13T07:47:03Z",
+      "stars": 8226,
+      "pushed_at": "2026-11-13T15:04:13Z",
       "created_at": "2026-07-08T07:40:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -9775,7 +9849,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 8168,
+      "stars": 8170,
       "pushed_at": "2026-11-12T17:48:51Z",
       "created_at": "2026-01-14T18:23:21Z",
       "license": "CC-BY-SA-4.0",
@@ -9970,7 +10044,7 @@
         "wechat",
         "xiaohongshu"
       ],
-      "stars": 8093,
+      "stars": 8094,
       "pushed_at": "2026-10-30T12:48:55Z",
       "created_at": "2026-05-27T12:05:05Z",
       "license": "AGPL-3.0",
@@ -9994,7 +10068,7 @@
       "full_name": "deanpeters/Product-Manager-Skills",
       "url": "https://github.com/deanpeters/Product-Manager-Skills",
       "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
-      "language": "Shell",
+      "language": "Python",
       "topics": [
         "ai-agents",
         "ai-product-management",
@@ -10002,173 +10076,173 @@
         "pm-frameworks",
         "product-management"
       ],
-      "stars": 8006,
-      "pushed_at": "2026-11-12T14:18:51Z",
+      "stars": 8010,
+      "pushed_at": "2026-11-13T15:01:27Z",
       "created_at": "2026-02-05T02:16:46Z",
       "license": "NOASSERTION",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/211423?v=4",
-      "skill_count": 77,
+      "skill_count": 215,
       "skills": [
         {
-          "name": "acquisition-channel-advisor",
-          "path": "skills/acquisition-channel-advisor/SKILL.md"
-        },
-        {
-          "name": "agent-orchestration-advisor",
-          "path": "skills/agent-orchestration-advisor/SKILL.md"
-        },
-        {
-          "name": "ai-shaped-readiness-advisor",
-          "path": "skills/ai-shaped-readiness-advisor/SKILL.md"
-        },
-        {
-          "name": "altitude-horizon-framework",
-          "path": "skills/altitude-horizon-framework/SKILL.md"
-        },
-        {
-          "name": "ansoff-matrix",
-          "path": "skills/ansoff-matrix/SKILL.md"
-        },
-        {
           "name": "autonomous-investigation",
-          "path": "skills/autonomous-investigation/SKILL.md"
+          "path": "plugins/pm-define/skills/autonomous-investigation/SKILL.md"
         },
         {
           "name": "battle-card-builder",
-          "path": "skills/battle-card-builder/SKILL.md"
-        },
-        {
-          "name": "business-health-diagnostic",
-          "path": "skills/business-health-diagnostic/SKILL.md"
-        },
-        {
-          "name": "company-intel",
-          "path": "skills/company-intel/SKILL.md"
-        },
-        {
-          "name": "company-research",
-          "path": "skills/company-research/SKILL.md"
-        },
-        {
-          "name": "competitive-analysis-process",
-          "path": "skills/competitive-analysis-process/SKILL.md"
-        },
-        {
-          "name": "competitive-intel-watch",
-          "path": "skills/competitive-intel-watch/SKILL.md"
-        },
-        {
-          "name": "competitive-research-snapshot",
-          "path": "skills/competitive-research-snapshot/SKILL.md"
-        },
-        {
-          "name": "context-engineering-advisor",
-          "path": "skills/context-engineering-advisor/SKILL.md"
-        },
-        {
-          "name": "customer-journey-map",
-          "path": "skills/customer-journey-map/SKILL.md"
-        },
-        {
-          "name": "customer-journey-mapping-workshop",
-          "path": "skills/customer-journey-mapping-workshop/SKILL.md"
+          "path": "plugins/pm-define/skills/battle-card-builder/SKILL.md"
         },
         {
           "name": "derisk-measurement-advisor",
-          "path": "skills/derisk-measurement-advisor/SKILL.md"
-        },
-        {
-          "name": "director-readiness-advisor",
-          "path": "skills/director-readiness-advisor/SKILL.md"
-        },
-        {
-          "name": "discovery-interview-prep",
-          "path": "skills/discovery-interview-prep/SKILL.md"
-        },
-        {
-          "name": "discovery-process",
-          "path": "skills/discovery-process/SKILL.md"
-        },
-        {
-          "name": "eol-checklist",
-          "path": "skills/eol-checklist/SKILL.md"
-        },
-        {
-          "name": "eol-internal-enablement",
-          "path": "skills/eol-internal-enablement/SKILL.md"
-        },
-        {
-          "name": "eol-message",
-          "path": "skills/eol-message/SKILL.md"
-        },
-        {
-          "name": "eol-process",
-          "path": "skills/eol-process/SKILL.md"
-        },
-        {
-          "name": "eol-readiness-advisor",
-          "path": "skills/eol-readiness-advisor/SKILL.md"
-        },
-        {
-          "name": "eol-stakeholder-sequence",
-          "path": "skills/eol-stakeholder-sequence/SKILL.md"
-        },
-        {
-          "name": "epic-breakdown-advisor",
-          "path": "skills/epic-breakdown-advisor/SKILL.md"
+          "path": "plugins/pm-define/skills/derisk-measurement-advisor/SKILL.md"
         },
         {
           "name": "epic-hypothesis",
-          "path": "skills/epic-hypothesis/SKILL.md"
-        },
-        {
-          "name": "executive-onboarding-playbook",
-          "path": "skills/executive-onboarding-playbook/SKILL.md"
-        },
-        {
-          "name": "feature-investment-advisor",
-          "path": "skills/feature-investment-advisor/SKILL.md"
-        },
-        {
-          "name": "finance-based-pricing-advisor",
-          "path": "skills/finance-based-pricing-advisor/SKILL.md"
-        },
-        {
-          "name": "finance-metrics-quickref",
-          "path": "skills/finance-metrics-quickref/SKILL.md"
-        },
-        {
-          "name": "incoming-request-advisor",
-          "path": "skills/incoming-request-advisor/SKILL.md"
-        },
-        {
-          "name": "intel-discipline-advisor",
-          "path": "skills/intel-discipline-advisor/SKILL.md"
-        },
-        {
-          "name": "intelligence-collection-disciplines",
-          "path": "skills/intelligence-collection-disciplines/SKILL.md"
-        },
-        {
-          "name": "jobs-to-be-done",
-          "path": "skills/jobs-to-be-done/SKILL.md"
+          "path": "plugins/pm-define/skills/epic-hypothesis/SKILL.md"
         },
         {
           "name": "lean-ux-canvas",
-          "path": "skills/lean-ux-canvas/SKILL.md"
+          "path": "plugins/pm-define/skills/lean-ux-canvas/SKILL.md"
+        },
+        {
+          "name": "pm-skill-creator",
+          "path": "plugins/pm-define/skills/pm-skill-creator/SKILL.md"
+        },
+        {
+          "name": "pm-skills-navigator",
+          "path": "plugins/pm-define/skills/pm-skills-navigator/SKILL.md"
+        },
+        {
+          "name": "pol-probe-advisor",
+          "path": "plugins/pm-define/skills/pol-probe-advisor/SKILL.md"
+        },
+        {
+          "name": "pol-probe",
+          "path": "plugins/pm-define/skills/pol-probe/SKILL.md"
+        },
+        {
+          "name": "positioning-statement",
+          "path": "plugins/pm-define/skills/positioning-statement/SKILL.md"
+        },
+        {
+          "name": "positioning-workshop",
+          "path": "plugins/pm-define/skills/positioning-workshop/SKILL.md"
+        },
+        {
+          "name": "recommendation-canvas",
+          "path": "plugins/pm-define/skills/recommendation-canvas/SKILL.md"
+        },
+        {
+          "name": "skill-authoring-workflow",
+          "path": "plugins/pm-define/skills/skill-authoring-workflow/SKILL.md"
+        },
+        {
+          "name": "workshop-facilitation",
+          "path": "plugins/pm-define/skills/workshop-facilitation/SKILL.md"
+        },
+        {
+          "name": "acquisition-channel-advisor",
+          "path": "plugins/pm-deliver/skills/acquisition-channel-advisor/SKILL.md"
+        },
+        {
+          "name": "activation-design",
+          "path": "plugins/pm-deliver/skills/activation-design/SKILL.md"
+        },
+        {
+          "name": "autonomous-investigation",
+          "path": "plugins/pm-deliver/skills/autonomous-investigation/SKILL.md"
+        },
+        {
+          "name": "buying-journey-enablement",
+          "path": "plugins/pm-deliver/skills/buying-journey-enablement/SKILL.md"
+        },
+        {
+          "name": "eol-checklist",
+          "path": "plugins/pm-deliver/skills/eol-checklist/SKILL.md"
+        },
+        {
+          "name": "eol-internal-enablement",
+          "path": "plugins/pm-deliver/skills/eol-internal-enablement/SKILL.md"
+        },
+        {
+          "name": "eol-message",
+          "path": "plugins/pm-deliver/skills/eol-message/SKILL.md"
+        },
+        {
+          "name": "eol-process",
+          "path": "plugins/pm-deliver/skills/eol-process/SKILL.md"
+        },
+        {
+          "name": "eol-readiness-advisor",
+          "path": "plugins/pm-deliver/skills/eol-readiness-advisor/SKILL.md"
+        },
+        {
+          "name": "eol-stakeholder-sequence",
+          "path": "plugins/pm-deliver/skills/eol-stakeholder-sequence/SKILL.md"
+        },
+        {
+          "name": "finance-based-pricing-advisor",
+          "path": "plugins/pm-deliver/skills/finance-based-pricing-advisor/SKILL.md"
+        },
+        {
+          "name": "launch-metrics",
+          "path": "plugins/pm-deliver/skills/launch-metrics/SKILL.md"
+        },
+        {
+          "name": "launch-plan",
+          "path": "plugins/pm-deliver/skills/launch-plan/SKILL.md"
         },
         {
           "name": "lifecycle-play-advisor",
-          "path": "skills/lifecycle-play-advisor/SKILL.md"
+          "path": "plugins/pm-deliver/skills/lifecycle-play-advisor/SKILL.md"
         },
         {
-          "name": "market-landscape-scan",
-          "path": "skills/market-landscape-scan/SKILL.md"
+          "name": "message-house",
+          "path": "plugins/pm-deliver/skills/message-house/SKILL.md"
         },
         {
-          "name": "opportunity-solution-tree",
-          "path": "skills/opportunity-solution-tree/SKILL.md"
+          "name": "pm-skill-creator",
+          "path": "plugins/pm-deliver/skills/pm-skill-creator/SKILL.md"
+        },
+        {
+          "name": "pm-skills-navigator",
+          "path": "plugins/pm-deliver/skills/pm-skills-navigator/SKILL.md"
+        },
+        {
+          "name": "pricing-packaging-tracker",
+          "path": "plugins/pm-deliver/skills/pricing-packaging-tracker/SKILL.md"
+        },
+        {
+          "name": "product-lifecycle-plays",
+          "path": "plugins/pm-deliver/skills/product-lifecycle-plays/SKILL.md"
+        },
+        {
+          "name": "retention-diagnostic-advisor",
+          "path": "plugins/pm-deliver/skills/retention-diagnostic-advisor/SKILL.md"
+        },
+        {
+          "name": "sales-value-narrative",
+          "path": "plugins/pm-deliver/skills/sales-value-narrative/SKILL.md"
+        },
+        {
+          "name": "skill-authoring-workflow",
+          "path": "plugins/pm-deliver/skills/skill-authoring-workflow/SKILL.md"
+        },
+        {
+          "name": "workshop-facilitation",
+          "path": "plugins/pm-deliver/skills/workshop-facilitation/SKILL.md"
+        },
+        {
+          "name": "ansoff-matrix",
+          "path": "plugins/pm-determine/skills/ansoff-matrix/SKILL.md"
+        },
+        {
+          "name": "autonomous-investigation",
+          "path": "plugins/pm-determine/skills/autonomous-investigation/SKILL.md"
+        },
+        {
+          "name": "business-health-diagnostic",
+          "path": "plugins/pm-determine/skills/business-health-diagnostic/SKILL.md"
         }
       ],
       "agents": [
@@ -10195,7 +10269,7 @@
         "web-scraper",
         "web-scraping"
       ],
-      "stars": 7996,
+      "stars": 8006,
       "pushed_at": "2026-11-08T10:51:13Z",
       "created_at": "2023-04-22T14:35:13Z",
       "license": "MIT",
@@ -10233,7 +10307,7 @@
         "presentation",
         "skill"
       ],
-      "stars": 7861,
+      "stars": 7867,
       "pushed_at": "2026-10-13T13:04:15Z",
       "created_at": "2026-04-26T07:34:32Z",
       "license": "MIT",
@@ -10278,8 +10352,8 @@
         "videomd",
         "vlm"
       ],
-      "stars": 7719,
-      "pushed_at": "2026-11-13T08:19:51Z",
+      "stars": 7810,
+      "pushed_at": "2026-11-13T13:38:03Z",
       "created_at": "2026-10-29T16:15:01Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -10315,7 +10389,7 @@
         "skills",
         "superpowers"
       ],
-      "stars": 7581,
+      "stars": 7582,
       "pushed_at": "2026-11-11T07:02:04Z",
       "created_at": "2026-03-12T00:35:56Z",
       "license": "MIT",
@@ -10420,7 +10494,7 @@
         "vibe-workflow",
         "workflow"
       ],
-      "stars": 7553,
+      "stars": 7554,
       "pushed_at": "2026-11-02T09:51:50Z",
       "created_at": "2024-02-19T11:04:30Z",
       "license": "NOASSERTION",
@@ -10453,7 +10527,7 @@
         "day-trading",
         "stock-market"
       ],
-      "stars": 7510,
+      "stars": 7550,
       "pushed_at": "2026-10-20T14:18:00Z",
       "created_at": "2026-10-20T14:17:54Z",
       "license": "MIT",
@@ -10537,7 +10611,7 @@
         "meta-ads-mcp",
         "seo"
       ],
-      "stars": 7474,
+      "stars": 7487,
       "pushed_at": "2026-10-27T08:57:53Z",
       "created_at": "2026-01-21T10:15:35Z",
       "license": null,
@@ -10739,7 +10813,7 @@
         "visual-editor"
       ],
       "stars": 7451,
-      "pushed_at": "2026-11-13T09:30:26Z",
+      "pushed_at": "2026-11-13T11:41:38Z",
       "created_at": "2025-08-25T03:57:40Z",
       "license": "NOASSERTION",
       "default_branch": "main",
@@ -10940,7 +11014,7 @@
         "prompt-engineering",
         "prompt-optimization"
       ],
-      "stars": 7422,
+      "stars": 7424,
       "pushed_at": "2026-11-09T12:46:31Z",
       "created_at": "2025-08-05T09:26:27Z",
       "license": "MIT",
@@ -10974,7 +11048,7 @@
         "sprite-sheet",
         "vfx"
       ],
-      "stars": 7260,
+      "stars": 7285,
       "pushed_at": "2026-11-13T08:43:39Z",
       "created_at": "2026-10-30T06:43:25Z",
       "license": "MIT",
@@ -11020,7 +11094,7 @@
         "web3",
         "x402"
       ],
-      "stars": 7112,
+      "stars": 7113,
       "pushed_at": "2026-10-26T12:55:11Z",
       "created_at": "2026-06-16T13:20:01Z",
       "license": "NOASSERTION",
@@ -11222,7 +11296,7 @@
         "reverse-image-search",
         "satellite-imagery"
       ],
-      "stars": 6949,
+      "stars": 6954,
       "pushed_at": "2026-11-09T13:31:34Z",
       "created_at": "2026-09-18T08:51:34Z",
       "license": "MIT",
@@ -11267,7 +11341,7 @@
         "self-improving",
         "skills"
       ],
-      "stars": 6906,
+      "stars": 6907,
       "pushed_at": "2026-09-18T13:16:41Z",
       "created_at": "2026-04-13T08:57:49Z",
       "license": "MIT",
@@ -11306,7 +11380,7 @@
         "skills",
         "video"
       ],
-      "stars": 6850,
+      "stars": 6856,
       "pushed_at": "2026-11-10T01:40:26Z",
       "created_at": "2026-10-06T04:49:37Z",
       "license": "MIT",
@@ -11341,7 +11415,7 @@
         "moxt",
         "svg"
       ],
-      "stars": 6845,
+      "stars": 6849,
       "pushed_at": "2026-11-12T08:29:24Z",
       "created_at": "2026-07-16T11:17:49Z",
       "license": "NOASSERTION",
@@ -11376,7 +11450,7 @@
         "logo-design",
         "svg"
       ],
-      "stars": 6777,
+      "stars": 6808,
       "pushed_at": "2026-11-06T07:40:27Z",
       "created_at": "2026-09-26T08:23:34Z",
       "license": "MIT",
@@ -11416,7 +11490,7 @@
         "translationese",
         "writing"
       ],
-      "stars": 6525,
+      "stars": 6527,
       "pushed_at": "2026-10-12T09:57:11Z",
       "created_at": "2026-04-24T12:48:40Z",
       "license": "MIT",
@@ -11799,7 +11873,7 @@
         "openai-client",
         "openclaw"
       ],
-      "stars": 6389,
+      "stars": 6388,
       "pushed_at": "2026-11-13T03:04:31Z",
       "created_at": "2025-02-14T01:56:51Z",
       "license": "Apache-2.0",
@@ -11935,7 +12009,7 @@
         "social-media-research",
         "workflow-automation"
       ],
-      "stars": 6381,
+      "stars": 6387,
       "pushed_at": "2026-08-26T17:26:01Z",
       "created_at": "2026-06-06T21:47:43Z",
       "license": "MIT",
@@ -12032,7 +12106,7 @@
         "watermark-removal",
         "watermark-remover"
       ],
-      "stars": 6368,
+      "stars": 6371,
       "pushed_at": "2026-11-13T05:44:58Z",
       "created_at": "2026-03-25T18:15:24Z",
       "license": "Apache-2.0",
@@ -12087,7 +12161,7 @@
         "web-scraping",
         "web-scraping-api"
       ],
-      "stars": 6347,
+      "stars": 6349,
       "pushed_at": "2026-11-04T10:27:29Z",
       "created_at": "2026-02-06T10:35:35Z",
       "license": "MIT",
@@ -12284,7 +12358,7 @@
         "llm",
         "ste100"
       ],
-      "stars": 6301,
+      "stars": 6302,
       "pushed_at": "2026-11-11T19:55:14Z",
       "created_at": "2026-10-02T09:57:40Z",
       "license": "MIT",
@@ -12311,7 +12385,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 6108,
+      "stars": 6121,
       "pushed_at": "2026-11-12T15:52:10Z",
       "created_at": "2026-02-03T22:51:09Z",
       "license": "MIT",
@@ -12507,7 +12581,7 @@
         "research-figures",
         "text-to-image"
       ],
-      "stars": 6092,
+      "stars": 6093,
       "pushed_at": "2026-11-08T22:34:08Z",
       "created_at": "2026-04-22T11:27:21Z",
       "license": "MIT",
@@ -12546,7 +12620,7 @@
         "office-automation",
         "presentation-slides"
       ],
-      "stars": 6075,
+      "stars": 6076,
       "pushed_at": "2026-11-13T10:18:04Z",
       "created_at": "2026-04-14T06:21:51Z",
       "license": "MIT",
@@ -12720,6 +12794,41 @@
       "rank": 114
     },
     {
+      "full_name": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill",
+      "description": "极致轻量｜阻止论文的防御性写作 | Anti-defensive writing for academic papers — 学术写作原则 Skill + prompt pack (CN/EN)",
+      "language": "Python",
+      "topics": [
+        "academic-writing",
+        "ai-writing",
+        "claude-skill",
+        "paper-writing",
+        "prompt"
+      ],
+      "stars": 6075,
+      "pushed_at": "2026-10-27T13:01:00Z",
+      "created_at": "2026-08-11T18:02:07Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/169631528?v=4",
+      "skill_count": 2,
+      "skills": [
+        {
+          "name": "anti-defensive-writing-en",
+          "path": "skills/anti-defensive-writing-en/SKILL.md"
+        },
+        {
+          "name": "anti-defensive-writing",
+          "path": "skills/anti-defensive-writing/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 115
+    },
+    {
       "full_name": "antfu/skills",
       "url": "https://github.com/antfu/skills",
       "description": "Anthony Fu's curated collection of agent skills.",
@@ -12795,7 +12904,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 115
+      "rank": 116
     },
     {
       "full_name": "dmmulroy/anti-slop",
@@ -12808,7 +12917,7 @@
         "oxlint",
         "typescript"
       ],
-      "stars": 6059,
+      "stars": 6062,
       "pushed_at": "2026-10-14T00:18:33Z",
       "created_at": "2026-08-12T13:48:50Z",
       "license": "MIT",
@@ -12822,41 +12931,6 @@
         }
       ],
       "agents": [],
-      "gained": null,
-      "rank": 116
-    },
-    {
-      "full_name": "Adkid-Zephyr/anti-defensive-writing-Skill",
-      "url": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill",
-      "description": "极致轻量｜阻止论文的防御性写作 | Anti-defensive writing for academic papers — 学术写作原则 Skill + prompt pack (CN/EN)",
-      "language": "Python",
-      "topics": [
-        "academic-writing",
-        "ai-writing",
-        "claude-skill",
-        "paper-writing",
-        "prompt"
-      ],
-      "stars": 6032,
-      "pushed_at": "2026-10-27T13:01:00Z",
-      "created_at": "2026-08-11T18:02:07Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/169631528?v=4",
-      "skill_count": 2,
-      "skills": [
-        {
-          "name": "anti-defensive-writing-en",
-          "path": "skills/anti-defensive-writing-en/SKILL.md"
-        },
-        {
-          "name": "anti-defensive-writing",
-          "path": "skills/anti-defensive-writing/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
       "gained": null,
       "rank": 117
     },
@@ -12887,7 +12961,7 @@
         "skill-md",
         "social-media-automation"
       ],
-      "stars": 5880,
+      "stars": 5888,
       "pushed_at": "2026-11-10T11:05:23Z",
       "created_at": "2026-04-14T16:35:45Z",
       "license": "MIT",
@@ -13030,8 +13104,8 @@
         "security-tools",
         "web-security"
       ],
-      "stars": 5660,
-      "pushed_at": "2026-11-12T12:50:21Z",
+      "stars": 5688,
+      "pushed_at": "2026-11-13T12:18:16Z",
       "created_at": "2026-05-05T11:22:32Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13218,7 +13292,7 @@
         "pixel-art",
         "sprite-generator"
       ],
-      "stars": 5647,
+      "stars": 5671,
       "pushed_at": "2026-11-13T01:41:03Z",
       "created_at": "2026-04-23T20:52:52Z",
       "license": "MIT",
@@ -13281,8 +13355,8 @@
         "scientific-computing",
         "scientific-research"
       ],
-      "stars": 5523,
-      "pushed_at": "2026-11-13T10:42:49Z",
+      "stars": 5524,
+      "pushed_at": "2026-11-13T14:54:18Z",
       "created_at": "2026-07-03T02:50:10Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -13507,7 +13581,7 @@
         "vscode"
       ],
       "stars": 5411,
-      "pushed_at": "2026-11-13T10:50:29Z",
+      "pushed_at": "2026-11-13T14:56:32Z",
       "created_at": "2022-02-01T16:42:30Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13596,8 +13670,8 @@
         "video-editing",
         "whisper"
       ],
-      "stars": 5360,
-      "pushed_at": "2026-11-13T10:52:28Z",
+      "stars": 5389,
+      "pushed_at": "2026-11-13T13:04:52Z",
       "created_at": "2026-09-03T14:33:38Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13705,7 +13779,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 5312,
+      "stars": 5313,
       "pushed_at": "2026-11-10T21:34:25Z",
       "created_at": "2026-03-24T11:58:12Z",
       "license": "MIT",
@@ -13793,7 +13867,7 @@
         "skills",
         "ui-design"
       ],
-      "stars": 5160,
+      "stars": 5162,
       "pushed_at": "2026-09-06T09:01:39Z",
       "created_at": "2026-08-13T07:19:54Z",
       "license": "MIT",
@@ -13845,7 +13919,7 @@
         "tailwind",
         "web-scraping"
       ],
-      "stars": 5072,
+      "stars": 5073,
       "pushed_at": "2026-11-13T00:59:00Z",
       "created_at": "2026-04-15T10:11:22Z",
       "license": "MIT",
@@ -13963,6 +14037,48 @@
       "rank": 128
     },
     {
+      "full_name": "nateherkai/scroll-craft",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "agent-skills",
+        "ai-web-design",
+        "anthropic",
+        "claude-code",
+        "claude-code-plugin",
+        "creative-coding",
+        "design-system",
+        "frontend",
+        "interaction-design",
+        "landing-page",
+        "scroll-animation",
+        "scrollytelling",
+        "typography",
+        "web-design"
+      ],
+      "stars": 5024,
+      "pushed_at": "2026-09-30T13:31:42Z",
+      "created_at": "2026-08-22T15:25:08Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/253835467?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "scroll-craft",
+          "path": "plugins/nateherk-design/skills/scroll-craft/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 129
+    },
+    {
       "full_name": "brycewang-stanford/Auto-Empirical-Research-Skills",
       "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
       "description": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
@@ -13986,7 +14102,7 @@
         "social-science",
         "sociology"
       ],
-      "stars": 5013,
+      "stars": 5014,
       "pushed_at": "2026-11-09T13:27:49Z",
       "created_at": "2026-04-03T06:31:20Z",
       "license": "NOASSERTION",
@@ -14157,48 +14273,6 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 129
-    },
-    {
-      "full_name": "nateherkai/scroll-craft",
-      "url": "https://github.com/nateherkai/scroll-craft",
-      "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
-      "language": "JavaScript",
-      "topics": [
-        "accessibility",
-        "agent-skills",
-        "ai-web-design",
-        "anthropic",
-        "claude-code",
-        "claude-code-plugin",
-        "creative-coding",
-        "design-system",
-        "frontend",
-        "interaction-design",
-        "landing-page",
-        "scroll-animation",
-        "scrollytelling",
-        "typography",
-        "web-design"
-      ],
-      "stars": 5011,
-      "pushed_at": "2026-09-30T13:31:42Z",
-      "created_at": "2026-08-22T15:25:08Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/253835467?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "scroll-craft",
-          "path": "plugins/nateherk-design/skills/scroll-craft/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
       "rank": 130
     },
     {
@@ -14228,7 +14302,7 @@
         "vision",
         "vision-transformer"
       ],
-      "stars": 4950,
+      "stars": 4952,
       "pushed_at": "2026-11-07T16:37:02Z",
       "created_at": "2026-02-22T07:12:00Z",
       "license": "MIT",
@@ -14322,8 +14396,8 @@
         "second-brain",
         "skills"
       ],
-      "stars": 4835,
-      "pushed_at": "2026-11-13T10:53:47Z",
+      "stars": 4836,
+      "pushed_at": "2026-11-13T13:43:56Z",
       "created_at": "2026-06-03T11:12:40Z",
       "license": "GPL-3.0",
       "default_branch": "main",
@@ -14437,7 +14511,7 @@
         "mcp-tools",
         "vscode-extension"
       ],
-      "stars": 4707,
+      "stars": 4708,
       "pushed_at": "2026-11-13T00:37:21Z",
       "created_at": "2025-06-21T20:43:25Z",
       "license": "MIT",
@@ -14628,7 +14702,7 @@
         "social-media",
         "social-media-management"
       ],
-      "stars": 4654,
+      "stars": 4660,
       "pushed_at": "2026-11-12T05:23:31Z",
       "created_at": "2026-08-28T02:22:27Z",
       "license": "Apache-2.0",
@@ -14818,7 +14892,7 @@
         "terminal",
         "web"
       ],
-      "stars": 4623,
+      "stars": 4627,
       "pushed_at": "2026-11-13T00:37:03Z",
       "created_at": "2026-07-06T16:31:11Z",
       "license": "MIT",
@@ -14837,6 +14911,34 @@
       ],
       "gained": null,
       "rank": 136
+    },
+    {
+      "full_name": "KKKKhazix/human-writing",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "description": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "chinese-writing",
+        "creative-writing",
+        "writing-skill"
+      ],
+      "stars": 4585,
+      "pushed_at": "2026-11-11T17:25:42Z",
+      "created_at": "2026-08-05T01:19:41Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "human-writing",
+          "path": "human-writing/SKILL.md"
+        }
+      ],
+      "agents": [],
+      "gained": null,
+      "rank": 137
     },
     {
       "full_name": "xianyu110/awesome-openclaw-tutorial",
@@ -14865,7 +14967,7 @@
         "self-hosted",
         "tutorial"
       ],
-      "stars": 4582,
+      "stars": 4581,
       "pushed_at": "2026-10-04T03:18:13Z",
       "created_at": "2026-02-10T02:37:59Z",
       "license": "NOASSERTION",
@@ -14887,34 +14989,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 137
-    },
-    {
-      "full_name": "KKKKhazix/human-writing",
-      "url": "https://github.com/KKKKhazix/human-writing",
-      "description": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "chinese-writing",
-        "creative-writing",
-        "writing-skill"
-      ],
-      "stars": 4580,
-      "pushed_at": "2026-11-11T17:25:42Z",
-      "created_at": "2026-08-05T01:19:41Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "human-writing",
-          "path": "human-writing/SKILL.md"
-        }
-      ],
-      "agents": [],
-      "gained": null,
       "rank": 138
     },
     {
@@ -14930,7 +15004,7 @@
         "pose-control",
         "qwen-image"
       ],
-      "stars": 4370,
+      "stars": 4376,
       "pushed_at": "2026-10-26T16:43:07Z",
       "created_at": "2026-10-13T03:09:42Z",
       "license": "Apache-2.0",
@@ -14971,7 +15045,7 @@
         "wechat",
         "weixin"
       ],
-      "stars": 4342,
+      "stars": 4346,
       "pushed_at": "2026-10-21T03:53:41Z",
       "created_at": "2026-07-01T04:28:03Z",
       "license": "NOASSERTION",
@@ -15019,7 +15093,7 @@
         "opencode",
         "pstack"
       ],
-      "stars": 4278,
+      "stars": 4285,
       "pushed_at": "2026-11-13T01:06:15Z",
       "created_at": "2026-05-26T13:26:00Z",
       "license": "MIT",
@@ -15224,7 +15298,7 @@
         "video-prompts",
         "zenstory"
       ],
-      "stars": 4183,
+      "stars": 4192,
       "pushed_at": "2026-11-10T12:23:14Z",
       "created_at": "2026-07-16T16:11:19Z",
       "license": "MIT",
@@ -15306,7 +15380,7 @@
         "stock-research",
         "supply-chain"
       ],
-      "stars": 4162,
+      "stars": 4163,
       "pushed_at": "2026-10-11T06:10:53Z",
       "created_at": "2026-05-04T06:24:37Z",
       "license": "MIT",
@@ -15343,7 +15417,7 @@
         "metaads",
         "seo"
       ],
-      "stars": 4143,
+      "stars": 4145,
       "pushed_at": "2026-11-11T09:09:17Z",
       "created_at": "2026-03-27T06:39:58Z",
       "license": "MIT",
@@ -15534,7 +15608,7 @@
         "prototyping",
         "skills"
       ],
-      "stars": 4124,
+      "stars": 4126,
       "pushed_at": "2026-10-31T19:25:06Z",
       "created_at": "2026-06-09T23:24:51Z",
       "license": "MIT",
@@ -15601,7 +15675,7 @@
         "pstack-claude",
         "skills"
       ],
-      "stars": 4103,
+      "stars": 4111,
       "pushed_at": "2026-11-11T20:42:44Z",
       "created_at": "2026-05-27T02:30:34Z",
       "license": "MIT",
@@ -15802,7 +15876,7 @@
         "traditional-chinese-medicine",
         "traditional-chinese-medicine-healthcare"
       ],
-      "stars": 4089,
+      "stars": 4092,
       "pushed_at": "2026-10-28T08:45:38Z",
       "created_at": "2026-04-14T07:49:54Z",
       "license": null,
@@ -15836,7 +15910,7 @@
         "motion-graphics",
         "video"
       ],
-      "stars": 4080,
+      "stars": 4089,
       "pushed_at": "2026-11-05T03:52:15Z",
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
@@ -15920,7 +15994,7 @@
         "skills",
         "tui"
       ],
-      "stars": 3965,
+      "stars": 3967,
       "pushed_at": "2026-11-10T23:42:01Z",
       "created_at": "2025-01-18T20:39:51Z",
       "license": "Apache-2.0",
@@ -15966,7 +16040,7 @@
         "robotics",
         "simulation"
       ],
-      "stars": 3959,
+      "stars": 3966,
       "pushed_at": "2026-11-12T14:09:43Z",
       "created_at": "2026-02-25T21:54:05Z",
       "license": "Apache-2.0",
@@ -16167,7 +16241,7 @@
         "skill-management",
         "skills"
       ],
-      "stars": 3877,
+      "stars": 3879,
       "pushed_at": "2026-11-09T14:06:42Z",
       "created_at": "2026-02-15T19:18:12Z",
       "license": "CC-BY-4.0",
@@ -16208,7 +16282,7 @@
         "scope-control",
         "yagni"
       ],
-      "stars": 3870,
+      "stars": 3875,
       "pushed_at": "2026-11-10T05:55:32Z",
       "created_at": "2026-08-11T15:31:45Z",
       "license": "MIT",
@@ -16267,7 +16341,7 @@
         "skillsmp",
         "vibe-coding"
       ],
-      "stars": 3844,
+      "stars": 3845,
       "pushed_at": "2026-11-08T21:55:32Z",
       "created_at": "2026-03-21T23:10:11Z",
       "license": "MIT",
@@ -16669,7 +16743,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 3802,
+      "stars": 3806,
       "pushed_at": "2026-11-03T05:53:57Z",
       "created_at": "2026-08-28T05:56:49Z",
       "license": "MIT",
@@ -16737,7 +16811,7 @@
         "wechat-public-account",
         "weixin"
       ],
-      "stars": 3797,
+      "stars": 3799,
       "pushed_at": "2026-10-14T16:18:24Z",
       "created_at": "2026-01-11T06:36:13Z",
       "license": "NOASSERTION",
@@ -16779,7 +16853,7 @@
         "steering",
         "subagents"
       ],
-      "stars": 3763,
+      "stars": 3764,
       "pushed_at": "2026-10-22T03:43:11Z",
       "created_at": "2025-07-17T04:41:37Z",
       "license": "MIT",
@@ -16982,7 +17056,7 @@
         "web-hosting",
         "zero-configuration"
       ],
-      "stars": 3759,
+      "stars": 3760,
       "pushed_at": "2026-09-12T05:23:49Z",
       "created_at": "2025-04-13T01:41:33Z",
       "license": "MIT",
@@ -17052,8 +17126,8 @@
         "video-generation",
         "zbrush"
       ],
-      "stars": 3747,
-      "pushed_at": "2026-11-12T19:21:10Z",
+      "stars": 3750,
+      "pushed_at": "2026-11-13T14:09:04Z",
       "created_at": "2026-08-12T10:08:49Z",
       "license": "MIT",
       "default_branch": "main",
@@ -17247,7 +17321,7 @@
         "plugin-marketplace",
         "subagents"
       ],
-      "stars": 3741,
+      "stars": 3742,
       "pushed_at": "2026-11-13T07:12:33Z",
       "created_at": "2025-07-25T02:26:45Z",
       "license": "MIT",
@@ -17447,7 +17521,7 @@
         "second-brain",
         "wiki"
       ],
-      "stars": 3722,
+      "stars": 3724,
       "pushed_at": "2026-11-12T12:15:04Z",
       "created_at": "2026-04-06T06:20:10Z",
       "license": "MIT",
@@ -17651,7 +17725,7 @@
         "subagents",
         "tutorial"
       ],
-      "stars": 3694,
+      "stars": 3696,
       "pushed_at": "2026-11-13T00:25:01Z",
       "created_at": "2025-08-17T14:45:39Z",
       "license": "NOASSERTION",
@@ -17745,7 +17819,7 @@
         "opencode",
         "security"
       ],
-      "stars": 3692,
+      "stars": 3695,
       "pushed_at": "2026-11-12T05:36:15Z",
       "created_at": "2026-02-01T23:49:52Z",
       "license": "MIT",
@@ -17830,7 +17904,7 @@
         "risograph",
         "zine"
       ],
-      "stars": 3645,
+      "stars": 3646,
       "pushed_at": "2026-09-02T18:49:42Z",
       "created_at": "2026-08-19T06:07:45Z",
       "license": "MIT",
@@ -17860,7 +17934,7 @@
         "skills",
         "trading"
       ],
-      "stars": 3533,
+      "stars": 3534,
       "pushed_at": "2026-11-04T06:45:41Z",
       "created_at": "2026-03-13T23:56:06Z",
       "license": "MIT",
@@ -17993,7 +18067,7 @@
         "content-marketing",
         "linkedin"
       ],
-      "stars": 3522,
+      "stars": 3526,
       "pushed_at": "2026-09-17T11:27:52Z",
       "created_at": "2026-09-07T22:58:16Z",
       "license": "MIT",
@@ -18065,7 +18139,7 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3464,
+      "stars": 3489,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
@@ -18149,7 +18223,7 @@
         "openmuse",
         "personal-agent"
       ],
-      "stars": 3450,
+      "stars": 3457,
       "pushed_at": "2026-11-13T06:49:04Z",
       "created_at": "2026-09-23T06:13:06Z",
       "license": "GPL-3.0",
@@ -18228,7 +18302,7 @@
         "openai",
         "skills"
       ],
-      "stars": 3372,
+      "stars": 3373,
       "pushed_at": "2026-11-08T17:31:29Z",
       "created_at": "2023-04-02T14:00:07Z",
       "license": "CC0-1.0",
@@ -18273,7 +18347,7 @@
         "web-automation",
         "web-testing-automation"
       ],
-      "stars": 3290,
+      "stars": 3291,
       "pushed_at": "2026-11-01T07:36:27Z",
       "created_at": "2025-10-19T21:33:51Z",
       "license": "MIT",
@@ -18315,7 +18389,7 @@
         "typescript",
         "video-generation"
       ],
-      "stars": 3274,
+      "stars": 3280,
       "pushed_at": "2026-11-09T15:26:15Z",
       "created_at": "2026-09-08T17:19:54Z",
       "license": "NOASSERTION",
@@ -18357,7 +18431,7 @@
         "swiftui",
         "swiftui-components"
       ],
-      "stars": 3272,
+      "stars": 3273,
       "pushed_at": "2026-11-12T03:56:56Z",
       "created_at": "2025-12-15T05:50:38Z",
       "license": "MIT",
@@ -18412,7 +18486,7 @@
         "programming-books",
         "refactoring"
       ],
-      "stars": 3260,
+      "stars": 3263,
       "pushed_at": "2026-09-10T11:21:47Z",
       "created_at": "2026-04-16T16:58:19Z",
       "license": "MIT",
@@ -18486,6 +18560,41 @@
       "rank": 174
     },
     {
+      "full_name": "oil-oil/oil-ui",
+      "url": "https://github.com/oil-oil/oil-ui",
+      "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-design",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "frontend",
+        "ui-design",
+        "ux-design"
+      ],
+      "stars": 3250,
+      "pushed_at": "2026-11-11T04:56:08Z",
+      "created_at": "2026-09-30T03:55:35Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "oil-ui",
+          "path": "SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 175
+    },
+    {
       "full_name": "Forward-Future/loopy",
       "url": "https://github.com/Forward-Future/loopy",
       "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
@@ -18519,41 +18628,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 175
-    },
-    {
-      "full_name": "oil-oil/oil-ui",
-      "url": "https://github.com/oil-oil/oil-ui",
-      "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "ai-design",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "frontend",
-        "ui-design",
-        "ux-design"
-      ],
-      "stars": 3237,
-      "pushed_at": "2026-11-11T04:56:08Z",
-      "created_at": "2026-09-30T03:55:35Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "oil-ui",
-          "path": "SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
       "rank": 176
     },
     {
@@ -18577,7 +18651,7 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 3212,
+      "stars": 3223,
       "pushed_at": "2026-11-12T00:28:35Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
@@ -18614,7 +18688,7 @@
         "skills"
       ],
       "stars": 3201,
-      "pushed_at": "2026-11-12T18:10:26Z",
+      "pushed_at": "2026-11-13T11:04:08Z",
       "created_at": "2026-01-16T18:34:20Z",
       "license": "MIT",
       "default_branch": "main",
@@ -18809,7 +18883,7 @@
         "ux",
         "wcag"
       ],
-      "stars": 3166,
+      "stars": 3165,
       "pushed_at": "2026-11-10T07:20:20Z",
       "created_at": "2026-03-16T13:08:49Z",
       "license": "MIT",
@@ -18959,8 +19033,8 @@
         "seo",
         "social-media-marketing"
       ],
-      "stars": 3139,
-      "pushed_at": "2026-11-13T04:43:22Z",
+      "stars": 3140,
+      "pushed_at": "2026-11-13T13:48:09Z",
       "created_at": "2025-12-18T03:35:29Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -19159,7 +19233,7 @@
         "video-editing",
         "video-editor"
       ],
-      "stars": 3095,
+      "stars": 3100,
       "pushed_at": "2026-11-12T12:08:42Z",
       "created_at": "2026-07-15T02:49:42Z",
       "license": "AGPL-3.0",
@@ -19314,7 +19388,7 @@
         "testing",
         "web-performance"
       ],
-      "stars": 3078,
+      "stars": 3079,
       "pushed_at": "2026-08-24T21:07:36Z",
       "created_at": "2026-01-18T10:53:04Z",
       "license": "MIT",
@@ -19380,8 +19454,8 @@
         "tauri",
         "workflow-automation"
       ],
-      "stars": 3006,
-      "pushed_at": "2026-11-13T10:35:13Z",
+      "stars": 3010,
+      "pushed_at": "2026-11-13T13:58:55Z",
       "created_at": "2026-07-24T07:28:41Z",
       "license": "MIT",
       "default_branch": "main",
@@ -19563,7 +19637,7 @@
         "react",
         "tailwindcss"
       ],
-      "stars": 2956,
+      "stars": 2958,
       "pushed_at": "2026-09-14T03:26:53Z",
       "created_at": "2026-07-22T00:34:24Z",
       "license": "Apache-2.0",
@@ -19610,7 +19684,7 @@
         "workflow",
         "worktrees"
       ],
-      "stars": 2954,
+      "stars": 2955,
       "pushed_at": "2026-09-29T10:12:13Z",
       "created_at": "2026-02-01T19:47:29Z",
       "license": null,
@@ -19811,8 +19885,8 @@
         "saas",
         "skills"
       ],
-      "stars": 2917,
-      "pushed_at": "2026-11-13T07:26:12Z",
+      "stars": 2918,
+      "pushed_at": "2026-11-13T14:57:06Z",
       "created_at": "2025-10-10T01:01:00Z",
       "license": "MIT",
       "default_branch": "main",
@@ -20012,7 +20086,7 @@
         "skills",
         "web-animation"
       ],
-      "stars": 2894,
+      "stars": 2896,
       "pushed_at": "2026-10-04T14:54:13Z",
       "created_at": "2026-08-07T12:36:33Z",
       "license": "MIT",
@@ -20143,7 +20217,7 @@
         "video-generation",
         "vox"
       ],
-      "stars": 2809,
+      "stars": 2813,
       "pushed_at": "2026-10-05T16:15:11Z",
       "created_at": "2026-07-10T15:32:05Z",
       "license": "MIT",
@@ -20189,7 +20263,7 @@
         "open-source",
         "seo"
       ],
-      "stars": 2737,
+      "stars": 2739,
       "pushed_at": "2026-11-03T00:20:12Z",
       "created_at": "2026-02-17T22:40:44Z",
       "license": "MIT",
@@ -20544,246 +20618,6 @@
       "rank": 193
     },
     {
-      "full_name": "wondelai/skills",
-      "url": "https://github.com/wondelai/skills",
-      "description": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
-      "language": "Shell",
-      "topics": [
-        "agent-skills",
-        "ai-skills",
-        "business",
-        "claude-code",
-        "claude-code-marketplace",
-        "claude-code-plugin",
-        "claude-code-skills",
-        "claude-plugins",
-        "claude-skills",
-        "code-quality",
-        "frameworks",
-        "marketing",
-        "product-strategy",
-        "skill-md",
-        "skillsmp",
-        "ux"
-      ],
-      "stars": 2684,
-      "pushed_at": "2026-11-02T14:12:55Z",
-      "created_at": "2026-01-29T13:54:15Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/138923546?v=4",
-      "skill_count": 196,
-      "skills": [
-        {
-          "name": "37signals-way",
-          "path": "37signals-way/SKILL.md"
-        },
-        {
-          "name": "architecture-optimization",
-          "path": "architecture-optimization/SKILL.md"
-        },
-        {
-          "name": "blue-ocean-strategy",
-          "path": "blue-ocean-strategy/SKILL.md"
-        },
-        {
-          "name": "clean-architecture",
-          "path": "clean-architecture/SKILL.md"
-        },
-        {
-          "name": "clean-code",
-          "path": "clean-code/SKILL.md"
-        },
-        {
-          "name": "cold-start-problem",
-          "path": "cold-start-problem/SKILL.md"
-        },
-        {
-          "name": "contagious",
-          "path": "contagious/SKILL.md"
-        },
-        {
-          "name": "continuous-discovery",
-          "path": "continuous-discovery/SKILL.md"
-        },
-        {
-          "name": "conversion-optimization",
-          "path": "conversion-optimization/SKILL.md"
-        },
-        {
-          "name": "create-app",
-          "path": "create-app/SKILL.md"
-        },
-        {
-          "name": "create-business",
-          "path": "create-business/SKILL.md"
-        },
-        {
-          "name": "create-website",
-          "path": "create-website/SKILL.md"
-        },
-        {
-          "name": "cro-methodology",
-          "path": "cro-methodology/SKILL.md"
-        },
-        {
-          "name": "crossing-the-chasm",
-          "path": "crossing-the-chasm/SKILL.md"
-        },
-        {
-          "name": "ddia-systems",
-          "path": "ddia-systems/SKILL.md"
-        },
-        {
-          "name": "design-code-architecture",
-          "path": "design-code-architecture/SKILL.md"
-        },
-        {
-          "name": "design-everyday-things",
-          "path": "design-everyday-things/SKILL.md"
-        },
-        {
-          "name": "design-sprint",
-          "path": "design-sprint/SKILL.md"
-        },
-        {
-          "name": "domain-driven-design",
-          "path": "domain-driven-design/SKILL.md"
-        },
-        {
-          "name": "drive-motivation",
-          "path": "drive-motivation/SKILL.md"
-        },
-        {
-          "name": "good-strategy-bad-strategy",
-          "path": "good-strategy-bad-strategy/SKILL.md"
-        },
-        {
-          "name": "grow-app",
-          "path": "grow-app/SKILL.md"
-        },
-        {
-          "name": "grow-business",
-          "path": "grow-business/SKILL.md"
-        },
-        {
-          "name": "grow-website",
-          "path": "grow-website/SKILL.md"
-        },
-        {
-          "name": "high-output-management",
-          "path": "high-output-management/SKILL.md"
-        },
-        {
-          "name": "high-perf-browser",
-          "path": "high-perf-browser/SKILL.md"
-        },
-        {
-          "name": "hooked-ux",
-          "path": "hooked-ux/SKILL.md"
-        },
-        {
-          "name": "hundred-million-offers",
-          "path": "hundred-million-offers/SKILL.md"
-        },
-        {
-          "name": "improve-app",
-          "path": "improve-app/SKILL.md"
-        },
-        {
-          "name": "improve-business",
-          "path": "improve-business/SKILL.md"
-        },
-        {
-          "name": "improve-code-quality",
-          "path": "improve-code-quality/SKILL.md"
-        },
-        {
-          "name": "improve-retention",
-          "path": "improve-retention/SKILL.md"
-        },
-        {
-          "name": "improve-website",
-          "path": "improve-website/SKILL.md"
-        },
-        {
-          "name": "influence-psychology",
-          "path": "influence-psychology/SKILL.md"
-        },
-        {
-          "name": "inspired-product",
-          "path": "inspired-product/SKILL.md"
-        },
-        {
-          "name": "ios-hig-design",
-          "path": "ios-hig-design/SKILL.md"
-        },
-        {
-          "name": "jobs-to-be-done",
-          "path": "jobs-to-be-done/SKILL.md"
-        },
-        {
-          "name": "lean-analytics",
-          "path": "lean-analytics/SKILL.md"
-        },
-        {
-          "name": "lean-startup",
-          "path": "lean-startup/SKILL.md"
-        },
-        {
-          "name": "lean-ux",
-          "path": "lean-ux/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex",
-        "cursor"
-      ],
-      "gained": null,
-      "rank": 194
-    },
-    {
-      "full_name": "alchaincyf/huashu-motion",
-      "url": "https://github.com/alchaincyf/huashu-motion",
-      "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "animation",
-        "claude-code",
-        "claude-code-skills",
-        "claude-skills",
-        "codex",
-        "explainer-video",
-        "gsap",
-        "huashu-skills",
-        "launch-video",
-        "motion-graphics",
-        "skills",
-        "video"
-      ],
-      "stars": 2680,
-      "pushed_at": "2026-11-10T00:15:11Z",
-      "created_at": "2026-10-18T12:19:27Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "huashu-motion",
-          "path": "skills/huashu-motion/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
-      ],
-      "gained": null,
-      "rank": 195
-    },
-    {
       "full_name": "arjun988/blender-skills",
       "url": "https://github.com/arjun988/blender-skills",
       "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
@@ -20801,7 +20635,7 @@
         "game-development",
         "mcp"
       ],
-      "stars": 2665,
+      "stars": 2702,
       "pushed_at": "2026-11-06T08:42:41Z",
       "created_at": "2026-07-05T08:36:06Z",
       "license": "MIT",
@@ -20976,6 +20810,246 @@
         "cursor"
       ],
       "gained": null,
+      "rank": 194
+    },
+    {
+      "full_name": "wondelai/skills",
+      "url": "https://github.com/wondelai/skills",
+      "description": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "ai-skills",
+        "business",
+        "claude-code",
+        "claude-code-marketplace",
+        "claude-code-plugin",
+        "claude-code-skills",
+        "claude-plugins",
+        "claude-skills",
+        "code-quality",
+        "frameworks",
+        "marketing",
+        "product-strategy",
+        "skill-md",
+        "skillsmp",
+        "ux"
+      ],
+      "stars": 2685,
+      "pushed_at": "2026-11-13T13:37:16Z",
+      "created_at": "2026-01-29T13:54:15Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/138923546?v=4",
+      "skill_count": 196,
+      "skills": [
+        {
+          "name": "37signals-way",
+          "path": "37signals-way/SKILL.md"
+        },
+        {
+          "name": "architecture-optimization",
+          "path": "architecture-optimization/SKILL.md"
+        },
+        {
+          "name": "blue-ocean-strategy",
+          "path": "blue-ocean-strategy/SKILL.md"
+        },
+        {
+          "name": "clean-architecture",
+          "path": "clean-architecture/SKILL.md"
+        },
+        {
+          "name": "clean-code",
+          "path": "clean-code/SKILL.md"
+        },
+        {
+          "name": "cold-start-problem",
+          "path": "cold-start-problem/SKILL.md"
+        },
+        {
+          "name": "contagious",
+          "path": "contagious/SKILL.md"
+        },
+        {
+          "name": "continuous-discovery",
+          "path": "continuous-discovery/SKILL.md"
+        },
+        {
+          "name": "conversion-optimization",
+          "path": "conversion-optimization/SKILL.md"
+        },
+        {
+          "name": "create-app",
+          "path": "create-app/SKILL.md"
+        },
+        {
+          "name": "create-business",
+          "path": "create-business/SKILL.md"
+        },
+        {
+          "name": "create-website",
+          "path": "create-website/SKILL.md"
+        },
+        {
+          "name": "cro-methodology",
+          "path": "cro-methodology/SKILL.md"
+        },
+        {
+          "name": "crossing-the-chasm",
+          "path": "crossing-the-chasm/SKILL.md"
+        },
+        {
+          "name": "ddia-systems",
+          "path": "ddia-systems/SKILL.md"
+        },
+        {
+          "name": "design-code-architecture",
+          "path": "design-code-architecture/SKILL.md"
+        },
+        {
+          "name": "design-everyday-things",
+          "path": "design-everyday-things/SKILL.md"
+        },
+        {
+          "name": "design-sprint",
+          "path": "design-sprint/SKILL.md"
+        },
+        {
+          "name": "domain-driven-design",
+          "path": "domain-driven-design/SKILL.md"
+        },
+        {
+          "name": "drive-motivation",
+          "path": "drive-motivation/SKILL.md"
+        },
+        {
+          "name": "good-strategy-bad-strategy",
+          "path": "good-strategy-bad-strategy/SKILL.md"
+        },
+        {
+          "name": "grow-app",
+          "path": "grow-app/SKILL.md"
+        },
+        {
+          "name": "grow-business",
+          "path": "grow-business/SKILL.md"
+        },
+        {
+          "name": "grow-website",
+          "path": "grow-website/SKILL.md"
+        },
+        {
+          "name": "high-output-management",
+          "path": "high-output-management/SKILL.md"
+        },
+        {
+          "name": "high-perf-browser",
+          "path": "high-perf-browser/SKILL.md"
+        },
+        {
+          "name": "hooked-ux",
+          "path": "hooked-ux/SKILL.md"
+        },
+        {
+          "name": "hundred-million-offers",
+          "path": "hundred-million-offers/SKILL.md"
+        },
+        {
+          "name": "improve-app",
+          "path": "improve-app/SKILL.md"
+        },
+        {
+          "name": "improve-business",
+          "path": "improve-business/SKILL.md"
+        },
+        {
+          "name": "improve-code-quality",
+          "path": "improve-code-quality/SKILL.md"
+        },
+        {
+          "name": "improve-retention",
+          "path": "improve-retention/SKILL.md"
+        },
+        {
+          "name": "improve-website",
+          "path": "improve-website/SKILL.md"
+        },
+        {
+          "name": "influence-psychology",
+          "path": "influence-psychology/SKILL.md"
+        },
+        {
+          "name": "inspired-product",
+          "path": "inspired-product/SKILL.md"
+        },
+        {
+          "name": "ios-hig-design",
+          "path": "ios-hig-design/SKILL.md"
+        },
+        {
+          "name": "jobs-to-be-done",
+          "path": "jobs-to-be-done/SKILL.md"
+        },
+        {
+          "name": "lean-analytics",
+          "path": "lean-analytics/SKILL.md"
+        },
+        {
+          "name": "lean-startup",
+          "path": "lean-startup/SKILL.md"
+        },
+        {
+          "name": "lean-ux",
+          "path": "lean-ux/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "gained": null,
+      "rank": 195
+    },
+    {
+      "full_name": "alchaincyf/huashu-motion",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "explainer-video",
+        "gsap",
+        "huashu-skills",
+        "launch-video",
+        "motion-graphics",
+        "skills",
+        "video"
+      ],
+      "stars": 2684,
+      "pushed_at": "2026-11-10T00:15:11Z",
+      "created_at": "2026-10-18T12:19:27Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "huashu-motion",
+          "path": "skills/huashu-motion/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
       "rank": 196
     },
     {
@@ -21048,7 +21122,7 @@
         "text-quality",
         "writing"
       ],
-      "stars": 2607,
+      "stars": 2610,
       "pushed_at": "2026-11-13T08:44:45Z",
       "created_at": "2026-03-22T17:22:11Z",
       "license": "MIT",
@@ -21211,7 +21285,7 @@
         "paperasse",
         "skills"
       ],
-      "stars": 2594,
+      "stars": 2595,
       "pushed_at": "2026-11-12T15:12:52Z",
       "created_at": "2026-02-05T17:51:26Z",
       "license": "MIT",
@@ -21389,7 +21463,7 @@
         "video-production",
         "youtube-shorts"
       ],
-      "stars": 2542,
+      "stars": 2544,
       "pushed_at": "2026-11-12T18:32:50Z",
       "created_at": "2025-12-09T20:33:03Z",
       "license": "MIT",
@@ -21498,8 +21572,8 @@
         "text-to-video",
         "video-generation"
       ],
-      "stars": 2525,
-      "pushed_at": "2026-11-13T09:41:54Z",
+      "stars": 2528,
+      "pushed_at": "2026-11-13T14:42:05Z",
       "created_at": "2026-08-26T16:23:56Z",
       "license": "MIT",
       "default_branch": "main",
@@ -21601,8 +21675,8 @@
         "subagents",
         "tdd"
       ],
-      "stars": 2497,
-      "pushed_at": "2026-11-13T10:50:22Z",
+      "stars": 2522,
+      "pushed_at": "2026-11-13T15:05:21Z",
       "created_at": "2026-05-10T10:11:33Z",
       "license": "MIT",
       "default_branch": "main",
@@ -21686,7 +21760,7 @@
         "apify",
         "mcp"
       ],
-      "stars": 2497,
+      "stars": 2498,
       "pushed_at": "2026-11-11T20:01:51Z",
       "created_at": "2026-01-07T13:37:31Z",
       "license": null,
@@ -21734,7 +21808,7 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2467,
+      "stars": 2473,
       "pushed_at": "2026-11-13T07:38:10Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
@@ -21809,7 +21883,7 @@
         "mcp",
         "prompt-engineering"
       ],
-      "stars": 2430,
+      "stars": 2431,
       "pushed_at": "2026-10-19T00:12:05Z",
       "created_at": "2026-05-15T21:32:21Z",
       "license": "MIT",
@@ -21828,6 +21902,54 @@
       ],
       "gained": null,
       "rank": 208
+    },
+    {
+      "full_name": "Mahanaicoach/google-maps-scraper-kit",
+      "url": "https://github.com/Mahanaicoach/google-maps-scraper-kit",
+      "description": "Free, open-source Google Maps scraper for lead generation (Python, no API key, no Docker). Exports name, phone, email, website, rating and Instagram/Facebook/LinkedIn/TikTok/YouTube/X links to CSV. 100 places with emails in 44 s; --grid beats Google's 120 cap. MX email check, ad-pixel detection. Skill for Claude Code, Codex and Cursor.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "b2b-leads",
+        "claude-code",
+        "claude-skills",
+        "codex-skills",
+        "email-extractor",
+        "email-scraper",
+        "google-maps",
+        "google-maps-extractor",
+        "google-maps-leads",
+        "google-maps-scraper",
+        "google-maps-scraper-python",
+        "google-maps-scraping",
+        "googlemaps-scraper",
+        "headless-chrome",
+        "lead-generation",
+        "lead-scraper",
+        "no-api-key",
+        "python",
+        "web-scraping"
+      ],
+      "stars": 2418,
+      "pushed_at": "2026-11-12T16:51:22Z",
+      "created_at": "2026-06-21T11:33:57Z",
+      "license": "MIT",
+      "default_branch": "master",
+      "avatar": "https://avatars.githubusercontent.com/u/260144904?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "google-maps-scraper",
+          "path": ".claude/skills/google-maps-scraper/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "gained": null,
+      "rank": 209
     },
     {
       "full_name": "FrancyJGLisboa/agent-skills-platform",
@@ -21890,54 +22012,6 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 209
-    },
-    {
-      "full_name": "Mahanaicoach/google-maps-scraper-kit",
-      "url": "https://github.com/Mahanaicoach/google-maps-scraper-kit",
-      "description": "Free, open-source Google Maps scraper for lead generation (Python, no API key, no Docker). Exports name, phone, email, website, rating and Instagram/Facebook/LinkedIn/TikTok/YouTube/X links to CSV. 100 places with emails in 44 s; --grid beats Google's 120 cap. MX email check, ad-pixel detection. Skill for Claude Code, Codex and Cursor.",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "b2b-leads",
-        "claude-code",
-        "claude-skills",
-        "codex-skills",
-        "email-extractor",
-        "email-scraper",
-        "google-maps",
-        "google-maps-extractor",
-        "google-maps-leads",
-        "google-maps-scraper",
-        "google-maps-scraper-python",
-        "google-maps-scraping",
-        "googlemaps-scraper",
-        "headless-chrome",
-        "lead-generation",
-        "lead-scraper",
-        "no-api-key",
-        "python",
-        "web-scraping"
-      ],
-      "stars": 2414,
-      "pushed_at": "2026-11-12T16:51:22Z",
-      "created_at": "2026-06-21T11:33:57Z",
-      "license": "MIT",
-      "default_branch": "master",
-      "avatar": "https://avatars.githubusercontent.com/u/260144904?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "google-maps-scraper",
-          "path": ".claude/skills/google-maps-scraper/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex",
-        "cursor"
-      ],
-      "gained": null,
       "rank": 210
     },
     {
@@ -21987,6 +22061,41 @@
       "rank": 211
     },
     {
+      "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+      "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "archives",
+        "claude-code",
+        "codex",
+        "family-history",
+        "familysearch",
+        "genealogy",
+        "ussr"
+      ],
+      "stars": 2402,
+      "pushed_at": "2026-11-12T22:24:06Z",
+      "created_at": "2026-10-25T10:05:56Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "ex-ussr-kinship-research",
+          "path": "SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 212
+    },
+    {
       "full_name": "coldteadotai/pr-lens",
       "url": "https://github.com/coldteadotai/pr-lens",
       "description": "The fastest way to understand code",
@@ -22008,8 +22117,8 @@
         "system-design",
         "text-to-diagram"
       ],
-      "stars": 2398,
-      "pushed_at": "2026-11-08T18:55:47Z",
+      "stars": 2399,
+      "pushed_at": "2026-11-13T11:17:07Z",
       "created_at": "2026-08-20T19:16:16Z",
       "license": "MIT",
       "default_branch": "main",
@@ -22033,41 +22142,6 @@
         "claude",
         "codex",
         "opencode"
-      ],
-      "gained": null,
-      "rank": 212
-    },
-    {
-      "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
-      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
-      "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "archives",
-        "claude-code",
-        "codex",
-        "family-history",
-        "familysearch",
-        "genealogy",
-        "ussr"
-      ],
-      "stars": 2394,
-      "pushed_at": "2026-11-12T22:24:06Z",
-      "created_at": "2026-10-25T10:05:56Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "ex-ussr-kinship-research",
-          "path": "SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex"
       ],
       "gained": null,
       "rank": 213
@@ -22245,7 +22319,7 @@
         "training"
       ],
       "stars": 2310,
-      "pushed_at": "2026-11-13T10:53:44Z",
+      "pushed_at": "2026-11-13T12:40:26Z",
       "created_at": "2022-01-04T10:29:46Z",
       "license": "MPL-2.0",
       "default_branch": "master",
@@ -22288,7 +22362,7 @@
         "talking-head",
         "video-production"
       ],
-      "stars": 2302,
+      "stars": 2306,
       "pushed_at": "2026-11-09T02:29:30Z",
       "created_at": "2026-08-22T17:11:05Z",
       "license": "NOASSERTION",
@@ -22323,7 +22397,7 @@
         "kotlin",
         "kotlin-multiplatform"
       ],
-      "stars": 2284,
+      "stars": 2289,
       "pushed_at": "2026-10-29T04:27:53Z",
       "created_at": "2026-08-20T08:46:15Z",
       "license": "GPL-3.0",
@@ -22409,7 +22483,7 @@
         "vertical-drama",
         "workbuddy"
       ],
-      "stars": 2271,
+      "stars": 2281,
       "pushed_at": "2026-11-03T22:32:47Z",
       "created_at": "2026-10-13T20:35:18Z",
       "license": "CC0-1.0",
@@ -22574,7 +22648,7 @@
         "obsidian",
         "wiki"
       ],
-      "stars": 2254,
+      "stars": 2255,
       "pushed_at": "2026-11-11T01:19:54Z",
       "created_at": "2026-04-05T19:53:06Z",
       "license": "MIT",
@@ -22610,7 +22684,7 @@
         "traditional-chinese-medicine",
         "traditional-chinese-medicine-healthcare"
       ],
-      "stars": 2247,
+      "stars": 2249,
       "pushed_at": "2026-11-07T14:53:06Z",
       "created_at": "2026-05-27T02:01:16Z",
       "license": null,
@@ -22653,7 +22727,7 @@
         "terminal",
         "ui"
       ],
-      "stars": 2241,
+      "stars": 2242,
       "pushed_at": "2026-10-22T22:20:37Z",
       "created_at": "2026-03-03T07:46:57Z",
       "license": "NOASSERTION",
@@ -22708,7 +22782,7 @@
         "skill-collection",
         "skills"
       ],
-      "stars": 2187,
+      "stars": 2189,
       "pushed_at": "2026-11-13T02:01:09Z",
       "created_at": "2026-03-02T02:02:25Z",
       "license": "MIT",
@@ -22960,8 +23034,8 @@
         "tdd",
         "visual-planning"
       ],
-      "stars": 2145,
-      "pushed_at": "2026-11-13T10:02:55Z",
+      "stars": 2144,
+      "pushed_at": "2026-11-13T12:33:41Z",
       "created_at": "2025-10-18T08:30:23Z",
       "license": "NOASSERTION",
       "default_branch": "main",
@@ -23022,7 +23096,7 @@
         "ui-design",
         "visual-design"
       ],
-      "stars": 2120,
+      "stars": 2121,
       "pushed_at": "2026-08-28T01:58:49Z",
       "created_at": "2026-03-23T10:10:39Z",
       "license": "MIT",
@@ -23141,7 +23215,7 @@
         "claude-skills",
         "codex-skill"
       ],
-      "stars": 2031,
+      "stars": 2039,
       "pushed_at": "2026-11-11T15:34:09Z",
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",
@@ -23255,7 +23329,7 @@
         "claude-skills",
         "plugins"
       ],
-      "stars": 1991,
+      "stars": 1992,
       "pushed_at": "2026-11-05T04:02:31Z",
       "created_at": "2025-10-22T06:42:09Z",
       "license": null,
@@ -23385,7 +23459,7 @@
         "skills",
         "svg"
       ],
-      "stars": 1963,
+      "stars": 1964,
       "pushed_at": "2026-11-13T03:39:25Z",
       "created_at": "2026-07-13T07:31:56Z",
       "license": "MIT",
@@ -23417,7 +23491,7 @@
         "productivity",
         "self-learning"
       ],
-      "stars": 1945,
+      "stars": 1946,
       "pushed_at": "2026-10-03T05:33:46Z",
       "created_at": "2026-01-03T20:51:36Z",
       "license": "MIT",
@@ -23437,6 +23511,92 @@
       "rank": 234
     },
     {
+      "full_name": "Kiterlin/anti-defensive-writing",
+      "url": "https://github.com/Kiterlin/anti-defensive-writing",
+      "description": "Codex skill for removing defensive writing and strengthening prose.",
+      "language": "PowerShell",
+      "topics": [
+        "academic-writing",
+        "agent-skill",
+        "codex",
+        "codex-skill",
+        "editing",
+        "writing"
+      ],
+      "stars": 1946,
+      "pushed_at": "2026-10-17T14:11:48Z",
+      "created_at": "2026-06-23T03:07:25Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/90394100?v=4",
+      "skill_count": 2,
+      "skills": [
+        {
+          "name": "anti-defensive-writing",
+          "path": "SKILL.md"
+        },
+        {
+          "name": "anti-defensive-writing",
+          "path": "skill/anti-defensive-writing/SKILL.md"
+        }
+      ],
+      "agents": [
+        "codex"
+      ],
+      "gained": null,
+      "rank": 235
+    },
+    {
+      "full_name": "OpenOSINT/OpenOSINT",
+      "url": "https://github.com/OpenOSINT/OpenOSINT",
+      "description": "Open-source OSINT agent: 21 public-source tools behind natural-language chat, an MCP server and a Claude Code plugin. Passive by default, no keys to start.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "attack-surface",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cybersecurity",
+        "dmarc",
+        "domain-security",
+        "holehe",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "osint",
+        "osint-agent",
+        "osint-tools",
+        "passive-reconnaissance",
+        "reconnaissance",
+        "sherlock",
+        "threat-intelligence"
+      ],
+      "stars": 1933,
+      "pushed_at": "2026-11-12T11:00:39Z",
+      "created_at": "2026-05-06T11:12:42Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/281987694?v=4",
+      "skill_count": 2,
+      "skills": [
+        {
+          "name": "exposure",
+          "path": "skills/exposure/SKILL.md"
+        },
+        {
+          "name": "osint",
+          "path": "skills/osint/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 236
+    },
+    {
       "full_name": "XiaoMaColtAI/math-modeling-skill",
       "url": "https://github.com/XiaoMaColtAI/math-modeling-skill",
       "description": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本",
@@ -23453,7 +23613,7 @@
         "skills",
         "vibe-coding"
       ],
-      "stars": 1931,
+      "stars": 1929,
       "pushed_at": "2026-11-12T22:07:31Z",
       "created_at": "2026-01-24T03:29:18Z",
       "license": null,
@@ -23547,92 +23707,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 235
-    },
-    {
-      "full_name": "OpenOSINT/OpenOSINT",
-      "url": "https://github.com/OpenOSINT/OpenOSINT",
-      "description": "Open-source OSINT agent: 21 public-source tools behind natural-language chat, an MCP server and a Claude Code plugin. Passive by default, no keys to start.",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "ai-agent",
-        "attack-surface",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cybersecurity",
-        "dmarc",
-        "domain-security",
-        "holehe",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "osint",
-        "osint-agent",
-        "osint-tools",
-        "passive-reconnaissance",
-        "reconnaissance",
-        "sherlock",
-        "threat-intelligence"
-      ],
-      "stars": 1930,
-      "pushed_at": "2026-11-12T11:00:39Z",
-      "created_at": "2026-05-06T11:12:42Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/281987694?v=4",
-      "skill_count": 2,
-      "skills": [
-        {
-          "name": "exposure",
-          "path": "skills/exposure/SKILL.md"
-        },
-        {
-          "name": "osint",
-          "path": "skills/osint/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 236
-    },
-    {
-      "full_name": "Kiterlin/anti-defensive-writing",
-      "url": "https://github.com/Kiterlin/anti-defensive-writing",
-      "description": "Codex skill for removing defensive writing and strengthening prose.",
-      "language": "PowerShell",
-      "topics": [
-        "academic-writing",
-        "agent-skill",
-        "codex",
-        "codex-skill",
-        "editing",
-        "writing"
-      ],
-      "stars": 1928,
-      "pushed_at": "2026-10-17T14:11:48Z",
-      "created_at": "2026-06-23T03:07:25Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/90394100?v=4",
-      "skill_count": 2,
-      "skills": [
-        {
-          "name": "anti-defensive-writing",
-          "path": "SKILL.md"
-        },
-        {
-          "name": "anti-defensive-writing",
-          "path": "skill/anti-defensive-writing/SKILL.md"
-        }
-      ],
-      "agents": [
-        "codex"
-      ],
-      "gained": null,
       "rank": 237
     },
     {
@@ -23661,7 +23735,7 @@
         "trustworthy-ai",
         "vibe-coding"
       ],
-      "stars": 1909,
+      "stars": 1910,
       "pushed_at": "2026-11-01T17:01:59Z",
       "created_at": "2026-01-05T15:26:53Z",
       "license": "MIT",
@@ -23852,7 +23926,7 @@
         "seo"
       ],
       "stars": 1908,
-      "pushed_at": "2026-11-12T14:53:15Z",
+      "pushed_at": "2026-11-13T14:17:58Z",
       "created_at": "2026-01-17T06:43:21Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -23941,7 +24015,7 @@
         "postgresql",
         "skills"
       ],
-      "stars": 1883,
+      "stars": 1884,
       "pushed_at": "2026-11-12T20:58:38Z",
       "created_at": "2025-07-23T16:40:10Z",
       "license": "Apache-2.0",
@@ -24019,8 +24093,8 @@
         "skills-manager",
         "tauri"
       ],
-      "stars": 1870,
-      "pushed_at": "2026-11-01T11:56:15Z",
+      "stars": 1871,
+      "pushed_at": "2026-11-13T14:49:50Z",
       "created_at": "2026-01-25T03:31:21Z",
       "license": "MIT",
       "default_branch": "main",
@@ -24100,13 +24174,13 @@
         "legal-ai",
         "legaltech"
       ],
-      "stars": 1832,
-      "pushed_at": "2026-11-13T10:14:34Z",
+      "stars": 1835,
+      "pushed_at": "2026-11-13T12:31:30Z",
       "created_at": "2026-05-18T16:43:56Z",
       "license": "Apache-2.0",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/39582916?v=4",
-      "skill_count": 18850,
+      "skill_count": 18848,
       "skills": [
         {
           "name": "abmahnung-reagieren",
@@ -24292,7 +24366,7 @@
         "rust",
         "style-guide"
       ],
-      "stars": 1804,
+      "stars": 1805,
       "pushed_at": "2026-11-08T17:21:11Z",
       "created_at": "2026-10-23T03:01:11Z",
       "license": "MIT",
@@ -24324,77 +24398,6 @@
       "rank": 243
     },
     {
-      "full_name": "mex-memory/mex",
-      "url": "https://github.com/mex-memory/mex",
-      "description": "Team memory for engineers and their AI agents. Lives in your repo. Shared through Git.",
-      "language": "TypeScript",
-      "topics": [
-        "agent-skill",
-        "agent-skills",
-        "claude-code",
-        "claude-code-skills",
-        "cli-tool",
-        "code-graph",
-        "codex",
-        "context-management",
-        "cursor",
-        "developer-tools",
-        "documentation",
-        "git",
-        "knowledge-graph",
-        "llm",
-        "mcp-server",
-        "memory-management",
-        "project-memory",
-        "tree-sitter",
-        "typescript"
-      ],
-      "stars": 1796,
-      "pushed_at": "2026-11-13T10:43:38Z",
-      "created_at": "2026-03-21T10:34:18Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/295542747?v=4",
-      "skill_count": 7,
-      "skills": [
-        {
-          "name": "mex-inbox",
-          "path": ".agents/skills/mex-inbox/SKILL.md"
-        },
-        {
-          "name": "mex-relay",
-          "path": ".agents/skills/mex-relay/SKILL.md"
-        },
-        {
-          "name": "mex-inbox",
-          "path": ".claude/skills/mex-inbox/SKILL.md"
-        },
-        {
-          "name": "mex-relay",
-          "path": ".claude/skills/mex-relay/SKILL.md"
-        },
-        {
-          "name": "mex-inbox",
-          "path": "skills/mex-inbox/SKILL.md"
-        },
-        {
-          "name": "mex-relay",
-          "path": "skills/mex-relay/SKILL.md"
-        },
-        {
-          "name": "mex-statechart",
-          "path": "skills/mex-statechart/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude",
-        "codex",
-        "cursor"
-      ],
-      "gained": null,
-      "rank": 244
-    },
-    {
       "full_name": "daveebbelaar/bama",
       "url": "https://github.com/daveebbelaar/bama",
       "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
@@ -24416,7 +24419,7 @@
         "swiftdata",
         "swiftui"
       ],
-      "stars": 1794,
+      "stars": 1797,
       "pushed_at": "2026-11-05T13:09:56Z",
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
@@ -24514,6 +24517,77 @@
         "codex"
       ],
       "gained": null,
+      "rank": 244
+    },
+    {
+      "full_name": "mex-memory/mex",
+      "url": "https://github.com/mex-memory/mex",
+      "description": "Team memory for engineers and their AI agents. Lives in your repo. Shared through Git.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skill",
+        "agent-skills",
+        "claude-code",
+        "claude-code-skills",
+        "cli-tool",
+        "code-graph",
+        "codex",
+        "context-management",
+        "cursor",
+        "developer-tools",
+        "documentation",
+        "git",
+        "knowledge-graph",
+        "llm",
+        "mcp-server",
+        "memory-management",
+        "project-memory",
+        "tree-sitter",
+        "typescript"
+      ],
+      "stars": 1796,
+      "pushed_at": "2026-11-13T11:35:08Z",
+      "created_at": "2026-03-21T10:34:18Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/295542747?v=4",
+      "skill_count": 7,
+      "skills": [
+        {
+          "name": "mex-inbox",
+          "path": ".agents/skills/mex-inbox/SKILL.md"
+        },
+        {
+          "name": "mex-relay",
+          "path": ".agents/skills/mex-relay/SKILL.md"
+        },
+        {
+          "name": "mex-inbox",
+          "path": ".claude/skills/mex-inbox/SKILL.md"
+        },
+        {
+          "name": "mex-relay",
+          "path": ".claude/skills/mex-relay/SKILL.md"
+        },
+        {
+          "name": "mex-inbox",
+          "path": "skills/mex-inbox/SKILL.md"
+        },
+        {
+          "name": "mex-relay",
+          "path": "skills/mex-relay/SKILL.md"
+        },
+        {
+          "name": "mex-statechart",
+          "path": "skills/mex-statechart/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "gained": null,
       "rank": 245
     },
     {
@@ -24556,7 +24630,7 @@
         "investing",
         "stock-market"
       ],
-      "stars": 1767,
+      "stars": 1771,
       "pushed_at": "2026-10-14T21:13:22Z",
       "created_at": "2026-10-14T21:12:28Z",
       "license": "MIT",
@@ -24629,7 +24703,7 @@
         "subtitles",
         "transcription"
       ],
-      "stars": 1761,
+      "stars": 1762,
       "pushed_at": "2026-11-12T00:37:54Z",
       "created_at": "2026-07-13T07:06:42Z",
       "license": "NOASSERTION",
@@ -24790,7 +24864,7 @@
         "spider",
         "zhipin"
       ],
-      "stars": 1754,
+      "stars": 1755,
       "pushed_at": "2026-11-03T09:16:46Z",
       "created_at": "2026-06-11T14:48:30Z",
       "license": "MIT",
@@ -24935,7 +25009,7 @@
         "research-workflow",
         "stata"
       ],
-      "stars": 1705,
+      "stars": 1706,
       "pushed_at": "2026-11-07T21:42:50Z",
       "created_at": "2026-02-06T17:29:50Z",
       "license": "MIT",
@@ -25128,7 +25202,7 @@
         "python",
         "self-hosted"
       ],
-      "stars": 1702,
+      "stars": 1703,
       "pushed_at": "2026-11-12T05:47:58Z",
       "created_at": "2025-07-13T06:16:21Z",
       "license": "Apache-2.0",
@@ -25310,7 +25384,7 @@
         "workflow-automation"
       ],
       "stars": 1667,
-      "pushed_at": "2026-11-13T10:48:11Z",
+      "pushed_at": "2026-11-13T13:15:59Z",
       "created_at": "2025-10-14T08:00:48Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -25474,7 +25548,7 @@
         "rag",
         "video"
       ],
-      "stars": 1660,
+      "stars": 1661,
       "pushed_at": "2026-11-05T07:47:42Z",
       "created_at": "2026-07-19T07:07:42Z",
       "license": "NOASSERTION",
@@ -25530,7 +25604,7 @@
         "procedural-generation",
         "skill"
       ],
-      "stars": 1654,
+      "stars": 1659,
       "pushed_at": "2026-11-05T20:35:49Z",
       "created_at": "2026-09-22T11:20:47Z",
       "license": "Apache-2.0",
@@ -25579,7 +25653,7 @@
         "postgres",
         "rag"
       ],
-      "stars": 1654,
+      "stars": 1655,
       "pushed_at": "2026-11-11T13:39:16Z",
       "created_at": "2026-04-03T21:02:08Z",
       "license": "Apache-2.0",
@@ -25648,7 +25722,7 @@
         "agent-skills"
       ],
       "stars": 1638,
-      "pushed_at": "2026-11-12T18:10:45Z",
+      "pushed_at": "2026-11-13T11:03:41Z",
       "created_at": "2026-02-26T18:13:14Z",
       "license": "MIT",
       "default_branch": "main",
@@ -25969,6 +26043,43 @@
       "rank": 263
     },
     {
+      "full_name": "DozenTwelve/Papermorph",
+      "url": "https://github.com/DozenTwelve/Papermorph",
+      "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "ai-education",
+        "animation",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "edtech",
+        "education",
+        "interactive-textbook",
+        "scorm",
+        "text-to-video"
+      ],
+      "stars": 1620,
+      "pushed_at": "2026-11-12T13:47:57Z",
+      "created_at": "2026-10-03T01:38:22Z",
+      "license": "MIT",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/26440117?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "papermorph",
+          "path": ".claude/skills/papermorph/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 264
+    },
+    {
       "full_name": "FANzR-arch/Numerologist_skills",
       "url": "https://github.com/FANzR-arch/Numerologist_skills",
       "description": "🔮 An engineering framework to stop LLM hallucinations in Chinese astrology. / 给“赛博半仙”戴上紧箍咒：减少幻觉、固定排盘步骤的奇门遁甲与紫微斗数 AI skills。",
@@ -26008,44 +26119,40 @@
         "codex"
       ],
       "gained": null,
-      "rank": 264
+      "rank": 265
     },
     {
-      "full_name": "DozenTwelve/Papermorph",
-      "url": "https://github.com/DozenTwelve/Papermorph",
-      "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+      "full_name": "NiazMorshed2007/reanimate",
+      "url": "https://github.com/NiazMorshed2007/reanimate",
+      "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
       "language": "JavaScript",
       "topics": [
-        "ai-agents",
-        "ai-education",
+        "agent-skills",
         "animation",
-        "claude",
         "claude-code",
         "claude-skills",
-        "edtech",
-        "education",
-        "interactive-textbook",
-        "scorm",
-        "text-to-video"
+        "frontend",
+        "motion",
+        "playwright"
       ],
-      "stars": 1617,
-      "pushed_at": "2026-11-12T13:47:57Z",
-      "created_at": "2026-10-03T01:38:22Z",
+      "stars": 1609,
+      "pushed_at": "2026-10-31T12:49:35Z",
+      "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
       "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/26440117?v=4",
+      "avatar": "https://avatars.githubusercontent.com/u/77217706?v=4",
       "skill_count": 1,
       "skills": [
         {
-          "name": "papermorph",
-          "path": ".claude/skills/papermorph/SKILL.md"
+          "name": "reanimate",
+          "path": "skills/reanimate/SKILL.md"
         }
       ],
       "agents": [
         "claude"
       ],
       "gained": null,
-      "rank": 265
+      "rank": 266
     },
     {
       "full_name": "silverstein/minutes",
@@ -26243,39 +26350,6 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 266
-    },
-    {
-      "full_name": "NiazMorshed2007/reanimate",
-      "url": "https://github.com/NiazMorshed2007/reanimate",
-      "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "animation",
-        "claude-code",
-        "claude-skills",
-        "frontend",
-        "motion",
-        "playwright"
-      ],
-      "stars": 1596,
-      "pushed_at": "2026-10-31T12:49:35Z",
-      "created_at": "2026-10-29T06:20:59Z",
-      "license": "MIT",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/77217706?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "reanimate",
-          "path": "skills/reanimate/SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 267
     },
     {
@@ -26341,6 +26415,40 @@
       "rank": 268
     },
     {
+      "full_name": "Tejashmakwana/motionmaxxing",
+      "url": "https://github.com/Tejashmakwana/motionmaxxing",
+      "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "claude-code",
+        "gsap",
+        "hyperframes",
+        "motion-graphics",
+        "motionmaxxing",
+        "video"
+      ],
+      "stars": 1579,
+      "pushed_at": "2026-10-06T18:20:43Z",
+      "created_at": "2026-10-06T18:18:49Z",
+      "license": "Apache-2.0",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "motionmaxxing",
+          "path": "SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude"
+      ],
+      "gained": null,
+      "rank": 269
+    },
+    {
       "full_name": "imxv/Pretty-mermaid-skills",
       "url": "https://github.com/imxv/Pretty-mermaid-skills",
       "description": "AI Agent Skill to generate and render beautiful Mermaid diagrams as SVG or terminal ASCII — 15 themes, 6 diagram types, batch CLI, no browser.",
@@ -26379,7 +26487,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 269
+      "rank": 270
     },
     {
       "full_name": "alexgreensh/attention-span",
@@ -26429,40 +26537,6 @@
         "codex"
       ],
       "gained": null,
-      "rank": 270
-    },
-    {
-      "full_name": "Tejashmakwana/motionmaxxing",
-      "url": "https://github.com/Tejashmakwana/motionmaxxing",
-      "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai",
-        "claude-code",
-        "gsap",
-        "hyperframes",
-        "motion-graphics",
-        "motionmaxxing",
-        "video"
-      ],
-      "stars": 1575,
-      "pushed_at": "2026-10-06T18:20:43Z",
-      "created_at": "2026-10-06T18:18:49Z",
-      "license": "Apache-2.0",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/89969328?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "motionmaxxing",
-          "path": "SKILL.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
       "rank": 271
     },
     {
@@ -26493,7 +26567,7 @@
         "test-quality"
       ],
       "stars": 1573,
-      "pushed_at": "2026-11-13T08:19:26Z",
+      "pushed_at": "2026-11-13T14:16:46Z",
       "created_at": "2026-03-26T11:40:33Z",
       "license": "MIT",
       "default_branch": "main",
@@ -26581,7 +26655,7 @@
         "pkm",
         "second-brain"
       ],
-      "stars": 1571,
+      "stars": 1572,
       "pushed_at": "2026-11-03T21:52:55Z",
       "created_at": "2026-09-07T15:08:13Z",
       "license": "MIT",
@@ -26715,8 +26789,8 @@
         "prompt-engineering",
         "skills"
       ],
-      "stars": 1545,
-      "pushed_at": "2026-11-12T13:46:09Z",
+      "stars": 1546,
+      "pushed_at": "2026-11-13T13:06:14Z",
       "created_at": "2026-01-29T08:28:07Z",
       "license": "MIT",
       "default_branch": "main",
@@ -26903,7 +26977,7 @@
         "herdr-plugin",
         "remote-test-runner"
       ],
-      "stars": 1532,
+      "stars": 1533,
       "pushed_at": "2026-11-13T07:08:28Z",
       "created_at": "2026-04-30T14:31:48Z",
       "license": "MIT",
@@ -26963,7 +27037,7 @@
         "supabase",
         "vercel"
       ],
-      "stars": 1523,
+      "stars": 1525,
       "pushed_at": "2026-10-11T21:04:01Z",
       "created_at": "2026-09-23T13:37:26Z",
       "license": "MIT",
@@ -27268,7 +27342,7 @@
         "system-architecture",
         "tech-stack"
       ],
-      "stars": 2467,
+      "stars": 2473,
       "pushed_at": "2026-11-13T07:38:10Z",
       "created_at": "2026-11-01T05:35:12Z",
       "license": "MIT",
@@ -27519,7 +27593,7 @@
         "genealogy",
         "ussr"
       ],
-      "stars": 2394,
+      "stars": 2402,
       "pushed_at": "2026-11-12T22:24:06Z",
       "created_at": "2026-10-25T10:05:56Z",
       "license": "MIT",
@@ -27537,7 +27611,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 213,
+      "rank": 212,
       "rising_rank": 2,
       "age_days": 19,
       "rising_basis": "pace",
@@ -27799,7 +27873,7 @@
         "skills",
         "video"
       ],
-      "stars": 2680,
+      "stars": 2684,
       "pushed_at": "2026-11-10T00:15:11Z",
       "created_at": "2026-10-18T12:19:27Z",
       "license": "MIT",
@@ -27817,7 +27891,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 195,
+      "rank": 196,
       "rising_rank": 3,
       "age_days": 25,
       "rising_basis": "pace",
@@ -28048,7 +28122,7 @@
         "motion",
         "playwright"
       ],
-      "stars": 1596,
+      "stars": 1609,
       "pushed_at": "2026-10-31T12:49:35Z",
       "created_at": "2026-10-29T06:20:59Z",
       "license": "MIT",
@@ -28065,7 +28139,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 267,
+      "rank": 266,
       "rising_rank": 4,
       "age_days": 15,
       "rising_basis": "pace",
@@ -28322,7 +28396,7 @@
         "subagents",
         "unit-economics"
       ],
-      "stars": 3464,
+      "stars": 3489,
       "pushed_at": "2026-10-07T01:07:17Z",
       "created_at": "2026-10-07T01:07:13Z",
       "license": "MIT",
@@ -28663,7 +28737,7 @@
         "swiftdata",
         "swiftui"
       ],
-      "stars": 1794,
+      "stars": 1797,
       "pushed_at": "2026-11-05T13:09:56Z",
       "created_at": "2026-10-24T08:44:36Z",
       "license": "MIT",
@@ -28761,7 +28835,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 245,
+      "rank": 244,
       "rising_rank": 6,
       "age_days": 20,
       "rising_basis": "pace",
@@ -29059,7 +29133,7 @@
         "rust",
         "style-guide"
       ],
-      "stars": 1804,
+      "stars": 1805,
       "pushed_at": "2026-11-08T17:21:11Z",
       "created_at": "2026-10-23T03:01:11Z",
       "license": "MIT",
@@ -29337,7 +29411,7 @@
         "motion-graphics",
         "video"
       ],
-      "stars": 4080,
+      "stars": 4089,
       "pushed_at": "2026-11-05T03:52:15Z",
       "created_at": "2026-09-26T05:35:17Z",
       "license": "NOASSERTION",
@@ -29620,7 +29694,7 @@
         "vertical-drama",
         "workbuddy"
       ],
-      "stars": 2271,
+      "stars": 2281,
       "pushed_at": "2026-11-03T22:32:47Z",
       "created_at": "2026-10-13T20:35:18Z",
       "license": "CC0-1.0",
@@ -29870,7 +29944,7 @@
         "ui-design",
         "ux-design"
       ],
-      "stars": 3237,
+      "stars": 3250,
       "pushed_at": "2026-11-11T04:56:08Z",
       "created_at": "2026-09-30T03:55:35Z",
       "license": "MIT",
@@ -29888,7 +29962,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 176,
+      "rank": 175,
       "rising_rank": 10,
       "age_days": 44,
       "rising_basis": "pace",
@@ -30151,7 +30225,7 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 3212,
+      "stars": 3223,
       "pushed_at": "2026-11-12T00:28:35Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
@@ -30436,7 +30510,7 @@
         "claude-skills",
         "codex-skill"
       ],
-      "stars": 2031,
+      "stars": 2039,
       "pushed_at": "2026-11-11T15:34:09Z",
       "created_at": "2026-10-15T06:09:53Z",
       "license": "GPL-3.0",

@@ -164,7 +164,7 @@ await run('skills', async (log) => {
   const rising = pickRising(ranked, today, rule.rising);
   for (const r of rising) {
     let g = guides[r.full_name];
-    if (!g || g.v !== 3 || g.pushed_at !== r.pushed_at) {
+    if (!g || g.v !== 4 || g.pushed_at !== r.pushed_at) {
       try {
         const { data: commit } = await ghGet(`/repos/${r.full_name}/commits/${encodeURIComponent(r.default_branch)}`);
         const sha = commit.sha;
@@ -185,7 +185,7 @@ await run('skills', async (log) => {
         if ((tree.tree ?? []).some((e) => e.path === '.claude-plugin/marketplace.json')) {
           try { market = marketplaceCommands(r.full_name, (await ghGet(`/repos/${r.full_name}/contents/.claude-plugin/marketplace.json?ref=${sha}`, { raw: true })).data); } catch { /* unreadable */ }
         }
-        g = { v: 3, pushed_at: r.pushed_at, sha, compat: repoCompat(checks), files: skillFiles(tree.tree ?? [], skills), ...buildInstall({ full_name: r.full_name, sha, skills }), guide: extractGuide(readme), marketplace: market };
+        g = { v: 4, pushed_at: r.pushed_at, sha, compat: repoCompat(checks), files: skillFiles(tree.tree ?? [], skills), ...buildInstall({ full_name: r.full_name, sha, skills }), guide: extractGuide(readme), marketplace: market };
         guides[r.full_name] = g;
       } catch (err) {
         log.warn(`${r.full_name}: no install guide (${err.message})`);

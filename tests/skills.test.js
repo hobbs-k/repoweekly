@@ -34,8 +34,8 @@ const server = http.createServer((req, res) => {
   const u = new URL(req.url, 'http://x');
   if (u.pathname === '/search/repositories') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ items: [repo('a/skills', 900), repo('b/plain', 500)] })); }
   if (u.pathname === '/repos/a/skills/git/trees/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'skills/pdf/SKILL.md', type: 'blob' }, { path: 'skills/xlsx/SKILL.md', type: 'blob' }] })); }
-  if (u.pathname === '/repos/a/skills/commits/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ sha: 'abc123' })); }
-  if (u.pathname === '/repos/a/skills/git/trees/abc123') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'skills/pdf/SKILL.md', type: 'blob' }, { path: 'skills/xlsx/SKILL.md', type: 'blob' }] })); }
+  if (u.pathname === '/repos/a/skills/commits/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ sha: 'abc1230000000000000000000000000000000000' })); }
+  if (u.pathname === '/repos/a/skills/git/trees/abc1230000000000000000000000000000000000') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'skills/pdf/SKILL.md', type: 'blob' }, { path: 'skills/xlsx/SKILL.md', type: 'blob' }] })); }
   if (u.pathname === '/repos/a/skills/readme') return res.end(['# Skills', '', '## Install', '', 'Run this:', '', '```bash', 'npx skills add a/skills', '```', ''].join(String.fromCharCode(10)));
   if (u.pathname === '/repos/b/plain/git/trees/main') { res.setHeader('content-type', 'application/json'); return res.end(JSON.stringify({ truncated: false, tree: [{ path: 'README.md', type: 'blob' }] })); }
   if (u.pathname.startsWith('/repos/a/skills/contents/')) return res.end('---\nname: pdf\ndescription: Work with PDF files\n---\n');
@@ -63,8 +63,8 @@ test('skills.js keeps repos that hold SKILL.md, lists their skills and writes sk
   // The repo is young and under 5,000 stars, so it is rising. Its commands are pinned to the commit.
   const rise = out.rising[0];
   assert.equal(rise.full_name, 'a/skills');
-  assert.equal(rise.install.sha, 'abc123');
-  assert.match(rise.install.agents.claude.methods.at(-1).code, /git -C skill-src checkout abc123/);
+  assert.equal(rise.install.sha, 'abc1230000000000000000000000000000000000');
+  assert.match(rise.install.agents.claude.methods.at(-1).code, /git -C skill-src checkout abc1230000000000000000000000000000000000/);
   assert.equal(rise.install.guide[0].steps[0].code, 'npx skills add a/skills');
   server.close();
 });
