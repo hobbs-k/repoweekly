@@ -12,15 +12,18 @@ const agentChoices = [['claude', 'Claude Code'], ['codex', 'Codex'], ['cursor', 
 const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
 ---
 
-<Layout title="The best AI agent skills on GitHub | RepoWeekly" description="The most popular skill repositories for Claude, Codex, Cursor and other AI coding agents, ranked by stars gained, with a finder for the skill you need." current="skills">
+<Layout title="Rising AI agent skills, checked before you install | RepoWeekly" description="Skill repositories for Claude Code, Codex, Cursor and other AI coding agents that are growing fast, each checked against eight tools' rules, with script warnings and version-pinned install commands." current="skills">
   <div class="wrap">
     <section class="intro">
-      <p class="prompt" aria-hidden="true"><span>$</span> repoweekly skills --top 10</p>
-      <h1>The best skills for AI coding agents</h1>
-      <p class="lede">A skill is a folder with a <code>SKILL.md</code> file that teaches an AI coding agent how to do one task well. These are the skill repositories on GitHub that people are starring the most.</p>
-      {data && data.mode === 'gain' && <p class="lede-soft">Ranked by stars gained in the last {data.span_days} days. As of {asOf}. Updated daily.</p>}
-      {data && data.mode !== 'gain' && <p class="lede-soft">Ranked by total stars for now. {data.span_days === 0 ? "We only have today's numbers so far." : `We have ${data.span_days} ${data.span_days === 1 ? 'day' : 'days'} of history so far.`} Once we have a few days the list switches to stars gained, and the full 30-day view fills in over the month. As of {asOf}.</p>}
-      {rising.length > 0 && <p><a class="jump" href="#rising-title">See the rising skills and how to install them <span aria-hidden="true">↓</span></a></p>}
+      <p class="prompt" aria-hidden="true"><span>$</span> repoweekly skills --rising --checked</p>
+      <h1>Rising AI agent skills, checked before you install</h1>
+      <p class="lede">A skill is a folder with a <code>SKILL.md</code> file that teaches an AI coding agent one task. We find the skill repositories that are growing fast, before everyone knows them, and check each one so you know what you are installing.</p>
+      <ul class="promise">
+        <li><strong>Early.</strong> New repositories picking up stars fast, found every day.</li>
+        <li><strong>Checked.</strong> Each skill is tested against the documented rules of eight coding tools, and scripts that can run on your computer are flagged.</li>
+        <li><strong>Pinned.</strong> Install commands for your tool, fixed to the exact version we checked.</li>
+      </ul>
+      {rising.length > 0 && <p><a class="jump" href="#rising-title">See today's rising skills <span aria-hidden="true">↓</span></a></p>}
       <p class="notice"><strong>Read before you install.</strong> A skill can run commands and change files on your computer. Read the skill first, and only use ones you trust.</p>
     </section>
 
@@ -42,7 +45,11 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
       </section>
     )}
 
-    <div class="section-head"><h2>Most popular</h2><p>The big, well-known skill repositories, ranked by total stars.</p></div>
+    <div class="section-head">
+      <h2>Most popular</h2>
+      <p>The big, well-known skill repositories.{data && data.mode === 'gain' ? ` Ranked by stars gained in the last ${data.span_days} days.` : ' Ranked by total stars until we have a few days of history.'} As of {asOf}.</p>
+      <p class="muted">Looking for every skill, or install counts? <a href="https://www.skills.sh/" rel="noopener">skills.sh</a> lists over a million skills, ranked by installs through its own installer.</p>
+    </div>
     {top.length > 0 ? (
       <ol class="entries" aria-label="Top skill repositories">
         {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} asOf={data.date} />)}

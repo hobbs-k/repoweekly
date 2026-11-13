@@ -521,3 +521,9 @@ html { scroll-behavior: smooth; }
 }
 @keyframes bit-blink { 0%, 94% { transform: scaleY(1); } 95%, 100% { transform: scaleY(0.15); } }
 @keyframes bit-pulse { 50% { opacity: 0.25; } }
+
+/* Skills page: the three promises under the title. */
+.promise { list-style: none; margin: 0.4rem 0 1.4rem; padding: 0; max-width: var(--measure); }
+.promise li { margin: 0 0 0.45rem; padding-left: 1.2rem; position: relative; }
+.promise li::before { content: '>'; position: absolute; left: 0; color: var(--phos); font-family: var(--mono); font-weight: 700; }
+.promise strong { color: var(--phos); }
