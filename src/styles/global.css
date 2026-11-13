@@ -502,7 +502,13 @@ html { scroll-behavior: smooth; }
 /* Motion (scroll.js adds .fx only when reduced motion is not asked for). */
 .fx .entry, .fx .issue, .fx .section-head { transition: opacity 0.5s ease, transform 0.5s ease; }
 .fx .entry:not(.in), .fx .issue:not(.in), .fx .section-head:not(.in) { opacity: 0; transform: translateY(16px); }
-.fx .entry.in { transition: opacity 0.5s ease, transform 0.15s ease-out; transform-style: preserve-3d; }
+.fx .entry.in { transition: opacity 0.5s ease, transform 0.15s ease-out, box-shadow 0.15s ease-out, border-color 0.15s ease-out; }
+/* Hover: the window lifts off its hard shadow and its frame lights up, like a selected window. */
+@media (hover: hover) and (pointer: fine) {
+  .entry { transition: transform 0.15s ease-out, box-shadow 0.15s ease-out, border-color 0.15s ease-out; }
+  .entry:hover { transform: translate(-3px, -3px); box-shadow: 9px 9px 0 var(--shadow); border-color: var(--phos); }
+  .entry:hover .titlebar { background: var(--phos); color: var(--on-phos); }
+}
 
 /* Bit, the mascot. */
 .bit { margin: 0; display: inline-flex; flex-direction: column; align-items: center; gap: 0.4rem; }

@@ -61,17 +61,4 @@ if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
     dd.textContent = '0';
     requestAnimationFrame(step);
   }
-
-  // Cards lean a little toward the mouse (desktop mice only, not touch).
-  if (matchMedia('(pointer: fine)').matches) {
-    for (const card of document.querySelectorAll('.entry')) {
-      card.addEventListener('mousemove', (e) => {
-        const r = card.getBoundingClientRect();
-        const x = (e.clientX - r.left) / r.width - 0.5;
-        const y = (e.clientY - r.top) / r.height - 0.5;
-        card.style.transform = `perspective(1200px) rotateX(${(-y * 3).toFixed(2)}deg) rotateY(${(x * 3).toFixed(2)}deg)`;
-      });
-      card.addEventListener('mouseleave', () => { card.style.transform = ''; });
-    }
-  }
 }
