@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T10:51:39.442Z",
+  "generated": "2026-11-13T11:04:40.542Z",
   "date": "2026-11-13",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "mode": "recent",
@@ -33,7 +33,7 @@
         "touhou",
         "typescript"
       ],
-      "stars": 456370,
+      "stars": 456385,
       "pushed_at": "2026-11-13T10:39:31Z",
       "created_at": "2026-04-14T00:51:32Z",
       "license": "MIT",
@@ -44,37 +44,31 @@
         {
           "name": "rea-analysis-optimization",
           "path": ".agents/skills/rea-analysis-optimization/SKILL.md",
-          "title": "rea-analysis-optimization",
           "description": "Optimize REA providers and shared analysis workflows for agent context, latency, CPU, and memory while preserving correctness and Evidence. Use for analysis bottlenecks and cache or query design; CI/test-suite optimization belongs to rea-ci-tests-audit."
         },
         {
           "name": "rea-changelog-update",
           "path": ".agents/skills/rea-changelog-update/SKILL.md",
-          "title": "rea-changelog-update",
           "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization."
         },
         {
           "name": "rea-ci-tests-audit",
           "path": ".agents/skills/rea-ci-tests-audit/SKILL.md",
-          "title": "rea-ci-tests-audit",
           "description": "Audit REA CI and test suites for correctness, fixture drift, false passes, and measured performance; use for suite or workflow investigations and efficiency changes, rather than ordinary feature testing or a single test failure."
         },
         {
           "name": "rea-tool-design",
           "path": ".agents/skills/rea-tool-design/SKILL.md",
-          "title": "rea-tool-design",
           "description": "Audit, investigate, design, or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics."
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".agents/skills/reverse-engineer-anything/SKILL.md",
-          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         },
         {
           "name": "reverse-engineer-anything",
           "path": ".cursor-plugin/skills/reverse-engineer-anything/SKILL.md",
-          "title": "reverse-engineer-anything",
           "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA, and build agent environments (AgentEnv bundles) of web applications from a live instance or a capture, and of Linux desktop apps with a task from a request. Use shipped-artifact or requested runt"
         }
       ],
@@ -221,7 +215,7 @@
         "prompt-engineering",
         "yagni"
       ],
-      "stars": 190025,
+      "stars": 190027,
       "pushed_at": "2026-10-29T11:59:31Z",
       "created_at": "2026-06-12T00:52:37Z",
       "license": "MIT",
@@ -314,7 +308,7 @@
         "cursor",
         "skills"
       ],
-      "stars": 116959,
+      "stars": 116966,
       "pushed_at": "2026-11-01T19:24:49Z",
       "created_at": "2026-02-15T20:20:26Z",
       "license": "MIT",
@@ -475,7 +469,7 @@
         "sqlite",
         "supermemory"
       ],
-      "stars": 116693,
+      "stars": 116695,
       "pushed_at": "2026-11-13T05:15:01Z",
       "created_at": "2025-08-31T20:50:03Z",
       "license": "Apache-2.0",
@@ -486,73 +480,61 @@
         {
           "name": "community-sweep",
           "path": ".claude/skills/community-sweep/SKILL.md",
-          "title": "community-sweep",
           "description": "Land community pull requests as the contributor and answer community issues on thedotmack/claude-mem. Takes stock of every open PR (the owner's own included, except the ones the owner marked experimental) and community issue, triages each against the owner's merge philosophy and the cmem.ai hosted-s"
         },
         {
           "name": "agent-cost-report",
           "path": "claude-mem-cursor/skills/agent-cost-report/SKILL.md",
-          "title": "Agent Cost Report",
           "description": "Believable agent cost report for any period, default the last 7 full days PT, not counting today. Measured tokens from Claude Code transcripts priced at OpenRouter list prices (ESTIMATED), measured provider spend when a sanctioned source exists, note-taker cost separate, Timing-style HTML/PDF plus r"
         },
         {
           "name": "install",
           "path": "claude-mem-cursor/skills/install/SKILL.md",
-          "title": "claude-mem-install",
           "description": "Use this when setting up claude-mem on Cursor: local or remote worker, local host-login observer or remote cmem.ai inference."
         },
         {
           "name": "mem-search",
           "path": "claude-mem-cursor/skills/mem-search/SKILL.md",
-          "title": "mem-search",
           "description": "Use this when the user asks to search memory, \"did we already solve this?\", \"how did we do X last time?\", or wants work from previous sessions."
         },
         {
           "name": "agent-cost-report",
           "path": "claude-mem-grok-bot/skills/agent-cost-report/SKILL.md",
-          "title": "Agent Cost Report",
           "description": "Believable agent cost report for any period, default the last 7 full days PT, not counting today. Measured tokens from Claude Code transcripts priced at OpenRouter list prices (ESTIMATED), measured provider spend when a sanctioned source exists, note-taker cost separate, Timing-style HTML/PDF plus r"
         },
         {
           "name": "host-observer",
           "path": "claude-mem-grok-bot/skills/host-observer/SKILL.md",
-          "title": "host-observer",
           "description": "Use this when fulfilling claude-mem observer jobs on Grok Bot: reply only skip_summary or one full observation XML, never prose."
         },
         {
           "name": "install",
           "path": "claude-mem-grok-bot/skills/install/SKILL.md",
-          "title": "claude-mem-install",
           "description": "Use this when setting up claude-mem on Grok Bot: local worker plus CMEM Pro observer (default), optional host-login observer, or remote cmem.ai. No Cursor required."
         },
         {
           "name": "mem-search",
           "path": "claude-mem-grok-bot/skills/mem-search/SKILL.md",
-          "title": "mem-search",
           "description": "Use this when the user asks to search memory, \"did we already solve this?\", \"how did we do X last time?\", or wants work from previous sessions."
         },
         {
           "name": "agent-cost-report",
           "path": "cowork/skills/agent-cost-report/SKILL.md",
-          "title": "Agent Cost Report",
           "description": "Believable agent cost report for any period, default the last 7 full days PT, not counting today. Measured tokens from Claude Code transcripts priced at OpenRouter list prices (ESTIMATED), measured provider spend when a sanctioned source exists, note-taker cost separate, Timing-style HTML/PDF plus r"
         },
         {
           "name": "mem-search",
           "path": "cowork/skills/mem-search/SKILL.md",
-          "title": "mem-search",
           "description": "This skill should be used when the user asks to \"search memory\", \"what do you remember about X\", \"check claude-mem\", \"mem search\", \"find past observations\", \"what did we do last session\", or wants prior-session context about a project, decision, file, or task. Searches the user's Claude-Mem (cmem.ai"
         },
         {
           "name": "mem-setup",
           "path": "cowork/skills/mem-setup/SKILL.md",
-          "title": "mem-setup",
           "description": "This skill should be used when the user asks to \"set up claude-mem\", \"pair claude-mem\", \"connect cmem\", \"add my cmem key\", \"set up cloud sync in Cowork\" or in the Claude app, or provides cmem.ai Connect values (sync token, user id, SyncHub URL) for this plugin. Configures the CMEM Pro plugin credent"
         },
         {
           "name": "dashboard-chat-best-practices",
           "path": "integrations/eve/template/.agents/skills/dashboard-chat-best-practices/SKILL.md",
-          "title": "dashboard-chat-best-practices",
           "description": "Apply dashboard-grade chat UX patterns in the Eve chat template. Use when changing Next.js Cache Components/PPR behavior, static shell layout, Suspense bootstrap boundaries, theme hydration, auth display hydration, signed-in/signed-out static shell behavior, optimistic messages, streaming row identi"
         },
         {
@@ -697,7 +679,7 @@
         "ui-design",
         "web-design"
       ],
-      "stars": 114634,
+      "stars": 114637,
       "pushed_at": "2026-11-08T21:51:50Z",
       "created_at": "2026-02-19T21:44:05Z",
       "license": "MIT",
@@ -750,8 +732,8 @@
         "project-management",
         "workflow-automation"
       ],
-      "stars": 113507,
-      "pushed_at": "2026-11-13T10:46:54Z",
+      "stars": 113508,
+      "pushed_at": "2026-11-13T10:53:26Z",
       "created_at": "2026-03-02T15:01:51Z",
       "license": "MIT",
       "default_branch": "master",
@@ -962,7 +944,7 @@
         "design",
         "slop"
       ],
-      "stars": 109248,
+      "stars": 109254,
       "pushed_at": "2026-11-13T10:35:32Z",
       "created_at": "2025-11-16T01:52:04Z",
       "license": "Apache-2.0",
@@ -973,73 +955,61 @@
         {
           "name": "impeccable",
           "path": ".agent/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".agents/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".claude/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md)."
         },
         {
           "name": "impeccable",
           "path": ".cursor/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".devin/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".dsh/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".gemini/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".github/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".grok/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".hermes/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".kiro/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
           "name": "impeccable",
           "path": ".omp/skills/impeccable/SKILL.md",
-          "title": "impeccable",
           "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev"
         },
         {
@@ -1134,7 +1104,7 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 107455,
+      "stars": 107456,
       "pushed_at": "2026-11-13T10:17:56Z",
       "created_at": "2026-04-28T04:25:20Z",
       "license": "Apache-2.0",
@@ -1145,73 +1115,61 @@
         {
           "name": "od-contribute",
           "path": ".claude/skills/od-contribute/SKILL.md",
-          "title": "od-contribute",
           "description": "One-click contribution flow for OpenDesign (nexu-io/open-design) — even for non-coders. Pick one of four cards (ship a Skill or Design System you made with OD; translate docs; fix a typo / write a blog; report a bug), the agent validates and opens a PR (or issue) for you. Trigger words contribute to"
         },
         {
           "name": "sample-plugin",
           "path": "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md",
-          "title": "sample-plugin",
           "description": "Phase 1 sample plugin synthesizing a SKILL.md frontmatter for backwards-compat tests."
         },
         {
           "name": "aster-atelier",
           "path": "design-templates/aster-atelier/SKILL.md",
-          "title": "aster-atelier",
           "description": "Use this template when the user wants an artistic creative-studio website with classical imagery, cobalt skies, elegant serif typography and cinematic scrolling."
         },
         {
           "name": "audio-jingle",
           "path": "design-templates/audio-jingle/SKILL.md",
-          "title": "audio-jingle",
           "description": "Audio generation skill — jingles, beds, voiceover, and sound effects. Routes music requests to Suno V5 / Udio / Lyria, speech to MiniMax TTS / FishAudio / ElevenLabs V3, and SFX to ElevenLabs SFX or AudioCraft. Output is one MP3/WAV file saved to the project folder."
         },
         {
           "name": "blog-post",
           "path": "design-templates/blog-post/SKILL.md",
-          "title": "blog-post",
           "description": "A long-form article / blog post — masthead, hero image placeholder, article body with figures and pull quotes, author byline, related posts. Use when the brief asks for \"blog\", \"article\", \"post\", \"essay\", or \"case study\"."
         },
         {
           "name": "clinical-case-report",
           "path": "design-templates/clinical-case-report/SKILL.md",
-          "title": "clinical-case-report",
           "description": "Structured medical case presentation for clinical rounds, conferences, and documentation. Generates SOAP-format or narrative case reports with physiologically accurate vitals, labs, and evidence-based plans. Use when the brief mentions \"case report\", \"case presentation\", \"SOAP note\", \"clinical case\""
         },
         {
           "name": "contact-widget",
           "path": "design-templates/contact-widget/SKILL.md",
-          "title": "contact-widget",
           "description": "Self-contained floating chat widget with welcome screen, social links, meeting button, and message input. Single HTML file, zero dependencies."
         },
         {
           "name": "critique",
           "path": "design-templates/critique/SKILL.md",
-          "title": "critique",
           "description": "Run a 5-dimension expert design review on any HTML artifact in the project — Philosophy / Visual hierarchy / Detail / Functionality / Innovation, each scored 0–10. Outputs a single self-contained HTML report with a radar chart, evidence-backed scores, and three lists: Keep / Fix / Quick-wins. Use wh"
         },
         {
           "name": "dashboard",
           "path": "design-templates/dashboard/SKILL.md",
-          "title": "dashboard",
           "description": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar, top bar with user/search, main grid of KPI cards and one or two charts. Use when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or \"control panel\" screen."
         },
         {
           "name": "dating-web",
           "path": "design-templates/dating-web/SKILL.md",
-          "title": "dating-web",
           "description": "A consumer-feeling dating / matchmaking dashboard — left rail navigation, ticker bar of community signals, headline KPIs, a 30-day mutual-matches bar chart, and a match-rate trend block. Editorial typography, restrained accent. Use when the brief asks for a \"dating site\", \"matchmaking\", \"community d"
         },
         {
           "name": "dcf-valuation",
           "path": "design-templates/dcf-valuation/SKILL.md",
-          "title": "dcf-valuation",
           "description": "Discounted cash flow valuation and intrinsic value analysis for public companies. Use when the brief asks for DCF, fair value, intrinsic value, price target, undervalued or overvalued analysis, or \"what is this company worth?\""
         },
         {
           "name": "digital-eguide",
           "path": "design-templates/digital-eguide/SKILL.md",
-          "title": "digital-eguide",
           "description": "A two-spread digital e-guide preview — page 1 is a cover (display title, author, \"What's inside\" stats, table of contents teaser); page 2 is a spread (lesson body with pull-quote and a step list). Lifestyle / creator brand tone. Use when the brief asks for an \"e-guide\", \"digital guide\", \"lookbook\", "
         },
         {
@@ -1362,7 +1320,7 @@
         "system-design",
         "visualization"
       ],
-      "stars": 96091,
+      "stars": 96092,
       "pushed_at": "2026-11-13T08:22:45Z",
       "created_at": "2026-04-15T05:27:37Z",
       "license": "Apache-2.0",
@@ -1373,31 +1331,26 @@
         {
           "name": "archify-review",
           "path": ".agents/skills/archify-review/SKILL.md",
-          "title": "archify-review",
           "description": "Review Archify issues, PRs, or code through value, cost, and impact to support evidence-based maintenance decisions. Use for issue triage, change reviews, and code quality assessments."
         },
         {
           "name": "archify-tuning",
           "path": ".agents/skills/archify-tuning/SKILL.md",
-          "title": "archify-tuning",
           "description": "Improve Archify diagram accuracy, visual quality and complete authoring speed with fewer repairs. Use for generation experiments or evaluating changes to layout, routing, diagnostics, authoring instructions and acceptance rules against actual diagrams and agent traces."
         },
         {
           "name": "simplify-codebase",
           "path": ".agents/skills/simplify-codebase/SKILL.md",
-          "title": "simplify-codebase",
           "description": "Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or layers, ownerless abstractions, obsolete compatibility or design records, and over-"
         },
         {
           "name": "test-value",
           "path": ".agents/skills/test-value/SKILL.md",
-          "title": "test-value",
           "description": "Improve test value and feedback cost when auditing slow, flaky, redundant or brittle tests; choosing tests during implementation; or reviewing test changes before a commit or PR. Keep ordinary implementation and pre-commit use scoped to the affected behavior, not a repository-wide audit."
         },
         {
           "name": "archify",
           "path": "archify/SKILL.md",
-          "title": "archify",
           "description": "Create validated architecture, workflow, sequence, data-flow, lifecycle/state, ERD, class, tree, timeline, and waterfall diagrams as explorable standalone HTML with dark/light themes, motion and image/SVG/WebM export. Accept requirements or Mermaid; inspect repository evidence for code-backed diagra"
         }
       ],
@@ -1444,55 +1397,46 @@
         {
           "name": "understand-chat",
           "path": "understand-anything-plugin/skills/understand-chat/SKILL.md",
-          "title": "understand-chat",
           "description": "Use when you need to ask questions about a codebase or understand code using a knowledge graph"
         },
         {
           "name": "understand-dashboard",
           "path": "understand-anything-plugin/skills/understand-dashboard/SKILL.md",
-          "title": "understand-dashboard",
           "description": "Launch the interactive web dashboard to visualize a codebase's knowledge graph"
         },
         {
           "name": "understand-diff",
           "path": "understand-anything-plugin/skills/understand-diff/SKILL.md",
-          "title": "understand-diff",
           "description": "Use when you need to analyze git diffs or pull requests to understand what changed, affected components, and risks"
         },
         {
           "name": "understand-domain",
           "path": "understand-anything-plugin/skills/understand-domain/SKILL.md",
-          "title": "understand-domain",
           "description": "Extract business domain knowledge from a codebase and generate an interactive domain flow graph. Works standalone (lightweight scan) or derives from an existing /understand knowledge graph."
         },
         {
           "name": "understand-explain",
           "path": "understand-anything-plugin/skills/understand-explain/SKILL.md",
-          "title": "understand-explain",
           "description": "Use when you need a deep-dive explanation of a specific file, function, or module in the codebase"
         },
         {
           "name": "understand-figma",
           "path": "understand-anything-plugin/skills/understand-figma/SKILL.md",
-          "title": "understand-figma",
           "description": "Analyze a Figma file via the Figma REST API and generate an interactive design knowledge graph (pages, screens, components, component sets, instances, design tokens) with a kind:\"design\" dashboard."
         },
         {
           "name": "understand-knowledge",
           "path": "understand-anything-plugin/skills/understand-knowledge/SKILL.md",
-          "title": "understand-knowledge",
           "description": "Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering."
         },
         {
           "name": "understand-onboard",
           "path": "understand-anything-plugin/skills/understand-onboard/SKILL.md",
-          "title": "understand-onboard",
           "description": "Use when you need to generate an onboarding guide for new team members joining a project"
         },
         {
           "name": "understand",
           "path": "understand-anything-plugin/skills/understand/SKILL.md",
-          "title": "understand",
           "description": "Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships"
         }
       ],
@@ -1534,97 +1478,68 @@
         "open-source",
         "resume"
       ],
-      "stars": 82296,
+      "stars": 82297,
       "pushed_at": "2026-11-13T08:06:08Z",
       "created_at": "2026-04-04T18:21:18Z",
       "license": "MIT",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/323287742?v=4",
-      "skill_count": 15,
+      "skill_count": 11,
       "skills": [
         {
           "name": "career-ops",
           "path": ".agents/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".antigravitycli/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".claude/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".grok/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".kimi/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".opencode/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": ".qwen/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "antigravity-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "claude-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "cursor-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
         },
         {
           "name": "career-ops",
           "path": "openai-directory/skills/career-ops/SKILL.md",
-          "title": "career-ops",
           "description": "Open-source AI job search agent -- evaluate offers, generate CVs, scan portals, track applications. Use when the user pastes a job URL or JD, asks to scan portals, generate a CV/PDF, track applications, prepare for interviews, draft outreach/emails, or run any career-ops mode."
-        },
-        {
-          "name": "apify",
-          "path": "plugins/apify/skill.md",
-          "title": "career-ops-plugin-apify",
-          "description": "How to scan a job source through an Apify actor as a keyed provider."
-        },
-        {
-          "name": "gmail",
-          "path": "plugins/gmail/skill.md"
-        },
-        {
-          "name": "h1b-sponsor",
-          "path": "plugins/h1b-sponsor/skill.md"
-        },
-        {
-          "name": "notion",
-          "path": "plugins/notion/skill.md"
         }
       ],
       "agents": [
@@ -1884,73 +1799,61 @@
         {
           "name": "codex-qa",
           "path": ".agents/skills/codex-qa/SKILL.md",
-          "title": "codex-qa",
           "description": "QA the omo Codex Light edition (lazycodex / packages/omo-codex) itself, in strict isolation so ONLY our plugin is exercised, never the user's real ~/.codex. The first-party method drives the real `codex app-server` against an isolated CODEX_HOME plus a LOCAL mock model (no real API call), and proves"
         },
         {
           "name": "get-unpublished-changes",
           "path": ".agents/skills/get-unpublished-changes/SKILL.md",
-          "title": "get-unpublished-changes",
           "description": "Compare HEAD with the latest published npm versions and list all unpublished changes by release layer. Triggers: unpublished changes, changelog, what changed, whats new."
         },
         {
           "name": "github-triage",
           "path": ".agents/skills/github-triage/SKILL.md",
-          "title": "github-triage",
           "description": "Read-only GitHub triage for issues AND PRs. 1 item = 1 background task (category: quick). Analyzes all open items and writes evidence-backed reports to /tmp/{datetime}/. Every claim requires a GitHub permalink as proof. NEVER takes any action on GitHub - no comments, no merges, no closes, no labels."
         },
         {
           "name": "hyperplan",
           "path": ".agents/skills/hyperplan/SKILL.md",
-          "title": "hyperplan",
           "description": "Adversarial multi-agent planning skill. Self-orchestrates 5 hostile category members (unspecified-low, unspecified-high, deep, ultrabrain, artistry) via team-mode for ruthless cross-critique debate, distills only the defensible insights, then MANDATORILY hands the distilled insight bundle to the `pl"
         },
         {
           "name": "omomomo",
           "path": ".agents/skills/omomomo/SKILL.md",
-          "title": "omomomo",
           "description": "Easter egg command - about oh-my-opencode. Triggers: omomomo, about, easter egg."
         },
         {
           "name": "opencode-qa",
           "path": ".agents/skills/opencode-qa/SKILL.md",
-          "title": "opencode-qa",
           "description": "QA opencode itself, per case: verify the CLI/terminal (opencode run, db, serve, export), prove a specific plugin hook/action/event fired via the SSE event stream, smoke-test the TUI under tmux, and investigate sessions in opencode's SQLite DB by id, title/name, or message text. Ships tested helper s"
         },
         {
           "name": "pre-publish-review",
           "path": ".agents/skills/pre-publish-review/SKILL.md",
-          "title": "pre-publish-review",
           "description": "Nuclear-grade 12-agent pre-publish release gate. Runs /get-unpublished-changes to detect all changes since last npm release, spawns up to 10 ultrabrain agents for deep per-change analysis, invokes /review-work (orchestrator manual QA plus one gate reviewer) for holistic review, and 1 oracle for over"
         },
         {
           "name": "publish",
           "path": ".agents/skills/publish/SKILL.md",
-          "title": "publish",
           "description": "Publish oh-my-opencode to npm by triggering the GitHub Actions publish workflow and verifying its artifacts. Ship-only: never runs pre-publish-review or re-reviews merged code unless the user explicitly asks. Argument: <patch|minor|major|explicit-semver>. Triggers: publish, release, deploy, npm publ"
         },
         {
           "name": "remove-deadcode",
           "path": ".agents/skills/remove-deadcode/SKILL.md",
-          "title": "remove-deadcode",
           "description": "Remove unused code from this project with ultrawork mode, LSP-verified safety, atomic commits. Triggers: remove dead code, dead code, cleanup, remove unused."
         },
         {
           "name": "security-research",
           "path": ".agents/skills/security-research/SKILL.md",
-          "title": "security-research",
           "description": "Team Mode security research skill. Orchestrates 3 vulnerability hunters and 2 PoC engineers to audit a codebase in parallel, prove exploitability, classify root causes, and calibrate severity by actual exploitability. Use for security review, vulnerability research, exploitability audit, pre-release"
         },
         {
           "name": "senpi-qa",
           "path": ".agents/skills/senpi-qa/SKILL.md",
-          "title": "senpi-qa",
           "description": "QA the omo Senpi adapter (packages/omo-senpi, packages/senpi-task) against the REAL senpi binary in strict isolation, and write every artifact to the one canonical evidence path .omo/evidence/omo-senpi-adapter/<slug>/. The live drivers under packages/omo-senpi/scripts/qa/ create their own isolated S"
         },
         {
           "name": "tech-debt-audit",
           "path": ".agents/skills/tech-debt-audit/SKILL.md",
-          "title": "tech-debt-audit",
           "description": "Thorough, file-cited technical debt audit across 9 dimensions using AST-grep (tree-sitter), grep, LSP, and language-native tooling. Produces TECH_DEBT_AUDIT.md with severity, effort estimates, and prioritized fixes. Use when asked for codebase health check, tech debt audit, architecture review, code"
         },
         {
@@ -2114,55 +2017,46 @@
         {
           "name": "agent-browser",
           "path": ".claude/skills/agent-browser/SKILL.md",
-          "title": "agent-browser",
           "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form"
         },
         {
           "name": "presentation-structure",
           "path": ".claude/skills/presentation/presentation-structure/SKILL.md",
-          "title": "presentation-structure",
           "description": "Knowledge about the presentation slide format, weight system, navigation, and section structure"
         },
         {
           "name": "presentation-styling",
           "path": ".claude/skills/presentation/presentation-styling/SKILL.md",
-          "title": "presentation-styling",
           "description": "Knowledge about CSS classes, component patterns, and syntax highlighting in the presentation"
         },
         {
           "name": "vibe-to-agentic-framework",
           "path": ".claude/skills/presentation/vibe-to-agentic-framework/SKILL.md",
-          "title": "vibe-to-agentic-framework",
           "description": "The conceptual framework behind the presentation — what \"Vibe Coding to Agentic Engineering\" means, why the journey is structured the way it is, and how every slide fits the narrative arc"
         },
         {
           "name": "time-skill",
           "path": ".claude/skills/time-skill/SKILL.md",
-          "title": "time-skill",
           "description": "Display the current time in Pakistan Standard Time (PKT, UTC+5). Use when the user asks for the current time, Pakistan time, or PKT."
         },
         {
           "name": "weather-fetcher",
           "path": ".claude/skills/weather-fetcher/SKILL.md",
-          "title": "weather-fetcher",
           "description": "Instructions for fetching current weather temperature data for Dubai, UAE from Open-Meteo API"
         },
         {
           "name": "weather-svg-creator",
           "path": ".claude/skills/weather-svg-creator/SKILL.md",
-          "title": "weather-svg-creator",
           "description": "Creates an SVG weather card showing the current temperature for Dubai. Writes the SVG to orchestration-workflow/weather.svg and updates orchestration-workflow/output.md."
         },
         {
           "name": "time-fetcher",
           "path": "agent-teams/.claude/skills/time-fetcher/SKILL.md",
-          "title": "time-fetcher",
           "description": "Instructions for fetching current Dubai time via bash command"
         },
         {
           "name": "time-svg-creator",
           "path": "agent-teams/.claude/skills/time-svg-creator/SKILL.md",
-          "title": "time-svg-creator",
           "description": "Creates an SVG time card showing the current time for Dubai. Writes the SVG to agent-teams/output/dubai-time.svg and updates agent-teams/output/output.md."
         }
       ],
@@ -2192,7 +2086,7 @@
         "prompt-engineering",
         "writing-tools"
       ],
-      "stars": 68607,
+      "stars": 68611,
       "pushed_at": "2026-11-10T01:35:15Z",
       "created_at": "2026-01-18T05:30:15Z",
       "license": "MIT",
@@ -2229,7 +2123,7 @@
         "mermaid",
         "svg"
       ],
-      "stars": 66820,
+      "stars": 66821,
       "pushed_at": "2026-11-12T21:14:19Z",
       "created_at": "2026-04-16T18:01:16Z",
       "license": "MIT",
@@ -2265,7 +2159,7 @@
         "developer-tools",
         "productivity"
       ],
-      "stars": 61072,
+      "stars": 61074,
       "pushed_at": "2026-10-19T19:46:23Z",
       "created_at": "2026-05-13T20:42:06Z",
       "license": "MIT",
@@ -2531,7 +2425,7 @@
         "scientific-computing",
         "scientific-visualization"
       ],
-      "stars": 57023,
+      "stars": 57026,
       "pushed_at": "2026-11-09T09:17:48Z",
       "created_at": "2025-10-19T20:54:15Z",
       "license": "MIT",
@@ -2857,8 +2751,8 @@
         "mcp-client",
         "ollama"
       ],
-      "stars": 53479,
-      "pushed_at": "2026-11-13T10:44:09Z",
+      "stars": 53480,
+      "pushed_at": "2026-11-13T10:58:04Z",
       "created_at": "2024-05-24T01:56:26Z",
       "license": "AGPL-3.0",
       "default_branch": "main",
@@ -3067,7 +2961,7 @@
         "harness",
         "repository-level-context"
       ],
-      "stars": 50101,
+      "stars": 50110,
       "pushed_at": "2026-11-13T09:11:45Z",
       "created_at": "2026-05-18T02:16:36Z",
       "license": "Apache-2.0",
@@ -3078,25 +2972,21 @@
         {
           "name": "open-code-review-delegate",
           "path": "plugins/open-code-review/skills/open-code-review-delegate/SKILL.md",
-          "title": "open-code-review-delegate",
           "description": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LL"
         },
         {
           "name": "open-code-review",
           "path": "plugins/open-code-review/skills/open-code-review/SKILL.md",
-          "title": "open-code-review",
           "description": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au"
         },
         {
           "name": "open-code-review-delegate",
           "path": "skills/open-code-review-delegate/SKILL.md",
-          "title": "open-code-review-delegate",
           "description": "Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LL"
         },
         {
           "name": "open-code-review",
           "path": "skills/open-code-review/SKILL.md",
-          "title": "open-code-review",
           "description": "Performs AI-powered code review on Git changes using the `ocr` CLI from alibaba/open-code-review. Use when the user asks to review code, review a pull request, review staged/unstaged changes, review a commit, or compare branches for code quality issues. Produces line-level review comments and can au"
         }
       ],
@@ -3341,7 +3231,7 @@
         "typescript"
       ],
       "stars": 45695,
-      "pushed_at": "2026-11-13T09:58:13Z",
+      "pushed_at": "2026-11-13T10:57:44Z",
       "created_at": "2020-03-25T14:08:22Z",
       "license": "MIT",
       "default_branch": "main",
@@ -3747,7 +3637,7 @@
         "hacktoberfest",
         "prompt-engineering"
       ],
-      "stars": 41111,
+      "stars": 41112,
       "pushed_at": "2026-11-13T03:40:39Z",
       "created_at": "2025-06-11T16:57:39Z",
       "license": "MIT",
@@ -3758,73 +3648,61 @@
         {
           "name": "agentic-workflows",
           "path": ".github/skills/agentic-workflows/SKILL.md",
-          "title": "agentic-workflows",
           "description": "Route gh-aw workflow design/create/debug/upgrade requests to the right prompts."
         },
         {
           "name": "code-review",
           "path": ".github/skills/code-review/SKILL.md",
-          "title": "code-review",
           "description": "Review pull requests for repository fit, meaningful value, trustworthy provenance, differentiation, and maintainability in awesome-copilot."
         },
         {
           "name": "create-canvas-extension",
           "path": ".github/skills/create-canvas-extension/SKILL.md",
-          "title": "create-canvas-extension",
           "description": "Create or register a canvas extension in the awesome-copilot repository. Use when asked to scaffold a new canvas extension, create its plugin.json, add a reusable extension to one or more plugins, or migrate extension metadata. Extensions are reusable source under extensions/; shippable plugin manif"
         },
         {
           "name": "acquire-codebase-knowledge",
           "path": "skills/acquire-codebase-knowledge/SKILL.md",
-          "title": "acquire-codebase-knowledge",
           "description": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase. Trigger for prompts like \"map this codebase\", \"document this architecture\", \"onboard me to this repo\", or \"create codebase docs\". Do not trigger for routine feature implementation, bug fixes, or narr"
         },
         {
           "name": "acreadiness-assess",
           "path": "skills/acreadiness-assess/SKILL.md",
-          "title": "acreadiness-assess",
           "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the @ai-readiness-reporter custom agent. Supports policies (--policy) for org-specific scoring. Use when"
         },
         {
           "name": "acreadiness-generate-instructions",
           "path": "skills/acreadiness-generate-instructions/SKILL.md",
-          "title": "acreadiness-generate-instructions",
           "description": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area .instructions.md files with applyTo globs for monorepos. Use after running /acreadiness-assess to close gaps in"
         },
         {
           "name": "acreadiness-policy",
           "path": "skills/acreadiness-policy/SKILL.md",
-          "title": "acreadiness-policy",
           "description": "Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org baselines with team overrides. Use when the user asks about strict mode, AI-only scoring, custom weights,"
         },
         {
           "name": "ad-campaign-analyzer",
           "path": "skills/ad-campaign-analyzer/SKILL.md",
-          "title": "ad-campaign-analyzer",
           "description": "Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test. Trigger for prompts like \"analyze my ad campaigns\", \"where am I wasting ad spend\", \"reallocate my ad budget\", \"which ads are actually working\", or \"ROAS analysis\". Do not trigger for campaign plann"
         },
         {
           "name": "add-educational-comments",
           "path": "skills/add-educational-comments/SKILL.md",
-          "title": "add-educational-comments",
           "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided."
         },
         {
           "name": "adobe-illustrator-integrations",
           "path": "skills/adobe-illustrator-integrations/SKILL.md",
-          "title": "adobe-illustrator-integrations",
           "description": "Build, debug, package, and document Adobe Illustrator integrations: CEP extension panels, C++ SDK plug-ins (.aip), the coming UXP plugins, MCP servers that drive Illustrator, computer-use automation, and OS scripts (batch, PowerShell, bash, AppleScript) that run ExtendScript in Illustrator. Use when"
         },
         {
           "name": "adobe-illustrator-scripting",
           "path": "skills/adobe-illustrator-scripting/SKILL.md",
-          "title": "adobe-illustrator-scripting",
           "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, "
         },
         {
           "name": "agent-architecture",
           "path": "skills/agent-architecture/SKILL.md",
-          "title": "agent-architecture",
           "description": "Design AI agent architectures through requirements discovery, or audit and diagnose architectural flaws in existing agents. Architecture only; excludes implementation and general code review."
         },
         {
@@ -4125,7 +4003,7 @@
         "mcp",
         "registry"
       ],
-      "stars": 33455,
+      "stars": 33456,
       "pushed_at": "2026-11-13T03:21:37Z",
       "created_at": "2025-07-04T01:26:26Z",
       "license": "MIT",
@@ -4136,73 +4014,61 @@
         {
           "name": "owasp-security",
           "path": ".claude-plugin/skills/owasp-security/SKILL.md",
-          "title": "owasp-security",
           "description": "Comprehensive OWASP-aligned security guidance across six standards - Top 10 (2021) for web apps, ASVS 5.0, MASVS v2.1.0 for mobile, API Security Top 10 (2023), Kubernetes Top 10 (2022), and the Agentic Applications 2026 edition for AI/LLM. Use for security reviews, vulnerability audits, secure auth/"
         },
         {
           "name": "agent-management",
           "path": "cli-tool/components/skills/ai-maestro/agent-management/SKILL.md",
-          "title": "agent-management",
           "description": "Create, manage, and orchestrate AI agents using the AI Maestro CLI. Use when the user asks to \"create agent\", \"list agents\", \"delete agent\", \"hibernate agent\", \"wake agent\", \"install plugin\", \"show agent\", \"restart agent\", or any agent lifecycle management task."
         },
         {
           "name": "agent-messaging",
           "path": "cli-tool/components/skills/ai-maestro/agent-messaging/SKILL.md",
-          "title": "agent-messaging",
           "description": "Send and receive cryptographically signed messages between AI agents using the Agent Messaging Protocol (AMP). Use when the user asks to \"send a message to an agent\", \"check agent inbox\", \"message another agent\", \"reply to a message\", \"notify an agent\", or any inter-agent communication task."
         },
         {
           "name": "docs-search",
           "path": "cli-tool/components/skills/ai-maestro/docs-search/SKILL.md",
-          "title": "docs-search",
           "description": "Search auto-generated codebase documentation for function signatures, API docs, class definitions, and code comments. Use when the user asks to \"search docs\", \"find documentation\", \"look up a function\", \"check the API\", or before implementing changes to verify correct signatures and patterns."
         },
         {
           "name": "graph-query",
           "path": "cli-tool/components/skills/ai-maestro/graph-query/SKILL.md",
-          "title": "graph-query",
           "description": "Query the code graph database to understand component relationships, dependencies, and change impact. Use when the user asks to \"find callers\", \"check dependencies\", \"what uses this\", \"show relationships\", \"find serializers\", or when reading code and needing to understand what depends on a component"
         },
         {
           "name": "memory-search",
           "path": "cli-tool/components/skills/ai-maestro/memory-search/SKILL.md",
-          "title": "memory-search",
           "description": "Search conversation history and semantic memory to recall previous discussions, decisions, and context. Use when the user asks to \"search memory\", \"what did we discuss\", \"remember when\", \"find previous conversation\", \"check history\", or before starting work to recall prior decisions."
         },
         {
           "name": "planning",
           "path": "cli-tool/components/skills/ai-maestro/planning/SKILL.md",
-          "title": "planning",
           "description": "Create and manage persistent markdown planning files for structured task execution. Use when the user asks to \"create a plan\", \"track progress\", \"start a research project\", or when a task requires more than 5 tool calls and needs structured phase tracking to stay focused and avoid goal drift."
         },
         {
           "name": "agent-evaluation",
           "path": "cli-tool/components/skills/ai-research/agent-evaluation/SKILL.md",
-          "title": "agent-evaluation",
           "description": "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent."
         },
         {
           "name": "agent-manager-skill",
           "path": "cli-tool/components/skills/ai-research/agent-manager-skill/SKILL.md",
-          "title": "agent-manager-skill",
           "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
         },
         {
           "name": "agent-memory-mcp",
           "path": "cli-tool/components/skills/ai-research/agent-memory-mcp/SKILL.md",
-          "title": "agent-memory-mcp",
           "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
         },
         {
           "name": "agent-memory-systems",
           "path": "cli-tool/components/skills/ai-research/agent-memory-systems/SKILL.md",
-          "title": "agent-memory-systems",
           "description": "Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-term (context window), long-term (vector stores), and the cognitive architectures that organize them.  Key insight: Memory isn't just storage - i"
         },
         {
           "name": "agent-tool-builder",
           "path": "cli-tool/components/skills/ai-research/agent-tool-builder/SKILL.md",
-          "title": "agent-tool-builder",
           "description": "Tools are how AI agents interact with the world. A well-designed tool is the difference between an agent that works and one that hallucinates, fails silently, or costs 10x more tokens than necessary.  This skill covers tool design from schema to error handling. JSON Schema best practices, descriptio"
         },
         {
@@ -4350,13 +4216,13 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 33289,
+      "stars": 33290,
       "pushed_at": "2026-11-13T09:55:09Z",
       "created_at": "2023-08-16T16:16:33Z",
       "license": "Apache-2.0",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/125468716?v=4",
-      "skill_count": 27,
+      "skill_count": 26,
       "skills": [
         {
           "name": "cognee-cli",
@@ -4449,10 +4315,6 @@
         {
           "name": "self-hosted-companion",
           "path": ".agents/skills/self-hosted-companion/SKILL.md"
-        },
-        {
-          "name": "cognee",
-          "path": "cognee/skill.md"
         },
         {
           "name": "diff-risk-explainer",
@@ -4681,7 +4543,7 @@
         "claude-skills",
         "openclaw"
       ],
-      "stars": 31111,
+      "stars": 31112,
       "pushed_at": "2026-11-13T06:30:30Z",
       "created_at": "2026-01-31T15:47:22Z",
       "license": "MIT",
@@ -5442,7 +5304,7 @@
         "tool",
         "xiaohongshu"
       ],
-      "stars": 27668,
+      "stars": 27669,
       "pushed_at": "2026-11-12T07:35:19Z",
       "created_at": "2025-02-24T08:03:24Z",
       "license": "MIT",
@@ -5791,7 +5653,7 @@
         "svg",
         "vizualization"
       ],
-      "stars": 27032,
+      "stars": 27035,
       "pushed_at": "2026-10-18T20:20:24Z",
       "created_at": "2026-10-08T10:12:49Z",
       "license": "MIT",
@@ -5873,7 +5735,7 @@
         "supply-chain-security"
       ],
       "stars": 25768,
-      "pushed_at": "2026-11-13T09:33:46Z",
+      "pushed_at": "2026-11-13T10:55:13Z",
       "created_at": "2026-03-21T00:28:43Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -6108,7 +5970,7 @@
         "workflows"
       ],
       "stars": 24913,
-      "pushed_at": "2026-11-13T10:45:31Z",
+      "pushed_at": "2026-11-13T10:51:36Z",
       "created_at": "2020-10-24T07:27:48Z",
       "license": "NOASSERTION",
       "default_branch": "v3-develop",
@@ -6687,7 +6549,7 @@
         "video-generation",
         "video-production"
       ],
-      "stars": 19090,
+      "stars": 19091,
       "pushed_at": "2026-11-11T16:30:35Z",
       "created_at": "2026-07-19T11:44:41Z",
       "license": "Apache-2.0",
@@ -6776,7 +6638,7 @@
         "prompt-engineering",
         "spec-driven-development"
       ],
-      "stars": 18357,
+      "stars": 18361,
       "pushed_at": "2026-11-13T08:26:46Z",
       "created_at": "2026-09-13T16:31:06Z",
       "license": "Apache-2.0",
@@ -7036,7 +6898,7 @@
         "llm",
         "prompt-engineering"
       ],
-      "stars": 15901,
+      "stars": 15902,
       "pushed_at": "2026-10-22T13:26:18Z",
       "created_at": "2026-03-11T16:25:43Z",
       "license": "MIT",
@@ -7138,7 +7000,7 @@
         "video-production",
         "webgl"
       ],
-      "stars": 15485,
+      "stars": 15492,
       "pushed_at": "2026-11-12T11:29:03Z",
       "created_at": "2026-09-26T10:10:41Z",
       "license": "NOASSERTION",
@@ -8004,7 +7866,7 @@
         "llm-agents",
         "python"
       ],
-      "stars": 11088,
+      "stars": 11089,
       "pushed_at": "2026-11-12T08:19:16Z",
       "created_at": "2026-06-09T21:05:42Z",
       "license": "MIT",
@@ -8497,7 +8359,7 @@
         "slide-generator",
         "slides"
       ],
-      "stars": 10662,
+      "stars": 10663,
       "pushed_at": "2026-11-06T08:26:30Z",
       "created_at": "2026-06-10T07:46:43Z",
       "license": "AGPL-3.0",
@@ -8544,21 +8406,13 @@
         "workbuddy"
       ],
       "stars": 9796,
-      "pushed_at": "2026-11-13T10:46:56Z",
+      "pushed_at": "2026-11-13T10:57:59Z",
       "created_at": "2026-05-11T09:40:38Z",
       "license": "Apache-2.0",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "skill_count": 18,
+      "skill_count": 9,
       "skills": [
-        {
-          "name": "brandkit",
-          "path": "library/skills/brandkit/SKILL.md"
-        },
-        {
-          "name": "motion-design-remix",
-          "path": "library/skills/motion-design-remix/SKILL.md"
-        },
         {
           "name": "openmotion-brandkit",
           "path": "library/skills/openmotion-brandkit/SKILL.md"
@@ -8570,30 +8424,6 @@
         {
           "name": "openmotion-presenter-story",
           "path": "library/skills/openmotion-presenter-story/SKILL.md"
-        },
-        {
-          "name": "presenter-story",
-          "path": "library/skills/presenter-story/SKILL.md"
-        },
-        {
-          "name": "motion-director",
-          "path": "skills/motion-director/SKILL.md"
-        },
-        {
-          "name": "motion-production",
-          "path": "skills/motion-production/SKILL.md"
-        },
-        {
-          "name": "motion-recreate",
-          "path": "skills/motion-recreate/SKILL.md"
-        },
-        {
-          "name": "motion-template-to-video",
-          "path": "skills/motion-template-to-video/SKILL.md"
-        },
-        {
-          "name": "motion-video-to-template",
-          "path": "skills/motion-video-to-template/SKILL.md"
         },
         {
           "name": "openmotion-director",
@@ -8618,10 +8448,6 @@
         {
           "name": "openmotion-video-to-template",
           "path": "skills/openmotion-video-to-template/SKILL.md"
-        },
-        {
-          "name": "reference-video",
-          "path": "skills/reference-video/SKILL.md"
         }
       ],
       "agents": [
@@ -8922,7 +8748,7 @@
         "reverse-engineering",
         "saas"
       ],
-      "stars": 9174,
+      "stars": 9175,
       "pushed_at": "2026-10-03T12:07:53Z",
       "created_at": "2026-10-03T12:07:49Z",
       "license": "MIT",
@@ -8999,7 +8825,7 @@
         "ui-design"
       ],
       "stars": 9086,
-      "pushed_at": "2026-11-13T10:32:35Z",
+      "pushed_at": "2026-11-13T10:52:56Z",
       "created_at": "2026-08-07T10:29:56Z",
       "license": "MIT",
       "default_branch": "main",
@@ -9949,7 +9775,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 8167,
+      "stars": 8168,
       "pushed_at": "2026-11-12T17:48:51Z",
       "created_at": "2026-01-14T18:23:21Z",
       "license": "CC-BY-SA-4.0",
@@ -10369,7 +10195,7 @@
         "web-scraper",
         "web-scraping"
       ],
-      "stars": 7994,
+      "stars": 7996,
       "pushed_at": "2026-11-08T10:51:13Z",
       "created_at": "2023-04-22T14:35:13Z",
       "license": "MIT",
@@ -10452,7 +10278,7 @@
         "videomd",
         "vlm"
       ],
-      "stars": 7716,
+      "stars": 7719,
       "pushed_at": "2026-11-13T08:19:51Z",
       "created_at": "2026-10-29T16:15:01Z",
       "license": "Apache-2.0",
@@ -10600,15 +10426,11 @@
       "license": "NOASSERTION",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/132635806?v=4",
-      "skill_count": 2,
+      "skill_count": 1,
       "skills": [
         {
           "name": "skill",
           "path": "packages/cli/skill/SKILL.md"
-        },
-        {
-          "name": "references",
-          "path": "packages/cli/skill/references/skill.md"
         }
       ],
       "agents": [
@@ -10631,7 +10453,7 @@
         "day-trading",
         "stock-market"
       ],
-      "stars": 7508,
+      "stars": 7510,
       "pushed_at": "2026-10-20T14:18:00Z",
       "created_at": "2026-10-20T14:17:54Z",
       "license": "MIT",
@@ -11118,7 +10940,7 @@
         "prompt-engineering",
         "prompt-optimization"
       ],
-      "stars": 7421,
+      "stars": 7422,
       "pushed_at": "2026-11-09T12:46:31Z",
       "created_at": "2025-08-05T09:26:27Z",
       "license": "MIT",
@@ -11204,7 +11026,7 @@
       "license": "NOASSERTION",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/292523741?v=4",
-      "skill_count": 96,
+      "skill_count": 95,
       "skills": [
         {
           "name": "internet-court-skill",
@@ -11400,7 +11222,7 @@
         "reverse-image-search",
         "satellite-imagery"
       ],
-      "stars": 6947,
+      "stars": 6949,
       "pushed_at": "2026-11-09T13:31:34Z",
       "created_at": "2026-09-18T08:51:34Z",
       "license": "MIT",
@@ -11484,7 +11306,7 @@
         "skills",
         "video"
       ],
-      "stars": 6848,
+      "stars": 6850,
       "pushed_at": "2026-11-10T01:40:26Z",
       "created_at": "2026-10-06T04:49:37Z",
       "license": "MIT",
@@ -11660,12 +11482,8 @@
       "license": "NOASSERTION",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/38157020?v=4",
-      "skill_count": 2,
+      "skill_count": 1,
       "skills": [
-        {
-          "name": "get-documentation",
-          "path": "skills/get-documentation/skill.md"
-        },
         {
           "name": "theme-generator",
           "path": "skills/theme-generator/SKILL.md"
@@ -12493,7 +12311,7 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 6106,
+      "stars": 6108,
       "pushed_at": "2026-11-12T15:52:10Z",
       "created_at": "2026-02-03T22:51:09Z",
       "license": "MIT",
@@ -12910,7 +12728,7 @@
         "agent-skills",
         "skills"
       ],
-      "stars": 6066,
+      "stars": 6067,
       "pushed_at": "2026-11-11T08:13:27Z",
       "created_at": "2026-01-28T05:59:03Z",
       "license": "MIT",
@@ -13400,7 +13218,7 @@
         "pixel-art",
         "sprite-generator"
       ],
-      "stars": 5643,
+      "stars": 5647,
       "pushed_at": "2026-11-13T01:41:03Z",
       "created_at": "2026-04-23T20:52:52Z",
       "license": "MIT",
@@ -13598,7 +13416,7 @@
         "vscode-extension",
         "workflow-automation"
       ],
-      "stars": 5453,
+      "stars": 5454,
       "pushed_at": "2026-10-07T00:11:01Z",
       "created_at": "2025-11-01T16:04:15Z",
       "license": "NOASSERTION",
@@ -13689,7 +13507,7 @@
         "vscode"
       ],
       "stars": 5411,
-      "pushed_at": "2026-11-13T10:06:23Z",
+      "pushed_at": "2026-11-13T10:50:29Z",
       "created_at": "2022-02-01T16:42:30Z",
       "license": "MIT",
       "default_branch": "main",
@@ -13778,8 +13596,8 @@
         "video-editing",
         "whisper"
       ],
-      "stars": 5358,
-      "pushed_at": "2026-11-13T10:26:45Z",
+      "stars": 5360,
+      "pushed_at": "2026-11-13T10:52:28Z",
       "created_at": "2026-09-03T14:33:38Z",
       "license": "MIT",
       "default_branch": "main",
@@ -14410,7 +14228,7 @@
         "vision",
         "vision-transformer"
       ],
-      "stars": 4949,
+      "stars": 4950,
       "pushed_at": "2026-11-07T16:37:02Z",
       "created_at": "2026-02-22T07:12:00Z",
       "license": "MIT",
@@ -14505,7 +14323,7 @@
         "skills"
       ],
       "stars": 4835,
-      "pushed_at": "2026-11-12T09:54:25Z",
+      "pushed_at": "2026-11-13T10:53:47Z",
       "created_at": "2026-06-03T11:12:40Z",
       "license": "GPL-3.0",
       "default_branch": "main",
@@ -16349,7 +16167,7 @@
         "skill-management",
         "skills"
       ],
-      "stars": 3876,
+      "stars": 3877,
       "pushed_at": "2026-11-09T14:06:42Z",
       "created_at": "2026-02-15T19:18:12Z",
       "license": "CC-BY-4.0",
@@ -18393,41 +18211,6 @@
       "rank": 169
     },
     {
-      "full_name": "codeaashu/claude-code",
-      "url": "https://github.com/codeaashu/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "TypeScript",
-      "topics": [
-        "aashuu",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-code-leaked",
-        "claude-code-skill",
-        "claude-desktop",
-        "claude-leak",
-        "claude-skills"
-      ],
-      "stars": 3437,
-      "pushed_at": "2026-10-14T14:15:16Z",
-      "created_at": "2026-03-31T12:56:05Z",
-      "license": "NOASSERTION",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/130897584?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "claude-code",
-          "path": "Skill.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 170
-    },
-    {
       "full_name": "taishi-i/awesome-ChatGPT-repositories",
       "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
       "description": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Searchable via Claude Code  and Codex skills.",
@@ -18471,7 +18254,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 171
+      "rank": 170
     },
     {
       "full_name": "lackeyjb/playwright-skill",
@@ -18505,7 +18288,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 172
+      "rank": 171
     },
     {
       "full_name": "Vincentwei1021/anything2explainer",
@@ -18550,7 +18333,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 173
+      "rank": 172
     },
     {
       "full_name": "signerlabs/ShipSwift",
@@ -18601,7 +18384,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 174
+      "rank": 173
     },
     {
       "full_name": "ciembor/agent-rules-books",
@@ -18700,7 +18483,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 175
+      "rank": 174
     },
     {
       "full_name": "Forward-Future/loopy",
@@ -18736,7 +18519,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 176
+      "rank": 175
     },
     {
       "full_name": "oil-oil/oil-ui",
@@ -18771,7 +18554,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 177
+      "rank": 176
     },
     {
       "full_name": "nanaism/yomiyasu",
@@ -18794,7 +18577,7 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 3211,
+      "stars": 3212,
       "pushed_at": "2026-11-12T00:28:35Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
@@ -18814,7 +18597,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 178
+      "rank": 177
     },
     {
       "full_name": "microsoft/skills",
@@ -19001,7 +18784,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 179
+      "rank": 178
     },
     {
       "full_name": "plugin87/ux-ui-agent-skills",
@@ -19147,7 +18930,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 180
+      "rank": 179
     },
     {
       "full_name": "aaron-he-zhu/aaron-marketing-skills",
@@ -19347,7 +19130,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 181
+      "rank": 180
     },
     {
       "full_name": "0xsline/OpenChatCut",
@@ -19514,7 +19297,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 182
+      "rank": 181
     },
     {
       "full_name": "addyosmani/web-quality-skills",
@@ -19568,7 +19351,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 183
+      "rank": 182
     },
     {
       "full_name": "Pinvou/pinvou-agent",
@@ -19752,7 +19535,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 184
+      "rank": 183
     },
     {
       "full_name": "Tiger3807861189/J-Space-Cognition-Suite",
@@ -19799,7 +19582,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 185
+      "rank": 184
     },
     {
       "full_name": "rohitg00/pro-workflow",
@@ -20003,7 +19786,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 186
+      "rank": 185
     },
     {
       "full_name": "jeremylongshore/tons-of-skills-marketplace",
@@ -20201,7 +19984,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 187
+      "rank": 186
     },
     {
       "full_name": "oil-oil/oil-motion",
@@ -20248,7 +20031,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 188
+      "rank": 187
     },
     {
       "full_name": "chengyi-ai/native-subtitle-quote-image",
@@ -20279,7 +20062,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 189
+      "rank": 188
     },
     {
       "full_name": "heshengtao/super-agent-party",
@@ -20334,7 +20117,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 190
+      "rank": 189
     },
     {
       "full_name": "Alisa0808/vox-director",
@@ -20360,7 +20143,7 @@
         "video-generation",
         "vox"
       ],
-      "stars": 2808,
+      "stars": 2809,
       "pushed_at": "2026-10-05T16:15:11Z",
       "created_at": "2026-07-10T15:32:05Z",
       "license": "MIT",
@@ -20377,7 +20160,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 191
+      "rank": 190
     },
     {
       "full_name": "AgriciDaniel/claude-blog",
@@ -20406,7 +20189,7 @@
         "open-source",
         "seo"
       ],
-      "stars": 2736,
+      "stars": 2737,
       "pushed_at": "2026-11-03T00:20:12Z",
       "created_at": "2026-02-17T22:40:44Z",
       "license": "MIT",
@@ -20551,7 +20334,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 192
+      "rank": 191
     },
     {
       "full_name": "yaojingang/yao-meta-skill",
@@ -20583,7 +20366,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 193
+      "rank": 192
     },
     {
       "full_name": "cisco-ai-defense/skill-scanner",
@@ -20758,7 +20541,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 194
+      "rank": 193
     },
     {
       "full_name": "wondelai/skills",
@@ -20958,7 +20741,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 195
+      "rank": 194
     },
     {
       "full_name": "alchaincyf/huashu-motion",
@@ -20998,7 +20781,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 196
+      "rank": 195
     },
     {
       "full_name": "arjun988/blender-skills",
@@ -21018,7 +20801,7 @@
         "game-development",
         "mcp"
       ],
-      "stars": 2662,
+      "stars": 2665,
       "pushed_at": "2026-11-06T08:42:41Z",
       "created_at": "2026-07-05T08:36:06Z",
       "license": "MIT",
@@ -21193,7 +20976,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 197
+      "rank": 196
     },
     {
       "full_name": "nolangz/pixel2motion",
@@ -21240,7 +21023,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 198
+      "rank": 197
     },
     {
       "full_name": "MrGeDiao/shuorenhua",
@@ -21284,7 +21067,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 199
+      "rank": 198
     },
     {
       "full_name": "amElnagdy/delegate-skills",
@@ -21406,7 +21189,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 200
+      "rank": 199
     },
     {
       "full_name": "romainsimon/paperasse",
@@ -21465,7 +21248,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 201
+      "rank": 200
     },
     {
       "full_name": "Weizhena/Deep-Research-skills",
@@ -21577,7 +21360,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 202
+      "rank": 201
     },
     {
       "full_name": "digitalsamba/claude-code-video-toolkit",
@@ -21687,7 +21470,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 203
+      "rank": 202
     },
     {
       "full_name": "LearnPrompt/awesome-seedance",
@@ -21715,7 +21498,7 @@
         "text-to-video",
         "video-generation"
       ],
-      "stars": 2524,
+      "stars": 2525,
       "pushed_at": "2026-11-13T09:41:54Z",
       "created_at": "2026-08-26T16:23:56Z",
       "license": "MIT",
@@ -21789,7 +21572,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 204
+      "rank": 203
     },
     {
       "full_name": "Gentleman-Programming/gentle-shell",
@@ -21819,7 +21602,7 @@
         "tdd"
       ],
       "stars": 2497,
-      "pushed_at": "2026-11-13T07:28:14Z",
+      "pushed_at": "2026-11-13T10:50:22Z",
       "created_at": "2026-05-10T10:11:33Z",
       "license": "MIT",
       "default_branch": "main",
@@ -21889,7 +21672,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 205
+      "rank": 204
     },
     {
       "full_name": "apify/agent-skills",
@@ -21934,7 +21717,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 206
+      "rank": 205
     },
     {
       "full_name": "caru-ini/stack-diagram",
@@ -21969,7 +21752,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 207
+      "rank": 206
     },
     {
       "full_name": "antonbabenko/terraform-skill",
@@ -22005,7 +21788,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 208
+      "rank": 207
     },
     {
       "full_name": "DenisSergeevitch/agents-best-practices",
@@ -22044,7 +21827,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 209
+      "rank": 208
     },
     {
       "full_name": "FrancyJGLisboa/agent-skills-platform",
@@ -22107,7 +21890,7 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 210
+      "rank": 209
     },
     {
       "full_name": "Mahanaicoach/google-maps-scraper-kit",
@@ -22155,7 +21938,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 211
+      "rank": 210
     },
     {
       "full_name": "tourmind-com/Tourmind-Booking-Skills",
@@ -22201,7 +21984,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 212
+      "rank": 211
     },
     {
       "full_name": "coldteadotai/pr-lens",
@@ -22252,7 +22035,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 213
+      "rank": 212
     },
     {
       "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
@@ -22287,7 +22070,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 214
+      "rank": 213
     },
     {
       "full_name": "datopian/portaljs",
@@ -22383,52 +22166,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 215
-    },
-    {
-      "full_name": "shinyobjectz/raea",
-      "url": "https://github.com/shinyobjectz/raea",
-      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
-      "language": "TypeScript",
-      "topics": [
-        "3d",
-        "agent-skills",
-        "ai-agents",
-        "ai-video",
-        "bevy",
-        "claude-code",
-        "game-engine",
-        "gpu",
-        "linux",
-        "macos",
-        "motion-design",
-        "motion-graphics",
-        "react",
-        "rust",
-        "typescript",
-        "video-editing",
-        "video-rendering",
-        "wgpu",
-        "windows"
-      ],
-      "stars": 2319,
-      "pushed_at": "2026-11-13T10:27:45Z",
-      "created_at": "2026-10-18T18:08:48Z",
-      "license": "NOASSERTION",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/198368214?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "cli",
-          "path": "docs/manual/reference/cli/skill.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 216
+      "rank": 214
     },
     {
       "full_name": "Sahir619/fable-method",
@@ -22479,7 +22217,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 217
+      "rank": 215
     },
     {
       "full_name": "dstackai/dstack",
@@ -22507,7 +22245,7 @@
         "training"
       ],
       "stars": 2310,
-      "pushed_at": "2026-11-13T10:45:55Z",
+      "pushed_at": "2026-11-13T10:53:44Z",
       "created_at": "2022-01-04T10:29:46Z",
       "license": "MPL-2.0",
       "default_branch": "master",
@@ -22529,7 +22267,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 218
+      "rank": 216
     },
     {
       "full_name": "Vincentwei1021/video-talkcraft",
@@ -22568,7 +22306,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 219
+      "rank": 217
     },
     {
       "full_name": "maxrave-dev/kotlin-footguns",
@@ -22642,7 +22380,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 220
+      "rank": 218
     },
     {
       "full_name": "UnderleveledBuilder/awesome-short-drama-skills",
@@ -22689,7 +22427,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 221
+      "rank": 219
     },
     {
       "full_name": "alchaincyf/huashu-skills",
@@ -22813,7 +22551,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 222
+      "rank": 220
     },
     {
       "full_name": "atomicstrata/llm-wiki-compiler",
@@ -22851,7 +22589,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 223
+      "rank": 221
     },
     {
       "full_name": "JuneYaooo/nihaisha-nishi-tcm",
@@ -22890,7 +22628,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 224
+      "rank": 222
     },
     {
       "full_name": "bergside/typeui",
@@ -22946,7 +22684,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 225
+      "rank": 223
     },
     {
       "full_name": "LeoYeAI/agent-master-skills",
@@ -22976,7 +22714,7 @@
       "license": "MIT",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/121472001?v=4",
-      "skill_count": 3454,
+      "skill_count": 3437,
       "skills": [
         {
           "name": "agent-master-skills",
@@ -23146,7 +22884,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 226
+      "rank": 224
     },
     {
       "full_name": "zhuyansen/new-term-radar",
@@ -23193,7 +22931,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 227
+      "rank": 225
     },
     {
       "full_name": "maxritter/qualitylayer",
@@ -23265,7 +23003,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 228
+      "rank": 226
     },
     {
       "full_name": "zanwei/design-dna",
@@ -23303,7 +23041,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 229
+      "rank": 227
     },
     {
       "full_name": "Jesseovo/last30days-skill-cn",
@@ -23351,7 +23089,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 230
+      "rank": 228
     },
     {
       "full_name": "coji/natural-japanese",
@@ -23389,7 +23127,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 231
+      "rank": 229
     },
     {
       "full_name": "DUNHKpcc/Claude-Guardian",
@@ -23421,7 +23159,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 232
+      "rank": 230
     },
     {
       "full_name": "axoviq-ai/synthadoc",
@@ -23496,7 +23234,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 233
+      "rank": 231
     },
     {
       "full_name": "composio-community/awesome-claude-plugins",
@@ -23622,7 +23360,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 234
+      "rank": 232
     },
     {
       "full_name": "oil-oil/beautify-github-readme",
@@ -23665,7 +23403,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 235
+      "rank": 233
     },
     {
       "full_name": "BayramAnnakov/claude-reflect",
@@ -23696,7 +23434,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 236
+      "rank": 234
     },
     {
       "full_name": "XiaoMaColtAI/math-modeling-skill",
@@ -23809,7 +23547,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 237
+      "rank": 235
     },
     {
       "full_name": "OpenOSINT/OpenOSINT",
@@ -23859,7 +23597,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 238
+      "rank": 236
     },
     {
       "full_name": "Kiterlin/anti-defensive-writing",
@@ -23895,7 +23633,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 239
+      "rank": 237
     },
     {
       "full_name": "a5c-ai/babysitter",
@@ -24097,7 +23835,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 240
+      "rank": 238
     },
     {
       "full_name": "ReScienceLab/opc-skills",
@@ -24178,7 +23916,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 241
+      "rank": 239
     },
     {
       "full_name": "timescale/pg-aiguide",
@@ -24260,7 +23998,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 242
+      "rank": 240
     },
     {
       "full_name": "qufei1993/skills-hub",
@@ -24344,7 +24082,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 243
+      "rank": 241
     },
     {
       "full_name": "Klotzkette/claude-fuer-deutsches-recht",
@@ -24362,7 +24100,7 @@
         "legal-ai",
         "legaltech"
       ],
-      "stars": 1831,
+      "stars": 1832,
       "pushed_at": "2026-11-13T10:14:34Z",
       "created_at": "2026-05-18T16:43:56Z",
       "license": "Apache-2.0",
@@ -24535,7 +24273,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 244
+      "rank": 242
     },
     {
       "full_name": "morganlinton/BeautifulRust",
@@ -24583,7 +24321,7 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 245
+      "rank": 243
     },
     {
       "full_name": "mex-memory/mex",
@@ -24654,7 +24392,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 246
+      "rank": 244
     },
     {
       "full_name": "daveebbelaar/bama",
@@ -24776,7 +24514,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 247
+      "rank": 245
     },
     {
       "full_name": "lyra81604/zhengxi-views",
@@ -24804,7 +24542,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 248
+      "rank": 246
     },
     {
       "full_name": "Jakeschincariol/trader-skill",
@@ -24818,7 +24556,7 @@
         "investing",
         "stock-market"
       ],
-      "stars": 1766,
+      "stars": 1767,
       "pushed_at": "2026-10-14T21:13:22Z",
       "created_at": "2026-10-14T21:12:28Z",
       "license": "MIT",
@@ -24875,7 +24613,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 249
+      "rank": 247
     },
     {
       "full_name": "JimLiu/baocut",
@@ -25029,7 +24767,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 250
+      "rank": 248
     },
     {
       "full_name": "eatmoreduck/boss-zhipin-scraper",
@@ -25069,7 +24807,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 251
+      "rank": 249
     },
     {
       "full_name": "boyang-hu/website-rebuild-skill",
@@ -25092,15 +24830,11 @@
       "license": "MIT",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/6506427?v=4",
-      "skill_count": 2,
+      "skill_count": 1,
       "skills": [
         {
           "name": "website-rebuild",
           "path": "skills/website-rebuild/SKILL.md"
-        },
-        {
-          "name": "case-studies",
-          "path": "skills/website-rebuild/references/case-studies/skill.md"
         }
       ],
       "agents": [
@@ -25108,7 +24842,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 252
+      "rank": 250
     },
     {
       "full_name": "Agents365-ai/video-podcast-maker",
@@ -25150,7 +24884,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 253
+      "rank": 251
     },
     {
       "full_name": "AvdLee/Swift-Concurrency-Agent-Skill",
@@ -25179,7 +24913,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 254
+      "rank": 252
     },
     {
       "full_name": "pedrohcgs/claude-code-my-workflow",
@@ -25376,7 +25110,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 255
+      "rank": 253
     },
     {
       "full_name": "bubbuild/bub",
@@ -25417,7 +25151,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 256
+      "rank": 254
     },
     {
       "full_name": "patrickchugh/terravision",
@@ -25464,7 +25198,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 257
+      "rank": 255
     },
     {
       "full_name": "feiskyer/claude-code-settings",
@@ -25547,7 +25281,7 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 258
+      "rank": 256
     },
     {
       "full_name": "codeaholicguy/ai-devkit",
@@ -25576,7 +25310,7 @@
         "workflow-automation"
       ],
       "stars": 1667,
-      "pushed_at": "2026-11-13T10:36:40Z",
+      "pushed_at": "2026-11-13T10:48:11Z",
       "created_at": "2025-10-14T08:00:48Z",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -25716,7 +25450,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 259
+      "rank": 257
     },
     {
       "full_name": "yuezhiai/jonex",
@@ -25767,7 +25501,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 260
+      "rank": 258
     },
     {
       "full_name": "alexgreensh/anidoodle",
@@ -25818,7 +25552,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 261
+      "rank": 259
     },
     {
       "full_name": "activeloopai/hivemind",
@@ -25903,7 +25637,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 262
+      "rank": 260
     },
     {
       "full_name": "microsoft/azure-skills",
@@ -26084,7 +25818,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 263
+      "rank": 261
     },
     {
       "full_name": "antvis/AVA",
@@ -26121,7 +25855,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 264
+      "rank": 262
     },
     {
       "full_name": "Kaelio/ktx",
@@ -26232,7 +25966,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 265
+      "rank": 263
     },
     {
       "full_name": "FANzR-arch/Numerologist_skills",
@@ -26274,7 +26008,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 266
+      "rank": 264
     },
     {
       "full_name": "DozenTwelve/Papermorph",
@@ -26311,7 +26045,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 267
+      "rank": 265
     },
     {
       "full_name": "silverstein/minutes",
@@ -26339,7 +26073,7 @@
       "license": "MIT",
       "default_branch": "main",
       "avatar": "https://avatars.githubusercontent.com/u/4837632?v=4",
-      "skill_count": 175,
+      "skill_count": 150,
       "skills": [
         {
           "name": "minutes-brief",
@@ -26509,7 +26243,7 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 268
+      "rank": 266
     },
     {
       "full_name": "NiazMorshed2007/reanimate",
@@ -26542,7 +26276,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 269
+      "rank": 267
     },
     {
       "full_name": "ajnart/self-host",
@@ -26604,7 +26338,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 270
+      "rank": 268
     },
     {
       "full_name": "imxv/Pretty-mermaid-skills",
@@ -26645,7 +26379,7 @@
         "cursor"
       ],
       "gained": null,
-      "rank": 271
+      "rank": 269
     },
     {
       "full_name": "alexgreensh/attention-span",
@@ -26695,7 +26429,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 272
+      "rank": 270
     },
     {
       "full_name": "Tejashmakwana/motionmaxxing",
@@ -26729,7 +26463,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 273
+      "rank": 271
     },
     {
       "full_name": "hyhmrright/brooks-lint",
@@ -26824,7 +26558,7 @@
         "opencode"
       ],
       "gained": null,
-      "rank": 274
+      "rank": 272
     },
     {
       "full_name": "undefined-ui/second-brain-os",
@@ -26952,7 +26686,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 275
+      "rank": 273
     },
     {
       "full_name": "mohitagw15856/pm-claude-skills",
@@ -27157,7 +26891,7 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 276
+      "rank": 274
     },
     {
       "full_name": "openclaw/crabbox",
@@ -27200,7 +26934,7 @@
       ],
       "agents": [],
       "gained": null,
-      "rank": 277
+      "rank": 275
     },
     {
       "full_name": "mikehasa/golive-skill",
@@ -27247,7 +26981,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 278
+      "rank": 276
     },
     {
       "full_name": "dzhng/skills",
@@ -27432,7 +27166,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 279
+      "rank": 277
     },
     {
       "full_name": "evo-hq/evo",
@@ -27515,7 +27249,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 280
+      "rank": 278
     }
   ],
   "rising": [
@@ -27552,7 +27286,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 207,
+      "rank": 206,
       "rising_rank": 1,
       "age_days": 12,
       "rising_basis": "pace",
@@ -27803,7 +27537,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 214,
+      "rank": 213,
       "rising_rank": 2,
       "age_days": 19,
       "rising_basis": "pace",
@@ -28083,7 +27817,7 @@
         "codex"
       ],
       "gained": null,
-      "rank": 196,
+      "rank": 195,
       "rising_rank": 3,
       "age_days": 25,
       "rising_basis": "pace",
@@ -28331,7 +28065,7 @@
         "claude"
       ],
       "gained": null,
-      "rank": 269,
+      "rank": 267,
       "rising_rank": 4,
       "age_days": 15,
       "rising_basis": "pace",
@@ -28908,297 +28642,6 @@
       }
     },
     {
-      "full_name": "shinyobjectz/raea",
-      "url": "https://github.com/shinyobjectz/raea",
-      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
-      "language": "TypeScript",
-      "topics": [
-        "3d",
-        "agent-skills",
-        "ai-agents",
-        "ai-video",
-        "bevy",
-        "claude-code",
-        "game-engine",
-        "gpu",
-        "linux",
-        "macos",
-        "motion-design",
-        "motion-graphics",
-        "react",
-        "rust",
-        "typescript",
-        "video-editing",
-        "video-rendering",
-        "wgpu",
-        "windows"
-      ],
-      "stars": 2319,
-      "pushed_at": "2026-11-13T10:27:45Z",
-      "created_at": "2026-10-18T18:08:48Z",
-      "license": "NOASSERTION",
-      "default_branch": "main",
-      "avatar": "https://avatars.githubusercontent.com/u/198368214?v=4",
-      "skill_count": 1,
-      "skills": [
-        {
-          "name": "cli",
-          "path": "docs/manual/reference/cli/skill.md"
-        }
-      ],
-      "agents": [
-        "claude"
-      ],
-      "gained": null,
-      "rank": 216,
-      "rising_rank": 6,
-      "age_days": 25,
-      "rising_basis": "pace",
-      "install": {
-        "sha": "2c6132a4608fd74bc6e41a9772edbe60e3351cde",
-        "skill": "cli",
-        "agents": {
-          "claude": {
-            "label": "Claude Code",
-            "verified": true,
-            "methods": [
-              {
-                "title": "GitHub CLI (made by GitHub)",
-                "note": null,
-                "code": "gh skill install shinyobjectz/raea cli --agent claude-code --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
-              },
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a claude-code -g"
-              },
-              {
-                "title": "Copy it yourself into ~/.claude/skills",
-                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-                "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.claude/skills\ncp -r skill-src/docs/manual/reference/cli ~/.claude/skills/cli"
-              }
-            ]
-          },
-          "codex": {
-            "label": "Codex",
-            "verified": true,
-            "methods": [
-              {
-                "title": "GitHub CLI (made by GitHub)",
-                "note": null,
-                "code": "gh skill install shinyobjectz/raea cli --agent codex --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
-              },
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a codex -g"
-              },
-              {
-                "title": "Copy it yourself into ~/.agents/skills",
-                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-                "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.agents/skills\ncp -r skill-src/docs/manual/reference/cli ~/.agents/skills/cli"
-              }
-            ]
-          },
-          "cursor": {
-            "label": "Cursor",
-            "verified": true,
-            "methods": [
-              {
-                "title": "GitHub CLI (made by GitHub)",
-                "note": null,
-                "code": "gh skill install shinyobjectz/raea cli --agent cursor --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
-              },
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a cursor -g"
-              },
-              {
-                "title": "Copy it yourself into ~/.cursor/skills",
-                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-                "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.cursor/skills\ncp -r skill-src/docs/manual/reference/cli ~/.cursor/skills/cli"
-              }
-            ]
-          },
-          "copilot": {
-            "label": "GitHub Copilot",
-            "verified": true,
-            "methods": [
-              {
-                "title": "GitHub CLI (made by GitHub)",
-                "note": null,
-                "code": "gh skill install shinyobjectz/raea cli --agent github-copilot --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
-              },
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a github-copilot -g"
-              },
-              {
-                "title": "Copy it yourself into ~/.copilot/skills",
-                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-                "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.copilot/skills\ncp -r skill-src/docs/manual/reference/cli ~/.copilot/skills/cli"
-              }
-            ]
-          },
-          "gemini": {
-            "label": "Gemini CLI",
-            "verified": true,
-            "methods": [
-              {
-                "title": "Gemini CLI (built in)",
-                "note": null,
-                "code": "gemini skills install https://github.com/shinyobjectz/raea.git --scope user --path docs/manual/reference/cli"
-              },
-              {
-                "title": "GitHub CLI (made by GitHub)",
-                "note": null,
-                "code": "gh skill install shinyobjectz/raea cli --agent gemini-cli --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
-              },
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a gemini-cli -g"
-              },
-              {
-                "title": "Copy it yourself into ~/.gemini/skills",
-                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-                "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.gemini/skills\ncp -r skill-src/docs/manual/reference/cli ~/.gemini/skills/cli"
-              }
-            ]
-          },
-          "opencode": {
-            "label": "OpenCode",
-            "verified": true,
-            "methods": [
-              {
-                "title": "GitHub CLI (made by GitHub)",
-                "note": null,
-                "code": "gh skill install shinyobjectz/raea cli --agent opencode --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
-              },
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a opencode -g"
-              },
-              {
-                "title": "Copy it yourself into ~/.config/opencode/skills",
-                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-                "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/docs/manual/reference/cli ~/.config/opencode/skills/cli"
-              }
-            ]
-          },
-          "windsurf": {
-            "label": "Windsurf",
-            "verified": false,
-            "methods": [
-              {
-                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
-                "note": null,
-                "code": "npx skills add shinyobjectz/raea -a windsurf -g"
-              }
-            ]
-          },
-          "claudeai": {
-            "label": "Claude.ai (website)",
-            "verified": true,
-            "methods": [
-              {
-                "title": "Upload as a zip",
-                "note": "Zip the skill folder so the folder itself is at the top of the zip, then upload it in Customize > Skills. Code execution must be on. Skills you upload here do not sync to Claude Code.",
-                "code": null
-              }
-            ]
-          }
-        },
-        "guide": [
-          {
-            "heading": "Install",
-            "steps": [
-              {
-                "text": "",
-                "code": "curl -fsSL https://raea.io/install | sh",
-                "lang": "sh"
-              },
-              {
-                "text": "The installer puts the raea command under ~/.raea, links it into ~/.local/bin, and adds raea's agent skills to ~/.claude/skills, so Claude Code (or any agent that reads that folder) knows how to write, render and check r",
-                "code": "irm https://raea.io/install.ps1 | iex",
-                "lang": "powershell"
-              }
-            ]
-          }
-        ],
-        "marketplace": {
-          "marketplace": "raea",
-          "plugins": [
-            "raea"
-          ],
-          "add": "/plugin marketplace add shinyobjectz/raea",
-          "install": [
-            "/plugin install raea@raea"
-          ]
-        },
-        "files": {
-          "total": 52,
-          "scripts": [],
-          "script_count": 0
-        },
-        "compat": {
-          "claude": {
-            "status": "ready",
-            "checked": 1,
-            "fails": []
-          },
-          "codex": {
-            "status": "no",
-            "checked": 1,
-            "fails": [
-              "cli: needs a name; needs a description"
-            ]
-          },
-          "cursor": {
-            "status": "no",
-            "checked": 1,
-            "fails": [
-              "cli: needs a name; needs a description"
-            ]
-          },
-          "copilot": {
-            "status": "no",
-            "checked": 1,
-            "fails": [
-              "cli: the file must be named exactly SKILL.md, not skill.md; needs a description"
-            ]
-          },
-          "opencode": {
-            "status": "no",
-            "checked": 1,
-            "fails": [
-              "cli: needs a description, or the agent never sees it"
-            ]
-          },
-          "claudeai": {
-            "status": "no",
-            "checked": 1,
-            "fails": [
-              "cli: needs a name; needs a description of at most 1,024 characters"
-            ]
-          },
-          "gemini": {
-            "status": "unchecked",
-            "checked": 0,
-            "fails": []
-          },
-          "windsurf": {
-            "status": "unchecked",
-            "checked": 0,
-            "fails": []
-          }
-        }
-      }
-    },
-    {
       "full_name": "daveebbelaar/bama",
       "url": "https://github.com/daveebbelaar/bama",
       "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
@@ -29318,8 +28761,8 @@
         "codex"
       ],
       "gained": null,
-      "rank": 247,
-      "rising_rank": 7,
+      "rank": 245,
+      "rising_rank": 6,
       "age_days": 20,
       "rising_basis": "pace",
       "install": {
@@ -29645,8 +29088,8 @@
         "copilot"
       ],
       "gained": null,
-      "rank": 245,
-      "rising_rank": 8,
+      "rank": 243,
+      "rising_rank": 7,
       "age_days": 21,
       "rising_basis": "pace",
       "install": {
@@ -29912,7 +29355,7 @@
       ],
       "gained": null,
       "rank": 148,
-      "rising_rank": 9,
+      "rising_rank": 8,
       "age_days": 48,
       "rising_basis": "pace",
       "install": {
@@ -30195,8 +29638,8 @@
         "codex"
       ],
       "gained": null,
-      "rank": 221,
-      "rising_rank": 10,
+      "rank": 219,
+      "rising_rank": 9,
       "age_days": 30,
       "rising_basis": "pace",
       "install": {
@@ -30445,8 +29888,8 @@
         "codex"
       ],
       "gained": null,
-      "rank": 177,
-      "rising_rank": 11,
+      "rank": 176,
+      "rising_rank": 10,
       "age_days": 44,
       "rising_basis": "pace",
       "install": {
@@ -30708,7 +30151,7 @@
         "writing-assistant",
         "writing-tool"
       ],
-      "stars": 3211,
+      "stars": 3212,
       "pushed_at": "2026-11-12T00:28:35Z",
       "created_at": "2026-09-30T11:49:32Z",
       "license": "MIT",
@@ -30728,8 +30171,8 @@
         "gemini"
       ],
       "gained": null,
-      "rank": 178,
-      "rising_rank": 12,
+      "rank": 177,
+      "rising_rank": 11,
       "age_days": 44,
       "rising_basis": "pace",
       "install": {
@@ -30979,6 +30422,260 @@
       "summary": {
         "what_it_is": "yomiyasu is an agent skill that refines AI-generated Japanese text into natural, readable Japanese by fixing unnatural metaphors, ambiguous subject-predicate relationships, and unnecessary decorations while preserving the original meaning. It targets practical documents such as technical articles, design specifications, PR descriptions, and internal reports.",
         "who_its_for": "Developers and technical writers who use AI coding agents like Claude Code, Codex, or Cursor to produce Japanese documentation and want to improve its readability."
+      }
+    },
+    {
+      "full_name": "DUNHKpcc/Claude-Guardian",
+      "url": "https://github.com/DUNHKpcc/Claude-Guardian",
+      "description": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network environment, and payment options, then provides personalized guidance for local, VPS, or virtual machine setups. ",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-tools",
+        "claude-code",
+        "claude-skills",
+        "codex-skill"
+      ],
+      "stars": 2031,
+      "pushed_at": "2026-11-11T15:34:09Z",
+      "created_at": "2026-10-15T06:09:53Z",
+      "license": "GPL-3.0",
+      "default_branch": "main",
+      "avatar": "https://avatars.githubusercontent.com/u/181722286?v=4",
+      "skill_count": 1,
+      "skills": [
+        {
+          "name": "claude-guardian",
+          "path": "skills/claude-guardian/SKILL.md"
+        }
+      ],
+      "agents": [
+        "claude",
+        "codex"
+      ],
+      "gained": null,
+      "rank": 230,
+      "rising_rank": 12,
+      "age_days": 29,
+      "rising_basis": "pace",
+      "install": {
+        "sha": "ec53265c84131e26b7097498a5fe0680fdeffed7",
+        "skill": "claude-guardian",
+        "agents": {
+          "claude": {
+            "label": "Claude Code",
+            "verified": true,
+            "methods": [
+              {
+                "title": "GitHub CLI (made by GitHub)",
+                "note": null,
+                "code": "gh skill install DUNHKpcc/Claude-Guardian claude-guardian --agent claude-code --scope user --pin ec53265c84131e26b7097498a5fe0680fdeffed7"
+              },
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a claude-code -g"
+              },
+              {
+                "title": "Copy it yourself into ~/.claude/skills",
+                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+                "code": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git skill-src\ngit -C skill-src checkout ec53265c84131e26b7097498a5fe0680fdeffed7\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/claude-guardian ~/.claude/skills/claude-guardian"
+              }
+            ]
+          },
+          "codex": {
+            "label": "Codex",
+            "verified": true,
+            "methods": [
+              {
+                "title": "GitHub CLI (made by GitHub)",
+                "note": null,
+                "code": "gh skill install DUNHKpcc/Claude-Guardian claude-guardian --agent codex --scope user --pin ec53265c84131e26b7097498a5fe0680fdeffed7"
+              },
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a codex -g"
+              },
+              {
+                "title": "Copy it yourself into ~/.agents/skills",
+                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+                "code": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git skill-src\ngit -C skill-src checkout ec53265c84131e26b7097498a5fe0680fdeffed7\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/claude-guardian ~/.agents/skills/claude-guardian"
+              }
+            ]
+          },
+          "cursor": {
+            "label": "Cursor",
+            "verified": true,
+            "methods": [
+              {
+                "title": "GitHub CLI (made by GitHub)",
+                "note": null,
+                "code": "gh skill install DUNHKpcc/Claude-Guardian claude-guardian --agent cursor --scope user --pin ec53265c84131e26b7097498a5fe0680fdeffed7"
+              },
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a cursor -g"
+              },
+              {
+                "title": "Copy it yourself into ~/.cursor/skills",
+                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+                "code": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git skill-src\ngit -C skill-src checkout ec53265c84131e26b7097498a5fe0680fdeffed7\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/claude-guardian ~/.cursor/skills/claude-guardian"
+              }
+            ]
+          },
+          "copilot": {
+            "label": "GitHub Copilot",
+            "verified": true,
+            "methods": [
+              {
+                "title": "GitHub CLI (made by GitHub)",
+                "note": null,
+                "code": "gh skill install DUNHKpcc/Claude-Guardian claude-guardian --agent github-copilot --scope user --pin ec53265c84131e26b7097498a5fe0680fdeffed7"
+              },
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a github-copilot -g"
+              },
+              {
+                "title": "Copy it yourself into ~/.copilot/skills",
+                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+                "code": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git skill-src\ngit -C skill-src checkout ec53265c84131e26b7097498a5fe0680fdeffed7\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/claude-guardian ~/.copilot/skills/claude-guardian"
+              }
+            ]
+          },
+          "gemini": {
+            "label": "Gemini CLI",
+            "verified": true,
+            "methods": [
+              {
+                "title": "Gemini CLI (built in)",
+                "note": null,
+                "code": "gemini skills install https://github.com/DUNHKpcc/Claude-Guardian.git --scope user --path skills/claude-guardian"
+              },
+              {
+                "title": "GitHub CLI (made by GitHub)",
+                "note": null,
+                "code": "gh skill install DUNHKpcc/Claude-Guardian claude-guardian --agent gemini-cli --scope user --pin ec53265c84131e26b7097498a5fe0680fdeffed7"
+              },
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a gemini-cli -g"
+              },
+              {
+                "title": "Copy it yourself into ~/.gemini/skills",
+                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+                "code": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git skill-src\ngit -C skill-src checkout ec53265c84131e26b7097498a5fe0680fdeffed7\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/claude-guardian ~/.gemini/skills/claude-guardian"
+              }
+            ]
+          },
+          "opencode": {
+            "label": "OpenCode",
+            "verified": true,
+            "methods": [
+              {
+                "title": "GitHub CLI (made by GitHub)",
+                "note": null,
+                "code": "gh skill install DUNHKpcc/Claude-Guardian claude-guardian --agent opencode --scope user --pin ec53265c84131e26b7097498a5fe0680fdeffed7"
+              },
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a opencode -g"
+              },
+              {
+                "title": "Copy it yourself into ~/.config/opencode/skills",
+                "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+                "code": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git skill-src\ngit -C skill-src checkout ec53265c84131e26b7097498a5fe0680fdeffed7\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/claude-guardian ~/.config/opencode/skills/claude-guardian"
+              }
+            ]
+          },
+          "windsurf": {
+            "label": "Windsurf",
+            "verified": false,
+            "methods": [
+              {
+                "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+                "note": null,
+                "code": "npx skills add DUNHKpcc/Claude-Guardian -a windsurf -g"
+              }
+            ]
+          },
+          "claudeai": {
+            "label": "Claude.ai (website)",
+            "verified": true,
+            "methods": [
+              {
+                "title": "Upload as a zip",
+                "note": "Zip the skill folder so the folder itself is at the top of the zip, then upload it in Customize > Skills. Code execution must be on. Skills you upload here do not sync to Claude Code.",
+                "code": null
+              }
+            ]
+          }
+        },
+        "guide": [],
+        "marketplace": null,
+        "files": {
+          "total": 120,
+          "scripts": [
+            "skills/claude-guardian/assets/killswitch/switch.js",
+            "skills/claude-guardian/assets/killswitch/windows-network-transaction.ps1",
+            "skills/claude-guardian/assets/killswitch/windows-switch.ps1",
+            "skills/claude-guardian/assets/mac-killswitch/guardian-pf-killswitch.sh",
+            "skills/claude-guardian/assets/remote-hardening/flclash-crash-heal.sh",
+            "skills/claude-guardian/assets/remote-hardening/install-reverse-tunnel.sh",
+            "skills/claude-guardian/assets/vm-killswitch/enable-guest-ssh.sh",
+            "skills/claude-guardian/assets/vm-killswitch/install-flclash-killswitch.sh"
+          ],
+          "script_count": 41
+        },
+        "compat": {
+          "claude": {
+            "status": "ready",
+            "checked": 1,
+            "fails": []
+          },
+          "codex": {
+            "status": "ready",
+            "checked": 1,
+            "fails": []
+          },
+          "cursor": {
+            "status": "ready",
+            "checked": 1,
+            "fails": []
+          },
+          "copilot": {
+            "status": "ready",
+            "checked": 1,
+            "fails": []
+          },
+          "opencode": {
+            "status": "ready",
+            "checked": 1,
+            "fails": []
+          },
+          "claudeai": {
+            "status": "no",
+            "checked": 1,
+            "fails": [
+              "claude-guardian: name \"claude-guardian\" may not contain \"anthropic\" or \"claude\""
+            ]
+          },
+          "gemini": {
+            "status": "unchecked",
+            "checked": 0,
+            "fails": []
+          },
+          "windsurf": {
+            "status": "unchecked",
+            "checked": 0,
+            "fails": []
+          }
+        }
       }
     }
   ]

@@ -78,12 +78,12 @@ await run('skills', async (log) => {
   const repos = [];
   for (const r of candidates) {
     let entry = trees[r.full_name];
-    if (!entry || entry.pushed_at !== r.pushed_at) {
+    if (!entry || entry.v !== 2 || entry.pushed_at !== r.pushed_at) {
       try {
         const { data } = await ghGet(`/repos/${r.full_name}/git/trees/${encodeURIComponent(r.default_branch)}?recursive=1`);
         const all = skillsFromTree(data.tree ?? [], r.name);
         // Only the first few are kept, with the real count, so the saved file stays small.
-        entry = { pushed_at: r.pushed_at, count: all.length, skills: all.slice(0, rule.maxSkillsListed) };
+        entry = { v: 2, pushed_at: r.pushed_at, count: all.length, skills: all.slice(0, rule.maxSkillsListed) };
         trees[r.full_name] = entry;
       } catch (err) {
         log.warn(`${r.full_name}: tree not read (${err.message})`);

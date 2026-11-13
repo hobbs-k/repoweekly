@@ -15,12 +15,12 @@ test('parseFrontmatter reads plain, quoted and folded values', () => {
   assert.deepEqual(parseFrontmatter('no block here'), {});
 });
 
-test('skillsFromTree names each SKILL.md after its folder, the root one after the repo', () => {
+test('skillsFromTree names each SKILL.md after its folder, the root one after the repo, and skips lowercase skill.md', () => {
   const tree = [
     { path: 'SKILL.md', type: 'blob' }, { path: 'skills/pdf/SKILL.md', type: 'blob' },
     { path: 'skills/pdf/notes.md', type: 'blob' }, { path: 'docs', type: 'tree' }, { path: 'a/skill.md', type: 'blob' },
   ];
-  assert.deepEqual(skillsFromTree(tree, 'my-repo').map((s) => s.name), ['my-repo', 'pdf', 'a']);
+  assert.deepEqual(skillsFromTree(tree, 'my-repo').map((s) => s.name), ['my-repo', 'pdf']); // a/skill.md is not a skill
 });
 
 test('detectAgents finds the tools a repo names', () => {

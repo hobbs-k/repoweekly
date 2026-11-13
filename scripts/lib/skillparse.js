@@ -29,9 +29,10 @@ export function parseFrontmatter(text) {
 }
 
 // Folder name of each SKILL.md in a git tree, one skill each. A SKILL.md at the root is the repo itself.
+// Exactly "SKILL.md": the tools look for that name, and a lowercase skill.md is usually a docs page.
 export function skillsFromTree(tree, repoName) {
   return tree
-    .filter((e) => e.type === 'blob' && /(^|\/)SKILL\.md$/i.test(e.path))
+    .filter((e) => e.type === 'blob' && /(^|\/)SKILL\.md$/.test(e.path))
     .map((e) => ({ path: e.path, name: e.path.includes('/') ? e.path.split('/').slice(-2, -1)[0] : repoName }));
 }
 

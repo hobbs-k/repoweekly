@@ -2587,9 +2587,53 @@
     "marketplace": null
   },
   "DUNHKpcc/Claude-Guardian": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-11T15:34:09Z",
     "sha": "ec53265c84131e26b7097498a5fe0680fdeffed7",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "claude-guardian: name \"claude-guardian\" may not contain \"anthropic\" or \"claude\""
+        ]
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 120,
       "scripts": [
