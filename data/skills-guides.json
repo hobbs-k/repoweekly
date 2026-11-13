@@ -1,8 +1,50 @@
 {
   "caru-ini/stack-diagram": {
-    "v": 2,
-    "pushed_at": "2026-11-12T06:44:00Z",
-    "sha": "978d15140b09240e3a99d4d11b3e9dcdf4879038",
+    "v": 3,
+    "pushed_at": "2026-11-13T07:38:10Z",
+    "sha": "9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 19,
       "scripts": [
@@ -23,7 +65,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent claude-code --scope user --pin 978d15140b09240e3a99d4d11b3e9dcdf4879038"
+            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent claude-code --scope user --pin 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -33,7 +75,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 978d15140b09240e3a99d4d11b3e9dcdf4879038\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/stack-diagram ~/.claude/skills/stack-diagram"
+            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/stack-diagram ~/.claude/skills/stack-diagram"
           }
         ]
       },
@@ -44,7 +86,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent codex --scope user --pin 978d15140b09240e3a99d4d11b3e9dcdf4879038"
+            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent codex --scope user --pin 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -54,7 +96,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 978d15140b09240e3a99d4d11b3e9dcdf4879038\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/stack-diagram ~/.agents/skills/stack-diagram"
+            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/stack-diagram ~/.agents/skills/stack-diagram"
           }
         ]
       },
@@ -65,7 +107,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent cursor --scope user --pin 978d15140b09240e3a99d4d11b3e9dcdf4879038"
+            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent cursor --scope user --pin 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -75,7 +117,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 978d15140b09240e3a99d4d11b3e9dcdf4879038\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/stack-diagram ~/.cursor/skills/stack-diagram"
+            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/stack-diagram ~/.cursor/skills/stack-diagram"
           }
         ]
       },
@@ -86,7 +128,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent github-copilot --scope user --pin 978d15140b09240e3a99d4d11b3e9dcdf4879038"
+            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent github-copilot --scope user --pin 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -96,7 +138,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 978d15140b09240e3a99d4d11b3e9dcdf4879038\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/stack-diagram ~/.copilot/skills/stack-diagram"
+            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/stack-diagram ~/.copilot/skills/stack-diagram"
           }
         ]
       },
@@ -112,7 +154,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent gemini-cli --scope user --pin 978d15140b09240e3a99d4d11b3e9dcdf4879038"
+            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent gemini-cli --scope user --pin 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -122,7 +164,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 978d15140b09240e3a99d4d11b3e9dcdf4879038\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/stack-diagram ~/.gemini/skills/stack-diagram"
+            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/stack-diagram ~/.gemini/skills/stack-diagram"
           }
         ]
       },
@@ -133,7 +175,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent opencode --scope user --pin 978d15140b09240e3a99d4d11b3e9dcdf4879038"
+            "code": "gh skill install caru-ini/stack-diagram stack-diagram --agent opencode --scope user --pin 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -143,7 +185,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 978d15140b09240e3a99d4d11b3e9dcdf4879038\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/stack-diagram ~/.config/opencode/skills/stack-diagram"
+            "code": "git clone https://github.com/caru-ini/stack-diagram.git skill-src\ngit -C skill-src checkout 9175bde8449cc8f5390d6eb72ecc2e1f5bfe21f3\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/stack-diagram ~/.config/opencode/skills/stack-diagram"
           }
         ]
       },
@@ -174,9 +216,51 @@
     "marketplace": null
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-12T22:24:06Z",
     "sha": "f4b6b3ffc99ccdcb3e4b6bbfad3fca51b09bd23c",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 92,
       "scripts": [
@@ -368,9 +452,53 @@
     "marketplace": null
   },
   "NiazMorshed2007/reanimate": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-10-31T12:49:35Z",
     "sha": "3f7a55a2986a84ca2173e86ee9127eefe31d046d",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "reanimate: needs a description of at most 1,024 characters"
+        ]
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 19,
       "scripts": [
@@ -562,9 +690,51 @@
     "marketplace": null
   },
   "alchaincyf/huashu-motion": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-10T00:15:11Z",
     "sha": "0272906902c33c796a81637545905ea7f2b81c5a",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 46,
       "scripts": [],
@@ -731,9 +901,51 @@
     "marketplace": null
   },
   "daveebbelaar/bama": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-05T13:09:56Z",
     "sha": "22dc792ea040a35270c219c669f626594267aa1f",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 12,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 12,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 12,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 12,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 12,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 12,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 104,
       "scripts": [
@@ -964,9 +1176,51 @@
     }
   },
   "morganlinton/BeautifulRust": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-08T17:21:11Z",
     "sha": "b9718436d77ee7bcf17cdcb6aa27628feb95d97a",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 3,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 3,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 3,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 3,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 3,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 3,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 131,
       "scripts": [
@@ -1151,9 +1405,61 @@
     }
   },
   "shinyobjectz/raea": {
-    "v": 2,
-    "pushed_at": "2026-11-13T02:12:44Z",
-    "sha": "0226baca9a5971a4122af171d69763689cfe9ef3",
+    "v": 3,
+    "pushed_at": "2026-11-13T10:27:45Z",
+    "sha": "2c6132a4608fd74bc6e41a9772edbe60e3351cde",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "cli: needs a name; needs a description"
+        ]
+      },
+      "cursor": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "cli: needs a name; needs a description"
+        ]
+      },
+      "copilot": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "cli: the file must be named exactly SKILL.md, not skill.md; needs a description"
+        ]
+      },
+      "opencode": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "cli: needs a description, or the agent never sees it"
+        ]
+      },
+      "claudeai": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "cli: needs a name; needs a description of at most 1,024 characters"
+        ]
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 52,
       "scripts": [],
@@ -1169,7 +1475,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install shinyobjectz/raea cli --agent claude-code --scope user --pin 0226baca9a5971a4122af171d69763689cfe9ef3"
+            "code": "gh skill install shinyobjectz/raea cli --agent claude-code --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -1179,7 +1485,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 0226baca9a5971a4122af171d69763689cfe9ef3\nmkdir -p ~/.claude/skills\ncp -r skill-src/docs/manual/reference/cli ~/.claude/skills/cli"
+            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.claude/skills\ncp -r skill-src/docs/manual/reference/cli ~/.claude/skills/cli"
           }
         ]
       },
@@ -1190,7 +1496,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install shinyobjectz/raea cli --agent codex --scope user --pin 0226baca9a5971a4122af171d69763689cfe9ef3"
+            "code": "gh skill install shinyobjectz/raea cli --agent codex --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -1200,7 +1506,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 0226baca9a5971a4122af171d69763689cfe9ef3\nmkdir -p ~/.agents/skills\ncp -r skill-src/docs/manual/reference/cli ~/.agents/skills/cli"
+            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.agents/skills\ncp -r skill-src/docs/manual/reference/cli ~/.agents/skills/cli"
           }
         ]
       },
@@ -1211,7 +1517,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install shinyobjectz/raea cli --agent cursor --scope user --pin 0226baca9a5971a4122af171d69763689cfe9ef3"
+            "code": "gh skill install shinyobjectz/raea cli --agent cursor --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -1221,7 +1527,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 0226baca9a5971a4122af171d69763689cfe9ef3\nmkdir -p ~/.cursor/skills\ncp -r skill-src/docs/manual/reference/cli ~/.cursor/skills/cli"
+            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.cursor/skills\ncp -r skill-src/docs/manual/reference/cli ~/.cursor/skills/cli"
           }
         ]
       },
@@ -1232,7 +1538,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install shinyobjectz/raea cli --agent github-copilot --scope user --pin 0226baca9a5971a4122af171d69763689cfe9ef3"
+            "code": "gh skill install shinyobjectz/raea cli --agent github-copilot --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -1242,7 +1548,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 0226baca9a5971a4122af171d69763689cfe9ef3\nmkdir -p ~/.copilot/skills\ncp -r skill-src/docs/manual/reference/cli ~/.copilot/skills/cli"
+            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.copilot/skills\ncp -r skill-src/docs/manual/reference/cli ~/.copilot/skills/cli"
           }
         ]
       },
@@ -1258,7 +1564,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install shinyobjectz/raea cli --agent gemini-cli --scope user --pin 0226baca9a5971a4122af171d69763689cfe9ef3"
+            "code": "gh skill install shinyobjectz/raea cli --agent gemini-cli --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -1268,7 +1574,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 0226baca9a5971a4122af171d69763689cfe9ef3\nmkdir -p ~/.gemini/skills\ncp -r skill-src/docs/manual/reference/cli ~/.gemini/skills/cli"
+            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.gemini/skills\ncp -r skill-src/docs/manual/reference/cli ~/.gemini/skills/cli"
           }
         ]
       },
@@ -1279,7 +1585,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": null,
-            "code": "gh skill install shinyobjectz/raea cli --agent opencode --scope user --pin 0226baca9a5971a4122af171d69763689cfe9ef3"
+            "code": "gh skill install shinyobjectz/raea cli --agent opencode --scope user --pin 2c6132a4608fd74bc6e41a9772edbe60e3351cde"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -1289,7 +1595,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 0226baca9a5971a4122af171d69763689cfe9ef3\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/docs/manual/reference/cli ~/.config/opencode/skills/cli"
+            "code": "git clone https://github.com/shinyobjectz/raea.git skill-src\ngit -C skill-src checkout 2c6132a4608fd74bc6e41a9772edbe60e3351cde\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/docs/manual/reference/cli ~/.config/opencode/skills/cli"
           }
         ]
       },
@@ -1345,9 +1651,51 @@
     }
   },
   "Jakeschincariol/founder-skill": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-10-07T01:07:17Z",
     "sha": "fd9385b0cfe1b96bebce3898fbd506d73eff5a9d",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 11,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 11,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 11,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 11,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 11,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 11,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 19,
       "scripts": [
@@ -1559,9 +1907,53 @@
     }
   },
   "feitangyuan/onetake": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-05T03:52:15Z",
     "sha": "abb6d17279cdc749e27e99aa534a062d8fd01ced",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "no",
+        "checked": 1,
+        "fails": [
+          "onetake: needs a description of at most 1,024 characters"
+        ]
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 114,
       "scripts": [
@@ -1748,9 +2140,51 @@
     "marketplace": null
   },
   "UnderleveledBuilder/awesome-short-drama-skills": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-03T22:32:47Z",
     "sha": "9a1f686460c0a03cb0df40c3d2e55739568911dc",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 1,
       "scripts": [],
@@ -1917,9 +2351,51 @@
     "marketplace": null
   },
   "oil-oil/oil-ui": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-11T04:56:08Z",
     "sha": "28948c3d88e5d141fa0e943ff385560c5ffba979",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 54,
       "scripts": [
@@ -2289,9 +2765,51 @@
     "marketplace": null
   },
   "nanaism/yomiyasu": {
-    "v": 2,
+    "v": 3,
     "pushed_at": "2026-11-12T00:28:35Z",
     "sha": "db78b9bc5e868549b517a037df7a4d1c93edac23",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
     "files": {
       "total": 42,
       "scripts": [

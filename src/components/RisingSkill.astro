@@ -7,6 +7,12 @@ const { item, asOf } = Astro.props;
 const pushedDays = Math.max(0, Math.round((Date.parse(asOf) - Date.parse(item.pushed_at)) / 86400000));
 const updated = pushedDays === 0 ? 'today' : pushedDays === 1 ? 'yesterday' : `${pushedDays} days ago`;
 const files = item.install.files;
+const compat = item.install.compat;
+const mark = { ready: '✓', partial: '!', no: '✗', unchecked: '?' };
+const word = { ready: 'ready', partial: 'some skills need changes', no: 'needs changes', unchecked: 'not checked' };
+const compatOrder = ['claude', 'codex', 'cursor', 'copilot', 'opencode', 'claudeai', 'gemini', 'windsurf'];
+const compatLabel = { claude: 'Claude Code', codex: 'Codex', cursor: 'Cursor', copilot: 'Copilot', opencode: 'OpenCode', claudeai: 'Claude.ai', gemini: 'Gemini CLI', windsurf: 'Windsurf' };
+const compatFails = compat ? compatOrder.filter((id) => compat[id]?.fails.length) : [];
 const [owner, name] = item.full_name.split('/');
 const inst = item.install;
 const order = ['claude', 'codex', 'cursor', 'copilot', 'gemini', 'opencode', 'windsurf', 'claudeai'];
@@ -31,6 +37,26 @@ const basis = item.rising_basis === 'growth' ? `Gained ${fmt(item.gained)} stars
     ) : item.description && <p class="entry-desc">{item.description}</p>}
 
     <p class="muted agents-note">{fmt(item.stars)} stars. {basis}. {item.age_days} days old. {fmt(item.skill_count)} {item.skill_count === 1 ? 'skill' : 'skills'}: {item.skills.slice(0, 6).map((s) => s.name).join(', ')}{item.skill_count > 6 ? ', and more' : ''}.</p>
+
+    {compat && (
+      <div class="compat">
+        <p class="method-title">Works with</p>
+        <ul class="compat-list">
+          {compatOrder.map((id) => compat[id] && (
+            <li class={`compat-${compat[id].status}`} title={`${compatLabel[id]}: ${word[compat[id].status]}`}>
+              <span aria-hidden="true">{mark[compat[id].status]}</span> {compatLabel[id]}<span class="sr-only">: {word[compat[id].status]}</span>
+            </li>
+          ))}
+        </ul>
+        <p class="muted agents-note">We tested {compat.claude.checked === 1 ? 'the skill' : `${compat.claude.checked} skills`} against each tool's documented rules for <code>SKILL.md</code>. ? means we could not confirm that tool's rules.</p>
+        {compatFails.length > 0 && (
+          <details class="skill-list">
+            <summary>What needs changing</summary>
+            <ul>{compatFails.map((id) => compat[id].fails.map((f) => <li><strong>{compatLabel[id]}</strong>: {f}</li>))}</ul>
+          </details>
+        )}
+      </div>
+    )}
 
     <p class="muted agents-note">Last updated {updated}. We checked it on {fmtDate(asOf)}.</p>
 

@@ -13,6 +13,7 @@ import { run } from './lib/logger.js';
 import { detectAgents, parseFrontmatter, skillFiles, skillsFromTree } from './lib/skillparse.js';
 import { extractGuide, marketplaceCommands } from './lib/guide.js';
 import { buildInstall } from './lib/install.js';
+import { checkSkill, repoCompat } from './lib/compat.js';
 import { pickRising } from './lib/rising.js';
 import { toDateString } from './lib/weeks.js';
 
@@ -163,7 +164,7 @@ await run('skills', async (log) => {
   const rising = pickRising(ranked, today, rule.rising);
   for (const r of rising) {
     let g = guides[r.full_name];
-    if (!g || g.v !== 2 || g.pushed_at !== r.pushed_at) {
+    if (!g || g.v !== 3 || g.pushed_at !== r.pushed_at) {
       try {
         const { data: commit } = await ghGet(`/repos/${r.full_name}/commits/${encodeURIComponent(r.default_branch)}`);
         const sha = commit.sha;
@@ -172,18 +173,26 @@ await run('skills', async (log) => {
         if (!skills.length) throw new Error('no SKILL.md at this commit');
         let readme = '';
         try { readme = (await ghGet(`/repos/${r.full_name}/readme?ref=${sha}`, { raw: true })).data; } catch { /* no README */ }
+        // Each tool's documented rules, tested on the real SKILL.md of up to 12 skills at this commit.
+        const checks = [];
+        for (const s of skills.slice(0, 12)) {
+          try {
+            const text = (await ghGet(`/repos/${r.full_name}/contents/${s.path.split('/').map(encodeURIComponent).join('/')}?ref=${sha}`, { raw: true })).data;
+            checks.push({ skill: s.name, result: checkSkill({ folder: s.name, file: s.path.split('/').pop(), fm: parseFrontmatter(text) }) });
+          } catch { /* unreadable file: left out of the check */ }
+        }
         let market = null;
         if ((tree.tree ?? []).some((e) => e.path === '.claude-plugin/marketplace.json')) {
           try { market = marketplaceCommands(r.full_name, (await ghGet(`/repos/${r.full_name}/contents/.claude-plugin/marketplace.json?ref=${sha}`, { raw: true })).data); } catch { /* unreadable */ }
         }
-        g = { v: 2, pushed_at: r.pushed_at, sha, files: skillFiles(tree.tree ?? [], skills), ...buildInstall({ full_name: r.full_name, sha, skills }), guide: extractGuide(readme), marketplace: market };
+        g = { v: 3, pushed_at: r.pushed_at, sha, compat: repoCompat(checks), files: skillFiles(tree.tree ?? [], skills), ...buildInstall({ full_name: r.full_name, sha, skills }), guide: extractGuide(readme), marketplace: market };
         guides[r.full_name] = g;
       } catch (err) {
         log.warn(`${r.full_name}: no install guide (${err.message})`);
         continue;
       }
     }
-    r.install = { sha: g.sha, skill: g.skill, agents: g.install, guide: g.guide, marketplace: g.marketplace, files: g.files };
+    r.install = { sha: g.sha, skill: g.skill, agents: g.install, guide: g.guide, marketplace: g.marketplace, files: g.files, compat: g.compat };
     const cached = cache.summaries[r.full_name];
     if (cached && cached.pushed_at === r.pushed_at) r.summary = cached.summary;
     else if (withKey && !dry) {
