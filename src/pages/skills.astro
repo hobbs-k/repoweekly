@@ -2,13 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 import SkillEntry from '../components/SkillEntry.astro';
 import RisingSkill from '../components/RisingSkill.astro';
-import { loadBuzz, loadSkills } from '../lib/data.js';
+import { loadSkills } from '../lib/data.js';
 import { href } from '../lib/format.js';
 
 const data = loadSkills();
 const top = data?.repos.slice(0, 10) ?? [];
 const rising = data?.rising ?? [];
-const buzz = loadBuzz();
 const agentChoices = [['claude', 'Claude Code'], ['codex', 'Codex'], ['cursor', 'Cursor'], ['copilot', 'GitHub Copilot'], ['gemini', 'Gemini CLI'], ['opencode', 'OpenCode'], ['windsurf', 'Windsurf'], ['claudeai', 'Claude.ai']];
 const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
 ---
@@ -38,7 +37,7 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
           <div class="chips">{agentChoices.map(([id, label]) => <button type="button" data-agent={id} aria-pressed="false">{label}</button>)}</div>
         </div>
         <ol class="entries" aria-label="Rising skill repositories">
-          {rising.map((item) => <RisingSkill item={item} asOf={data.date} buzz={buzz[item.full_name]} />)}
+          {rising.map((item) => <RisingSkill item={item} asOf={data.date} />)}
         </ol>
       </section>
     )}
@@ -46,7 +45,7 @@ const asOf = data ? new Date(`${data.date}T00:00:00Z`).toLocaleDateString('en-GB
     <div class="section-head"><h2>Most popular</h2><p>The big, well-known skill repositories, ranked by total stars.</p></div>
     {top.length > 0 ? (
       <ol class="entries" aria-label="Top skill repositories">
-        {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} asOf={data.date} buzz={buzz[item.full_name]} />)}
+        {top.map((item) => <SkillEntry item={item} mode={data.mode} span={data.span_days} asOf={data.date} />)}
       </ol>
     ) : (
       <p class="notice">The first skills list appears after the next daily run.</p>

@@ -485,14 +485,3 @@ html { scroll-behavior: smooth; }
 .to-top { position: fixed; right: 1.5rem; bottom: 1.5rem; z-index: 40; min-height: 2.75rem; padding: 0 1rem; font-family: var(--mono); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.04em; color: var(--on-phos); background: var(--phos); border: 2px solid var(--phos); box-shadow: 4px 4px 0 var(--shadow); cursor: pointer; }
 .to-top[hidden] { display: none; }
 @media (max-width: 47.99rem) { .to-top { display: none; } }
-
-/* What people are saying. */
-.buzz { margin: 1rem 0 0.5rem; max-width: var(--measure); }
-.buzz-story { margin: 0 0 0.6rem; font-size: 0.9375rem; }
-.buzz-quotes { list-style: none; margin: 0; padding: 0; }
-.buzz-quotes li { display: flex; gap: 0.7rem; margin: 0 0 0.8rem; }
-.buzz-avatar { width: 2rem; height: 2rem; font-size: 0.875rem; }
-.buzz blockquote { margin: 0; padding-left: 0.8rem; border-left: 2px solid var(--frame); }
-.buzz blockquote p { margin: 0 0 0.3rem; font-size: 0.9375rem; overflow-wrap: anywhere; }
-.buzz blockquote footer { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-soft); }
-.buzz-note { font-size: 0.8125rem; margin: 0; }

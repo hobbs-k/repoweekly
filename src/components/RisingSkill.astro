@@ -1,10 +1,9 @@
 ---
 import Avatar from './Avatar.astro';
-import Buzz from './Buzz.astro';
 import { fmt, fmtDate } from '../lib/format.js';
 
 // One rising skill repository: what it is, the install commands per agent, and the steps copied from its README.
-const { buzz, item, asOf } = Astro.props;
+const { item, asOf } = Astro.props;
 const pushedDays = Math.max(0, Math.round((Date.parse(asOf) - Date.parse(item.pushed_at)) / 86400000));
 const updated = pushedDays === 0 ? 'today' : pushedDays === 1 ? 'yesterday' : `${pushedDays} days ago`;
 const files = item.install.files;
@@ -45,8 +44,6 @@ const basis = item.rising_basis === 'growth' ? `Gained ${fmt(item.gained)} stars
         ? <p class="notice-inline"><strong>Contains {fmt(files.script_count)} script {files.script_count === 1 ? 'file' : 'files'}</strong> that can run on your computer: {files.scripts.slice(0, 3).join(', ')}{files.script_count > 3 ? `, and ${fmt(files.script_count - 3)} more` : ''}. Read them before you install.</p>
         : <p class="muted">We found no script files in the skill folders ({fmt(files.total)} {files.total === 1 ? 'file' : 'files'} in total). We go by file type only, so still read the skill before you install it.</p>)}
     </details>
-
-    <Buzz buzz={buzz} />
 
     <h4 class="plain-h plain-h-sm">Install it</h4>
     <p class="muted agents-note">Version checked: <code>{inst.sha.slice(0, 7)}</code>. The commands below use exactly that version.</p>

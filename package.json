@@ -19,7 +19,6 @@
     "bootstrap": "node scripts/bootstrap-trending.js",
     "validate": "node scripts/validate.js",
     "avatars": "node scripts/avatars.js",
-    "buzz": "node scripts/buzz.js",
     "vendor": "node scripts/vendor.js",
     "predev": "npm run vendor",
     "prebuild": "npm run vendor",
