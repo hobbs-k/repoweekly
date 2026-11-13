@@ -36,7 +36,8 @@ if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const io = new IntersectionObserver((seen) => {
     for (const e of seen) if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
   }, { rootMargin: '0px 0px -8% 0px' });
-  for (const el of document.querySelectorAll('.entry, .issue, .section-head')) io.observe(el);
+  // Only cards in the page itself: lists built later by a script (.issue) would never be seen and stay hidden.
+  for (const el of document.querySelectorAll('.entry, .section-head')) io.observe(el);
 
   // The "$ repoweekly ..." line types itself out.
   for (const p of document.querySelectorAll('.prompt')) {

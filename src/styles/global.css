@@ -500,8 +500,8 @@ html { scroll-behavior: smooth; }
 .icon { vertical-align: -0.1em; margin-right: 0.15rem; }
 
 /* Motion (scroll.js adds .fx only when reduced motion is not asked for). */
-.fx .entry, .fx .issue, .fx .section-head { transition: opacity 0.5s ease, transform 0.5s ease; }
-.fx .entry:not(.in), .fx .issue:not(.in), .fx .section-head:not(.in) { opacity: 0; transform: translateY(16px); }
+.fx .entry, .fx .section-head { transition: opacity 0.5s ease, transform 0.5s ease; }
+.fx .entry:not(.in), .fx .section-head:not(.in) { opacity: 0; transform: translateY(16px); }
 .fx .entry.in { transition: opacity 0.5s ease, transform 0.15s ease-out, box-shadow 0.15s ease-out, border-color 0.15s ease-out; }
 /* Hover: the window lifts off its hard shadow and its frame lights up, like a selected window. */
 @media (hover: hover) and (pointer: fine) {
