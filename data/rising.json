@@ -1,8 +1,392 @@
 {
-  "date": "2026-11-12",
-  "generated": "2026-11-13T02:42:39.404Z",
+  "date": "2026-11-13",
+  "generated": "2026-11-14T02:43:35.431Z",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "window_days": 2,
-  "items": [],
-  "reason": "needs 5 daily snapshots in the last 8 days, has 4"
+  "items": [
+    {
+      "rank": 1,
+      "full_name": "vercel-labs/ui",
+      "url": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "agent",
+        "agents",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "license": "Apache-2.0",
+      "stars_total": 3899,
+      "gained_2d": 2145,
+      "gained_prev_2d": 0,
+      "age_days": 18,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2145
+      ]
+    },
+    {
+      "rank": 2,
+      "full_name": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "language": "Rust",
+      "topics": [
+        "antidetect",
+        "antidetect-browser",
+        "browser",
+        "browser-automation",
+        "cdp",
+        "headless",
+        "playwright",
+        "puppeteer",
+        "rust"
+      ],
+      "license": "Apache-2.0",
+      "stars_total": 35034,
+      "gained_2d": 2024,
+      "gained_prev_2d": 909,
+      "age_days": 214,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        414,
+        495,
+        1128,
+        896
+      ]
+    },
+    {
+      "rank": 3,
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "cursor",
+        "design-system",
+        "frontend",
+        "landing-page",
+        "ui-design",
+        "web-design"
+      ],
+      "license": "MIT",
+      "stars_total": 115084,
+      "gained_2d": 1449,
+      "gained_prev_2d": 697,
+      "age_days": 267,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        312,
+        385,
+        734,
+        715
+      ]
+    },
+    {
+      "rank": 4,
+      "full_name": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openai",
+        "self-hosted",
+        "slack-alternative",
+        "team-chat"
+      ],
+      "license": "AGPL-3.0",
+      "stars_total": 1346,
+      "gained_2d": 1043,
+      "gained_prev_2d": 0,
+      "age_days": 4,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        303,
+        0,
+        0,
+        898,
+        145
+      ]
+    },
+    {
+      "rank": 5,
+      "full_name": "shanselman/gputaskman",
+      "url": "https://github.com/shanselman/gputaskman",
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars_total": 3086,
+      "gained_2d": 1021,
+      "gained_prev_2d": 437,
+      "age_days": 10,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        171,
+        266,
+        684,
+        337
+      ]
+    },
+    {
+      "rank": 6,
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars_total": 50885,
+      "gained_2d": 901,
+      "gained_prev_2d": 269,
+      "age_days": 135,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        169,
+        100,
+        510,
+        391
+      ]
+    },
+    {
+      "rank": 7,
+      "full_name": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "description": "Chat Demo",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars_total": 865,
+      "gained_2d": 865,
+      "gained_prev_2d": 0,
+      "age_days": 1,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        865,
+        0
+      ]
+    },
+    {
+      "rank": 8,
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "license": "Apache-2.0",
+      "stars_total": 50691,
+      "gained_2d": 844,
+      "gained_prev_2d": 61,
+      "age_days": 179,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        39,
+        22,
+        212,
+        632
+      ]
+    },
+    {
+      "rank": 9,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars_total": 27447,
+      "gained_2d": 798,
+      "gained_prev_2d": 0,
+      "age_days": 308,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        798
+      ]
+    },
+    {
+      "rank": 10,
+      "full_name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-seo",
+        "claude-code",
+        "claude-code-skill",
+        "marketing-automation",
+        "open-source",
+        "seo"
+      ],
+      "license": "MIT",
+      "stars_total": 29088,
+      "gained_2d": 791,
+      "gained_prev_2d": 274,
+      "age_days": 279,
+      "days": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        274,
+        420,
+        371
+      ]
+    }
+  ]
 }
