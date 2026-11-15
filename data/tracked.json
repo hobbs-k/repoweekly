@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "repos": {
     "codecrafters-io/build-your-own-x": {
       "first_seen": "2026-11-10",
@@ -10355,6 +10355,870 @@
     },
     "huawei-csl/MACaQ": {
       "first_seen": "2026-11-14",
+      "last_in_top200": null
+    },
+    "addyosmani/agent-skills": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Anduin2017/HowToCook": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "doocs/advanced-java": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "wagoodman/dive": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "jesseduffield/lazydocker": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "poteto/hiring-without-whiteboards": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "upscayl/upscayl": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "zhaoxuya520/reverse-skill": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "remoteintech/remote-jobs": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "0xAX/linux-insides": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "hsliuping/TradingAgents-CN": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "beego/beego": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "codex-team/editor.js": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ossrs/srs": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TanStack/table": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "microsoft/OmniParser": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Topkiflare74/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WarriorRemember/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "trackboatwrightplan/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TrapAccountant/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TurquoiseDetective/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "tornadonovicewhirl40/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WattBeetleLearn/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "topapothecarycanal/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Trapbraneedle/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "trackersnailgrip/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Titanlushrink/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TradesmanRecord/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "toppatronweave/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "toppatronweave/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Torusdrasocket/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TowerStalker/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TurkeyDesignate/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TurquoiseConsultant/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TrapBladesmith/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WebBookkeeper/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Tealplesense/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Tornadovonmodify/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "topconstableinlet67/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TorrentArrow/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "unitsenseimonitor/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "topconstableinlet67/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "tremorbuffalospire/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TrueDefenderRouter/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TurquoiseFarmer/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Topkiflare74/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Trapkrostride/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TarantulaCorrect/GitHub-Copilot-app": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "tornadonovicewhirl40/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TitanShieldRavine/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TradesmanRecord/IPTV_Player_2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "trackersnailgrip/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Ultimateakiln/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TrapBladesmith/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Torusdrasocket/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TremorRatTackle/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "taboospecialistblade/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "violetkomodolimit/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Tonephorepair/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "trackboatwrightplan/ai--manus2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "duwqijlk/muse-protocol": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Eynnzerr/TelemetryCleaner": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Noniv/abyssal-garden": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "berkantay/gpucanvas": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ZiChuanLan/freebie-radar": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "tiobeharxi1987/blender-ai-copilot-flow": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "zovulrira1974/blender-ai-copilot-assets": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "credoksopho1984/blender-ai-copilot-studio": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "precygtrucqui1981/blender-ai-copilot-lab": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "racdeufindurch198812/Blender-AI-MCP-Studio": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "findavoulot1973/Blender-AI-MCP-Suite": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Doug-218/blender-ai-copilot-forge": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "baiblinocun1986/blender-ai-copilot-hub": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "fumbdendade19718/blender-ai-copilot-desk": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "hitkeeen/blender-ai-mcp-addon": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Outpostkrewhirl86/Capri-AI": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "basetenlabs/deepseek-ultrafast": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "benzgasfuncring197110/blender-ai-copilot-bridge": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "meshy-dev/ThreeRT": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ben-miller-23/dxo-photolab-10-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ariamitchell54/cubase-studio-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "brisk-thrush-husky/malware-defender-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "amber-lance-72/xeno-roblox-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "alex-wells-65/iobit-driver-booster-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ben-kennedy-81/xfer-serum-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "azuresail195/wondershare-recoverit-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "azure-teal-slope/windows-optimizer-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ben-cook-42/kontakt-8-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ben14-dunn/native-instruments-kontakt-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "bradburns2001/topaz-video-ai-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "angela-cook-1988/vegas-pro-23-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "brave-shell-07/izotope-rx-11-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "brave-plum-co/leonardo-ai-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "briskember13/adobe-acrobat-pdf-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "higurashi-ai/Haru": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "hikaku-io/hikaku-extension": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "azuremaple1997/coreldraw-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ava25-thompson/fishstrap-roblox-fps-booster-desktop": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WinnerBrokerBarrow/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "armsworminterface/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Lowbydemodulator/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Lightningeuchant/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AmplitudeBoss/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Bannerzurpray/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ArcherAmplify/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ArtisanArouse/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ChannelSparrowYank/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Analogflitempo/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Lowbydemodulator/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WestLightningMove/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WinnerBrokerBarrow/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AtomEmissary/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ArtisanArouse/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Shardclamove/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TorusBarbarianMap9/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BarrierCenter/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AdmiralEmporium/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TealAgentRevive/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "PolygonGlazier/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ChannelSparrowYank/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ArcticPrawnEmporium/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ArcticPrawnEmporium/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AtomEmissary/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "PolygonGlazier/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "SortGuardian/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "WestLightningMove/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "assassinswandemolish/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "pyramidteachermap/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BrickMosquito/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "StudentSeparate/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Cloudryospeed/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BrickMosquito/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "bandbeetleruminate/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "pyramidteachermap/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ClampOverlord46/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TealAgentRevive/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Cloudryospeed/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ApparitionBowyerPort/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "psychenotecorridor/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "SortGuardian/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AdmiralEmporium/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AmplitudePikemanHeed/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "GryphonEmpress/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AgentLobster/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ceilingthunderretort/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "zadescoxp/calibrain-harness": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "HurricaneMonarchDart/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "GryphonEmpress/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ApothecaryDesign/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "HurricaneMonarchDart/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Feathershosmash/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AmplitudeBoss/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AdvisorShake/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "StudentSeparate/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ClampOverlord46/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "avenuemistravage47/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BrickAssemblyRepel/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ceilingthunderretort/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "TorusBarbarianMap9/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "blendhokagedestroy/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "psychenotecorridor/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BarricadeSenior/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AvenueBudgieShop/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Blendoasheave/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Analogflitempo/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BannerCatbird/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Archiveeutrough/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BeastBlazeAttract/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BeigeHeadStore/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Shardclamove/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Archiveeutrough/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "avalanchegnatbeat95/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BasinGradeJudge/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AmplitudePikemanHeed/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "assassinswandemolish/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Beigeloencoder/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BrickAssemblyRepel/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ApparitionBowyerPort/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "armysystemsun/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "avalanchegnatbeat95/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Lightningeuchant/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AdvisorShake/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BladesmithPanel/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BeigeExecutiveFix/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "armysystemsun/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AvenueBudgieShop/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Beachnuconceal/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "boardblazegrid/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Boardglacode/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Feathershosmash/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Boarddrunail/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "AgentLobster/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ApothecaryDesign/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Boldpleinverter/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "bravecrownvalve/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BeastBlazeAttract/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Breezefutrap/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Bannerzurpray/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BreakCartwright/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BreezeSamuraiPlay/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "borderorioleprime/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ArcherAmplify/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BarricadeSenior/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "avenuemistravage47/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BoltRegenerate/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BannerCatbird/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BladesmithPanel/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BasinGradeJudge/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BarrierCenter/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BrinkMouseCastle/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "boardblazegrid/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Blendoasheave/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "BuntingBreed/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Bridgeshuconform/ai--manus": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "ammaarreshi/WindowsiOS": {
+      "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "Beachnuconceal/IPTV_Player2.0": {
+      "first_seen": "2026-11-15",
       "last_in_top200": null
     }
   }

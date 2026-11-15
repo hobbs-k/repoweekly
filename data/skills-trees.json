@@ -1,7 +1,7 @@
 {
   "morluto/rea": {
     "v": 2,
-    "pushed_at": "2026-11-13T23:00:09Z",
+    "pushed_at": "2026-11-15T02:34:53Z",
     "count": 6,
     "skills": [
       {
@@ -32,7 +32,7 @@
   },
   "anthropics/skills": {
     "v": 2,
-    "pushed_at": "2026-11-06T22:32:32Z",
+    "pushed_at": "2026-11-14T21:52:49Z",
     "count": 20,
     "skills": [
       {
@@ -174,7 +174,7 @@
   },
   "thedotmack/claude-mem": {
     "v": 2,
-    "pushed_at": "2026-11-13T18:56:42Z",
+    "pushed_at": "2026-11-14T19:38:04Z",
     "count": 47,
     "skills": [
       {
@@ -341,7 +341,7 @@
   },
   "addyosmani/agent-skills": {
     "v": 2,
-    "pushed_at": "2026-11-01T19:24:49Z",
+    "pushed_at": "2026-11-14T04:33:56Z",
     "count": 25,
     "skills": [
       {
@@ -459,7 +459,7 @@
   },
   "paperclipai/paperclip": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:39:32Z",
+    "pushed_at": "2026-11-15T02:46:28Z",
     "count": 83,
     "skills": [
       {
@@ -626,7 +626,7 @@
   },
   "pbakaus/impeccable": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:44:15Z",
+    "pushed_at": "2026-11-15T02:39:39Z",
     "count": 26,
     "skills": [
       {
@@ -737,7 +737,7 @@
   },
   "nexu-io/open-design": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:09:21Z",
+    "pushed_at": "2026-11-15T01:08:56Z",
     "count": 562,
     "skills": [
       {
@@ -904,7 +904,7 @@
   },
   "tt-a1i/archify": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:37:52Z",
+    "pushed_at": "2026-11-14T16:22:22Z",
     "count": 5,
     "skills": [
       {
@@ -974,7 +974,7 @@
   },
   "career-ops-hq/career-ops": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:49:58Z",
+    "pushed_at": "2026-11-15T02:24:47Z",
     "count": 11,
     "skills": [
       {
@@ -1192,7 +1192,7 @@
   },
   "code-yeongyu/oh-my-openagent": {
     "v": 2,
-    "pushed_at": "2026-11-13T22:58:32Z",
+    "pushed_at": "2026-11-15T02:17:50Z",
     "count": 61,
     "skills": [
       {
@@ -1359,7 +1359,7 @@
   },
   "shanraisshan/claude-code-best-practice": {
     "v": 2,
-    "pushed_at": "2026-11-13T06:34:03Z",
+    "pushed_at": "2026-11-14T06:33:58Z",
     "count": 9,
     "skills": [
       {
@@ -1606,7 +1606,7 @@
   },
   "hesreallyhim/awesome-claude-code": {
     "v": 2,
-    "pushed_at": "2026-11-14T00:16:45Z",
+    "pushed_at": "2026-11-15T00:18:47Z",
     "count": 0,
     "skills": []
   },
@@ -1785,7 +1785,7 @@
   },
   "CherryHQ/cherry-studio": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:43:22Z",
+    "pushed_at": "2026-11-15T02:42:12Z",
     "count": 41,
     "skills": [
       {
@@ -1952,7 +1952,7 @@
   },
   "alibaba/open-code-review": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:29:46Z",
+    "pushed_at": "2026-11-15T02:41:14Z",
     "count": 4,
     "skills": [
       {
@@ -1975,7 +1975,7 @@
   },
   "sickn33/agentic-awesome-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T22:02:29Z",
+    "pushed_at": "2026-11-14T16:18:00Z",
     "count": 9454,
     "skills": [
       {
@@ -2142,7 +2142,7 @@
   },
   "reactive-resume/reactive-resume": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:39:56Z",
+    "pushed_at": "2026-11-14T06:52:38Z",
     "count": 34,
     "skills": [
       {
@@ -2452,7 +2452,7 @@
   },
   "github/awesome-copilot": {
     "v": 2,
-    "pushed_at": "2026-11-13T21:37:52Z",
+    "pushed_at": "2026-11-14T20:42:30Z",
     "count": 481,
     "skills": [
       {
@@ -2707,7 +2707,7 @@
   },
   "davila7/claude-code-templates": {
     "v": 2,
-    "pushed_at": "2026-11-13T22:14:46Z",
+    "pushed_at": "2026-11-15T02:41:28Z",
     "count": 926,
     "skills": [
       {
@@ -2874,7 +2874,7 @@
   },
   "topoteretes/cognee": {
     "v": 2,
-    "pushed_at": "2026-11-13T23:04:08Z",
+    "pushed_at": "2026-11-14T20:53:03Z",
     "count": 26,
     "skills": [
       {
@@ -3152,7 +3152,7 @@
   },
   "nanocoai/nanoclaw": {
     "v": 2,
-    "pushed_at": "2026-11-13T20:45:07Z",
+    "pushed_at": "2026-11-14T23:39:27Z",
     "count": 64,
     "skills": [
       {
@@ -4048,7 +4048,7 @@
   },
   "pascalorg/editor": {
     "v": 2,
-    "pushed_at": "2026-11-13T17:09:23Z",
+    "pushed_at": "2026-11-14T06:42:01Z",
     "count": 5,
     "skills": [
       {
@@ -4075,7 +4075,7 @@
   },
   "NVIDIA/SkillSpector": {
     "v": 2,
-    "pushed_at": "2026-11-13T23:13:59Z",
+    "pushed_at": "2026-11-14T04:49:48Z",
     "count": 34,
     "skills": [
       {
@@ -4218,7 +4218,7 @@
   },
   "nocobase/nocobase": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:09:25Z",
+    "pushed_at": "2026-11-15T00:45:27Z",
     "count": 39,
     "skills": [
       {
@@ -4381,7 +4381,7 @@
   },
   "citrolabs/ego-lite": {
     "v": 2,
-    "pushed_at": "2026-11-13T08:13:40Z",
+    "pushed_at": "2026-11-14T04:22:56Z",
     "count": 4,
     "skills": [
       {
@@ -4461,7 +4461,7 @@
   },
   "wanshuiyin/Auto-claude-code-research-in-sleep": {
     "v": 2,
-    "pushed_at": "2026-11-11T07:39:57Z",
+    "pushed_at": "2026-11-14T09:10:57Z",
     "count": 197,
     "skills": [
       {
@@ -4666,7 +4666,7 @@
   },
   "google/elephant-goldfish-model": {
     "v": 2,
-    "pushed_at": "2026-11-13T17:16:33Z",
+    "pushed_at": "2026-11-14T09:40:03Z",
     "count": 7,
     "skills": [
       {
@@ -5010,7 +5010,7 @@
   },
   "NevaMind-AI/memU": {
     "v": 2,
-    "pushed_at": "2026-11-13T07:31:48Z",
+    "pushed_at": "2026-11-14T05:57:05Z",
     "count": 1,
     "skills": [
       {
@@ -6075,7 +6075,7 @@
   },
   "anbeime/skill": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:12:26Z",
+    "pushed_at": "2026-11-15T02:12:22Z",
     "count": 136,
     "skills": [
       {
@@ -6363,7 +6363,7 @@
   },
   "mvschwarz/openrig": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:01:37Z",
+    "pushed_at": "2026-11-15T02:44:28Z",
     "count": 98,
     "skills": [
       {
@@ -6652,7 +6652,7 @@
   },
   "jnMetaCode/superpowers-zh": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:41:15Z",
+    "pushed_at": "2026-11-15T01:42:32Z",
     "count": 21,
     "skills": [
       {
@@ -6806,7 +6806,7 @@
   },
   "YaoApp/yao": {
     "v": 2,
-    "pushed_at": "2026-11-13T10:28:20Z",
+    "pushed_at": "2026-11-14T04:51:58Z",
     "count": 0,
     "skills": []
   },
@@ -6985,7 +6985,7 @@
   },
   "JetBrains/thinkrail": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:53:51Z",
+    "pushed_at": "2026-11-15T00:19:51Z",
     "count": 13,
     "skills": [
       {
@@ -7493,170 +7493,9 @@
   },
   "Devin-AXIS/iPolloWork": {
     "v": 2,
-    "pushed_at": "2026-11-13T11:41:38Z",
-    "count": 109,
-    "skills": [
-      {
-        "path": ".agents/skills/image-editing/SKILL.md",
-        "name": "image-editing"
-      },
-      {
-        "path": ".agents/skills/image-generation/SKILL.md",
-        "name": "image-generation"
-      },
-      {
-        "path": ".agents/skills/ipollowork-design-editorial/SKILL.md",
-        "name": "ipollowork-design-editorial"
-      },
-      {
-        "path": ".agents/skills/ipollowork-design-graphics/SKILL.md",
-        "name": "ipollowork-design-graphics"
-      },
-      {
-        "path": ".agents/skills/ipollowork-design-studio/SKILL.md",
-        "name": "ipollowork-design-studio"
-      },
-      {
-        "path": ".agents/skills/ipollowork-design-web/SKILL.md",
-        "name": "ipollowork-design-web"
-      },
-      {
-        "path": ".agents/skills/ipollowork-presentations/SKILL.md",
-        "name": "ipollowork-presentations"
-      },
-      {
-        "path": ".agents/skills/ipollowork-video-compose/SKILL.md",
-        "name": "ipollowork-video-compose"
-      },
-      {
-        "path": ".agents/skills/ipollowork-video-soundtrack/SKILL.md",
-        "name": "ipollowork-video-soundtrack"
-      },
-      {
-        "path": ".agents/skills/ipollowork-video-storyboard/SKILL.md",
-        "name": "ipollowork-video-storyboard"
-      },
-      {
-        "path": ".agents/skills/ipollowork-video-studio/SKILL.md",
-        "name": "ipollowork-video-studio"
-      },
-      {
-        "path": ".agents/skills/ipollowork-video-voiceover/SKILL.md",
-        "name": "ipollowork-video-voiceover"
-      },
-      {
-        "path": ".codex/skills/github-sync-pr-flow/SKILL.md",
-        "name": "github-sync-pr-flow"
-      },
-      {
-        "path": ".codex/skills/ipollowork-maintainable-code/SKILL.md",
-        "name": "ipollowork-maintainable-code"
-      },
-      {
-        "path": ".codex/skills/ipollowork-plugin-ui/SKILL.md",
-        "name": "ipollowork-plugin-ui"
-      },
-      {
-        "path": ".codex/skills/ipollowork-template-generation/SKILL.md",
-        "name": "ipollowork-template-generation"
-      },
-      {
-        "path": ".codex/skills/ipollowork-video-component-authoring/SKILL.md",
-        "name": "ipollowork-video-component-authoring"
-      },
-      {
-        "path": ".opencode/skills/agent-first-screenshots/SKILL.md",
-        "name": "agent-first-screenshots"
-      },
-      {
-        "path": ".opencode/skills/create-plugin/SKILL.md",
-        "name": "create-plugin"
-      },
-      {
-        "path": ".opencode/skills/daytona-chrome-cdp/SKILL.md",
-        "name": "daytona-chrome-cdp"
-      },
-      {
-        "path": ".opencode/skills/daytona-cloud-server/SKILL.md",
-        "name": "daytona-cloud-server"
-      },
-      {
-        "path": ".opencode/skills/daytona-dev/SKILL.md",
-        "name": "daytona-dev"
-      },
-      {
-        "path": ".opencode/skills/daytona-electron-den/SKILL.md",
-        "name": "daytona-electron-den"
-      },
-      {
-        "path": ".opencode/skills/daytona-recording-artifacts/SKILL.md",
-        "name": "daytona-recording-artifacts"
-      },
-      {
-        "path": ".opencode/skills/daytona-windows-cert/SKILL.md",
-        "name": "daytona-windows-cert"
-      },
-      {
-        "path": ".opencode/skills/fraimz/SKILL.md",
-        "name": "fraimz"
-      },
-      {
-        "path": ".opencode/skills/get-env-var/SKILL.md",
-        "name": "get-env-var"
-      },
-      {
-        "path": ".opencode/skills/release/SKILL.md",
-        "name": "release"
-      },
-      {
-        "path": ".opencode/skills/run-evals/SKILL.md",
-        "name": "run-evals"
-      },
-      {
-        "path": ".opencode/skills/shadcn/SKILL.md",
-        "name": "shadcn"
-      },
-      {
-        "path": ".opencode/skills/upload-photo/SKILL.md",
-        "name": "upload-photo"
-      },
-      {
-        "path": ".opencode/skills/voiceover/SKILL.md",
-        "name": "voiceover"
-      },
-      {
-        "path": "examples/plugin-packages/acme-research/skills/acme-research/SKILL.md",
-        "name": "acme-research"
-      },
-      {
-        "path": "examples/plugin-packages/context7/skills/context7-docs-research/SKILL.md",
-        "name": "context7-docs-research"
-      },
-      {
-        "path": "examples/plugin-packages/context7/skills/context7-version-aware-implementation/SKILL.md",
-        "name": "context7-version-aware-implementation"
-      },
-      {
-        "path": "examples/plugin-packages/deepseek-harness/skills/deepseek-harness/SKILL.md",
-        "name": "deepseek-harness"
-      },
-      {
-        "path": "examples/plugin-packages/design-agent/skills/ipollowork-design-editorial/SKILL.md",
-        "name": "ipollowork-design-editorial"
-      },
-      {
-        "path": "examples/plugin-packages/design-agent/skills/ipollowork-design-graphics/SKILL.md",
-        "name": "ipollowork-design-graphics"
-      },
-      {
-        "path": "examples/plugin-packages/design-agent/skills/ipollowork-design-studio/SKILL.md",
-        "name": "ipollowork-design-studio"
-      },
-      {
-        "path": "examples/plugin-packages/design-agent/skills/ipollowork-design-web/SKILL.md",
-        "name": "ipollowork-design-web"
-      }
-    ]
+    "pushed_at": "2026-11-15T02:27:02Z",
+    "count": 0,
+    "skills": []
   },
   "gepa-ai/gepa": {
     "v": 2,
@@ -8005,7 +7844,7 @@
   },
   "alchaincyf/darwin-skill": {
     "v": 2,
-    "pushed_at": "2026-09-18T13:16:41Z",
+    "pushed_at": "2026-11-14T23:14:35Z",
     "count": 1,
     "skills": [
       {
@@ -8111,7 +7950,7 @@
   },
   "JuneYaooo/rea-video": {
     "v": 2,
-    "pushed_at": "2026-11-13T17:41:27Z",
+    "pushed_at": "2026-11-14T17:26:27Z",
     "count": 1,
     "skills": [
       {
@@ -8179,7 +8018,7 @@
   },
   "melonjs/melonJS": {
     "v": 2,
-    "pushed_at": "2026-11-13T10:07:42Z",
+    "pushed_at": "2026-11-15T01:39:56Z",
     "count": 26,
     "skills": [
       {
@@ -8403,7 +8242,7 @@
   },
   "wiltodelta/remove-ai-watermarks": {
     "v": 2,
-    "pushed_at": "2026-11-13T20:01:46Z",
+    "pushed_at": "2026-11-15T01:14:00Z",
     "count": 3,
     "skills": [
       {
@@ -8696,7 +8535,7 @@
   },
   "ikaijua/Awesome-AITools": {
     "v": 2,
-    "pushed_at": "2026-11-13T07:07:21Z",
+    "pushed_at": "2026-11-14T16:54:07Z",
     "count": 0,
     "skills": []
   },
@@ -9360,7 +9199,7 @@
   },
   "elementalsouls/Claude-BugHunter": {
     "v": 2,
-    "pushed_at": "2026-11-13T12:18:16Z",
+    "pushed_at": "2026-11-14T11:33:54Z",
     "count": 83,
     "skills": [
       {
@@ -9527,7 +9366,7 @@
   },
   "aipoch/open-science": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:41:01Z",
+    "pushed_at": "2026-11-14T22:56:22Z",
     "count": 27,
     "skills": [
       {
@@ -9697,7 +9536,7 @@
   },
   "metalbear-co/mirrord": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:21:48Z",
+    "pushed_at": "2026-11-14T04:04:31Z",
     "count": 12,
     "skills": [
       {
@@ -9752,7 +9591,7 @@
   },
   "eugeniughelbur/obsidian-second-brain": {
     "v": 2,
-    "pushed_at": "2026-11-10T21:34:25Z",
+    "pushed_at": "2026-11-14T23:57:23Z",
     "count": 1,
     "skills": [
       {
@@ -9793,7 +9632,7 @@
   },
   "kajisho5/ffmpeg-skill": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:39:40Z",
+    "pushed_at": "2026-11-15T02:22:48Z",
     "count": 16,
     "skills": [
       {
@@ -10175,7 +10014,7 @@
   },
   "inkeep/open-knowledge": {
     "v": 2,
-    "pushed_at": "2026-11-13T17:12:57Z",
+    "pushed_at": "2026-11-14T09:54:09Z",
     "count": 18,
     "skills": [
       {
@@ -10427,7 +10266,7 @@
   },
   "zenbu-labs/terminal-browser": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:24:42Z",
+    "pushed_at": "2026-11-14T16:01:28Z",
     "count": 1,
     "skills": [
       {
@@ -10998,7 +10837,7 @@
   },
   "zenstory-ai/drama-skills": {
     "v": 2,
-    "pushed_at": "2026-11-10T12:23:14Z",
+    "pushed_at": "2026-11-15T01:04:59Z",
     "count": 13,
     "skills": [
       {
@@ -11107,7 +10946,7 @@
   },
   "datamodel-code-generator/datamodel-code-generator": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:39:26Z",
+    "pushed_at": "2026-11-14T13:44:36Z",
     "count": 2,
     "skills": [
       {
@@ -11152,7 +10991,7 @@
   },
   "backnotprop/pstack": {
     "v": 2,
-    "pushed_at": "2026-11-13T23:01:13Z",
+    "pushed_at": "2026-11-14T19:42:36Z",
     "count": 61,
     "skills": [
       {
@@ -12108,7 +11947,7 @@
   },
   "davepoon/buildwithclaude": {
     "v": 2,
-    "pushed_at": "2026-11-13T07:12:33Z",
+    "pushed_at": "2026-11-14T12:55:02Z",
     "count": 423,
     "skills": [
       {
@@ -12275,7 +12114,7 @@
   },
   "Ar9av/obsidian-wiki": {
     "v": 2,
-    "pushed_at": "2026-11-12T12:15:04Z",
+    "pushed_at": "2026-11-14T16:02:11Z",
     "count": 40,
     "skills": [
       {
@@ -12442,7 +12281,7 @@
   },
   "ljagiello/ctf-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T15:16:52Z",
+    "pushed_at": "2026-11-15T02:42:50Z",
     "count": 12,
     "skills": [
       {
@@ -12497,7 +12336,7 @@
   },
   "wesammustafa/Claude-Code-Quest": {
     "v": 2,
-    "pushed_at": "2026-11-13T16:08:26Z",
+    "pushed_at": "2026-11-14T11:45:16Z",
     "count": 15,
     "skills": [
       {
@@ -13058,7 +12897,7 @@
   },
   "Natively-AI-assistant/natively-cluely-ai-assistant": {
     "v": 2,
-    "pushed_at": "2026-11-13T03:06:52Z",
+    "pushed_at": "2026-11-15T02:31:18Z",
     "count": 0,
     "skills": []
   },
@@ -13423,7 +13262,7 @@
   },
   "oil-oil/oil-ui": {
     "v": 2,
-    "pushed_at": "2026-11-11T04:56:08Z",
+    "pushed_at": "2026-11-15T00:20:42Z",
     "count": 1,
     "skills": [
       {
@@ -13434,7 +13273,7 @@
   },
   "aaron-he-zhu/aaron-marketing-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T23:09:38Z",
+    "pushed_at": "2026-11-14T21:54:25Z",
     "count": 120,
     "skills": [
       {
@@ -13958,8 +13797,8 @@
   },
   "jeremylongshore/tons-of-skills-marketplace": {
     "v": 2,
-    "pushed_at": "2026-11-14T00:54:52Z",
-    "count": 5764,
+    "pushed_at": "2026-11-15T00:59:34Z",
+    "count": 5738,
     "skills": [
       {
         "path": ".agents/skills/beads/SKILL.md",
@@ -14710,7 +14549,7 @@
   },
   "amElnagdy/delegate-skills": {
     "v": 2,
-    "pushed_at": "2026-11-05T20:32:18Z",
+    "pushed_at": "2026-11-14T20:10:36Z",
     "count": 20,
     "skills": [
       {
@@ -14797,7 +14636,7 @@
   },
   "MrGeDiao/shuorenhua": {
     "v": 2,
-    "pushed_at": "2026-11-13T08:44:45Z",
+    "pushed_at": "2026-11-14T07:59:55Z",
     "count": 1,
     "skills": [
       {
@@ -14895,7 +14734,7 @@
   },
   "digitalsamba/claude-code-video-toolkit": {
     "v": 2,
-    "pushed_at": "2026-11-12T18:32:50Z",
+    "pushed_at": "2026-11-14T23:49:11Z",
     "count": 17,
     "skills": [
       {
@@ -14970,7 +14809,7 @@
   },
   "LearnPrompt/awesome-seedance": {
     "v": 2,
-    "pushed_at": "2026-11-13T14:42:05Z",
+    "pushed_at": "2026-11-14T22:05:12Z",
     "count": 15,
     "skills": [
       {
@@ -15037,7 +14876,7 @@
   },
   "reacher-z/Awesome-REA": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:25:57Z",
+    "pushed_at": "2026-11-15T01:26:30Z",
     "count": 0,
     "skills": []
   },
@@ -15294,7 +15133,7 @@
   },
   "amontlabs/lcu": {
     "v": 2,
-    "pushed_at": "2026-11-12T12:09:05Z",
+    "pushed_at": "2026-11-14T21:04:59Z",
     "count": 0,
     "skills": []
   },
@@ -15315,7 +15154,7 @@
   },
   "coldteadotai/pr-lens": {
     "v": 2,
-    "pushed_at": "2026-11-13T11:17:07Z",
+    "pushed_at": "2026-11-14T10:47:58Z",
     "count": 3,
     "skills": [
       {
@@ -15408,7 +15247,7 @@
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
     "v": 2,
-    "pushed_at": "2026-11-13T21:38:35Z",
+    "pushed_at": "2026-11-14T21:09:01Z",
     "count": 1,
     "skills": [
       {
@@ -15582,7 +15421,7 @@
   },
   "atomicstrata/llm-wiki-compiler": {
     "v": 2,
-    "pushed_at": "2026-11-13T23:50:57Z",
+    "pushed_at": "2026-11-14T09:14:20Z",
     "count": 1,
     "skills": [
       {
@@ -15627,7 +15466,7 @@
   },
   "Gentleman-Programming/gentle-shell": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:34:56Z",
+    "pushed_at": "2026-11-14T23:32:18Z",
     "count": 15,
     "skills": [
       {
@@ -15745,7 +15584,7 @@
   },
   "can4hou6joeng4/boss-agent-cli": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:10:01Z",
+    "pushed_at": "2026-11-15T02:44:03Z",
     "count": 0,
     "skills": []
   },
@@ -15918,7 +15757,7 @@
   },
   "UnderleveledBuilder/awesome-short-drama-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T22:22:16Z",
+    "pushed_at": "2026-11-14T04:56:59Z",
     "count": 1,
     "skills": [
       {
@@ -15948,7 +15787,7 @@
   },
   "maxritter/qualitylayer": {
     "v": 2,
-    "pushed_at": "2026-11-13T12:33:41Z",
+    "pushed_at": "2026-11-14T22:49:51Z",
     "count": 7,
     "skills": [
       {
@@ -16030,13 +15869,13 @@
   },
   "shinyobjectz/raea": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:39:16Z",
+    "pushed_at": "2026-11-15T02:36:11Z",
     "count": 0,
     "skills": []
   },
   "axoviq-ai/synthadoc": {
     "v": 2,
-    "pushed_at": "2026-11-13T22:09:06Z",
+    "pushed_at": "2026-11-15T00:28:03Z",
     "count": 10,
     "skills": [
       {
@@ -16193,7 +16032,7 @@
   },
   "DUNHKpcc/Claude-Guardian": {
     "v": 2,
-    "pushed_at": "2026-11-11T15:34:09Z",
+    "pushed_at": "2026-11-14T14:17:32Z",
     "count": 1,
     "skills": [
       {
@@ -16215,7 +16054,7 @@
   },
   "OpenOSINT/OpenOSINT": {
     "v": 2,
-    "pushed_at": "2026-11-12T11:00:39Z",
+    "pushed_at": "2026-11-14T10:12:35Z",
     "count": 2,
     "skills": [
       {
@@ -16230,7 +16069,7 @@
   },
   "XiaoMaColtAI/math-modeling-skill": {
     "v": 2,
-    "pushed_at": "2026-11-13T21:50:04Z",
+    "pushed_at": "2026-11-14T20:29:58Z",
     "count": 20,
     "skills": [
       {
@@ -16484,7 +16323,7 @@
   },
   "ReScienceLab/opc-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T14:17:58Z",
+    "pushed_at": "2026-11-14T13:14:42Z",
     "count": 13,
     "skills": [
       {
@@ -16543,7 +16382,7 @@
   },
   "zhuyansen/awesome-claude-video-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T15:50:02Z",
+    "pushed_at": "2026-11-14T14:33:27Z",
     "count": 0,
     "skills": []
   },
@@ -16670,174 +16509,174 @@
   },
   "Klotzkette/claude-fuer-deutsches-recht": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:23:11Z",
-    "count": 18700,
+    "pushed_at": "2026-11-15T02:43:46Z",
+    "count": 2408,
     "skills": [
       {
-        "path": "agb-recht-pruefer/skills/abmahnung-reagieren/SKILL.md",
-        "name": "abmahnung-reagieren"
+        "path": "agb-recht-pruefer/skills/abwehr-durchsetzung-bearbeiten/SKILL.md",
+        "name": "abwehr-durchsetzung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/abnahme-testing/SKILL.md",
-        "name": "abnahme-testing"
+        "path": "agb-recht-pruefer/skills/akte-quellen-ergebnis-bearbeiten/SKILL.md",
+        "name": "akte-quellen-ergebnis-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/abtretung-adversarial-test/SKILL.md",
-        "name": "abtretung-adversarial-test"
+        "path": "agb-recht-pruefer/skills/arbeit-bau-miete-bearbeiten/SKILL.md",
+        "name": "arbeit-bau-miete-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/adversarial-test-agb/SKILL.md",
-        "name": "adversarial-test-agb"
+        "path": "agb-recht-pruefer/skills/digital-daten-rechte-bearbeiten/SKILL.md",
+        "name": "digital-daten-rechte-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/aenderungsvorbehalt-308/SKILL.md",
-        "name": "aenderungsvorbehalt-308"
+        "path": "agb-recht-pruefer/skills/einbeziehung-auslegung-bearbeiten/SKILL.md",
+        "name": "einbeziehung-auslegung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-abtretung/SKILL.md",
-        "name": "agb-abtretung"
+        "path": "agb-recht-pruefer/skills/entwurf-verhandlung-rollout-bearbeiten/SKILL.md",
+        "name": "entwurf-verhandlung-rollout-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-anwaltsvertrag-allg-mandatsbedingungen/SKILL.md",
-        "name": "agb-anwaltsvertrag-allg-mandatsbedingungen"
+        "path": "agb-recht-pruefer/skills/finanzierung-versicherung-bearbeiten/SKILL.md",
+        "name": "finanzierung-versicherung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-anwaltsvertrag-und-allg-mandatsbedingungen/SKILL.md",
-        "name": "agb-anwaltsvertrag-und-allg-mandatsbedingungen"
+        "path": "agb-recht-pruefer/skills/haftung-maengel-bearbeiten/SKILL.md",
+        "name": "haftung-maengel-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-arbeitnehmerueberlassung-aueg/SKILL.md",
-        "name": "agb-arbeitnehmerueberlassung-aueg"
+        "path": "agb-recht-pruefer/skills/handel-dienstleistung-verein-bearbeiten/SKILL.md",
+        "name": "handel-dienstleistung-verein-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-auditrechte/SKILL.md",
-        "name": "agb-auditrechte"
+        "path": "agb-recht-pruefer/skills/inhaltskontrolle-rechtsfolgen-bearbeiten/SKILL.md",
+        "name": "inhaltskontrolle-rechtsfolgen-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-begriff-vorformuliert-305/SKILL.md",
-        "name": "agb-begriff-vorformuliert-305"
+        "path": "agb-recht-pruefer/skills/juristischer-argumentationskern/SKILL.md",
+        "name": "juristischer-argumentationskern"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bei-digitalen-produkten-327f-update/SKILL.md",
-        "name": "agb-bei-digitalen-produkten-327f-update"
+        "path": "agb-recht-pruefer/skills/kaltstart-triage/SKILL.md",
+        "name": "kaltstart-triage"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bei-iso-vertraegen-international/SKILL.md",
-        "name": "agb-bei-iso-vertraegen-international"
+        "path": "agb-recht-pruefer/skills/laufzeit-vertragsende-bearbeiten/SKILL.md",
+        "name": "laufzeit-vertragsende-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bei-kreditvertraegen-verbraucherdarlehen/SKILL.md",
-        "name": "agb-bei-kreditvertraegen-verbraucherdarlehen"
+        "path": "agb-recht-pruefer/skills/leistung-mitwirkung-bearbeiten/SKILL.md",
+        "name": "leistung-mitwirkung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bei-plattformnutzung-app-stores/SKILL.md",
-        "name": "agb-bei-plattformnutzung-app-stores"
+        "path": "agb-recht-pruefer/skills/preis-zahlung-bearbeiten/SKILL.md",
+        "name": "preis-zahlung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bei-vereinen-und-verbaenden/SKILL.md",
-        "name": "agb-bei-vereinen-und-verbaenden"
+        "path": "agb-recht-pruefer/skills/rechtswahl-international-bearbeiten/SKILL.md",
+        "name": "rechtswahl-international-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bei-versicherungsvertraegen-vvg/SKILL.md",
-        "name": "agb-bei-versicherungsvertraegen-vvg"
+        "path": "agb-recht-pruefer/skills/rolle-anwendungsbereich-bearbeiten/SKILL.md",
+        "name": "rolle-anwendungsbereich-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-bonitaetspruefung-score-klauseln/SKILL.md",
-        "name": "agb-bonitaetspruefung-score-klauseln"
+        "path": "agb-recht-pruefer/skills/sicherheit-abtretung-bearbeiten/SKILL.md",
+        "name": "sicherheit-abtretung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-eigentumsvorbehalt-b2b-b2c/SKILL.md",
-        "name": "agb-eigentumsvorbehalt-b2b-b2c"
+        "path": "agb-werkstatt/skills/agb-auftrag-klaeren/SKILL.md",
+        "name": "agb-auftrag-klaeren"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-entwurf-kaltstart/SKILL.md",
-        "name": "agb-entwurf-kaltstart"
+        "path": "agb-werkstatt/skills/agb-bank-zahlungsverkehr/SKILL.md",
+        "name": "agb-bank-zahlungsverkehr"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-exklusivitaet/SKILL.md",
-        "name": "agb-exklusivitaet"
+        "path": "agb-werkstatt/skills/agb-darlehen-finanzierung/SKILL.md",
+        "name": "agb-darlehen-finanzierung"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-formulararbeitsvertrag-305ff-bgb/SKILL.md",
-        "name": "agb-formulararbeitsvertrag-305ff-bgb"
+        "path": "agb-werkstatt/skills/agb-endfassung-einfuehren/SKILL.md",
+        "name": "agb-endfassung-einfuehren"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-fuer-vereinsausschluss-und-haftung/SKILL.md",
-        "name": "agb-fuer-vereinsausschluss-und-haftung"
+        "path": "agb-werkstatt/skills/agb-haftung-maengel/SKILL.md",
+        "name": "agb-haftung-maengel"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-gerichtsstand/SKILL.md",
-        "name": "agb-gerichtsstand"
+        "path": "agb-werkstatt/skills/agb-handel-eigentumsvorbehalt/SKILL.md",
+        "name": "agb-handel-eigentumsvorbehalt"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-haftung-erfuellungsgehilfen/SKILL.md",
-        "name": "agb-haftung-erfuellungsgehilfen"
+        "path": "agb-werkstatt/skills/agb-hauptproblem-loesen/SKILL.md",
+        "name": "agb-hauptproblem-loesen"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-im-arbeitsvertrag-310-abs-4-vertieft/SKILL.md",
-        "name": "agb-im-arbeitsvertrag-310-abs-4-vertieft"
+        "path": "agb-werkstatt/skills/agb-preise-laufzeit-aenderung/SKILL.md",
+        "name": "agb-preise-laufzeit-aenderung"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-im-bankvertrag-sparkassen-und-banken/SKILL.md",
-        "name": "agb-im-bankvertrag-sparkassen-und-banken"
+        "path": "agb-werkstatt/skills/agb-rechtsprechung-abgleichen/SKILL.md",
+        "name": "agb-rechtsprechung-abgleichen"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-im-bauvertrag-vob-b-2024/SKILL.md",
-        "name": "agb-im-bauvertrag-vob-b-2024"
+        "path": "agb-werkstatt/skills/agb-reparatur-werkstatt/SKILL.md",
+        "name": "agb-reparatur-werkstatt"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-im-konzernverbund/SKILL.md",
-        "name": "agb-im-konzernverbund"
+        "path": "agb-werkstatt/skills/agb-webshop-checkout/SKILL.md",
+        "name": "agb-webshop-checkout"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-im-leasingvertrag-fortwirkung/SKILL.md",
-        "name": "agb-im-leasingvertrag-fortwirkung"
+        "path": "aktenaufbereiter-strafrecht/skills/aktenaufbereiter-strafrecht/SKILL.md",
+        "name": "aktenaufbereiter-strafrecht"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-im-mietrecht-wohnraum-vs-gewerbe/SKILL.md",
-        "name": "agb-im-mietrecht-wohnraum-vs-gewerbe"
+        "path": "aktenaufbereiter-strafrecht/skills/anklage-und-hauptverhandlung-bearbeiten/SKILL.md",
+        "name": "anklage-und-hauptverhandlung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-in-kapitalanlagen-effektenhandel/SKILL.md",
-        "name": "agb-in-kapitalanlagen-effektenhandel"
+        "path": "aktenaufbereiter-strafrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md",
+        "name": "arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-indexierung/SKILL.md",
-        "name": "agb-indexierung"
+        "path": "aktenaufbereiter-strafrecht/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md",
+        "name": "beweis-und-aktenanalyse-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-konzernklausel-datenaustausch-haftung/SKILL.md",
-        "name": "agb-konzernklausel-datenaustausch-haftung"
+        "path": "aktenaufbereiter-strafrecht/skills/einstieg-routing/SKILL.md",
+        "name": "einstieg-routing"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-lagerbedingungen-haftung-pflichten/SKILL.md",
-        "name": "agb-lagerbedingungen-haftung-pflichten"
+        "path": "aktenaufbereiter-strafrecht/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md",
+        "name": "entscheidung-und-rechtsmittel-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-leasingvertrag-fortwirkung-schiedsklausel/SKILL.md",
-        "name": "agb-leasingvertrag-fortwirkung-schiedsklausel"
+        "path": "aktenaufbereiter-strafrecht/skills/ermittlungsverfahren-und-eingriffe-bearbeiten/SKILL.md",
+        "name": "ermittlungsverfahren-und-eingriffe-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-mindestabnahme-bezugspflichten/SKILL.md",
-        "name": "agb-mindestabnahme-bezugspflichten"
+        "path": "aktenaufbereiter-strafrecht/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md",
+        "name": "geschaedigte-und-besondere-rollen-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-mitwirkungspflichten-leistungsstoerung/SKILL.md",
-        "name": "agb-mitwirkungspflichten-leistungsstoerung"
+        "path": "aktenaufbereiter-strafrecht/skills/juristischer-argumentationskern/SKILL.md",
+        "name": "juristischer-argumentationskern"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-preisanpassung-energie-stromgvv-gasgvv/SKILL.md",
-        "name": "agb-preisanpassung-energie-stromgvv-gasgvv"
+        "path": "aktenaufbereiter-strafrecht/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md",
+        "name": "sanktion-und-vollstreckung-bearbeiten"
       },
       {
-        "path": "agb-recht-pruefer/skills/agb-pruefung-kaltstart/SKILL.md",
-        "name": "agb-pruefung-kaltstart"
+        "path": "aktenaufbereiter-strafrecht/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md",
+        "name": "tatvorwurf-und-materielles-recht-bearbeiten"
       }
     ]
   },
   "mex-memory/mex": {
     "v": 2,
-    "pushed_at": "2026-11-14T01:00:21Z",
+    "pushed_at": "2026-11-15T00:28:01Z",
     "count": 7,
     "skills": [
       {
@@ -17004,7 +16843,7 @@
   },
   "JimLiu/baocut": {
     "v": 2,
-    "pushed_at": "2026-11-12T00:37:54Z",
+    "pushed_at": "2026-11-15T02:24:37Z",
     "count": 31,
     "skills": [
       {
@@ -17135,7 +16974,7 @@
   },
   "boyang-hu/website-rebuild-skill": {
     "v": 2,
-    "pushed_at": "2026-10-12T09:30:09Z",
+    "pushed_at": "2026-11-14T17:28:32Z",
     "count": 1,
     "skills": [
       {
@@ -17428,7 +17267,7 @@
   },
   "codeaholicguy/ai-devkit": {
     "v": 2,
-    "pushed_at": "2026-11-13T20:52:30Z",
+    "pushed_at": "2026-11-15T00:05:26Z",
     "count": 31,
     "skills": [
       {
@@ -17926,7 +17765,7 @@
   },
   "antvis/AVA": {
     "v": 2,
-    "pushed_at": "2026-11-13T10:41:28Z",
+    "pushed_at": "2026-11-14T12:13:52Z",
     "count": 1,
     "skills": [
       {
@@ -18176,7 +18015,7 @@
   },
   "hyhmrright/brooks-lint": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:21:08Z",
+    "pushed_at": "2026-11-15T01:41:52Z",
     "count": 12,
     "skills": [
       {
@@ -18375,7 +18214,7 @@
   },
   "mohitagw15856/pm-claude-skills": {
     "v": 2,
-    "pushed_at": "2026-11-13T13:06:14Z",
+    "pushed_at": "2026-11-14T12:10:38Z",
     "count": 3097,
     "skills": [
       {
@@ -18542,7 +18381,7 @@
   },
   "openclaw/crabbox": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:31:00Z",
+    "pushed_at": "2026-11-15T01:50:23Z",
     "count": 5,
     "skills": [
       {
@@ -18813,7 +18652,9 @@
     ]
   },
   "michaelshimeles/rstack": {
+    "v": 2,
     "pushed_at": "2026-11-05T15:04:32Z",
+    "count": 7,
     "skills": [
       {
         "path": "before-and-after/SKILL.md",
@@ -18843,8 +18684,7 @@
         "path": "unslop/SKILL.md",
         "name": "unslop"
       }
-    ],
-    "count": 7
+    ]
   },
   "nucliweb/webperf-snippets": {
     "pushed_at": "2026-11-11T17:29:43Z",
@@ -18926,7 +18766,7 @@
   },
   "nexu-io/openmotion": {
     "v": 2,
-    "pushed_at": "2026-11-13T16:57:30Z",
+    "pushed_at": "2026-11-15T02:43:28Z",
     "count": 11,
     "skills": [
       {
@@ -19181,7 +19021,7 @@
   },
   "Pinvou/pinvou-agent": {
     "v": 2,
-    "pushed_at": "2026-11-14T02:00:03Z",
+    "pushed_at": "2026-11-15T02:30:18Z",
     "count": 36,
     "skills": [
       {
@@ -19434,6 +19274,52 @@
       {
         "path": "skills/motion-director/SKILL.md",
         "name": "motion-director"
+      }
+    ]
+  },
+  "obsidianmd/obsidian-skills": {
+    "v": 2,
+    "pushed_at": "2026-11-11T16:12:33Z",
+    "count": 7,
+    "skills": [
+      {
+        "path": "plugins/obsidian/skills/defuddle/SKILL.md",
+        "name": "defuddle"
+      },
+      {
+        "path": "plugins/obsidian/skills/json-canvas/SKILL.md",
+        "name": "json-canvas"
+      },
+      {
+        "path": "plugins/obsidian/skills/knap/SKILL.md",
+        "name": "knap"
+      },
+      {
+        "path": "plugins/obsidian/skills/obsidian-bases/SKILL.md",
+        "name": "obsidian-bases"
+      },
+      {
+        "path": "plugins/obsidian/skills/obsidian-cli/SKILL.md",
+        "name": "obsidian-cli"
+      },
+      {
+        "path": "plugins/obsidian/skills/obsidian-headless/SKILL.md",
+        "name": "obsidian-headless"
+      },
+      {
+        "path": "plugins/obsidian/skills/obsidian-markdown/SKILL.md",
+        "name": "obsidian-markdown"
+      }
+    ]
+  },
+  "liangdabiao/ecom-details-image": {
+    "v": 2,
+    "pushed_at": "2026-11-14T08:23:08Z",
+    "count": 1,
+    "skills": [
+      {
+        "path": "SKILL.md",
+        "name": "ecom-details-image"
       }
     ]
   }
