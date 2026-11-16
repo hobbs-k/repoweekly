@@ -15,16 +15,26 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 export async function openBrowser() {
   const bin = CANDIDATES.find((p) => fs.existsSync(p));
   if (!bin) throw new Error('no Chrome found, set CHROME_PATH');
-  const port = 9300 + Math.floor(Math.random() * 500);
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'rw-chrome-'));
-  const proc = spawn(bin, ['--headless=new', '--no-sandbox', '--disable-gpu', '--hide-scrollbars', `--remote-debugging-port=${port}`, `--user-data-dir=${profile}`, 'about:blank'], { stdio: 'ignore' });
+  // Port 0 lets Chrome pick a free port; it prints "DevTools listening on ws://127.0.0.1:PORT/..." when ready.
+  const proc = spawn(bin, ['--headless=new', '--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage', '--hide-scrollbars', '--remote-debugging-port=0', `--user-data-dir=${profile}`, 'about:blank'], { stdio: ['ignore', 'ignore', 'pipe'] });
+  let errText = '';
+  const port = await new Promise((ok, fail) => {
+    const timer = setTimeout(() => fail(new Error(`Chrome did not start in 30s: ${errText.slice(-300)}`)), 30000);
+    proc.stderr.on('data', (d) => {
+      errText += d;
+      const m = /DevTools listening on ws:\/\/[^:]+:(\d+)\//.exec(errText);
+      if (m) { clearTimeout(timer); ok(m[1]); }
+    });
+    proc.on('exit', (code) => { clearTimeout(timer); fail(new Error(`Chrome exited (${code}): ${errText.slice(-300)}`)); });
+  }).catch((err) => { proc.kill(); throw err; });
 
   let target;
   for (let i = 0; i < 50 && !target; i++) {
-    await sleep(200);
     try { target = (await (await fetch(`http://127.0.0.1:${port}/json/list`)).json()).find((t) => t.type === 'page'); } catch { /* not up yet */ }
+    if (!target) await sleep(200);
   }
-  if (!target) { proc.kill(); throw new Error('Chrome did not start'); }
+  if (!target) { proc.kill(); throw new Error('Chrome started but has no page'); }
 
   const ws = new WebSocket(target.webSocketDebuggerUrl);
   await new Promise((ok, fail) => { ws.onopen = ok; ws.onerror = fail; });
