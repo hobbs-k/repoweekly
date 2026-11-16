@@ -1,0 +1,19 @@
+{
+  "readme_hash": "086e7f6d6c8ce0d8595c3a9617088a98f4bf072c",
+  "generated": "2026-11-16T05:27:29.964Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Sure is a community-maintained fork of the abandoned Maybe Finance personal finance app. It can be self-hosted with Docker and accessed via web browser, macOS desktop app, mobile app, API clients, and LLM agents.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "People who want a self-hosted personal finance app and developers interested in contributing to a community-driven finance platform.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "personal-finance",
+      "self-hosted",
+      "ruby",
+      "community-fork",
+      "docker"
+    ]
+  }
+}

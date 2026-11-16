@@ -1,0 +1,48 @@
+{
+  "week": "2026-W46",
+  "full_name": "meta/astryx",
+  "generated": "2026-11-16T05:29:49.388Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "overview": "Astryx is an open-source design system from Meta with 150+ accessible React components, theming, dark mode, templates, and a CLI. It runs on React 19+ and StyleX but does not require a build plugin. Learners can study a large-scale component library built for both human developers and AI assistants.",
+  "how_to_start": [
+    "Install React 19 or later as a peer dependency.",
+    "Run npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex and npm install -D @astryxdesign/cli (or pnpm/yarn equivalents).",
+    "Optionally install the CLI globally with npm i -g @astryxdesign/cli for cross-project use.",
+    "Add a package.json script: \"astryx\": \"node node_modules/@astryxdesign/cli/clients/cli/bin/astryx.mjs\".",
+    "Follow the quick-start guide in packages/core/README.md for CSS imports, theme provider setup, and framework-specific steps (Next.js, Tailwind, Vite, CDN)."
+  ],
+  "read_these": [
+    {
+      "what": "packages/core/README.md quick-start section",
+      "why": "Shows the minimal CSS imports and theme provider setup for any project."
+    },
+    {
+      "what": "Docs site at astryx.atmeta.com",
+      "why": "Full component reference, theming guide, and API documentation."
+    },
+    {
+      "what": "Storybook at astryx.atmeta.com/storybook/",
+      "why": "Interactive component examples and playground for learning component props and variants."
+    },
+    {
+      "what": "Sandbox at astryx.atmeta.com/sandbox/",
+      "why": "Live editor to experiment with components without local setup."
+    },
+    {
+      "what": "Contributing wiki at github.com/meta/astryx/wiki/Contributing",
+      "why": "Explains contribution workflow, coding standards, and how to propose changes."
+    }
+  ],
+  "first_contributions": [
+    "Improve documentation examples in packages/core/README.md or package READMEs.",
+    "Add or update component stories in Storybook for better coverage.",
+    "Fix small TypeScript type issues or add missing JSDoc comments in component source.",
+    "Triage the single open good-first-issue labeled task when it appears."
+  ],
+  "watch_out": [
+    "Project is in Beta — APIs may change before stable release.",
+    "Requires React 19+ which may not be the default in all starter templates.",
+    "StyleX is a peer dependency; learners unfamiliar with it face an extra learning curve.",
+    "Only one open good-first-issue at the moment, so first-timer opportunities are limited."
+  ]
+}

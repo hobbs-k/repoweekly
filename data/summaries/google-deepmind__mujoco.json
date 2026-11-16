@@ -1,0 +1,19 @@
+{
+  "readme_hash": "75578e4fd88c75db58cb00e5fb52f8ec87ee7ad5",
+  "generated": "2026-11-16T05:28:22.302Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "MuJoCo is a general-purpose physics engine for simulating articulated structures with contact, used in robotics, biomechanics, graphics, and machine learning. It provides a C API, Python bindings, and interactive visualization tools.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Researchers and developers working on robotics, biomechanics, animation, or machine learning who need fast, accurate physics simulation.",
+    "beginner_friendly": true,
+    "difficulty": "medium",
+    "tags": [
+      "mujoco",
+      "physics",
+      "robotics",
+      "simulation",
+      "python"
+    ]
+  }
+}

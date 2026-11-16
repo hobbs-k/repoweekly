@@ -1,0 +1,62 @@
+{
+  "week": "2026-W46",
+  "source": "github.com/trending?since=weekly",
+  "fetched": "2026-11-16T05:26:31.675Z",
+  "repos": [
+    {
+      "full_name": "meta/astryx",
+      "stars_this_week": 13501,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "anthropics/skills",
+      "stars_this_week": 6077,
+      "language": "Python"
+    },
+    {
+      "full_name": "sherlock-project/sherlock",
+      "stars_this_week": 10412,
+      "language": "Python"
+    },
+    {
+      "full_name": "backnotprop/plannotator",
+      "stars_this_week": 1719,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "stars_this_week": 4217,
+      "language": "Rust"
+    },
+    {
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "stars_this_week": 4548,
+      "language": "Python"
+    },
+    {
+      "full_name": "we-promise/sure",
+      "stars_this_week": 4556,
+      "language": "Ruby"
+    },
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "stars_this_week": 5463,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "google/elephant-goldfish-model",
+      "stars_this_week": 5060,
+      "language": "Python"
+    },
+    {
+      "full_name": "google-deepmind/mujoco",
+      "stars_this_week": 1922,
+      "language": "C++"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "stars_this_week": 3889,
+      "language": "JavaScript"
+    }
+  ]
+}

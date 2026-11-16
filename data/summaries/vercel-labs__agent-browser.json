@@ -1,0 +1,19 @@
+{
+  "readme_hash": "f7068fe84d58d5aebdec2d457520dc7dce112391",
+  "generated": "2026-11-16T05:28:05.847Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A Rust CLI that gives AI agents a browser they can control step by step: open pages, read them as accessibility trees with element refs, and act on those refs via commands like click, fill, and snapshot.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Developers building AI agents that need to automate web browsers.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "browser-automation",
+      "ai-agents",
+      "cli",
+      "rust",
+      "cdp"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "readme_hash": "75a0aa2525884c55bc19226e485dbdfa395fc963",
+  "generated": "2026-11-16T05:26:56.527Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Astryx is an open-source design system from Meta with 150+ accessible React components, theming, dark mode, templates, and a CLI. It works with React 19+ and StyleX, and is designed for both human developers and AI assistants.",
+    "why_trending": "The project highlights being built for how teams build now — by people and AI agents together — and is currently in beta after powering 13,000+ apps internally at Meta for eight years.",
+    "who_its_for": "React developers and teams who want a fully customizable, no-lock-in design system that works with AI coding assistants.",
+    "beginner_friendly": true,
+    "difficulty": "medium",
+    "tags": [
+      "design-system",
+      "react",
+      "stylex",
+      "typescript",
+      "cli"
+    ]
+  }
+}

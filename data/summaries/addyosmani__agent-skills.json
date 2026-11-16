@@ -1,0 +1,19 @@
+{
+  "readme_hash": "8210d2f76d007e27cc373be87445f9b7cf0e2ef0",
+  "generated": "2026-11-16T05:28:15.472Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A collection of 25 production-grade engineering skills for AI coding agents that encode senior engineer workflows, quality gates, and best practices across the development lifecycle. It provides 9 slash commands (spec, plan, build, test, review, etc.) that map to development phases and work with 70+ AI agents including Claude Code, Cursor, Codex, and Copilot.",
+    "why_trending": "Growing interest in AI coding agents and the need for standardized, production-ready engineering practices that can be shared across different AI tools. The project offers a simple CLI (npx skills add) to install skills into multiple agents at once.",
+    "who_its_for": "Developers using AI coding assistants who want consistent, senior-level engineering workflows automated in their development process.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "cursor",
+      "engineering-workflows"
+    ]
+  }
+}

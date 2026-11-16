@@ -1,0 +1,19 @@
+{
+  "readme_hash": "8ee844f6b4404d3077f98bc8b13a7ffc60ff4eca",
+  "generated": "2026-11-16T05:27:08.861Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Sherlock is a command-line tool that searches for social media accounts by username across more than 400 networks. It outputs found accounts to text, CSV, or Excel files.",
+    "why_trending": "The project shows a recent version 0.16.0 in its help output and carries the hacktoberfest tag, suggesting a new release and Hacktoberfest participation drove a large star increase.",
+    "who_its_for": "Security researchers, penetration testers, OSINT practitioners, and students learning cybersecurity reconnaissance.",
+    "beginner_friendly": true,
+    "difficulty": "easy",
+    "tags": [
+      "cli",
+      "osint",
+      "cybersecurity",
+      "python",
+      "reconnaissance"
+    ]
+  }
+}

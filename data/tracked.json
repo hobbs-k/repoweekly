@@ -115,7 +115,7 @@
     },
     "anthropics/skills": {
       "first_seen": "2026-11-10",
-      "last_in_top200": "2026-11-11"
+      "last_in_top200": "2026-11-16"
     },
     "ohmyzsh/ohmyzsh": {
       "first_seen": "2026-11-10",
@@ -379,7 +379,7 @@
     },
     "sherlock-project/sherlock": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-16"
     },
     "rasbt/LLMs-from-scratch": {
       "first_seen": "2026-11-10",
@@ -831,7 +831,7 @@
     },
     "ZhuLinsen/daily_stock_analysis": {
       "first_seen": "2026-11-10",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-16"
     },
     "gorhill/uBlock": {
       "first_seen": "2026-11-10",
@@ -1479,7 +1479,7 @@
     },
     "vercel-labs/agent-browser": {
       "first_seen": "2026-11-10",
-      "last_in_top200": "2026-11-11"
+      "last_in_top200": "2026-11-16"
     },
     "pixijs/pixijs": {
       "first_seen": "2026-11-10",
@@ -8003,7 +8003,7 @@
     },
     "milind-soni/OpenMausBot": {
       "first_seen": "2026-11-10",
-      "last_in_top200": "2026-11-11"
+      "last_in_top200": "2026-11-16"
     },
     "max-sixty/worktrunk": {
       "first_seen": "2026-11-10",
@@ -9775,7 +9775,7 @@
     },
     "meta/astryx": {
       "first_seen": "2026-11-13",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-16"
     },
     "kataras/iris": {
       "first_seen": "2026-11-13",
@@ -10359,7 +10359,7 @@
     },
     "addyosmani/agent-skills": {
       "first_seen": "2026-11-15",
-      "last_in_top200": null
+      "last_in_top200": "2026-11-16"
     },
     "Anduin2017/HowToCook": {
       "first_seen": "2026-11-15",
@@ -11608,6 +11608,22 @@
     "Stormlyd/PodTide": {
       "first_seen": "2026-11-16",
       "last_in_top200": null
+    },
+    "google/elephant-goldfish-model": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": "2026-11-16"
+    },
+    "we-promise/sure": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": "2026-11-16"
+    },
+    "google-deepmind/mujoco": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": "2026-11-16"
+    },
+    "backnotprop/plannotator": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": "2026-11-16"
     }
   }
 }

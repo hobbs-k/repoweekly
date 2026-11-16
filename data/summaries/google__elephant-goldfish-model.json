@@ -1,0 +1,19 @@
+{
+  "readme_hash": "0b14a13be9497dcd9ec1618def282aa714cd59e0",
+  "generated": "2026-11-16T05:27:17.441Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "An open-source plugin for AI coding assistants (Claude Code, Codex, ChatGPT, Antigravity) that helps developers design software specifications and review them. It uses an 'Elephant' agent that holds project context to draft specs, and 'Goldfish' reviewers that examine drafts with fresh eyes to catch blind spots.",
+    "why_trending": "The project is only 63 days old but has gained over 5,000 stars this week, likely because it integrates with multiple popular AI coding agents and addresses the growing interest in spec-driven development with AI.",
+    "who_its_for": "Software developers who use AI coding assistants and want structured help with specification design and review.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "ai-agents",
+      "spec-driven-development",
+      "developer-tools",
+      "multi-agent",
+      "prompt-engineering"
+    ]
+  }
+}

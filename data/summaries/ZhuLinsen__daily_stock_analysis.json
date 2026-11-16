@@ -1,0 +1,19 @@
+{
+  "readme_hash": "a234856943dba005c6cf5c7af8fd46142d153527",
+  "generated": "2026-11-16T05:27:50.714Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "An LLM-powered system that automatically analyzes stocks from multiple markets (A-shares, Hong Kong, US, Japan, Korea, Taiwan, ETFs) daily and sends decision dashboards with scores, trends, buy/sell points, and risk alerts to channels like WeChat, Feishu, Telegram, Discord, Slack, and email.",
+    "why_trending": "The project offers free, zero-server deployment via GitHub Actions, supports many AI model providers and data sources, and has been featured on HelloGitHub and Trendshift, driving a large weekly star increase.",
+    "who_its_for": "Individual investors and developers who want automated AI-driven stock analysis reports delivered to their preferred messaging apps.",
+    "beginner_friendly": false,
+    "difficulty": "easy",
+    "tags": [
+      "stock-analysis",
+      "llm",
+      "quantitative-finance",
+      "github-actions",
+      "multi-market"
+    ]
+  }
+}

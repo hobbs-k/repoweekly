@@ -1,0 +1,428 @@
+{
+  "week": "2026-W46",
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "generated": "2026-11-16T05:26:45.083Z",
+  "growth_source": "bootstrap",
+  "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
+  "top": [
+    {
+      "rank": 1,
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "topics": [],
+      "stars_total": 28968,
+      "stars_gained": 13501,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-16",
+        "open_issues": 717,
+        "contributors": 139,
+        "good_first_issues": 1,
+        "age_days": 310
+      },
+      "summary": {
+        "what_it_is": "Astryx is an open-source design system from Meta with 150+ accessible React components, theming, dark mode, templates, and a CLI. It works with React 19+ and StyleX, and is designed for both human developers and AI assistants.",
+        "why_trending": "The project highlights being built for how teams build now — by people and AI agents together — and is currently in beta after powering 13,000+ apps internally at Meta for eight years.",
+        "who_its_for": "React developers and teams who want a fully customizable, no-lock-in design system that works with AI coding assistants.",
+        "beginner_friendly": true,
+        "difficulty": "medium",
+        "tags": [
+          "design-system",
+          "react",
+          "stylex",
+          "typescript",
+          "cli"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "avatar": "https://avatars.githubusercontent.com/u/48293496?v=4",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "stars_total": 112554,
+      "stars_gained": 10412,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-16",
+        "open_issues": 414,
+        "contributors": 315,
+        "good_first_issues": 1,
+        "age_days": 2883
+      },
+      "summary": {
+        "what_it_is": "Sherlock is a command-line tool that searches for social media accounts by username across more than 400 networks. It outputs found accounts to text, CSV, or Excel files.",
+        "why_trending": "The project shows a recent version 0.16.0 in its help output and carries the hacktoberfest tag, suggesting a new release and Hacktoberfest participation drove a large star increase.",
+        "who_its_for": "Security researchers, penetration testers, OSINT practitioners, and students learning cybersecurity reconnaissance.",
+        "beginner_friendly": true,
+        "difficulty": "easy",
+        "tags": [
+          "cli",
+          "osint",
+          "cybersecurity",
+          "python",
+          "reconnaissance"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "stars_total": 195417,
+      "stars_gained": 6077,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": null,
+        "last_push": "2026-11-14",
+        "open_issues": 1547,
+        "contributors": 17,
+        "good_first_issues": 0,
+        "age_days": 419
+      },
+      "summary": {
+        "what_it_is": "This repository contains Anthropic's implementation of skills for Claude. Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks, ranging from creative applications to technical tasks and enterprise workflows.",
+        "why_trending": "The repository includes production document skills that power Claude's document capabilities (create files feature) and are now open sourced under Apache 2.0. The Agent Skills standard and integration with Claude Code, Claude.ai, and the API likely drive interest.",
+        "who_its_for": "Developers who want to create custom skills for Claude or understand patterns for building skills, and users of Claude Code, Claude.ai, and the Claude API.",
+        "beginner_friendly": false,
+        "difficulty": "easy",
+        "tags": [
+          "agent-skills",
+          "claude",
+          "anthropic",
+          "ai-agents",
+          "skills"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "avatar": "https://avatars.githubusercontent.com/u/46266943?v=4",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "stars_total": 23490,
+      "stars_gained": 5463,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-16",
+        "open_issues": 1102,
+        "contributors": 288,
+        "good_first_issues": 0,
+        "age_days": 96
+      },
+      "summary": {
+        "what_it_is": "OpenMausBot is a cross-platform desktop chat app where each contact is an AI agent (Claude, Codex, or Grok CLI) running locally on your machine. Agents have their own personalities, models, and can use a cloud desktop, local VM, or your computer to perform tasks.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "Developers and power users who want a local-first, self-hosted multi-agent chat interface using their existing CLI subscriptions.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "ai-agents",
+          "electron",
+          "typescript",
+          "self-hosted",
+          "docker"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "full_name": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "codex-plugin",
+        "coding-agents",
+        "context-engineering",
+        "developer-tools",
+        "gemini",
+        "llm",
+        "multi-agent",
+        "prompt-engineering",
+        "spec-driven-development"
+      ],
+      "stars_total": 19911,
+      "stars_gained": 5060,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-15",
+        "open_issues": 114,
+        "contributors": 37,
+        "good_first_issues": 0,
+        "age_days": 63
+      },
+      "summary": {
+        "what_it_is": "An open-source plugin for AI coding assistants (Claude Code, Codex, ChatGPT, Antigravity) that helps developers design software specifications and review them. It uses an 'Elephant' agent that holds project context to draft specs, and 'Goldfish' reviewers that examine drafts with fresh eyes to catch blind spots.",
+        "why_trending": "The project is only 63 days old but has gained over 5,000 stars this week, likely because it integrates with multiple popular AI coding agents and addresses the growing interest in spec-driven development with AI.",
+        "who_its_for": "Software developers who use AI coding assistants and want structured help with specification design and review.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "ai-agents",
+          "spec-driven-development",
+          "developer-tools",
+          "multi-agent",
+          "prompt-engineering"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "avatar": "https://avatars.githubusercontent.com/u/222344567?v=4",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "topics": [],
+      "stars_total": 15776,
+      "stars_gained": 4556,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-16",
+        "open_issues": 950,
+        "contributors": 463,
+        "good_first_issues": 0,
+        "age_days": 480
+      },
+      "summary": {
+        "what_it_is": "Sure is a community-maintained fork of the abandoned Maybe Finance personal finance app. It can be self-hosted with Docker and accessed via web browser, macOS desktop app, mobile app, API clients, and LLM agents.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "People who want a self-hosted personal finance app and developers interested in contributing to a community-driven finance platform.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "personal-finance",
+          "self-hosted",
+          "ruby",
+          "community-fork",
+          "docker"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "stars_total": 72544,
+      "stars_gained": 4548,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-15",
+        "open_issues": 36,
+        "contributors": 146,
+        "good_first_issues": 0,
+        "age_days": 309
+      },
+      "summary": {
+        "what_it_is": "An LLM-powered system that automatically analyzes stocks from multiple markets (A-shares, Hong Kong, US, Japan, Korea, Taiwan, ETFs) daily and sends decision dashboards with scores, trends, buy/sell points, and risk alerts to channels like WeChat, Feishu, Telegram, Discord, Slack, and email.",
+        "why_trending": "The project offers free, zero-server deployment via GitHub Actions, supports many AI model providers and data sources, and has been featured on HelloGitHub and Trendshift, driving a large weekly star increase.",
+        "who_its_for": "Individual investors and developers who want automated AI-driven stock analysis reports delivered to their preferred messaging apps.",
+        "beginner_friendly": false,
+        "difficulty": "easy",
+        "tags": [
+          "stock-analysis",
+          "llm",
+          "quantitative-finance",
+          "github-actions",
+          "multi-market"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "topics": [],
+      "stars_total": 51674,
+      "stars_gained": 4217,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-15",
+        "open_issues": 588,
+        "contributors": 121,
+        "good_first_issues": 0,
+        "age_days": 308
+      },
+      "summary": {
+        "what_it_is": "A Rust CLI that gives AI agents a browser they can control step by step: open pages, read them as accessibility trees with element refs, and act on those refs via commands like click, fill, and snapshot.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "Developers building AI agents that need to automate web browsers.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "browser-automation",
+          "ai-agents",
+          "cli",
+          "rust",
+          "cdp"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "stars_total": 117979,
+      "stars_gained": 3889,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-14",
+        "open_issues": 129,
+        "contributors": 101,
+        "good_first_issues": 0,
+        "age_days": 273
+      },
+      "summary": {
+        "what_it_is": "A collection of 25 production-grade engineering skills for AI coding agents that encode senior engineer workflows, quality gates, and best practices across the development lifecycle. It provides 9 slash commands (spec, plan, build, test, review, etc.) that map to development phases and work with 70+ AI agents including Claude Code, Cursor, Codex, and Copilot.",
+        "why_trending": "Growing interest in AI coding agents and the need for standardized, production-ready engineering practices that can be shared across different AI tools. The project offers a simple CLI (npx skills add) to install skills into multiple agents at once.",
+        "who_its_for": "Developers using AI coding assistants who want consistent, senior-level engineering workflows automated in their development process.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "agent-skills",
+          "ai-agents",
+          "claude-code",
+          "cursor",
+          "engineering-workflows"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "avatar": "https://avatars.githubusercontent.com/u/8596759?v=4",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "topics": [
+        "mujoco",
+        "physics",
+        "robotics"
+      ],
+      "stars_total": 18100,
+      "stars_gained": 1922,
+      "daily_gains": [],
+      "spike": null,
+      "signals": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-15",
+        "open_issues": 417,
+        "contributors": 185,
+        "good_first_issues": 2,
+        "age_days": 1906
+      },
+      "summary": {
+        "what_it_is": "MuJoCo is a general-purpose physics engine for simulating articulated structures with contact, used in robotics, biomechanics, graphics, and machine learning. It provides a C API, Python bindings, and interactive visualization tools.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "Researchers and developers working on robotics, biomechanics, animation, or machine learning who need fast, accurate physics simulation.",
+        "beginner_friendly": true,
+        "difficulty": "medium",
+        "tags": [
+          "mujoco",
+          "physics",
+          "robotics",
+          "simulation",
+          "python"
+        ]
+      }
+    }
+  ],
+  "gems": []
+}
