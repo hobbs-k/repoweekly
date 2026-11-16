@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "repos": {
     "codecrafters-io/build-your-own-x": {
       "first_seen": "2026-11-10",
@@ -11219,6 +11219,394 @@
     },
     "Beachnuconceal/IPTV_Player2.0": {
       "first_seen": "2026-11-15",
+      "last_in_top200": null
+    },
+    "shareAI-lab/learn-claude-code": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "AppFlowy-IO/AppFlowy": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "colbymchenry/codegraph": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "soimort/you-get": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WerWolv/ImHex": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "azl397985856/leetcode": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "v2ray/v2ray-core": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "PKUanonym/REKCARC-TSC-UHT": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "SillyTavern/SillyTavern": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Lightning-AI/pytorch-lightning": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "tobi/qmd": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "forthespada/CS-Books": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Fosowl/agenticSeek": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "dream-num/univer": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "apache/incubator-seata": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "AhmadHassan-BTed/RainGen-RainGenerator": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "byted-technologies/github_": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "YellowLaborerMarket/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WindGatorRise37/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WyrmClimberManacle/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "TurtleReside/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "weldbladesmithwharf/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WindowStaffGate11/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WerewolfEmuHub/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Violetnyudress/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "TrooperFilter/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Watchlespeed/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "wisemeadowlarkspike/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "VortexHostFeel/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "TypeTyrantScheme/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WingDataVacuum/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WireProvostPucker/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WestLocksmithSpout/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "VisionWormStudio/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WharfBoulderColander/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "weightcashiercupola/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Visionbeyondtrack/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "WinnerSpecialist/Gemini-Config-Checker-": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "haziqahmedqasmi/PeakCut": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "TensaikunYT/Videohub": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "n4ze3m/tiny-voca": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "cam-watts-2007/jetbrains-intellij-idea-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "brettcole-byte56/microsoft-excel-analyse-it-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "cambryant2004/microsoft-excel-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "cam-gardner/microsoft-office-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "andy-wells-73/microsoft-outlook-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "avasnow-makes78/microsoft-office-ultimate-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "andy-frost-2006/microsoft-visio-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "alicebrown323/pro-tools-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "alice-white-73/microsoft-project-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "azure-fossil-maker/serum-2-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "calroberts974/microsoft-excel-vcardconverter-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "angela-frost/microsoft-office-pro-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "carla-butler-46/jetbrains-pycharm-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "carla-marsh-29/discord-nitro-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "carlos-lane-09/discord-nitro-premium-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "charlie15-gardner/affinity-designer-2-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "cam-young-28/discord-nitro-pro-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "kociden/sakurai-skill": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "cathycollins-io08/ableton-live-11-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "carla-foster/dynamo-for-revit-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "cindy-murray-39/acrobat-dc-desktop": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "simplexai-labs/linger": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "yetanotherbrowser/yab": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "kairothq/claude-photo-sorter": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "StormBrawlerSack/legwork-osint-ai-investigator": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "mit-han-lab/pear": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "shitouxiaoge-commits/CFAPEX": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "youneedhelp111/erase_me": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "oneamendez/crate-ios": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "KenKaiii/Roamies": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "nickvasilescu/bot-hq": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "wavedudenext/WaveDudeNext": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "YUsaltyfish/dsh-onebot-qq": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "DeepanshuMishraa/leaf": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "ArcheOne-AI/RoboScript": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "klad-app/klad": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Forward-Future/scarlet": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "stevejiang0509/ex3301-t0-root-ssh-research": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "ksjhk/api": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "OpenFisherCommunity/rf4_server_simulator": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "pixl27/ProjectReLink": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "BigPizzaV3/ClaudeMom": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "GiroCrab/GiroCrab": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "huggingface/safeagents": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "nobcdz/CarUp": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "ouncebrew/kaihen": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "ItzMeShadow999/BadgeMaxxer": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "MZULALI/xj-scanner": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Anarcadia/chuanban-antigravity-theme-patch": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "ChetasLua/moss-keeper": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "phamcucpqrwbbnposhmn96-ui/KSNStudy": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "dqhieu/Silica": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "bookleme/bookleme": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "openrobokit/robokit": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Konata9/inkstone": {
+      "first_seen": "2026-11-16",
+      "last_in_top200": null
+    },
+    "Stormlyd/PodTide": {
+      "first_seen": "2026-11-16",
       "last_in_top200": null
     }
   }
