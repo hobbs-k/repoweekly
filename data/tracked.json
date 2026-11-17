@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "repos": {
     "codecrafters-io/build-your-own-x": {
       "first_seen": "2026-11-10",
@@ -11624,6 +11624,198 @@
     "backnotprop/plannotator": {
       "first_seen": "2026-11-16",
       "last_in_top200": "2026-11-16"
+    },
+    "tensorflow/models": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "jquery/jquery": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "DataTalksClub/data-engineering-zoomcamp": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "musistudio/claude-code-router": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "TelegramMessenger/Telegram-Android": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "onlook-dev/onlook": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "tayllan/awesome-algorithms": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "RustXNG/RustXNG": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Immortal-Protocols/lastbook": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "garycaogan/gary-ai-live-avatar": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "CzzzzzzJ/mdldm-maitian": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "joshpuckett/allo": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "ysunyang4/Nexus": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "krezio/roomy": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Rolandjg/fableflight": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "TixXin/Fuyu": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Kristian8606/esp32-airplay2-surround": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "pmndre/pine": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Xin-YuXiao/Awesome-AI-for-Astronomy": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "inotbarnacle/ID6_apps_prerelease": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Gosu-x/multimodal-threat-dataset": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "beiwocaishijia/gezhi-sheets": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "ChazY11/medradar": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "igawa6/peanuts-native": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "dev-Armaan/satellites": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "egoist/asuka": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "zephyr4123/snug": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "cutetailbud/FastAIToken": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "google-deepmind/code-verification": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "kate-land/ga100vfi": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "KarmenLoop/koder-cli": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Avril-Exoplanet/Avril": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "sakurakingfifth-debug/PUIInstaller": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "lmdk321321/GPT-Share-Pool": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Ciao1019/ArcMD": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Phantomstawaken/rob-run-advanced-cheat": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "lemonadesaltbagel/airlock": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "CallMeGuLab/dsh-purge-safe": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "Lightyoclimb/Fortnite-Pirate-Shop-Access-private-cheat": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "xqpsec/dsh-jailbreak": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "LilycleHeart/qqnt-liuli-theme": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "gabrielbuzziv/emissor-nfse-nacional": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "andrewnakas/gtav-recomp": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "paul-nameless/agweb": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "memoryswordsmanlaud/fieldkit-awesome-osint-list": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "nearaura/OnmyojiAutoScript": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "roan-maverick/tradingview-indicator-for-ai-agents": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
+    },
+    "francisreboucas/constructcraft": {
+      "first_seen": "2026-11-17",
+      "last_in_top200": null
     }
   }
 }
