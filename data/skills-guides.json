@@ -3057,8 +3057,8 @@
   },
   "Pinvou/pinvou-agent": {
     "v": 4,
-    "pushed_at": "2026-11-20T02:49:20Z",
-    "sha": "9d28e87903c97b23ed94b2f478541642f46a44f6",
+    "pushed_at": "2026-11-20T18:15:29Z",
+    "sha": "767ec9f52473ad69900065aebf9f4a455fec7a99",
     "compat": {
       "claude": {
         "status": "ready",
@@ -3125,7 +3125,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs visual-design. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent claude-code --scope user --pin 9d28e87903c97b23ed94b2f478541642f46a44f6"
+            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent claude-code --scope user --pin 767ec9f52473ad69900065aebf9f4a455fec7a99"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3135,7 +3135,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 9d28e87903c97b23ed94b2f478541642f46a44f6\nmkdir -p ~/.claude/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.claude/skills/visual-design"
+            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 767ec9f52473ad69900065aebf9f4a455fec7a99\nmkdir -p ~/.claude/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.claude/skills/visual-design"
           }
         ]
       },
@@ -3146,7 +3146,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs visual-design. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent codex --scope user --pin 9d28e87903c97b23ed94b2f478541642f46a44f6"
+            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent codex --scope user --pin 767ec9f52473ad69900065aebf9f4a455fec7a99"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3156,7 +3156,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 9d28e87903c97b23ed94b2f478541642f46a44f6\nmkdir -p ~/.agents/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.agents/skills/visual-design"
+            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 767ec9f52473ad69900065aebf9f4a455fec7a99\nmkdir -p ~/.agents/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.agents/skills/visual-design"
           }
         ]
       },
@@ -3167,7 +3167,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs visual-design. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent cursor --scope user --pin 9d28e87903c97b23ed94b2f478541642f46a44f6"
+            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent cursor --scope user --pin 767ec9f52473ad69900065aebf9f4a455fec7a99"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3177,7 +3177,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 9d28e87903c97b23ed94b2f478541642f46a44f6\nmkdir -p ~/.cursor/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.cursor/skills/visual-design"
+            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 767ec9f52473ad69900065aebf9f4a455fec7a99\nmkdir -p ~/.cursor/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.cursor/skills/visual-design"
           }
         ]
       },
@@ -3188,7 +3188,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs visual-design. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent github-copilot --scope user --pin 9d28e87903c97b23ed94b2f478541642f46a44f6"
+            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent github-copilot --scope user --pin 767ec9f52473ad69900065aebf9f4a455fec7a99"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3198,7 +3198,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 9d28e87903c97b23ed94b2f478541642f46a44f6\nmkdir -p ~/.copilot/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.copilot/skills/visual-design"
+            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 767ec9f52473ad69900065aebf9f4a455fec7a99\nmkdir -p ~/.copilot/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.copilot/skills/visual-design"
           }
         ]
       },
@@ -3214,7 +3214,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs visual-design. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent gemini-cli --scope user --pin 9d28e87903c97b23ed94b2f478541642f46a44f6"
+            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent gemini-cli --scope user --pin 767ec9f52473ad69900065aebf9f4a455fec7a99"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3224,7 +3224,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 9d28e87903c97b23ed94b2f478541642f46a44f6\nmkdir -p ~/.gemini/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.gemini/skills/visual-design"
+            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 767ec9f52473ad69900065aebf9f4a455fec7a99\nmkdir -p ~/.gemini/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.gemini/skills/visual-design"
           }
         ]
       },
@@ -3235,7 +3235,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs visual-design. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent opencode --scope user --pin 9d28e87903c97b23ed94b2f478541642f46a44f6"
+            "code": "gh skill install Pinvou/pinvou-agent visual-design --agent opencode --scope user --pin 767ec9f52473ad69900065aebf9f4a455fec7a99"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3245,7 +3245,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 9d28e87903c97b23ed94b2f478541642f46a44f6\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.config/opencode/skills/visual-design"
+            "code": "git clone https://github.com/Pinvou/pinvou-agent.git skill-src\ngit -C skill-src checkout 767ec9f52473ad69900065aebf9f4a455fec7a99\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/pinvou3-app/src-tauri/resources/common/bundle/builtin-skills/visual-design ~/.config/opencode/skills/visual-design"
           }
         ]
       },
@@ -3277,8 +3277,8 @@
   },
   "Gentleman-Programming/gentle-shell": {
     "v": 4,
-    "pushed_at": "2026-11-19T13:09:22Z",
-    "sha": "21c73c1349905610646dac03564e474493c37255",
+    "pushed_at": "2026-11-21T01:40:04Z",
+    "sha": "ccdcf3b1079e1b39e02421338773e50ce748ad2a",
     "compat": {
       "claude": {
         "status": "ready",
@@ -3344,7 +3344,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent claude-code --scope user --pin 21c73c1349905610646dac03564e474493c37255"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent claude-code --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3354,7 +3354,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 21c73c1349905610646dac03564e474493c37255\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/branch-pr ~/.claude/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/branch-pr ~/.claude/skills/branch-pr"
           }
         ]
       },
@@ -3365,7 +3365,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent codex --scope user --pin 21c73c1349905610646dac03564e474493c37255"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent codex --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3375,7 +3375,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 21c73c1349905610646dac03564e474493c37255\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/branch-pr ~/.agents/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/branch-pr ~/.agents/skills/branch-pr"
           }
         ]
       },
@@ -3386,7 +3386,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent cursor --scope user --pin 21c73c1349905610646dac03564e474493c37255"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent cursor --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3396,7 +3396,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 21c73c1349905610646dac03564e474493c37255\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/branch-pr ~/.cursor/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/branch-pr ~/.cursor/skills/branch-pr"
           }
         ]
       },
@@ -3407,7 +3407,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent github-copilot --scope user --pin 21c73c1349905610646dac03564e474493c37255"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent github-copilot --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3417,7 +3417,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 21c73c1349905610646dac03564e474493c37255\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/branch-pr ~/.copilot/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/branch-pr ~/.copilot/skills/branch-pr"
           }
         ]
       },
@@ -3433,7 +3433,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent gemini-cli --scope user --pin 21c73c1349905610646dac03564e474493c37255"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent gemini-cli --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3443,7 +3443,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 21c73c1349905610646dac03564e474493c37255\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/branch-pr ~/.gemini/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/branch-pr ~/.gemini/skills/branch-pr"
           }
         ]
       },
@@ -3454,7 +3454,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent opencode --scope user --pin 21c73c1349905610646dac03564e474493c37255"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent opencode --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3464,7 +3464,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 21c73c1349905610646dac03564e474493c37255\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/branch-pr ~/.config/opencode/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/branch-pr ~/.config/opencode/skills/branch-pr"
           }
         ]
       },
@@ -4470,8 +4470,8 @@
   },
   "backnotprop/pstack": {
     "v": 4,
-    "pushed_at": "2026-11-19T20:16:08Z",
-    "sha": "4a4f41c46c67a006658ac17cef2d092593f6b26a",
+    "pushed_at": "2026-11-20T22:00:45Z",
+    "sha": "c3464c11c60b1352d5e8f5f0428a3a6943837568",
     "compat": {
       "claude": {
         "status": "ready",
@@ -4515,7 +4515,7 @@
       }
     },
     "files": {
-      "total": 521,
+      "total": 523,
       "scripts": [
         "skills/poteto-mode/scripts/bootstrap.ts",
         "skills/poteto-mode/scripts/watch-pr/cli.test.ts",
@@ -4526,7 +4526,7 @@
         "skills/poteto-mode/scripts/watch-pr/policy.test.ts",
         "skills/poteto-mode/scripts/watch-pr/policy.ts"
       ],
-      "script_count": 62
+      "script_count": 64
     },
     "repo": "pstack",
     "skill": "reproduce-and-fix-issues",
@@ -4538,7 +4538,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs reproduce-and-fix-issues. Use another skill name from the list to install a different one.",
-            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent claude-code --scope user --pin 4a4f41c46c67a006658ac17cef2d092593f6b26a"
+            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent claude-code --scope user --pin c3464c11c60b1352d5e8f5f0428a3a6943837568"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -4548,7 +4548,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout 4a4f41c46c67a006658ac17cef2d092593f6b26a\nmkdir -p ~/.claude/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.claude/skills/reproduce-and-fix-issues"
+            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout c3464c11c60b1352d5e8f5f0428a3a6943837568\nmkdir -p ~/.claude/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.claude/skills/reproduce-and-fix-issues"
           }
         ]
       },
@@ -4559,7 +4559,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs reproduce-and-fix-issues. Use another skill name from the list to install a different one.",
-            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent codex --scope user --pin 4a4f41c46c67a006658ac17cef2d092593f6b26a"
+            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent codex --scope user --pin c3464c11c60b1352d5e8f5f0428a3a6943837568"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -4569,7 +4569,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout 4a4f41c46c67a006658ac17cef2d092593f6b26a\nmkdir -p ~/.agents/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.agents/skills/reproduce-and-fix-issues"
+            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout c3464c11c60b1352d5e8f5f0428a3a6943837568\nmkdir -p ~/.agents/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.agents/skills/reproduce-and-fix-issues"
           }
         ]
       },
@@ -4580,7 +4580,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs reproduce-and-fix-issues. Use another skill name from the list to install a different one.",
-            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent cursor --scope user --pin 4a4f41c46c67a006658ac17cef2d092593f6b26a"
+            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent cursor --scope user --pin c3464c11c60b1352d5e8f5f0428a3a6943837568"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -4590,7 +4590,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout 4a4f41c46c67a006658ac17cef2d092593f6b26a\nmkdir -p ~/.cursor/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.cursor/skills/reproduce-and-fix-issues"
+            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout c3464c11c60b1352d5e8f5f0428a3a6943837568\nmkdir -p ~/.cursor/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.cursor/skills/reproduce-and-fix-issues"
           }
         ]
       },
@@ -4601,7 +4601,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs reproduce-and-fix-issues. Use another skill name from the list to install a different one.",
-            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent github-copilot --scope user --pin 4a4f41c46c67a006658ac17cef2d092593f6b26a"
+            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent github-copilot --scope user --pin c3464c11c60b1352d5e8f5f0428a3a6943837568"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -4611,7 +4611,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout 4a4f41c46c67a006658ac17cef2d092593f6b26a\nmkdir -p ~/.copilot/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.copilot/skills/reproduce-and-fix-issues"
+            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout c3464c11c60b1352d5e8f5f0428a3a6943837568\nmkdir -p ~/.copilot/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.copilot/skills/reproduce-and-fix-issues"
           }
         ]
       },
@@ -4627,7 +4627,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs reproduce-and-fix-issues. Use another skill name from the list to install a different one.",
-            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent gemini-cli --scope user --pin 4a4f41c46c67a006658ac17cef2d092593f6b26a"
+            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent gemini-cli --scope user --pin c3464c11c60b1352d5e8f5f0428a3a6943837568"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -4637,7 +4637,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout 4a4f41c46c67a006658ac17cef2d092593f6b26a\nmkdir -p ~/.gemini/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.gemini/skills/reproduce-and-fix-issues"
+            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout c3464c11c60b1352d5e8f5f0428a3a6943837568\nmkdir -p ~/.gemini/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.gemini/skills/reproduce-and-fix-issues"
           }
         ]
       },
@@ -4648,7 +4648,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs reproduce-and-fix-issues. Use another skill name from the list to install a different one.",
-            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent opencode --scope user --pin 4a4f41c46c67a006658ac17cef2d092593f6b26a"
+            "code": "gh skill install backnotprop/pstack reproduce-and-fix-issues --agent opencode --scope user --pin c3464c11c60b1352d5e8f5f0428a3a6943837568"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -4658,7 +4658,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout 4a4f41c46c67a006658ac17cef2d092593f6b26a\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.config/opencode/skills/reproduce-and-fix-issues"
+            "code": "git clone https://github.com/backnotprop/pstack.git skill-src\ngit -C skill-src checkout c3464c11c60b1352d5e8f5f0428a3a6943837568\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/automations/benny/skills/reproduce-and-fix-issues ~/.config/opencode/skills/reproduce-and-fix-issues"
           }
         ]
       },

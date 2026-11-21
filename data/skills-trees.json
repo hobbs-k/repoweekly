@@ -1,7 +1,7 @@
 {
   "morluto/rea": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:49:05Z",
+    "pushed_at": "2026-11-21T02:46:57Z",
     "count": 6,
     "skills": [
       {
@@ -174,7 +174,7 @@
   },
   "thedotmack/claude-mem": {
     "v": 2,
-    "pushed_at": "2026-11-19T18:36:00Z",
+    "pushed_at": "2026-11-20T19:20:08Z",
     "count": 47,
     "skills": [
       {
@@ -463,7 +463,7 @@
   },
   "paperclipai/paperclip": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:22:51Z",
+    "pushed_at": "2026-11-21T02:45:45Z",
     "count": 83,
     "skills": [
       {
@@ -630,7 +630,7 @@
   },
   "pbakaus/impeccable": {
     "v": 2,
-    "pushed_at": "2026-11-19T17:42:37Z",
+    "pushed_at": "2026-11-21T01:57:22Z",
     "count": 26,
     "skills": [
       {
@@ -741,7 +741,7 @@
   },
   "nexu-io/open-design": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:09:18Z",
+    "pushed_at": "2026-11-21T01:09:33Z",
     "count": 562,
     "skills": [
       {
@@ -908,7 +908,7 @@
   },
   "tt-a1i/archify": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:24:18Z",
+    "pushed_at": "2026-11-21T01:43:46Z",
     "count": 5,
     "skills": [
       {
@@ -978,7 +978,7 @@
   },
   "career-ops-hq/career-ops": {
     "v": 2,
-    "pushed_at": "2026-11-19T22:48:24Z",
+    "pushed_at": "2026-11-21T01:33:57Z",
     "count": 11,
     "skills": [
       {
@@ -1196,7 +1196,7 @@
   },
   "code-yeongyu/oh-my-openagent": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:22:14Z",
+    "pushed_at": "2026-11-21T02:47:40Z",
     "count": 62,
     "skills": [
       {
@@ -1363,7 +1363,7 @@
   },
   "shanraisshan/claude-code-best-practice": {
     "v": 2,
-    "pushed_at": "2026-11-19T06:33:41Z",
+    "pushed_at": "2026-11-20T06:33:19Z",
     "count": 9,
     "skills": [
       {
@@ -1610,7 +1610,7 @@
   },
   "hesreallyhim/awesome-claude-code": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:15:40Z",
+    "pushed_at": "2026-11-21T00:17:05Z",
     "count": 0,
     "skills": []
   },
@@ -1789,7 +1789,7 @@
   },
   "CherryHQ/cherry-studio": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:48:10Z",
+    "pushed_at": "2026-11-21T01:10:06Z",
     "count": 42,
     "skills": [
       {
@@ -1956,7 +1956,7 @@
   },
   "alibaba/open-code-review": {
     "v": 2,
-    "pushed_at": "2026-11-19T12:28:52Z",
+    "pushed_at": "2026-11-20T14:59:55Z",
     "count": 4,
     "skills": [
       {
@@ -1979,8 +1979,8 @@
   },
   "sickn33/agentic-awesome-skills": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:19:56Z",
-    "count": 9676,
+    "pushed_at": "2026-11-20T18:52:00Z",
+    "count": 9802,
     "skills": [
       {
         "path": "plugins/aasb-aas-accessibility-inclusive-ux/skills/accesslint-audit/SKILL.md",
@@ -2146,7 +2146,7 @@
   },
   "reactive-resume/reactive-resume": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:48:41Z",
+    "pushed_at": "2026-11-20T03:14:03Z",
     "count": 34,
     "skills": [
       {
@@ -2456,7 +2456,7 @@
   },
   "github/awesome-copilot": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:12:43Z",
+    "pushed_at": "2026-11-20T03:13:57Z",
     "count": 482,
     "skills": [
       {
@@ -2711,7 +2711,7 @@
   },
   "davila7/claude-code-templates": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:26:14Z",
+    "pushed_at": "2026-11-21T01:11:06Z",
     "count": 923,
     "skills": [
       {
@@ -2878,7 +2878,7 @@
   },
   "topoteretes/cognee": {
     "v": 2,
-    "pushed_at": "2026-11-19T22:45:03Z",
+    "pushed_at": "2026-11-20T20:41:43Z",
     "count": 26,
     "skills": [
       {
@@ -2989,7 +2989,7 @@
   },
   "googleworkspace/cli": {
     "v": 2,
-    "pushed_at": "2026-11-03T01:37:22Z",
+    "pushed_at": "2026-11-20T14:06:28Z",
     "count": 95,
     "skills": [
       {
@@ -3156,7 +3156,7 @@
   },
   "nanocoai/nanoclaw": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:51:21Z",
+    "pushed_at": "2026-11-21T00:40:09Z",
     "count": 64,
     "skills": [
       {
@@ -3490,7 +3490,7 @@
   },
   "alchaincyf/huashu-design": {
     "v": 2,
-    "pushed_at": "2026-11-10T00:16:14Z",
+    "pushed_at": "2026-11-21T02:26:31Z",
     "count": 1,
     "skills": [
       {
@@ -3501,7 +3501,7 @@
   },
   "OthmanAdi/planning-with-files": {
     "v": 2,
-    "pushed_at": "2026-11-11T20:55:30Z",
+    "pushed_at": "2026-11-20T20:07:31Z",
     "count": 18,
     "skills": [
       {
@@ -3914,8 +3914,8 @@
   },
   "JimLiu/baoyu-skills": {
     "v": 2,
-    "pushed_at": "2026-11-06T17:20:33Z",
-    "count": 22,
+    "pushed_at": "2026-11-20T05:47:41Z",
+    "count": 23,
     "skills": [
       {
         "path": ".claude/skills/release-skills/SKILL.md",
@@ -3968,6 +3968,10 @@
       {
         "path": "skills/baoyu-markdown-to-html/SKILL.md",
         "name": "baoyu-markdown-to-html"
+      },
+      {
+        "path": "skills/baoyu-podcast-summary/SKILL.md",
+        "name": "baoyu-podcast-summary"
       },
       {
         "path": "skills/baoyu-post-to-wechat/SKILL.md",
@@ -4079,7 +4083,7 @@
   },
   "NVIDIA/SkillSpector": {
     "v": 2,
-    "pushed_at": "2026-11-19T14:51:51Z",
+    "pushed_at": "2026-11-20T22:12:35Z",
     "count": 34,
     "skills": [
       {
@@ -4222,7 +4226,7 @@
   },
   "nocobase/nocobase": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:47:04Z",
+    "pushed_at": "2026-11-21T02:20:44Z",
     "count": 39,
     "skills": [
       {
@@ -4385,7 +4389,7 @@
   },
   "citrolabs/ego-lite": {
     "v": 2,
-    "pushed_at": "2026-11-19T04:24:25Z",
+    "pushed_at": "2026-11-20T17:55:07Z",
     "count": 4,
     "skills": [
       {
@@ -4670,7 +4674,7 @@
   },
   "google/elephant-goldfish-model": {
     "v": 2,
-    "pushed_at": "2026-11-19T20:22:02Z",
+    "pushed_at": "2026-11-20T20:10:41Z",
     "count": 8,
     "skills": [
       {
@@ -4859,7 +4863,7 @@
   },
   "alibaba/zvec": {
     "v": 2,
-    "pushed_at": "2026-11-18T11:21:26Z",
+    "pushed_at": "2026-11-20T05:27:02Z",
     "count": 0,
     "skills": []
   },
@@ -5018,7 +5022,7 @@
   },
   "NevaMind-AI/memU": {
     "v": 2,
-    "pushed_at": "2026-11-19T07:57:34Z",
+    "pushed_at": "2026-11-20T08:31:07Z",
     "count": 1,
     "skills": [
       {
@@ -5029,7 +5033,7 @@
   },
   "lemomo-ai/lemo-opuscar": {
     "v": 2,
-    "pushed_at": "2026-11-17T05:17:37Z",
+    "pushed_at": "2026-11-20T04:32:37Z",
     "count": 2,
     "skills": [
       {
@@ -5211,7 +5215,7 @@
   },
   "krillinai/OpenCreator": {
     "v": 2,
-    "pushed_at": "2026-11-19T02:31:00Z",
+    "pushed_at": "2026-11-20T07:10:55Z",
     "count": 15,
     "skills": [
       {
@@ -5293,8 +5297,8 @@
   },
   "Jeffallan/claude-skills": {
     "v": 2,
-    "pushed_at": "2026-11-16T17:30:27Z",
-    "count": 67,
+    "pushed_at": "2026-11-20T23:17:14Z",
+    "count": 70,
     "skills": [
       {
         "path": "skills/angular-architect/SKILL.md",
@@ -5381,6 +5385,14 @@
         "name": "fine-tuning-expert"
       },
       {
+        "path": "skills/firebase-expert/SKILL.md",
+        "name": "firebase-expert"
+      },
+      {
+        "path": "skills/flask-expert/SKILL.md",
+        "name": "flask-expert"
+      },
+      {
         "path": "skills/flutter-expert/SKILL.md",
         "name": "flutter-expert"
       },
@@ -5447,14 +5459,6 @@
       {
         "path": "skills/nextjs-developer/SKILL.md",
         "name": "nextjs-developer"
-      },
-      {
-        "path": "skills/pandas-pro/SKILL.md",
-        "name": "pandas-pro"
-      },
-      {
-        "path": "skills/php-pro/SKILL.md",
-        "name": "php-pro"
       }
     ]
   },
@@ -6083,7 +6087,7 @@
   },
   "anbeime/skill": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:12:35Z",
+    "pushed_at": "2026-11-21T02:11:39Z",
     "count": 136,
     "skills": [
       {
@@ -6289,7 +6293,7 @@
   },
   "miqdadbadjuber/anti-slop": {
     "v": 2,
-    "pushed_at": "2026-11-18T13:00:54Z",
+    "pushed_at": "2026-11-21T01:16:39Z",
     "count": 6,
     "skills": [
       {
@@ -6371,7 +6375,7 @@
   },
   "mvschwarz/openrig": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:30:54Z",
+    "pushed_at": "2026-11-21T02:36:19Z",
     "count": 98,
     "skills": [
       {
@@ -6538,7 +6542,7 @@
   },
   "Gentleman-Programming/gentle-ai": {
     "v": 2,
-    "pushed_at": "2026-11-18T17:04:42Z",
+    "pushed_at": "2026-11-21T02:16:38Z",
     "count": 26,
     "skills": [
       {
@@ -6649,7 +6653,7 @@
   },
   "WenyuChiou/awesome-agentic-ai-zh": {
     "v": 2,
-    "pushed_at": "2026-11-19T19:38:39Z",
+    "pushed_at": "2026-11-20T22:23:35Z",
     "count": 1,
     "skills": [
       {
@@ -6751,7 +6755,7 @@
   },
   "zenstory-ai/oh-story-claudecode": {
     "v": 2,
-    "pushed_at": "2026-11-19T15:00:05Z",
+    "pushed_at": "2026-11-20T04:48:12Z",
     "count": 14,
     "skills": [
       {
@@ -6993,7 +6997,7 @@
   },
   "JetBrains/thinkrail": {
     "v": 2,
-    "pushed_at": "2026-11-19T18:17:24Z",
+    "pushed_at": "2026-11-21T02:38:16Z",
     "count": 13,
     "skills": [
       {
@@ -7052,7 +7056,7 @@
   },
   "trailofbits/skills": {
     "v": 2,
-    "pushed_at": "2026-11-18T16:36:35Z",
+    "pushed_at": "2026-11-20T09:52:08Z",
     "count": 99,
     "skills": [
       {
@@ -7501,7 +7505,7 @@
   },
   "Devin-AXIS/iPolloWork": {
     "v": 2,
-    "pushed_at": "2026-11-19T17:19:26Z",
+    "pushed_at": "2026-11-21T02:44:55Z",
     "count": 3,
     "skills": [
       {
@@ -7971,7 +7975,7 @@
   },
   "JuneYaooo/rea-video": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:22:58Z",
+    "pushed_at": "2026-11-21T02:32:44Z",
     "count": 1,
     "skills": [
       {
@@ -8039,8 +8043,8 @@
   },
   "melonjs/melonJS": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:08:43Z",
-    "count": 26,
+    "pushed_at": "2026-11-21T02:40:54Z",
+    "count": 27,
     "skills": [
       {
         "path": "packages/melonjs/skills/melonjs-20-migration/SKILL.md",
@@ -8135,6 +8139,10 @@
         "name": "melonjs-sprites-and-animation"
       },
       {
+        "path": "packages/melonjs/skills/melonjs-testing/SKILL.md",
+        "name": "melonjs-testing"
+      },
+      {
         "path": "packages/melonjs/skills/melonjs-tilemaps/SKILL.md",
         "name": "melonjs-tilemaps"
       },
@@ -8150,7 +8158,7 @@
   },
   "ThinkInAIXYZ/deepchat": {
     "v": 2,
-    "pushed_at": "2026-11-19T15:01:27Z",
+    "pushed_at": "2026-11-20T14:15:24Z",
     "count": 25,
     "skills": [
       {
@@ -8263,7 +8271,7 @@
   },
   "wiltodelta/remove-ai-watermarks": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:33:17Z",
+    "pushed_at": "2026-11-21T00:12:58Z",
     "count": 3,
     "skills": [
       {
@@ -8556,7 +8564,7 @@
   },
   "ikaijua/Awesome-AITools": {
     "v": 2,
-    "pushed_at": "2026-11-19T15:11:53Z",
+    "pushed_at": "2026-11-20T07:46:12Z",
     "count": 0,
     "skills": []
   },
@@ -8877,7 +8885,7 @@
   },
   "dmmulroy/anti-slop": {
     "v": 2,
-    "pushed_at": "2026-10-14T00:18:33Z",
+    "pushed_at": "2026-11-20T13:21:58Z",
     "count": 1,
     "skills": [
       {
@@ -8894,7 +8902,7 @@
   },
   "dotnet/skills": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:52:26Z",
+    "pushed_at": "2026-11-20T20:42:13Z",
     "count": 116,
     "skills": [
       {
@@ -9220,7 +9228,7 @@
   },
   "elementalsouls/Claude-BugHunter": {
     "v": 2,
-    "pushed_at": "2026-11-19T13:21:35Z",
+    "pushed_at": "2026-11-20T15:53:40Z",
     "count": 83,
     "skills": [
       {
@@ -9387,7 +9395,7 @@
   },
   "aipoch/open-science": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:42:16Z",
+    "pushed_at": "2026-11-21T02:46:14Z",
     "count": 29,
     "skills": [
       {
@@ -9565,7 +9573,7 @@
   },
   "metalbear-co/mirrord": {
     "v": 2,
-    "pushed_at": "2026-11-19T23:00:07Z",
+    "pushed_at": "2026-11-20T22:29:38Z",
     "count": 13,
     "skills": [
       {
@@ -9665,8 +9673,8 @@
   },
   "kajisho5/ffmpeg-skill": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:26:09Z",
-    "count": 17,
+    "pushed_at": "2026-11-21T02:45:08Z",
+    "count": 19,
     "skills": [
       {
         "path": ".claude/skills/build-artifacts/SKILL.md",
@@ -9695,6 +9703,14 @@
       {
         "path": ".claude/skills/destructive-operations/SKILL.md",
         "name": "destructive-operations"
+      },
+      {
+        "path": ".claude/skills/edge-probe/SKILL.md",
+        "name": "edge-probe"
+      },
+      {
+        "path": ".claude/skills/first-try-probe/SKILL.md",
+        "name": "first-try-probe"
       },
       {
         "path": ".claude/skills/git-hygiene/SKILL.md",
@@ -10051,7 +10067,7 @@
   },
   "inkeep/open-knowledge": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:11:56Z",
+    "pushed_at": "2026-11-21T02:38:56Z",
     "count": 18,
     "skills": [
       {
@@ -10130,13 +10146,13 @@
   },
   "xixu-me/awesome-persona-distill-skills": {
     "v": 2,
-    "pushed_at": "2026-11-15T19:05:09Z",
+    "pushed_at": "2026-11-20T05:58:02Z",
     "count": 0,
     "skills": []
   },
   "zebbern/claude-code-guide": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:35:26Z",
+    "pushed_at": "2026-11-21T00:36:23Z",
     "count": 78,
     "skills": [
       {
@@ -10303,7 +10319,7 @@
   },
   "zenbu-labs/terminal-browser": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:43:59Z",
+    "pushed_at": "2026-11-20T16:14:47Z",
     "count": 1,
     "skills": [
       {
@@ -10529,7 +10545,7 @@
   },
   "michael-denyer/pstack-claude": {
     "v": 2,
-    "pushed_at": "2026-11-19T11:30:25Z",
+    "pushed_at": "2026-11-21T00:39:12Z",
     "count": 68,
     "skills": [
       {
@@ -10874,7 +10890,7 @@
   },
   "zenstory-ai/drama-skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T14:53:47Z",
+    "pushed_at": "2026-11-20T04:48:06Z",
     "count": 13,
     "skills": [
       {
@@ -10983,7 +10999,7 @@
   },
   "datamodel-code-generator/datamodel-code-generator": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:49:31Z",
+    "pushed_at": "2026-11-21T02:29:54Z",
     "count": 2,
     "skills": [
       {
@@ -11009,7 +11025,7 @@
   },
   "evalstate/fast-agent": {
     "v": 2,
-    "pushed_at": "2026-11-19T22:54:10Z",
+    "pushed_at": "2026-11-20T17:19:01Z",
     "count": 3,
     "skills": [
       {
@@ -11028,7 +11044,7 @@
   },
   "backnotprop/pstack": {
     "v": 2,
-    "pushed_at": "2026-11-19T20:16:08Z",
+    "pushed_at": "2026-11-20T22:00:45Z",
     "count": 61,
     "skills": [
       {
@@ -11195,8 +11211,8 @@
   },
   "NVIDIA/skills": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:09:51Z",
-    "count": 473,
+    "pushed_at": "2026-11-20T21:00:07Z",
+    "count": 483,
     "skills": [
       {
         "path": "plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md",
@@ -11362,7 +11378,7 @@
   },
   "rebelytics/one-skill-to-rule-them-all": {
     "v": 2,
-    "pushed_at": "2026-11-18T12:38:43Z",
+    "pushed_at": "2026-11-20T17:36:47Z",
     "count": 1,
     "skills": [
       {
@@ -11984,8 +12000,8 @@
   },
   "davepoon/buildwithclaude": {
     "v": 2,
-    "pushed_at": "2026-11-19T10:14:32Z",
-    "count": 450,
+    "pushed_at": "2026-11-20T11:58:54Z",
+    "count": 451,
     "skills": [
       {
         "path": "plugins/agent-triforce/skills/code-health/SKILL.md",
@@ -12151,7 +12167,7 @@
   },
   "Ar9av/obsidian-wiki": {
     "v": 2,
-    "pushed_at": "2026-11-19T04:44:55Z",
+    "pushed_at": "2026-11-20T14:41:51Z",
     "count": 41,
     "skills": [
       {
@@ -12440,7 +12456,7 @@
   },
   "scenario-labs/skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T23:01:17Z",
+    "pushed_at": "2026-11-20T17:59:15Z",
     "count": 179,
     "skills": [
       {
@@ -12786,7 +12802,7 @@
   },
   "nano-muse/nanoMuse": {
     "v": 2,
-    "pushed_at": "2026-11-19T03:23:35Z",
+    "pushed_at": "2026-11-20T06:57:52Z",
     "count": 12,
     "skills": [
       {
@@ -12934,7 +12950,7 @@
   },
   "Natively-AI-assistant/natively-cluely-ai-assistant": {
     "v": 2,
-    "pushed_at": "2026-11-19T13:40:38Z",
+    "pushed_at": "2026-11-20T09:23:20Z",
     "count": 0,
     "skills": []
   },
@@ -12966,7 +12982,7 @@
   },
   "microsoft/skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:00:09Z",
+    "pushed_at": "2026-11-20T17:31:05Z",
     "count": 215,
     "skills": [
       {
@@ -13299,7 +13315,7 @@
   },
   "oil-oil/oil-ui": {
     "v": 2,
-    "pushed_at": "2026-11-18T17:33:21Z",
+    "pushed_at": "2026-11-20T17:43:43Z",
     "count": 1,
     "skills": [
       {
@@ -13310,7 +13326,7 @@
   },
   "aaron-he-zhu/aaron-marketing-skills": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:11:25Z",
+    "pushed_at": "2026-11-20T23:35:28Z",
     "count": 120,
     "skills": [
       {
@@ -13834,7 +13850,7 @@
   },
   "jeremylongshore/tons-of-skills-marketplace": {
     "v": 2,
-    "pushed_at": "2026-11-19T13:55:00Z",
+    "pushed_at": "2026-11-20T12:07:58Z",
     "count": 5738,
     "skills": [
       {
@@ -14673,7 +14689,7 @@
   },
   "MrGeDiao/shuorenhua": {
     "v": 2,
-    "pushed_at": "2026-11-19T09:29:33Z",
+    "pushed_at": "2026-11-20T09:10:07Z",
     "count": 1,
     "skills": [
       {
@@ -14771,7 +14787,7 @@
   },
   "digitalsamba/claude-code-video-toolkit": {
     "v": 2,
-    "pushed_at": "2026-11-17T11:55:17Z",
+    "pushed_at": "2026-11-20T21:53:11Z",
     "count": 17,
     "skills": [
       {
@@ -14846,7 +14862,7 @@
   },
   "LearnPrompt/awesome-seedance": {
     "v": 2,
-    "pushed_at": "2026-11-19T22:05:50Z",
+    "pushed_at": "2026-11-20T22:03:47Z",
     "count": 15,
     "skills": [
       {
@@ -14913,13 +14929,13 @@
   },
   "reacher-z/Awesome-REA": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:26:00Z",
+    "pushed_at": "2026-11-21T01:26:33Z",
     "count": 0,
     "skills": []
   },
   "apify/agent-skills": {
     "v": 2,
-    "pushed_at": "2026-11-18T13:43:12Z",
+    "pushed_at": "2026-11-20T14:11:15Z",
     "count": 6,
     "skills": [
       {
@@ -15180,7 +15196,7 @@
   },
   "tourmind-com/Tourmind-Booking-Skills": {
     "v": 2,
-    "pushed_at": "2026-11-18T07:07:52Z",
+    "pushed_at": "2026-11-20T08:27:59Z",
     "count": 2,
     "skills": [
       {
@@ -15288,7 +15304,7 @@
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:23:59Z",
+    "pushed_at": "2026-11-20T22:04:06Z",
     "count": 1,
     "skills": [
       {
@@ -15326,7 +15342,7 @@
   },
   "dstackai/dstack": {
     "v": 2,
-    "pushed_at": "2026-11-19T14:24:49Z",
+    "pushed_at": "2026-11-20T17:43:15Z",
     "count": 3,
     "skills": [
       {
@@ -15345,7 +15361,7 @@
   },
   "caru-ini/stack-diagram": {
     "v": 2,
-    "pushed_at": "2026-11-19T09:00:34Z",
+    "pushed_at": "2026-11-20T16:28:58Z",
     "count": 1,
     "skills": [
       {
@@ -15507,7 +15523,7 @@
   },
   "Gentleman-Programming/gentle-shell": {
     "v": 2,
-    "pushed_at": "2026-11-19T13:09:22Z",
+    "pushed_at": "2026-11-21T01:40:04Z",
     "count": 16,
     "skills": [
       {
@@ -15629,7 +15645,7 @@
   },
   "can4hou6joeng4/boss-agent-cli": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:42:43Z",
+    "pushed_at": "2026-11-20T12:04:38Z",
     "count": 0,
     "skills": []
   },
@@ -15832,7 +15848,7 @@
   },
   "maxritter/qualitylayer": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:40:22Z",
+    "pushed_at": "2026-11-20T12:31:07Z",
     "count": 7,
     "skills": [
       {
@@ -15878,7 +15894,7 @@
   },
   "Jesseovo/last30days-skill-cn": {
     "v": 2,
-    "pushed_at": "2026-11-19T11:44:29Z",
+    "pushed_at": "2026-11-20T09:18:17Z",
     "count": 2,
     "skills": [
       {
@@ -15914,13 +15930,13 @@
   },
   "shinyobjectz/raea": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:44:37Z",
+    "pushed_at": "2026-11-21T01:15:23Z",
     "count": 0,
     "skills": []
   },
   "axoviq-ai/synthadoc": {
     "v": 2,
-    "pushed_at": "2026-11-19T19:02:03Z",
+    "pushed_at": "2026-11-20T15:52:47Z",
     "count": 10,
     "skills": [
       {
@@ -16077,7 +16093,7 @@
   },
   "DUNHKpcc/Claude-Guardian": {
     "v": 2,
-    "pushed_at": "2026-11-18T03:38:58Z",
+    "pushed_at": "2026-11-20T10:30:13Z",
     "count": 1,
     "skills": [
       {
@@ -16114,7 +16130,7 @@
   },
   "XiaoMaColtAI/math-modeling-skill": {
     "v": 2,
-    "pushed_at": "2026-11-19T22:56:45Z",
+    "pushed_at": "2026-11-20T22:32:39Z",
     "count": 20,
     "skills": [
       {
@@ -16368,7 +16384,7 @@
   },
   "ReScienceLab/opc-skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T15:29:25Z",
+    "pushed_at": "2026-11-20T15:07:12Z",
     "count": 13,
     "skills": [
       {
@@ -16427,7 +16443,7 @@
   },
   "zhuyansen/awesome-claude-video-skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T16:58:04Z",
+    "pushed_at": "2026-11-20T16:37:28Z",
     "count": 0,
     "skills": []
   },
@@ -16554,8 +16570,8 @@
   },
   "Klotzkette/claude-fuer-deutsches-recht": {
     "v": 2,
-    "pushed_at": "2026-11-19T10:59:00Z",
-    "count": 2403,
+    "pushed_at": "2026-11-21T01:51:05Z",
+    "count": 2421,
     "skills": [
       {
         "path": "agb-recht-pruefer/skills/abwehr-durchsetzung-bearbeiten/SKILL.md",
@@ -16674,6 +16690,38 @@
         "name": "agb-webshop-checkout"
       },
       {
+        "path": "aktenanleger/skills/akte-anlegen/SKILL.md",
+        "name": "akte-anlegen"
+      },
+      {
+        "path": "aktenanleger/skills/amt-oder-mandat-klaeren/SKILL.md",
+        "name": "amt-oder-mandat-klaeren"
+      },
+      {
+        "path": "aktenanleger/skills/beteiligte-und-vertretung-erfassen/SKILL.md",
+        "name": "beteiligte-und-vertretung-erfassen"
+      },
+      {
+        "path": "aktenanleger/skills/eingang-und-fristen-sichern/SKILL.md",
+        "name": "eingang-und-fristen-sichern"
+      },
+      {
+        "path": "aktenanleger/skills/forderungsvorgang-anlegen/SKILL.md",
+        "name": "forderungsvorgang-anlegen"
+      },
+      {
+        "path": "aktenanleger/skills/kollision-und-vorbefassung-pruefen/SKILL.md",
+        "name": "kollision-und-vorbefassung-pruefen"
+      },
+      {
+        "path": "aktenanleger/skills/notarielle-akte-zuordnen/SKILL.md",
+        "name": "notarielle-akte-zuordnen"
+      },
+      {
+        "path": "aktenanleger/skills/verwaltungsvorgang-anlegen/SKILL.md",
+        "name": "verwaltungsvorgang-anlegen"
+      },
+      {
         "path": "aktenaufbereiter-strafrecht/skills/aktenaufbereiter-strafrecht/SKILL.md",
         "name": "aktenaufbereiter-strafrecht"
       },
@@ -16684,44 +16732,12 @@
       {
         "path": "aktenaufbereiter-strafrecht/skills/arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten/SKILL.md",
         "name": "arbeitsprodukt-ausarbeiten-und-kontrollieren-bearbeiten"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/beweis-und-aktenanalyse-bearbeiten/SKILL.md",
-        "name": "beweis-und-aktenanalyse-bearbeiten"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/einstieg-routing/SKILL.md",
-        "name": "einstieg-routing"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/entscheidung-und-rechtsmittel-bearbeiten/SKILL.md",
-        "name": "entscheidung-und-rechtsmittel-bearbeiten"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/ermittlungsverfahren-und-eingriffe-bearbeiten/SKILL.md",
-        "name": "ermittlungsverfahren-und-eingriffe-bearbeiten"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/geschaedigte-und-besondere-rollen-bearbeiten/SKILL.md",
-        "name": "geschaedigte-und-besondere-rollen-bearbeiten"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/juristischer-argumentationskern/SKILL.md",
-        "name": "juristischer-argumentationskern"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/sanktion-und-vollstreckung-bearbeiten/SKILL.md",
-        "name": "sanktion-und-vollstreckung-bearbeiten"
-      },
-      {
-        "path": "aktenaufbereiter-strafrecht/skills/tatvorwurf-und-materielles-recht-bearbeiten/SKILL.md",
-        "name": "tatvorwurf-und-materielles-recht-bearbeiten"
       }
     ]
   },
   "mex-memory/mex": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:18:20Z",
+    "pushed_at": "2026-11-20T21:42:21Z",
     "count": 1,
     "skills": [
       {
@@ -17036,7 +17052,7 @@
   },
   "bubbuild/bub": {
     "v": 2,
-    "pushed_at": "2026-11-19T08:57:55Z",
+    "pushed_at": "2026-11-20T17:53:16Z",
     "count": 3,
     "skills": [
       {
@@ -17222,7 +17238,7 @@
   },
   "patrickchugh/terravision": {
     "v": 2,
-    "pushed_at": "2026-11-19T23:06:48Z",
+    "pushed_at": "2026-11-20T09:51:42Z",
     "count": 1,
     "skills": [
       {
@@ -17288,7 +17304,7 @@
   },
   "codeaholicguy/ai-devkit": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:23:53Z",
+    "pushed_at": "2026-11-20T21:14:47Z",
     "count": 31,
     "skills": [
       {
@@ -17521,7 +17537,7 @@
   },
   "microsoft/azure-skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T21:00:13Z",
+    "pushed_at": "2026-11-20T17:30:47Z",
     "count": 93,
     "skills": [
       {
@@ -17688,9 +17704,17 @@
   },
   "yuezhiai/jonex": {
     "v": 2,
-    "pushed_at": "2026-11-17T12:54:27Z",
-    "count": 4,
+    "pushed_at": "2026-11-20T12:22:53Z",
+    "count": 6,
     "skills": [
+      {
+        "path": "Reference/JonexWiki/src/jonex_wiki/resources/skills/wiki-compile-files/SKILL.md",
+        "name": "wiki-compile-files"
+      },
+      {
+        "path": "Reference/JonexWiki/src/jonex_wiki/resources/skills/wiki-direct-files/SKILL.md",
+        "name": "wiki-direct-files"
+      },
       {
         "path": "Reference/OpenKB/skills/openkb-deck-editorial/SKILL.md",
         "name": "openkb-deck-editorial"
@@ -17831,7 +17855,7 @@
   },
   "silverstein/minutes": {
     "v": 2,
-    "pushed_at": "2026-11-19T20:10:10Z",
+    "pushed_at": "2026-11-21T01:35:53Z",
     "count": 150,
     "skills": [
       {
@@ -18787,8 +18811,8 @@
   },
   "nexu-io/openmotion": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:35:23Z",
-    "count": 118,
+    "pushed_at": "2026-11-21T02:33:44Z",
+    "count": 430,
     "skills": [
       {
         "path": ".agents/skills/add-byok-provider/SKILL.md",
@@ -18815,140 +18839,140 @@
         "name": "onboarding"
       },
       {
-        "path": "library/skills/openmotion-ad-script/SKILL.md",
-        "name": "openmotion-ad-script"
+        "path": "library/design/skills/8-bit-orbit-video-template/SKILL.md",
+        "name": "8-bit-orbit-video-template"
       },
       {
-        "path": "library/skills/openmotion-adaptive-layout/SKILL.md",
-        "name": "openmotion-adaptive-layout"
+        "path": "library/design/skills/ad-creative/SKILL.md",
+        "name": "ad-creative"
       },
       {
-        "path": "library/skills/openmotion-ai-assistant-tour/SKILL.md",
-        "name": "openmotion-ai-assistant-tour"
+        "path": "library/design/skills/after-hours-editorial-template/SKILL.md",
+        "name": "after-hours-editorial-template"
       },
       {
-        "path": "library/skills/openmotion-archive-collage/SKILL.md",
-        "name": "openmotion-archive-collage"
+        "path": "library/design/skills/agent-browser/SKILL.md",
+        "name": "agent-browser"
       },
       {
-        "path": "library/skills/openmotion-article-illustrations/SKILL.md",
-        "name": "openmotion-article-illustrations"
+        "path": "library/design/skills/ai-music-album/SKILL.md",
+        "name": "ai-music-album"
       },
       {
-        "path": "library/skills/openmotion-aurora-gradient/SKILL.md",
-        "name": "openmotion-aurora-gradient"
+        "path": "library/design/skills/algorithmic-art/SKILL.md",
+        "name": "algorithmic-art"
       },
       {
-        "path": "library/skills/openmotion-before-after/SKILL.md",
-        "name": "openmotion-before-after"
+        "path": "library/design/skills/animate/SKILL.md",
+        "name": "animate"
       },
       {
-        "path": "library/skills/openmotion-bilingual-captions/SKILL.md",
-        "name": "openmotion-bilingual-captions"
+        "path": "library/design/skills/apple-hig/SKILL.md",
+        "name": "apple-hig"
       },
       {
-        "path": "library/skills/openmotion-bold-type-poster/SKILL.md",
-        "name": "openmotion-bold-type-poster"
+        "path": "library/design/skills/article-magazine/SKILL.md",
+        "name": "article-magazine"
       },
       {
-        "path": "library/skills/openmotion-brandkit/SKILL.md",
-        "name": "openmotion-brandkit"
+        "path": "library/design/skills/artifacts-builder/SKILL.md",
+        "name": "artifacts-builder"
       },
       {
-        "path": "library/skills/openmotion-bubble-field/SKILL.md",
-        "name": "openmotion-bubble-field"
+        "path": "library/design/skills/brainstorming/SKILL.md",
+        "name": "brainstorming"
       },
       {
-        "path": "library/skills/openmotion-caption-styling/SKILL.md",
-        "name": "openmotion-caption-styling"
+        "path": "library/design/skills/brand-extract/SKILL.md",
+        "name": "brand-extract"
       },
       {
-        "path": "library/skills/openmotion-card-carousel/SKILL.md",
-        "name": "openmotion-card-carousel"
+        "path": "library/design/skills/brand-guidelines/SKILL.md",
+        "name": "brand-guidelines"
       },
       {
-        "path": "library/skills/openmotion-cards-and-text/SKILL.md",
-        "name": "openmotion-cards-and-text"
+        "path": "library/design/skills/brandkit/SKILL.md",
+        "name": "brandkit"
       },
       {
-        "path": "library/skills/openmotion-chalk-blueprint/SKILL.md",
-        "name": "openmotion-chalk-blueprint"
+        "path": "library/design/skills/brutalist-skill/SKILL.md",
+        "name": "brutalist-skill"
       },
       {
-        "path": "library/skills/openmotion-cinematic-logo/SKILL.md",
-        "name": "openmotion-cinematic-logo"
+        "path": "library/design/skills/canvas-design/SKILL.md",
+        "name": "canvas-design"
       },
       {
-        "path": "library/skills/openmotion-clay-explainer/SKILL.md",
-        "name": "openmotion-clay-explainer"
+        "path": "library/design/skills/card-twitter/SKILL.md",
+        "name": "card-twitter"
       },
       {
-        "path": "library/skills/openmotion-color-pop-poster/SKILL.md",
-        "name": "openmotion-color-pop-poster"
+        "path": "library/design/skills/card-xiaohongshu/SKILL.md",
+        "name": "card-xiaohongshu"
       },
       {
-        "path": "library/skills/openmotion-content-cover/SKILL.md",
-        "name": "openmotion-content-cover"
+        "path": "library/design/skills/chat-motion-overlay/SKILL.md",
+        "name": "chat-motion-overlay"
       },
       {
-        "path": "library/skills/openmotion-coral-title-cards/SKILL.md",
-        "name": "openmotion-coral-title-cards"
+        "path": "library/design/skills/color-expert/SKILL.md",
+        "name": "color-expert"
       },
       {
-        "path": "library/skills/openmotion-corner-frames/SKILL.md",
-        "name": "openmotion-corner-frames"
+        "path": "library/design/skills/competitive-ads-extractor/SKILL.md",
+        "name": "competitive-ads-extractor"
       },
       {
-        "path": "library/skills/openmotion-dark-premium-poster/SKILL.md",
-        "name": "openmotion-dark-premium-poster"
+        "path": "library/design/skills/copywriting/SKILL.md",
+        "name": "copywriting"
       },
       {
-        "path": "library/skills/openmotion-design-remix/SKILL.md",
-        "name": "openmotion-design-remix"
+        "path": "library/design/skills/creative-director/SKILL.md",
+        "name": "creative-director"
       },
       {
-        "path": "library/skills/openmotion-design-styles/SKILL.md",
-        "name": "openmotion-design-styles"
+        "path": "library/design/skills/d3-visualization/SKILL.md",
+        "name": "d3-visualization"
       },
       {
-        "path": "library/skills/openmotion-doc-promo/SKILL.md",
-        "name": "openmotion-doc-promo"
+        "path": "library/design/skills/data-report/SKILL.md",
+        "name": "data-report"
       },
       {
-        "path": "library/skills/openmotion-echo-stack-type/SKILL.md",
-        "name": "openmotion-echo-stack-type"
+        "path": "library/design/skills/deck-guizang-editorial/SKILL.md",
+        "name": "deck-guizang-editorial"
       },
       {
-        "path": "library/skills/openmotion-edit-to-script/SKILL.md",
-        "name": "openmotion-edit-to-script"
+        "path": "library/design/skills/deck-open-slide-canvas/SKILL.md",
+        "name": "deck-open-slide-canvas"
       },
       {
-        "path": "library/skills/openmotion-editorial-explainer/SKILL.md",
-        "name": "openmotion-editorial-explainer"
+        "path": "library/design/skills/deck-swiss-international/SKILL.md",
+        "name": "deck-swiss-international"
       },
       {
-        "path": "library/skills/openmotion-editorial-poster/SKILL.md",
-        "name": "openmotion-editorial-poster"
+        "path": "library/design/skills/design-brief/SKILL.md",
+        "name": "design-brief"
       },
       {
-        "path": "library/skills/openmotion-editorial-webinar/SKILL.md",
-        "name": "openmotion-editorial-webinar"
+        "path": "library/design/skills/design-consultation/SKILL.md",
+        "name": "design-consultation"
       },
       {
-        "path": "library/skills/openmotion-electric-impact-type/SKILL.md",
-        "name": "openmotion-electric-impact-type"
+        "path": "library/design/skills/design-md/SKILL.md",
+        "name": "design-md"
       },
       {
-        "path": "library/skills/openmotion-felt-stop-motion/SKILL.md",
-        "name": "openmotion-felt-stop-motion"
+        "path": "library/design/skills/design-review/SKILL.md",
+        "name": "design-review"
       },
       {
-        "path": "library/skills/openmotion-flat-beat/SKILL.md",
-        "name": "openmotion-flat-beat"
+        "path": "library/design/skills/digits-fintech-swiss-template/SKILL.md",
+        "name": "digits-fintech-swiss-template"
       },
       {
-        "path": "library/skills/openmotion-flat-card-explainer/SKILL.md",
-        "name": "openmotion-flat-card-explainer"
+        "path": "library/design/skills/doc-kami-parchment/SKILL.md",
+        "name": "doc-kami-parchment"
       }
     ]
   },
@@ -19162,7 +19186,7 @@
   },
   "Pinvou/pinvou-agent": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:49:20Z",
+    "pushed_at": "2026-11-20T18:15:29Z",
     "count": 36,
     "skills": [
       {
@@ -19420,7 +19444,7 @@
   },
   "obsidianmd/obsidian-skills": {
     "v": 2,
-    "pushed_at": "2026-11-19T15:06:02Z",
+    "pushed_at": "2026-11-20T19:22:47Z",
     "count": 7,
     "skills": [
       {
@@ -19466,7 +19490,7 @@
   },
   "NVIDIA/SkillEvaluator": {
     "v": 2,
-    "pushed_at": "2026-11-20T01:00:45Z",
+    "pushed_at": "2026-11-21T02:43:14Z",
     "count": 9,
     "skills": [
       {
@@ -19812,7 +19836,7 @@
   },
   "eclipse-theia/theia": {
     "v": 2,
-    "pushed_at": "2026-11-20T00:41:19Z",
+    "pushed_at": "2026-11-20T22:32:23Z",
     "count": 2,
     "skills": [
       {
@@ -19827,7 +19851,7 @@
   },
   "erkamyaman/rust-anything": {
     "v": 2,
-    "pushed_at": "2026-11-19T23:14:21Z",
+    "pushed_at": "2026-11-20T23:24:40Z",
     "count": 3,
     "skills": [
       {
@@ -19846,7 +19870,7 @@
   },
   "software-mansion/argent": {
     "v": 2,
-    "pushed_at": "2026-11-20T02:08:57Z",
+    "pushed_at": "2026-11-21T00:08:12Z",
     "count": 19,
     "skills": [
       {
@@ -19939,6 +19963,17 @@
       {
         "path": "skills/engine-guide/SKILL.md",
         "name": "engine-guide"
+      }
+    ]
+  },
+  "kaomei/stickman-video-director": {
+    "v": 2,
+    "pushed_at": "2026-11-20T09:37:32Z",
+    "count": 1,
+    "skills": [
+      {
+        "path": "skills/directing-stickman-videos/SKILL.md",
+        "name": "directing-stickman-videos"
       }
     ]
   }
