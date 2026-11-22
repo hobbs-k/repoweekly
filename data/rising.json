@@ -1,100 +1,42 @@
 {
-  "date": "2026-11-20",
-  "generated": "2026-11-21T02:46:47.464Z",
+  "date": "2026-11-21",
+  "generated": "2026-11-22T02:49:34.765Z",
   "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
   "window_days": 2,
   "items": [
     {
       "rank": 1,
-      "full_name": "simplexai-labs/linger",
-      "url": "https://github.com/simplexai-labs/linger",
-      "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
-      "language": "TypeScript",
-      "topics": [
-        "agent-teams",
-        "local-llm",
-        "memory",
-        "personal-agent",
-        "proactive-agent",
-        "proactive-ai"
-      ],
-      "license": "Other",
-      "stars_total": 2947,
-      "gained_2d": 2491,
-      "gained_prev_2d": 58,
-      "age_days": 10,
+      "full_name": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "language": "Python",
+      "topics": [],
+      "license": "GPL-3.0",
+      "stars_total": 6314,
+      "gained_2d": 6314,
+      "gained_prev_2d": 0,
+      "age_days": 1,
       "days": [
-        "2026-11-14",
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-21"
       ],
       "daily_gains": [
         0,
         0,
-        46,
-        24,
-        34,
-        1303,
-        1188
+        0,
+        0,
+        0,
+        6314,
+        0
       ]
     },
     {
       "rank": 2,
-      "full_name": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "license": "AGPL-3.0",
-      "stars_total": 205349,
-      "gained_2d": 2097,
-      "gained_prev_2d": 875,
-      "age_days": 949,
-      "days": [
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20"
-      ],
-      "daily_gains": [
-        246,
-        258,
-        283,
-        289,
-        586,
-        1084,
-        1013
-      ]
-    },
-    {
-      "rank": 3,
       "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
       "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
@@ -122,180 +64,68 @@
         "opencode"
       ],
       "license": "MIT",
-      "stars_total": 1801,
-      "gained_2d": 1801,
-      "gained_prev_2d": 0,
-      "age_days": 1,
+      "stars_total": 2518,
+      "gained_2d": 1875,
+      "gained_prev_2d": 643,
+      "age_days": 2,
       "days": [
-        "2026-11-14",
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-21"
       ],
       "daily_gains": [
-        0,
         0,
         0,
         0,
         0,
         643,
-        1158
+        1158,
+        717
+      ]
+    },
+    {
+      "rank": 3,
+      "full_name": "havenicec/google-qr-sms-helper",
+      "url": "https://github.com/havenicec/google-qr-sms-helper",
+      "description": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
+      "language": "JavaScript",
+      "topics": [
+        "browser-automation",
+        "chrome-extension",
+        "google-auth",
+        "manifest-v3",
+        "sms-verification"
+      ],
+      "license": "MIT",
+      "stars_total": 1970,
+      "gained_2d": 1689,
+      "gained_prev_2d": 0,
+      "age_days": 26,
+      "days": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        731,
+        958
       ]
     },
     {
       "rank": 4,
-      "full_name": "imxieyi/Kernarium",
-      "url": "https://github.com/imxieyi/Kernarium",
-      "description": "Run real Linux kernel natively on iOS",
-      "language": "C++",
-      "topics": [
-        "android",
-        "emulator",
-        "ios",
-        "linux",
-        "linux-kernel",
-        "user-mode-linux",
-        "virtualization"
-      ],
-      "license": "GPL-2.0",
-      "stars_total": 2057,
-      "gained_2d": 1503,
-      "gained_prev_2d": 70,
-      "age_days": 13,
-      "days": [
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20"
-      ],
-      "daily_gains": [
-        20,
-        17,
-        17,
-        13,
-        57,
-        536,
-        967
-      ]
-    },
-    {
-      "rank": 5,
-      "full_name": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "language": "Go",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "license": "MIT",
-      "stars_total": 39540,
-      "gained_2d": 1351,
-      "gained_prev_2d": 570,
-      "age_days": 58,
-      "days": [
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20"
-      ],
-      "daily_gains": [
-        434,
-        486,
-        556,
-        570,
-        0,
-        920,
-        431
-      ]
-    },
-    {
-      "rank": 6,
-      "full_name": "iamajmeena/neonclipping",
-      "url": "https://github.com/iamajmeena/neonclipping",
-      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-      "language": "Python",
-      "topics": [
-        "clipping",
-        "ffmpeg",
-        "shorts",
-        "video",
-        "whisper",
-        "yt-dlp"
-      ],
-      "license": "MIT",
-      "stars_total": 1258,
-      "gained_2d": 1258,
-      "gained_prev_2d": 0,
-      "age_days": 1,
-      "days": [
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20"
-      ],
-      "daily_gains": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        397,
-        861
-      ]
-    },
-    {
-      "rank": 7,
-      "full_name": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "language": "Python",
-      "topics": [
-        "artificial-intelligence",
-        "large-language-model"
-      ],
-      "license": "Apache-2.0",
-      "stars_total": 67723,
-      "gained_2d": 1217,
-      "gained_prev_2d": 0,
-      "age_days": 846,
-      "days": [
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20"
-      ],
-      "daily_gains": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        469,
-        748
-      ]
-    },
-    {
-      "rank": 8,
       "full_name": "toeverything/AFFiNE",
       "url": "https://github.com/toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
@@ -321,27 +151,179 @@
         "workspace"
       ],
       "license": "Other",
-      "stars_total": 75841,
-      "gained_2d": 1119,
-      "gained_prev_2d": 135,
-      "age_days": 1573,
+      "stars_total": 76339,
+      "gained_2d": 1617,
+      "gained_prev_2d": 104,
+      "age_days": 1574,
       "days": [
-        "2026-11-14",
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-21"
       ],
       "daily_gains": [
-        23,
         26,
         24,
         31,
         104,
         0,
-        1119
+        1119,
+        498
+      ]
+    },
+    {
+      "rank": 5,
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars_total": 56218,
+      "gained_2d": 1488,
+      "gained_prev_2d": 628,
+      "age_days": 214,
+      "days": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "daily_gains": [
+        548,
+        616,
+        548,
+        628,
+        0,
+        1018,
+        470
+      ]
+    },
+    {
+      "rank": 6,
+      "full_name": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "language": "Python",
+      "topics": [
+        "ai-video-clipper",
+        "clipping",
+        "faster-whisper",
+        "ffmpeg",
+        "gameplay-clipper",
+        "local-llm",
+        "ollama",
+        "open-source-video-editor",
+        "opusclip-alternative",
+        "shorts",
+        "twitch-clips",
+        "vertical-video",
+        "video",
+        "whisper",
+        "youtube-shorts-generator",
+        "yt-dlp"
+      ],
+      "license": "MIT",
+      "stars_total": 1749,
+      "gained_2d": 1352,
+      "gained_prev_2d": 397,
+      "age_days": 2,
+      "days": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        397,
+        861,
+        491
+      ]
+    },
+    {
+      "rank": 7,
+      "full_name": "imxieyi/Kernarium",
+      "url": "https://github.com/imxieyi/Kernarium",
+      "description": "Run real Linux kernel natively on iOS",
+      "language": "C++",
+      "topics": [
+        "android",
+        "emulator",
+        "ios",
+        "linux",
+        "linux-kernel",
+        "user-mode-linux",
+        "virtualization"
+      ],
+      "license": "GPL-2.0",
+      "stars_total": 2379,
+      "gained_2d": 1289,
+      "gained_prev_2d": 593,
+      "age_days": 14,
+      "days": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "daily_gains": [
+        17,
+        17,
+        13,
+        57,
+        536,
+        967,
+        322
+      ]
+    },
+    {
+      "rank": 8,
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "language": "Python",
+      "topics": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "license": "Apache-2.0",
+      "stars_total": 68192,
+      "gained_2d": 1217,
+      "gained_prev_2d": 469,
+      "age_days": 847,
+      "days": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        469,
+        748,
+        469
       ]
     },
     {
@@ -352,71 +334,73 @@
       "language": "Python",
       "topics": [],
       "license": "Other",
-      "stars_total": 2635,
-      "gained_2d": 933,
-      "gained_prev_2d": 122,
-      "age_days": 25,
+      "stars_total": 2862,
+      "gained_2d": 1160,
+      "gained_prev_2d": 98,
+      "age_days": 26,
       "days": [
-        "2026-11-14",
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-21"
       ],
       "daily_gains": [
-        38,
         31,
         35,
         24,
         98,
         0,
-        933
+        933,
+        227
       ]
     },
     {
       "rank": 10,
-      "full_name": "haydenschmitty/floorplan",
-      "url": "https://github.com/haydenschmitty/floorplan",
-      "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
-      "language": "JavaScript",
+      "full_name": "atuizz/posewear",
+      "url": "https://github.com/atuizz/posewear",
+      "description": "姿势、服装、人像参考图库，附中英文提示词，可在浏览器里 AI 试穿 · Pose, outfit & portrait reference library with bilingual prompts and in-browser AI try-on",
+      "language": "Python",
       "topics": [
-        "ai-coding",
-        "architecture-diagram",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "codebase-visualization",
-        "codex",
-        "codex-plugin",
-        "developer-tools",
-        "onboarding",
-        "openai",
-        "vibe-coding"
+        "ai-art",
+        "ai-try-on",
+        "chinese",
+        "cloudflare-pages",
+        "fashion",
+        "gemini",
+        "gpt-image",
+        "image-generation",
+        "outfit-reference",
+        "pose-reference",
+        "prompt",
+        "pwa",
+        "seedream",
+        "virtual-try-on"
       ],
       "license": "MIT",
-      "stars_total": 5662,
-      "gained_2d": 802,
-      "gained_prev_2d": 224,
-      "age_days": 24,
+      "stars_total": 1385,
+      "gained_2d": 1088,
+      "gained_prev_2d": 0,
+      "age_days": 22,
       "days": [
-        "2026-11-14",
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-21"
       ],
       "daily_gains": [
-        211,
-        191,
-        91,
-        100,
-        124,
-        283,
-        519
+        0,
+        0,
+        0,
+        0,
+        0,
+        504,
+        584
       ]
     }
   ]

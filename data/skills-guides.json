@@ -3277,8 +3277,8 @@
   },
   "Gentleman-Programming/gentle-shell": {
     "v": 4,
-    "pushed_at": "2026-11-21T01:40:04Z",
-    "sha": "ccdcf3b1079e1b39e02421338773e50ce748ad2a",
+    "pushed_at": "2026-11-22T02:04:26Z",
+    "sha": "28d9341a901e9a8d1660af88724af3daf41382a3",
     "compat": {
       "claude": {
         "status": "ready",
@@ -3344,7 +3344,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent claude-code --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent claude-code --scope user --pin 28d9341a901e9a8d1660af88724af3daf41382a3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3354,7 +3354,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/branch-pr ~/.claude/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 28d9341a901e9a8d1660af88724af3daf41382a3\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/branch-pr ~/.claude/skills/branch-pr"
           }
         ]
       },
@@ -3365,7 +3365,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent codex --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent codex --scope user --pin 28d9341a901e9a8d1660af88724af3daf41382a3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3375,7 +3375,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/branch-pr ~/.agents/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 28d9341a901e9a8d1660af88724af3daf41382a3\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/branch-pr ~/.agents/skills/branch-pr"
           }
         ]
       },
@@ -3386,7 +3386,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent cursor --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent cursor --scope user --pin 28d9341a901e9a8d1660af88724af3daf41382a3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3396,7 +3396,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/branch-pr ~/.cursor/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 28d9341a901e9a8d1660af88724af3daf41382a3\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/branch-pr ~/.cursor/skills/branch-pr"
           }
         ]
       },
@@ -3407,7 +3407,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent github-copilot --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent github-copilot --scope user --pin 28d9341a901e9a8d1660af88724af3daf41382a3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3417,7 +3417,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/branch-pr ~/.copilot/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 28d9341a901e9a8d1660af88724af3daf41382a3\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/branch-pr ~/.copilot/skills/branch-pr"
           }
         ]
       },
@@ -3433,7 +3433,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent gemini-cli --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent gemini-cli --scope user --pin 28d9341a901e9a8d1660af88724af3daf41382a3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3443,7 +3443,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/branch-pr ~/.gemini/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 28d9341a901e9a8d1660af88724af3daf41382a3\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/branch-pr ~/.gemini/skills/branch-pr"
           }
         ]
       },
@@ -3454,7 +3454,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs branch-pr. Use another skill name from the list to install a different one.",
-            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent opencode --scope user --pin ccdcf3b1079e1b39e02421338773e50ce748ad2a"
+            "code": "gh skill install Gentleman-Programming/gentle-shell branch-pr --agent opencode --scope user --pin 28d9341a901e9a8d1660af88724af3daf41382a3"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -3464,7 +3464,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout ccdcf3b1079e1b39e02421338773e50ce748ad2a\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/branch-pr ~/.config/opencode/skills/branch-pr"
+            "code": "git clone https://github.com/Gentleman-Programming/gentle-shell.git skill-src\ngit -C skill-src checkout 28d9341a901e9a8d1660af88724af3daf41382a3\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/branch-pr ~/.config/opencode/skills/branch-pr"
           }
         ]
       },
@@ -4958,8 +4958,8 @@
   },
   "EL4CTEO/blender-skills": {
     "v": 4,
-    "pushed_at": "2026-11-17T15:20:14Z",
-    "sha": "9e7e04a603c125a0d17447ab97112fa70a865067",
+    "pushed_at": "2026-11-21T14:35:50Z",
+    "sha": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
     "compat": {
       "claude": {
         "status": "ready",
@@ -5026,7 +5026,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs blender-addon-development. Use another skill name from the list to install a different one.",
-            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent claude-code --scope user --pin 9e7e04a603c125a0d17447ab97112fa70a865067"
+            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent claude-code --scope user --pin 1a1cc6c49312f9f370aae86f52b7b907f29c94f6"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -5036,7 +5036,7 @@
           {
             "title": "Copy it yourself into ~/.claude/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 9e7e04a603c125a0d17447ab97112fa70a865067\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/blender-addon-development ~/.claude/skills/blender-addon-development"
+            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 1a1cc6c49312f9f370aae86f52b7b907f29c94f6\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/blender-addon-development ~/.claude/skills/blender-addon-development"
           }
         ]
       },
@@ -5047,7 +5047,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs blender-addon-development. Use another skill name from the list to install a different one.",
-            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent codex --scope user --pin 9e7e04a603c125a0d17447ab97112fa70a865067"
+            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent codex --scope user --pin 1a1cc6c49312f9f370aae86f52b7b907f29c94f6"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -5057,7 +5057,7 @@
           {
             "title": "Copy it yourself into ~/.agents/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 9e7e04a603c125a0d17447ab97112fa70a865067\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/blender-addon-development ~/.agents/skills/blender-addon-development"
+            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 1a1cc6c49312f9f370aae86f52b7b907f29c94f6\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/blender-addon-development ~/.agents/skills/blender-addon-development"
           }
         ]
       },
@@ -5068,7 +5068,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs blender-addon-development. Use another skill name from the list to install a different one.",
-            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent cursor --scope user --pin 9e7e04a603c125a0d17447ab97112fa70a865067"
+            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent cursor --scope user --pin 1a1cc6c49312f9f370aae86f52b7b907f29c94f6"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -5078,7 +5078,7 @@
           {
             "title": "Copy it yourself into ~/.cursor/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 9e7e04a603c125a0d17447ab97112fa70a865067\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/blender-addon-development ~/.cursor/skills/blender-addon-development"
+            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 1a1cc6c49312f9f370aae86f52b7b907f29c94f6\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/blender-addon-development ~/.cursor/skills/blender-addon-development"
           }
         ]
       },
@@ -5089,7 +5089,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs blender-addon-development. Use another skill name from the list to install a different one.",
-            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent github-copilot --scope user --pin 9e7e04a603c125a0d17447ab97112fa70a865067"
+            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent github-copilot --scope user --pin 1a1cc6c49312f9f370aae86f52b7b907f29c94f6"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -5099,7 +5099,7 @@
           {
             "title": "Copy it yourself into ~/.copilot/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 9e7e04a603c125a0d17447ab97112fa70a865067\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/blender-addon-development ~/.copilot/skills/blender-addon-development"
+            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 1a1cc6c49312f9f370aae86f52b7b907f29c94f6\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/blender-addon-development ~/.copilot/skills/blender-addon-development"
           }
         ]
       },
@@ -5115,7 +5115,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs blender-addon-development. Use another skill name from the list to install a different one.",
-            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent gemini-cli --scope user --pin 9e7e04a603c125a0d17447ab97112fa70a865067"
+            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent gemini-cli --scope user --pin 1a1cc6c49312f9f370aae86f52b7b907f29c94f6"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -5125,7 +5125,7 @@
           {
             "title": "Copy it yourself into ~/.gemini/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 9e7e04a603c125a0d17447ab97112fa70a865067\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/blender-addon-development ~/.gemini/skills/blender-addon-development"
+            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 1a1cc6c49312f9f370aae86f52b7b907f29c94f6\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/blender-addon-development ~/.gemini/skills/blender-addon-development"
           }
         ]
       },
@@ -5136,7 +5136,7 @@
           {
             "title": "GitHub CLI (made by GitHub)",
             "note": "Installs blender-addon-development. Use another skill name from the list to install a different one.",
-            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent opencode --scope user --pin 9e7e04a603c125a0d17447ab97112fa70a865067"
+            "code": "gh skill install EL4CTEO/blender-skills blender-addon-development --agent opencode --scope user --pin 1a1cc6c49312f9f370aae86f52b7b907f29c94f6"
           },
           {
             "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
@@ -5146,7 +5146,7 @@
           {
             "title": "Copy it yourself into ~/.config/opencode/skills",
             "note": "Pinned to the exact version we checked. Open a new session afterwards.",
-            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 9e7e04a603c125a0d17447ab97112fa70a865067\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/blender-addon-development ~/.config/opencode/skills/blender-addon-development"
+            "code": "git clone https://github.com/EL4CTEO/blender-skills.git skill-src\ngit -C skill-src checkout 1a1cc6c49312f9f370aae86f52b7b907f29c94f6\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/blender-addon-development ~/.config/opencode/skills/blender-addon-development"
           }
         ]
       },
@@ -5658,6 +5658,243 @@
       }
     },
     "guide": [],
+    "marketplace": null
+  },
+  "sybil-solutions/inference-optimisation-skill": {
+    "v": 4,
+    "pushed_at": "2026-11-16T18:40:08Z",
+    "sha": "fda968e7fc1996aa23c67139c755fe541c9d4be0",
+    "compat": {
+      "claude": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "codex": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "cursor": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "copilot": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "opencode": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "claudeai": {
+        "status": "ready",
+        "checked": 1,
+        "fails": []
+      },
+      "gemini": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      },
+      "windsurf": {
+        "status": "unchecked",
+        "checked": 0,
+        "fails": []
+      }
+    },
+    "files": {
+      "total": 13,
+      "scripts": [
+        "skills/inference-optimisation/scripts/bench.py",
+        "skills/inference-optimisation/scripts/ceiling.py",
+        "skills/inference-optimisation/scripts/mem.sh",
+        "skills/inference-optimisation/scripts/queue.sh"
+      ],
+      "script_count": 4
+    },
+    "repo": "inference-optimisation-skill",
+    "skill": "inference-optimisation",
+    "install": {
+      "claude": {
+        "label": "Claude Code",
+        "verified": true,
+        "methods": [
+          {
+            "title": "GitHub CLI (made by GitHub)",
+            "note": null,
+            "code": "gh skill install sybil-solutions/inference-optimisation-skill inference-optimisation --agent claude-code --scope user --pin fda968e7fc1996aa23c67139c755fe541c9d4be0"
+          },
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a claude-code -g"
+          },
+          {
+            "title": "Copy it yourself into ~/.claude/skills",
+            "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git skill-src\ngit -C skill-src checkout fda968e7fc1996aa23c67139c755fe541c9d4be0\nmkdir -p ~/.claude/skills\ncp -r skill-src/skills/inference-optimisation ~/.claude/skills/inference-optimisation"
+          }
+        ]
+      },
+      "codex": {
+        "label": "Codex",
+        "verified": true,
+        "methods": [
+          {
+            "title": "GitHub CLI (made by GitHub)",
+            "note": null,
+            "code": "gh skill install sybil-solutions/inference-optimisation-skill inference-optimisation --agent codex --scope user --pin fda968e7fc1996aa23c67139c755fe541c9d4be0"
+          },
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a codex -g"
+          },
+          {
+            "title": "Copy it yourself into ~/.agents/skills",
+            "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git skill-src\ngit -C skill-src checkout fda968e7fc1996aa23c67139c755fe541c9d4be0\nmkdir -p ~/.agents/skills\ncp -r skill-src/skills/inference-optimisation ~/.agents/skills/inference-optimisation"
+          }
+        ]
+      },
+      "cursor": {
+        "label": "Cursor",
+        "verified": true,
+        "methods": [
+          {
+            "title": "GitHub CLI (made by GitHub)",
+            "note": null,
+            "code": "gh skill install sybil-solutions/inference-optimisation-skill inference-optimisation --agent cursor --scope user --pin fda968e7fc1996aa23c67139c755fe541c9d4be0"
+          },
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a cursor -g"
+          },
+          {
+            "title": "Copy it yourself into ~/.cursor/skills",
+            "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git skill-src\ngit -C skill-src checkout fda968e7fc1996aa23c67139c755fe541c9d4be0\nmkdir -p ~/.cursor/skills\ncp -r skill-src/skills/inference-optimisation ~/.cursor/skills/inference-optimisation"
+          }
+        ]
+      },
+      "copilot": {
+        "label": "GitHub Copilot",
+        "verified": true,
+        "methods": [
+          {
+            "title": "GitHub CLI (made by GitHub)",
+            "note": null,
+            "code": "gh skill install sybil-solutions/inference-optimisation-skill inference-optimisation --agent github-copilot --scope user --pin fda968e7fc1996aa23c67139c755fe541c9d4be0"
+          },
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a github-copilot -g"
+          },
+          {
+            "title": "Copy it yourself into ~/.copilot/skills",
+            "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git skill-src\ngit -C skill-src checkout fda968e7fc1996aa23c67139c755fe541c9d4be0\nmkdir -p ~/.copilot/skills\ncp -r skill-src/skills/inference-optimisation ~/.copilot/skills/inference-optimisation"
+          }
+        ]
+      },
+      "gemini": {
+        "label": "Gemini CLI",
+        "verified": true,
+        "methods": [
+          {
+            "title": "Gemini CLI (built in)",
+            "note": null,
+            "code": "gemini skills install https://github.com/sybil-solutions/inference-optimisation-skill.git --scope user --path skills/inference-optimisation"
+          },
+          {
+            "title": "GitHub CLI (made by GitHub)",
+            "note": null,
+            "code": "gh skill install sybil-solutions/inference-optimisation-skill inference-optimisation --agent gemini-cli --scope user --pin fda968e7fc1996aa23c67139c755fe541c9d4be0"
+          },
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a gemini-cli -g"
+          },
+          {
+            "title": "Copy it yourself into ~/.gemini/skills",
+            "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git skill-src\ngit -C skill-src checkout fda968e7fc1996aa23c67139c755fe541c9d4be0\nmkdir -p ~/.gemini/skills\ncp -r skill-src/skills/inference-optimisation ~/.gemini/skills/inference-optimisation"
+          }
+        ]
+      },
+      "opencode": {
+        "label": "OpenCode",
+        "verified": true,
+        "methods": [
+          {
+            "title": "GitHub CLI (made by GitHub)",
+            "note": null,
+            "code": "gh skill install sybil-solutions/inference-optimisation-skill inference-optimisation --agent opencode --scope user --pin fda968e7fc1996aa23c67139c755fe541c9d4be0"
+          },
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a opencode -g"
+          },
+          {
+            "title": "Copy it yourself into ~/.config/opencode/skills",
+            "note": "Pinned to the exact version we checked. Open a new session afterwards.",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill.git skill-src\ngit -C skill-src checkout fda968e7fc1996aa23c67139c755fe541c9d4be0\nmkdir -p ~/.config/opencode/skills\ncp -r skill-src/skills/inference-optimisation ~/.config/opencode/skills/inference-optimisation"
+          }
+        ]
+      },
+      "windsurf": {
+        "label": "Windsurf",
+        "verified": false,
+        "methods": [
+          {
+            "title": "npx skills (third-party installer, needs Node 22.20 or newer)",
+            "note": null,
+            "code": "npx skills add sybil-solutions/inference-optimisation-skill -a windsurf -g"
+          }
+        ]
+      },
+      "claudeai": {
+        "label": "Claude.ai (website)",
+        "verified": true,
+        "methods": [
+          {
+            "title": "Upload as a zip",
+            "note": "Zip the skill folder so the folder itself is at the top of the zip, then upload it in Customize > Skills. Code execution must be on. Skills you upload here do not sync to Claude Code.",
+            "code": null
+          }
+        ]
+      }
+    },
+    "guide": [
+      {
+        "heading": "Install",
+        "steps": [
+          {
+            "text": "Claude Code (user-level):",
+            "code": "git clone https://github.com/sybil-solutions/inference-optimisation-skill\nmkdir -p ~/.claude/skills\ncp -r inference-optimisation-skill/skills/inference-optimisation ~/.claude/skills/",
+            "lang": "bash"
+          }
+        ]
+      },
+      {
+        "heading": "Quick start without an agent",
+        "steps": [
+          {
+            "text": "",
+            "code": "S=skills/inference-optimisation\npython3 $S/scripts/ceiling.py $S/examples/ceiling-ornith-b390.json        # ceilings\nmkdir -p configs && cp $S/examples/config-existing-server.json configs/base.json   # edit base_url/model\npython3 $S/scripts/bench.py run configs/base.json --long 131072            # one run\nbash $S/scripts/queue.sh base cand base                                     # interleaved A/B\npython3 $S/scripts/bench.py show                                            # ledger table",
+            "lang": "bash"
+          }
+        ]
+      }
+    ],
     "marketplace": null
   }
 }
