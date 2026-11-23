@@ -1,0 +1,19 @@
+{
+  "readme_hash": "bb01b517e06c957bb8bc17a78de2f99243e98014",
+  "generated": "2026-11-23T05:43:08.989Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "rust-anything helps you rewrite an existing application in Rust incrementally. It records the original program's behavior on many inputs, generates a Rust crate with a compatible API, lets you or an AI agent implement each piece in Rust, and verifies every change against the recordings before promoting the code to production.",
+    "why_trending": "Version 2.0 was released with a showcase port of Prettier that runs 19× faster while producing byte-identical output, and the project was featured as the #1 Rust repository of the day on Trendshift, driving a surge of 8,000 stars in six days.",
+    "who_its_for": "Developers and teams who want to migrate CLIs, servers, or libraries from TypeScript, Python, Go, Ruby, Java, or C to Rust with verified behavioral equivalence.",
+    "beginner_friendly": false,
+    "difficulty": "hard",
+    "tags": [
+      "rust",
+      "code-migration",
+      "cli",
+      "ffi",
+      "rewrite"
+    ]
+  }
+}

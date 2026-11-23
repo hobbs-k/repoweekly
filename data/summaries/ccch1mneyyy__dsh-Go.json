@@ -1,0 +1,19 @@
+{
+  "readme_hash": "0d1aca5a4e396f1ba30ed941078373119b266dbb",
+  "generated": "2026-11-23T05:43:59.593Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "dsh-go is an Android app that runs DeepSeek Harness locally on your phone without root or Termux, and can also remote-control a desktop instance of the same AI coding agent.",
+    "why_trending": "The project released its Android version and was ranked #1 on Trendshift's daily leaderboard, driving a large star surge in a short time.",
+    "who_its_for": "Developers who want to use the DeepSeek Harness AI coding agent on mobile or control their desktop agent from their phone.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "android",
+      "flutter",
+      "ai-agent",
+      "deepseek",
+      "coding-agent"
+    ]
+  }
+}

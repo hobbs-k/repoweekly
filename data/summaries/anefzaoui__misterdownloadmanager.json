@@ -1,0 +1,19 @@
+{
+  "readme_hash": "ff382f53009239e5481b7083131c8ec65f4d5140",
+  "generated": "2026-11-23T05:44:14.033Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Mister Download Manager is a free, open-source download manager written in Rust for Windows, macOS, and Linux. It supports HTTP, BitTorrent, magnet links, video downloading, and debrid services, and includes browser extensions.",
+    "why_trending": "It is a new, feature-rich, free alternative to Internet Download Manager with torrent and video downloading support, written in Rust, which has attracted rapid attention.",
+    "who_its_for": "Users who want a free, cross-platform download manager with torrent and video downloading capabilities.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "download-manager",
+      "rust",
+      "egui",
+      "torrent-client",
+      "video-downloader"
+    ]
+  }
+}

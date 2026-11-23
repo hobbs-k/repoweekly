@@ -1,0 +1,19 @@
+{
+  "readme_hash": "2dd68b088be26ca8f13046ddf296235134d1dba4",
+  "generated": "2026-11-23T05:45:10.912Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A command-line tool that makes a MacBook's Force Touch trackpad produce audible speech and sound by driving its haptic motor up to 4,000 times per second, using macOS's private MultitouchSupport framework.",
+    "why_trending": "New project (0 days old) demonstrating a novel technique to turn a trackpad's haptic motor into a speaker for voice synthesis, gaining rapid attention for its clever use of private APIs and single-file Swift implementation.",
+    "who_its_for": "MacBook users with Force Touch trackpads (2015 or later) who want to experiment with haptic audio, and developers interested in low-level macOS haptics.",
+    "beginner_friendly": false,
+    "difficulty": "easy",
+    "tags": [
+      "haptics",
+      "macos",
+      "swift",
+      "trackpad",
+      "audio"
+    ]
+  }
+}

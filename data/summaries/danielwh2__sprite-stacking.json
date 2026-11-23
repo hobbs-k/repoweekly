@@ -1,0 +1,19 @@
+{
+  "readme_hash": "f816bb2948e5ce13262c3b904ffee67ebeb14b77",
+  "generated": "2026-11-23T05:44:46.742Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "An agent skill that converts four orthographic pixel art views (top, side, front, back) into a rotatable fake-3D sprite using voxel carving and slice rendering. It works with AI coding assistants like Claude Code, Codex, and Cursor.",
+    "why_trending": "New project (2 days old) that gained 477 stars in a single day, likely due to its AI-agent integration for turning 2D pixel art into interactive 3D-like sprites with a feature-rich viewer.",
+    "who_its_for": "Game developers, pixel artists, and AI-assisted coding users who want to create rotatable fake-3D assets from 2D pixel art.",
+    "beginner_friendly": true,
+    "difficulty": "medium",
+    "tags": [
+      "agent-skills",
+      "pixel-art",
+      "fake-3d",
+      "gamedev",
+      "sprite-stacking"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "readme_hash": "35cfbc1a16a9d89b0a6efb2d0009e6a7256c5ee5",
+  "generated": "2026-11-23T05:43:45.793Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Craft Anything is an open-source, clean-room engine written in Rust that inspects websites, apps, or games with real tools, then uses a coding agent to build a new version in the stack you choose, checks the result against the original, and refines it until it matches closely.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Developers, hobbyists, and creators who want to understand how existing software works and build their own versions with AI assistance.",
+    "beginner_friendly": false,
+    "difficulty": "hard",
+    "tags": [
+      "rust",
+      "ai",
+      "code-generation",
+      "reverse-engineering",
+      "cross-platform"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "week": "2026-W47",
+  "full_name": "ItsNotRexed/Leonida",
+  "generated": "2026-11-23T05:46:45.143Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "overview": "Leonida is a static recompilation project that aims to run the Xbox Series version of Grand Theft Auto VI natively on Windows by translating GPU shaders to Vulkan and reimplementing console system software. A learner can study how console-to-PC recompilation works, including shader translation from RDNA2 to SPIR-V, asset extraction from game archives, and low-level graphics pipeline construction.",
+  "how_to_start": [
+    "Obtain your own copy of Grand Theft Auto VI for Xbox Series (version 1.0.2.1) with files readable on disk.",
+    "Check the README section \"How to build\" (linked as #how-to-build) for build instructions.",
+    "Review the project status table to understand what components work (shader translation, model/texture export) and what does not (booting, playable game).",
+    "Join the Discord (https://discord.gg/rexed) for developer discussion and support."
+  ],
+  "read_these": [
+    {
+      "what": "docs/design.md",
+      "why": "Explains the wave-size flag and shader translation details mentioned in the status table."
+    },
+    {
+      "what": "docs/models.md",
+      "why": "Documents model export scope, archive re-counts, and decoder pins for asset extraction."
+    },
+    {
+      "what": "docs/textures.md",
+      "why": "Covers texture dictionary export, BCPack decoding, and BC6H/BC7 handling notes."
+    },
+    {
+      "what": "Project status table in README",
+      "why": "Shows exactly which components are working (shaders, models, textures) and which are not (booting)."
+    },
+    {
+      "what": "Issue #166 (GPU test results)",
+      "why": "Lists validated GPU/driver combinations for the hand-written shader tests."
+    }
+  ],
+  "first_contributions": [
+    "Wire the clean-room BCPack decoder (tools/bcpack.py) into rpf9dump for BC6H/BC7 texture support.",
+    "Complete the full OBJ export of the levels.rpf archive (343,327 models pending).",
+    "Improve wave64 emulation for cross-half wave ops in vertex, pixel, and geometry shaders on 32-wide subgroup hardware.",
+    "Add missing model layout decoders noted as \"Not all layouts are decoded yet\"."
+  ],
+  "watch_out": [
+    "Project is 2 days old — extremely early stage with rapid changes likely.",
+    "Game does not boot yet; no playable state exists.",
+    "Open good-first-issue count is 0; newcomers must identify work from documentation and status gaps.",
+    "Requires owning a specific Xbox Series game version (1.0.2.1); no game files, keys, or executables are provided."
+  ]
+}

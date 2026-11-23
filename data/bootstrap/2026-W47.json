@@ -1,0 +1,72 @@
+{
+  "week": "2026-W47",
+  "source": "github.com/trending?since=weekly",
+  "fetched": "2026-11-23T05:10:40.099Z",
+  "repos": [
+    {
+      "full_name": "backnotprop/plannotator",
+      "stars_this_week": 2815,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "stars_this_week": 2683,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "stars_this_week": 3575,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "alibaba/open-code-review",
+      "stars_this_week": 3700,
+      "language": "Go"
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "stars_this_week": 4731,
+      "language": "Python"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "stars_this_week": 2268,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "tradermonty/claude-trading-skills",
+      "stars_this_week": 2616,
+      "language": "Python"
+    },
+    {
+      "full_name": "ag-ui-protocol/ag-ui",
+      "stars_this_week": 3620,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "meta/astryx",
+      "stars_this_week": 3626,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "pookjw/HermesEnabler",
+      "stars_this_week": 461,
+      "language": "Objective-C"
+    },
+    {
+      "full_name": "we-promise/sure",
+      "stars_this_week": 1771,
+      "language": "Ruby"
+    },
+    {
+      "full_name": "dream-num/univer",
+      "stars_this_week": 6436,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "kajisho5/ffmpeg-skill",
+      "stars_this_week": 3748,
+      "language": "Python"
+    }
+  ]
+}

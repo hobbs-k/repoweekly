@@ -1,0 +1,19 @@
+{
+  "readme_hash": "f7d29a66d2ead89ad981decc687847f5e75e0561",
+  "generated": "2026-11-23T05:43:51.997Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Orca is an open-source agent IDE that lets you run and orchestrate a fleet of AI bots using your own subscriptions (like Claude Code or Codex) across desktop, mobile, and remote machines. It supports chat and terminal interfaces, parallel worker agents, code review tools, and a mobile companion app for notifications and remote control.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Developers who want to manage and coordinate multiple AI coding agents across different environments with a unified interface.",
+    "beginner_friendly": true,
+    "difficulty": "medium",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "automation",
+      "terminal",
+      "mobile-app"
+    ]
+  }
+}

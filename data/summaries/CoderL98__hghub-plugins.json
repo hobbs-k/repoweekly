@@ -1,0 +1,19 @@
+{
+  "readme_hash": "d6b47ed58bb3e78bb8ffa30b619938a4c01d552a",
+  "generated": "2026-11-23T05:45:03.792Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A collection of 21 single-file HPP 1.0 plugins for the HGhub app that provide video sources for movies, anime, short dramas, and adult content.",
+    "why_trending": "New project offering a large set of ready-to-use HGhub plugins, attracting quick interest from users of the video streaming app.",
+    "who_its_for": "HGHUB users who want to add more video sources, and developers learning HPP plugin development.",
+    "beginner_friendly": false,
+    "difficulty": "easy",
+    "tags": [
+      "hghub",
+      "plugins",
+      "video",
+      "javascript",
+      "hpp"
+    ]
+  }
+}

@@ -1,20 +1,19 @@
 {
-  "readme_hash": "8b5baed983477c6e47d1425ef88cfc79101d9a74",
-  "generated": "2026-11-10T19:55:20.100Z",
+  "readme_hash": "44cfed83b927ff150dc04c4fdf070c4e51eede20",
+  "generated": "2026-11-23T05:42:06.476Z",
   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
   "summary": {
-    "what_it_is": "T3 Code is an open-source tool that lets you control AI coding agents like Claude Code, Codex, and Cursor from a mobile app, web app, or desktop app. It works with your existing subscriptions and runs a local server on your machine.",
-    "why_trending": "The project is gaining attention because it provides a unified remote interface for multiple popular AI coding agents, a topic that is currently very popular among developers.",
-    "who_its_for": "Developers who use AI coding assistants and want to manage them from their phone or another device.",
-    "beginner_friendly": false,
+    "what_it_is": "T3 Code is an open-source control plane that runs coding agents like Claude Code, Codex, and Cursor on your machine and gives them a single fast interface across desktop, web, and phone. You can start a thread on your computer and approve the next step from your phone.",
+    "why_trending": "No clear reason in the project's own text.",
+    "who_its_for": "Developers who use AI coding agents and want a unified, remote-ready interface to control them from any device.",
+    "beginner_friendly": true,
     "difficulty": "medium",
     "tags": [
-      "ai-agents",
-      "remote-control",
-      "mobile-app",
-      "desktop-app",
+      "ai",
+      "agents",
+      "coding",
+      "remote",
       "typescript"
-    ],
-    "urdu": "T3 Code ایک اوپن سورس ٹول ہے جو آپ کو کلود کوڈ، کوڈیکس، اور کرسر جیسی AI کوڈنگ ایجنٹس کو موبائل ایپ، ویب ایپ، یا ڈیسک ٹاپ ایپ سے کنٹرول کرنے کی اجازت دیتا ہے۔ یہ آپ کی موجودہ سبسکرپشنز کے ساتھ کام کرتا ہے اور آپ کی مشین پر ایک لوکل سرور چلاتا ہے۔ یہ پروجیکٹ اس لیے مقبول ہو رہا ہے کیونکہ یہ متعدد مشہور AI کوڈنگ ایجنٹس کے لیے ایک متحدہ ریموٹ انٹرفیس فراہم کرتا ہے، جو ڈویلپرز میں ابھی بہت چل رہا ہے۔"
+    ]
   }
 }

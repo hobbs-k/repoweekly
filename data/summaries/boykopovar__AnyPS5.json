@@ -1,0 +1,19 @@
+{
+  "readme_hash": "60c9d1f707523abd6c77d8834392d35220e6e954",
+  "generated": "2026-11-23T05:44:26.539Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "AnyPS5 is a tool that automatically ports PS5 executables to run natively on Linux and Windows by converting the executable format and providing implementations of PS5 system libraries for dynamic linking, without emulation.",
+    "why_trending": "The project has seen rapid growth in stars due to its novel approach to PS5 game porting, a web-based converter, and active development with visible progress tracking.",
+    "who_its_for": "Developers and researchers working on PS5 game preservation, interoperability, and porting to PC platforms.",
+    "beginner_friendly": false,
+    "difficulty": "hard",
+    "tags": [
+      "ps5",
+      "game-porting",
+      "vulkan",
+      "spir-v",
+      "relinker"
+    ]
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "week": "2026-W47",
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "generated": "2026-11-23T05:10:57.104Z",
+  "growth_source": "snapshots",
+  "license": "Data is free to use. A link back to RepoWeekly is appreciated.",
+  "top": [
+    {
+      "rank": 1,
+      "full_name": "ItsNotRexed/Leonida",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "avatar": "https://avatars.githubusercontent.com/u/300290919?v=4",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "language": "Python",
+      "topics": [],
+      "stars_total": 15784,
+      "stars_gained": 15784,
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        6314,
+        0,
+        9470
+      ],
+      "spike": false,
+      "signals": {
+        "license": "GPL-3.0",
+        "last_push": "2026-11-23",
+        "open_issues": 1492,
+        "contributors": 392,
+        "good_first_issues": 0,
+        "age_days": 2
+      },
+      "summary": {
+        "what_it_is": "Leonida lets you build and run Grand Theft Auto VI for Xbox Series natively on Windows from your own game files. It recompiles the game code, reimplements console system software, and translates GPU shaders to Vulkan.",
+        "why_trending": "The project is only two days old and gained over 15,000 stars in one week, likely because it is a native PC port project for Grand Theft Auto VI.",
+        "who_its_for": "Developers and enthusiasts interested in running Xbox Series games on PC or working on low-level recompilation and shader translation.",
+        "beginner_friendly": false,
+        "difficulty": "hard",
+        "tags": [
+          "gta",
+          "recompilation",
+          "xbox",
+          "vulkan"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "full_name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "language": "TypeScript",
+      "topics": [
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "code",
+        "vibe-coding"
+      ],
+      "stars_total": 71966,
+      "stars_gained": 10307,
+      "daily_gains": [
+        1250,
+        1320,
+        1106,
+        1203,
+        1440,
+        1691,
+        2297
+      ],
+      "spike": false,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-23",
+        "open_issues": 3780,
+        "contributors": 1309,
+        "good_first_issues": 0,
+        "age_days": 287
+      },
+      "summary": {
+        "what_it_is": "T3 Code is an open-source control plane that runs coding agents like Claude Code, Codex, and Cursor on your machine and gives them a single fast interface across desktop, web, and phone. You can start a thread on your computer and approve the next step from your phone.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "Developers who use AI coding agents and want a unified, remote-ready interface to control them from any device.",
+        "beginner_friendly": true,
+        "difficulty": "medium",
+        "tags": [
+          "ai",
+          "agents",
+          "coding",
+          "remote",
+          "typescript"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "avatar": "https://avatars.githubusercontent.com/u/245557608?v=4",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "stars_total": 84083,
+      "stars_gained": 8110,
+      "daily_gains": [
+        1462,
+        1250,
+        1238,
+        1171,
+        1073,
+        1010,
+        906
+      ],
+      "spike": false,
+      "signals": {
+        "license": "Other",
+        "last_push": "2026-11-23",
+        "open_issues": 229,
+        "contributors": 42,
+        "good_first_issues": 0,
+        "age_days": 59
+      },
+      "summary": {
+        "what_it_is": "A plugin for DeepSeek Harness (dsh) that gives free, unlimited access to frontier AI models like DeepSeek V4.1 Flash and Kimi K3 without requiring login, registration, or API keys. It mounts as a zero-dependency, no-build-step plugin and provides an OpenAI-compatible local gateway.",
+        "why_trending": "The project is ranked #1 on GitHub Trending daily and #1 on Trendshift's JavaScript weekly list (Oct 5–11, 2026), gaining over 8,000 stars in a single week while being only 59 days old.",
+        "who_its_for": "Developers using dsh who want immediate, free access to multiple AI models without managing accounts or API keys.",
+        "beginner_friendly": false,
+        "difficulty": "easy",
+        "tags": [
+          "dsh-plugin",
+          "free-llm",
+          "deepseek",
+          "openai-compatible",
+          "zero-dependency"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "full_name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "avatar": "https://avatars.githubusercontent.com/u/88717125?v=4",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration",
+        "codex",
+        "ffi",
+        "golang",
+        "java",
+        "javascript",
+        "mcp",
+        "migration",
+        "napi",
+        "performance",
+        "porting",
+        "pyo3",
+        "python",
+        "rewrite",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "stars_total": 8057,
+      "stars_gained": 8057,
+      "daily_gains": [
+        1487,
+        0,
+        1988,
+        1834,
+        1403,
+        766,
+        579
+      ],
+      "spike": false,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-22",
+        "open_issues": 6,
+        "contributors": 23,
+        "good_first_issues": 0,
+        "age_days": 6
+      },
+      "summary": {
+        "what_it_is": "rust-anything helps you rewrite an existing application in Rust incrementally. It records the original program's behavior on many inputs, generates a Rust crate with a compatible API, lets you or an AI agent implement each piece in Rust, and verifies every change against the recordings before promoting the code to production.",
+        "why_trending": "Version 2.0 was released with a showcase port of Prettier that runs 19× faster while producing byte-identical output, and the project was featured as the #1 Rust repository of the day on Trendshift, driving a surge of 8,000 stars in six days.",
+        "who_its_for": "Developers and teams who want to migrate CLIs, servers, or libraries from TypeScript, Python, Go, Ruby, Java, or C to Rust with verified behavioral equivalence.",
+        "beginner_friendly": false,
+        "difficulty": "hard",
+        "tags": [
+          "rust",
+          "code-migration",
+          "cli",
+          "ffi",
+          "rewrite"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "full_name": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "language": "Rust",
+      "topics": [],
+      "stars_total": 41305,
+      "stars_gained": 7423,
+      "daily_gains": [
+        997,
+        968,
+        1345,
+        1414,
+        0,
+        1811,
+        888
+      ],
+      "spike": false,
+      "signals": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-23",
+        "open_issues": 520,
+        "contributors": 113,
+        "good_first_issues": 0,
+        "age_days": 22
+      },
+      "summary": {
+        "what_it_is": "Craft Anything is an open-source, clean-room engine written in Rust that inspects websites, apps, or games with real tools, then uses a coding agent to build a new version in the stack you choose, checks the result against the original, and refines it until it matches closely.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "Developers, hobbyists, and creators who want to understand how existing software works and build their own versions with AI assistance.",
+        "beginner_friendly": false,
+        "difficulty": "hard",
+        "tags": [
+          "rust",
+          "ai",
+          "code-generation",
+          "reverse-engineering",
+          "cross-platform"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "full_name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-ide",
+        "ai-agents",
+        "automation",
+        "bot",
+        "claude-code",
+        "codex",
+        "ghostty",
+        "grok-bot",
+        "hermes-agent",
+        "mobile-app",
+        "muse",
+        "openclaw",
+        "opencode",
+        "orchestration",
+        "pi",
+        "runtime",
+        "swarm",
+        "terminal",
+        "worktrees",
+        "yc-backed"
+      ],
+      "stars_total": 133179,
+      "stars_gained": 7304,
+      "daily_gains": [
+        978,
+        1099,
+        1040,
+        997,
+        0,
+        2066,
+        1124
+      ],
+      "spike": false,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-23",
+        "open_issues": 9076,
+        "contributors": 767,
+        "good_first_issues": 5,
+        "age_days": 250
+      },
+      "summary": {
+        "what_it_is": "Orca is an open-source agent IDE that lets you run and orchestrate a fleet of AI bots using your own subscriptions (like Claude Code or Codex) across desktop, mobile, and remote machines. It supports chat and terminal interfaces, parallel worker agents, code review tools, and a mobile companion app for notifications and remote control.",
+        "why_trending": "No clear reason in the project's own text.",
+        "who_its_for": "Developers who want to manage and coordinate multiple AI coding agents across different environments with a unified interface.",
+        "beginner_friendly": true,
+        "difficulty": "medium",
+        "tags": [
+          "ai-agents",
+          "orchestration",
+          "automation",
+          "terminal",
+          "mobile-app"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "avatar": "https://avatars.githubusercontent.com/u/268149062?v=4",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "stars_total": 30244,
+      "stars_gained": 6380,
+      "daily_gains": [
+        1025,
+        1250,
+        1170,
+        972,
+        771,
+        591,
+        601
+      ],
+      "spike": false,
+      "signals": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-23",
+        "open_issues": 882,
+        "contributors": 1,
+        "good_first_issues": 0,
+        "age_days": 28
+      },
+      "summary": {
+        "what_it_is": "dsh-go is an Android app that runs DeepSeek Harness locally on your phone without root or Termux, and can also remote-control a desktop instance of the same AI coding agent.",
+        "why_trending": "The project released its Android version and was ranked #1 on Trendshift's daily leaderboard, driving a large star surge in a short time.",
+        "who_its_for": "Developers who want to use the DeepSeek Harness AI coding agent on mobile or control their desktop agent from their phone.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "android",
+          "flutter",
+          "ai-agent",
+          "deepseek",
+          "coding-agent"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "full_name": "anefzaoui/misterdownloadmanager",
+      "url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "avatar": "https://avatars.githubusercontent.com/u/1832078?v=4",
+      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "language": "Rust",
+      "topics": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager",
+        "downloadmanager",
+        "egui",
+        "file-downloader",
+        "gallery-dl",
+        "idm",
+        "idm-alternative",
+        "internet-download-manager",
+        "m3u8-downloader",
+        "magnet",
+        "playlist-downloader",
+        "real-debrid",
+        "rust",
+        "torrent-client",
+        "video-downloader",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "stars_total": 16674,
+      "stars_gained": 6180,
+      "daily_gains": [
+        717,
+        952,
+        939,
+        710,
+        525,
+        1333,
+        1004
+      ],
+      "spike": false,
+      "signals": {
+        "license": "GPL-3.0",
+        "last_push": "2026-11-23",
+        "open_issues": 120,
+        "contributors": 54,
+        "good_first_issues": 0,
+        "age_days": 24
+      },
+      "summary": {
+        "what_it_is": "Mister Download Manager is a free, open-source download manager written in Rust for Windows, macOS, and Linux. It supports HTTP, BitTorrent, magnet links, video downloading, and debrid services, and includes browser extensions.",
+        "why_trending": "It is a new, feature-rich, free alternative to Internet Download Manager with torrent and video downloading support, written in Rust, which has attracted rapid attention.",
+        "who_its_for": "Users who want a free, cross-platform download manager with torrent and video downloading capabilities.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "download-manager",
+          "rust",
+          "egui",
+          "torrent-client",
+          "video-downloader"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "full_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "avatar": "https://avatars.githubusercontent.com/u/184076081?v=4",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "topics": [
+        "anyps5",
+        "dynamic-library",
+        "game-porting",
+        "ps5",
+        "ps5-tools",
+        "spir-v",
+        "vulkan"
+      ],
+      "stars_total": 60321,
+      "stars_gained": 6091,
+      "daily_gains": [
+        322,
+        409,
+        1184,
+        1795,
+        915,
+        836,
+        630
+      ],
+      "spike": false,
+      "signals": {
+        "license": "GPL-2.0",
+        "last_push": "2026-11-23",
+        "open_issues": 2797,
+        "contributors": 1367,
+        "good_first_issues": 0,
+        "age_days": 111
+      },
+      "summary": {
+        "what_it_is": "AnyPS5 is a tool that automatically ports PS5 executables to run natively on Linux and Windows by converting the executable format and providing implementations of PS5 system libraries for dynamic linking, without emulation.",
+        "why_trending": "The project has seen rapid growth in stars due to its novel approach to PS5 game porting, a web-based converter, and active development with visible progress tracking.",
+        "who_its_for": "Developers and researchers working on PS5 game preservation, interoperability, and porting to PC platforms.",
+        "beginner_friendly": false,
+        "difficulty": "hard",
+        "tags": [
+          "ps5",
+          "game-porting",
+          "vulkan",
+          "spir-v",
+          "relinker"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "full_name": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "avatar": "https://avatars.githubusercontent.com/u/342439292?v=4",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "stars_total": 6824,
+      "stars_gained": 5871,
+      "daily_gains": [
+        139,
+        667,
+        1161,
+        1336,
+        1775,
+        434,
+        359
+      ],
+      "spike": false,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-23",
+        "open_issues": 438,
+        "contributors": 56,
+        "good_first_issues": 0,
+        "age_days": 24
+      },
+      "summary": {
+        "what_it_is": "SoduWork is a self-hosted AI-native engine that lets teams orchestrate multiple AI agents (harnesses) to do work, review it, and get human sign-off. It supports agents like Pi, OpenCode, Codex, and others, with built-in governance, plugin sharing, and verified delivery.",
+        "why_trending": "The project is only 24 days old and hit #1 on GitHub Trending, gaining over 5,800 stars this week, likely due to its novel multi-agent orchestration approach and public beta launch.",
+        "who_its_for": "Development teams and organizations that want to run and govern multiple AI agents locally with human-in-the-loop review.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "ai-agents",
+          "multi-agent",
+          "self-hosted",
+          "agent-orchestration",
+          "team-collaboration"
+        ]
+      }
+    }
+  ],
+  "gems": [
+    {
+      "rank": 1,
+      "full_name": "danielwh2/sprite-stacking",
+      "url": "https://github.com/danielwh2/sprite-stacking",
+      "avatar": "https://avatars.githubusercontent.com/u/51721416?v=4",
+      "description": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "cursor",
+        "fake-3d",
+        "gamedev",
+        "pixel-art",
+        "sprite-stacking",
+        "voxel"
+      ],
+      "stars_total": 477,
+      "stars_gained": 477,
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        380,
+        0,
+        97
+      ],
+      "spike": true,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-21",
+        "open_issues": 1,
+        "contributors": 2,
+        "good_first_issues": 0,
+        "age_days": 2
+      },
+      "summary": {
+        "what_it_is": "An agent skill that converts four orthographic pixel art views (top, side, front, back) into a rotatable fake-3D sprite using voxel carving and slice rendering. It works with AI coding assistants like Claude Code, Codex, and Cursor.",
+        "why_trending": "New project (2 days old) that gained 477 stars in a single day, likely due to its AI-agent integration for turning 2D pixel art into interactive 3D-like sprites with a feature-rich viewer.",
+        "who_its_for": "Game developers, pixel artists, and AI-assisted coding users who want to create rotatable fake-3D assets from 2D pixel art.",
+        "beginner_friendly": true,
+        "difficulty": "medium",
+        "tags": [
+          "agent-skills",
+          "pixel-art",
+          "fake-3d",
+          "gamedev",
+          "sprite-stacking"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "full_name": "Illson/RustText",
+      "url": "https://github.com/Illson/RustText",
+      "avatar": "https://avatars.githubusercontent.com/u/49603159?v=4",
+      "description": "Portable Windows text editor with Sublime Text-style multi-cursor editing, regex find and replace, split views, and a live viewer for large log files.",
+      "language": "C#",
+      "topics": [
+        "jsonl",
+        "large-files",
+        "log-viewer",
+        "portable",
+        "text-editor",
+        "windows"
+      ],
+      "stars_total": 470,
+      "stars_gained": 470,
+      "daily_gains": [
+        259,
+        0,
+        356,
+        0,
+        41,
+        21,
+        3
+      ],
+      "spike": false,
+      "signals": {
+        "license": null,
+        "last_push": "2026-11-22",
+        "open_issues": 1,
+        "contributors": 3,
+        "good_first_issues": 0,
+        "age_days": 6
+      },
+      "summary": {
+        "what_it_is": "RustText is a portable Windows text editor with Sublime Text-style multi-cursor editing, regex find and replace, split views, and a live viewer for large log files. It also includes workspaces, draft archives, local file history, and built-in tools like a proxy checker and list comparison.",
+        "why_trending": "The project is only 6 days old and has gained 470 stars this week, likely due to its recent release as a feature-rich portable editor for large logs and JSON files.",
+        "who_its_for": "Windows users who want a portable, Sublime-like editor with large log file support and built-in utilities.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "portable",
+          "text-editor",
+          "log-viewer",
+          "large-files",
+          "jsonl"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "full_name": "CoderL98/hghub-plugins",
+      "url": "https://github.com/CoderL98/hghub-plugins",
+      "avatar": "https://avatars.githubusercontent.com/u/39719083?v=4",
+      "description": "HGhub HPP 1.0 单文件插件与订阅源",
+      "language": "JavaScript",
+      "topics": [],
+      "stars_total": 467,
+      "stars_gained": 467,
+      "daily_gains": [
+        225,
+        0,
+        0,
+        0,
+        26,
+        121,
+        95
+      ],
+      "spike": false,
+      "signals": {
+        "license": null,
+        "last_push": "2026-11-16",
+        "open_issues": 4,
+        "contributors": 1,
+        "good_first_issues": 0,
+        "age_days": 6
+      },
+      "summary": {
+        "what_it_is": "A collection of 21 single-file HPP 1.0 plugins for the HGhub app that provide video sources for movies, anime, short dramas, and adult content.",
+        "why_trending": "New project offering a large set of ready-to-use HGhub plugins, attracting quick interest from users of the video streaming app.",
+        "who_its_for": "HGHUB users who want to add more video sources, and developers learning HPP plugin development.",
+        "beginner_friendly": false,
+        "difficulty": "easy",
+        "tags": [
+          "hghub",
+          "plugins",
+          "video",
+          "javascript",
+          "hpp"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "full_name": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "avatar": "https://avatars.githubusercontent.com/u/239950?v=4",
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "language": "Swift",
+      "topics": [
+        "haptics",
+        "macos",
+        "swift",
+        "trackpad"
+      ],
+      "stars_total": 467,
+      "stars_gained": 467,
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        467
+      ],
+      "spike": true,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-22",
+        "open_issues": 1,
+        "contributors": 1,
+        "good_first_issues": 0,
+        "age_days": 0
+      },
+      "summary": {
+        "what_it_is": "A command-line tool that makes a MacBook's Force Touch trackpad produce audible speech and sound by driving its haptic motor up to 4,000 times per second, using macOS's private MultitouchSupport framework.",
+        "why_trending": "New project (0 days old) demonstrating a novel technique to turn a trackpad's haptic motor into a speaker for voice synthesis, gaining rapid attention for its clever use of private APIs and single-file Swift implementation.",
+        "who_its_for": "MacBook users with Force Touch trackpads (2015 or later) who want to experiment with haptic audio, and developers interested in low-level macOS haptics.",
+        "beginner_friendly": false,
+        "difficulty": "easy",
+        "tags": [
+          "haptics",
+          "macos",
+          "swift",
+          "trackpad",
+          "audio"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "full_name": "sybil-solutions/skill-distill",
+      "url": "https://github.com/sybil-solutions/skill-distill",
+      "avatar": "https://avatars.githubusercontent.com/u/284200730?v=4",
+      "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
+      "language": "Python",
+      "topics": [],
+      "stars_total": 460,
+      "stars_gained": 460,
+      "daily_gains": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        375,
+        85
+      ],
+      "spike": true,
+      "signals": {
+        "license": "MIT",
+        "last_push": "2026-11-21",
+        "open_issues": 0,
+        "contributors": 1,
+        "good_first_issues": 0,
+        "age_days": 1
+      },
+      "summary": {
+        "what_it_is": "skill-distill is a skill for Claude Code or Codex that takes a successful coding session and distills it into a reusable skill so an open-weight model running in a different agent harness can reproduce the same task. It runs the student model repeatedly, compares its output to the reference, and iteratively fixes the skill until the student matches the reference.",
+        "why_trending": "The project is one day old and gained 460 stars in a single day, suggesting a new release attracted attention. The topic of distilling frontier-model capabilities into open-weight models is currently popular.",
+        "who_its_for": "Developers who use Claude Code or Codex and want to transfer successful workflows to open-weight models running in other agent harnesses.",
+        "beginner_friendly": false,
+        "difficulty": "medium",
+        "tags": [
+          "python",
+          "ai",
+          "llm",
+          "skill-distillation",
+          "claude-code"
+        ]
+      }
+    }
+  ]
+}

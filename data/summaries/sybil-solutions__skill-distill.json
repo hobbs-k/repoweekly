@@ -1,0 +1,19 @@
+{
+  "readme_hash": "0059ab1ba09b88292a1f8e224ceceeecead8b856",
+  "generated": "2026-11-23T05:45:17.144Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "skill-distill is a skill for Claude Code or Codex that takes a successful coding session and distills it into a reusable skill so an open-weight model running in a different agent harness can reproduce the same task. It runs the student model repeatedly, compares its output to the reference, and iteratively fixes the skill until the student matches the reference.",
+    "why_trending": "The project is one day old and gained 460 stars in a single day, suggesting a new release attracted attention. The topic of distilling frontier-model capabilities into open-weight models is currently popular.",
+    "who_its_for": "Developers who use Claude Code or Codex and want to transfer successful workflows to open-weight models running in other agent harnesses.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "python",
+      "ai",
+      "llm",
+      "skill-distillation",
+      "claude-code"
+    ]
+  }
+}

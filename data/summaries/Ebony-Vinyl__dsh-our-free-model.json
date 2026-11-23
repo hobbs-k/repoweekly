@@ -1,0 +1,19 @@
+{
+  "readme_hash": "4e81a85dd18a0389ce292d8279b1f03ef1b3615b",
+  "generated": "2026-11-23T05:42:32.777Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "A plugin for DeepSeek Harness (dsh) that gives free, unlimited access to frontier AI models like DeepSeek V4.1 Flash and Kimi K3 without requiring login, registration, or API keys. It mounts as a zero-dependency, no-build-step plugin and provides an OpenAI-compatible local gateway.",
+    "why_trending": "The project is ranked #1 on GitHub Trending daily and #1 on Trendshift's JavaScript weekly list (Oct 5–11, 2026), gaining over 8,000 stars in a single week while being only 59 days old.",
+    "who_its_for": "Developers using dsh who want immediate, free access to multiple AI models without managing accounts or API keys.",
+    "beginner_friendly": false,
+    "difficulty": "easy",
+    "tags": [
+      "dsh-plugin",
+      "free-llm",
+      "deepseek",
+      "openai-compatible",
+      "zero-dependency"
+    ]
+  }
+}

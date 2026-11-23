@@ -1,0 +1,19 @@
+{
+  "readme_hash": "95180125af82d95217d29c67229debdf7360a51b",
+  "generated": "2026-11-23T05:44:33.828Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "SoduWork is a self-hosted AI-native engine that lets teams orchestrate multiple AI agents (harnesses) to do work, review it, and get human sign-off. It supports agents like Pi, OpenCode, Codex, and others, with built-in governance, plugin sharing, and verified delivery.",
+    "why_trending": "The project is only 24 days old and hit #1 on GitHub Trending, gaining over 5,800 stars this week, likely due to its novel multi-agent orchestration approach and public beta launch.",
+    "who_its_for": "Development teams and organizations that want to run and govern multiple AI agents locally with human-in-the-loop review.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "ai-agents",
+      "multi-agent",
+      "self-hosted",
+      "agent-orchestration",
+      "team-collaboration"
+    ]
+  }
+}

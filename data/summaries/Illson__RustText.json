@@ -1,0 +1,19 @@
+{
+  "readme_hash": "483bcc2cbc8990d7a4505ae6b235896569643607",
+  "generated": "2026-11-23T05:44:55.061Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "RustText is a portable Windows text editor with Sublime Text-style multi-cursor editing, regex find and replace, split views, and a live viewer for large log files. It also includes workspaces, draft archives, local file history, and built-in tools like a proxy checker and list comparison.",
+    "why_trending": "The project is only 6 days old and has gained 470 stars this week, likely due to its recent release as a feature-rich portable editor for large logs and JSON files.",
+    "who_its_for": "Windows users who want a portable, Sublime-like editor with large log file support and built-in utilities.",
+    "beginner_friendly": false,
+    "difficulty": "medium",
+    "tags": [
+      "portable",
+      "text-editor",
+      "log-viewer",
+      "large-files",
+      "jsonl"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "readme_hash": "cb3751be66f1be516afefde3abd258023b85c2d7",
+  "generated": "2026-11-23T05:21:15.390Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": {
+    "what_it_is": "Leonida lets you build and run Grand Theft Auto VI for Xbox Series natively on Windows from your own game files. It recompiles the game code, reimplements console system software, and translates GPU shaders to Vulkan.",
+    "why_trending": "The project is only two days old and gained over 15,000 stars in one week, likely because it is a native PC port project for Grand Theft Auto VI.",
+    "who_its_for": "Developers and enthusiasts interested in running Xbox Series games on PC or working on low-level recompilation and shader translation.",
+    "beginner_friendly": false,
+    "difficulty": "hard",
+    "tags": [
+      "gta",
+      "recompilation",
+      "xbox",
+      "vulkan"
+    ]
+  }
+}
